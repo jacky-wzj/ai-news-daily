@@ -1,9 +1,9 @@
 {
   "buildCommand": "npm run generate",
   "outputDirectory": "out",
-  "framework": "static",
+  "installCommand": "npm install",
+  "devCommand": "npx serve out",
   "github": {
-    "enabled": true,
-    "autoAlias": true
+    "enabled": true
   }
 }
