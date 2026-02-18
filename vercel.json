@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run generate",
+  "outputDirectory": "out",
+  "framework": "static",
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  }
+}
