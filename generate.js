@@ -182,8 +182,25 @@ function generateMainlandChinaHTML(items) {
   `).join('');
 }
 
+// Convert screenshot paths for GitHub Pages
+function convertScreenshotPaths(data) {
+  const convertItem = (item) => {
+    if (item.screenshot && item.screenshot.startsWith('/')) {
+      item.screenshot = '/ai-news-daily' + item.screenshot;
+    }
+    return item;
+  };
+
+  if (data.corePeople) data.corePeople = data.corePeople.map(convertItem);
+  if (data.xPosts) data.xPosts = data.xPosts.map(convertItem);
+  return data;
+}
+
 // Generate full HTML page
 function generatePage(data, template) {
+  // Convert screenshot paths for GitHub Pages
+  data = convertScreenshotPaths(data);
+
   let content = '';
 
   // Core people insights

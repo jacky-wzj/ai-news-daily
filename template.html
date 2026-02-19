@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📰 AI 资讯日报 - {DATE}</title>
+    <title>📰 AI 资讯日报 - {{date}}</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; line-height: 1.6; }
@@ -43,7 +43,7 @@
 <body>
     <header>
         <h1>📰 AI 资讯日报</h1>
-        <p>{DATE} | 精选高质量 AI 资讯</p>
+        <p>{{date}} | 精选高质量 AI 资讯</p>
         <div class="nav">
             <a href="#insights">🌟 核心洞察</a>
             <a href="#newsletter">📧 Newsletter</a>
@@ -55,76 +55,69 @@
     
     <div class="container">
         <div class="stats">
-            <div class="stat"><div class="num">{INSIGHT_COUNT}</div><div class="label">核心洞察</div></div>
-            <div class="stat"><div class="num">{PAPER_COUNT}</div><div class="label">论文</div></div>
-            <div class="stat"><div class="num">{GITHUB_COUNT}</div><div class="label">开源项目</div></div>
-            <div class="stat"><div class="num">{TOOL_COUNT}</div><div class="label">新工具</div></div>
+            <div class="stat"><div class="num">{{items_core_people}}</div><div class="label">核心洞察</div></div>
+            <div class="stat"><div class="num">{{items_papers}}</div><div class="label">论文</div></div>
+            <div class="stat"><div class="num">{{items_github}}</div><div class="label">开源项目</div></div>
+            <div class="stat"><div class="num">{{items_tools}}</div><div class="label">新工具</div></div>
         </div>
 
         <section id="insights" class="section">
-            <h2>🌟🌟🌟 核心人物洞察 TOP {INSIGHT_COUNT} ⭐重点</h2>
-            {INSIGHTS_HTML}
+            <h2>🌟🌟🌟 核心人物洞察 TOP {{items_core_people}} ⭐重点</h2>
+            {{content}}
         </section>
 
         <section id="newsletter" class="section">
-            <h2>📧 深度 Newsletter 精选 TOP {NEWSLETTER_COUNT}</h2>
-            {NEWSLETTER_HTML}
+            <h2>📧 深度 Newsletter 精选 TOP {{items_newsletter}}</h2>
         </section>
 
         <section id="papers" class="section">
-            <h2>📚 Hugging Face Daily Papers TOP {PAPER_COUNT}</h2>
-            {PAPERS_HTML}
+            <h2>📚 Hugging Face Daily Papers TOP {{items_papers}}</h2>
         </section>
 
         <section id="x-posts" class="section">
-            <h2>𝕏 X AI 大V动态 TOP {X_COUNT}</h2>
-            {X_POSTS_HTML}
+            <h2>𝕏 X AI 大V动态 TOP {{items_x_posts}}</h2>
         </section>
 
         <section id="discord" class="section">
-            <h2>🏛️ Discord 社区精选 TOP {DISCORD_COUNT}</h2>
-            {DISCORD_HTML}
+            <h2>🏛️ Discord 社区精选 TOP {{items_discord}}</h2>
         </section>
 
         <section id="github" class="section">
-            <h2>💻 GitHub Trending AI 项目 TOP {GITHUB_COUNT}</h2>
-            {GITHUB_HTML}
+            <h2>💻 GitHub Trending AI 项目 TOP {{items_github}}</h2>
         </section>
 
         <section id="hn" class="section">
-            <h2>📰 Hacker News 热门讨论 TOP {HN_COUNT}</h2>
-            {HN_HTML}
+            <h2>📰 Hacker News 热门讨论 TOP {{items_hn}}</h2>
         </section>
 
         <section id="reddit" class="section">
-            <h2>🤖 Reddit AI 社区精选 TOP {REDDIT_COUNT}</h2>
-            {REDDIT_HTML}
+            <h2>🤖 Reddit AI 社区精选 TOP {{items_reddit}}</h2>
         </section>
 
         <section id="tools" class="section">
-            <h2>🛠️ AI 应用工具箱 TOP {TOOL_COUNT} ⭐NEW</h2>
-            {TOOLS_HTML}
+            <h2>🛠️ AI 应用工具箱 TOP {{items_tools}} ⭐NEW</h2>
         </section>
 
         <section id="agent" class="section">
-            <h2>🤖 Agent 热门资讯 TOP {AGENT_COUNT} ⭐</h2>
-            {AGENT_HTML}
+            <h2>🤖 Agent 热门资讯 TOP {{items_agent}} ⭐</h2>
         </section>
 
         <section id="valley" class="section">
-            <h2>🇺🇸 硅谷热点新闻 TOP {VALLEY_COUNT}</h2>
-            {VALLEY_HTML}
+            <h2>🇺🇸 硅谷热点新闻 TOP {{items_silicon_valley}}</h2>
         </section>
 
         <section id="china" class="section">
-            <h2>🇨🇳 大陆智能体动态 TOP {CHINA_COUNT}</h2>
-            {CHINA_HTML}
+            <h2>🇨🇳 大陆智能体动态 TOP {{items_mainland_china}}</h2>
+        </section>
+
+        <section id="all-content" class="section">
+            <h2>📊 共 {{total_items}} 条精选内容</h2>
+            <p>所有内容已整理完毕，点击上方导航查看各类资讯。</p>
         </section>
     </div>
 
     <footer>
-        <p>🤖 AI 资讯日报 | 每日 {TIME} 自动更新</p>
-        <p>📁 截图存档: <a class="link" href="SCREENSHOTS_LINK">查看截图</a></p>
+        <p>🤖 AI 资讯日报 | 每日 {{time}} 自动更新</p>
     </footer>
 </body>
 </html>
