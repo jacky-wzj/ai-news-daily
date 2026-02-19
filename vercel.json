@@ -1,9 +1,6 @@
 {
+  "framework": null,
   "buildCommand": "npm run generate",
   "outputDirectory": "out",
-  "installCommand": "npm install",
-  "devCommand": "npx serve out",
-  "github": {
-    "enabled": true
-  }
+  "installCommand": "npm install"
 }
