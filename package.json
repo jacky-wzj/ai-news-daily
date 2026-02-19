@@ -4,7 +4,7 @@
   "description": "AI News Daily - Static HTML Generator",
   "scripts": {
     "generate": "node generate.js",
-    "dev": "npx serve out"
+    "dev": "npx serve ."
   },
   "dependencies": {
     "serve": "^14.2.0"
