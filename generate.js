@@ -186,7 +186,7 @@ function generateMainlandChinaHTML(items) {
 function convertScreenshotPaths(data) {
   const convertItem = (item) => {
     if (item.screenshot && item.screenshot.startsWith('/')) {
-      item.screenshot = '/ai-news-daily' + item.screenshot;
+      item.screenshot = '/ai-news-daily/public' + item.screenshot;
     }
     return item;
   };
