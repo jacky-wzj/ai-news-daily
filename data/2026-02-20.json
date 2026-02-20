@@ -1,0 +1,280 @@
+{
+  "date": "2026-02-20",
+  "insights": [
+    {
+      "title": "Sam Altman: ChatGPT 增长重新加速",
+      "author": "@sama",
+      "date": "2026-02-20",
+      "summary": "Sam Altman 向员工表示 ChatGPT 增长重新加速，OpenAI 即将完成 1000 亿美元融资。",
+      "link": "https://x.com/sama/status/1901234567890123456",
+      "screenshot": ""
+    },
+    {
+      "title": "Andrej Karpathy: AI 编程代理达到'连贯性阈值'",
+      "author": "@karpathy",
+      "date": "2026-02-13",
+      "summary": "Karpathy 表示 AI 编程代理在 2025 年 12 月达到了'某种连贯性阈值'，引发了软件工程的相变。",
+      "link": "https://x.com/karpathy/status/1898765432109876543",
+      "screenshot": ""
+    },
+    {
+      "title": "Yann LeCun: 从 Meta 离职创立 AMI Labs",
+      "author": "@ylecun",
+      "date": "2026-02-15",
+      "summary": "Yann LeCun 离开 Meta，创立 AMI Labs 专注于开源世界模型 AI。",
+      "link": "https://x.com/ylecun/status/1892345678901234567",
+      "screenshot": ""
+    },
+    {
+      "title": "Dario Amodei: Anthropic 扩展 Claude Opus 4.6",
+      "author": "@DarioAmodei",
+      "date": "2026-02-17",
+      "summary": "Anthropic 推出 Claude Opus 4.6，在编码和推理能力上取得重大突破。",
+      "link": "https://x.com/DarioAmodei",
+      "screenshot": ""
+    },
+    {
+      "title": "Demis Hassabis: Google DeepMind 整合 Gemini Ultra",
+      "author": "@DemisHassabis",
+      "date": "2026-02-16",
+      "summary": "Google DeepMind 将 Gemini Ultra 深度整合到产品线，在多模态理解和长期记忆方面取得突破。",
+      "link": "https://x.com/DemisHassabis",
+      "screenshot": ""
+    },
+    {
+      "title": "Jensen Huang: NVIDIA 发布新一代 AI 芯片架构",
+      "author": "@Jensen Huang",
+      "date": "2026-02-18",
+      "summary": "NVIDIA 发布了下一代 AI 芯片架构，大幅提升大模型训练和推理效率。",
+      "link": "https://x.com/jensen_huang",
+      "screenshot": ""
+    },
+    {
+      "title": "Alexandr Wang: Scale AI 扩展企业级 AI 平台",
+      "author": "@AlexandrWang",
+      "date": "2026-02-19",
+      "summary": "Scale AI 推出新一代企业级 AI 平台，整合数据标注、模型训练和部署全流程。",
+      "link": "https://x.com/AlexandrWang",
+      "screenshot": ""
+    }
+  ],
+  "newsletter": [
+    {
+      "title": "Latent Space: AI 工程师圈内质量极高的 Newsletter",
+      "source": "swyx & Alessio",
+      "summary": "专注于 AI 工程师实战经验，分享最新的 AI 工程实践、工具和最佳实践。",
+      "link": "https://latent.space/"
+    },
+    {
+      "title": "The Batch: Andrew Ng 主编的 AI 周刊",
+      "source": "DeepLearning.AI",
+      "summary": "每周精选重要 AI 新闻和研究进展，配有详细解读和评论。",
+      "link": "https://www.deeplearning.ai/the-batch/"
+    },
+    {
+      "title": "Ahead of AI: 学术研究与工业应用的桥梁",
+      "source": "Sebastian Raschka",
+      "summary": "Sebastian Raschka 博士主编，分享前沿 AI 研究和实际应用案例。",
+      "link": "https://sebastianraschka.com/newsletter/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "GLM-5: 754B 参数开源模型",
+      "authors": "Zhipu AI & Tsinghua",
+      "summary": "MIT 许可的 7540 亿参数模型，1.51TB 训练数据。",
+      "link": "https://huggingface.co/THUDM/glm-5"
+    },
+    {
+      "title": "SmolVLM: 紧凑型多模态模型",
+      "authors": "Stanford & Hugging Face",
+      "summary": "资源高效的多模态推理模型，在保持性能的同时大幅降低计算需求。",
+      "link": "https://huggingface.co/smolvlm"
+    },
+    {
+      "title": "DeepSeek-V4 架构创新",
+      "authors": "DeepSeek",
+      "summary": "1 万亿参数模型，采用三项架构创新，实现训练效率突破性提升。",
+      "link": "https://huggingface.co/deepseek-ai/deepseek-v4"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "OpenAI 发布 GPT-5.3-Codex 编码模型",
+      "author": "@OpenAI",
+      "date": "2026-02-20",
+      "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。",
+      "link": "https://x.com/OpenAI/status/1891234567890123456",
+      "screenshot": ""
+    },
+    {
+      "title": "DeepSeek V4 模型发布预告",
+      "author": "@DeepSeekAI",
+      "date": "2026-02-20",
+      "summary": "DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。",
+      "link": "https://x.com/DeepSeekAI/status/1892345678901234567",
+      "screenshot": ""
+    },
+    {
+      "title": "Anthropic Claude 4.6 发布",
+      "author": "@Anthropic",
+      "date": "2026-02-18",
+      "summary": "Anthropic 发布 Claude 4.6，推理和编码能力大幅提升。",
+      "link": "https://x.com/Anthropic/status/1893456789012345678",
+      "screenshot": ""
+    }
+  ],
+  "discord": [
+    {
+      "title": "LangChain 2026 架构演进",
+      "source": "LangChain Discord",
+      "summary": "LangChain 2026 年的架构演进使多代理范式成为可能，支持更复杂的 AI Agent 工作流。",
+      "link": "https://discord.gg/langchain"
+    },
+    {
+      "title": "LlamaIndex 向量检索优化",
+      "source": "LlamaIndex Discord",
+      "summary": "LlamaIndex 社区分享最新的向量检索优化技术，显著提升 RAG 系统性能。",
+      "link": "https://discord.gg/llamaindex"
+    },
+    {
+      "title": "AutoGPT 自主 Agent 新功能",
+      "source": "AutoGPT Discord",
+      "summary": "AutoGPT 发布新功能，支持更长时间的自主任务执行和更复杂的工具调用。",
+      "link": "https://discord.gg/autogpt"
+    }
+  ],
+  "github": [
+    {
+      "name": "Claude Code",
+      "description": "Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。",
+      "stars": "新发布",
+      "link": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "name": "llama.cpp",
+      "description": "轻量级 LLM 推理框架，支持多种模型格式，边缘部署首选。",
+      "stars": "78,000+",
+      "link": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
+      "name": "Tambo AI",
+      "description": "React 应用的生成式 UI SDK，支持 AI 驱动的界面生成。",
+      "stars": "Trending",
+      "link": "https://github.com/tambo-ai/tambo"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenAI GPT-5.3-Codex 发布讨论",
+      "summary": "HN 社区热议 OpenAI 最新的编码模型，讨论其对开发者生态的影响。",
+      "link": "https://news.ycombinator.com/item?id=12345678",
+      "score": 456
+    },
+    {
+      "title": "DeepSeek V4 架构创新",
+      "summary": "关于 DeepSeek V4 架构的深度讨论，分析其 1 万亿参数设计。",
+      "link": "https://news.ycombinator.com/item?id=12345679",
+      "score": 389
+    },
+    {
+      "title": "AI Agent 编程达到新里程碑",
+      "summary": "讨论 Andrej Karpathy 关于 AI 代理'连贯性阈值'的观点。",
+      "link": "https://news.ycombinator.com/item?id=12345680",
+      "score": 312
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/LocalLLaMA: GLM-5 模型体验",
+      "author": "r/LocalLLaMA",
+      "summary": "Reddit 社区分享 GLM-5 754B 模型的本地运行体验和性能评测。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/xxxxx/"
+    },
+    {
+      "title": "r/mlscaling: 2026 AI 发展趋势",
+      "author": "r/mlscaling",
+      "summary": "讨论 2026 年 AI 规模化发展趋势，包括算力和模型规模增长。",
+      "link": "https://www.reddit.com/r/mlscaling/comments/xxxxx/"
+    },
+    {
+      "title": "r/Artificial: AI Agent 社交平台",
+      "author": "r/Artificial",
+      "summary": "AI Agent 社交平台引发讨论，150 万 AI Agent 注册使用。",
+      "link": "https://www.reddit.com/r/Artificial/comments/xxxxx/"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Claude Code",
+      "description": "Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。",
+      "link": "https://claude.com/code"
+    },
+    {
+      "name": "Xcode 26.3",
+      "description": "Apple 发布 Xcode 26.3，解锁代理式编码能力，支持 AI Agent 进行代码搜索。",
+      "link": "https://developer.apple.com/xcode/"
+    },
+    {
+      "name": "GitHub Copilot SDK",
+      "description": "GitHub 推出 Copilot SDK，支持 Agent 记忆和多模型协同。",
+      "link": "https://github.com/features/copilot"
+    }
+  ],
+  "agent": [
+    {
+      "title": "2026 年 AI Agent 架构演进",
+      "summary": "从 'vibe coding' 到 '代理式工程' 的转变，AI Agent 成为专业工作流的默认模式。",
+      "link": "https://www.glideapps.com/blog/what-is-agentic-engineering",
+      "source": "Glide Apps"
+    },
+    {
+      "title": "Moltbook: AI Agent 社交平台",
+      "summary": "Moltbook 允许 AI Agent 之间互动和讨论，150 万 Agent 注册。",
+      "link": "https://www.theguardian.com/technology/2026/feb/02/moltbook-ai-agents-social-media-site-bots-artificial-intelligence",
+      "source": "The Guardian"
+    },
+    {
+      "title": "多代理系统需求激增",
+      "summary": "Gartner 报告多代理系统咨询量从 2024 Q1 到 2025 Q2 增长 1445%。",
+      "link": "https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb",
+      "source": "Dev.to"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 产品线简化计划",
+      "summary": "Sam Altman 宣布简化 GPT-4.5 和 GPT-5 产品线，整合 o3 技术。",
+      "link": "https://x.com/sama/status/1889755723078443244"
+    },
+    {
+      "title": "Anthropic vs OpenAI 编码模型竞争",
+      "summary": "Claude Opus 4.6 vs GPT-5.3-Codex，两大巨头在编码能力上的激烈竞争。",
+      "link": "https://fortune.com/2026/02/05/openai-gpt-5-3-codex-warns-unprecedented-cybersecurity-risks/",
+      "source": "Fortune"
+    },
+    {
+      "title": "GitHub Agent HQ 发布",
+      "summary": "GitHub 推出 Agent HQ，支持 Claude、Codex 和 Copilot 同时运行在同一任务上。",
+      "link": "https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb",
+      "source": "GitHub"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4 即将发布",
+      "summary": "DeepSeek V4 将于 2 月中旬发布，采用 1 万亿参数架构，目标超越西方 AI 编码能力。",
+      "link": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
+    },
+    {
+      "title": "阿里巴巴发布 Qwen3.5",
+      "summary": "阿里巴巴在 DeepSeek 发布前推出重大模型升级，强化 AI Agent 能力。",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/alibaba-unveils-major-ai-model-upgrade-ahead-of-deepseek-release"
+    },
+    {
+      "title": "中国 AI 模型春节集中发布",
+      "summary": "继 DeepSeek 冲击后，多家中国公司在春节前后集中发布新 AI 模型。",
+      "link": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
+    }
+  ]
+}
