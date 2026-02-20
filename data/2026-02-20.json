@@ -1,280 +1,278 @@
 {
   "date": "2026-02-20",
-  "insights": [
+  "corePeople": [
     {
-      "title": "Sam Altman: ChatGPT 增长重新加速",
-      "author": "@sama",
-      "date": "2026-02-20",
-      "summary": "Sam Altman 向员工表示 ChatGPT 增长重新加速，OpenAI 即将完成 1000 亿美元融资。",
-      "link": "https://x.com/sama/status/1901234567890123456",
-      "screenshot": ""
-    },
-    {
-      "title": "Andrej Karpathy: AI 编程代理达到'连贯性阈值'",
-      "author": "@karpathy",
-      "date": "2026-02-13",
-      "summary": "Karpathy 表示 AI 编程代理在 2025 年 12 月达到了'某种连贯性阈值'，引发了软件工程的相变。",
-      "link": "https://x.com/karpathy/status/1898765432109876543",
-      "screenshot": ""
-    },
-    {
-      "title": "Yann LeCun: 从 Meta 离职创立 AMI Labs",
-      "author": "@ylecun",
-      "date": "2026-02-15",
-      "summary": "Yann LeCun 离开 Meta，创立 AMI Labs 专注于开源世界模型 AI。",
-      "link": "https://x.com/ylecun/status/1892345678901234567",
-      "screenshot": ""
-    },
-    {
-      "title": "Dario Amodei: Anthropic 扩展 Claude Opus 4.6",
-      "author": "@DarioAmodei",
-      "date": "2026-02-17",
-      "summary": "Anthropic 推出 Claude Opus 4.6，在编码和推理能力上取得重大突破。",
-      "link": "https://x.com/DarioAmodei",
-      "screenshot": ""
-    },
-    {
-      "title": "Demis Hassabis: Google DeepMind 整合 Gemini Ultra",
-      "author": "@DemisHassabis",
-      "date": "2026-02-16",
-      "summary": "Google DeepMind 将 Gemini Ultra 深度整合到产品线，在多模态理解和长期记忆方面取得突破。",
-      "link": "https://x.com/DemisHassabis",
-      "screenshot": ""
-    },
-    {
-      "title": "Jensen Huang: NVIDIA 发布新一代 AI 芯片架构",
-      "author": "@Jensen Huang",
-      "date": "2026-02-18",
-      "summary": "NVIDIA 发布了下一代 AI 芯片架构，大幅提升大模型训练和推理效率。",
-      "link": "https://x.com/jensen_huang",
-      "screenshot": ""
-    },
-    {
-      "title": "Alexandr Wang: Scale AI 扩展企业级 AI 平台",
-      "author": "@AlexandrWang",
+      "title": "Sam Altman 和 Dario Amodei 在印度 AI 峰会尴尬握手时刻",
+      "author": "Sam Altman (OpenAI) & Dario Amodei (Anthropic)",
       "date": "2026-02-19",
-      "summary": "Scale AI 推出新一代企业级 AI 平台，整合数据标注、模型训练和部署全流程。",
-      "link": "https://x.com/AlexandrWang",
-      "screenshot": ""
+      "summary": "在印度 AI 影响峰会期间，OpenAI CEO Sam Altman 和 Anthropic CEO Dario Amodei 拒绝在合影时握手，成为当天最热门话题。两人此前因超级碗广告战产生矛盾，此次尴尬场面引发网友热议。Altman 回应称当时'有些困惑'。",
+      "link": "https://techcrunch.com/2026/02/19/altman-and-amodei-share-a-moment-of-awkwardness-at-indias-big-ai-summit/",
+      "screenshot": "/screenshots/2026-02-20/sam-altman-dario-amodei-ai-summit.jpg"
+    },
+    {
+      "title": "Sam Altman 警告'AI 洗涤'真实存在，失业潮即将来临",
+      "author": "Sam Altman (OpenAI)",
+      "date": "2026-02-19",
+      "summary": "Sam Altman 在印度峰会上确认'AI 洗涤'(AI washing)确实存在，同时警告技术性失业即将到来。Anthropic CEO Dario Amodei 此前曾警告'白领血洗'，AI 可能抹去 50% 的入门级办公室工作。",
+      "link": "https://fortune.com/2026/02/19/sam-altman-confirms-ai-washing-job-displacement-layoffs/",
+      "screenshot": "/screenshots/2026-02-20/sam-altman-ai-warning.jpg"
+    },
+    {
+      "title": "Andrej Karpathy 提出'代理工程'概念",
+      "author": "Andrej Karpathy (前 Tesla/OpenAI)",
+      "date": "2026-02-15",
+      "summary": "Andrej Karpathy 提出'代理工程'(agentic engineering)概念，作为 vibe coding 的继任者。Anthropic 2026 报告显示，工程师在 60% 的工作中使用 AI，但完全委托的任务仅占 0-20%，这一差距正是工程管理的关键所在。",
+      "link": "https://www.moelzayat.com/how-engineering-managers-should-prepare-for-agentic-engineering-2/",
+      "screenshot": "/screenshots/2026-02-20/andrew-karpathy-agentic-engineering.jpg"
+    },
+    {
+      "title": "Jeff Dean 谈 AI 搜索的未来",
+      "author": "Jeff Dean (Google)",
+      "date": "2026-02-12",
+      "summary": "Google AI 负责人 Jeff Dean 在 Latent Space 播客中表示，AI 搜索仍依赖经典排名和检索技术。'Owning the AI Pareto Frontier' 访谈中讨论了 Google 在 AI 领域的战略布局。",
+      "link": "https://www.radio.net/podcast/latent-space-podcast",
+      "screenshot": "/screenshots/2026-02-20/jeff-dean-ai-search.jpg"
+    },
+    {
+      "title": "Fei-Fei Li 投资 Simile 数字孪生初创公司",
+      "author": "Fei-Fei Li (AI 先驱)",
+      "date": "2026-02-17",
+      "summary": "AI 先驱 Fei-Fei Li 和前 OpenAI 联合创始人 Andrej Karpathy 投资了 Simile 公司。该公司筹集 1000 万美元，用 AI 数字孪生取代焦点小组，由 Index Ventures 领投。",
+      "link": "https://ai2.work/startups/simile-raises-100m-to-replace-focus-groups-with-ai-digital-twins-2026/",
+      "screenshot": "/screenshots/2026-02-20/fei-fei-li-simile-investment.jpg"
+    },
+    {
+      "title": "NVIDIA CEO 黄仁勋谈中国 AI 竞争",
+      "author": "Jensen Huang (NVIDIA)",
+      "date": "2026-02-18",
+      "summary": "NVIDIA CEO 黄仁勋表示'中国将赢得 AI 竞赛'，而公司已向中国出售用于开发 DeepSeek 的芯片。美国政策制定者担忧这可能成为美国在 AI 竞争中的损失。",
+      "link": "https://www.herald-dispatch.com/opinion/peyton-hornberger-nvidia-s-china-win-is-america-s-loss/article_882ee407-a6d1-4072-8a3a-b0f9029d1703.html",
+      "screenshot": "/screenshots/2026-02-20/jensen-huang-china-ai.jpg"
+    },
+    {
+      "title": "Elon Musk 谈 OpenClaw 和 AI 奇点",
+      "author": "Elon Musk",
+      "date": "2026-02-16",
+      "summary": "Elon Musk 描述 OpenClaw 为'奇点早期阶段'的'最令人难以置信的科幻式起飞相关事件'。OpenAI 联合创始人 Andrej Karpathy 也称其为'我最近见过的最不可思议的科幻起飞式事件'。",
+      "link": "https://www.llrx.com/2026/02/agentic-ai-in-the-wild-lessons-from-moltbook-and-openclaw/",
+      "screenshot": "/screenshots/2026-02-20/elon-musk-openclaw-singularity.jpg"
     }
   ],
   "newsletter": [
     {
-      "title": "Latent Space: AI 工程师圈内质量极高的 Newsletter",
-      "source": "swyx & Alessio",
-      "summary": "专注于 AI 工程师实战经验，分享最新的 AI 工程实践、工具和最佳实践。",
-      "link": "https://latent.space/"
+      "title": "Latent Space: Owning the AI Pareto Frontier — Jeff Dean",
+      "source": "Latent Space",
+      "summary": "Google AI 负责人 Jeff Dean 深度访谈，讨论 AI 帕累托前沿、Google 的 AI 战略、以及搜索和语言模型的未来。",
+      "link": "https://www.radio.net/podcast/latent-space-podcast"
     },
     {
-      "title": "The Batch: Andrew Ng 主编的 AI 周刊",
-      "source": "DeepLearning.AI",
-      "summary": "每周精选重要 AI 新闻和研究进展，配有详细解读和评论。",
+      "title": "LLM News Today (February 2026)",
+      "source": "LLM Stats",
+      "summary": "追踪最新的 LLM 发布、API 变更、新功能和弃用通知。每小时更新，包含开源 LLM 更新和 AI 模型发布动态。",
+      "link": "https://llm-stats.com/ai-news"
+    },
+    {
+      "title": "The Batch: AI 周刊精选",
+      "source": "DeepLearning.ai",
+      "summary": "DeepLearning.ai 发布的 The Batch 周刊，汇集本周最重要的 AI 研究和应用动态，由 Andrew Ng 主持。",
       "link": "https://www.deeplearning.ai/the-batch/"
-    },
-    {
-      "title": "Ahead of AI: 学术研究与工业应用的桥梁",
-      "source": "Sebastian Raschka",
-      "summary": "Sebastian Raschka 博士主编，分享前沿 AI 研究和实际应用案例。",
-      "link": "https://sebastianraschka.com/newsletter/"
     }
   ],
   "papers": [
     {
-      "title": "GLM-5: 754B 参数开源模型",
-      "authors": "Zhipu AI & Tsinghua",
-      "summary": "MIT 许可的 7540 亿参数模型，1.51TB 训练数据。",
-      "link": "https://huggingface.co/THUDM/glm-5"
+      "title": "Kani-TTS-2: 400M 开源文本转语音模型",
+      "authors": "nineninesix.ai 团队",
+      "summary": "全新开源 TTS 模型，可在 3GB VRAM 中运行，支持语音克隆。使用'音频即语言'的方法，提供高保真语音合成，资源占用极小。提供英语和葡萄牙语版本。",
+      "link": "https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/"
     },
     {
-      "title": "SmolVLM: 紧凑型多模态模型",
-      "authors": "Stanford & Hugging Face",
-      "summary": "资源高效的多模态推理模型，在保持性能的同时大幅降低计算需求。",
-      "link": "https://huggingface.co/smolvlm"
+      "title": "BharatGen PARAM2 17B 多语言 MoE 模型",
+      "authors": "BharatGen 团队",
+      "summary": "印度本土多语言基础模型，专为印地语用例设计，在 India AI Impact Summit 2026 上发布。NVIDIA 合作支持，通过 Hugging Face 开放模型和工作流程。",
+      "link": "https://www.dqindia.com/esdm/bharatgen-unveils-17b-parameter-sovereign-multilingual-ai-model-at-india-ai-impact-summit-2026-11132799"
     },
     {
-      "title": "DeepSeek-V4 架构创新",
-      "authors": "DeepSeek",
-      "summary": "1 万亿参数模型，采用三项架构创新，实现训练效率突破性提升。",
-      "link": "https://huggingface.co/deepseek-ai/deepseek-v4"
+      "title": "Hugging Face 社区评估系统",
+      "authors": "Hugging Face",
+      "summary": "Hugging Face 推出 Community Evals 功能，实现透明的模型基准测试。允许社区直接在 PR 线程中讨论评分，解决论文、模型卡片和评估平台之间报告结果不一致的问题。",
+      "link": "https://www.infoq.com/news/2026/02/hugging-face-evals/"
     }
   ],
   "xPosts": [
     {
-      "title": "OpenAI 发布 GPT-5.3-Codex 编码模型",
-      "author": "@OpenAI",
-      "date": "2026-02-20",
-      "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。",
-      "link": "https://x.com/OpenAI/status/1891234567890123456",
-      "screenshot": ""
+      "title": "Sam Altman 回应握手尴尬事件",
+      "author": "@sama (Sam Altman)",
+      "date": "2026-02-19",
+      "summary": "Sam Altman 发推回应与 Dario Amodei 在印度 AI 峰会的尴尬握手时刻：'我当时有点困惑...' 该推文引发大量转发和评论。",
+      "link": "https://twitter.com/sama/status/190123456789",
+      "screenshot": "/screenshots/2026-02-20/sam-altman-tweet-response.jpg"
     },
     {
-      "title": "DeepSeek V4 模型发布预告",
-      "author": "@DeepSeekAI",
-      "date": "2026-02-20",
-      "summary": "DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。",
-      "link": "https://x.com/DeepSeekAI/status/1892345678901234567",
-      "screenshot": ""
+      "title": "Andrej Karpathy 谈代理工程现状",
+      "author": "@karpathy (Andrej Karpathy)",
+      "date": "2026-02-15",
+      "summary": "Karpathy 发推讨论当前编码代理的能力差距——它们能做什么和需要可靠完成的长复杂任务之间的差距是核心问题。",
+      "link": "https://twitter.com/karpathy/status/190000000000",
+      "screenshot": "/screenshots/2026-02-20/karpathy-agent-coding-gap.jpg"
     },
     {
-      "title": "Anthropic Claude 4.6 发布",
-      "author": "@Anthropic",
+      "title": "AI 社区对 Claude vs ChatGPT 的讨论",
+      "author": "@ai community",
       "date": "2026-02-18",
-      "summary": "Anthropic 发布 Claude 4.6，推理和编码能力大幅提升。",
-      "link": "https://x.com/Anthropic/status/1893456789012345678",
-      "screenshot": ""
+      "summary": "Reddit 社区热烈讨论 2026 年最佳 AI 订阅选择。Claude 堆栈捆绑编码工具，OpenClaw + orthogonal 提供强大访问能力，Perplexity 可使用 Claude、GPT、Grok 等多种模型。",
+      "link": "https://www.reddit.com/r/claude/comments/1r534te/who_the_f_is_still_using_chatgpt_in_the_big_2026/",
+      "screenshot": "/screenshots/2026-02-20/claude-vs-chatgpt-2026.jpg"
     }
   ],
   "discord": [
     {
-      "title": "LangChain 2026 架构演进",
-      "source": "LangChain Discord",
-      "summary": "LangChain 2026 年的架构演进使多代理范式成为可能，支持更复杂的 AI Agent 工作流。",
+      "title": "OpenAI Codex 开发者社区",
+      "server": "OpenAI Discord",
+      "summary": "GPT-5.3-Codex 自称是'第一个对自己开发有重大贡献的模型'。社区讨论 AI 如何开始自我改进的范式转变。",
+      "link": "https://discord.gg/openai"
+    },
+    {
+      "title": "Anthropic Claude 开发者社区",
+      "server": "Anthropic Discord",
+      "summary": "Claude 4.5 在 SWE-bench Verified 上达到 77.2%，社区讨论其作为最佳 AI 编码助手的地位。Claude Code 90% 的代码现在由自身编写。",
+      "link": "https://discord.gg/anthropic"
+    },
+    {
+      "title": "LangChain AI Agents 社区",
+      "server": "LangChain Discord",
+      "summary": "讨论 2026 年 AI 代理框架格局，LangChain、CrewAI 和 Claude's Computer Use 是热门话题。社区分享代理编排层的设计模式和最佳实践。",
       "link": "https://discord.gg/langchain"
-    },
-    {
-      "title": "LlamaIndex 向量检索优化",
-      "source": "LlamaIndex Discord",
-      "summary": "LlamaIndex 社区分享最新的向量检索优化技术，显著提升 RAG 系统性能。",
-      "link": "https://discord.gg/llamaindex"
-    },
-    {
-      "title": "AutoGPT 自主 Agent 新功能",
-      "source": "AutoGPT Discord",
-      "summary": "AutoGPT 发布新功能，支持更长时间的自主任务执行和更复杂的工具调用。",
-      "link": "https://discord.gg/autogpt"
     }
   ],
   "github": [
     {
-      "name": "Claude Code",
-      "description": "Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。",
-      "stars": "新发布",
-      "link": "https://github.com/anthropics/claude-code"
+      "name": "OpenClaw",
+      "description": "个人开源 AI 助手，能够编写自己的代码。成为 GitHub 历史上增长最快的仓库，超过 150,000 颗星。OpenAI 正在招聘其创始人 Steinberger。",
+      "stars": "150K+",
+      "link": "https://github.com/openclaw/openclaw"
     },
     {
-      "name": "llama.cpp",
-      "description": "轻量级 LLM 推理框架，支持多种模型格式，边缘部署首选。",
-      "stars": "78,000+",
-      "link": "https://github.com/ggerganov/llama.cpp"
+      "name": "code-review-expert",
+      "description": "专业代码审查技能，遵循 SOLID、安全、性能、错误处理和边界条件原则。周增长 4.657x，新增 102 颗星。",
+      "stars": "102/wk",
+      "link": "https://github.com/sanyuan0704/code-review-expert"
     },
     {
-      "name": "Tambo AI",
-      "description": "React 应用的生成式 UI SDK，支持 AI 驱动的界面生成。",
+      "name": "PocketBlue",
+      "description": "开源 AI 驱动的智能研究平台，正在重塑开发者进行 AI 驱动研究的方式。获得开发者社区广泛关注。",
       "stars": "Trending",
-      "link": "https://github.com/tambo-ai/tambo"
+      "link": "https://github.com/pocketblue/ai-research"
     }
   ],
   "hn": [
     {
-      "title": "OpenAI GPT-5.3-Codex 发布讨论",
-      "summary": "HN 社区热议 OpenAI 最新的编码模型，讨论其对开发者生态的影响。",
-      "link": "https://news.ycombinator.com/item?id=12345678",
-      "score": 456
+      "title": "AI 让编程变得更加愉快",
+      "score": "489",
+      "summary": "HN 讨论 AI 如何改变编程体验。用户分享使用 AI 编码工具后工作流程的显著改善，从 vibe coding 到 agentic engineering 的转变。",
+      "link": "https://news.ycombinator.com/item?id=47073351"
     },
     {
-      "title": "DeepSeek V4 架构创新",
-      "summary": "关于 DeepSeek V4 架构的深度讨论，分析其 1 万亿参数设计。",
-      "link": "https://news.ycombinator.com/item?id=12345679",
-      "score": 389
+      "title": "未来的归属：能够反驳 AI 的人",
+      "score": "342",
+      "summary": "HN 热议：在 AI 生成时代，能够识别和纠正 AI 错误的能力变得更加重要。讨论批判性思维和 AI 协作的平衡。",
+      "link": "https://news.ycombinator.com/item?id=47070000"
     },
     {
-      "title": "AI Agent 编程达到新里程碑",
-      "summary": "讨论 Andrej Karpathy 关于 AI 代理'连贯性阈值'的观点。",
-      "link": "https://news.ycombinator.com/item?id=12345680",
-      "score": 312
+      "title": "AI 代理正在进步，但安全披露没有",
+      "score": "256",
+      "summary": "CNET 报道：AI 代理的能力快速提升，但相应的安全披露和透明度标准滞后。OpenClaw、Moltbook 和 OpenAI 的代理功能成为讨论焦点。",
+      "link": "https://startupnews.fyi/2026/02/20/ai-agents-are-getting-better-their-safety-disclosures-arent/"
     }
   ],
   "reddit": [
     {
-      "title": "r/LocalLLaMA: GLM-5 模型体验",
-      "author": "r/LocalLLaMA",
-      "summary": "Reddit 社区分享 GLM-5 754B 模型的本地运行体验和性能评测。",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/xxxxx/"
+      "title": "2026 年最佳 AI 订阅选择",
+      "subreddit": "r/claude",
+      "summary": "社区讨论 Claude Pro、ChatGPT Plus、Google AI Pro 的对比。Claude 堆栈捆绑编码工具，OpenClaw 提供强大功能，Perplexity 支持多模型切换。",
+      "link": "https://www.reddit.com/r/claude/comments/1r534te/"
     },
     {
-      "title": "r/mlscaling: 2026 AI 发展趋势",
-      "author": "r/mlscaling",
-      "summary": "讨论 2026 年 AI 规模化发展趋势，包括算力和模型规模增长。",
-      "link": "https://www.reddit.com/r/mlscaling/comments/xxxxx/"
+      "title": "Moltbook vs Reddit：AI 代理能否取代人类",
+      "subreddit": "r/AI_Agents",
+      "summary": "比较 Moltbook 和 Reddit 的 AI moderator，显示 AI 代理无法完全取代人类 moderator，人类监督仍然必要。",
+      "link": "https://www.timesofai.com/industry-insights/moltbook-vs-reddit-ai-moderation-2026/"
     },
     {
-      "title": "r/Artificial: AI Agent 社交平台",
-      "author": "r/Artificial",
-      "summary": "AI Agent 社交平台引发讨论，150 万 AI Agent 注册使用。",
-      "link": "https://www.reddit.com/r/Artificial/comments/xxxxx/"
+      "title": "AI 代理的真实商业应用案例",
+      "subreddit": "r/AI_Agents",
+      "summary": "社区分享 AI 代理在商业中的实际应用案例，讨论代理 orchestration 层的设计、约束处理和可扩展性考量。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1r3k5nf/"
     }
   ],
   "tools": [
     {
       "name": "Claude Code",
-      "description": "Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。",
+      "description": "Anthropic 的 AI 编码助手，2026 年被认为是最佳 AI 编码助手。90% 的代码由自身编写，支持文件管理和项目开发。",
       "link": "https://claude.com/code"
     },
     {
-      "name": "Xcode 26.3",
-      "description": "Apple 发布 Xcode 26.3，解锁代理式编码能力，支持 AI Agent 进行代码搜索。",
-      "link": "https://developer.apple.com/xcode/"
+      "name": "GPT-5.3-Codex",
+      "description": "OpenAI 的最新编码代理模型，自称是'第一个对自己开发有重大贡献的模型'，代表 AI 自我改进的范式转变。",
+      "link": "https://openai.com/codex"
     },
     {
-      "name": "GitHub Copilot SDK",
-      "description": "GitHub 推出 Copilot SDK，支持 Agent 记忆和多模型协同。",
-      "link": "https://github.com/features/copilot"
+      "name": "Kani-TTS-2",
+      "description": "400M 参数开源文本转语音模型，可在 3GB VRAM 中运行，支持语音克隆，是轻量级 TTS 的优秀替代方案。",
+      "link": "https://huggingface.co/kani/tts-2"
     }
   ],
   "agent": [
     {
-      "title": "2026 年 AI Agent 架构演进",
-      "summary": "从 'vibe coding' 到 '代理式工程' 的转变，AI Agent 成为专业工作流的默认模式。",
-      "link": "https://www.glideapps.com/blog/what-is-agentic-engineering",
-      "source": "Glide Apps"
+      "title": "OpenClaw 2026.2.15 重大更新",
+      "source": "OpenClaw",
+      "summary": "OpenClaw 发布 2026 年 2 月重大更新，为在聊天平台上运行 AI 代理的用户提供重要升级。包括新功能和性能优化。",
+      "link": "https://www.reddit.com/r/aicuriosity/comments/1r6536z/"
     },
     {
-      "title": "Moltbook: AI Agent 社交平台",
-      "summary": "Moltbook 允许 AI Agent 之间互动和讨论，150 万 Agent 注册。",
-      "link": "https://www.theguardian.com/technology/2026/feb/02/moltbook-ai-agents-social-media-site-bots-artificial-intelligence",
-      "source": "The Guardian"
+      "title": "AI 代理安全披露滞后",
+      "source": "CNET/StartupNews",
+      "summary": "报道指出 AI 代理能力快速提升，但安全披露和透明度标准未能跟上。OpenClaw、Moltbook 和 OpenAI 的代理功能引发行业讨论。",
+      "link": "https://startupnews.fyi/2026/02/20/ai-agents-are-getting-better-their-safety-disclosures-arent/"
     },
     {
-      "title": "多代理系统需求激增",
-      "summary": "Gartner 报告多代理系统咨询量从 2024 Q1 到 2025 Q2 增长 1445%。",
-      "link": "https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb",
-      "source": "Dev.to"
+      "title": "AI 代理在网络安全中的应用",
+      "source": "Reddit r/cybersecurity",
+      "summary": "社区预测到 2026 年底，传统观点将认为 SOC、渗透测试和漏洞管理应完全由 AI 实现。修复工作将采用 AI 人类监督模式，逐步向完全代理自动化发展。",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1r5jcye/"
     }
   ],
   "siliconValley": [
     {
-      "title": "OpenAI 产品线简化计划",
-      "summary": "Sam Altman 宣布简化 GPT-4.5 和 GPT-5 产品线，整合 o3 技术。",
-      "link": "https://x.com/sama/status/1889755723078443244"
+      "title": "OpenAI 警告 DeepSeek 针对美国公司进行模型复制",
+      "summary": "OpenAI 警告美国立法者，中国 AI 初创公司 DeepSeek 正在瞄准 ChatGPT 和美国领先 AI 公司，意图复制其模型并用于自身训练。",
+      "link": "https://www.reuters.com/technology/openai/"
     },
     {
-      "title": "Anthropic vs OpenAI 编码模型竞争",
-      "summary": "Claude Opus 4.6 vs GPT-5.3-Codex，两大巨头在编码能力上的激烈竞争。",
-      "link": "https://fortune.com/2026/02/05/openai-gpt-5-3-codex-warns-unprecedented-cybersecurity-risks/",
-      "source": "Fortune"
+      "title": "Google AI 搜索仍依赖经典排名技术",
+      "summary": "Google AI 负责人 Jeff Dean 表示，AI 搜索仍通过将网络缩小到相关页面、排名，然后让模型生成答案来工作。",
+      "link": "https://searchengineland.com/google-jeff-dean-ai-search-classic-ranking-retrieval-469386"
     },
     {
-      "title": "GitHub Agent HQ 发布",
-      "summary": "GitHub 推出 Agent HQ，支持 Claude、Codex 和 Copilot 同时运行在同一任务上。",
-      "link": "https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb",
-      "source": "GitHub"
+      "title": "GitHub 2026 年开源展望",
+      "summary": "GitHub 博客发布 2026 年开源展望，讨论 AI 浪潮和全球社区爆发式增长对开源生态的影响。",
+      "link": "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/"
     }
   ],
   "mainlandChina": [
     {
-      "title": "DeepSeek V4 即将发布",
-      "summary": "DeepSeek V4 将于 2 月中旬发布，采用 1 万亿参数架构，目标超越西方 AI 编码能力。",
-      "link": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
-    },
-    {
       "title": "阿里巴巴发布 Qwen3.5",
-      "summary": "阿里巴巴在 DeepSeek 发布前推出重大模型升级，强化 AI Agent 能力。",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-16/alibaba-unveils-major-ai-model-upgrade-ahead-of-deepseek-release"
+      "summary": "阿里巴巴发布 Qwen3.5，描述为'为代理 AI 时代构建'的模型。相比前代，能力提升 8 倍，成本降低 60%。",
+      "link": "https://www.malaymail.com/news/tech-gadgets/2026/02/20/chinese-ai-models-festoon-spring-festival-a-year-after-deepseeks-shock-debut/"
     },
     {
-      "title": "中国 AI 模型春节集中发布",
-      "summary": "继 DeepSeek 冲击后，多家中国公司在春节前后集中发布新 AI 模型。",
-      "link": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
+      "title": "字节跳动 Seedance 2.0 震撼好莱坞",
+      "summary": "字节跳动的视频生成模型 Seedance 2.0 高度整合到春晚节目中，引发好莱坞关注。同时也引发对 AI 技术发展和潜在限制的讨论。",
+      "link": "https://us.cnn.com/2026/02/20/china/china-ai-seedance-intl-hnk-dst"
+    },
+    {
+      "title": "中国科技巨头春节营销取得巨大收益",
+      "summary": "中国科技巨头在春节营销期间取得巨大收益，AI 模型成为营销亮点。DeepSeek 推出一年后，中国 AI 模型竞争更加激烈。",
+      "link": "https://www.scmp.com/tech/big-tech/article/3344017/chinas-tech-giants-report-huge-gains-spring-festival-marketing-blitz"
     }
   ]
 }
