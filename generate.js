@@ -324,22 +324,60 @@ function generateIndex(pages, template) {
     })
     .join('');
 
-  let html = template
-    .replace('{{date}}', formatDate(new Date()))
-    .replace('{{content}}', `<h2>📅 历史日报</h2><div class="date-list">${pageLinks}</div>`)
-    .replace('{{total_items}}', pages.length)
-    .replace('{{items_core_people}}', '-')
-    .replace('{{items_newsletter}}', '-')
-    .replace('{{items_papers}}', '-')
-    .replace('{{items_x_posts}}', '-')
-    .replace('{{items_discord}}', '-')
-    .replace('{{items_github}}', '-')
-    .replace('{{items_hn}}', '-')
-    .replace('{{items_reddit}}', '-')
-    .replace('{{items_tools}}', '-')
-    .replace('{{items_agent}}', '-')
-    .replace('{{items_silicon_valley}}', '-')
-    .replace('{{items_mainland_china}}', '-');
+  // Generate full HTML for index page (not using template {{content}} placeholder)
+  const dateStr = formatDate(new Date());
+  const time = new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+  
+  let html = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - ${dateStr}</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 30px; }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { opacity: 0.9; }
+        .nav { display: flex; justify-content: center; gap: 15px; margin: 20px 0; flex-wrap: wrap; }
+        .nav a { padding: 10px 20px; background: white; color: #667eea; text-decoration: none; border-radius: 25px; font-weight: 500; transition: transform 0.2s; }
+        .nav a:hover { transform: scale(1.05); }
+        .section { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .section h2 { color: #667eea; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
+        .date-list { display: flex; flex-direction: column; gap: 10px; }
+        .date-link { padding: 15px 20px; background: #f8f9fa; border-radius: 8px; color: #333; text-decoration: none; transition: all 0.2s; }
+        .date-link:hover { background: #667eea; color: white; transform: translateX(5px); }
+        .stats { display: flex; justify-content: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; margin: 20px 0; }
+        .stat { text-align: center; }
+        .stat .num { font-size: 2em; font-weight: bold; color: #667eea; }
+        .stat .label { color: #888; font-size: 0.9em; }
+        footer { text-align: center; padding: 30px; color: #888; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📰 AI 资讯日报</h1>
+        <p>${dateStr} | 精选高质量 AI 资讯</p>
+    </header>
+    
+    <div class="container">
+        <div class="stats">
+            <div class="stat"><div class="num">${pages.length}</div><div class="label">已发布日报</div></div>
+        </div>
+
+        <section id="history" class="section">
+            <h2>📅 历史日报</h2>
+            <div class="date-list">${pageLinks}</div>
+        </section>
+    </div>
+
+    <footer>
+        <p>🤖 AI 资讯日报 | 每日 ${time} 自动更新</p>
+    </footer>
+</body>
+</html>`;
 
   return html;
 }
