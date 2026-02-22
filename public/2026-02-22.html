@@ -8,9 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Design Tokens */
+        /* Design Tokens - Modern OKLCH */
         :root {
-            /* Colors - Modern OKLCH */
             --primary: oklch(0.55 0.2 265);
             --primary-hover: oklch(0.45 0.22 265);
             --accent: oklch(0.65 0.18 150);
@@ -113,11 +112,12 @@
             padding: var(--space-6) var(--space-4);
         }
 
-        /* Section */
+        /* Section - 统一模块容器 */
         .section {
             margin-bottom: var(--space-8);
         }
 
+        /* Section Header - 统一模块标题 */
         .section-header {
             display: flex;
             align-items: center;
@@ -137,7 +137,7 @@
             color: var(--text);
         }
 
-        /* Card - Unified component for all items */
+        /* Card - 统一卡片组件 */
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -150,7 +150,7 @@
         .card:hover {
             box-shadow: var(--shadow-md);
             border-color: var(--primary);
-            transform: translateY(-1px);
+            transform: translateY(-2px);
         }
 
         .card h3 {
@@ -184,26 +184,29 @@
             background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
         }
 
-        /* Grid Card (for tools) */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: var(--space-3);
-        }
-
-        .card--grid {
-            margin-bottom: 0;
-        }
-
-        .card--grid h4 {
-            font-size: var(--text-base);
-            font-weight: 600;
-            color: var(--text);
-            margin-bottom: var(--space-2);
-        }
-
-        .card--grid p {
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
             font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
         }
 
         /* Footer */
@@ -237,6 +240,8 @@
         .card:nth-child(3) { animation-delay: 0.15s; }
         .card:nth-child(4) { animation-delay: 0.2s; }
         .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
 
         @media (prefers-reduced-motion: reduce) {
             .card { animation: none; }
@@ -248,8 +253,7 @@
             .header { padding: var(--space-8) var(--space-4); }
             .header h1 { font-size: var(--text-2xl); }
             .container { padding: var(--space-4) var(--space-3); }
-            .card, .card--grid { padding: var(--space-4); }
-            .grid { grid-template-columns: 1fr; }
+            .card { padding: var(--space-4); }
         }
 
         /* Print */
@@ -267,7 +271,7 @@
     <main class="container">
         
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🌟</span>
         <h2>🌟 核心人物洞察</h2>
       </div>
@@ -308,7 +312,7 @@
       <p>Scale AI 推出新一代企业级 AI 平台，整合数据标注、模型训练和部署全流程。</p>
   <a class="link" href="https://x.com/AlexandrWang" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">📧</span>
         <h2>📧 Newsletter 精选</h2>
       </div>
@@ -329,7 +333,7 @@
       <p>Sebastian Raschka 博士主编，分享前沿 AI 研究和实际应用案例。</p>
   <a class="link" href="https://sebastianraschka.com/newsletter/" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">📚</span>
         <h2>📚 Hugging Face 热门论文</h2>
       </div>
@@ -350,7 +354,7 @@
       <p>1 万亿参数模型，采用三项架构创新，实现训练效率突破性提升。</p>
   <a class="link" href="https://huggingface.co/deepseek-ai/deepseek-v4" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">𝕏</span>
         <h2>𝕏 X AI 动态</h2>
       </div>
@@ -371,7 +375,7 @@
       <p>Anthropic 发布 Claude 4.6，推理和编码能力大幅提升。</p>
   <a class="link" href="https://x.com/Anthropic/status/1893456789012345678" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">💬</span>
         <h2>💬 Discord 社区精选</h2>
       </div>
@@ -392,7 +396,7 @@
       <p>AutoGPT 发布新功能，支持更长时间的自主任务执行和更复杂的工具调用。</p>
   <a class="link" href="https://discord.gg/autogpt" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">💻</span>
         <h2>💻 GitHub Trending AI</h2>
       </div>
@@ -413,7 +417,7 @@
       <p>React 应用的生成式 UI SDK，支持 AI 驱动的界面生成。</p>
   <a class="link" href="https://github.com/tambo-ai/tambo" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ Trending Stars</p></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🔝</span>
         <h2>🔝 Hacker News 热门</h2>
       </div>
@@ -434,7 +438,7 @@
       <p>讨论 Andrej Karpathy 关于 AI 代理'连贯性阈值'的观点。</p>
   <a class="link" href="https://news.ycombinator.com/item?id=12345680" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🤖</span>
         <h2>🤖 Reddit AI 社区</h2>
       </div>
@@ -455,7 +459,7 @@
       <p>AI Agent 社交平台引发讨论，150 万 AI Agent 注册使用。</p>
   <a class="link" href="https://www.reddit.com/r/Artificial/comments/xxxxx/" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🛠️</span>
         <h2>🛠️ AI 应用工具箱</h2>
       </div>
@@ -476,7 +480,7 @@
       <p>GitHub 推出 Copilot SDK，支持 Agent 记忆和多模型协同。</p>
   <a class="link" href="https://github.com/features/copilot" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🦾</span>
         <h2>🦾 Agent 热门资讯</h2>
       </div>
@@ -497,7 +501,7 @@
       <p>Gartner 报告多代理系统咨询量从 2024 Q1 到 2025 Q2 增长 1445%。</p>
   <a class="link" href="https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🏙️</span>
         <h2>🏙️ 硅谷热点新闻</h2>
       </div>
@@ -518,7 +522,7 @@
       <p>GitHub 推出 Agent HQ，支持 Claude、Codex 和 Copilot 同时运行在同一任务上。</p>
   <a class="link" href="https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb" target="_blank">🔗 原文链接</a></div></section>
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">🇨🇳</span>
         <h2>🇨🇳 大陆智能体动态</h2>
       </div>
@@ -541,7 +545,7 @@
     </main>
 
     <footer class="footer">
-        <p>🤖 AI 资讯日报 · 每日 00:40 自动更新</p>
+        <p>🤖 AI 资讯日报 · 每日 06:48 自动更新</p>
         <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
     </footer>
 </body>

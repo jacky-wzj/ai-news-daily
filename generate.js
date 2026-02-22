@@ -16,7 +16,7 @@ function escapeHtml(text) {
     .replace(/"/g, '&quot;');
 }
 
-// Unified card generator - 所有模块使用相同样式
+// Unified card generator - 所有模块使用相同样式 .card
 function generateCard(item, index, options = {}) {
   const { title, meta, priority = false } = options;
   const titleText = item.title || item.name;
@@ -48,13 +48,13 @@ function generateCard(item, index, options = {}) {
   return html;
 }
 
-// Section generator - 统一section结构
+// Section generator - 统一使用 card 样式
 function generateSection(title, icon, items, cardGenerator) {
   if (!items || items.length === 0) return '';
   
   let html = `
     <section class="section">
-      <div class="section-title">
+      <div class="section-header">
         <span class="icon">${icon}</span>
         <h2>${title}</h2>
       </div>

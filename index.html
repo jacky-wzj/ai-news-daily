@@ -3,48 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📰 AI 资讯日报 - 2026年2月23日星期一</title>
+    <title>📰 AI 资讯日报</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
         header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 30px; }
         header h1 { font-size: 2.5em; margin-bottom: 10px; }
         header p { opacity: 0.9; }
-        .nav { display: flex; justify-content: center; gap: 15px; margin: 20px 0; flex-wrap: wrap; }
-        .nav a { padding: 10px 20px; background: white; color: #667eea; text-decoration: none; border-radius: 25px; font-weight: 500; transition: transform 0.2s; }
-        .nav a:hover { transform: scale(1.05); }
         .section { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-        .section h2 { color: #667eea; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
+        .section h2 { color: #333; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
         .date-list { display: flex; flex-direction: column; gap: 10px; }
         .date-link { padding: 15px 20px; background: #f8f9fa; border-radius: 8px; color: #333; text-decoration: none; transition: all 0.2s; }
         .date-link:hover { background: #667eea; color: white; transform: translateX(5px); }
-        .stats { display: flex; justify-content: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; margin: 20px 0; }
-        .stat { text-align: center; }
-        .stat .num { font-size: 2em; font-weight: bold; color: #667eea; }
-        .stat .label { color: #888; font-size: 0.9em; }
         footer { text-align: center; padding: 30px; color: #888; }
     </style>
 </head>
 <body>
     <header>
         <h1>📰 AI 资讯日报</h1>
-        <p>2026年2月23日星期一 | 精选高质量 AI 资讯</p>
+        <p>每日精选高质量 AI 资讯</p>
     </header>
     
     <div class="container">
-        <div class="stats">
-            <div class="stat"><div class="num">5</div><div class="label">已发布日报</div></div>
-        </div>
-
-        <section id="history" class="section">
+        <section class="section">
             <h2>📅 历史日报</h2>
-            <div class="date-list"><a href="./2026-02-22.html" class="date-link">2026年2月22日星期日</a><a href="./2026-02-21.html" class="date-link">2026年2月21日星期六</a><a href="./2026-02-20.html" class="date-link">2026年2月20日星期五</a><a href="./2026-02-19.html" class="date-link">2026年2月19日星期四</a><a href="./2026-02-18.html" class="date-link">2026年2月18日星期三</a></div>
+            <div class="date-list">{{links}}</div>
         </section>
     </div>
 
     <footer>
-        <p>🤖 AI 资讯日报 | 每日 00:30 自动更新</p>
+        <p>🤖 AI 资讯日报 | 每日自动更新</p>
     </footer>
 </body>
 </html>
