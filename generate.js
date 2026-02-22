@@ -191,7 +191,7 @@ function convertScreenshotPaths(data) {
     return item;
   };
 
-  if (data.corePeople) data.corePeople = data.corePeople.map(convertItem);
+  if (data.insights) data.insights = data.insights.map(convertItem);
   if (data.xPosts) data.xPosts = data.xPosts.map(convertItem);
   return data;
 }
@@ -204,9 +204,9 @@ function generatePage(data, template) {
   let content = '';
 
   // Core people insights
-  if (data.corePeople && data.corePeople.length > 0) {
+  if (data.insights && data.insights.length > 0) {
     content += `<h2>🌟 核心人物洞察</h2>`;
-    data.corePeople.forEach((item, i) => {
+    data.insights.forEach((item, i) => {
       content += generateItemHTML(item, i);
     });
   }
@@ -281,7 +281,7 @@ function generatePage(data, template) {
   let html = template
     .replace('{{date}}', formatDate(new Date()))
     .replace('{{content}}', content)
-    .replace('{{items_core_people}}', data.corePeople ? data.corePeople.length : 0)
+    .replace('{{items_core_people}}', data.insights ? data.insights.length : 0)
     .replace('{{items_newsletter}}', data.newsletter ? data.newsletter.length : 0)
     .replace('{{items_papers}}', data.papers ? data.papers.length : 0)
     .replace('{{items_x_posts}}', data.xPosts ? data.xPosts.length : 0)
@@ -295,7 +295,7 @@ function generatePage(data, template) {
     .replace('{{items_mainland_china}}', data.mainlandChina ? data.mainlandChina.length : 0);
 
   // Calculate total
-  const total = (data.corePeople?.length || 0) +
+  const total = (data.insights?.length || 0) +
     (data.newsletter?.length || 0) +
     (data.papers?.length || 0) +
     (data.xPosts?.length || 0) +
