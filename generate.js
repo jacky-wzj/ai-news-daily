@@ -1,185 +1,135 @@
-#!/usr/bin/env node
-
 /**
- * AI News Daily Webpage Generator
- * Generates static HTML pages for daily AI news
+ * AI News Daily Generator
+ * Generates static HTML pages from JSON data
  */
 
 const fs = require('fs');
 const path = require('path');
 
-// Configuration
-const CONFIG = {
-  templatePath: './template.html',
-  dataDir: './data',
-  screenshotsDir: './public/screenshots',
-  dateStr: new Date().toISOString().split('T')[0],
-};
-
-// Read template
-function readTemplate() {
-  return fs.readFileSync(CONFIG.templatePath, 'utf8');
+// Helper function to escape HTML
+function escapeHtml(text) {
+  if (!text) return '';
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
-// Format date for display
-function formatDate(date) {
-  return date.toLocaleDateString('zh-CN', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    weekday: 'long'
-  });
-}
-
-// Generate HTML for a single item
-function generateItemHTML(item, index) {
+// Unified card generator - 所有模块使用相同样式
+function generateCard(item, index, options = {}) {
+  const { title, meta, priority = false } = options;
+  const titleText = item.title || item.name;
+  const metaText = meta ? meta(item) : '';
+  
   let html = `
-    <div class="item priority">
-      <h3>${index + 1}. ${item.title}</h3>
-      <div class="meta">👤 ${item.author} - ${item.date}</div>
-      <p>${item.summary}</p>
+    <div class="card${priority ? ' card--priority' : ''}">
+      <h3>${index + 1}. ${escapeHtml(titleText)}</h3>
+      ${metaText ? `<div class="meta">${metaText}</div>` : ''}
+      <p>${escapeHtml(item.summary || item.description)}</p>
   `;
 
+  // Add screenshot if available
   if (item.screenshot) {
-    html += `<img class="screenshot" src="${item.screenshot}" alt="${item.title}">`;
+    html += `<img class="screenshot" src="${item.screenshot}" alt="${escapeHtml(titleText)}">`;
   }
 
+  // Add link if available
   if (item.link) {
     html += `<a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>`;
+  }
+  
+  // Add stars for GitHub
+  if (item.stars) {
+    html += `<p style="margin-top: 8px; font-size: 0.875rem;">⭐ ${item.stars} Stars</p>`;
   }
 
   html += `</div>`;
   return html;
 }
 
-// Generate HTML for newsletter items
-function generateNewsletterHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta">📰 来源: ${item.source}</div>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+// Section generator - 统一section结构
+function generateSection(title, icon, items, cardGenerator) {
+  if (!items || items.length === 0) return '';
+  
+  let html = `
+    <section class="section">
+      <div class="section-title">
+        <span class="icon">${icon}</span>
+        <h2>${title}</h2>
+      </div>
+  `;
+  
+  html += items.map((item, i) => cardGenerator(item, i)).join('');
+  html += `</section>`;
+  return html;
 }
 
-// Generate HTML for paper items
-function generatePaperHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta">👤 ${item.authors}</div>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">📄 论文链接</a>
-    </div>
-  `).join('');
+// Card generators for each category
+function generateInsightsCard(item, i) {
+  return generateCard(item, i, { 
+    priority: true,
+    meta: (item) => `👤 <span class="author">${escapeHtml(item.author)}</span> · ${item.date}`
+  });
 }
 
-// Generate HTML for GitHub items
-function generateGitHubHTML(items) {
-  return items.map((item, i) => `
-    <div class="card">
-      <h4>${i + 1}. ${item.name}</h4>
-      <p>${item.description}</p>
-      <p>⭐ ${item.stars} Stars</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 GitHub 链接</a>
-    </div>
-  `).join('');
+function generateNewsletterCard(item, i) {
+  return generateCard(item, i, {
+    meta: (item) => `📰 来源: ${escapeHtml(item.source)}`
+  });
 }
 
-// Generate HTML for X posts
-function generateXPostHTML(items) {
-  return items.map((item, i) => `
-    <div class="item priority">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta">👤 ${item.author} - ${item.date}</div>
-      <p>${item.summary}</p>
-      ${item.screenshot ? `<img class="screenshot" src="${item.screenshot}" alt="${item.title}">` : ''}
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generatePaperCard(item, i) {
+  return generateCard(item, i, {
+    meta: (item) => `👤 ${escapeHtml(item.authors)}`
+  });
 }
 
-// Generate HTML for Discord items
-function generateDiscordHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta">💬 来源: ${item.server}</div>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generateXPostCard(item, i) {
+  return generateCard(item, i, { 
+    priority: true,
+    meta: (item) => `👤 <span class="author">${escapeHtml(item.author)}</span> · ${item.date}`
+  });
 }
 
-// Generate HTML for HN items
-function generateHNHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta">⬆️ ${item.score} Points</div>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generateDiscordCard(item, i) {
+  return generateCard(item, i, {
+    meta: (item) => `💬 ${escapeHtml(item.server)}`
+  });
 }
 
-// Generate HTML for Reddit items
-function generateRedditHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta"> reddit: ${item.subreddit}</div>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generateGitHubCard(item, i) {
+  return generateCard(item, i);
 }
 
-// Generate HTML for tool items
-function generateToolHTML(items) {
-  return items.map((item, i) => `
-    <div class="card">
-      <h4>${i + 1}. ${item.name}</h4>
-      <p>${item.description}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 工具链接</a>
-    </div>
-  `).join('');
+function generateHNCard(item, i) {
+  return generateCard(item, i, {
+    meta: (item) => `⬆️ ${item.score} Points`
+  });
 }
 
-// Generate HTML for Agent items
-function generateAgentHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <div class="meta">🤖 ${item.source}</div>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generateRedditCard(item, i) {
+  return generateCard(item, i, {
+    meta: (item) => `reddit: ${escapeHtml(item.subreddit)}`
+  });
 }
 
-// Generate HTML for Silicon Valley items
-function generateSiliconValleyHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generateToolCard(item, i) {
+  return generateCard(item, i);
 }
 
-// Generate HTML for Mainland China items
-function generateMainlandChinaHTML(items) {
-  return items.map((item, i) => `
-    <div class="item">
-      <h3>${i + 1}. ${item.title}</h3>
-      <p>${item.summary}</p>
-      <a class="link" href="${item.link}" target="_blank">🔗 原文链接</a>
-    </div>
-  `).join('');
+function generateAgentCard(item, i) {
+  return generateCard(item, i, {
+    meta: (item) => `🤖 ${escapeHtml(item.source)}`
+  });
+}
+
+function generateSiliconValleyCard(item, i) {
+  return generateCard(item, i);
+}
+
+function generateMainlandChinaCard(item, i) {
+  return generateCard(item, i);
 }
 
 // Convert screenshot paths for GitHub Pages
@@ -204,78 +154,54 @@ function generatePage(data, template) {
   let content = '';
 
   // Core people insights
-  if (data.insights && data.insights.length > 0) {
-    content += `<h2>🌟 核心人物洞察</h2>`;
-    data.insights.forEach((item, i) => {
-      content += generateItemHTML(item, i);
-    });
-  }
+  content += generateSection('🌟 核心人物洞察', '🌟', data.insights, generateInsightsCard);
 
   // Newsletter
-  if (data.newsletter && data.newsletter.length > 0) {
-    content += `<h2>📧 Newsletter 精选</h2>`;
-    content += generateNewsletterHTML(data.newsletter);
-  }
+  content += generateSection('📧 Newsletter 精选', '📧', data.newsletter, generateNewsletterCard);
 
   // Papers
-  if (data.papers && data.papers.length > 0) {
-    content += `<h2>📚 Hugging Face 热门论文</h2>`;
-    content += generatePaperHTML(data.papers);
-  }
+  content += generateSection('📚 Hugging Face 热门论文', '📚', data.papers, generatePaperCard);
 
   // X posts
-  if (data.xPosts && data.xPosts.length > 0) {
-    content += `<h2>𝕏 X AI 动态</h2>`;
-    content += generateXPostHTML(data.xPosts);
-  }
+  content += generateSection('𝕏 X AI 动态', '𝕏', data.xPosts, generateXPostCard);
 
   // Discord
-  if (data.discord && data.discord.length > 0) {
-    content += `<h2>💬 Discord 社区精选</h2>`;
-    content += generateDiscordHTML(data.discord);
-  }
+  content += generateSection('💬 Discord 社区精选', '💬', data.discord, generateDiscordCard);
 
   // GitHub
-  if (data.github && data.github.length > 0) {
-    content += `<h2>💻 GitHub Trending AI</h2>`;
-    content += generateGitHubHTML(data.github);
-  }
+  content += generateSection('💻 GitHub Trending AI', '💻', data.github, generateGitHubCard);
 
   // HN
-  if (data.hn && data.hn.length > 0) {
-    content += `<h2>🔝 Hacker News 热门讨论</h2>`;
-    content += generateHNHTML(data.hn);
-  }
+  content += generateSection('🔝 Hacker News 热门', '🔝', data.hn, generateHNCard);
 
   // Reddit
-  if (data.reddit && data.reddit.length > 0) {
-    content += `<h2>🤖 Reddit AI 社区精选</h2>`;
-    content += generateRedditHTML(data.reddit);
-  }
+  content += generateSection('🤖 Reddit AI 社区', '🤖', data.reddit, generateRedditCard);
 
   // Tools
-  if (data.tools && data.tools.length > 0) {
-    content += `<h2>🛠️ AI 应用工具箱</h2>`;
-    content += `<div class="grid">${generateToolHTML(data.tools)}</div>`;
-  }
+  content += generateSection('🛠️ AI 应用工具箱', '🛠️', data.tools, generateToolCard);
 
   // Agent
-  if (data.agent && data.agent.length > 0) {
-    content += `<h2>🦾 Agent 热门资讯</h2>`;
-    content += generateAgentHTML(data.agent);
-  }
+  content += generateSection('🦾 Agent 热门资讯', '🦾', data.agent, generateAgentCard);
 
   // Silicon Valley
-  if (data.siliconValley && data.siliconValley.length > 0) {
-    content += `<h2>🏙️ 硅谷热点新闻</h2>`;
-    content += generateSiliconValleyHTML(data.siliconValley);
-  }
+  content += generateSection('🏙️ 硅谷热点新闻', '🏙️', data.siliconValley, generateSiliconValleyCard);
 
   // Mainland China
-  if (data.mainlandChina && data.mainlandChina.length > 0) {
-    content += `<h2>🇨🇳 大陆智能体动态</h2>`;
-    content += generateMainlandChinaHTML(data.mainlandChina);
-  }
+  content += generateSection('🇨🇳 大陆智能体动态', '🇨🇳', data.mainlandChina, generateMainlandChinaCard);
+
+  // Calculate total items
+  const total = (data.insights?.length || 0) +
+    (data.newsletter?.length || 0) +
+    (data.papers?.length || 0) +
+    (data.xPosts?.length || 0) +
+    (data.discord?.length || 0) +
+    (data.github?.length || 0) +
+    (data.hn?.length || 0) +
+    (data.reddit?.length || 0) +
+    (data.tools?.length || 0) +
+    (data.agent?.length || 0) +
+    (data.siliconValley?.length || 0) +
+    (data.mainlandChina?.length || 0);
 
   // Replace placeholders
   let html = template
@@ -292,131 +218,92 @@ function generatePage(data, template) {
     .replace('{{items_tools}}', data.tools ? data.tools.length : 0)
     .replace('{{items_agent}}', data.agent ? data.agent.length : 0)
     .replace('{{items_silicon_valley}}', data.siliconValley ? data.siliconValley.length : 0)
-    .replace('{{items_mainland_china}}', data.mainlandChina ? data.mainlandChina.length : 0);
-
-  // Calculate total
-  const total = (data.insights?.length || 0) +
-    (data.newsletter?.length || 0) +
-    (data.papers?.length || 0) +
-    (data.xPosts?.length || 0) +
-    (data.discord?.length || 0) +
-    (data.github?.length || 0) +
-    (data.hn?.length || 0) +
-    (data.reddit?.length || 0) +
-    (data.tools?.length || 0) +
-    (data.agent?.length || 0) +
-    (data.siliconValley?.length || 0) +
-    (data.mainlandChina?.length || 0);
-
-  html = html.replace('{{total_items}}', total);
+    .replace('{{items_mainland_china}}', data.mainlandChina ? data.mainlandChina.length : 0)
+    .replace('{{total_items}}', total)
+    .replace('{{time}}', new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }));
 
   return html;
+}
+
+// Format date
+function formatDate(date) {
+  return date.toLocaleDateString('zh-CN', { 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric',
+    weekday: 'long'
+  });
 }
 
 // Generate index page
 function generateIndex(pages, template) {
-  const pageLinks = pages
-    .sort((a, b) => b.localeCompare(a))
-    .map(date => {
-      const link = `./${date}.html`;
-      const formattedDate = formatDate(new Date(date));
-      return `<a href="${link}" class="date-link">${formattedDate}</a>`;
-    })
-    .join('');
-
-  // Generate full HTML for index page (not using template {{content}} placeholder)
-  const dateStr = formatDate(new Date());
-  const time = new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+  const sortedPages = pages.sort((a, b) => new Date(b.date) - new Date(a.date));
   
-  let html = `<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📰 AI 资讯日报 - ${dateStr}</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 30px; }
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { opacity: 0.9; }
-        .nav { display: flex; justify-content: center; gap: 15px; margin: 20px 0; flex-wrap: wrap; }
-        .nav a { padding: 10px 20px; background: white; color: #667eea; text-decoration: none; border-radius: 25px; font-weight: 500; transition: transform 0.2s; }
-        .nav a:hover { transform: scale(1.05); }
-        .section { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-        .section h2 { color: #667eea; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
-        .date-list { display: flex; flex-direction: column; gap: 10px; }
-        .date-link { padding: 15px 20px; background: #f8f9fa; border-radius: 8px; color: #333; text-decoration: none; transition: all 0.2s; }
-        .date-link:hover { background: #667eea; color: white; transform: translateX(5px); }
-        .stats { display: flex; justify-content: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; margin: 20px 0; }
-        .stat { text-align: center; }
-        .stat .num { font-size: 2em; font-weight: bold; color: #667eea; }
-        .stat .label { color: #888; font-size: 0.9em; }
-        footer { text-align: center; padding: 30px; color: #888; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>📰 AI 资讯日报</h1>
-        <p>${dateStr} | 精选高质量 AI 资讯</p>
-    </header>
-    
-    <div class="container">
-        <div class="stats">
-            <div class="stat"><div class="num">${pages.length}</div><div class="label">已发布日报</div></div>
-        </div>
+  const links = sortedPages.slice(0, 30).map(page => {
+    return `<a href="${page.filename}" class="link">${page.date}</a>`;
+  }).join(' · ');
 
-        <section id="history" class="section">
-            <h2>📅 历史日报</h2>
-            <div class="date-list">${pageLinks}</div>
-        </section>
-    </div>
-
-    <footer>
-        <p>🤖 AI 资讯日报 | 每日 ${time} 自动更新</p>
-    </footer>
-</body>
-</html>`;
-
-  return html;
+  return template
+    .replace('{{date}}', formatDate(new Date()))
+    .replace('{{links}}', links)
+    .replace('{{time}}', new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }));
 }
 
 // Main function
 function main() {
-  try {
-    console.log(`📅 Generating page for ${CONFIG.dateStr}...`);
-
-    const template = readTemplate();
-    const dataPath = path.join(CONFIG.dataDir, `${CONFIG.dateStr}.json`);
-
-    if (!fs.existsSync(dataPath)) {
-      console.log(`⚠️ No data file found for ${CONFIG.dateStr}, generating empty page...`);
-    }
-
-    const data = fs.existsSync(dataPath)
-      ? JSON.parse(fs.readFileSync(dataPath, 'utf8'))
-      : {};
-
-    // Generate daily page
-    const pageHtml = generatePage(data, template);
-    fs.writeFileSync(`${CONFIG.dateStr}.html`, pageHtml);
-    console.log(`✅ Generated: ${CONFIG.dateStr}.html`);
-
-    // Generate index
-    const pages = fs.readdirSync('.')
-      .filter(f => f.match(/^\d{4}-\d{2}-\d{2}\.html$/))
-      .map(f => f.replace('.html', ''));
-
-    const indexHtml = generateIndex(pages, template);
-    fs.writeFileSync('index.html', indexHtml);
-    console.log(`✅ Generated index.html`);
-
-    console.log(`🎉 All pages generated successfully!`);
-  } catch (error) {
-    console.error('Error generating pages:', error);
+  const dataDir = path.join(__dirname, 'data');
+  const publicDir = path.join(__dirname, 'public');
+  const templatePath = path.join(__dirname, 'template.html');
+  const indexTemplatePath = path.join(__dirname, 'index-template.html');
+  
+  // Read template
+  const template = fs.readFileSync(templatePath, 'utf-8');
+  
+  // Get today's date string
+  const today = new Date();
+  const dateStr = today.toISOString().split('T')[0];
+  const dataFile = path.join(dataDir, `${dateStr}.json`);
+  
+  console.log(`📅 Generating page for ${dateStr}...`);
+  
+  // Read data
+  if (!fs.existsSync(dataFile)) {
+    console.error(`❌ Data file not found: ${dataFile}`);
     process.exit(1);
   }
+  
+  const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+  
+  // Generate page
+  const html = generatePage(data, template);
+  
+  // Write to file
+  const outputPath = path.join(publicDir, `${dateStr}.html`);
+  fs.writeFileSync(outputPath, html);
+  console.log(`✅ Generated: ${dateStr}.html`);
+  
+  // Generate index
+  const pages = fs.readdirSync(dataDir)
+    .filter(f => f.endsWith('.json'))
+    .map(f => {
+      const d = JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf-8'));
+      return {
+        date: d.date,
+        filename: `${d.date}.html`
+      };
+    });
+  
+  // Try to read index template, fallback to main template
+  let indexTemplate = template;
+  if (fs.existsSync(indexTemplatePath)) {
+    indexTemplate = fs.readFileSync(indexTemplatePath, 'utf-8');
+  }
+  
+  const indexHtml = generateIndex(pages, indexTemplate);
+  fs.writeFileSync(path.join(publicDir, 'index.html'), indexHtml);
+  console.log(`✅ Generated: index.html`);
+  
+  console.log('🎉 All pages generated successfully!');
 }
 
 main();
