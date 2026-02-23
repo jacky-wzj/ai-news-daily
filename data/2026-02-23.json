@@ -1,10 +1,10 @@
 {
-  "date": "2026-02-22",
+  "date": "2026-02-23",
   "insights": [
     {
       "title": "Sam Altman: ChatGPT 增长重新加速",
       "author": "@sama",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "Sam Altman 向员工表示 ChatGPT 增长重新加速，OpenAI 即将完成 1000 亿美元融资。",
       "link": "https://x.com/sama",
       "screenshot": "/screenshots/insights/1-sama.png"
@@ -106,7 +106,7 @@
     {
       "title": "OpenAI 发布 GPT-5.3-Codex 编码模型",
       "author": "@OpenAI",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。",
       "link": "https://x.com/OpenAI",
       "screenshot": "/screenshots/xPosts/1-openai.png"
@@ -114,7 +114,7 @@
     {
       "title": "DeepSeek V4 模型发布预告",
       "author": "@DeepSeekAI",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。",
       "link": "https://x.com/DeepSeekAI",
       "screenshot": "/screenshots/xPosts/2-deepseek.png"
