@@ -110,20 +110,20 @@
       "title": "LangChain 2026 架构演进",
       "source": "LangChain Discord",
       "summary": "LangChain 2026 年的架构演进使多代理范式成为可能，支持更复杂的 AI Agent 工作流。",
-      "link": "https://discord.com/servers",
+      "link": "https://discord.com/invite/langchain",
       "screenshot": "/screenshots/discord/1-langchain.png"
     },
     {
       "title": "LlamaIndex 向量检索优化",
       "source": "LlamaIndex Discord",
       "summary": "LlamaIndex 社区分享最新的向量检索优化技术，显著提升 RAG 系统性能。",
-      "link": "https://discord.com/servers"
+      "link": "https://discord.com/invite/dGcwcsnxhU"
     },
     {
       "title": "AutoGPT 自主 Agent 新功能",
       "source": "AutoGPT Discord",
       "summary": "AutoGPT 发布新功能，支持更长时间的自主任务执行和更复杂的工具调用。",
-      "link": "https://discord.com/servers"
+      "link": "https://discord.com/invite/autogpt"
     }
   ],
   "github": [
