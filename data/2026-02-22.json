@@ -6,24 +6,24 @@
       "author": "@sama",
       "date": "2026-02-22",
       "summary": "Sam Altman 向员工表示 ChatGPT 增长重新加速，OpenAI 即将完成 1000 亿美元融资。",
-      "link": "https://x.com/sama/status/1901234567890123456",
-      "screenshot": ""
+      "link": "https://x.com/sama",
+      "screenshot": "/screenshots/insights/1-sama.png"
     },
     {
       "title": "Andrej Karpathy: AI 编程代理达到'连贯性阈值'",
       "author": "@karpathy",
       "date": "2026-02-15",
       "summary": "Karpathy 表示 AI 编程代理在 2025 年 12 月达到了'某种连贯性阈值'，引发了软件工程的相变。",
-      "link": "https://x.com/karpathy/status/1898765432109876543",
-      "screenshot": ""
+      "link": "https://x.com/karpathy",
+      "screenshot": "/screenshots/insights/2-karpathy.png"
     },
     {
       "title": "Yann LeCun: 从 Meta 离职创立 AMI Labs",
       "author": "@ylecun",
       "date": "2026-02-17",
       "summary": "Yann LeCun 离开 Meta，创立 AMI Labs 专注于开源世界模型 AI。",
-      "link": "https://x.com/ylecun/status/1892345678901234567",
-      "screenshot": ""
+      "link": "https://x.com/ylecun",
+      "screenshot": "/screenshots/insights/3-ylecun.png"
     },
     {
       "title": "Dario Amodei: Anthropic 扩展 Claude Opus 4.6",
@@ -31,7 +31,7 @@
       "date": "2026-02-19",
       "summary": "Anthropic 推出 Claude Opus 4.6，在编码和推理能力上取得重大突破。",
       "link": "https://x.com/DarioAmodei",
-      "screenshot": ""
+      "screenshot": "/screenshots/insights/4-dario.png"
     },
     {
       "title": "Demis Hassabis: Google DeepMind 整合 Gemini Ultra",
@@ -39,7 +39,7 @@
       "date": "2026-02-18",
       "summary": "Google DeepMind 将 Gemini Ultra 深度整合到产品线，在多模态理解和长期记忆方面取得突破。",
       "link": "https://x.com/DemisHassabis",
-      "screenshot": ""
+      "screenshot": "/screenshots/insights/5-demis.png"
     },
     {
       "title": "Jensen Huang: NVIDIA 发布新一代 AI 芯片架构",
@@ -47,7 +47,7 @@
       "date": "2026-02-20",
       "summary": "NVIDIA 发布了下一代 AI 芯片架构，大幅提升大模型训练和推理效率。",
       "link": "https://x.com/jensen_huang",
-      "screenshot": ""
+      "screenshot": "/screenshots/insights/6-jensen.png"
     },
     {
       "title": "Alexandr Wang: Scale AI 扩展企业级 AI 平台",
@@ -55,7 +55,7 @@
       "date": "2026-02-21",
       "summary": "Scale AI 推出新一代企业级 AI 平台，整合数据标注、模型训练和部署全流程。",
       "link": "https://x.com/AlexandrWang",
-      "screenshot": ""
+      "screenshot": "/screenshots/insights/7-alexandr.png"
     }
   ],
   "newsletter": [
@@ -104,24 +104,21 @@
       "author": "@OpenAI",
       "date": "2026-02-22",
       "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。",
-      "link": "https://x.com/OpenAI/status/1891234567890123456",
-      "screenshot": ""
+      "link": "https://x.com/OpenAI/status/1891234567890123456"
     },
     {
       "title": "DeepSeek V4 模型发布预告",
       "author": "@DeepSeekAI",
       "date": "2026-02-22",
       "summary": "DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。",
-      "link": "https://x.com/DeepSeekAI/status/1892345678901234567",
-      "screenshot": ""
+      "link": "https://x.com/DeepSeekAI/status/1892345678901234567"
     },
     {
       "title": "Anthropic Claude 4.6 发布",
       "author": "@Anthropic",
       "date": "2026-02-20",
       "summary": "Anthropic 发布 Claude 4.6，推理和编码能力大幅提升。",
-      "link": "https://x.com/Anthropic/status/1893456789012345678",
-      "screenshot": ""
+      "link": "https://x.com/Anthropic/status/1893456789012345678"
     }
   ],
   "discord": [
