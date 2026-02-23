@@ -143,8 +143,19 @@ function convertScreenshotPaths(data) {
     return item;
   };
 
+  // 对所有有截图的模块进行转换
   if (data.insights) data.insights = data.insights.map(convertItem);
   if (data.xPosts) data.xPosts = data.xPosts.map(convertItem);
+  if (data.github) data.github = data.github.map(convertItem);
+  if (data.discord) data.discord = data.discord.map(convertItem);
+  if (data.hn) data.hn = data.hn.map(convertItem);
+  if (data.reddit) data.reddit = data.reddit.map(convertItem);
+  if (data.tools) data.tools = data.tools.map(convertItem);
+  if (data.agent) data.agent = data.agent.map(convertItem);
+  if (data.siliconValley) data.siliconValley = data.siliconValley.map(convertItem);
+  if (data.mainlandChina) data.mainlandChina = data.mainlandChina.map(convertItem);
+  if (data.newsletter) data.newsletter = data.newsletter.map(convertItem);
+  if (data.papers) data.papers = data.papers.map(convertItem);
   return data;
 }
 
