@@ -206,6 +206,7 @@ function generatePage(data, template) {
   // Replace placeholders
   let html = template
     .replace('{{date}}', formatDate(new Date()))
+    .replace('{{date}}', formatDate(new Date())) // for body content
     .replace('{{content}}', content)
     .replace('{{items_core_people}}', data.insights ? data.insights.length : 0)
     .replace('{{items_newsletter}}', data.newsletter ? data.newsletter.length : 0)

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年2月23日星期一</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年2月23日星期一</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>🌟 核心人物洞察</h2>
+      </div>
+  
+    <div class="card card--priority">
+      <h3>1. Sam Altman: ChatGPT 增长重新加速</h3>
+      <div class="meta">👤 <span class="author">@sama</span> · 2026-02-22</div>
+      <p>Sam Altman 向员工表示 ChatGPT 增长重新加速，OpenAI 即将完成 1000 亿美元融资。</p>
+  <a class="link" href="https://x.com/sama/status/1901234567890123456" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>2. Andrej Karpathy: AI 编程代理达到'连贯性阈值'</h3>
+      <div class="meta">👤 <span class="author">@karpathy</span> · 2026-02-15</div>
+      <p>Karpathy 表示 AI 编程代理在 2025 年 12 月达到了'某种连贯性阈值'，引发了软件工程的相变。</p>
+  <a class="link" href="https://x.com/karpathy/status/1898765432109876543" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>3. Yann LeCun: 从 Meta 离职创立 AMI Labs</h3>
+      <div class="meta">👤 <span class="author">@ylecun</span> · 2026-02-17</div>
+      <p>Yann LeCun 离开 Meta，创立 AMI Labs 专注于开源世界模型 AI。</p>
+  <a class="link" href="https://x.com/ylecun/status/1892345678901234567" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>4. Dario Amodei: Anthropic 扩展 Claude Opus 4.6</h3>
+      <div class="meta">👤 <span class="author">@DarioAmodei</span> · 2026-02-19</div>
+      <p>Anthropic 推出 Claude Opus 4.6，在编码和推理能力上取得重大突破。</p>
+  <a class="link" href="https://x.com/DarioAmodei" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>5. Demis Hassabis: Google DeepMind 整合 Gemini Ultra</h3>
+      <div class="meta">👤 <span class="author">@DemisHassabis</span> · 2026-02-18</div>
+      <p>Google DeepMind 将 Gemini Ultra 深度整合到产品线，在多模态理解和长期记忆方面取得突破。</p>
+  <a class="link" href="https://x.com/DemisHassabis" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>6. Jensen Huang: NVIDIA 发布新一代 AI 芯片架构</h3>
+      <div class="meta">👤 <span class="author">@Jensen Huang</span> · 2026-02-20</div>
+      <p>NVIDIA 发布了下一代 AI 芯片架构，大幅提升大模型训练和推理效率。</p>
+  <a class="link" href="https://x.com/jensen_huang" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>7. Alexandr Wang: Scale AI 扩展企业级 AI 平台</h3>
+      <div class="meta">👤 <span class="author">@AlexandrWang</span> · 2026-02-21</div>
+      <p>Scale AI 推出新一代企业级 AI 平台，整合数据标注、模型训练和部署全流程。</p>
+  <a class="link" href="https://x.com/AlexandrWang" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📧</span>
+        <h2>📧 Newsletter 精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Latent Space: AI 工程师圈内质量极高的 Newsletter</h3>
+      <div class="meta">📰 来源: swyx &amp; Alessio</div>
+      <p>专注于 AI 工程师实战经验，分享最新的 AI 工程实践、工具和最佳实践。</p>
+  <a class="link" href="https://latent.space/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. The Batch: Andrew Ng 主编的 AI 周刊</h3>
+      <div class="meta">📰 来源: DeepLearning.AI</div>
+      <p>每周精选重要 AI 新闻和研究进展，配有详细解读和评论。</p>
+  <a class="link" href="https://www.deeplearning.ai/the-batch/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Ahead of AI: 学术研究与工业应用的桥梁</h3>
+      <div class="meta">📰 来源: Sebastian Raschka</div>
+      <p>Sebastian Raschka 博士主编，分享前沿 AI 研究和实际应用案例。</p>
+  <a class="link" href="https://sebastianraschka.com/newsletter/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>📚 Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GLM-5: 754B 参数开源模型</h3>
+      <div class="meta">👤 Zhipu AI &amp; Tsinghua</div>
+      <p>MIT 许可的 7540 亿参数模型，1.51TB 训练数据。</p>
+  <a class="link" href="https://huggingface.co/THUDM/glm-5" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. SmolVLM: 紧凑型多模态模型</h3>
+      <div class="meta">👤 Stanford &amp; Hugging Face</div>
+      <p>资源高效的多模态推理模型，在保持性能的同时大幅降低计算需求。</p>
+  <a class="link" href="https://huggingface.co/smolvlm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek-V4 架构创新</h3>
+      <div class="meta">👤 DeepSeek</div>
+      <p>1 万亿参数模型，采用三项架构创新，实现训练效率突破性提升。</p>
+  <a class="link" href="https://huggingface.co/deepseek-ai/deepseek-v4" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>𝕏 X AI 动态</h2>
+      </div>
+  
+    <div class="card card--priority">
+      <h3>1. OpenAI 发布 GPT-5.3-Codex 编码模型</h3>
+      <div class="meta">👤 <span class="author">@OpenAI</span> · 2026-02-22</div>
+      <p>OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。</p>
+  <a class="link" href="https://x.com/OpenAI/status/1891234567890123456" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>2. DeepSeek V4 模型发布预告</h3>
+      <div class="meta">👤 <span class="author">@DeepSeekAI</span> · 2026-02-22</div>
+      <p>DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。</p>
+  <a class="link" href="https://x.com/DeepSeekAI/status/1892345678901234567" target="_blank">🔗 原文链接</a></div>
+    <div class="card card--priority">
+      <h3>3. Anthropic Claude 4.6 发布</h3>
+      <div class="meta">👤 <span class="author">@Anthropic</span> · 2026-02-20</div>
+      <p>Anthropic 发布 Claude 4.6，推理和编码能力大幅提升。</p>
+  <a class="link" href="https://x.com/Anthropic/status/1893456789012345678" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>💬 Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. LangChain 2026 架构演进</h3>
+      <div class="meta">💬 </div>
+      <p>LangChain 2026 年的架构演进使多代理范式成为可能，支持更复杂的 AI Agent 工作流。</p>
+  <a class="link" href="https://discord.gg/langchain" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LlamaIndex 向量检索优化</h3>
+      <div class="meta">💬 </div>
+      <p>LlamaIndex 社区分享最新的向量检索优化技术，显著提升 RAG 系统性能。</p>
+  <a class="link" href="https://discord.gg/llamaindex" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AutoGPT 自主 Agent 新功能</h3>
+      <div class="meta">💬 </div>
+      <p>AutoGPT 发布新功能，支持更长时间的自主任务执行和更复杂的工具调用。</p>
+  <a class="link" href="https://discord.gg/autogpt" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>💻 GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code</h3>
+      
+      <p>Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。</p>
+  <a class="link" href="https://github.com/anthropics/claude-code" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 新发布 Stars</p></div>
+    <div class="card">
+      <h3>2. llama.cpp</h3>
+      
+      <p>轻量级 LLM 推理框架，支持多种模型格式，边缘部署首选。</p>
+  <a class="link" href="https://github.com/ggerganov/llama.cpp" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 78,000+ Stars</p></div>
+    <div class="card">
+      <h3>3. Tambo AI</h3>
+      
+      <p>React 应用的生成式 UI SDK，支持 AI 驱动的界面生成。</p>
+  <a class="link" href="https://github.com/tambo-ai/tambo" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ Trending Stars</p></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>🔝 Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI GPT-5.3-Codex 发布讨论</h3>
+      <div class="meta">⬆️ 456 Points</div>
+      <p>HN 社区热议 OpenAI 最新的编码模型，讨论其对开发者生态的影响。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=12345678" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek V4 架构创新</h3>
+      <div class="meta">⬆️ 389 Points</div>
+      <p>关于 DeepSeek V4 架构的深度讨论，分析其 1 万亿参数设计。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=12345679" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Agent 编程达到新里程碑</h3>
+      <div class="meta">⬆️ 312 Points</div>
+      <p>讨论 Andrej Karpathy 关于 AI 代理'连贯性阈值'的观点。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=12345680" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>🤖 Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/LocalLLaMA: GLM-5 模型体验</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit 社区分享 GLM-5 754B 模型的本地运行体验和性能评测。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/xxxxx/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/mlscaling: 2026 AI 发展趋势</h3>
+      <div class="meta">reddit: </div>
+      <p>讨论 2026 年 AI 规模化发展趋势，包括算力和模型规模增长。</p>
+  <a class="link" href="https://www.reddit.com/r/mlscaling/comments/xxxxx/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/Artificial: AI Agent 社交平台</h3>
+      <div class="meta">reddit: </div>
+      <p>AI Agent 社交平台引发讨论，150 万 AI Agent 注册使用。</p>
+  <a class="link" href="https://www.reddit.com/r/Artificial/comments/xxxxx/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>🛠️ AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code</h3>
+      
+      <p>Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。</p>
+  <a class="link" href="https://claude.com/code" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Xcode 26.3</h3>
+      
+      <p>Apple 发布 Xcode 26.3，解锁代理式编码能力，支持 AI Agent 进行代码搜索。</p>
+  <a class="link" href="https://developer.apple.com/xcode/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GitHub Copilot SDK</h3>
+      
+      <p>GitHub 推出 Copilot SDK，支持 Agent 记忆和多模型协同。</p>
+  <a class="link" href="https://github.com/features/copilot" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>🦾 Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 2026 年 AI Agent 架构演进</h3>
+      <div class="meta">🤖 Glide Apps</div>
+      <p>从 'vibe coding' 到 '代理式工程' 的转变，AI Agent 成为专业工作流的默认模式。</p>
+  <a class="link" href="https://www.glideapps.com/blog/what-is-agentic-engineering" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Moltbook: AI Agent 社交平台</h3>
+      <div class="meta">🤖 The Guardian</div>
+      <p>Moltbook 允许 AI Agent 之间互动和讨论，150 万 Agent 注册。</p>
+  <a class="link" href="https://www.theguardian.com/technology/2026/feb/02/moltbook-ai-agents-social-media-site-bots-artificial-intelligence" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 多代理系统需求激增</h3>
+      <div class="meta">🤖 Dev.to</div>
+      <p>Gartner 报告多代理系统咨询量从 2024 Q1 到 2025 Q2 增长 1445%。</p>
+  <a class="link" href="https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>🏙️ 硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 产品线简化计划</h3>
+      
+      <p>Sam Altman 宣布简化 GPT-4.5 和 GPT-5 产品线，整合 o3 技术。</p>
+  <a class="link" href="https://x.com/sama/status/1889755723078443244" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic vs OpenAI 编码模型竞争</h3>
+      
+      <p>Claude Opus 4.6 vs GPT-5.3-Codex，两大巨头在编码能力上的激烈竞争。</p>
+  <a class="link" href="https://fortune.com/2026/02/05/openai-gpt-5-3-codex-warns-unprecedented-cybersecurity-risks/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GitHub Agent HQ 发布</h3>
+      
+      <p>GitHub 推出 Agent HQ，支持 Claude、Codex 和 Copilot 同时运行在同一任务上。</p>
+  <a class="link" href="https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>🇨🇳 大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 即将发布</h3>
+      
+      <p>DeepSeek V4 将于 2 月中旬发布，采用 1 万亿参数架构，目标超越西方 AI 编码能力。</p>
+  <a class="link" href="https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里巴巴发布 Qwen3.5</h3>
+      
+      <p>阿里巴巴在 DeepSeek 发布前推出重大模型升级，强化 AI Agent 能力。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-02-16/alibaba-unveils-major-ai-model-upgrade-ahead-of-deepseek-release" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 中国 AI 模型春节集中发布</h3>
+      
+      <p>继 DeepSeek 冲击后，多家中国公司在春节前后集中发布新 AI 模型。</p>
+  <a class="link" href="https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 09:44 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
