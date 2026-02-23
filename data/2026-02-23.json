@@ -58,26 +58,6 @@
       "screenshot": "/screenshots/insights/7-alexandr.png"
     }
   ],
-  "newsletter": [
-    {
-      "title": "Latent Space: AI 工程师圈内质量极高的 Newsletter",
-      "source": "swyx & Alessio",
-      "summary": "专注于 AI 工程师实战经验，分享最新的 AI 工程实践、工具和最佳实践。",
-      "link": "https://latent.space/"
-    },
-    {
-      "title": "The Batch: Andrew Ng 主编的 AI 周刊",
-      "source": "DeepLearning.AI",
-      "summary": "每周精选重要 AI 新闻和研究进展，配有详细解读和评论。",
-      "link": "https://www.deeplearning.ai/the-batch/"
-    },
-    {
-      "title": "Ahead of AI: 学术研究与工业应用的桥梁",
-      "source": "Sebastian Raschka",
-      "summary": "Sebastian Raschka 博士主编，分享前沿 AI 研究和实际应用案例。",
-      "link": "https://sebastianraschka.com/newsletter/"
-    }
-  ],
   "papers": [
     {
       "title": "GLM-5: 754B 参数开源模型",

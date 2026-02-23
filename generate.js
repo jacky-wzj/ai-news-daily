@@ -154,8 +154,7 @@ function convertScreenshotPaths(data) {
   if (data.agent) data.agent = data.agent.map(convertItem);
   if (data.siliconValley) data.siliconValley = data.siliconValley.map(convertItem);
   if (data.mainlandChina) data.mainlandChina = data.mainlandChina.map(convertItem);
-  if (data.newsletter) data.newsletter = data.newsletter.map(convertItem);
-  if (data.papers) data.papers = data.papers.map(convertItem);
+    if (data.papers) data.papers = data.papers.map(convertItem);
   return data;
 }
 
@@ -170,8 +169,7 @@ function generatePage(data, template) {
   content += generateSection('🌟 核心人物洞察', '🌟', data.insights, generateInsightsCard);
 
   // Newsletter
-  content += generateSection('📧 Newsletter 精选', '📧', data.newsletter, generateNewsletterCard);
-
+  
   // Papers
   content += generateSection('📚 Hugging Face 热门论文', '📚', data.papers, generatePaperCard);
 
@@ -204,7 +202,6 @@ function generatePage(data, template) {
 
   // Calculate total items
   const total = (data.insights?.length || 0) +
-    (data.newsletter?.length || 0) +
     (data.papers?.length || 0) +
     (data.xPosts?.length || 0) +
     (data.discord?.length || 0) +
@@ -222,7 +219,6 @@ function generatePage(data, template) {
     .replace('{{date}}', formatDate(new Date())) // for body content
     .replace('{{content}}', content)
     .replace('{{items_core_people}}', data.insights ? data.insights.length : 0)
-    .replace('{{items_newsletter}}', data.newsletter ? data.newsletter.length : 0)
     .replace('{{items_papers}}', data.papers ? data.papers.length : 0)
     .replace('{{items_x_posts}}', data.xPosts ? data.xPosts.length : 0)
     .replace('{{items_discord}}', data.discord ? data.discord.length : 0)
