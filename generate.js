@@ -137,8 +137,8 @@ function generateMainlandChinaCard(item, i) {
 function convertScreenshotPaths(data) {
   const convertItem = (item) => {
     if (item.screenshot && item.screenshot.startsWith('/')) {
-      // GitHub Pages serves from root, so just use /screenshots/...
-      item.screenshot = item.screenshot;
+      // GitHub Pages 仓库部署，需要加 /ai-news-daily 前缀
+      item.screenshot = '/ai-news-daily' + item.screenshot;
     }
     return item;
   };
