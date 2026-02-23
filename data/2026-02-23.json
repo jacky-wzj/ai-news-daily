@@ -104,21 +104,24 @@
       "author": "@OpenAI",
       "date": "2026-02-22",
       "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。",
-      "link": "https://x.com/OpenAI/status/1891234567890123456"
+      "link": "https://x.com/OpenAI",
+      "screenshot": "/screenshots/xPosts/1-openai.png"
     },
     {
       "title": "DeepSeek V4 模型发布预告",
       "author": "@DeepSeekAI",
       "date": "2026-02-22",
       "summary": "DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。",
-      "link": "https://x.com/DeepSeekAI/status/1892345678901234567"
+      "link": "https://x.com/DeepSeekAI",
+      "screenshot": "/screenshots/xPosts/2-deepseek.png"
     },
     {
       "title": "Anthropic Claude 4.6 发布",
       "author": "@Anthropic",
       "date": "2026-02-20",
       "summary": "Anthropic 发布 Claude 4.6，推理和编码能力大幅提升。",
-      "link": "https://x.com/Anthropic/status/1893456789012345678"
+      "link": "https://x.com/Anthropic",
+      "screenshot": "/screenshots/xPosts/3-anthropic.png"
     }
   ],
   "discord": [
@@ -146,39 +149,39 @@
       "name": "Claude Code",
       "description": "Anthropic 官方 AI 编程助手，支持复杂代码库理解和修改。",
       "stars": "新发布",
-      "link": "https://github.com/anthropics/claude-code"
+      "link": "https://github.com/anthropics/claude-code",
+      "screenshot": "/screenshots/github/1-claude-code.png"
     },
     {
       "name": "llama.cpp",
       "description": "轻量级 LLM 推理框架，支持多种模型格式，边缘部署首选。",
       "stars": "78,000+",
-      "link": "https://github.com/ggerganov/llama.cpp"
+      "link": "https://github.com/ggerganov/llama.cpp",
+      "screenshot": "/screenshots/github/2-llama.png"
     },
     {
       "name": "Tambo AI",
       "description": "React 应用的生成式 UI SDK，支持 AI 驱动的界面生成。",
       "stars": "Trending",
-      "link": "https://github.com/tambo-ai/tambo"
+      "link": "https://github.com/tambo-ai/tambo",
+      "screenshot": "/screenshots/github/3-tambo.png"
     }
   ],
   "hn": [
     {
       "title": "OpenAI GPT-5.3-Codex 发布讨论",
       "summary": "HN 社区热议 OpenAI 最新的编码模型，讨论其对开发者生态的影响。",
-      "link": "https://news.ycombinator.com/item?id=12345678",
-      "score": 456
+      "link": "https://news.ycombinator.com"
     },
     {
       "title": "DeepSeek V4 架构创新",
       "summary": "关于 DeepSeek V4 架构的深度讨论，分析其 1 万亿参数设计。",
-      "link": "https://news.ycombinator.com/item?id=12345679",
-      "score": 389
+      "link": "https://news.ycombinator.com"
     },
     {
       "title": "AI Agent 编程达到新里程碑",
       "summary": "讨论 Andrej Karpathy 关于 AI 代理'连贯性阈值'的观点。",
-      "link": "https://news.ycombinator.com/item?id=12345680",
-      "score": 312
+      "link": "https://news.ycombinator.com"
     }
   ],
   "reddit": [
@@ -186,19 +189,19 @@
       "title": "r/LocalLLaMA: GLM-5 模型体验",
       "author": "r/LocalLLaMA",
       "summary": "Reddit 社区分享 GLM-5 754B 模型的本地运行体验和性能评测。",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/xxxxx/"
+      "link": "https://www.reddit.com/r/LocalLLaMA/"
     },
     {
       "title": "r/mlscaling: 2026 AI 发展趋势",
       "author": "r/mlscaling",
       "summary": "讨论 2026 年 AI 规模化发展趋势，包括算力和模型规模增长。",
-      "link": "https://www.reddit.com/r/mlscaling/comments/xxxxx/"
+      "link": "https://www.reddit.com/r/mlscaling/"
     },
     {
       "title": "r/Artificial: AI Agent 社交平台",
       "author": "r/Artificial",
       "summary": "AI Agent 社交平台引发讨论，150 万 AI Agent 注册使用。",
-      "link": "https://www.reddit.com/r/Artificial/comments/xxxxx/"
+      "link": "https://www.reddit.com/r/Artificial/"
     }
   ],
   "tools": [
@@ -242,7 +245,7 @@
     {
       "title": "OpenAI 产品线简化计划",
       "summary": "Sam Altman 宣布简化 GPT-4.5 和 GPT-5 产品线，整合 o3 技术。",
-      "link": "https://x.com/sama/status/1889755723078443244"
+      "link": "https://x.com/sama"
     },
     {
       "title": "Anthropic vs OpenAI 编码模型竞争",
@@ -253,8 +256,7 @@
     {
       "title": "GitHub Agent HQ 发布",
       "summary": "GitHub 推出 Agent HQ，支持 Claude、Codex 和 Copilot 同时运行在同一任务上。",
-      "link": "https://dev.to/jpeggdev/the-ai-revolution-in-2026-top-trends-every-developer-should-know-18eb",
-      "source": "GitHub"
+      "link": "https://github.com/features/copilot"
     }
   ],
   "mainlandChina": [
