@@ -4,7 +4,7 @@
     {
       "title": "Sam Altman: ChatGPT 增长重新加速",
       "author": "@sama",
-      "date": "2026-02-23",
+      "date": "2026-02-22",
       "summary": "Sam Altman 向员工表示 ChatGPT 增长重新加速，OpenAI 即将完成 1000 亿美元融资。",
       "link": "https://x.com/sama",
       "screenshot": "/screenshots/insights/1-sama.png"
@@ -63,22 +63,19 @@
       "title": "Latent Space: AI 工程师圈内质量极高的 Newsletter",
       "source": "swyx & Alessio",
       "summary": "专注于 AI 工程师实战经验，分享最新的 AI 工程实践、工具和最佳实践。",
-      "link": "https://latent.space/",
-      "screenshot": "/screenshots/newsletter/1-latent.png"
+      "link": "https://latent.space/"
     },
     {
       "title": "The Batch: Andrew Ng 主编的 AI 周刊",
       "source": "DeepLearning.AI",
       "summary": "每周精选重要 AI 新闻和研究进展，配有详细解读和评论。",
-      "link": "https://www.deeplearning.ai/the-batch/",
-      "screenshot": "/screenshots/newsletter/2-batch.png"
+      "link": "https://www.deeplearning.ai/the-batch/"
     },
     {
       "title": "Ahead of AI: 学术研究与工业应用的桥梁",
       "source": "Sebastian Raschka",
       "summary": "Sebastian Raschka 博士主编，分享前沿 AI 研究和实际应用案例。",
-      "link": "https://sebastianraschka.com/newsletter/",
-      "screenshot": "/screenshots/newsletter/3-ahead.png"
+      "link": "https://sebastianraschka.com/newsletter/"
     }
   ],
   "papers": [
@@ -106,7 +103,7 @@
     {
       "title": "OpenAI 发布 GPT-5.3-Codex 编码模型",
       "author": "@OpenAI",
-      "date": "2026-02-23",
+      "date": "2026-02-22",
       "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI。",
       "link": "https://x.com/OpenAI",
       "screenshot": "/screenshots/xPosts/1-openai.png"
@@ -114,7 +111,7 @@
     {
       "title": "DeepSeek V4 模型发布预告",
       "author": "@DeepSeekAI",
-      "date": "2026-02-23",
+      "date": "2026-02-22",
       "summary": "DeepSeek 宣布 V4 模型发布，支持 100 万 token 上下文窗口。",
       "link": "https://x.com/DeepSeekAI",
       "screenshot": "/screenshots/xPosts/2-deepseek.png"
