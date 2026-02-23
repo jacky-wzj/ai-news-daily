@@ -52,11 +52,14 @@ function generateCard(item, index, options = {}) {
 function generateSection(title, icon, items, cardGenerator) {
   if (!items || items.length === 0) return '';
   
+  // 从标题中移除emoji，保留纯文字
+  const titleText = title.replace(/^[^\s]+\s+/, '');
+  
   let html = `
     <section class="section">
       <div class="section-header">
         <span class="icon">${icon}</span>
-        <h2>${title}</h2>
+        <h2>${titleText}</h2>
       </div>
   `;
   
