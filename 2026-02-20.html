@@ -3,381 +3,509 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📰 AI 资讯日报 - 2026年2月20日星期五</title>
+    <title>📰 AI 资讯日报 - 2026年2月24日星期二</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 30px; }
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { opacity: 0.9; }
-        .nav { display: flex; justify-content: center; gap: 15px; margin: 20px 0; flex-wrap: wrap; }
-        .nav a { padding: 10px 20px; background: white; color: #667eea; text-decoration: none; border-radius: 25px; font-weight: 500; transition: transform 0.2s; }
-        .nav a:hover { transform: scale(1.05); }
-        .section { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-        .section h2 { color: #667eea; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
-        .item { padding: 20px 0; border-bottom: 1px solid #f0f0f0; }
-        .item:last-child { border-bottom: none; }
-        .item h3 { color: #333; margin-bottom: 10px; font-size: 1.1em; }
-        .item .meta { color: #888; font-size: 0.9em; margin-bottom: 10px; }
-        .item p { color: #555; margin-bottom: 10px; }
-        .item .tags { display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
-        .tag { padding: 4px 12px; background: #f0f0f0; border-radius: 15px; font-size: 0.85em; color: #666; }
-        .screenshot { max-width: 100%; border-radius: 8px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        .link { color: #667eea; text-decoration: none; }
-        .link:hover { text-decoration: underline; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
-        .card { background: #f8f9fa; border-radius: 8px; padding: 20px; }
-        .card h4 { color: #333; margin-bottom: 10px; }
-        .card p { color: #666; font-size: 0.9em; }
-        .stats { display: flex; justify-content: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; margin: 20px 0; }
-        .stat { text-align: center; }
-        .stat .num { font-size: 2em; font-weight: bold; color: #667eea; }
-        .stat .label { color: #888; font-size: 0.9em; }
-        footer { text-align: center; padding: 30px; color: #888; }
-        .highlight { background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%); border-left: 4px solid #ffc107; padding: 15px; margin: 15px 0; border-radius: 0 8px 8px 0; }
-        .priority { border-left: 4px solid #667eea; }
-        .code-block { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto; font-family: 'Monaco', 'Menlo', monospace; font-size: 0.9em; margin: 10px 0; }
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
     </style>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>📰 AI 资讯日报</h1>
-        <p>{{date}} | 精选高质量 AI 资讯</p>
-        <div class="nav">
-            <a href="#insights">🌟 核心洞察</a>
-            <a href="#newsletter">📧 Newsletter</a>
-            <a href="#papers">📚 论文</a>
-            <a href="#github">💻 GitHub</a>
-            <a href="#tools">🛠️ 工具</a>
-        </div>
+        <p>2026年2月24日星期二</p>
     </header>
     
-    <div class="container">
-        <div class="stats">
-            <div class="stat"><div class="num">7</div><div class="label">核心洞察</div></div>
-            <div class="stat"><div class="num">3</div><div class="label">论文</div></div>
-            <div class="stat"><div class="num">3</div><div class="label">开源项目</div></div>
-            <div class="stat"><div class="num">3</div><div class="label">新工具</div></div>
-        </div>
-
-        <section id="insights" class="section">
-            <h2>🌟🌟🌟 核心人物洞察 TOP {{items_core_people}} ⭐重点</h2>
-            <h2>🌟 核心人物洞察</h2>
-    <div class="item priority">
-      <h3>1. Sam Altman 和 Dario Amodei 在印度 AI 峰会尴尬握手时刻</h3>
-      <div class="meta">👤 Sam Altman (OpenAI) & Dario Amodei (Anthropic) - 2026-02-19</div>
-      <p>在印度 AI 影响峰会期间，OpenAI CEO Sam Altman 和 Anthropic CEO Dario Amodei 拒绝在合影时握手，成为当天最热门话题。两人此前因超级碗广告战产生矛盾，此次尴尬场面引发网友热议。Altman 回应称当时'有些困惑'。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/sam-altman-dario-amodei-ai-summit.jpg" alt="Sam Altman 和 Dario Amodei 在印度 AI 峰会尴尬握手时刻"><a class="link" href="https://techcrunch.com/2026/02/19/altman-and-amodei-share-a-moment-of-awkwardness-at-indias-big-ai-summit/" target="_blank">🔗 原文链接</a></div>
-    <div class="item priority">
-      <h3>2. Sam Altman 警告'AI 洗涤'真实存在，失业潮即将来临</h3>
-      <div class="meta">👤 Sam Altman (OpenAI) - 2026-02-19</div>
-      <p>Sam Altman 在印度峰会上确认'AI 洗涤'(AI washing)确实存在，同时警告技术性失业即将到来。Anthropic CEO Dario Amodei 此前曾警告'白领血洗'，AI 可能抹去 50% 的入门级办公室工作。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/sam-altman-ai-warning.jpg" alt="Sam Altman 警告'AI 洗涤'真实存在，失业潮即将来临"><a class="link" href="https://fortune.com/2026/02/19/sam-altman-confirms-ai-washing-job-displacement-layoffs/" target="_blank">🔗 原文链接</a></div>
-    <div class="item priority">
-      <h3>3. Andrej Karpathy 提出'代理工程'概念</h3>
-      <div class="meta">👤 Andrej Karpathy (前 Tesla/OpenAI) - 2026-02-15</div>
-      <p>Andrej Karpathy 提出'代理工程'(agentic engineering)概念，作为 vibe coding 的继任者。Anthropic 2026 报告显示，工程师在 60% 的工作中使用 AI，但完全委托的任务仅占 0-20%，这一差距正是工程管理的关键所在。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/andrew-karpathy-agentic-engineering.jpg" alt="Andrej Karpathy 提出'代理工程'概念"><a class="link" href="https://www.moelzayat.com/how-engineering-managers-should-prepare-for-agentic-engineering-2/" target="_blank">🔗 原文链接</a></div>
-    <div class="item priority">
-      <h3>4. Jeff Dean 谈 AI 搜索的未来</h3>
-      <div class="meta">👤 Jeff Dean (Google) - 2026-02-12</div>
-      <p>Google AI 负责人 Jeff Dean 在 Latent Space 播客中表示，AI 搜索仍依赖经典排名和检索技术。'Owning the AI Pareto Frontier' 访谈中讨论了 Google 在 AI 领域的战略布局。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/jeff-dean-ai-search.jpg" alt="Jeff Dean 谈 AI 搜索的未来"><a class="link" href="https://www.radio.net/podcast/latent-space-podcast" target="_blank">🔗 原文链接</a></div>
-    <div class="item priority">
-      <h3>5. Fei-Fei Li 投资 Simile 数字孪生初创公司</h3>
-      <div class="meta">👤 Fei-Fei Li (AI 先驱) - 2026-02-17</div>
-      <p>AI 先驱 Fei-Fei Li 和前 OpenAI 联合创始人 Andrej Karpathy 投资了 Simile 公司。该公司筹集 1000 万美元，用 AI 数字孪生取代焦点小组，由 Index Ventures 领投。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/fei-fei-li-simile-investment.jpg" alt="Fei-Fei Li 投资 Simile 数字孪生初创公司"><a class="link" href="https://ai2.work/startups/simile-raises-100m-to-replace-focus-groups-with-ai-digital-twins-2026/" target="_blank">🔗 原文链接</a></div>
-    <div class="item priority">
-      <h3>6. NVIDIA CEO 黄仁勋谈中国 AI 竞争</h3>
-      <div class="meta">👤 Jensen Huang (NVIDIA) - 2026-02-18</div>
-      <p>NVIDIA CEO 黄仁勋表示'中国将赢得 AI 竞赛'，而公司已向中国出售用于开发 DeepSeek 的芯片。美国政策制定者担忧这可能成为美国在 AI 竞争中的损失。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/jensen-huang-china-ai.jpg" alt="NVIDIA CEO 黄仁勋谈中国 AI 竞争"><a class="link" href="https://www.herald-dispatch.com/opinion/peyton-hornberger-nvidia-s-china-win-is-america-s-loss/article_882ee407-a6d1-4072-8a3a-b0f9029d1703.html" target="_blank">🔗 原文链接</a></div>
-    <div class="item priority">
-      <h3>7. Elon Musk 谈 OpenClaw 和 AI 奇点</h3>
-      <div class="meta">👤 Elon Musk - 2026-02-16</div>
-      <p>Elon Musk 描述 OpenClaw 为'奇点早期阶段'的'最令人难以置信的科幻式起飞相关事件'。OpenAI 联合创始人 Andrej Karpathy 也称其为'我最近见过的最不可思议的科幻起飞式事件'。</p>
-  <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/elon-musk-openclaw-singularity.jpg" alt="Elon Musk 谈 OpenClaw 和 AI 奇点"><a class="link" href="https://www.llrx.com/2026/02/agentic-ai-in-the-wild-lessons-from-moltbook-and-openclaw/" target="_blank">🔗 原文链接</a></div><h2>📧 Newsletter 精选</h2>
-    <div class="item">
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📧</span>
+        <h2>Newsletter 精选</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. Latent Space: Owning the AI Pareto Frontier — Jeff Dean</h3>
       <div class="meta">📰 来源: Latent Space</div>
       <p>Google AI 负责人 Jeff Dean 深度访谈，讨论 AI 帕累托前沿、Google 的 AI 战略、以及搜索和语言模型的未来。</p>
-      <a class="link" href="https://www.radio.net/podcast/latent-space-podcast" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.radio.net/podcast/latent-space-podcast" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. LLM News Today (February 2026)</h3>
       <div class="meta">📰 来源: LLM Stats</div>
       <p>追踪最新的 LLM 发布、API 变更、新功能和弃用通知。每小时更新，包含开源 LLM 更新和 AI 模型发布动态。</p>
-      <a class="link" href="https://llm-stats.com/ai-news" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://llm-stats.com/ai-news" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. The Batch: AI 周刊精选</h3>
       <div class="meta">📰 来源: DeepLearning.ai</div>
       <p>DeepLearning.ai 发布的 The Batch 周刊，汇集本周最重要的 AI 研究和应用动态，由 Andrew Ng 主持。</p>
-      <a class="link" href="https://www.deeplearning.ai/the-batch/" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>📚 Hugging Face 热门论文</h2>
-    <div class="item">
+  <a class="link" href="https://www.deeplearning.ai/the-batch/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. Kani-TTS-2: 400M 开源文本转语音模型</h3>
       <div class="meta">👤 nineninesix.ai 团队</div>
       <p>全新开源 TTS 模型，可在 3GB VRAM 中运行，支持语音克隆。使用'音频即语言'的方法，提供高保真语音合成，资源占用极小。提供英语和葡萄牙语版本。</p>
-      <a class="link" href="https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/" target="_blank">📄 论文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. BharatGen PARAM2 17B 多语言 MoE 模型</h3>
       <div class="meta">👤 BharatGen 团队</div>
       <p>印度本土多语言基础模型，专为印地语用例设计，在 India AI Impact Summit 2026 上发布。NVIDIA 合作支持，通过 Hugging Face 开放模型和工作流程。</p>
-      <a class="link" href="https://www.dqindia.com/esdm/bharatgen-unveils-17b-parameter-sovereign-multilingual-ai-model-at-india-ai-impact-summit-2026-11132799" target="_blank">📄 论文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.dqindia.com/esdm/bharatgen-unveils-17b-parameter-sovereign-multilingual-ai-model-at-india-ai-impact-summit-2026-11132799" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. Hugging Face 社区评估系统</h3>
       <div class="meta">👤 Hugging Face</div>
       <p>Hugging Face 推出 Community Evals 功能，实现透明的模型基准测试。允许社区直接在 PR 线程中讨论评分，解决论文、模型卡片和评估平台之间报告结果不一致的问题。</p>
-      <a class="link" href="https://www.infoq.com/news/2026/02/hugging-face-evals/" target="_blank">📄 论文链接</a>
-    </div>
-  <h2>𝕏 X AI 动态</h2>
-    <div class="item priority">
+  <a class="link" href="https://www.infoq.com/news/2026/02/hugging-face-evals/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. Sam Altman 回应握手尴尬事件</h3>
-      <div class="meta">👤 @sama (Sam Altman) - 2026-02-19</div>
+      <div class="meta">👤 <span class="author">@sama (Sam Altman)</span> · 2026-02-19</div>
       <p>Sam Altman 发推回应与 Dario Amodei 在印度 AI 峰会的尴尬握手时刻：'我当时有点困惑...' 该推文引发大量转发和评论。</p>
-      <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/sam-altman-tweet-response.jpg" alt="Sam Altman 回应握手尴尬事件">
-      <a class="link" href="https://twitter.com/sama/status/190123456789" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item priority">
+  <img class="screenshot" src="/ai-news-daily/screenshots/2026-02-20/sam-altman-tweet-response.jpg" alt="Sam Altman 回应握手尴尬事件"><a class="link" href="https://twitter.com/sama/status/190123456789" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. Andrej Karpathy 谈代理工程现状</h3>
-      <div class="meta">👤 @karpathy (Andrej Karpathy) - 2026-02-15</div>
+      <div class="meta">👤 <span class="author">@karpathy (Andrej Karpathy)</span> · 2026-02-15</div>
       <p>Karpathy 发推讨论当前编码代理的能力差距——它们能做什么和需要可靠完成的长复杂任务之间的差距是核心问题。</p>
-      <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/karpathy-agent-coding-gap.jpg" alt="Andrej Karpathy 谈代理工程现状">
-      <a class="link" href="https://twitter.com/karpathy/status/190000000000" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item priority">
+  <img class="screenshot" src="/ai-news-daily/screenshots/2026-02-20/karpathy-agent-coding-gap.jpg" alt="Andrej Karpathy 谈代理工程现状"><a class="link" href="https://twitter.com/karpathy/status/190000000000" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. AI 社区对 Claude vs ChatGPT 的讨论</h3>
-      <div class="meta">👤 @ai community - 2026-02-18</div>
+      <div class="meta">👤 <span class="author">@ai community</span> · 2026-02-18</div>
       <p>Reddit 社区热烈讨论 2026 年最佳 AI 订阅选择。Claude 堆栈捆绑编码工具，OpenClaw + orthogonal 提供强大访问能力，Perplexity 可使用 Claude、GPT、Grok 等多种模型。</p>
-      <img class="screenshot" src="/ai-news-daily/public/screenshots/2026-02-20/claude-vs-chatgpt-2026.jpg" alt="AI 社区对 Claude vs ChatGPT 的讨论">
-      <a class="link" href="https://www.reddit.com/r/claude/comments/1r534te/who_the_f_is_still_using_chatgpt_in_the_big_2026/" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>💬 Discord 社区精选</h2>
-    <div class="item">
+  <img class="screenshot" src="/ai-news-daily/screenshots/2026-02-20/claude-vs-chatgpt-2026.jpg" alt="AI 社区对 Claude vs ChatGPT 的讨论"><a class="link" href="https://www.reddit.com/r/claude/comments/1r534te/who_the_f_is_still_using_chatgpt_in_the_big_2026/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. OpenAI Codex 开发者社区</h3>
-      <div class="meta">💬 来源: OpenAI Discord</div>
+      <div class="meta">💬 OpenAI Discord</div>
       <p>GPT-5.3-Codex 自称是'第一个对自己开发有重大贡献的模型'。社区讨论 AI 如何开始自我改进的范式转变。</p>
-      <a class="link" href="https://discord.gg/openai" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://discord.gg/openai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. Anthropic Claude 开发者社区</h3>
-      <div class="meta">💬 来源: Anthropic Discord</div>
+      <div class="meta">💬 Anthropic Discord</div>
       <p>Claude 4.5 在 SWE-bench Verified 上达到 77.2%，社区讨论其作为最佳 AI 编码助手的地位。Claude Code 90% 的代码现在由自身编写。</p>
-      <a class="link" href="https://discord.gg/anthropic" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://discord.gg/anthropic" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. LangChain AI Agents 社区</h3>
-      <div class="meta">💬 来源: LangChain Discord</div>
+      <div class="meta">💬 LangChain Discord</div>
       <p>讨论 2026 年 AI 代理框架格局，LangChain、CrewAI 和 Claude's Computer Use 是热门话题。社区分享代理编排层的设计模式和最佳实践。</p>
-      <a class="link" href="https://discord.gg/langchain" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>💻 GitHub Trending AI</h2>
+  <a class="link" href="https://discord.gg/langchain" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
     <div class="card">
-      <h4>1. OpenClaw</h4>
+      <h3>1. OpenClaw</h3>
+      
       <p>个人开源 AI 助手，能够编写自己的代码。成为 GitHub 历史上增长最快的仓库，超过 150,000 颗星。OpenAI 正在招聘其创始人 Steinberger。</p>
-      <p>⭐ 150K+ Stars</p>
-      <a class="link" href="https://github.com/openclaw/openclaw" target="_blank">🔗 GitHub 链接</a>
-    </div>
-  
+  <a class="link" href="https://github.com/openclaw/openclaw" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 150K+ Stars</p></div>
     <div class="card">
-      <h4>2. code-review-expert</h4>
+      <h3>2. code-review-expert</h3>
+      
       <p>专业代码审查技能，遵循 SOLID、安全、性能、错误处理和边界条件原则。周增长 4.657x，新增 102 颗星。</p>
-      <p>⭐ 102/wk Stars</p>
-      <a class="link" href="https://github.com/sanyuan0704/code-review-expert" target="_blank">🔗 GitHub 链接</a>
-    </div>
+  <a class="link" href="https://github.com/sanyuan0704/code-review-expert" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 102/wk Stars</p></div>
+    <div class="card">
+      <h3>3. PocketBlue</h3>
+      
+      <p>开源 AI 驱动的智能研究平台，正在重塑开发者进行 AI 驱动研究的方式。获得开发者社区广泛关注。</p>
+  <a class="link" href="https://github.com/pocketblue/ai-research" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ Trending Stars</p></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
   
     <div class="card">
-      <h4>3. PocketBlue</h4>
-      <p>开源 AI 驱动的智能研究平台，正在重塑开发者进行 AI 驱动研究的方式。获得开发者社区广泛关注。</p>
-      <p>⭐ Trending Stars</p>
-      <a class="link" href="https://github.com/pocketblue/ai-research" target="_blank">🔗 GitHub 链接</a>
-    </div>
-  <h2>🔝 Hacker News 热门讨论</h2>
-    <div class="item">
       <h3>1. AI 让编程变得更加愉快</h3>
       <div class="meta">⬆️ 489 Points</div>
       <p>HN 讨论 AI 如何改变编程体验。用户分享使用 AI 编码工具后工作流程的显著改善，从 vibe coding 到 agentic engineering 的转变。</p>
-      <a class="link" href="https://news.ycombinator.com/item?id=47073351" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://news.ycombinator.com/item?id=47073351" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. 未来的归属：能够反驳 AI 的人</h3>
       <div class="meta">⬆️ 342 Points</div>
       <p>HN 热议：在 AI 生成时代，能够识别和纠正 AI 错误的能力变得更加重要。讨论批判性思维和 AI 协作的平衡。</p>
-      <a class="link" href="https://news.ycombinator.com/item?id=47070000" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://news.ycombinator.com/item?id=47070000" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. AI 代理正在进步，但安全披露没有</h3>
       <div class="meta">⬆️ 256 Points</div>
       <p>CNET 报道：AI 代理的能力快速提升，但相应的安全披露和透明度标准滞后。OpenClaw、Moltbook 和 OpenAI 的代理功能成为讨论焦点。</p>
-      <a class="link" href="https://startupnews.fyi/2026/02/20/ai-agents-are-getting-better-their-safety-disclosures-arent/" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>🤖 Reddit AI 社区精选</h2>
-    <div class="item">
+  <a class="link" href="https://startupnews.fyi/2026/02/20/ai-agents-are-getting-better-their-safety-disclosures-arent/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. 2026 年最佳 AI 订阅选择</h3>
-      <div class="meta"> reddit: r/claude</div>
+      <div class="meta">reddit: r/claude</div>
       <p>社区讨论 Claude Pro、ChatGPT Plus、Google AI Pro 的对比。Claude 堆栈捆绑编码工具，OpenClaw 提供强大功能，Perplexity 支持多模型切换。</p>
-      <a class="link" href="https://www.reddit.com/r/claude/comments/1r534te/" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.reddit.com/r/claude/comments/1r534te/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. Moltbook vs Reddit：AI 代理能否取代人类</h3>
-      <div class="meta"> reddit: r/AI_Agents</div>
+      <div class="meta">reddit: r/AI_Agents</div>
       <p>比较 Moltbook 和 Reddit 的 AI moderator，显示 AI 代理无法完全取代人类 moderator，人类监督仍然必要。</p>
-      <a class="link" href="https://www.timesofai.com/industry-insights/moltbook-vs-reddit-ai-moderation-2026/" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.timesofai.com/industry-insights/moltbook-vs-reddit-ai-moderation-2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. AI 代理的真实商业应用案例</h3>
-      <div class="meta"> reddit: r/AI_Agents</div>
+      <div class="meta">reddit: r/AI_Agents</div>
       <p>社区分享 AI 代理在商业中的实际应用案例，讨论代理 orchestration 层的设计、约束处理和可扩展性考量。</p>
-      <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1r3k5nf/" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>🛠️ AI 应用工具箱</h2><div class="grid">
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1r3k5nf/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
     <div class="card">
-      <h4>1. Claude Code</h4>
+      <h3>1. Claude Code</h3>
+      
       <p>Anthropic 的 AI 编码助手，2026 年被认为是最佳 AI 编码助手。90% 的代码由自身编写，支持文件管理和项目开发。</p>
-      <a class="link" href="https://claude.com/code" target="_blank">🔗 工具链接</a>
-    </div>
-  
+  <a class="link" href="https://claude.com/code" target="_blank">🔗 原文链接</a></div>
     <div class="card">
-      <h4>2. GPT-5.3-Codex</h4>
+      <h3>2. GPT-5.3-Codex</h3>
+      
       <p>OpenAI 的最新编码代理模型，自称是'第一个对自己开发有重大贡献的模型'，代表 AI 自我改进的范式转变。</p>
-      <a class="link" href="https://openai.com/codex" target="_blank">🔗 工具链接</a>
-    </div>
+  <a class="link" href="https://openai.com/codex" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Kani-TTS-2</h3>
+      
+      <p>400M 参数开源文本转语音模型，可在 3GB VRAM 中运行，支持语音克隆，是轻量级 TTS 的优秀替代方案。</p>
+  <a class="link" href="https://huggingface.co/kani/tts-2" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
   
     <div class="card">
-      <h4>3. Kani-TTS-2</h4>
-      <p>400M 参数开源文本转语音模型，可在 3GB VRAM 中运行，支持语音克隆，是轻量级 TTS 的优秀替代方案。</p>
-      <a class="link" href="https://huggingface.co/kani/tts-2" target="_blank">🔗 工具链接</a>
-    </div>
-  </div><h2>🦾 Agent 热门资讯</h2>
-    <div class="item">
       <h3>1. OpenClaw 2026.2.15 重大更新</h3>
       <div class="meta">🤖 OpenClaw</div>
       <p>OpenClaw 发布 2026 年 2 月重大更新，为在聊天平台上运行 AI 代理的用户提供重要升级。包括新功能和性能优化。</p>
-      <a class="link" href="https://www.reddit.com/r/aicuriosity/comments/1r6536z/" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.reddit.com/r/aicuriosity/comments/1r6536z/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. AI 代理安全披露滞后</h3>
       <div class="meta">🤖 CNET/StartupNews</div>
       <p>报道指出 AI 代理能力快速提升，但安全披露和透明度标准未能跟上。OpenClaw、Moltbook 和 OpenAI 的代理功能引发行业讨论。</p>
-      <a class="link" href="https://startupnews.fyi/2026/02/20/ai-agents-are-getting-better-their-safety-disclosures-arent/" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://startupnews.fyi/2026/02/20/ai-agents-are-getting-better-their-safety-disclosures-arent/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. AI 代理在网络安全中的应用</h3>
       <div class="meta">🤖 Reddit r/cybersecurity</div>
       <p>社区预测到 2026 年底，传统观点将认为 SOC、渗透测试和漏洞管理应完全由 AI 实现。修复工作将采用 AI 人类监督模式，逐步向完全代理自动化发展。</p>
-      <a class="link" href="https://www.reddit.com/r/cybersecurity/comments/1r5jcye/" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>🏙️ 硅谷热点新闻</h2>
-    <div class="item">
+  <a class="link" href="https://www.reddit.com/r/cybersecurity/comments/1r5jcye/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. OpenAI 警告 DeepSeek 针对美国公司进行模型复制</h3>
+      
       <p>OpenAI 警告美国立法者，中国 AI 初创公司 DeepSeek 正在瞄准 ChatGPT 和美国领先 AI 公司，意图复制其模型并用于自身训练。</p>
-      <a class="link" href="https://www.reuters.com/technology/openai/" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.reuters.com/technology/openai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. Google AI 搜索仍依赖经典排名技术</h3>
+      
       <p>Google AI 负责人 Jeff Dean 表示，AI 搜索仍通过将网络缩小到相关页面、排名，然后让模型生成答案来工作。</p>
-      <a class="link" href="https://searchengineland.com/google-jeff-dean-ai-search-classic-ranking-retrieval-469386" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://searchengineland.com/google-jeff-dean-ai-search-classic-ranking-retrieval-469386" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. GitHub 2026 年开源展望</h3>
+      
       <p>GitHub 博客发布 2026 年开源展望，讨论 AI 浪潮和全球社区爆发式增长对开源生态的影响。</p>
-      <a class="link" href="https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/" target="_blank">🔗 原文链接</a>
-    </div>
-  <h2>🇨🇳 大陆智能体动态</h2>
-    <div class="item">
+  <a class="link" href="https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
       <h3>1. 阿里巴巴发布 Qwen3.5</h3>
+      
       <p>阿里巴巴发布 Qwen3.5，描述为'为代理 AI 时代构建'的模型。相比前代，能力提升 8 倍，成本降低 60%。</p>
-      <a class="link" href="https://www.malaymail.com/news/tech-gadgets/2026/02/20/chinese-ai-models-festoon-spring-festival-a-year-after-deepseeks-shock-debut/" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://www.malaymail.com/news/tech-gadgets/2026/02/20/chinese-ai-models-festoon-spring-festival-a-year-after-deepseeks-shock-debut/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>2. 字节跳动 Seedance 2.0 震撼好莱坞</h3>
+      
       <p>字节跳动的视频生成模型 Seedance 2.0 高度整合到春晚节目中，引发好莱坞关注。同时也引发对 AI 技术发展和潜在限制的讨论。</p>
-      <a class="link" href="https://us.cnn.com/2026/02/20/china/china-ai-seedance-intl-hnk-dst" target="_blank">🔗 原文链接</a>
-    </div>
-  
-    <div class="item">
+  <a class="link" href="https://us.cnn.com/2026/02/20/china/china-ai-seedance-intl-hnk-dst" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
       <h3>3. 中国科技巨头春节营销取得巨大收益</h3>
+      
       <p>中国科技巨头在春节营销期间取得巨大收益，AI 模型成为营销亮点。DeepSeek 推出一年后，中国 AI 模型竞争更加激烈。</p>
-      <a class="link" href="https://www.scmp.com/tech/big-tech/article/3344017/chinas-tech-giants-report-huge-gains-spring-festival-marketing-blitz" target="_blank">🔗 原文链接</a>
-    </div>
-  
-        </section>
+  <a class="link" href="https://www.scmp.com/tech/big-tech/article/3344017/chinas-tech-giants-report-huge-gains-spring-festival-marketing-blitz" target="_blank">🔗 原文链接</a></div></section>
+    </main>
 
-        <section id="newsletter" class="section">
-            <h2>📧 深度 Newsletter 精选 TOP 3</h2>
-        </section>
-
-        <section id="papers" class="section">
-            <h2>📚 Hugging Face Daily Papers TOP {{items_papers}}</h2>
-        </section>
-
-        <section id="x-posts" class="section">
-            <h2>𝕏 X AI 大V动态 TOP 3</h2>
-        </section>
-
-        <section id="discord" class="section">
-            <h2>🏛️ Discord 社区精选 TOP 3</h2>
-        </section>
-
-        <section id="github" class="section">
-            <h2>💻 GitHub Trending AI 项目 TOP {{items_github}}</h2>
-        </section>
-
-        <section id="hn" class="section">
-            <h2>📰 Hacker News 热门讨论 TOP 3</h2>
-        </section>
-
-        <section id="reddit" class="section">
-            <h2>🤖 Reddit AI 社区精选 TOP 3</h2>
-        </section>
-
-        <section id="tools" class="section">
-            <h2>🛠️ AI 应用工具箱 TOP {{items_tools}} ⭐NEW</h2>
-        </section>
-
-        <section id="agent" class="section">
-            <h2>🤖 Agent 热门资讯 TOP 3 ⭐</h2>
-        </section>
-
-        <section id="valley" class="section">
-            <h2>🇺🇸 硅谷热点新闻 TOP 3</h2>
-        </section>
-
-        <section id="china" class="section">
-            <h2>🇨🇳 大陆智能体动态 TOP 3</h2>
-        </section>
-
-        <section id="all-content" class="section">
-            <h2>📊 共 40 条精选内容</h2>
-            <p>所有内容已整理完毕，点击上方导航查看各类资讯。</p>
-        </section>
-    </div>
-
-    <footer>
-        <p>🤖 AI 资讯日报 | 每日 {{time}} 自动更新</p>
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 21:59 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
     </footer>
 </body>
 </html>
