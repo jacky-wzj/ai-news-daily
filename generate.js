@@ -270,30 +270,39 @@ function main() {
   // Read template
   const template = fs.readFileSync(templatePath, 'utf-8');
   
-  // Get today's date string
-  const today = new Date();
-  const dateStr = today.toISOString().split('T')[0];
-  const dataFile = path.join(dataDir, `${dateStr}.json`);
+  // Get all JSON files (or specific date from command line)
+  const args = process.argv.slice(2);
+  const dateArg = args[0]; // Optional: specific date like "2026-02-21"
   
-  console.log(`📅 Generating page for ${dateStr}...`);
-  
-  // Read data
-  if (!fs.existsSync(dataFile)) {
-    console.error(`❌ Data file not found: ${dataFile}`);
-    process.exit(1);
+  let jsonFiles;
+  if (dateArg) {
+    // Generate single date
+    jsonFiles = [`${dateArg}.json`];
+  } else {
+    // Generate all dates (default behavior)
+    jsonFiles = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
   }
   
-  const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+  // Generate pages for each date
+  for (const jsonFile of jsonFiles) {
+    const dateStr = jsonFile.replace('.json', '');
+    const dataFile = path.join(dataDir, jsonFile);
+    
+    if (!fs.existsSync(dataFile)) {
+      console.error(`❌ Data file not found: ${dataFile}`);
+      continue;
+    }
+    
+    console.log(`📅 Generating page for ${dateStr}...`);
+    const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+    const html = generatePage(data, template);
+    
+    const outputPath = path.join(publicDir, `${dateStr}.html`);
+    fs.writeFileSync(outputPath, html);
+    console.log(`✅ Generated: ${dateStr}.html`);
+  }
   
-  // Generate page
-  const html = generatePage(data, template);
-  
-  // Write to file
-  const outputPath = path.join(publicDir, `${dateStr}.html`);
-  fs.writeFileSync(outputPath, html);
-  console.log(`✅ Generated: ${dateStr}.html`);
-  
-  // Generate index
+  // Generate index (always regenerate for all dates)
   const pages = fs.readdirSync(dataDir)
     .filter(f => f.endsWith('.json'))
     .map(f => {
