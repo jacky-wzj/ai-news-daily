@@ -35,6 +35,9 @@ jobs:
       - name: Generate all pages
         run: npm run generate
 
+      - name: Copy public files to root (for legacy deployment)
+        run: cp public/*.html .
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
