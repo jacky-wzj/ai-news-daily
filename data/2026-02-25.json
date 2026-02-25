@@ -1,0 +1,278 @@
+{
+  "date": "2026-02-25",
+  "insights": [
+    {
+      "title": "Sam Altman: ChatGPT 增长重新加速，回应 AI 能源消耗争议",
+      "author": "@sama",
+      "date": "2026-02-23",
+      "summary": "Sam Altman 回应 ChatGPT 水资源消耗争议，称其为\"过时\"和\"虚假\"，并表示\"训练一个人类也需要大量能源\"。此外，Altman 在印度 AI 峰会上表示中国科技公司进步\"令人惊叹\"。",
+      "link": "https://www.cnbc.com/2026/02/23/openai-altman-defends-ai-resource-usage-water-concerns-fake-humans-use-energy-summit.html",
+      "screenshot": "/screenshots/2026-02-25/1-sama.png"
+    },
+    {
+      "title": "Yann LeCun: 离开 Meta 创立 AMI Labs，专注开源世界模型",
+      "author": "@ylecun",
+      "date": "2026-02-22",
+      "summary": "Yann LeCun 离开 Meta 创立 AMI Labs，专注于开源世界模型 AI。LeCun 认为当前 LLM 技术有局限性，下一阶段 AI 将聚焦于理解和建模物理世界，而非仅仅处理语言。",
+      "link": "https://startupnews.fyi/2026/02/22/current-ai-technology-is-limited-just-good-at-language-ami-labs-executive-chairman-yann-lecun/",
+      "screenshot": "/screenshots/2026-02-25/2-ylecun.png"
+    },
+    {
+      "title": "Demis Hassabis: 警告内存短缺正在造成 AI 部署\"瓶颈\"",
+      "author": "@DemisHassabis",
+      "date": "2026-02-21",
+      "summary": "Google DeepMind CEO Demis Hassabis 警告内存短缺正在成为 AI 部署的\"瓶颈\"。他表示 Google 看到对 Gemini 的需求远超其服务能力，物理挑战正在\"限制大量部署\"。",
+      "link": "https://www.businessinsider.com/google-deepmind-demis-hassabis-memory-shortage-ai-supply-chain-2026-2",
+      "screenshot": "/screenshots/2026-02-25/3-demis.png"
+    },
+    {
+      "title": "Dario Amodei: Pentagon 要求 Anthropic 开放 Claude 军事访问权限",
+      "author": "@DarioAmodei",
+      "date": "2026-02-24",
+      "summary": "美国国防部长 Pete Hegseth 要求 Anthropic CEO Dario Amodei 在周五前开放 Claude 的军事访问权限，否则将面临严厉处罚。Anthropic 是唯一在美军机密系统中可用的 AI 模型。",
+      "link": "https://www.axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario",
+      "screenshot": "/screenshots/2026-02-25/4-dario.png"
+    },
+    {
+      "title": "Jensen Huang: NVIDIA 将在 GTC 2026 发布\"震惊世界\"的新芯片",
+      "author": "@JensenHuang",
+      "date": "2026-02-19",
+      "summary": "NVIDIA CEO Jensen Huang 承诺将在 GTC 2026（3月16日）发布一款\"震惊世界\"的新芯片。分析师预计将推出下一代 Rubin 架构，配备 HBM4 内存。",
+      "link": "https://videocardz.com/newz/nvidia-gtc-2026-jensen-huang-promises-a-chip-reveal-meant-to-surprise-the-world",
+      "screenshot": "/screenshots/2026-02-25/5-jensen.png"
+    },
+    {
+      "title": "Elon Musk: xAI 与 Pentagon 达成协议，Grok 将用于机密系统",
+      "author": "@elonmusk",
+      "date": "2026-02-23",
+      "summary": "Elon Musk 的 xAI 已与美国国防部签署协议，允许在机密系统中使用 Grok 模型。同时，Grok 正在进入澳大利亚市场的特斯拉车型。",
+      "link": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok",
+      "screenshot": "/screenshots/2026-02-25/6-elon.png"
+    },
+    {
+      "title": "Fei-Fei Li: AI 先锋创立 World Labs 获得 10 亿美元融资",
+      "author": "@drfeifeng",
+      "date": "2026-02-18",
+      "summary": "AI 先锋李飞飞创办的 World Labs 获得 10 亿美元融资，用于开发新型 AI 方法。这是 2026 年 AI 领域最大的融资之一。",
+      "link": "https://www.siliconvalley.com/2026/02/18/ai-pioneer-fei-fei-lis-startup-world-labs-raises-1-billion/",
+      "screenshot": "/screenshots/2026-02-25/7-feifei.png"
+    }
+  ],
+  "papers": [
+    {
+      "title": "ggml.ai 加入 Hugging Face，推动本地 AI 发展",
+      "authors": "Georgi Gerganov & Hugging Face",
+      "summary": "ggml.ai 团队正式加入 Hugging Face，确保本地 AI 的长期发展，llama.cpp 等项目将获得更多资源支持。",
+      "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/"
+    },
+    {
+      "title": "SmolVLM: 紧凑型多模态模型",
+      "authors": "Stanford & Hugging Face",
+      "summary": "资源高效的多模态推理模型，在保持性能的同时大幅降低计算需求，适合边缘设备部署。",
+      "link": "https://huggingface.co/"
+    },
+    {
+      "title": "DeepSeek-V4 架构创新",
+      "authors": "DeepSeek",
+      "summary": "1 万亿参数模型，采用三项架构创新，实现训练效率突破性提升，支持 100 万 token 上下文窗口。",
+      "link": "https://huggingface.co/deepseek-ai/deepseek-v4"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "OpenAI 发布 GPT-5.3-Codex 编码模型",
+      "author": "@OpenAI",
+      "date": "2026-02-22",
+      "summary": "OpenAI 推出最新编码模型 GPT-5.3-Codex，声称是史上最强编码 AI，同时警告前所未有的网络安全风险。",
+      "link": "https://x.com/OpenAI",
+      "screenshot": "/screenshots/2026-02-25/x1-openai.png"
+    },
+    {
+      "title": "Sam Altman 公布 OpenAI 产品线简化计划",
+      "author": "@sama",
+      "date": "2026-02-20",
+      "summary": "Sam Altman 公布 GPT-4.5 和 GPT-5 产品线简化计划，GPT-5 将整合 o3 技术，不再单独发布 o3 模型。",
+      "link": "https://x.com/sama",
+      "screenshot": "/screenshots/2026-02-25/x2-sama.png"
+    },
+    {
+      "title": "Google 发布 Gemini 3.1 Pro，基准测试超越 GPT-5",
+      "author": "@GoogleDeepMind",
+      "date": "2026-02-19",
+      "summary": "Google 发布 Gemini 3.1 Pro，在 ARC-AGI-2 测试中得分 77.1%，远超 Gemini 3 Pro 的 31.1%，重新夺回 AI 基准测试领先地位。",
+      "link": "https://x.com/GoogleDeepMind",
+      "screenshot": "/screenshots/2026-02-25/x3-google.png"
+    }
+  ],
+  "newsletter": [
+    {
+      "title": "Mind and Machine Weekly: AI Newsletter February 15-22, 2026",
+      "source": "Substack",
+      "summary": "第三周焦点：Anthropic 的 Claude Sonnet 4.6 和 Google 的 Gemini 3.1 Pro 在 48 小时内同时发布，印度 AI 峰会发布重要政策声明。",
+      "link": "https://mindandmachineweekly.substack.com/p/ai-newsletter-february-15-22-2026"
+    },
+    {
+      "title": "HackerNoon: Do AI Agents Dream of Electric Langoustines?",
+      "source": "HackerNoon",
+      "summary": "探讨 AI Agents 的未来发展方向，以及当前技术面临的挑战和机遇。",
+      "link": "https://hackernoon.com/2-24-2026-newsletter"
+    },
+    {
+      "title": "The AI Daily Brief: 80-Million-View Post 引发 AI 工作变革大讨论",
+      "source": "Apple Podcasts",
+      "summary": "Matt Schumer 的 8000 万浏览量帖子引发 2026 年最重要的 AI 辩论：我们是低估还是高估了 AI 对工作的变革影响？",
+      "link": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news-and-analysis/id1680633614"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Hugging Face Discord: 本地 AI 发展讨论",
+      "server": "Hugging Face",
+      "summary": "ggml.ai 加入 Hugging Face 后，社区热议本地 AI 的未来发展以及 llama.cpp 的路线图。",
+      "link": "https://discord.gg/hugging-face"
+    },
+    {
+      "title": "LangChain Discord: Agent 最佳实践",
+      "server": "LangChain",
+      "summary": "社区分享 Agent 记忆层级管理的最新最佳实践，探讨层次记忆架构在 Agent 设计中的应用。",
+      "link": "https://discord.gg/langchain"
+    },
+    {
+      "title": "EleutherAI Discord: 开源模型训练经验",
+      "server": "EleutherAI",
+      "summary": "社区讨论开源大模型训练的最新发现，分享高效训练技巧和数据处理经验。",
+      "link": "https://discord.gg/eleutherai"
+    }
+  ],
+  "github": [
+    {
+      "title": "GitHub Agentic Workflows",
+      "summary": "GitHub 推出 AI Agent 工作流自动化功能，可自动处理代码库维护任务，获得 3400+ Stars。",
+      "link": "https://github.com/features/actions",
+      "stars": "3400+"
+    },
+    {
+      "title": "FossFlow: 等距绘图工具",
+      "summary": "新的基础设施图表等距绘图工具，登上 GitHub Trending，支持创建精美的技术架构图。",
+      "link": "https://github.com/fossflow/fossflow",
+      "stars": "1200+"
+    },
+    {
+      "title": "Electrobun: 超快速跨平台桌面应用",
+      "summary": "使用 TypeScript 构建的超快速、轻量级跨平台桌面应用框架，适合构建 AI 助手界面。",
+      "link": "https://github.com/electrobun/electrobun",
+      "stars": "890+"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Show HN: AI Timeline – 171 个 LLMs (2017-2026)",
+      "summary": "从 Transformer (2017) 到 GPT-5.3 (2026) 的 171 个大语言模型发展时间线。",
+      "link": "https://news.ycombinator.com/item?id=47119871",
+      "score": "428"
+    },
+    {
+      "title": "NIST 公开征询 AI Agent 安全标准 (截止日期: 2026年3月9日)",
+      "summary": "NIST 正在制定 AI Agent 安全标准，重点关注：提示注入、行为劫持、级联失败等新型威胁。",
+      "link": "https://news.ycombinator.com/item?id=47131689",
+      "score": "312"
+    },
+    {
+      "title": "研究人员发现 Copilot 和 Grok 可被滥用为恶意软件 C2 代理",
+      "summary": "安全研究人员展示如何将 AI 工具滥用为恶意软件的命令与控制 (C2) 代理，引发安全担忧。",
+      "link": "https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html",
+      "score": "267"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Reddit 测试 AI 购物搜索功能",
+      "summary": "Reddit 正在测试新的 AI 搜索功能，将社区讨论与购物推荐结合，打通从推荐到购买的转化。",
+      "link": "https://www.reddit.com/r/technology/comments/1k8h3v/reddit_testing_ai_powered_shopping_search/",
+      "subreddit": "r/technology"
+    },
+    {
+      "title": "Reddit AI 内容激增但人类创作者依然活跃",
+      "summary": "尽管 AI 生成内容大量增加，Reddit 用户增长依然强劲，高管归因于真实性和社区驱动讨论的需求。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1rakthj/anyone_else_looking_into_ai_search_visibility/",
+      "subreddit": "r/ArtificialInteligence"
+    },
+    {
+      "title": "AI Agent 工具比较讨论",
+      "summary": "社区讨论 2026 年最佳 AI Agent 工具，聚焦自动化、工作流和多代理协作能力。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1r9t5j/best_ai_agents_2026_discussion/",
+      "subreddit": "r/MachineLearning"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Anthropic Claude Cowork Agent",
+      "summary": "Anthropic 发布新 AI Agent 工具，专为投资银行、人力资源和设计领域的自动化工作流程设计。",
+      "link": "https://www.anthropic.com/claude-cowork",
+      "source": "Anthropic"
+    },
+    {
+      "title": "New Relic Agentic Platform",
+      "summary": "New Relic 推出 AI Agent 平台，支持企业部署预建 Agent，支持 MCP 协议连接外部数据源。",
+      "link": "https://newrelic.com/platform/agentic",
+      "source": "New Relic"
+    },
+    {
+      "title": "Kana: 营销 AI Agent",
+      "summary": "Kana 从隐身模式走出，获得 1500 万美元融资，构建面向营销人员的可定制 AI Agent。",
+      "link": "https://techcrunch.com/2026/02/18/kana-emerges-from-stealth-with-15m-to-build-flexible-ai-agents-for-marketers/",
+      "source": "Kana"
+    }
+  ],
+  "agent": [
+    {
+      "title": "NIST AI Agent 安全标准倡议",
+      "summary": "NIST 宣布启动\"AI Agent 标准倡议\"，旨在为可互操作和安全的 AI Agent 创新制定标准。",
+      "link": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure"
+    },
+    {
+      "title": "Amazon 发布 AI Agent 评估框架",
+      "summary": "Amazon 发布全面的 AI Agent 评估框架，提供标准化的评估流程和指标度量方法。",
+      "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/"
+    },
+    {
+      "title": "8 个最佳 AI Agent 构建工具 (2026)",
+      "summary": "盘点 2026 年最佳的 AI Agent 构建平台，包括 Gumloop、LangChain 等工具的深度对比。",
+      "link": "https://www.gumloop.com/blog/best-ai-agent-builder"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "World Labs 获得 10 亿美元融资",
+      "summary": "AI 先锋李飞飞创办的 World Labs 获得 10 亿美元融资，专注新型 AI 开发方法。",
+      "link": "https://www.siliconvalley.com/2026/02/18/ai-pioneer-fei-fei-lis-startup-world-labs-raises-1-billion/"
+    },
+    {
+      "title": "MatX 获得 5 亿美元 B 轮融资",
+      "summary": "由 Google 工程师创立的 AI 芯片初创公司 MatX 获得 5 亿美元融资，专注大模型训练芯片。",
+      "link": "https://www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/"
+    },
+    {
+      "title": "Goodfire 和 Fundamental 同日成为独角兽",
+      "summary": "AI 初创公司 Goodfire (12.5亿美元) 和 Fundamental (12亿美元) 在同一天晋升为独角兽。",
+      "link": "https://aifundingtracker.com/ai-startup-funding-news-today/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国 AI 大模型春节\"全民下沉\"",
+      "summary": "2026 年春节，中国 AI 完成第一次真正的\"全民下沉\"，豆包、千问等应用通过轻量级场景实现大众化普及。",
+      "link": "https://finance.sina.cn/stock/jdts/2026-02-19/detail-inhnifxu4324279.d.html"
+    },
+    {
+      "title": "阿里腾讯联手投资月之暗面",
+      "summary": "阿里和腾讯罕见联手，共同投资月之暗面 7 亿美元，聚焦长文本处理技术差异化发展。",
+      "link": "https://finance.sina.cn/stock/ggyj/2026-02-24/detail-inhnwvwq8973925.d.html"
+    },
+    {
+      "title": "OpenAI 创始人点赞中国大模型",
+      "summary": "OpenAI 创始人称赞中国大模型，国产方案成为国际市场新宠，中国 AI 论文数量和 GitHub 活跃项目激增。",
+      "link": "https://finance.sina.com.cn/roll/2026-02-20/doc-inhnnsry8930255.shtml"
+    }
+  ]
+}
