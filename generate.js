@@ -297,8 +297,11 @@ function main() {
     const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
     const html = generatePage(data, template);
     
+    // Write to both root (for GitHub Pages) and public directory
     const outputPath = path.join(publicDir, `${dateStr}.html`);
+    const rootPath = path.join(__dirname, `${dateStr}.html`);
     fs.writeFileSync(outputPath, html);
+    fs.writeFileSync(rootPath, html);
     console.log(`✅ Generated: ${dateStr}.html`);
   }
   
@@ -321,6 +324,7 @@ function main() {
   
   const indexHtml = generateIndex(pages, indexTemplate);
   fs.writeFileSync(path.join(publicDir, 'index.html'), indexHtml);
+  fs.writeFileSync(path.join(__dirname, 'index.html'), indexHtml);
   console.log(`✅ Generated: index.html`);
   
   console.log('🎉 All pages generated successfully!');
