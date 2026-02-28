@@ -410,9 +410,6 @@ function generatePage(data, template, dateStr, previousLinks) {
 
   let content = '';
 
-  // Core people insights
-  content += generateSection('🌟 核心人物洞察', '🌟', data.insights, generateInsightsCard);
-
   // Newsletter (hidden)
   // content += generateSection('📧 Newsletter 精选', '📧', data.newsletter, generateNewsletterCard);
   
@@ -439,6 +436,9 @@ function generatePage(data, template, dateStr, previousLinks) {
 
   // Agent
   content += generateSection('🦾 Agent 热门资讯', '🦾', data.agent, generateAgentCard);
+
+  // AI Ecosystem Insights (moved before Silicon Valley)
+  content += generateSection('🌟 AI生态洞察', '🌟', data.insights, generateInsightsCard);
 
   // Silicon Valley
   content += generateSection('🏙️ 硅谷热点新闻', '🏙️', data.siliconValley, generateSiliconValleyCard);
