@@ -31,6 +31,89 @@ const GENERIC_LINK_RULES = [
 ];
 
 /**
+ * Extract keywords from a URL slug for coherence checking.
+ * e.g. "steve-hanke-ai-yann-lecun-meta-hype-bubble" → ['steve','hanke','yann','lecun','hype','bubble']
+ */
+function extractSlugKeywords(url) {
+  try {
+    const u = new URL(url);
+    // Take the path + any readable slug portions
+    const slug = u.pathname.toLowerCase()
+      .replace(/\.(html?|php|aspx?)$/i, '')
+      .replace(/[/_]/g, '-');
+    // Split on hyphens and filter short/common words
+    const stopWords = new Set(['the','a','an','in','on','at','to','for','of','and','or','is','its',
+      'by','with','from','as','that','this','how','what','why','who','when','where',
+      'www','com','net','org','html','htm','php','news','article','articles','blog',
+      'post','index','page','2026','2025','02','01','03','04','05','06','07','08','09',
+      '10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25',
+      '26','27','28','29','30','31','feb','mar','jan','apr','may','jun','jul','aug','sep',
+      'oct','nov','dec','technology','tech']);
+    return slug.split('-').filter(w => w.length > 2 && !stopWords.has(w));
+  } catch { return []; }
+}
+
+/**
+ * Extract keywords from a Chinese/English title.
+ */
+function extractTitleKeywords(title) {
+  if (!title) return [];
+  // For Chinese text, extract recognizable English/brand names and Chinese key terms
+  const lower = title.toLowerCase();
+  // Extract English words (brand names, proper nouns)
+  const engWords = (lower.match(/[a-z][a-z0-9]+/g) || []).filter(w => w.length > 2);
+  // Common brand/name mappings (Chinese → English keywords)
+  const brandMap = {
+    '人才': ['talent','hiring'], '薪资': ['salary','pay','compensation'],
+    '资本支出': ['capex','spending','capital'], '融资': ['funding','raise','billion'],
+    '芯片': ['chip','gpu','semiconductor'], '模型': ['model'],
+    '开源': ['open','source','opensource'], '安全': ['security','safe'],
+  };
+  const extraKw = [];
+  for (const [cn, en] of Object.entries(brandMap)) {
+    if (title.includes(cn)) extraKw.push(...en);
+  }
+  return [...engWords, ...extraKw];
+}
+
+/**
+ * Check if title and link URL slug are coherent.
+ * Returns { coherent: boolean, reason?: string }
+ * Uses a heuristic: if the URL slug has strong keywords that share ZERO overlap
+ * with the title, it's likely a mismatch.
+ */
+function checkTitleLinkCoherence(title, link) {
+  if (!title || !link) return { coherent: true }; // skip if missing
+
+  const slugKw = extractSlugKeywords(link);
+  const titleKw = extractTitleKeywords(title);
+
+  // Need enough slug keywords to make a judgment (short URLs are ambiguous)
+  if (slugKw.length < 3) return { coherent: true };
+  if (titleKw.length < 2) return { coherent: true };
+
+  // Check for ANY overlap (fuzzy: substring match of 4+ chars)
+  let overlap = 0;
+  for (const sk of slugKw) {
+    for (const tk of titleKw) {
+      if (sk.length >= 4 && tk.length >= 4) {
+        if (sk.includes(tk) || tk.includes(sk)) {
+          overlap++;
+        }
+      }
+    }
+  }
+
+  if (overlap === 0) {
+    return {
+      coherent: false,
+      reason: `title-link mismatch: title="${title.slice(0,50)}" has no keyword overlap with URL slug [${slugKw.slice(0,6).join(',')}]`
+    };
+  }
+  return { coherent: true };
+}
+
+/**
  * Validate a link. Returns { valid: boolean, reason?: string }
  */
 function validateLink(link, section) {
@@ -64,12 +147,19 @@ function filterSection(items, sectionName) {
   const kept = [];
   const removed = [];
   for (const item of items) {
+    // Step 1: link structure validation
     const result = validateLink(item.link, sectionName);
-    if (result.valid) {
-      kept.push(item);
-    } else {
+    if (!result.valid) {
       removed.push({ title: item.title || item.name, reason: result.reason });
+      continue;
     }
+    // Step 2: title-link coherence check
+    const coherence = checkTitleLinkCoherence(item.title || item.name, item.link);
+    if (!coherence.coherent) {
+      removed.push({ title: item.title || item.name, reason: coherence.reason });
+      continue;
+    }
+    kept.push(item);
   }
   return { kept, removed };
 }
