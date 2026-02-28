@@ -71,7 +71,7 @@ function generateSection(title, icon, items, cardGenerator) {
 // Card generators for each category
 function generateInsightsCard(item, i) {
   return generateCard(item, i, { 
-    meta: (item) => `👤 <span class="author">${escapeHtml(item.author)}</span> · ${item.date}`
+    meta: (item) => `📅 ${item.date}`
   });
 }
 
