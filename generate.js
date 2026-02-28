@@ -6,6 +6,97 @@
 const fs = require('fs');
 const path = require('path');
 
+// ========== Anti-hallucination link validator ==========
+
+// Fabricated link patterns (sequential/placeholder IDs, xxxxx slugs)
+const FABRICATED_PATTERNS = [
+  /\/comments\/x{3,}/i,                         // reddit /comments/xxxxx
+  /\/item\?id=1234567[0-9]$/,                   // HN sequential fake IDs
+  /\/status\/1[89]\d{16,17}$/,                   // X sequential fake status IDs
+  /\/status\/19[0-9]{10,11}$/,                   // X short fake IDs
+];
+
+// Generic links that point to homepages instead of specific content
+const GENERIC_LINK_RULES = [
+  // X/Twitter profile pages (no /status/)
+  { test: (u) => /^https?:\/\/(x\.com|twitter\.com)\/[^/]+\/?$/.test(u), sections: 'all' },
+  // Reddit subreddit homepages (no /comments/)
+  { test: (u) => /^https?:\/\/(www\.)?reddit\.com\/r\/[^/]+\/?$/.test(u), sections: 'all' },
+  // HN homepage only
+  { test: (u) => /^https?:\/\/news\.ycombinator\.com\/?$/.test(u), sections: 'all' },
+  // Hugging Face homepage only
+  { test: (u) => /^https?:\/\/huggingface\.co\/?$/.test(u), sections: 'all' },
+  // Discord invite links (not specific content)
+  { test: (u) => /^https?:\/\/discord\.(gg|com\/invite)\//.test(u), sections: ['discord'] },
+];
+
+/**
+ * Validate a link. Returns { valid: boolean, reason?: string }
+ */
+function validateLink(link, section) {
+  if (!link) return { valid: false, reason: 'missing link' };
+
+  // Check fabricated patterns
+  for (const pattern of FABRICATED_PATTERNS) {
+    if (pattern.test(link)) {
+      return { valid: false, reason: `fabricated link: ${link}` };
+    }
+  }
+
+  // Check generic links
+  for (const rule of GENERIC_LINK_RULES) {
+    if (rule.sections === 'all' || rule.sections.includes(section)) {
+      if (rule.test(link)) {
+        return { valid: false, reason: `generic link (not specific content): ${link}` };
+      }
+    }
+  }
+
+  return { valid: true };
+}
+
+/**
+ * Filter items in a section, removing those with invalid links.
+ * Returns { kept: Item[], removed: { item, reason }[] }
+ */
+function filterSection(items, sectionName) {
+  if (!items || items.length === 0) return { kept: [], removed: [] };
+  const kept = [];
+  const removed = [];
+  for (const item of items) {
+    const result = validateLink(item.link, sectionName);
+    if (result.valid) {
+      kept.push(item);
+    } else {
+      removed.push({ title: item.title || item.name, reason: result.reason });
+    }
+  }
+  return { kept, removed };
+}
+
+/**
+ * Sanitize all sections in data. Mutates data in place.
+ * Returns a report of removed items.
+ */
+function sanitizeData(data) {
+  const report = [];
+  const sections = [
+    'insights', 'newsletter', 'papers', 'xPosts', 'discord',
+    'github', 'hn', 'reddit', 'tools', 'agent', 'siliconValley', 'mainlandChina'
+  ];
+  for (const section of sections) {
+    if (!data[section] || data[section].length === 0) continue;
+    const { kept, removed } = filterSection(data[section], section);
+    if (removed.length > 0) {
+      data[section] = kept;
+      report.push({ section, removed });
+    }
+  }
+  return report;
+}
+
+// ========== End anti-hallucination ==========
+
 // Helper function to escape HTML
 function escapeHtml(text) {
   if (!text) return '';
@@ -161,7 +252,18 @@ function convertScreenshotPaths(data) {
 }
 
 // Generate full HTML page
-function generatePage(data, template) {
+function generatePage(data, template, dateStr) {
+  // Anti-hallucination: sanitize data before rendering
+  const report = sanitizeData(data);
+  if (report.length > 0) {
+    console.log(`  ⚠️  Link sanitizer removed items for ${dateStr || 'unknown'}:`);
+    for (const { section, removed } of report) {
+      for (const r of removed) {
+        console.log(`    🗑  [${section}] ${r.title} — ${r.reason}`);
+      }
+    }
+  }
+
   // Convert screenshot paths for GitHub Pages
   data = convertScreenshotPaths(data);
 
@@ -297,7 +399,7 @@ function main() {
     
     console.log(`📅 Generating page for ${dateStr}...`);
     const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
-    const html = generatePage(data, template);
+    const html = generatePage(data, template, dateStr);
     
     // Write to both root (for GitHub Pages) and public directory
     const outputPath = path.join(publicDir, `${dateStr}.html`);
