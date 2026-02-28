@@ -170,8 +170,8 @@ function generatePage(data, template) {
   // Core people insights
   content += generateSection('🌟 核心人物洞察', '🌟', data.insights, generateInsightsCard);
 
-  // Newsletter
-  content += generateSection('📧 Newsletter 精选', '📧', data.newsletter, generateNewsletterCard);
+  // Newsletter (hidden)
+  // content += generateSection('📧 Newsletter 精选', '📧', data.newsletter, generateNewsletterCard);
   
   // Papers
   content += generateSection('📚 Hugging Face 热门论文', '📚', data.papers, generatePaperCard);
