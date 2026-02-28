@@ -58,16 +58,40 @@ function extractSlugKeywords(url) {
  */
 function extractTitleKeywords(title) {
   if (!title) return [];
-  // For Chinese text, extract recognizable English/brand names and Chinese key terms
   const lower = title.toLowerCase();
-  // Extract English words (brand names, proper nouns)
-  const engWords = (lower.match(/[a-z][a-z0-9]+/g) || []).filter(w => w.length > 2);
-  // Common brand/name mappings (Chinese → English keywords)
+  // Extract English words (brand names, proper nouns) - include alphanumeric like "qwen3"
+  const engWords = (lower.match(/[a-z][a-z0-9.]+/g) || []).filter(w => w.length > 2);
+  
+  // Comprehensive Chinese → English keyword mapping for coherence checking
   const brandMap = {
-    '人才': ['talent','hiring'], '薪资': ['salary','pay','compensation'],
-    '资本支出': ['capex','spending','capital'], '融资': ['funding','raise','billion'],
-    '芯片': ['chip','gpu','semiconductor'], '模型': ['model'],
-    '开源': ['open','source','opensource'], '安全': ['security','safe'],
+    // Companies & Products
+    '阿里': ['alibaba','ali','qwen'], '腾讯': ['tencent','wechat'],
+    '百度': ['baidu'], '字节': ['bytedance','tiktok','douyin'],
+    '华为': ['huawei'], '小米': ['xiaomi'],
+    '月之暗面': ['moonshot','kimi'], 'Moonshot': ['moonshot','kimi'],
+    '智谱': ['zhipu','glm','chatglm'],
+    // People
+    '马斯克': ['musk','elon','tesla','xai','grok'],
+    '黄仁勋': ['jensen','huang','nvidia'],
+    '扎克伯格': ['zuckerberg','meta'],
+    '奥特曼': ['altman','openai'], 'Altman': ['altman','openai'],
+    // Concepts
+    '人才': ['talent','hiring','recruit'], '薪资': ['salary','pay','compensation','wage'],
+    '资本支出': ['capex','spending','capital'], '融资': ['funding','raise','billion','valuation'],
+    '芯片': ['chip','gpu','semiconductor','nvidia'], '模型': ['model','llm'],
+    '开源': ['open','source','opensource'], '安全': ['security','safe','safety'],
+    '独角兽': ['unicorn'], '收购': ['acquire','acquisition','merger'],
+    '裁员': ['layoff','cut'], '投资': ['invest','investment','funding'],
+    '发布': ['release','launch','announce','unveil'], '隐私': ['privacy'],
+    '监管': ['regulation','regulatory'], '搜索': ['search'],
+    '浏览器': ['browser'], '编程': ['coding','programming','code'],
+    '购物': ['shopping','commerce'], '社交': ['social'],
+    '军事': ['military','defense','pentagon'], '排行': ['ranking','leaderboard','benchmark'],
+    '春节': ['spring','festival','lunar','new','year'],
+    '内容': ['content'], '创作': ['creator','creative'],
+    '下沉': ['penetration','adoption'], '点赞': ['praise','endorse'],
+    '估值': ['valuation'], '竞争': ['competition','compete','rival'],
+    '争夺': ['battle','race','compete'], '加剧': ['intensify','escalate'],
   };
   const extraKw = [];
   for (const [cn, en] of Object.entries(brandMap)) {
@@ -90,11 +114,23 @@ function checkTitleLinkCoherence(title, link) {
 
   // Need enough slug keywords to make a judgment (short URLs are ambiguous)
   if (slugKw.length < 3) return { coherent: true };
-  if (titleKw.length < 2) return { coherent: true };
+  // If title yields very few keywords even after brand mapping, skip
+  if (titleKw.length < 1) return { coherent: true };
+
+  // Filter out unreadable slug keywords (hashes, random IDs, file extensions)
+  const readableSlugKw = slugKw.filter(w => {
+    if (/^\d+$/.test(w)) return false;                    // pure numbers
+    if (/^[a-z0-9]{10,}$/.test(w)) return false;          // long alphanumeric hash
+    if (/^[a-z]{1,3}\d{4,}/.test(w)) return false;        // short prefix + long number (e.g. inhnifxu4324279)
+    if (/\d{5,}/.test(w)) return false;                     // contains 5+ digit sequence
+    if (/^detail$|^doc$|^roll$|^stock$/.test(w)) return false; // CMS path segments
+    return true;
+  });
+  if (readableSlugKw.length < 2) return { coherent: true }; // URL slug is mostly hashes/IDs
 
   // Check for ANY overlap (fuzzy: substring match of 4+ chars)
   let overlap = 0;
-  for (const sk of slugKw) {
+  for (const sk of readableSlugKw) {
     for (const tk of titleKw) {
       if (sk.length >= 4 && tk.length >= 4) {
         if (sk.includes(tk) || tk.includes(sk)) {
