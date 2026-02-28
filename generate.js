@@ -88,7 +88,9 @@ function generatePaperCard(item, i) {
 }
 
 function generateXPostCard(item, i) {
-  return generateCard(item, i, { 
+  const stripped = { ...item };
+  delete stripped.screenshot;
+  return generateCard(stripped, i, { 
     meta: (item) => `👤 <span class="author">${escapeHtml(item.author)}</span> · ${item.date}`
   });
 }
