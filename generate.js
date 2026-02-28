@@ -202,9 +202,11 @@ function filterSection(items, sectionName) {
 
 /**
  * Sanitize all sections in data. Mutates data in place.
+ * @param {object} data - The daily data object
+ * @param {Set<string>} [previousLinks] - Links from previous dates (for cross-date dedup)
  * Returns a report of removed items.
  */
-function sanitizeData(data) {
+function sanitizeData(data, previousLinks) {
   const report = [];
   const sections = [
     'insights', 'newsletter', 'papers', 'xPosts', 'discord',
@@ -213,9 +215,22 @@ function sanitizeData(data) {
   for (const section of sections) {
     if (!data[section] || data[section].length === 0) continue;
     const { kept, removed } = filterSection(data[section], section);
-    if (removed.length > 0) {
-      data[section] = kept;
-      report.push({ section, removed });
+    
+    // Cross-date dedup: remove items whose links appeared in previous dates
+    const finalKept = [];
+    const dedupRemoved = [];
+    for (const item of kept) {
+      if (previousLinks && item.link && previousLinks.has(item.link)) {
+        dedupRemoved.push({ title: item.title || item.name, reason: `duplicate link from previous date: ${item.link}` });
+      } else {
+        finalKept.push(item);
+      }
+    }
+    
+    const allRemoved = [...removed, ...dedupRemoved];
+    if (allRemoved.length > 0) {
+      data[section] = finalKept;
+      report.push({ section, removed: allRemoved });
     }
   }
   return report;
@@ -378,9 +393,9 @@ function convertScreenshotPaths(data) {
 }
 
 // Generate full HTML page
-function generatePage(data, template, dateStr) {
+function generatePage(data, template, dateStr, previousLinks) {
   // Anti-hallucination: sanitize data before rendering
-  const report = sanitizeData(data);
+  const report = sanitizeData(data, previousLinks);
   if (report.length > 0) {
     console.log(`  ⚠️  Link sanitizer removed items for ${dateStr || 'unknown'}:`);
     for (const { section, removed } of report) {
@@ -500,18 +515,44 @@ function main() {
   // Read template
   const template = fs.readFileSync(templatePath, 'utf-8');
   
-  // Get all JSON files (or specific date from command line)
+  // Get all JSON files sorted by date (ascending) for cross-date dedup
+  const allJsonFiles = fs.readdirSync(dataDir).filter(f => f.endsWith('.json')).sort();
+  
   const args = process.argv.slice(2);
   const dateArg = args[0]; // Optional: specific date like "2026-02-21"
   
   let jsonFiles;
   if (dateArg) {
-    // Generate single date
     jsonFiles = [`${dateArg}.json`];
   } else {
-    // Generate all dates (default behavior)
-    jsonFiles = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+    jsonFiles = allJsonFiles;
   }
+  
+  // Helper: collect all links from a data object
+  function collectLinks(data) {
+    const links = new Set();
+    const sections = ['insights','newsletter','papers','xPosts','discord',
+      'github','hn','reddit','tools','agent','siliconValley','mainlandChina'];
+    for (const section of sections) {
+      for (const item of (data[section] || [])) {
+        if (item.link) links.add(item.link);
+      }
+    }
+    return links;
+  }
+  
+  // Build cumulative previous-links set for cross-date dedup
+  // For each date, previousLinks = all links from dates BEFORE it
+  const linksByDate = new Map(); // date -> Set<link>
+  for (const jsonFile of allJsonFiles) {
+    const dateStr = jsonFile.replace('.json', '');
+    const dataFile = path.join(dataDir, jsonFile);
+    if (!fs.existsSync(dataFile)) continue;
+    const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+    linksByDate.set(dateStr, collectLinks(data));
+  }
+  
+  const allDates = [...linksByDate.keys()].sort();
   
   // Generate pages for each date
   for (const jsonFile of jsonFiles) {
@@ -523,9 +564,17 @@ function main() {
       continue;
     }
     
-    console.log(`📅 Generating page for ${dateStr}...`);
+    // Collect links from all previous dates
+    const previousLinks = new Set();
+    for (const d of allDates) {
+      if (d >= dateStr) break; // only dates strictly before current
+      const links = linksByDate.get(d);
+      if (links) links.forEach(l => previousLinks.add(l));
+    }
+    
+    console.log(`📅 Generating page for ${dateStr}... (${previousLinks.size} previous links for dedup)`);
     const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
-    const html = generatePage(data, template, dateStr);
+    const html = generatePage(data, template, dateStr, previousLinks);
     
     // Write to both root (for GitHub Pages) and public directory
     const outputPath = path.join(publicDir, `${dateStr}.html`);
