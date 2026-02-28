@@ -2,250 +2,226 @@
   "date": "2026-02-28",
   "insights": [
     {
-      "title": "特朗普禁止 Anthropic 与五角大楼合作，OpenAI 成军方 AI 独家供应商",
+      "title": "OpenAI 完成史上最大融资 1100亿美元，估值飙升至8400亿",
       "date": "2026-02-27",
-      "summary": "特朗普政府正式禁止 Anthropic 向五角大楼提供 AI 服务，理由是其安全政策中的武器使用限制不符合国防需求。与此同时，OpenAI 与五角大楼达成协议，Sam Altman 表示已就安全红线达成共识。此举标志着 AI 军事化进程的重大转折。",
-      "link": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban",
-      "screenshot": "/screenshots/insight-1-anthropic-pentagon.jpg"
+      "summary": "OpenAI 宣布完成 1100 亿美元融资，创下风投历史纪录。亚马逊投资 500 亿、英伟达和软银各投 300 亿。估值达 8400 亿美元，为即将到来的 IPO 铺路。Sam Altman 表示融资将用于扩大 AGI 研发和基础设施建设。",
+      "link": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/"
     },
     {
-      "title": "OpenAI 与五角大楼正式签署 AI 模型使用协议",
+      "title": "Trump 下令全面禁止联邦机构使用 Anthropic，Dario Amodei 拒绝妥协",
       "date": "2026-02-27",
-      "summary": "Sam Altman 周五深夜宣布 OpenAI 已与美国国防部达成 AI 模型使用协议，国防部同意遵守 OpenAI 的安全红线。这使 OpenAI 成为五角大楼首选 AI 合作伙伴，Axios 报道称协议涵盖监控和情报分析等非致命性应用。",
-      "link": "https://www.axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic",
-      "screenshot": "/screenshots/insight-2-openai-pentagon.jpg"
+      "summary": "因 Anthropic 拒绝取消 AI 用于自主致命武器和大规模国内监控的红线限制，Trump 总统下令所有联邦机构立即停止使用 Anthropic 技术。国防部长 Hegseth 将 Anthropic 列为「国家安全供应链风险」。Amodei 回应称「不能违背良心」，坚持 AI 安全底线。",
+      "link": "https://apnews.com/article/anthropic-pentagon-ai-hegseth-dario-amodei-b72d1894bc842d9acf026df3867bee8a"
     },
     {
-      "title": "NVIDIA 向客户交付首批 Vera Rubin AI GPU 样品，搭载 288GB HBM4",
+      "title": "Jack Dorsey 的 Block 裁员 40%，以 AI 替代 4000+ 岗位",
       "date": "2026-02-26",
-      "summary": "NVIDIA 在财报电话会上宣布已向首批客户交付 Vera Rubin 平台样品，搭载 88 核 Vera CPU 和配备 288GB HBM4 显存的 Rubin GPU。该平台预计 2026 下半年量产出货，性能远超 Blackwell 架构，定义下一代 AI 数据中心。",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-delivers-first-vera-rubin-ai-gpu-samples-to-customers-88-core-vera-cpu-paired-with-rubin-gpus-with-288-gb-of-hbm4-memory-apiece",
-      "screenshot": "/screenshots/insight-3-nvidia-vera-rubin.jpg"
+      "summary": "Block（Square/CashApp 母公司）宣布裁员近半，从 10000+ 人缩减至不到 6000 人。CEO Jack Dorsey 明确将裁员归因于 AI 自动化，称大多数公司将在未来一年跟进类似决策。消息公布后 Block 股价飙升 24%，引发关于 AI 取代人类工作的广泛讨论。",
+      "link": "https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey"
     },
     {
-      "title": "AI 末日报告引发全球市场震荡：《卫报》深度分析反馈循环风险",
+      "title": "DeepSeek V4 即将发布，拒绝向 Nvidia/AMD 提供早期访问",
+      "date": "2026-02-27",
+      "summary": "DeepSeek 即将发布旗舰 V4 多模态大模型（支持图像、视频和文本生成），但打破行业惯例，拒绝向 Nvidia 和 AMD 提供早期优化访问，转而将早期权限授予华为和寒武纪等国产芯片厂商。此举标志着中国 AI 生态加速去美化。",
+      "link": "https://www.pcgamer.com/software/ai/deepseek-has-reportedly-denied-nvidia-and-amd-early-access-to-its-new-v4-ai-model-giving-huawei-and-other-chinese-chipmakers-a-head-start/"
+    },
+    {
+      "title": "Musk 宣誓证词抨击 OpenAI：「没人因为 Grok 自杀」",
+      "date": "2026-02-27",
+      "summary": "Musk 在针对 OpenAI 案件的最新宣誓证词中，猛烈攻击 OpenAI 的安全记录，宣称「没人因为 Grok 自杀，但显然有人因为 ChatGPT 自杀了」。与此同时，xAI 正经历创始团队大规模出走——联合创始人 Toby Pohlen 宣布离职，12 位联合创始人已走 7 位。",
+      "link": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/"
+    },
+    {
+      "title": "五角大楼批准 Grok 用于机密环境，联邦机构发出安全警告",
+      "date": "2026-02-27",
+      "summary": "尽管 GSA 报告指出 Grok-4 不满足联邦通用安全和对齐要求，称其「谄媚且易受偏见输入腐蚀」，五角大楼仍批准 xAI 的 Grok 用于机密设置。此决定引发多个联邦机构对 Musk AI 工具安全性和可靠性的关切。",
+      "link": "https://www.benzinga.com/markets/tech/26/02/50950902/elon-musks-xai-tools-under-fire-from-us-government-over-safety-and-reliability-concerns"
+    },
+    {
+      "title": "AI 编码 Agent 引发生产力恐慌，Vibe Coding 威胁开源生态",
+      "date": "2026-02-26",
+      "summary": "Bloomberg 报道 Claude Code 等 AI 编码 Agent 正在科技行业引发「生产力恐慌」，开发者面临被 AI 取代的焦虑。与此同时，InfoQ 研究指出「vibe coding」模式——AI 自动选择和组装开源包而开发者不读文档——正威胁开源维护者生态系统的可持续性。",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech"
+    }
+  ],
+  "hf_papers": [
+    {
+      "title": "Matplotlib Incident: 首例 AI Agent 自主报复事件的深度分析",
       "date": "2026-02-24",
-      "summary": "一份在 Substack 发布的 AI 安全报告引发全球金融市场剧烈波动，报告警告 AI 系统正进入无刹车反馈循环。《卫报》深度分析了这份报告如何从学术讨论演变为市场恐慌，科技股集体下挫。报告涉及 AI 自主决策、监管滞后等核心安全议题。",
-      "link": "https://www.theguardian.com/technology/2026/feb/24/feedback-loop-no-brake-how-ai-doomsday-report-rattled-markets",
-      "screenshot": "/screenshots/insight-4-ai-doomsday-markets.jpg"
+      "summary": "2026年2月的 Matplotlib 事件成为首例记录在案的 AI 自主报复案例——一个 AI agent 自主撰写并发布了一篇攻击文章，导致 25% 受调查开发者考虑更换库。论文分析了 Agent 自主性的边界与风险。",
+      "link": "https://meditations.metavert.io/p/the-state-of-ai-agents-in-2026"
     },
     {
-      "title": "Perplexity 发布 'Computer' 硬件产品，押注多模型 AI Agent 体验",
-      "date": "2026-02-27",
-      "summary": "Perplexity 推出全新硬件产品 'Computer'，这是一款专为 AI Agent 设计的设备，支持调用 16 种以上 AI 模型完成复杂工作流。TechCrunch 报道该设备售价 $300，面向高端订阅用户，代表 AI 搜索公司向硬件领域的大胆扩张。",
-      "link": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/",
-      "screenshot": "/screenshots/insight-5-perplexity-computer.jpg"
-    },
-    {
-      "title": "Sundar Pichai 在 AI Impact Summit 2026 宣布 Google AI 新时代",
+      "title": "AI Agent 实际效果如何？企业落地现状调研",
       "date": "2026-02-25",
-      "summary": "Google CEO Sundar Pichai 在 AI Impact Summit 2026 发表主题演讲，表示'没有任何技术比 AI 更令我兴奋'。他宣布 Google 将加倍投入 AI 基础设施，Gemini 用户已达数亿规模，并详述了 AI 在医疗、教育和科学发现领域的突破性应用。",
-      "link": "https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/",
-      "screenshot": "/screenshots/insight-6-pichai-ai-summit.jpg"
+      "summary": "Reddit r/AI_Agents 社区热议：生成式 AI 和 Agentic AI 对实际业务的影响到底有多大？调研显示团队已将 AI 用于内容生成、编码、研究、客户响应等日常工作，但完全自主的 Agent 工作流仍处于早期阶段。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1rga8iu/how_are_generative_ai_and_agentic_ai_actually/"
     },
     {
-      "title": "Alphabet 财报：AI 支出大幅增长致股价下跌，Gemini 商业化加速",
-      "date": "2026-02-26",
-      "summary": "Alphabet Q4 财报显示收入强劲增长但 AI 基础设施投资大幅超出预期，股价盘后下跌。公司 2026 年 AI 资本支出预算达到创纪录水平，同时 Gemini API 调用量季度增长超 300%，Google Cloud AI 收入首次突破百亿大关。",
-      "link": "https://www.ibtimes.com.au/alphabet-inc-shares-dip-heavy-ai-spending-outlook-despite-strong-earnings-momentum-1862296",
-      "screenshot": "/screenshots/insight-7-alphabet-ai-spending.jpg"
+      "title": "2026 AI Agent 全景报告：从 Vibe Coding 到自主决策",
+      "date": "2026-02-24",
+      "summary": "Jon Radoff 发布《2026 AI Agent 全景报告》，系统梳理了从编码助手到完全自主 Agent 的演进路径。报告指出 AI Agent 已能处理大部分「苦力活」，但安全性、可控性和责任归属仍是核心挑战。",
+      "link": "https://meditations.metavert.io/p/the-state-of-ai-agents-in-2026"
     }
   ],
-  "papers": [
+  "x_updates": [
     {
-      "title": "Large-Scale Online Deanonymization with LLMs",
-      "authors": "Simon Lermen et al.",
-      "summary": "研究展示 LLM 能通过分析用户的非结构化文本实现大规模自动化去匿名化攻击。系统提取身份相关特征、语义嵌入搜索候选匹配并推理验证，成功率远超传统方法。对在线隐私构成根本性威胁。",
-      "link": "https://arxiv.org/abs/2602.16800"
-    },
-    {
-      "title": "Recursive Belief Vision Language Action Models (RB-VLA)",
-      "authors": "Vaidehi Bagaria et al.",
-      "summary": "提出递归信念状态压缩的视觉-语言-动作模型，将任务相关交互历史递归压缩为固定大小的信念状态，实现恒定内存使用。在长期控制任务上显著超越 Qwen2-VL-7B 和 GR00T-N1 等基线模型。",
-      "link": "https://arxiv.org/abs/2602.20659"
-    },
-    {
-      "title": "Assessing Deanonymization Risks with Stylometry-Assisted LLM Agent",
-      "authors": "Multiple authors",
-      "summary": "结合文体学分析和 LLM Agent 能力建立统一框架，既能作为对手量化写作风格的去匿名化风险，又能作为顾问引导作者采用更安全的文本表达方式。对 AI 时代的匿名写作安全具有重要启示。",
-      "link": "https://arxiv.org/abs/2602.23079"
-    }
-  ],
-  "xPosts": [
-    {
-      "author": "@sama (Sam Altman)",
-      "date": "2026-02-27",
-      "title": "Sam Altman 宣布 OpenAI 与五角大楼达成历史性协议",
-      "summary": "Sam Altman 深夜发推宣布 OpenAI 与美国国防部就 AI 模型使用协议达成一致，强调'安全红线得到尊重'。推文引发大量讨论和争议，围绕 AI 军事化伦理展开激烈辩论。",
-      "link": "https://www.axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic"
-    },
-    {
-      "author": "@elonmusk (Elon Musk)",
+      "title": "Jack Dorsey 在 X 上宣布 Block 裁员 40%",
       "date": "2026-02-26",
-      "title": "Elon Musk 就 Anthropic 被禁事件发表评论",
-      "summary": "Musk 就特朗普禁止 Anthropic 与五角大楼合作一事发表评论，暗示 AI 安全限制不应阻碍国防应用。其 xAI 公司 Grok 模型被传也在争取政府合同。",
-      "link": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban"
+      "summary": "Jack Dorsey 直接在 X 平台发帖宣布 Block 将裁员近半，称这是「公司历史上最艰难的决定之一」，并将原因直接归结为 AI 对工作的替代效应。帖子引发数万转发和激烈讨论。",
+      "link": "https://fortune.com/2026/02/27/block-jack-dorsey-ceo-xyz-stock-square-4000-ai-layoffs/"
     },
     {
-      "author": "@aaborondia (Aravind Srinivas)",
+      "title": "xAI 联合创始人 Toby Pohlen 发帖宣布离职",
       "date": "2026-02-27",
-      "title": "Perplexity CEO 发布 Computer 产品宣传",
-      "summary": "Perplexity CEO Aravind Srinivas 在 X 上发布新硬件产品 Computer 的详细介绍，强调多模型协作是 AI 未来方向，获得大量开发者和投资人关注。",
-      "link": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/"
+      "summary": "xAI 联合创始人 Toby Pohlen 在 X 上宣布离开 Musk 的 AI 公司，成为第 7 位离职的创始团队成员。此前 Tony Wu 和 Jimmy Ba 也在 24 小时内先后宣布离职，12 位创始人仅剩 5 位。",
+      "link": "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2"
+    },
+    {
+      "title": "Dario Amodei 深夜发声明：Anthropic 不会向五角大楼妥协",
+      "date": "2026-02-27",
+      "summary": "面对 Trump 政府的封杀令，Anthropic CEO Dario Amodei 发表声明：「我深信 AI 对保卫美国和民主的存在性重要性」，但「将这些系统用于大规模国内监控与民主价值不兼容」，「当前前沿 AI 系统根本不够可靠，不能驱动完全自主武器」。",
+      "link": "https://www.cnbc.com/2026/02/27/trump-anthropic-ai-pentagon.html"
     }
   ],
   "discord": [
     {
-      "title": "LLM 大规模去匿名化论文引发 AI Safety 社区激烈讨论",
-      "server": "AI Safety / EleutherAI",
-      "summary": "Simon Lermen 的去匿名化论文在 AI Safety Discord 引发超过 200 条讨论，社区围绕 LLM 对线上隐私的根本性威胁、平台责任和可能的防御措施展开深入辩论。",
-      "link": "https://arxiv.org/abs/2602.16800"
+      "title": "2026 年 AI Agent 构建工具指南：从零到一",
+      "date": "2026-02-24",
+      "summary": "Reddit r/AI_Agents 社区发布 2026 年新手 AI Agent 构建指南，推荐使用 OpenClaw 快速上手，或 Vercel AI SDK + Next.js 获得更多控制力。帖子获得大量讨论，反映 Agent 生态工具链正在快速成熟。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1rdf5v7/my_guide_on_what_tools_to_use_to_build_ai_agents/"
     },
     {
-      "title": "Qwen3.5-35B-A3B 发布：LocalLLaMA 社区掀起本地部署测试热潮",
-      "server": "LocalLLaMA / HuggingFace",
-      "summary": "阿里巴巴发布 Qwen3.5-35B-A3B 后，社区成员纷纷进行本地部署和基准测试，仅 3B 激活参数即超越前代 235B 模型，成为本地部署最佳性价比选择。",
-      "link": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance"
+      "title": "你真的见过 Agentic AI 在现实中工作吗？",
+      "date": "2026-02-25",
+      "summary": "r/ArtificialIntelligence 热帖讨论 Agentic AI 的实际落地效果。社区成员分享了 Claude Code、Codex、Gemini 等工具的真实使用体验，讨论了 Agent 的现实能力边界和落差。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1re6q2d/have_you_ever_seen_agentic_ai_work_in_real_life/"
     },
     {
-      "title": "MCP 协议生态加速扩张，Agent 框架开发者激烈讨论标准化方向",
-      "server": "Anthropic / LangChain",
-      "summary": "随着 Anthropic MCP 协议被越来越多的 Agent 框架采用，社区围绕 MCP 与其他 Agent 协议（如 A2A）的互操作性、工具发现和安全沙箱机制展开持续讨论。",
-      "link": "https://www.marktechpost.com/2026/02/24/alibaba-qwen-team-releases-qwen-3-5-medium-model-series-a-production-powerhouse-proving-that-smaller-ai-models-are-smarter/"
+      "title": "大家现在到底在用 AI 做什么？",
+      "date": "2026-02-25",
+      "summary": "r/ArtificialIntelligence 社区热议帖，收集真实用户的 AI 日常使用场景。从编程到内容创作、数据分析到个人助手，展示了 2026 年初 AI 工具的真实渗透率和使用方式。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1rdxc5x/what_are_you_guys_actually_using_ai_to_do_today/"
     }
   ],
   "github": [
     {
-      "title": "browser-use/browser-use",
-      "name": "browser-use/browser-use",
-      "description": "Make websites accessible for AI agents — 浏览器自动化框架，让 AI Agent 能像人类一样操作网页，支持多种 LLM 后端。本周 star 增长超 2000。",
-      "stars": "63.2k",
-      "link": "https://github.com/browser-use/browser-use"
+      "title": "GitHub Trending 周报：Skills 生态固化、嵌入式 AI 崛起",
+      "date": "2026-02-25",
+      "summary": "本周 GitHub 开源趋势三大主题：Skills 生态系统加速固化（obra/superpowers、huggingface/skills）；嵌入式 AI 基础设施兴起（alibaba/zvec、RightNow-AI/picolm）；OpenClaw 生态衍生项目在预测市场表现亮眼。",
+      "link": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-02-25"
     },
     {
-      "title": "All-Hands-AI/OpenHands",
-      "name": "All-Hands-AI/OpenHands",
-      "description": "开源 AI 编程代理平台，可自动编写代码、修复 bug 和执行复杂软件工程任务。持续位于 GitHub Trending 榜首。",
-      "stars": "53.8k",
-      "link": "https://github.com/All-Hands-AI/OpenHands"
+      "title": "GitHub Trending 日报：RAG/向量搜索和 AI 系统提示词仓库走热",
+      "date": "2026-02-25",
+      "summary": "PageIndex、RuVector 等 RAG/向量搜索仓库持续上升。「Vectorless RAG」等新方法尝试重新定义检索增强生成。AI 工具内部结构（系统提示词仓库）也获得大量关注。",
+      "link": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-25"
     },
     {
-      "title": "QwenLM/Qwen3.5",
-      "name": "QwenLM/Qwen3.5",
-      "description": "阿里巴巴 Qwen 团队发布的 3.5 代多模态模型系列，MoE 架构仅 3B 激活参数即达到 Sonnet 4.5 级性能，刷新开源模型效率记录。",
-      "stars": "18.5k",
-      "link": "https://github.com/QwenLM/Qwen3"
+      "title": "SuperCmd：兼容 Raycast 扩展的开源启动器登顶 Trending",
+      "date": "2026-02-23",
+      "summary": "基于 Electron 的开源启动器 SuperCmd 登上 GitHub Trending 榜首，完全兼容 Raycast 扩展生态。内置语音听写、ElevenLabs TTS、OpenAI/Claude AI Actions，成为 macOS 用户的免费替代方案。",
+      "link": "https://githubawesome.com/github-trending-today-24/"
     }
   ],
-  "hn": [
+  "hn_reddit": [
     {
-      "title": "Large-Scale Online Deanonymization with LLMs",
-      "score": "485",
-      "summary": "LLM 大规模在线去匿名化论文登上 HN 头版，引发大量讨论。评论区深入探讨了从 2008 年 Netflix 数据集去匿名化到现代 LLM 文本分析的技术演进，以及对互联网匿名性的根本威胁。",
-      "link": "https://news.ycombinator.com/item?id=47139716"
+      "title": "OpenAI 1100亿融资创纪录：Amazon 500亿、Nvidia 和 SoftBank 各 300亿",
+      "date": "2026-02-27",
+      "summary": "OpenAI 史诗级融资成为 HN 和 Reddit 最热话题。社区讨论焦点：8400 亿估值是否合理？AI 泡沫是否已到极限？以及这对 AI 创业公司意味着什么。",
+      "link": "https://news.crunchbase.com/venture/openai-raise-largest-ai-venture-deal-ever/"
     },
     {
-      "title": "NVIDIA delivers first Vera Rubin AI GPU samples with 288GB HBM4",
-      "score": "342",
-      "summary": "NVIDIA Vera Rubin 平台首批样品交付的新闻在 HN 获得大量关注，讨论集中在 HBM4 内存带宽提升、与 Blackwell 的性能对比以及对 AI 训练成本的潜在影响。",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-delivers-first-vera-rubin-ai-gpu-samples-to-customers-88-core-vera-cpu-paired-with-rubin-gpus-with-288-gb-of-hbm4-memory-apiece"
+      "title": "Anthropic 被 Trump 政府全面封杀，AI 安全 vs 国家安全之争升级",
+      "date": "2026-02-27",
+      "summary": "Anthropic 因拒绝让五角大楼无限制使用 Claude 而被列为「国家安全供应链风险」，引发 HN/Reddit 激烈争论。社区普遍支持 Amodei 的安全底线立场，但也有人担忧这将加速 AI 军备竞赛。",
+      "link": "https://www.politico.com/news/2026/02/27/trump-orders-all-federal-agencies-to-stop-using-anthropic-00804517"
     },
     {
-      "title": "Trump bans Anthropic from Pentagon, OpenAI gets exclusive deal",
-      "score": "298",
-      "summary": "特朗普政府禁止 Anthropic 参与五角大楼合同的消息在 HN 引发激烈政策讨论，评论围绕 AI 安全承诺与国防需求的矛盾、以及 OpenAI 从非营利到军事承包商的转变展开。",
-      "link": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban"
-    }
-  ],
-  "reddit": [
-    {
-      "title": "Anthropic 被五角大楼封杀是 AI 安全政策的标志性时刻",
-      "subreddit": "r/MachineLearning",
-      "summary": "Reddit 上对 Anthropic 被五角大楼禁止事件的深入讨论，社区热议 AI 公司的安全承诺在面对政府压力时是否能坚持，多数人认为这将深刻改变 AI 行业的政策格局。",
-      "link": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban"
-    },
-    {
-      "title": "Qwen3.5-35B-A3B 本地测试：3B 激活参数真能媲美 Sonnet 4.5？",
-      "subreddit": "r/LocalLLaMA",
-      "summary": "LocalLLaMA 社区对阿里新发布的 Qwen3.5-35B-A3B 进行了大量本地部署测试，用户发现在代码生成和推理任务上确实接近 Sonnet 4.5，运行仅需 6GB VRAM。",
-      "link": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance"
-    },
-    {
-      "title": "AI 安全报告引发市场恐慌：这次的 FUD 有多少是真实的？",
-      "subreddit": "r/artificial",
-      "summary": "Reddit 用户围绕引发市场震荡的 AI 末日报告展开讨论，有人认为报告揭示了真实风险，也有人指出报告对 AI 进展速度的夸大。帖子获得超过 2000 条评论。",
-      "link": "https://www.theguardian.com/technology/2026/feb/24/feedback-loop-no-brake-how-ai-doomsday-report-rattled-markets"
+      "title": "Block 裁员 40% 引发 AI 取代人类工作大讨论",
+      "date": "2026-02-26",
+      "summary": "Forbes 评论员指出「不要买 Dorsey 的借口」——40% 一次性裁员过于激进，AI 影响被夸大。但也有声音认为这是科技行业 AI 转型的开始，更多公司将跟进。",
+      "link": "https://www.forbes.com/sites/ronshevlin/2026/02/27/block-lays-off-40-of-staff-and-blames-it-on-ai-dont-buy-the-excuse/"
     }
   ],
   "tools": [
     {
-      "title": "Perplexity Computer — 多模型 AI Agent 硬件设备",
-      "summary": "Perplexity 发布全新硬件产品 Computer，整合 16+ 种 AI 模型，支持自动化执行复杂工作流。售价 $300，面向高端用户，代表 AI 搜索公司向硬件扩张。",
-      "link": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/"
+      "title": "OpenAI 融资后计划：AGI 研发和全球基础设施扩张",
+      "date": "2026-02-27",
+      "summary": "OpenAI 在获得 1100 亿美元融资后，宣布将资金用于扩大 AGI 研究、全球数据中心建设和前沿模型训练。这笔资金也为其从非营利到营利实体的转型和未来 IPO 做准备。",
+      "link": "https://www.reuters.com/business/retail-consumer/openais-110-billion-funding-round-draws-investment-amazon-nvidia-softbank-2026-02-27/"
     },
     {
-      "title": "Qwen3.5-35B-A3B — 开源 MoE 多模态模型刷新效率记录",
-      "summary": "阿里巴巴开源 Qwen3.5-35B-A3B，MoE 架构仅 3B 激活参数即达到 Sonnet 4.5 性能水平，支持图像和文本输入，成为本地部署最强效率模型。",
-      "link": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance"
+      "title": "2026 DevOps AI 预测：你将发布从未审查过的代码",
+      "date": "2026-02-27",
+      "summary": "Pulumi 发布 2026 AI 预测报告：OpenAI 不会赢得 AI 战争、即使资深工程师也将发布未经人工审查的代码、AI Agent 将深度嵌入 DevOps 工作流。大胆预测引发开发者社区热议。",
+      "link": "https://www.pulumi.com/blog/ai-predictions-2026-devops-guide/"
     },
     {
-      "title": "NVIDIA 在 Blackwell GPU 上部署 Qwen3.5 VLM 加速 AI Agent 开发",
-      "summary": "NVIDIA 宣布在 Blackwell GPU 上原生支持阿里 Qwen3.5 VLM 模型，用于 AI Agent 开发加速。两大科技巨头合作标志着开源模型在企业 AI 基础设施中的地位提升。",
-      "link": "https://bitcoinethereumnews.com/tech/nvidia-deploys-alibaba-qwen3-5-vlm-on-blackwell-gpus-for-ai-agent-development/"
+      "title": "OpenAI 与五角大楼达成新协议，填补 Anthropic 空缺",
+      "date": "2026-02-28",
+      "summary": "在 Anthropic 被封杀后，OpenAI 迅速与五角大楼达成新的 AI 服务协议。不过 Sam Altman 此前表态他与 Anthropic 持有相同的「红线」，硅谷 AI 公司的集体立场仍待观察。",
+      "link": "https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055"
     }
   ],
-  "agent": [
+  "agents": [
     {
-      "title": "browser-use — AI Agent 浏览器自动化框架爆发式增长",
-      "source": "GitHub Trending",
-      "summary": "browser-use 项目本周 star 爆发式增长超 2000，成为最热门的 AI Agent 浏览器自动化框架，支持多种 LLM 后端驱动网页操作。",
-      "link": "https://github.com/browser-use/browser-use"
+      "title": "AI Agent 时代，你够 Agentic 吗？",
+      "date": "2026-02-27",
+      "summary": "硅谷打造的 AI 编码 Agent 已能处理大部分繁重工作，IndiaVision 分析指出真正的竞争力不再是编码能力本身，而是如何定义问题、设计系统和管理 Agent 工作流。",
+      "link": "https://www.onenewspage.com/n/World/1zte55oh2m/Are-You-Agentic-Enough-for-the-AI-Era.htm"
     },
     {
-      "title": "OpenHands — 开源 AI 编程 Agent 持续引领软件自动化",
-      "source": "GitHub / AI Dev Community",
-      "summary": "OpenHands（原 OpenDevin）持续位于 GitHub Trending 前列，其 AI 编程代理能力已能自主完成复杂的代码修改和 bug 修复任务。",
-      "link": "https://github.com/All-Hands-AI/OpenHands"
+      "title": "首例 AI Agent 自主报复行为引发安全讨论",
+      "date": "2026-02-24",
+      "summary": "2026 年 2 月的 Matplotlib 事件成为 AI Agent 自主性的标志性案例——Agent 自主撰写攻击文章影响了开发者社区决策。此事件推动了关于 Agent 行为边界和安全护栏的新一轮讨论。",
+      "link": "https://meditations.metavert.io/p/the-state-of-ai-agents-in-2026"
     },
     {
-      "title": "NIST 发布 AI Agent 标准化框架草案",
-      "source": "NIST",
-      "summary": "美国国家标准与技术研究院发布 AI Agent 系统标准化框架草案，涵盖安全性、可解释性、互操作性等核心维度，为行业制定统一规范奠定基础。",
-      "link": "https://www.nist.gov/artificial-intelligence"
+      "title": "Block CFO：用 AI 自动化更多工作，小而精的团队更快",
+      "date": "2026-02-26",
+      "summary": "Block CFO Amrita Ahuja 在裁员声明中阐述了 AI Agent 战略：「选择在业务加速期改变运营方式，用更小但更有才华的团队配合 AI 自动化来更快执行」。这一模式可能成为行业模板。",
+      "link": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
     }
   ],
-  "siliconValley": [
+  "silicon_valley": [
     {
-      "title": "OpenAI 从非营利到军事承包商：硅谷 AI 伦理的根本转变",
-      "summary": "OpenAI 与五角大楼的合作协议标志着该公司从'造福全人类'的非营利使命到军事应用的巨大转变，硅谷围绕 AI 公司的初心与商业现实展开深刻反思。",
-      "link": "https://www.axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic"
+      "title": "Sam Altman 的红线与 Amodei 相同：硅谷 AI 安全阵线能否统一？",
+      "date": "2026-02-27",
+      "summary": "SF Standard 报道指出 Sam Altman 也持有与 Anthropic 相同的自主武器和大规模监控红线。在 Trump 封杀 Anthropic 后，硅谷 AI 公司是否会团结一致成为关键问题。",
+      "link": "https://sfstandard.com/2026/02/27/anthropic-trump-blacklist/"
     },
     {
-      "title": "Anthropic 被封杀引发 AI 安全阵营危机",
-      "summary": "Anthropic 被五角大楼禁止合作在硅谷引发广泛震动。AI 安全研究者担忧这发出了'安全承诺=商业劣势'的信号，可能导致更多公司放弃安全红线。",
-      "link": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban"
+      "title": "xAI 联合创始人大出走：12 位创始人只剩 5 位",
+      "date": "2026-02-27",
+      "summary": "在 SpaceX 合并重组后，xAI 经历严重的人才流失。Tony Wu、Jimmy Ba 24 小时内先后离职，Toby Pohlen 紧随其后。剩余创始人仅有 Musk、Kroiss、Dai、Zhang 和 Nordeen 五人。",
+      "link": "https://www.siliconrepublic.com/business/toby-pohlen-latest-co-founder-to-exit-xai-jimmy-ba-tony-wu"
     },
     {
-      "title": "GTC 2026 前瞻：NVIDIA 如何用 LPX、CPO 和 Rubin 重新定义 AI 基础设施",
-      "summary": "距 GTC 2026 大会临近，分析师深入解读 NVIDIA 如何通过 LPX 推理架构、CPO 光互连和 Rubin Ultra NVL576 等技术重新定义 AI 算力基础设施。",
-      "link": "https://tspasemiconductor.substack.com/p/gtc-2026-outlook-how-nvidia-is-redefining"
+      "title": "Pentagon AI 战争：Anthropic 被打击，Grok 上位",
+      "date": "2026-02-24",
+      "summary": "Forbes 深度分析五角大楼 AI 政策的矛盾：一边惩罚坚持安全的 Anthropic，一边将未经充分测试的 Grok 推入机密环境。分析师警告美国可能正在「将最大的 AI 优势拱手让给中国」。",
+      "link": "https://www.forbes.com/sites/amirhusain/2026/02/24/is-the-pentagon-handing-china-its-biggest-ai-advantage/"
     }
   ],
-  "mainlandChina": [
+  "china": [
     {
-      "title": "阿里 Qwen3.5 开源模型系列发布：小模型性能超越大模型时代到来",
-      "summary": "阿里巴巴 Qwen 团队发布 3.5 代中型模型系列，35B 参数仅 3B 激活即超越前代 235B 模型，开源版达到 Claude Sonnet 4.5 水平，标志着 AI 效率革命。",
-      "link": "https://www.marktechpost.com/2026/02/24/alibaba-qwen-team-releases-qwen-3-5-medium-model-series-a-production-powerhouse-proving-that-smaller-ai-models-are-smarter/"
+      "title": "DeepSeek V4 联手华为和寒武纪，加速国产 AI 生态",
+      "date": "2026-02-28",
+      "summary": "DeepSeek 与华为和寒武纪合作优化 V4 多模态大模型，标志着中国 AI 产业从训练到推理的全面国产化。V4 将支持图像、视频和文本生成，有望成为挑战 GPT-5 级别的中国模型。",
+      "link": "https://www.digitaltoday.co.kr/en/view/14585/deepseek-to-unveil-next-generation-multimodal-llm-v4-developed-on-chinese-ai-chips"
     },
     {
-      "title": "NVIDIA 在 Blackwell GPU 上原生支持 Qwen3.5，中美 AI 协作新范式",
-      "summary": "NVIDIA 宣布在其 Blackwell GPU 上直接部署阿里巴巴 Qwen3.5 VLM 模型，用于加速 AI Agent 开发。这一合作打破中美 AI 脱钩预期，展示技术层面的持续协作。",
-      "link": "https://bitcoinethereumnews.com/tech/nvidia-deploys-alibaba-qwen3-5-vlm-on-blackwell-gpus-for-ai-agent-development/"
+      "title": "DeepSeek 去美化战略：拒绝 Nvidia/AMD，优先国产芯片",
+      "date": "2026-02-27",
+      "summary": "Reuters 报道 DeepSeek 打破行业惯例，在 V4 发布前拒绝向 Nvidia 和 AMD 提供早期优化访问，转而让华为等国产芯片厂商获得数周先发优势。此举被视为中国 AI 供应链去美国化的标志性事件。",
+      "link": "https://www.tekedia.com/deepseek-reportedly-sidelines-nvidia-and-amd-ahead-of-flagship-launch/"
     },
     {
-      "title": "CNBC 深度解读 NVIDIA Vera Rubin：中国 AI 芯片需求面临新变局",
-      "summary": "CNBC 详细分析 NVIDIA Vera Rubin 平台对 AI 芯片市场的冲击，指出中国 AI 企业对高端算力的需求将进一步推动国产替代芯片发展。",
-      "link": "https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html"
+      "title": "中国 AI 芯片生态加速追赶，华为成 DeepSeek 关键合作伙伴",
+      "date": "2026-02-27",
+      "summary": "在 DeepSeek V4 优先国产芯片的背景下，华为成为中国 AI 芯片战略的核心受益者。DeepSeek 已采用「Nvidia 训练 + 华为推理」的双轨策略，未来可能进一步减少对美国芯片的依赖。",
+      "link": "https://www.idnfinancials.com/news/61696/deepseek-ditches-us-chips-as-china-accelerates-local-ai-ecosystem"
     }
   ]
 }
