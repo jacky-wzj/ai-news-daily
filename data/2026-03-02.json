@@ -1,0 +1,248 @@
+{
+  "date": "2026-03-02",
+  "insights": [
+    {
+      "title": "#CancelChatGPT 运动爆发：OpenAI 签约五角大楼引发用户大规模退订",
+      "date": "2026-03-01",
+      "summary": "OpenAI 与五角大楼达成 AI 军事合作协议后，#CancelChatGPT 话题席卷社交媒体。超过 200 名 Google 和 OpenAI 员工联署公开信呼吁限制军事 AI 使用。Anthropic 此前因拒绝为大规模监控和自主武器提供技术而被 Trump 下令封禁，Claude 应用商店下载量暴涨登顶。",
+      "link": "https://www.windowscentral.com/artificial-intelligence/cancel-chatgpt-movement-goes-mainstream-after-openai-closes-deal-with-u-s-department-of-war-as-anthropic-refuses-to-surveil-american-citizens"
+    },
+    {
+      "title": "Sam Altman 周六深夜 AMA 回应五角大楼交易五大关键要点",
+      "date": "2026-03-01",
+      "summary": "Sam Altman 在宣布五角大楼交易后举行紧急 AMA 问答。他表示 OpenAI 将保留技术安全护栏控制权，限制模型仅在云环境而非边缘系统部署，明确禁止用于大规模国内监控和自主致命武器。但批评者认为这些承诺缺乏独立监督机制。",
+      "link": "https://www.businessinsider.com/takeaways-sam-altman-openai-pentagon-deal-ask-me-anything-2026-3"
+    },
+    {
+      "title": "Cloudflare 一人一周用 AI 重建 Next.js：vinext 开源发布",
+      "date": "2026-02-27",
+      "summary": "Cloudflare 工程总监用 Claude 花费约 1100 美元 token 费用，仅一周便重建了 94% 的 Next.js API 表面。vinext 基于 Vite，构建速度快 4.4 倍，客户端包体积缩小 57%，一键部署至 Cloudflare Workers。项目在 HN 引爆讨论。",
+      "link": "https://blog.cloudflare.com/vinext/"
+    },
+    {
+      "title": "Nvidia Blackwell Ultra GB300 部署加速：GIGABYTE 在 MWC 2026 展示电信 AI 全栈方案",
+      "date": "2026-03-02",
+      "summary": "GIGABYTE 在 MWC 2026 展示基于 Nvidia GB300 NVL72 的电信 AI 基础设施，该液冷机架集成 72 块 Blackwell Ultra GPU 和 36 颗 Grace CPU。同时 Nvidia 芯片出口管控风波持续，美国官员调查 Blackwell 芯片与 DeepSeek 训练的关联。",
+      "link": "https://aijourn.com/gigabyte-powers-telecom-ai-transformation-with-end-to-end-infrastructure-at-mwc-2026/"
+    },
+    {
+      "title": "Meta 与 Nvidia 达成大规模 GPU 合作：「数百万块」Blackwell 和 Rubin GPU",
+      "date": "2026-02-26",
+      "summary": "Meta 与 Nvidia 签署大规模 GPU 采购协议，将部署「数百万块」Blackwell 和 Rubin GPU 用于训练和推理。初期以 GB300 系统为主，聚焦推理场景，部分产能通过云合作伙伴（含 CoreWeave、Lambda 等新兴云厂商）提供。",
+      "link": "https://www.nextplatform.com/compute/2026/02/18/some-game-theory-on-that-nvidia-meta-platforms-partnership/4092165"
+    },
+    {
+      "title": "MWC 2026：Honor Robot Phone 和人形机器人亮相，AI 成最大亮点",
+      "date": "2026-03-02",
+      "summary": "MWC 2026 在巴塞罗那开幕，AI 成绝对主角。Honor 发布 Robot Phone 概念手机和人形机器人，推进 ALPHA PLAN 三大支柱；Lenovo 展示 AI Workmate 物理助手；TECNO 亮相模块化手机。The Verge、Engadget 等密集报道。",
+      "link": "https://www.honor.com/global/news/honor-mwc2026-launch/"
+    },
+    {
+      "title": "NanoClaw：容器化 OpenClaw 替代方案登上 The Register，Karpathy 点赞",
+      "date": "2026-03-01",
+      "summary": "NanoClaw 作为 OpenClaw 的容器化版本登上 The Register 报道。核心引擎约 4000 行代码，所有操作默认在容器中运行。Andrej Karpathy 发帖称赞其「适合放进我脑子里，也适合放进 AI Agent 脑子里」的简洁设计哲学。",
+      "link": "https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "2026 AI Agent 全景报告更新版：从 Coding Agent 到 Agentic Engineering",
+      "authors": "The New Stack / B. Cameron Gain",
+      "summary": "深入分析 AI Agent 如何从「vibe coding」演变为严肃的 agentic engineering。Karpathy 希望淡化他发明的 vibe coding 一词，行业分析师和开发者认为真正的故事是底层实践变化之快前所未有。",
+      "link": "https://thenewstack.io/vibe-coding-agentic-engineering/"
+    },
+    {
+      "title": "February 2026 AI Roundup: Agents Take the Wheel",
+      "authors": "Joel J Stephen / Dev.to",
+      "summary": "系统回顾 2026 年 2 月 AI Agent 领域爆发：Claude 3.5 升级电脑操作能力、GPT-5 集成 Agent 工具链、Google Gemini 2.0 Flash 多模态 Agent 框架，以及开源社区 AutoGen 和 CrewAI 的快速迭代。Agent 正式进入生产环境。",
+      "link": "https://dev.to/joeljstephen/february-2026-ai-roundup-agents-take-the-wheel-11jo"
+    },
+    {
+      "title": "Nvidia Blackwell Ultra B300/GB300 NVL72 Guide: AI推理成本降低 40%",
+      "authors": "AceCloud AI 研究团队",
+      "summary": "详细评测 Nvidia Blackwell Ultra 架构：GB300 NVL72 液冷机架平台每 token 总成本降低 40%，长上下文推理吞吐量大幅提升。Omdia 预测 AI 数据中心芯片市场将在 2030 年达到 2860 亿美元。",
+      "link": "https://acecloud.ai/blog/nvidia-blackwell-ultra-b300-gb300-guide/"
+    },
+    {
+      "title": "MWC 2026 全览：Honor Robot Phone、Xiaomi 联名 Leica、AI 硬件爆发",
+      "authors": "Engadget 编辑部",
+      "summary": "Engadget 整理 MWC 2026 所有重要发布：Honor Robot Phone 搭载三轴稳定万向节、AI 对象追踪；Xiaomi 联名 Leica Leitzphone；Lenovo AI Workmate 物理助手可扫描文档、投影演示；多家厂商展示端侧 AI 芯片方案。",
+      "link": "https://www.engadget.com/mobile/everything-announced-at-mwc-2026-honors-robot-phone-the-new-leica-leitzphone-by-xiaomi-and-more-172442140.html"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy：编程已「面目全非」，Coding Agent 自去年12月起真正可用",
+      "author": "@karpathy",
+      "date": "2026-02-26",
+      "summary": "Karpathy 长文称 AI 编码 Agent 在去年 12 月之前「基本不 work」，但之后发生了相变。他用周末让 AI 在 30 分钟内建成了家庭摄像头视频分析仪表板，称自己「从未感到如此落后」。帖子引爆全球开发者社区讨论。",
+      "link": "https://the-decoder.com/andrej-karpathy-says-programming-is-unrecognizable-now-that-ai-agents-actually-work/"
+    },
+    {
+      "title": "Sam Altman 发帖宣布 OpenAI 与五角大楼达成协议",
+      "author": "@sama",
+      "date": "2026-02-28",
+      "summary": "Altman 在 X 上宣布 OpenAI 与国防部达成 AI 模型使用协议，称 DoW 展现了对安全的深度尊重。同时表态支持 Anthropic 的安全底线立场，但仍接手被 Anthropic 放弃的合约，引发巨大争议。",
+      "link": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/"
+    },
+    {
+      "title": "Dario Amodei 拒绝为五角大楼做大规模监控：「不能违背良心」",
+      "author": "@DarioAmodei",
+      "date": "2026-02-27",
+      "summary": "Anthropic CEO Dario Amodei 公开拒绝五角大楼要求，声明 Claude 不会用于大规模国内监控或自主杀伤性武器。此举导致 Trump 下令联邦机构全面禁用 Anthropic，但同时让 Claude 在消费市场大获好评。",
+      "link": "https://www.bbc.com/news/articles/cn48jj3y8ezo"
+    }
+  ],
+  "discord": [
+    {
+      "title": "vinext 在 HN 引爆讨论：一人用 AI 一周重建 Next.js 的可行性",
+      "server": "Hacker News / React 社区",
+      "summary": "Cloudflare vinext 项目在 HN 获得数百条评论，开发者社区激辩用 AI 重建复杂框架的可行性。支持者称赞 Server Components 被简化的开发体验，反对者质疑 94% 覆盖率的长尾兼容性问题。",
+      "link": "https://news.ycombinator.com/item?id=47142156"
+    },
+    {
+      "title": "Reddit r/ClaudeCode 热议 Karpathy 新文：Agent 进化速度超出预期",
+      "server": "r/ClaudeCode",
+      "summary": "Karpathy 关于 AI Agent 的新帖在 r/ClaudeCode 引发深度讨论。开发者们分享 Claude Code 的实战经验，讨论从 vibe coding 到 agentic engineering 的转变，以及 OpenClaw 等工具的实际效果。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1rf3obx/new_banger_from_andrej_karpathy_about_how_rapidly/"
+    },
+    {
+      "title": "Reddit r/technology 讨论 #CancelChatGPT：OpenAI 军事合作的伦理边界",
+      "server": "r/technology",
+      "summary": "r/technology 社区大量讨论 OpenAI 五角大楼交易。主流观点认为军事合约收入可能远超零售业务，即使 100% 消费用户退订也无法改变决策。也有用户质疑 Anthropic 立场是否只是公关策略。",
+      "link": "https://www.reddit.com/r/technology/comments/1ribnqe/no_ethics_at_all_the_cancel_chatgpt_trend_is/"
+    }
+  ],
+  "github": [
+    {
+      "title": "cloudflare/vinext — AI 驱动的 Next.js Vite 替代方案",
+      "name": "cloudflare/vinext",
+      "summary": "Cloudflare 发布的 Next.js 替代方案，基于 Vite 构建，由一人+AI 在一周内完成。覆盖 94% Next.js API，构建速度快 4.4 倍，包体积缩小 57%，原生支持 Cloudflare Workers 部署。",
+      "link": "https://blog.cloudflare.com/vinext/",
+      "stars": "GitHub Trending"
+    },
+    {
+      "title": "microsoft/agent-framework — Microsoft Agent Framework RC（AutoGen + Semantic Kernel 统一）",
+      "name": "microsoft/agent-framework",
+      "summary": "微软 Agent Framework 达到 RC 状态，统一 AutoGen 和 Semantic Kernel 为单一 SDK。支持 .NET 和 Python，提供多 Agent 编排、工具调用、记忆管理等企业级功能。GA 预计 Q1 2026。",
+      "link": "https://www.infoq.com/news/2026/02/ms-agent-framework-rc/"
+    },
+    {
+      "title": "bytedance/DeerFlow — 字节跳动开源 Deep Research Agent 框架",
+      "name": "bytedance/DeerFlow",
+      "summary": "字节跳动开源 DeerFlow（Deep Research Flow），一个用于构建深度研究型 AI Agent 的框架。支持多步骤推理、网页搜索整合、知识图谱构建等功能，适用于学术研究和商业分析场景。",
+      "link": "https://github.com/bytedance/deer-flow"
+    }
+  ],
+  "hn": [
+    {
+      "title": "How we rebuilt Next.js with AI in one week (Cloudflare)",
+      "score": "500+",
+      "summary": "Cloudflare vinext 项目的官方博客文章成为 HN 热门，讨论焦点包括 AI 辅助重建复杂框架的可行性、Server Components 的未来、以及 $1100 token 成本的经济账。",
+      "link": "https://news.ycombinator.com/item?id=47142156"
+    },
+    {
+      "title": "#CancelChatGPT 浪潮：OpenAI 五角大楼交易引发科技伦理大讨论",
+      "score": "400+",
+      "summary": "OpenAI 与五角大楼签约后在 HN 引发关于 AI 军事应用伦理的深度讨论。社区对比了 Anthropic 拒绝 vs OpenAI 接受的不同立场，以及对 AI 行业公信力的长期影响。",
+      "link": "https://www.digitaltrends.com/cool-tech/what-you-should-know-about-the-cancel-chatgpt-trend-and-whether-it-crossed-a-red-line/"
+    },
+    {
+      "title": "NanoClaw：容器化的 OpenClaw 替代方案",
+      "score": "300+",
+      "summary": "The Register 报道 NanoClaw 项目——核心约 4000 行代码的容器化 AI Agent 运行时。Karpathy 称赞其简洁可审计的设计，适合 AI Agent 自身理解和操作。",
+      "link": "https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "No ethics at all: the Cancel ChatGPT trend is growing",
+      "subreddit": "r/technology",
+      "summary": "帖子获得数千 upvote，讨论 OpenAI 接手 Anthropic 被拒的五角大楼合约。用户辩论：军事 AI 是否不可避免？Altman 的安全承诺是否可信？消费者抵制能否真正影响企业决策？",
+      "link": "https://www.reddit.com/r/technology/comments/1ribnqe/no_ethics_at_all_the_cancel_chatgpt_trend_is/"
+    },
+    {
+      "title": "CloudFlare built a NextJS replacement in one week using AI",
+      "subreddit": "r/vibecoding",
+      "summary": "vinext 在 vibe coding 社区引发热议，被视为 AI 辅助软件工程的里程碑案例。开发者讨论如何将类似方法应用于其他大型开源项目的重构。",
+      "link": "https://www.reddit.com/r/vibecoding/comments/1rdtyol/cloudflare_built_a_nextjs_replacement_in_one_week/"
+    },
+    {
+      "title": "r/ClaudeCode：Karpathy 关于 Agent 进化速度的新文引发深度讨论",
+      "subreddit": "r/ClaudeCode",
+      "summary": "开发者分享使用 Claude Code 的实际体验，讨论 Karpathy 所说的 Agent 质变是否已在日常开发中体现。多位用户报告生产力提升 5-10 倍，但也有人警告过度依赖的风险。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1rf3obx/new_banger_from_andrej_karpathy_about_how_rapidly/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "vinext：AI 驱动的 Next.js 替代方案，一键部署到 Cloudflare Workers",
+      "summary": "由 Cloudflare 发布的开源工具，基于 Vite 重建 Next.js API，构建速度提升 4.4 倍，包体积缩小 57%。对现有 Next.js 项目几乎无感迁移，特别适合 Cloudflare Workers 边缘部署场景。",
+      "link": "https://blog.cloudflare.com/vinext/"
+    },
+    {
+      "title": "NanoClaw：4000 行代码的容器化 AI Agent 运行时",
+      "summary": "OpenClaw 的容器化替代方案，核心引擎仅约 4000 行代码。所有操作默认在容器中运行，设计简洁可审计。Karpathy 评价其既适合人类理解也适合 AI Agent 操作。",
+      "link": "https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/"
+    },
+    {
+      "title": "Nvidia GB300 NVL72 详细规格评测：面向长上下文推理的终极方案",
+      "summary": "AceCloud 发布 Nvidia Blackwell Ultra GB300 NVL72 的详细评测。液冷机架设计，92.1 exaflops FP4 算力，每 token 总成本降低 40%，Azure 已开始早期部署。",
+      "link": "https://acecloud.ai/blog/nvidia-blackwell-ultra-b300-gb300-guide/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Microsoft Agent Framework RC：AutoGen + Semantic Kernel 统一为 Agentic .NET/Python SDK",
+      "source": "InfoQ",
+      "summary": "微软 Agent Framework 达到 Release Candidate 状态，统一了 AutoGen 和 Semantic Kernel。API 稳定且功能完整，GA 版本预计 Q1 2026 发布。支持 .NET 和 Python 双平台，提供标准化 Agent 构建工具链。",
+      "link": "https://www.infoq.com/news/2026/02/ms-agent-framework-rc/"
+    },
+    {
+      "title": "ByteDance 开源 DeerFlow：Deep Research Agent 框架",
+      "source": "GitHub / ByteDance",
+      "summary": "字节跳动开源深度研究 Agent 框架 DeerFlow，支持多步骤推理链、网络搜索集成、结构化知识提取。设计理念对标 Perplexity 的深度搜索，但更强调可定制性和本地部署。",
+      "link": "https://github.com/bytedance/deer-flow"
+    },
+    {
+      "title": "From Vibe Coding to Agentic Engineering：Agent 如何超越自身术语",
+      "source": "The New Stack",
+      "summary": "The New Stack 深度报道 AI Agent 如何从流行语演变为工程实践。Karpathy 希望淡化 vibe coding 一词，因为现在的 AI 辅助开发已远超「凭感觉写代码」的层次，进入系统性 agentic engineering 阶段。",
+      "link": "https://thenewstack.io/vibe-coding-agentic-engineering/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 估值 7300 亿美元签约五角大楼，AI 伦理争议白热化",
+      "summary": "OpenAI 在完成 1100 亿美元融资、估值 7300 亿美元的背景下与五角大楼签约。Guardian、NYT、BBC 等主流媒体密集报道，AI 军事伦理成为硅谷最大话题。Anthropic 的对比立场让行业分化更加明显。",
+      "link": "https://www.theguardian.com/technology/2026/feb/28/openai-us-military-anthropic"
+    },
+    {
+      "title": "Claude 登顶应用商店：#CancelChatGPT 浪潮中 Anthropic 意外受益",
+      "summary": "#CancelChatGPT 运动中，大量用户转投 Anthropic Claude。Claude 应用在全球多个市场登顶 App Store 下载榜。Anthropic 虽失去联邦合同但赢得消费者信任，估值逻辑面临重构。",
+      "link": "https://www.trendingtopics.eu/chatgpt-claude-anthropic-pentago-deal-cancel-openai/"
+    },
+    {
+      "title": "Nvidia Blackwell 芯片出口管控风波：美官员调查与 DeepSeek 关联",
+      "summary": "美国官员正在调查 Nvidia Blackwell 芯片是否被用于 DeepSeek 的 AI 训练，引发 2026 年出口管制新一轮审查。同时 Meta 签下「数百万块」GPU 采购协议，AI 算力军备竞赛加剧。",
+      "link": "https://digitalchew.com/2026/02/24/nvidia-blackwell-chips/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "2026国内LLM Coding Plan终极比价：字节/阿里/DeepSeek/Kimi 深度测评",
+      "summary": "CSDN 深度对比 2026 年初国内 AI 编程套餐：火山方舟 ¥40/月起体验差；MiniMax ¥29/月性价比最高获开发者好评；Kimi ¥49/月是唯一多模态平台；智谱 GLM ¥49/月起用量稳定。行业从按 Token 计费转向固定月费模式。",
+      "link": "https://blog.csdn.net/dongyao243512842/article/details/158320448"
+    },
+    {
+      "title": "字节豆包 2.0 + Seedance 2.0 全系列发布，Pro 版对标 GPT 5.2",
+      "summary": "字节跳动春节前推出豆包大模型 2.0 全系列（Pro/Lite/Mini），Pro 版对标 OpenAI GPT 5.2 和 Gemini 3 Pro。同步升级 Seedance 2.0 音视频创作模型，支持 60 秒电影级多镜头音视频生成。",
+      "link": "https://finance.sina.com.cn/stock/t/2026-02-24/doc-inhnxhnn5984140.shtml"
+    },
+    {
+      "title": "智谱 GLM-5 发布同时率先涨价，AI 行业告别「亏本换规模」",
+      "summary": "智谱 AI 发布 GLM-5 的同时率先上调 API 价格，释放行业转折信号：头部厂商认为技术壁垒已足以支撑溢价。但随后因算力问题股价暴跌，反映大模型公司运营能力仍面临严峻考验。",
+      "link": "https://finance.sina.com.cn/tech/roll/2026-02-23/doc-inhntzzs0195376.shtml"
+    }
+  ]
+}
