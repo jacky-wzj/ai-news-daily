@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月3日星期二</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月3日星期二</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Recursive Models for Long-Horizon Reasoning</h3>
+      <div class="meta">👤 arXiv 2603.02112</div>
+      <p>提出递归模型（Recursive Models）作为突破 LLM 长期推理瓶颈的核心原则。模型可在隔离上下文中递归调用自身来解决子任务，实现长时间推理链而不受单次上下文窗口限制。为 Agent 系统的自主推理能力提供了新理论框架。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.02112" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Recursive Language Models (RLM)</h3>
+      <div class="meta">👤 arXiv 2512.24601</div>
+      <p>提出 Recursive Language Models（RLM）推理策略，将长提示视为外部环境的一部分，允许 LLM 编程式地检查、分解并递归调用自身处理提示片段。大幅改善了长文本理解和多步骤任务的表现。</p>
+  <a class="link" href="https://arxiv.org/html/2512.24601v1" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Recursive Belief Vision Language Action Model</h3>
+      <div class="meta">👤 arXiv 2602.20659</div>
+      <p>解决视觉-语言-动作（VLA）模型在部分可观测条件下的长时间操作难题。通过递归信念更新机制，模型可在长期操作任务中保持任务进度追踪，显著优于基于短上下文窗口的现有方法。</p>
+  <a class="link" href="https://arxiv.org/html/2602.20659v1" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Sam Altman 嘲讽太空数据中心：「现在这完全是荒谬的」</h3>
+      <div class="meta">👤 <span class="author">@sama</span> · 2026-02-27</div>
+      <p>Altman 在访谈中明确批评 Musk 和 Bezos 推动的太空数据中心概念，称硬件限制、成本和散热问题使其在当前完全不可行。TechRadar 评论称这标志着 AI 基础设施路线之争进入新阶段。</p>
+  <a class="link" href="https://www.techradar.com/pro/sam-altman-says-plans-for-data-centers-in-space-are-ridiculous-is-this-the-start-of-a-new-war-of-words-with-elon-musk" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Musk 法庭证词：「Grok 没有导致任何人自杀」——向 ChatGPT 安全记录开火</h3>
+      <div class="meta">👤 <span class="author">@elonmusk</span> · 2026-03-02</div>
+      <p>Musk 在起诉 OpenAI 的最新法庭文件中以 ChatGPT 相关安全事件为武器，暗指 OpenAI 在快速商业化过程中忽视安全。此前已有多起涉及 ChatGPT 的安全事故引发公众关注。</p>
+  <a class="link" href="https://timesofindia.indiatimes.com/technology/elon-musk-to-sam-altman-in-court-check-chatgpts-safety-record-nobody-committed-suicide-because-of-grok-and-/articleshow/128939278.cms" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/AI_Agents 热议 MCP 缺失的关键定义：为什么它很快会成为大问题</h3>
+      <div class="meta">💬 r/AI_Agents</div>
+      <p>社区深入讨论 Model Context Protocol（MCP）尚未定义的关键部分——特别是 Agent 之间的权限边界和状态传递。开发者认为当前 MCP 虽然解决了工具连接问题，但缺乏 Agent 间协作的标准化机制。</p>
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1rhaxdk/the_one_thing_mcp_doesnt_define_and_why_its_going/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/AI_Agents 实战分享：MCP Server 让 AI Agent 原生获得截图、页面检查和视频录制能力</h3>
+      <div class="meta">💬 r/AI_Agents</div>
+      <p>开发者分享了一个 MCP Server 项目，可以在单次工具调用中为 AI Agent 提供原生截图、DOM 检查和录屏能力。社区讨论了这种方式相比 Playwright/Selenium 的优劣以及在生产环境中的可行性。</p>
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1rgzq7e/i_built_an_mcp_server_that_gives_ai_agents_native/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Discord 2026 年大更新：全局年龄验证和端侧 AI 标准落地</h3>
+      <div class="meta">💬 Discord 官方</div>
+      <p>Discord 于 2026 年 3 月全面推行年龄验证和「青少年默认」设置。同时引入端侧 AI 内容审核标准，平衡未成年人保护、隐私和社区自治。这标志着主流社交平台开始将 AI 审核下放到设备端。</p>
+  <a class="link" href="https://cosmo-edge.com/discord-2026-age-verification-edge-ai-feature/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GitHub Copilot Coding Agent 重大功能更新</h3>
+      
+      <p>GitHub Copilot Coding Agent 新增模型选择器、自动代码审查、内置安全漏洞扫描、自定义 Agent 工作流和 CLI 交接功能。支持在不同 LLM 间切换，向完整 AI 开发平台演进。</p>
+  <a class="link" href="https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ GitHub Blog Stars</p></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Don't Trust AI Agents — AI Agent 信任危机深度讨论</h3>
+      <div class="meta">⬆️ 热门 Points</div>
+      <p>HN 社区围绕 AI Agent 的信任问题展开激烈讨论。核心观点：LLM 产出的代码行数不应被视为生产力指标（LoC 一直是糟糕指标），Agent 的自主行为缺乏可靠的验证机制。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47194611" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 15 岁少年发布 134K 行代码让 AI Agent 承担责任</h3>
+      <div class="meta">⬆️ 热门 Points</div>
+      <p>一名 15 岁开发者发布了 13.4 万行代码的开源项目，旨在通过加密承诺机制让 AI Agent 对其行为负责。HN 社区讨论了加密学在 Agent 行为约束中的实际价值和局限性。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47211441" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Agentic AI Is Neither Intelligent nor an Agent</h3>
+      <div class="meta">⬆️ 热门 Points</div>
+      <p>HN 上一篇批评 Agentic AI 命名和概念的文章引发大量讨论。作者认为当前所谓的 Agent 既不具备真正的智能也缺乏自主性，行业选择了一个低标准来定义「Agent」只是因为没有更好的产品可卖。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47136951" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 即将发布 V4 模型挑战美国对手</h3>
+      <div class="meta">reddit: r/technology</div>
+      <p>Reddit 社区热议 DeepSeek V4 即将发布。讨论焦点包括：该模型是否使用了 Nvidia 受限芯片训练、中国 AI 公司的 IP 争议、以及 Anthropic 的蒸馏指控是否成立。部分用户认为整个 AI 行业都建立在对 IP 的不尊重之上。</p>
+  <a class="link" href="https://www.reddit.com/r/technology/comments/1rhgren/deepseek_to_release_longawaited_ai_model_in_new/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 的伦理外衣已崩塌：五角大楼合同深度分析</h3>
+      <div class="meta">reddit: r/Futurology</div>
+      <p>深度帖子分析截至 2026 年 3 月 1 日前沿 AI 格局如何永久改变。回顾 2025 年 7 月 CDAO 的 2 亿美元合同（OpenAI、Google、Anthropic、xAI），以及 Anthropic 退出后行业的分化。社区讨论 AI 军事化是否已不可逆转。</p>
+  <a class="link" href="https://www.reddit.com/r/Futurology/comments/1rhvw7a/the_ethical_ai_facade_just_collapsed_breaking/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Perplexity Computer：$200/月的多模型 AI Agent 编排平台</h3>
+      
+      <p>Perplexity 推出的云端 AI Agent 系统，可协调 19 个 AI 模型（Claude、Gemini、ChatGPT、Grok 等）自主执行复杂任务。用户只需描述目标，Computer 自动拆解任务、分配模型、长期自主运行，仅在必要时请求人类输入。</p>
+  <a class="link" href="https://venturebeat.com/technology/perplexity-launches-computer-ai-agent-that-coordinates-19-models-priced-at" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GitHub Copilot Coding Agent：从辅助到完整 AI 开发平台</h3>
+      
+      <p>全新升级的 Copilot Coding Agent 支持模型切换、自动审查、安全扫描和自定义 Agent 工作流。CLI 交接功能允许 Agent 执行完复杂任务后将控制权交回开发者，实现人机协作的流畅过渡。</p>
+  <a class="link" href="https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Coding Plan 终极对比：Claude Code vs GLM-5 vs MiniMax M2.5 vs Kimi K2.5</h3>
+      
+      <p>codingplan.org 发布 2026 年 AI 编程套餐全面对比。大多数方案支持 Claude Code、Cursor、Cline 等主流工具。GLM-5 和 MiniMax 支持 10-20+ 工具集成，Kimi 主要通过 Kimi CLI 和 Claude Code 使用。</p>
+  <a class="link" href="https://codingplan.org/en/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Perplexity Computer：多模型编排的自主 Agent 平台</h3>
+      <div class="meta">🤖 Semafor / VentureBeat</div>
+      <p>Perplexity 的 Computer 代表了 Agent 架构的新范式——不绑定单一模型，而是作为元 Agent 动态选择最适合子任务的模型（Nano Banana 做图、Veo 3.1 做视频、Gemini 做深度研究、Grok 做快速搜索）。可持续自主运行数小时甚至数月。</p>
+  <a class="link" href="https://www.semafor.com/article/02/25/2026/perplexity-launches-computer-super-agent" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Data &amp; AI Weekly #231：MCP、Agent 和 Agentic AI 最新生态概览</h3>
+      <div class="meta">🤖 DEV Community</div>
+      <p>Timothy Spann 的每周 AI 汇总覆盖 MCP 生态、Agent 框架、Agentic AI 最新进展。包括 Apache NiFi 与 AI Agent 集成、Iceberg 数据湖上的 Agent 工作流、以及 Polaris 的 AI 原生数据架构。</p>
+  <a class="link" href="https://dev.to/timothy_spann_a41a639e47c/all-data-and-ai-weekly-230-23-feb-2026-4a1" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 本周即将发布：万亿参数多模态模型挑战 ChatGPT</h3>
+      <div class="meta">📅 2026-03-02</div>
+      <p>据 FT 和多家媒体报道，DeepSeek 将在本周发布其最新旗舰模型 V4——一款万亿参数 MoE 多模态模型（约 32B 活跃参数），支持图片、视频和文本生成，上下文窗口达 100 万 token。该模型已针对华为昇腾和寒武纪芯片进行优化，是 DeepSeek 一年多来首个旗舰级发布。</p>
+  <a class="link" href="https://finance.yahoo.com/news/deepseek-release-long-awaited-ai-162425187.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Apple WWDC 2026 将推出 Core AI 框架取代 Core ML</h3>
+      <div class="meta">📅 2026-03-01</div>
+      <p>Bloomberg Mark Gurman 爆料，Apple 将在 WWDC 2026 发布全新 Core AI 框架取代已有 9 年历史的 Core ML。新框架支持第三方 AI 模型集成和端侧推理，iOS 27 将成为首个 AI-first 操作系统。Siri 将获得基于 Google Gemini 训练的全新 Foundation Models 驱动的真正对话能力。</p>
+  <a class="link" href="https://9to5mac.com/2026/03/01/apple-replacing-core-ml-with-modernized-core-ai-framework-for-ios-27-at-wwdc/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Perplexity 发布「Computer」超级 Agent：协调 19 个模型自主运行数月</h3>
+      <div class="meta">📅 2026-02-26</div>
+      <p>Perplexity 推出云端 AI 系统 Computer，可协调 Claude、Gemini、ChatGPT 等 19 个模型自主执行复杂工作流。系统能自动将任务分解、分配给最适合的模型，甚至可持续自主运行数月。定价 $200/月，标志着 AI Agent 进入多模型编排新阶段。</p>
+  <a class="link" href="https://venturebeat.com/technology/perplexity-launches-computer-ai-agent-that-coordinates-19-models-priced-at" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Anthropic 指控三家中国 AI 公司用 1600 万次对话蒸馏 Claude</h3>
+      <div class="meta">📅 2026-02-24</div>
+      <p>Anthropic 发布报告，指控 DeepSeek、Moonshot AI 和 MiniMax 通过约 2.4 万个欺诈账户对 Claude 发起超 1600 万次对话的蒸馏攻击。其中 MiniMax 主攻 Claude 的 agentic coding 和工具调用能力。此事件加剧了中美 AI 知识产权争端，恰逢美国芯片出口管制审查升级。</p>
+  <a class="link" href="https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Elon Musk 法庭证词攻击 ChatGPT 安全记录，Altman 嘲笑太空数据中心</h3>
+      <div class="meta">📅 2026-03-02</div>
+      <p>Musk 在起诉 OpenAI 的新庭审证词中称「没有人因为 Grok 自杀」，暗示 ChatGPT 安全记录不佳。与此同时，Altman 公开批评 Musk 和 Bezos 的太空数据中心计划为「荒谬」，认为当前技术条件不支持。AI 巨头之间的攻防战持续升级。</p>
+  <a class="link" href="https://timesofindia.indiatimes.com/technology/elon-musk-to-sam-altman-in-court-check-chatgpts-safety-record-nobody-committed-suicide-because-of-grok-and-/articleshow/128939278.cms" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. GitHub Copilot Coding Agent 重大更新：模型选择器、自审查和安全扫描</h3>
+      <div class="meta">📅 2026-02-27</div>
+      <p>GitHub 宣布 Copilot Coding Agent 大幅升级，新增模型选择器（支持切换底层 LLM）、自动代码审查、内置安全扫描、自定义 Agent 和 CLI 交接功能。标志着 AI 编码 Agent 从辅助工具向完整工程平台演进。</p>
+  <a class="link" href="https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 本周发布在即：万亿参数模型对美国 AI 霸权的新挑战</h3>
+      
+      <p>DeepSeek V4 被认为是中国 AI 对美国前沿模型最大的挑战之一。该模型已针对华为和寒武纪芯片优化，意味着即使在芯片限制下中国仍能推出顶级模型。硅谷对此密切关注，PYMNTS 称「AI 前沿格局即将改写」。</p>
+  <a class="link" href="https://www.pymnts.com/artificial-intelligence-2/2026/deepseek-poised-to-unveil-latest-ai-model/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Samsung 联手 Perplexity：Agentic AI 进入手机和云端双赛道</h3>
+      
+      <p>Samsung 与 Perplexity 合作将 Agentic AI 工具集成到手机端和云服务。Perplexity 从搜索引擎扩展到浏览器再到自主 Agent 平台，正在瞄准更高价值的企业用户群。PYMNTS 分析称这代表 Agent 从开发者工具向消费者产品的跨越。</p>
+  <a class="link" href="https://www.pymnts.com/artificial-intelligence-2/2026/samsung-and-perplexity-push-new-agentic-tools-into-phones-and-the-cloud/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 蓄势待发：华为昇腾+寒武纪芯片优化，绕开 Nvidia 限制</h3>
+      
+      <p>DeepSeek V4 不仅是一款强大的多模态模型，更重要的信号是：它已针对国产芯片优化。这意味着中国 AI 公司正在建立不依赖 Nvidia 的训练和推理能力。模型预计本周发布，将直接挑战 GPT-5 和 Claude 3.5。</p>
+  <a class="link" href="https://finance.yahoo.com/news/deepseek-release-long-awaited-ai-162425187.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 蒸馏报告后续：中国 AI 圈如何回应 IP 争议</h3>
+      
+      <p>Anthropic 指控 DeepSeek、MiniMax、Moonshot 蒸馏 Claude 后，Reddit 和中文社区激烈讨论。部分观点认为整个 AI 行业都建立在对训练数据 IP 的不尊重上，不应单独指责中国。也有人指出 Anthropic 自身曾支付 15 亿美元和解 IP 诉讼。</p>
+  <a class="link" href="https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GLM-5 和 MiniMax M2.5 真实水平争议：开发者实测反馈两极分化</h3>
+      
+      <p>随着智谱 GLM-5、MiniMax M2.5 和 Kimi K2.5 相继发布，Reddit r/opencodeCLI 社区出现大量「这些模型是否被过度吹捧」的讨论。部分开发者报告性能接近 Claude 3.5，但也有人发现在复杂任务上差距明显。行业进入「实测为王」的去泡沫阶段。</p>
+  <a class="link" href="https://www.reddit.com/r/opencodeCLI/comments/1rhckrq/are_people_lying_about_glm5_and_minimax_m25/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:36 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
