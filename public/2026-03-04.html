@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月4日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月4日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI Agents: Evolution, Architecture, and Real-World Applications</h3>
+      <div class="meta">👤 arXiv 2503.12687</div>
+      <p>全面综述 AI Agent 从窄域系统到跨领域自主架构的演进历程。系统梳理了规划、记忆、工具调用等核心模块的设计范式，并分析了 Agent 在软件工程、科学发现和日常生活中的真实部署案例。是理解当前 Agent 浪潮的必读文献。</p>
+  <a class="link" href="https://arxiv.org/html/2503.12687v1" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?</h3>
+      <div class="meta">👤 ETH Zurich SRI Lab (Gloaguen et al.)</div>
+      <p>ETH Zurich 对 AGENTS.md/CLAUDE.md 等仓库级上下文文件的首次严格评估。在 438 个任务的 AGENTbench 基准上发现：人类编写的上下文文件提升约 4% 性能，但 LLM 生成的文件反而降低 2%，且所有文件增加 20%+ 成本。核心发现：代码库概览和目录列表对 Agent 导航无帮助。</p>
+  <a class="link" href="https://www.sri.inf.ethz.ch/publications/gloaguen2026agentsmd" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Agent World: 1000 个虚拟环境加速 Agent 训练</h3>
+      <div class="meta">👤 arXiv (Agent World Research Group)</div>
+      <p>研究者构建了 Agent World——一个包含 1000 个代码驱动合成环境的系统，每个环境配备多样化工具集。在这些环境中训练的自主 Agent 展现出强大的跨域迁移能力，为 Agent 的大规模可靠训练提供了全新范式。</p>
+  <a class="link" href="https://quantumzeitgeist.com/artificial-faster-intelligence-learns-virtual-worlds/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Sam Altman 公开承认五角大楼合同「草率」：将重新谈判限制条款</h3>
+      <div class="meta">👤 <span class="author">@sama</span> · 2026-03-03</div>
+      <p>Altman 在社交媒体和 Fortune 访谈中承认 OpenAI 接替 Anthropic 签下五角大楼合同的方式「看起来很投机」。他宣布合同将增加明确限制：禁止 NSA、NGA、DIA 等情报机构使用 OpenAI 服务，任何使用需另签协议。</p>
+  <a class="link" href="https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cristiano Amon（Qualcomm CEO）在 MWC：AI Agent 将取代智能手机成为数字中心</h3>
+      <div class="meta">👤 <span class="author">@CristianoRAmon</span> · 2026-03-03</div>
+      <p>Qualcomm CEO 在 MWC Barcelona 发表主题演讲，描述 6G + AI Agent 的未来：智能手机将退居二线，AI Agent 成为每个人的数字身份和操作中心。同时宣布 Qualcomm 的 Agent 芯片路线图。</p>
+  <a class="link" href="https://www.cnbc.com/video/2026/03/03/qualcomm-ceo-consumers-are-going-to-see-better-ai-agents.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Elon Musk 公开抨击 Anthropic：「他们大规模偷窃训练数据」</h3>
+      <div class="meta">👤 <span class="author">@elonmusk</span> · 2026-02-27</div>
+      <p>在 Anthropic 指控中国 AI 实验室蒸馏 Claude 模型后，Musk 在 X 上回击称 Anthropic 自身在大规模训练数据盗用方面劣迹斑斑，已支付数十亿美元和解金。这一攻击在 AI 知识产权争论中投下震撼弹。</p>
+  <a class="link" href="https://www.resultsense.com/news/2026-02-27-ai-distillation-row-escalates-as-anthropic-accuses-chinese-labs" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code 嵌套 Subagent 3 天炼出终端 3D 渲染器</h3>
+      <div class="meta">💬 r/ClaudeAI</div>
+      <p>Reddit/Discord 社区热议：开发者用 Claude Code 的 Task Subagent 功能，让 Agent 在 Agent 内部递归工作 3 天，成功交付了用 Rust 编写的终端符号 3D 渲染器。使用 Opus 4.6 进行协调，展示了 Agentic Coding 的极端可能性。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Spec-Driven Development 实战讨论：GSD 框架正在改变 Agent 编程范式</h3>
+      <div class="meta">💬 r/ClaudeCode</div>
+      <p>社区对 Get Shit Done（GSD）框架的深入讨论——一种基于 Spec 驱动的 Agent 开发方法论。开发者报告只要 Spec 足够详细并持续更新，Claude 就能从零重建几乎相同的代码库。支持 Claude Code、OpenCode 和 Gemini CLI。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeCode/comments/1rg0b9i/has_anyone_tried_the_spec_driven_development/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Tree-sitter Go 移植版发布：语义代码分析生态扩展</h3>
+      <div class="meta">💬 Hacker News / 开源社区</div>
+      <p>Show HN 上引爆讨论的 Tree-sitter Go 原生移植版，带来 gts-suite 语义代码实体工具套件和 Got 新一代版本控制系统。与 GitNexus 等知识图谱工具结合，预示 AI Agent 代码理解能力的重大突破。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47155597" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Goose by Block：Jack Dorsey 旗下免费开源 AI Agent 挑战 Claude Code</h3>
+      
+      <p>Block (Square) 开发的开源 AI Agent 框架 Goose 持续霸榜 GitHub Trending，支持本地运行任意 LLM、端到端自主开发（读文件、写代码、运行测试、调用 API、调试、自纠错），被社区视为 Claude Code 的最强免费替代品。</p>
+  <a class="link" href="https://developmentstoday.com/ai-robotics/goose-free-open-source-alternative-claude-code" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 15K+ Stars</p></div>
+    <div class="card">
+      <h3>2. GitNexus：7.3K Stars 的代码知识图谱浏览器</h3>
+      
+      <p>GitNexus 用 Tree-sitter + KuzuDB (WASM) 在浏览器内构建代码知识图谱，实现零后端的 AST 增量解析和符号关系可视化。3 天内爆涨至 7.3K Stars，被认为是解决 AI 编码 Agent「缺乏代码库全局理解」问题的关键工具。</p>
+  <a class="link" href="https://byteiota.com/gitnexus-hits-7-3k-stars-fixing-ai-coding-crisis/" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 7.3K Stars</p></div>
+    <div class="card">
+      <h3>3. GSD (Get Shit Done)：Spec-Driven AI 开发框架</h3>
+      
+      <p>GSD 是一个 Meta-prompting 和 Spec-Driven Development 框架，通过 npx 安装器一键支持 Claude Code、OpenCode 和 Gemini CLI 三大运行时。核心理念：详细的 Spec 文件让 AI Agent 可以从零重建整个代码库。正在成为 Agentic Coding 社区的标配工作流。</p>
+  <a class="link" href="https://agentnativedev.medium.com/get-sh-t-done-meta-prompting-and-spec-driven-development-for-claude-code-and-codex-d1cde082e103" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 3K+ Stars</p></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude's Cycles [pdf]：理解 AI 编码 Agent 的工作流范式</h3>
+      <div class="meta">⬆️ 200+ Points</div>
+      <p>Hacker News 热帖讨论 Claude 的循环工作模式——AI Agent 将已知的技术和工作流烘焙进概率分布，任何人都可以通过正确的「召唤咒语」访问这些模式。社区认为这预示了开发者角色从「手动编码」到「AI 协调」的根本转变。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47230710" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Show HN: Tree-sitter Go 原生移植——语义代码分析的新可能</h3>
+      <div class="meta">⬆️ 150+ Points</div>
+      <p>开发者将 Tree-sitter 移植到纯 Go 实现，衍生出 gts-suite 语义代码工具套件和 Got 版本控制系统。评论区大量讨论 AI Agent 如何利用增量 AST 解析来理解大型代码库。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47155597" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Ask HN: Who is hiring? (March 2026)——AI Agent 岗位井喷</h3>
+      <div class="meta">⬆️ 500+ Points</div>
+      <p>HN 每月招聘帖显示 2026 年 3 月 AI 相关岗位较去年同期大幅增长，其中「AI Agent Engineer」「Agentic Systems Architect」等新型职位占比显著提升，薪资范围 $180K-$400K。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47219668" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code Subagent 递归炼丹实战：3D 终端渲染器案例分析</h3>
+      <div class="meta">reddit: r/ClaudeAI</div>
+      <p>开发者详细分享了使用 Claude Code 嵌套 Subagent（Task Agent 套 Task Agent）3 天自主开发 Rust 终端 3D 渲染器的完整经历。关键技巧：用 GSD 框架 + Opus 4.6 协调，让 Agent 自主分解并递归解决渲染难题。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Spec-Driven Development 社区实测：Spec 越详细代码越稳定</h3>
+      <div class="meta">reddit: r/ClaudeCode</div>
+      <p>r/ClaudeCode 社区对 Spec-Driven Development 方法论的大讨论。多位开发者实测确认：只要持续维护详细的 Spec 文件，Claude 可以从 Spec 重建几乎相同的代码库，甚至比人类手写更一致。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeCode/comments/1rg0b9i/has_anyone_tried_the_spec_driven_development/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. ETH Zurich 研究引爆讨论：AGENTS.md 到底有没有用？</h3>
+      <div class="meta">reddit: r/LocalLLaMA</div>
+      <p>ETH Zurich AGENTbench 研究在 Reddit 上引发激烈讨论——人写的 AGENTS.md 提升 4% 但 LLM 生成的降低 2%。社区总结：不要写目录列表（Agent 自己会发现），专注于写编码规范、风格指南和架构决策。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/02/25/new-eth-zurich-study-proves-your-ai-coding-agents-are-failing-because-your-agents-md-files-are-too-detailed/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Goose：Block 开源的全能 AI Agent 框架</h3>
+      
+      <p>Jack Dorsey 旗下 Block 推出的开源 AI Agent，可完全本地运行，支持任意 LLM。功能覆盖项目构建、代码执行、调试、测试全流程，被社区誉为「Claude Code 的免费替代品」。支持超千种工具扩展。</p>
+  <a class="link" href="https://developmentstoday.com/ai-robotics/goose-free-open-source-alternative-claude-code" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GitNexus：浏览器内代码知识图谱</h3>
+      
+      <p>基于 Tree-sitter AST 解析和 KuzuDB 图数据库（编译为 WASM），在浏览器内零后端运行完整的代码知识图谱。支持增量更新、毫秒级解析、错误恢复，帮助 AI Agent 建立代码库的全局理解。</p>
+  <a class="link" href="https://byteiota.com/gitnexus-hits-7-3k-stars-fixing-ai-coding-crisis/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GSD (Get Shit Done)：一键安装的 Agent 编程框架</h3>
+      
+      <p>通过 npx get-shit-done-cc 一键安装，支持 Claude Code、OpenCode、Gemini CLI 三大运行时。核心理念是 Spec-Driven Development：维护详细 Spec，让 AI Agent 可从零重建完整项目。支持全局/本地安装和 CI/CD 集成。</p>
+  <a class="link" href="https://agentnativedev.medium.com/get-sh-t-done-meta-prompting-and-spec-driven-development-for-claude-code-and-codex-d1cde082e103" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ETH Zurich AGENTbench：首个系统性评估编码 Agent 上下文文件的基准</h3>
+      <div class="meta">🤖 ETH Zurich SRI Lab</div>
+      <p>ETH Zurich 发布 AGENTbench——首个专门评估 AGENTS.md/CLAUDE.md 等仓库级上下文文件对编码 Agent 影响的基准测试，涵盖 438 个真实任务。发现人写上下文 +4%、LLM 生成 -2%、成本 +20%。为 Agent 配置优化提供了科学依据。</p>
+  <a class="link" href="https://academy.dair.ai/blog/agents-md-evaluation" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. WIRED：「Agentic 型人才」成为硅谷最稀缺技能</h3>
+      <div class="meta">🤖 WIRED</div>
+      <p>WIRED 深度报道指出，AI 编码 Agent 已能处理大部分底层工作，现在最有价值的技能是「决定 Agent 该做什么」。硅谷正在重新定义工程师角色——从手写代码转向 AI Agent 的编排者和决策者。</p>
+  <a class="link" href="https://www.wired.com/story/silicon-valley-agentic-individuals-future-of-work/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 承认五角大楼合同「草率且投机」，Altman 宣布重新谈判</h3>
+      <div class="meta">📅 2026-03-03</div>
+      <p>在 Anthropic 被禁后数小时内，OpenAI 火速签下五角大楼 AI 合同一事引发广泛争议。Sam Altman 承认此举「看起来确实很草率」，宣布将重新谈判合同条款——明确禁止国防情报机构使用 OpenAI 服务，并增加针对商业购买数据（如手机位置、健身 app 信息）的限制条款。</p>
+  <a class="link" href="https://fortune.com/2026/03/03/sam-altman-openai-pentagon-renegotiating-deal-anthropic/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 被列为「供应链风险」：硅谷与五角大楼关系的历史性裂痕</h3>
+      <div class="meta">📅 2026-02-28</div>
+      <p>国防部长 Hegseth 宣布将 Anthropic 列为国家安全供应链风险，禁止任何美军承包商与 Anthropic 开展商业活动。Anthropic 誓言将在法庭挑战这一决定。MIT Technology Review 分析指出，五角大楼目前在机密行动中唯一使用的 AI 模型就是 Claude，替换工作面临巨大挑战。</p>
+  <a class="link" href="https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Apple 发布 M5 Pro/M5 Max MacBook Pro：AI 时代的专业性能飞跃</h3>
+      <div class="meta">📅 2026-03-03</div>
+      <p>Apple 发布搭载 M5 Pro 和 M5 Max 芯片的全新 MacBook Pro，配备 Neural Accelerator 专用 AI 加速单元。14 英寸 M5 Pro 起售 $2,199，M5 Max 版本起售 $3,899。3月4日开始预购，3月11日正式发售。这是 Apple 自有芯片在端侧 AI 推理能力上的又一重大升级。</p>
+  <a class="link" href="https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Qualcomm CEO 预言：2026 将是 AI Agent 之年，手机将不再是数字中心</h3>
+      <div class="meta">📅 2026-03-03</div>
+      <p>Qualcomm CEO Cristiano Amon 在 MWC Barcelona 大会上宣称，AI Agent 浪潮将取代智能手机成为数字生态的核心。他描绘了 6G 网络驱动的 Agent 经济蓝图——AI Agent 将在每个设备、边缘和云端之间分布智能。Bloomberg 称这标志着芯片巨头的战略方向全面转向 Agent 生态。</p>
+  <a class="link" href="https://www.siliconvalley.com/2026/03/03/qualcomm-ceo-predicts-2026-will-be-the-year-of-the-ai-agent/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. DeepSeek V4 即将发布：与华为合作摆脱 Nvidia 依赖</h3>
+      <div class="meta">📅 2026-03-01</div>
+      <p>据 FT 报道，DeepSeek 与华为、寒武纪合作，将新旗舰模型 V4 优化为国产芯片可运行。V4 集成文本、图像和视频生成于单一架构，选择在中国两会开幕期间发布具有强烈政治信号意义。CNBC 报道称中国近期已密集发布 5 个新 AI 模型。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Bloomberg：Anthropic 的知识产权困境预示硅谷 AI 护城河的瓦解</h3>
+      <div class="meta">📅 2026-03-01</div>
+      <p>Bloomberg 发表评论文章指出，Anthropic 对三家中国实验室的知识产权投诉只是冰山一角——前沿 AI 公司无法依靠技术领先优势建立持久护城河。发展中国家的公司会不断「游过护城河」，美国政府和律师都帮不了。</p>
+  <a class="link" href="https://www.livemint.com/opinion/online-views/anthropic-deepseek-problem-frontier-ai-intellectual-property-protected-chinese-11772467128916.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 重新谈判五角大楼合同：Altman 承认「草率」</h3>
+      
+      <p>Sam Altman 公开承认 OpenAI 在 Anthropic 被禁后火速签下五角大楼 $200M AI 合同的方式「投机且草率」。新合同将明确限制情报机构使用，增加对商业购买数据的保护条款。Guardian 称此事揭示了 AI 公司与军方关系的深层张力。</p>
+  <a class="link" href="https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 被列为供应链风险：科技公司与政府博弈的新前线</h3>
+      
+      <p>五角大楼将 Anthropic 列为供应链风险的决定在硅谷引发冲击波。WIRED 报道 Anthropic 将在法庭挑战该决定，警告这「将为任何与政府谈判的美国公司开创危险先例」。多家律所发布紧急法律分析。</p>
+  <a class="link" href="https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 41 万硅谷岗位面临 AI 重塑：Silicon Valley Index 2026 年度报告</h3>
+      
+      <p>Joint Venture Silicon Valley 发布年度报告，指出硅谷 41 万个工作岗位包含 AI 可执行的任务。报告强调关键信号：这不是「取代」而是「变形」——未来的核心技能是指导和编排 AI Agent。</p>
+  <a class="link" href="https://www.mercurynews.com/2026/03/01/more-than-400000-jobs-silicon-valley-exposed-ai-silicon-valley-index/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 即将发布：国产芯片生态的里程碑</h3>
+      
+      <p>DeepSeek 与华为、寒武纪合作，将旗舰模型 V4 优化为可在国产芯片上运行。V4 集成文本/图像/视频生成于单一多模态架构，是 DeepSeek 一年多来的首个旗舰级发布。选在两会开幕期间发布意味深长。</p>
+  <a class="link" href="https://dig.watch/updates/deepseek-v4-ai-model" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 中国密集发布 5 个新 AI 模型：UBS 最看好 Moonshot Kimi 2.5</h3>
+      
+      <p>CNBC 报道，中国在春节后短短数周内发布了 5 个新 AI 模型。UBS 分析师认为 Moonshot 的 Kimi 2.5 在编码和 Agentic 任务上最具竞争力。同时 DeepSeek V4 的发布预期正推动中国 AI 概念股上涨。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 指控中国实验室知识产权侵权引发反弹</h3>
+      
+      <p>Anthropic 对 DeepSeek、Moonshot AI、MiniMax 的知识产权投诉遭到多方反击。Elon Musk 在 X 上称 Anthropic 自身「大规模盗用训练数据」。Bloomberg 评论指出前沿 AI 公司不应指望技术领先能建立持久护城河。</p>
+  <a class="link" href="https://www.theregister.com/2026/02/24/anthropic_misanthropic_chinese_ai_labs/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:31 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

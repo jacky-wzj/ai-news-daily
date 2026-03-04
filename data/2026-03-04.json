@@ -1,0 +1,241 @@
+{
+  "date": "2026-03-04",
+  "insights": [
+    {
+      "title": "OpenAI 承认五角大楼合同「草率且投机」，Altman 宣布重新谈判",
+      "date": "2026-03-03",
+      "summary": "在 Anthropic 被禁后数小时内，OpenAI 火速签下五角大楼 AI 合同一事引发广泛争议。Sam Altman 承认此举「看起来确实很草率」，宣布将重新谈判合同条款——明确禁止国防情报机构使用 OpenAI 服务，并增加针对商业购买数据（如手机位置、健身 app 信息）的限制条款。",
+      "link": "https://fortune.com/2026/03/03/sam-altman-openai-pentagon-renegotiating-deal-anthropic/"
+    },
+    {
+      "title": "Anthropic 被列为「供应链风险」：硅谷与五角大楼关系的历史性裂痕",
+      "date": "2026-02-28",
+      "summary": "国防部长 Hegseth 宣布将 Anthropic 列为国家安全供应链风险，禁止任何美军承包商与 Anthropic 开展商业活动。Anthropic 誓言将在法庭挑战这一决定。MIT Technology Review 分析指出，五角大楼目前在机密行动中唯一使用的 AI 模型就是 Claude，替换工作面临巨大挑战。",
+      "link": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/"
+    },
+    {
+      "title": "Apple 发布 M5 Pro/M5 Max MacBook Pro：AI 时代的专业性能飞跃",
+      "date": "2026-03-03",
+      "summary": "Apple 发布搭载 M5 Pro 和 M5 Max 芯片的全新 MacBook Pro，配备 Neural Accelerator 专用 AI 加速单元。14 英寸 M5 Pro 起售 $2,199，M5 Max 版本起售 $3,899。3月4日开始预购，3月11日正式发售。这是 Apple 自有芯片在端侧 AI 推理能力上的又一重大升级。",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"
+    },
+    {
+      "title": "Qualcomm CEO 预言：2026 将是 AI Agent 之年，手机将不再是数字中心",
+      "date": "2026-03-03",
+      "summary": "Qualcomm CEO Cristiano Amon 在 MWC Barcelona 大会上宣称，AI Agent 浪潮将取代智能手机成为数字生态的核心。他描绘了 6G 网络驱动的 Agent 经济蓝图——AI Agent 将在每个设备、边缘和云端之间分布智能。Bloomberg 称这标志着芯片巨头的战略方向全面转向 Agent 生态。",
+      "link": "https://www.siliconvalley.com/2026/03/03/qualcomm-ceo-predicts-2026-will-be-the-year-of-the-ai-agent/"
+    },
+    {
+      "title": "DeepSeek V4 即将发布：与华为合作摆脱 Nvidia 依赖",
+      "date": "2026-03-01",
+      "summary": "据 FT 报道，DeepSeek 与华为、寒武纪合作，将新旗舰模型 V4 优化为国产芯片可运行。V4 集成文本、图像和视频生成于单一架构，选择在中国两会开幕期间发布具有强烈政治信号意义。CNBC 报道称中国近期已密集发布 5 个新 AI 模型。",
+      "link": "https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html"
+    },
+    {
+      "title": "Bloomberg：Anthropic 的知识产权困境预示硅谷 AI 护城河的瓦解",
+      "date": "2026-03-01",
+      "summary": "Bloomberg 发表评论文章指出，Anthropic 对三家中国实验室的知识产权投诉只是冰山一角——前沿 AI 公司无法依靠技术领先优势建立持久护城河。发展中国家的公司会不断「游过护城河」，美国政府和律师都帮不了。",
+      "link": "https://www.livemint.com/opinion/online-views/anthropic-deepseek-problem-frontier-ai-intellectual-property-protected-chinese-11772467128916.html"
+    },
+    {
+      "title": "硅谷 41 万个工作岗位面临 AI 重塑：不是裁员而是变形",
+      "date": "2026-03-01",
+      "summary": "Silicon Valley Index 最新报告显示，硅谷地区近 41 万个工作岗位包含 AI 可执行的任务。报告强调这不意味着大规模裁员，而是工作内容的根本转变——从执行转向 AI 编排。WIRED 同期报道称「agentic 型人才」正成为科技界最有价值的技能。",
+      "link": "https://www.mercurynews.com/2026/03/01/more-than-400000-jobs-silicon-valley-exposed-ai-silicon-valley-index/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "AI Agents: Evolution, Architecture, and Real-World Applications",
+      "authors": "arXiv 2503.12687",
+      "summary": "全面综述 AI Agent 从窄域系统到跨领域自主架构的演进历程。系统梳理了规划、记忆、工具调用等核心模块的设计范式，并分析了 Agent 在软件工程、科学发现和日常生活中的真实部署案例。是理解当前 Agent 浪潮的必读文献。",
+      "link": "https://arxiv.org/html/2503.12687v1"
+    },
+    {
+      "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
+      "authors": "ETH Zurich SRI Lab (Gloaguen et al.)",
+      "summary": "ETH Zurich 对 AGENTS.md/CLAUDE.md 等仓库级上下文文件的首次严格评估。在 438 个任务的 AGENTbench 基准上发现：人类编写的上下文文件提升约 4% 性能，但 LLM 生成的文件反而降低 2%，且所有文件增加 20%+ 成本。核心发现：代码库概览和目录列表对 Agent 导航无帮助。",
+      "link": "https://www.sri.inf.ethz.ch/publications/gloaguen2026agentsmd"
+    },
+    {
+      "title": "Agent World: 1000 个虚拟环境加速 Agent 训练",
+      "authors": "arXiv (Agent World Research Group)",
+      "summary": "研究者构建了 Agent World——一个包含 1000 个代码驱动合成环境的系统，每个环境配备多样化工具集。在这些环境中训练的自主 Agent 展现出强大的跨域迁移能力，为 Agent 的大规模可靠训练提供了全新范式。",
+      "link": "https://quantumzeitgeist.com/artificial-faster-intelligence-learns-virtual-worlds/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sam Altman 公开承认五角大楼合同「草率」：将重新谈判限制条款",
+      "author": "@sama",
+      "date": "2026-03-03",
+      "summary": "Altman 在社交媒体和 Fortune 访谈中承认 OpenAI 接替 Anthropic 签下五角大楼合同的方式「看起来很投机」。他宣布合同将增加明确限制：禁止 NSA、NGA、DIA 等情报机构使用 OpenAI 服务，任何使用需另签协议。",
+      "link": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt"
+    },
+    {
+      "title": "Cristiano Amon（Qualcomm CEO）在 MWC：AI Agent 将取代智能手机成为数字中心",
+      "author": "@CristianoRAmon",
+      "date": "2026-03-03",
+      "summary": "Qualcomm CEO 在 MWC Barcelona 发表主题演讲，描述 6G + AI Agent 的未来：智能手机将退居二线，AI Agent 成为每个人的数字身份和操作中心。同时宣布 Qualcomm 的 Agent 芯片路线图。",
+      "link": "https://www.cnbc.com/video/2026/03/03/qualcomm-ceo-consumers-are-going-to-see-better-ai-agents.html"
+    },
+    {
+      "title": "Elon Musk 公开抨击 Anthropic：「他们大规模偷窃训练数据」",
+      "author": "@elonmusk",
+      "date": "2026-02-27",
+      "summary": "在 Anthropic 指控中国 AI 实验室蒸馏 Claude 模型后，Musk 在 X 上回击称 Anthropic 自身在大规模训练数据盗用方面劣迹斑斑，已支付数十亿美元和解金。这一攻击在 AI 知识产权争论中投下震撼弹。",
+      "link": "https://www.resultsense.com/news/2026-02-27-ai-distillation-row-escalates-as-anthropic-accuses-chinese-labs"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Code 嵌套 Subagent 3 天炼出终端 3D 渲染器",
+      "server": "r/ClaudeAI",
+      "summary": "Reddit/Discord 社区热议：开发者用 Claude Code 的 Task Subagent 功能，让 Agent 在 Agent 内部递归工作 3 天，成功交付了用 Rust 编写的终端符号 3D 渲染器。使用 Opus 4.6 进行协调，展示了 Agentic Coding 的极端可能性。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/"
+    },
+    {
+      "title": "Spec-Driven Development 实战讨论：GSD 框架正在改变 Agent 编程范式",
+      "server": "r/ClaudeCode",
+      "summary": "社区对 Get Shit Done（GSD）框架的深入讨论——一种基于 Spec 驱动的 Agent 开发方法论。开发者报告只要 Spec 足够详细并持续更新，Claude 就能从零重建几乎相同的代码库。支持 Claude Code、OpenCode 和 Gemini CLI。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1rg0b9i/has_anyone_tried_the_spec_driven_development/"
+    },
+    {
+      "title": "Tree-sitter Go 移植版发布：语义代码分析生态扩展",
+      "server": "Hacker News / 开源社区",
+      "summary": "Show HN 上引爆讨论的 Tree-sitter Go 原生移植版，带来 gts-suite 语义代码实体工具套件和 Got 新一代版本控制系统。与 GitNexus 等知识图谱工具结合，预示 AI Agent 代码理解能力的重大突破。",
+      "link": "https://news.ycombinator.com/item?id=47155597"
+    }
+  ],
+  "github": [
+    {
+      "title": "Goose by Block：Jack Dorsey 旗下免费开源 AI Agent 挑战 Claude Code",
+      "summary": "Block (Square) 开发的开源 AI Agent 框架 Goose 持续霸榜 GitHub Trending，支持本地运行任意 LLM、端到端自主开发（读文件、写代码、运行测试、调用 API、调试、自纠错），被社区视为 Claude Code 的最强免费替代品。",
+      "link": "https://developmentstoday.com/ai-robotics/goose-free-open-source-alternative-claude-code",
+      "stars": "15K+"
+    },
+    {
+      "title": "GitNexus：7.3K Stars 的代码知识图谱浏览器",
+      "summary": "GitNexus 用 Tree-sitter + KuzuDB (WASM) 在浏览器内构建代码知识图谱，实现零后端的 AST 增量解析和符号关系可视化。3 天内爆涨至 7.3K Stars，被认为是解决 AI 编码 Agent「缺乏代码库全局理解」问题的关键工具。",
+      "link": "https://byteiota.com/gitnexus-hits-7-3k-stars-fixing-ai-coding-crisis/",
+      "stars": "7.3K"
+    },
+    {
+      "title": "GSD (Get Shit Done)：Spec-Driven AI 开发框架",
+      "summary": "GSD 是一个 Meta-prompting 和 Spec-Driven Development 框架，通过 npx 安装器一键支持 Claude Code、OpenCode 和 Gemini CLI 三大运行时。核心理念：详细的 Spec 文件让 AI Agent 可以从零重建整个代码库。正在成为 Agentic Coding 社区的标配工作流。",
+      "link": "https://agentnativedev.medium.com/get-sh-t-done-meta-prompting-and-spec-driven-development-for-claude-code-and-codex-d1cde082e103",
+      "stars": "3K+"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Claude's Cycles [pdf]：理解 AI 编码 Agent 的工作流范式",
+      "score": "200+",
+      "summary": "Hacker News 热帖讨论 Claude 的循环工作模式——AI Agent 将已知的技术和工作流烘焙进概率分布，任何人都可以通过正确的「召唤咒语」访问这些模式。社区认为这预示了开发者角色从「手动编码」到「AI 协调」的根本转变。",
+      "link": "https://news.ycombinator.com/item?id=47230710"
+    },
+    {
+      "title": "Show HN: Tree-sitter Go 原生移植——语义代码分析的新可能",
+      "score": "150+",
+      "summary": "开发者将 Tree-sitter 移植到纯 Go 实现，衍生出 gts-suite 语义代码工具套件和 Got 版本控制系统。评论区大量讨论 AI Agent 如何利用增量 AST 解析来理解大型代码库。",
+      "link": "https://news.ycombinator.com/item?id=47155597"
+    },
+    {
+      "title": "Ask HN: Who is hiring? (March 2026)——AI Agent 岗位井喷",
+      "score": "500+",
+      "summary": "HN 每月招聘帖显示 2026 年 3 月 AI 相关岗位较去年同期大幅增长，其中「AI Agent Engineer」「Agentic Systems Architect」等新型职位占比显著提升，薪资范围 $180K-$400K。",
+      "link": "https://news.ycombinator.com/item?id=47219668"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Claude Code Subagent 递归炼丹实战：3D 终端渲染器案例分析",
+      "subreddit": "r/ClaudeAI",
+      "summary": "开发者详细分享了使用 Claude Code 嵌套 Subagent（Task Agent 套 Task Agent）3 天自主开发 Rust 终端 3D 渲染器的完整经历。关键技巧：用 GSD 框架 + Opus 4.6 协调，让 Agent 自主分解并递归解决渲染难题。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/"
+    },
+    {
+      "title": "Spec-Driven Development 社区实测：Spec 越详细代码越稳定",
+      "subreddit": "r/ClaudeCode",
+      "summary": "r/ClaudeCode 社区对 Spec-Driven Development 方法论的大讨论。多位开发者实测确认：只要持续维护详细的 Spec 文件，Claude 可以从 Spec 重建几乎相同的代码库，甚至比人类手写更一致。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1rg0b9i/has_anyone_tried_the_spec_driven_development/"
+    },
+    {
+      "title": "ETH Zurich 研究引爆讨论：AGENTS.md 到底有没有用？",
+      "subreddit": "r/LocalLLaMA",
+      "summary": "ETH Zurich AGENTbench 研究在 Reddit 上引发激烈讨论——人写的 AGENTS.md 提升 4% 但 LLM 生成的降低 2%。社区总结：不要写目录列表（Agent 自己会发现），专注于写编码规范、风格指南和架构决策。",
+      "link": "https://www.marktechpost.com/2026/02/25/new-eth-zurich-study-proves-your-ai-coding-agents-are-failing-because-your-agents-md-files-are-too-detailed/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Goose：Block 开源的全能 AI Agent 框架",
+      "summary": "Jack Dorsey 旗下 Block 推出的开源 AI Agent，可完全本地运行，支持任意 LLM。功能覆盖项目构建、代码执行、调试、测试全流程，被社区誉为「Claude Code 的免费替代品」。支持超千种工具扩展。",
+      "link": "https://developmentstoday.com/ai-robotics/goose-free-open-source-alternative-claude-code"
+    },
+    {
+      "title": "GitNexus：浏览器内代码知识图谱",
+      "summary": "基于 Tree-sitter AST 解析和 KuzuDB 图数据库（编译为 WASM），在浏览器内零后端运行完整的代码知识图谱。支持增量更新、毫秒级解析、错误恢复，帮助 AI Agent 建立代码库的全局理解。",
+      "link": "https://byteiota.com/gitnexus-hits-7-3k-stars-fixing-ai-coding-crisis/"
+    },
+    {
+      "title": "GSD (Get Shit Done)：一键安装的 Agent 编程框架",
+      "summary": "通过 npx get-shit-done-cc 一键安装，支持 Claude Code、OpenCode、Gemini CLI 三大运行时。核心理念是 Spec-Driven Development：维护详细 Spec，让 AI Agent 可从零重建完整项目。支持全局/本地安装和 CI/CD 集成。",
+      "link": "https://agentnativedev.medium.com/get-sh-t-done-meta-prompting-and-spec-driven-development-for-claude-code-and-codex-d1cde082e103"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Perplexity Computer：19 个模型协调的超级 Agent 进入实战",
+      "source": "VentureBeat / Perplexity",
+      "summary": "Perplexity 的 Computer Agent 系统已正式对外开放，月费 $200。可协调 Claude、Gemini、ChatGPT 等 19 个模型自主执行复杂工作流，支持持续自主运行数月。标志着 AI Agent 从单模型向多模型编排时代的跃迁。",
+      "link": "https://venturebeat.com/technology/perplexity-launches-computer-ai-agent-that-coordinates-19-models-priced-at"
+    },
+    {
+      "title": "ETH Zurich AGENTbench：首个系统性评估编码 Agent 上下文文件的基准",
+      "source": "ETH Zurich SRI Lab",
+      "summary": "ETH Zurich 发布 AGENTbench——首个专门评估 AGENTS.md/CLAUDE.md 等仓库级上下文文件对编码 Agent 影响的基准测试，涵盖 438 个真实任务。发现人写上下文 +4%、LLM 生成 -2%、成本 +20%。为 Agent 配置优化提供了科学依据。",
+      "link": "https://academy.dair.ai/blog/agents-md-evaluation"
+    },
+    {
+      "title": "WIRED：「Agentic 型人才」成为硅谷最稀缺技能",
+      "source": "WIRED",
+      "summary": "WIRED 深度报道指出，AI 编码 Agent 已能处理大部分底层工作，现在最有价值的技能是「决定 Agent 该做什么」。硅谷正在重新定义工程师角色——从手写代码转向 AI Agent 的编排者和决策者。",
+      "link": "https://www.wired.com/story/silicon-valley-agentic-individuals-future-of-work/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 重新谈判五角大楼合同：Altman 承认「草率」",
+      "summary": "Sam Altman 公开承认 OpenAI 在 Anthropic 被禁后火速签下五角大楼 $200M AI 合同的方式「投机且草率」。新合同将明确限制情报机构使用，增加对商业购买数据的保护条款。Guardian 称此事揭示了 AI 公司与军方关系的深层张力。",
+      "link": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt"
+    },
+    {
+      "title": "Anthropic 被列为供应链风险：科技公司与政府博弈的新前线",
+      "summary": "五角大楼将 Anthropic 列为供应链风险的决定在硅谷引发冲击波。WIRED 报道 Anthropic 将在法庭挑战该决定，警告这「将为任何与政府谈判的美国公司开创危险先例」。多家律所发布紧急法律分析。",
+      "link": "https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/"
+    },
+    {
+      "title": "41 万硅谷岗位面临 AI 重塑：Silicon Valley Index 2026 年度报告",
+      "summary": "Joint Venture Silicon Valley 发布年度报告，指出硅谷 41 万个工作岗位包含 AI 可执行的任务。报告强调关键信号：这不是「取代」而是「变形」——未来的核心技能是指导和编排 AI Agent。",
+      "link": "https://www.mercurynews.com/2026/03/01/more-than-400000-jobs-silicon-valley-exposed-ai-silicon-valley-index/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4 即将发布：国产芯片生态的里程碑",
+      "summary": "DeepSeek 与华为、寒武纪合作，将旗舰模型 V4 优化为可在国产芯片上运行。V4 集成文本/图像/视频生成于单一多模态架构，是 DeepSeek 一年多来的首个旗舰级发布。选在两会开幕期间发布意味深长。",
+      "link": "https://dig.watch/updates/deepseek-v4-ai-model"
+    },
+    {
+      "title": "中国密集发布 5 个新 AI 模型：UBS 最看好 Moonshot Kimi 2.5",
+      "summary": "CNBC 报道，中国在春节后短短数周内发布了 5 个新 AI 模型。UBS 分析师认为 Moonshot 的 Kimi 2.5 在编码和 Agentic 任务上最具竞争力。同时 DeepSeek V4 的发布预期正推动中国 AI 概念股上涨。",
+      "link": "https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html"
+    },
+    {
+      "title": "Anthropic 指控中国实验室知识产权侵权引发反弹",
+      "summary": "Anthropic 对 DeepSeek、Moonshot AI、MiniMax 的知识产权投诉遭到多方反击。Elon Musk 在 X 上称 Anthropic 自身「大规模盗用训练数据」。Bloomberg 评论指出前沿 AI 公司不应指望技术领先能建立持久护城河。",
+      "link": "https://www.theregister.com/2026/02/24/anthropic_misanthropic_chinese_ai_labs/"
+    }
+  ]
+}
