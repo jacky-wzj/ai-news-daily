@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-06",
+  "insights": [
+    {
+      "title": "OpenAI 发布 GPT-5.4：原生 Computer Use、100万 Token 上下文，Pro/Thinking 双版本同步上线",
+      "date": "2026-03-05",
+      "summary": "OpenAI 正式推出 GPT-5.4，定位为\"最强大高效的前沿专业模型\"。新模型原生支持 Computer Use（自主操作计算机）、100万 Token 上下文窗口，并同步发布 GPT-5.4 Thinking 推理版本和 GPT-5.4 Pro 高端版。支持\"Interactive Steering\"实时引导功能，用户可在生成过程中调整方向。此次发布正值 QuitGPT 运动高潮期。",
+      "link": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+    },
+    {
+      "title": "Claude 登顶 App Store：Anthropic 拒绝五角大楼合同后用户暴增，OpenAI 48小时流失150万订阅用户",
+      "date": "2026-03-02",
+      "summary": "Anthropic 拒绝与五角大楼签署 AI 军事合同并誓言\"对抗任何来自国防部的胁迫\"后，Claude 在美国和英国 App Store 均升至第一。与此同时，OpenAI 签署了同一份合同后遭遇 QuitGPT 运动，48小时内流失超150万付费用户。Anthropic 称\"上周每天都是 Claude 注册量的历史新高\"。",
+      "link": "https://fortune.com/2026/03/02/anthropic-claude-dario-amodei-number-one-app-store-openai-chatgpt-sam-altman-department-war/"
+    },
+    {
+      "title": "白宫召集科技巨头签署\"纳税人保护承诺\"：AI 数据中心自建电力，不得转嫁成本",
+      "date": "2026-03-04",
+      "summary": "Google、Microsoft、Meta、Amazon 及多家 AI 公司在白宫签署 Ratepayer Protection Pledge，承诺自行承担 AI 数据中心新建电力成本，不将费用转嫁给消费者。此举旨在缓解中期选举前公众对 AI 基础设施推高电费的担忧。Trump 表示企业自建电力最终将使电价下降。",
+      "link": "https://www.reuters.com/sustainability/climate-energy/trump-meet-tech-giants-energy-pledge-ahead-midterms-2026-03-04/"
+    },
+    {
+      "title": "Block 裁员4000人（近半数员工）：Jack Dorsey 称 AI 替代人力，引发\"AI 洗白裁员\"质疑",
+      "date": "2026-02-26",
+      "summary": "Square/Cash App 母公司 Block 宣布裁减超4000名员工，从10000人缩减至不到6000人。CEO Jack Dorsey 将裁员归因于 AI 带来的效率提升，并预言大多数公司将在一年内做出类似裁员。消息公布后 Block 股价暴涨20%。但 Bloomberg 报道指出这可能是\"AI washing\"——用 AI 作借口掩盖其他经营问题。",
+      "link": "https://techcrunch.com/2026/02/26/jack-dorsey-block-layoffs-4000-halved-employees-your-company-is-next/"
+    },
+    {
+      "title": "Microsoft 开源 Phi-4-reasoning-vision-15B：150亿参数多模态推理模型，自主选择何时\"深度思考\"",
+      "date": "2026-03-04",
+      "summary": "Microsoft 发布 Phi-4-reasoning-vision-15B，一个150亿参数的开源多模态推理模型。该模型基于 SigLIP-2 采用 mid-fusion 架构，能处理科学图表、UI 界面等视觉推理任务，并能自主判断是否需要启用深度链式推理。在 MathVista_Mini 基准测试中超越 Gemma-3-12b-it 达17%。模型可量化至 Q4_K_M 在12GB 显存中运行。",
+      "link": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/"
+    },
+    {
+      "title": "Utopai Studios 推出 PAI：首个长视频生成模型，支持电影级叙事序列与全流程创作控制",
+      "date": "2026-03-05",
+      "summary": "Utopai Studios 发布 PAI，定位为\"首个支持电影级叙事编排的长视频生成模型\"。PAI 可从概念开发到最终输出全流程处理叙事视频，解决了当前 AI 视频工具\"能生成酷片段但无法讲完整故事\"的痛点。模型已开放 Early Access。",
+      "link": "https://www.testingcatalog.com/utopai-studios-opens-access-to-pai-long-form-ai-video-model-2/"
+    },
+    {
+      "title": "面壁智能开源 MiniCPM-o 4.5：9B 全模态即时对话模型，支持\"边看边听主动说\"",
+      "date": "2026-03-06",
+      "summary": "面壁智能（THUNLP）开源全模态旗舰模型 MiniCPM-o 4.5，仅9B参数即实现原生全双工交互。模型支持\"边看、边听、主动说\"的全模态能力，将人机交互提升到即时自由对话的新水平。Apache 2.0 许可，支持企业私有化部署。",
+      "link": "https://www.bilibili.com/video/BV1T3FhzjEAX/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "date": "2026-03-04",
+      "summary": "Microsoft 发布150亿参数开源多模态推理模型技术报告。模型采用 mid-fusion 架构融合 SigLIP-2 视觉编码器与 Phi-4 语言模型，支持选择性链式推理，在数学、科学、UI 理解等视觉推理任务上取得突破。详细分享了设计动机、实验和训练经验。",
+      "link": "https://arxiv.org/abs/2603.03975"
+    },
+    {
+      "title": "MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention",
+      "date": "2026-03-06",
+      "summary": "MiniMax 发布 M1 技术论文，介绍全球首个开源大规模混合注意力推理模型。采用 Lightning Attention 机制和 CISPO 强化学习算法，支持百万 Token 上下文，在 SWE-bench 等编程基准测试中达到顶级水平。",
+      "link": "https://www.minimax.io/news/minimaxm1"
+    },
+    {
+      "title": "MiniCPM-o 4.5: 原生全双工全模态大模型技术报告",
+      "date": "2026-03-06",
+      "summary": "面壁智能发布 MiniCPM-o 4.5 技术报告，展示9B参数规模下实现原生全双工全模态交互的方法。模型支持视觉-听觉-语言三模态实时处理，实现边看、边听、主动说的即时自由对话能力。",
+      "link": "https://huggingface.co/openbmb/MiniCPM-o-4_5"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sam Altman 预告 GPT-5.4 及 /fast 模式",
+      "date": "2026-03-05",
+      "summary": "Sam Altman 在 X 上发布\"Forgot to mention /fast! I think people will like this\"，预告 GPT-5.4 的快速模式功能，暗示新模型在速度和能力上的双重提升。此推文引发大量讨论，但也遭到 QuitGPT 运动支持者的批评。",
+      "link": "https://interestingengineering.com/ai-robotics/gpt-5-4-openai-ai-model-release"
+    },
+    {
+      "title": "Jack Dorsey 宣布 Block 大裁员并预言 AI 将重塑所有企业",
+      "date": "2026-02-26",
+      "summary": "Jack Dorsey 在 X 上直接宣布 Block 裁员4000人，将裁员与 AI 效率提升直接挂钩，并大胆预言\"大多数公司将在下一年做出类似决定\"。该推文成为 AI 取代就业辩论的引爆点，获得数百万次浏览。",
+      "link": "https://fortune.com/2026/02/27/block-jack-dorsey-ceo-xyz-stock-square-4000-ai-layoffs/"
+    },
+    {
+      "title": "QuitGPT 运动在社交媒体爆发，抗议 OpenAI 五角大楼合同",
+      "date": "2026-03-01",
+      "summary": "Instagram 账号 quitGPT 在 OpenAI 签署五角大楼合同后迅速获得超万名粉丝，旧金山等地爆发线下抗议。抗议者不仅反对军事合同，还对 AI 数据中心能耗和 AI 侵蚀创意产业表达不满。运动推动了 Claude 的用户暴增。",
+      "link": "https://www.businessinsider.com/quitgpt-protest-against-openai-is-about-more-than-the-pentagon-2026-3"
+    }
+  ],
+  "discord": [
+    {
+      "title": "GPT-5.4 发布后社区激烈讨论：Computer Use 实测与 QuitGPT 伦理之争",
+      "date": "2026-03-06",
+      "summary": "GPT-5.4 发布后，各大 AI Discord 社区展开激烈讨论。开发者社区聚焦原生 Computer Use 功能的实际表现与安全边界，而伦理讨论区则围绕 QuitGPT 运动和 AI 军事应用展开辩论。",
+      "link": "https://decrypt.co/360148/openai-launches-gpt-5-4-quitgpt-exodus-gains-steam"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.4 后社区热议 Mid-Response Steering 新功能",
+      "date": "2026-03-06",
+      "summary": "GPT-5.4 引入的 Mid-Response Steering 功能允许用户在推理过程中实时调整方向，AI 开发者社区正在讨论这一功能对 Agent 编排和人机协作的深远影响。The New Stack 深度报道。",
+      "link": "https://thenewstack.io/openai-launches-gpt-5-4/"
+    },
+    {
+      "title": "GPT-5.4 Mid-Response Steering 功能引发 Agent 开发者社区激烈讨论",
+      "date": "2026-03-06",
+      "summary": "GPT-5.4 引入的 Mid-Response Steering 功能允许用户在推理过程中实时调整方向，AI 开发者社区正在讨论这一功能对 Agent 编排和人机协作的深远影响。",
+      "link": "https://thenewstack.io/openai-launches-gpt-5-4/"
+    }
+  ],
+  "github": [
+    {
+      "title": "microsoft/Phi-4-reasoning-vision-15B",
+      "date": "2026-03-04",
+      "summary": "Microsoft 开源150亿参数多模态推理模型，支持图像理解、科学图表分析和 UI 元素定位。采用选择性推理机制，自动判断任务是否需要深度思考。在 HuggingFace 和 GitHub 同步发布，MIT 许可证。",
+      "link": "https://siliconangle.com/2026/03/04/microsoft-open-sources-multimodal-reasoning-model-15b-parameters/"
+    },
+    {
+      "title": "OpenAI GPT-5.4 Tool Search 开发者 API 上线",
+      "date": "2026-03-05",
+      "summary": "OpenAI 在 GPT-5.4 API 中引入 Tool Search 机制，革新了工具调用方式。不再需要在 system prompt 中罗列所有工具定义，大幅降低 Token 消耗，GitHub 开发者社区正在积极适配。",
+      "link": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+    },
+    {
+      "title": "GPT-5.4 Tool Search API — 革新工具调用的 Token 效率",
+      "date": "2026-03-05",
+      "summary": "OpenAI 在 GPT-5.4 API 中引入 Tool Search 机制，革新了工具调用方式。不再需要在 system prompt 中罗列所有工具定义，大幅降低 Token 消耗，GitHub 开发者社区正在积极适配。",
+      "link": "https://every.to/vibe-check/gpt-5-4-openai-is-back"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenAI 发布 GPT-5.4 引发 HN 社区热议：产品力 vs 伦理困境",
+      "date": "2026-03-06",
+      "summary": "GPT-5.4 的发布在 Hacker News 上引发大规模讨论。技术社区认可100万 Token 上下文和 Computer Use 的产品力，但对 OpenAI 五角大楼合同和\"用新模型挽回流失用户\"的策略持批评态度。",
+      "link": "https://interestingengineering.com/ai-robotics/gpt-5-4-openai-ai-model-release"
+    },
+    {
+      "title": "OpenAI introduces GPT-5.4 知识工作能力引发 HN 技术社区热议",
+      "date": "2026-03-06",
+      "summary": "Ars Technica 评测 GPT-5.4 的知识工作能力提升，包括 Mid-Response Steering 和原生 Computer Use。Hacker News 技术社区围绕其实际表现和 OpenAI 伦理争议展开激烈讨论。",
+      "link": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/"
+    },
+    {
+      "title": "GPT-5.4 Thinking 版本的 Mid-Response Steering：突破 AI 交互范式",
+      "date": "2026-03-06",
+      "summary": "GPT-5.4 Thinking 的 Mid-Response Steering 功能允许用户在模型推理过程中实时介入调整方向，避免消耗数千 Token 走错方向。Ars Technica 深度评测引发 HN 技术社区热议。",
+      "link": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/ChatGPT: 150万用户离开 ChatGPT — QuitGPT 运动持续发酵",
+      "date": "2026-03-04",
+      "summary": "Reddit r/ChatGPT 热帖讨论150万用户因五角大楼合同而离开 ChatGPT 的现象。评论分为两派：一方认为这是消费者用脚投票的正当行为，另一方认为 GPT 模型本身技术领先不应因公司决策受影响。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1rk2y0g/15_million_users_leave_chatgpt/"
+    },
+    {
+      "title": "r/technology: \"Cancel ChatGPT\" 运动在 OpenAI 最新举动后大规模爆发",
+      "date": "2026-02-28",
+      "summary": "Reddit r/technology 社区跟踪报道 Cancel ChatGPT 运动的兴起。用户讨论 OpenAI 从非营利转型到军事合同的演变轨迹，以及为何 Anthropic 的立场赢得了更多技术社区的支持。",
+      "link": "https://www.reddit.com/r/technology/comments/1rh882s/cancel_chatgpt_movement_goes_big_after_openais/"
+    },
+    {
+      "title": "r/OpenAI: \"再见\" — 大量用户发帖告别 OpenAI 引发社区震动",
+      "date": "2026-02-28",
+      "summary": "r/OpenAI 子版出现大量用户发帖告别的浪潮，一篇标题为 Goodbye 的帖子获得490票和222条评论。用户称\"无法继续支持一个明显邪恶的应用\"，展现了 AI 伦理争议对用户忠诚度的真实冲击。",
+      "link": "https://www.reddit.com/r/OpenAI/comments/1rh5jau/goodbye/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "PAI by Utopai Studios — 首个电影级长视频 AI 生成工具",
+      "date": "2026-03-05",
+      "summary": "Utopai Studios 推出 PAI，号称首个支持叙事编排和全创作流程控制的长视频生成模型。可从概念到最终输出一站式完成，解决了现有 AI 视频工具只能生成短片段的痛点。已开放 Early Access。",
+      "link": "https://www.testingcatalog.com/utopai-studios-opens-access-to-pai-long-form-ai-video-model-2/"
+    },
+    {
+      "title": "Vibe Check: GPT-5.4 Computer Use Agent 实操评测",
+      "date": "2026-03-06",
+      "summary": "Every.to 深度评测 GPT-5.4 的 Computer Use Agent（CUA），AI 可看到屏幕并通过虚拟鼠标键盘操作——导航应用、点击按钮、填写表单。评测认为 OpenAI is back。",
+      "link": "https://every.to/vibe-check/gpt-5-4-openai-is-back"
+    },
+    {
+      "title": "GPT-5.4 原生 Computer Use Agent (CUA) — AI 自主操作计算机",
+      "date": "2026-03-05",
+      "summary": "GPT-5.4 原生集成 Computer Use Agent，可看到屏幕并通过虚拟鼠标键盘操作——导航应用、点击按钮、填写表单。与 Anthropic 的 Computer Use 形成直接竞争，但原生集成的体验更为流畅。",
+      "link": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "GPT-5.4 原生 Computer Use：OpenAI 入局自主操作 Agent 赛道",
+      "date": "2026-03-05",
+      "summary": "GPT-5.4 首次原生支持 Computer Use 功能，AI 可自主操作计算机完成复杂任务。此前这一赛道由 Anthropic Claude 率先布局，OpenAI 的入局标志着自主 Agent 能力成为前沿模型的标配。",
+      "link": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+    },
+    {
+      "title": "MiniMax M2: 为 Agent 而生的高效推理模型",
+      "date": "2026-03-06",
+      "summary": "MiniMax 发布 M2 模型，明确定位为\"Agent 和代码而生\"的模型。在编程、工具调用、逻辑推理等 Agent 核心能力上达到极高水平，同时推理速度极快、部署成本极低，是构建 Agent 系统的理想选择。",
+      "link": "https://www.minimax.io/news/minimax-m2"
+    },
+    {
+      "title": "MiniMax M1 CISPO 算法：Agent 长上下文 rollout 的奖励机制突破",
+      "date": "2026-03-06",
+      "summary": "MiniMax M1 论文提出 CISPO（Controlled Importance Sampling Policy Optimization）算法，解决了 Agent 长上下文 rollout 中的信用分配难题。通过端到端的过程奖励机制监控生成质量，为大规模 Agent 训练提供新方案。",
+      "link": "https://www.minimax.io/news/minimaxm1"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI vs Anthropic \"伦理之战\"：五角大楼合同引爆硅谷最大用户迁移",
+      "date": "2026-03-02",
+      "summary": "OpenAI 签署五角大楼合同而 Anthropic 拒绝的对比，引爆了硅谷 AI 行业有史以来最大的用户迁移。Claude 登顶 App Store、QuitGPT 运动兴起、OpenAI 员工离职潮，AI 伦理从抽象讨论变为实际商业影响力量。",
+      "link": "https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon"
+    },
+    {
+      "title": "GPT-5.4 紧急发布：OpenAI 试图用产品力挽回品牌危机",
+      "date": "2026-03-05",
+      "summary": "Decrypt 分析指出，GPT-5.4 在五角大楼合同争议后仅数天紧急发布，被视为 OpenAI 试图用产品力挽回品牌危机的策略。模型虽然技术指标强劲，但发布时机引发\"用新玩具转移注意力\"的质疑。",
+      "link": "https://decrypt.co/360148/openai-launches-gpt-5-4-quitgpt-exodus-gains-steam"
+    },
+    {
+      "title": "Jack Dorsey \"AI 裁员宣言\"震动硅谷：Block 模式会成为常态吗？",
+      "date": "2026-02-26",
+      "summary": "Block CEO Jack Dorsey 裁员4000人（40%）并宣称 AI 替代论的做法在硅谷引发震动。纽约时报、CNN 等主流媒体密集报道，引发\"AI 是否真的能替代近半数知识工作者\"的全行业大讨论。",
+      "link": "https://www.nytimes.com/2026/02/26/technology/block-square-job-cuts-ai.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "面壁智能开源 MiniCPM-o 4.5：9B 全模态即时对话大模型，Apache 2.0 许可",
+      "date": "2026-03-06",
+      "summary": "清华大学 THUNLP 团队旗下面壁智能开源 MiniCPM-o 4.5，仅用9B参数实现\"边看、边听、主动说\"的全双工全模态交互。模型支持 FlagOS 平台上英伟达芯片优化版本开箱即用部署。",
+      "link": "https://www.bilibili.com/video/BV1T3FhzjEAX/"
+    },
+    {
+      "title": "MiniMax 重磅三连发：M1 推理模型 + M2 Agent 模型 + M2.5 全能模型",
+      "date": "2026-03-06",
+      "summary": "上海稀宇科技（MiniMax）一天内发布三款模型：M1（首个开源混合注意力推理模型）、M2（Agent 专用模型，仅 Claude Sonnet 8%价格）、M2.5（全能生产力模型）。M1 在 SWE-bench 编程基准测试中达到顶级水平。",
+      "link": "https://www.minimax.io/news/minimaxm1"
+    },
+    {
+      "title": "MiniMax 2025财年业绩：M2 系列日均 Token 消耗量较12月增长6倍",
+      "date": "2026-03-02",
+      "summary": "MiniMax 公布2025全年业绩，2026年2月 M2 系列文本模型日均 Token 消耗量较2025年12月增长超6倍，编程场景 Token 消耗增长超10倍。显示中国 AI 公司在模型落地应用层面的快速增长势头。",
+      "link": "https://aijourn.com/minimax-announces-full-year-2025-financial-results/"
+    }
+  ]
+}
