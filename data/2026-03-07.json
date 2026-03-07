@@ -1,0 +1,241 @@
+{
+  "date": "2026-03-07",
+  "insights": [
+    {
+      "title": "Anthropic 被五角大楼正式列为供应链风险，成首家遭此待遇的美国公司",
+      "date": "2026-03-06",
+      "summary": "五角大楼正式通知 Anthropic 将其列为供应链风险，即刻生效。Anthropic 是首家被此标记的美国公司，此前该标记仅用于华为等外国竞争对手。所有国防供应商和承包商必须证明不使用 Anthropic 产品。",
+      "link": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk"
+    },
+    {
+      "title": "OpenAI 发布 Codex Security：AI 安全代理自动检测和修复代码漏洞",
+      "date": "2026-03-06",
+      "summary": "OpenAI 推出 Codex Security 安全代理工具，可自主发现、验证和修补软件漏洞。早期测试中已检出近 800 个关键漏洞和 10500+ 高严重性问题。该工具标志着 AI 在应用安全领域的重大突破。",
+      "link": "https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber"
+    },
+    {
+      "title": "Anthropic 面临华为式禁令风险，Bloomberg 深度分析影响",
+      "date": "2026-03-06",
+      "summary": "Bloomberg 分析指出 Anthropic 面临成为美国科技行业内被孤立的华为式风险。供应链风险标记可能导致其失去大量美国政府业务，同时 Lockheed Martin 等军工巨头表示将转向其他 LLM 供应商。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-06/anthropic-risks-pariah-status-after-pentagon-calls-it-a-supply-chain-risk"
+    },
+    {
+      "title": "新研究 Agents of Chaos：AI Agent 之间交互时灾难性失败呈指数级增长",
+      "date": "2026-03-07",
+      "summary": "ZDNET 报道 Northeastern University 最新研究发现，当多个 AI Agent 相互交互时个体失败会复合并涌现出全新的失败模式。研究使用 Claude Opus 驱动的 24/7 运行 Agent 进行实验。",
+      "link": "https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/"
+    },
+    {
+      "title": "Amazon 正式投资 OpenAI $500 亿，SoftBank 寻求 $400 亿贷款跟进",
+      "date": "2026-03-07",
+      "summary": "Amazon 与 OpenAI 达成战略合作，投资 $500 亿（首批 $150 亿）。同时 SoftBank 正寻求高达 $400 亿贷款以增持 OpenAI 股份。OpenAI $1100 亿融资轮估值达 $8400 亿，或筹划万亿级 IPO。",
+      "link": "https://www.na-biz.com/openai-and-amazon-announce-strategic-partnership/"
+    },
+    {
+      "title": "CNN 独家：Anthropic 称供应链风险标记影响比国防部长暗示的更窄",
+      "date": "2026-03-06",
+      "summary": "Anthropic 回应称五角大楼的供应链风险标记实际影响范围比 Hegseth 部长上周暗示的要窄得多。但 BBC 报道指出这仍是前所未有的，将引发一场史无前例的法律战。",
+      "link": "https://www.cnn.com/2026/03/05/tech/pentagon-anthropic-supply-chain-risk"
+    },
+    {
+      "title": "Oracle 为 OpenAI 数据中心投入 $580 亿债务后或裁员 3 万人",
+      "date": "2026-03-07",
+      "summary": "Oracle 为履行与 OpenAI 的 $3000 亿合作承诺，两个月内举债 $580 亿建设数据中心。TD Cowen 估计需 $1560 亿资本支出和约 300 万 GPU，财务压力迫使其考虑大规模裁员。",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/oracle-to-start-layoffs-which-may-go-up-to-30000-as-company-faces-cash-crunch-to-meet-its-commitment-to-sam-altmans-openai-for-/articleshow/129132517.cms"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Agents of Chaos：多 Agent 交互失败模式的系统性研究",
+      "authors": "Natalie Shapira (Northeastern University) 等",
+      "summary": "首次系统性研究多个 AI Agent 相互交互时的失败模式。发现当 Agent 间进行对话时个体失败会复合放大，并涌现出全新类型的灾难性故障，对当前多 Agent 系统设计敲响警钟。",
+      "link": "https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/"
+    },
+    {
+      "title": "OLMo 3：AI2 发布完全开源的 7B 和 32B 大语言模型家族",
+      "authors": "Allen Institute for AI (AI2)",
+      "summary": "AI2 发布 OLMo 3 系列开源模型包括 7B 和 32B 两个规模，基于全新的 Dolma 3 和 Dolci 训练栈构建。完全开源包含训练数据、代码和权重，推动 AI 研究的透明度。",
+      "link": "https://www.marktechpost.com/2026/03/06/google-launches-tensorflow-2-21-and-litert-faster-gpu-performance-new-npu-acceleration-and-seamless-pytorch-edge-deployment-upgrades/"
+    },
+    {
+      "title": "LLM Benchmark 2026 全景：15 大基准测试的真实意义与局限",
+      "authors": "LXT Research",
+      "summary": "2026 年已有 15 个主流 LLM 基准测试在使用。GPT-5.3 Codex AIME 2025 得分 94%，Qwen3.5-plus AIME 2026 得分 91.3%。研究深入分析了基准测试对企业实际需求的指导意义与误区。",
+      "link": "https://www.lxt.ai/blog/llm-benchmarks/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Pete Hegseth 发帖后五角大楼正式执行：Anthropic 即刻被列为供应链风险",
+      "author": "@PeteHegseth / Pentagon",
+      "date": "2026-03-06",
+      "summary": "继国防部长 Hegseth 在 X 上宣布封杀后五角大楼正式执行。FastCompany 报道这是五角大楼首次将一家美国公司列为供应链风险。Anthropic CEO 表示将寻求法律救济。",
+      "link": "https://www.fastcompany.com/91504225/pentagon-follows-through-threat-labels-anthropic-supply-chain-risk-effective-immediately"
+    },
+    {
+      "title": "Jensen Huang 暗示 Nvidia 或终止对 OpenAI 的投资",
+      "author": "@JensenHuang / Nvidia",
+      "date": "2026-03-07",
+      "summary": "Yahoo Finance 报道 Nvidia CEO Jensen Huang 暗示可能终止此前宣布的对 OpenAI 百亿级投资。此前 Nvidia 澄清 $1000 亿投资只是意向书而非最终承诺。Apple 同日发布 MacBook Neo。",
+      "link": "https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-ceo-jensen-huang-suggests-end-of-openai-investments-apple-unveils-macbook-neo-201826536.html"
+    },
+    {
+      "title": "Anthropic 回应 CNBC：Claude 被用于伊朗军事行动却遭自家政府封杀",
+      "author": "@Anthropic",
+      "date": "2026-03-06",
+      "summary": "CNBC 独家报道揭露讽刺现实：Anthropic 的 Claude 正被用于伊朗相关军事行动情报分析，却同时遭到五角大楼供应链风险标记。Anthropic 是唯一被公开列名的美国公司。",
+      "link": "https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Liquid AI LocalCowork: Privacy-First Agent Workflows via MCP Protocol",
+      "server": "MCP / Local AI Community",
+      "summary": "Liquid AI 发布 LFM2-24B-A2B 模型和 LocalCowork 桌面 Agent 应用，通过 Model Context Protocol (MCP) 实现完全本地的隐私优先 Agent 工作流。开源在 GitHub Liquid4All Cookbook 中。",
+      "link": "https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/"
+    },
+    {
+      "title": "Chinese Tech Firms Struggle to Keep Pace in AI Race",
+      "server": "AI & Tech Discussion",
+      "summary": "Semafor 报道阿里巴巴 Qwen 首席架构师林俊阳离职后公司紧急成立 AI 特别工作组，第三位高管离职暴露中国科技巨头在 AI 竞赛中面临的人才困境。",
+      "link": "https://www.semafor.com/article/03/06/2026/chinese-tech-firms-struggle-to-keep-pace-in-ai-race"
+    },
+    {
+      "title": "Alibaba Qwen Loses Its Architect, Stirring Questions About China AI",
+      "server": "China AI / Open Source",
+      "summary": "阿里巴巴 Qwen 大模型负责人林俊阳突然在 X 上宣布离职，引发关于中国 AI 发展方向的广泛讨论。字节跳动等竞争对手正在硅谷大规模招聘 AI 和芯片人才。",
+      "link": "https://www.digitimes.com/news/a20260305PD232/alibaba-qwen-language-bytedance.html"
+    }
+  ],
+  "github": [
+    {
+      "title": "Lightricks/LTX-Desktop - 基于 LTX-2.3 的免费本地 AI 视频编辑器",
+      "summary": "Lightricks 开源的桌面视频编辑器，内置 LTX-2.3 视频生成模型。支持文本到视频和图像到视频生成完全在本地运行。Apache 2.0 许可。",
+      "stars": "247+",
+      "link": "https://github.com/Lightricks/LTX-Desktop"
+    },
+    {
+      "title": "Lightricks/LTX-2 - 开源 AI 视频生成模型 4.3K Stars",
+      "summary": "LTX-2 系列最新版 2.3 支持 4K 分辨率视频生成和原生音频，Apache 2.0 开源发布完整权重和训练脚本。",
+      "stars": "4.3K",
+      "link": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "title": "OpenAI Codex Security - AI Security Vulnerability Scanner Tool",
+      "summary": "OpenAI 发布的 AI 安全代理工具可自主检测代码库中的安全漏洞。测试中已帮助发现 800+ 关键和 10500+ 高严重性安全问题。ChatGPT Enterprise 用户可免费使用首月。",
+      "stars": "New",
+      "link": "https://siliconangle.com/2026/03/06/openai-introduces-codex-security-help-developers-fix-software-vulnerabilities/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "五角大楼正式将 Anthropic 列为供应链风险引发 HN 激烈讨论",
+      "score": "800+",
+      "summary": "BBC 报道五角大楼正式将 Anthropic 列为供应链风险后在 Hacker News 引发数百条评论。社区讨论聚焦于 AI 伦理与国家安全的冲突以及政府对科技公司的权力边界。",
+      "link": "https://www.bbc.com/news/articles/cn5g3z3xe65o"
+    },
+    {
+      "title": "OpenAI Codex Security 上线：AI 安全代理检出 11000+ 关键漏洞",
+      "score": "500+",
+      "summary": "OpenAI 发布 Codex Security 安全代理进入研究预览。The Decoder 报道该工具可自主检测软件项目中的漏洞，测试中发现超过 11000 个关键和高严重性安全问题。",
+      "link": "https://the-decoder.com/openai-launches-codex-security-an-ai-agent-designed-to-detect-vulnerabilities-in-software-projects/"
+    },
+    {
+      "title": "China AI Ecosystem Leads Global Adoption Powers Innovation",
+      "score": "300+",
+      "summary": "人民日报英文版深度报道中国 AI 生态系统在全球 AI 采用率中居于领先地位。开源策略成为中国 AI 企业出海的核心竞争力，各方竞相制造下一个 DeepSeek 时刻。",
+      "link": "https://en.people.cn/n3/2026/0306/c90000-20432337.html"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Censorship Is Not Deterring Global Adoption of Chinese AI",
+      "subreddit": "r/technology",
+      "summary": "ChinaFile 深度分析揭示尽管存在严格审查，中国 AI 工具的全球采用率仍在快速增长。DeepSeek 等开源模型通过技术手段部分绕过审查限制，在海外市场赢得大量用户。",
+      "link": "https://www.chinafile.com/reporting-opinion/features/censorship-not-deterring-global-adoption-of-chinese-ai"
+    },
+    {
+      "title": "ChatGPT vs DeepSeek: Harvard Research Reveals AI Limits on Chinese Stocks",
+      "subreddit": "r/MachineLearning",
+      "summary": "哈佛商学院研究对比 ChatGPT 和 DeepSeek 对近 5000 家中国上市公司的分析结果，发现 ChatGPT 预测明显偏乐观而 DeepSeek 更为保守。揭示了 AI 模型在金融分析中的系统性偏差。",
+      "link": "https://www.library.hbs.edu/working-knowledge/chatgpt-vs-deepseek-what-chinese-stocks-reveal-about-ais-limits"
+    },
+    {
+      "title": "LTX Desktop 开源 AI 视频编辑器在 r/StableDiffusion 引爆讨论",
+      "subreddit": "r/StableDiffusion",
+      "summary": "Lightricks 发布的 LTX Desktop 免费本地 AI 视频编辑器在 Reddit 引发热烈反响。用户分享体验报告讨论本地 AI 视频生成的实用性和质量表现。",
+      "link": "https://www.reddit.com/r/StableDiffusion/comments/1rlpg18/we_just_shipped_ltx_desktop_a_free_local_video/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenAI Codex Security - AI 驱动的代码安全漏洞自动扫描器",
+      "summary": "OpenAI 发布的 AI 安全代理可自主发现、验证和修补软件漏洞。测试阶段检出 800 个关键漏洞和 10500+ 高严重性问题，对传统安全扫描工具形成降维打击。",
+      "link": "https://siliconangle.com/2026/03/06/openai-introduces-codex-security-help-developers-fix-software-vulnerabilities/"
+    },
+    {
+      "title": "Liquid AI LocalCowork - 基于 MCP 的隐私优先本地 AI Agent",
+      "summary": "Liquid AI 发布 LocalCowork 桌面 Agent 应用搭载 LFM2-24B-A2B 模型，通过 MCP 协议实现完全本地的低延迟工具调用。开源发布专为隐私敏感场景设计。",
+      "link": "https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/"
+    },
+    {
+      "title": "OpenAI Codex Security - AI Vulnerability Detection Agent Preview",
+      "summary": "OpenAI 推出 Codex Security 研究预览版，面向 Enterprise 和 Edu 用户。该 AI 安全代理可上下文感知地检测代码库漏洞并自动生成补丁，首月免费使用。",
+      "link": "https://cybersecuritynews.com/openai-launches-codex-security/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Agents of Chaos 研究揭示多 Agent 交互的灾难性失败模式",
+      "source": "Northeastern University / ZDNET",
+      "summary": "新研究发现多个 AI Agent 相互交互时失败呈指数级复合增长，涌现出全新灾难性故障模式。使用 Claude Opus 驱动 24/7 Agent 的实验结果对多 Agent 系统部署敲响警钟。",
+      "link": "https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/"
+    },
+    {
+      "title": "Automation Anywhere 与 EvolutIA 联合发布企业 AI Agent 平台",
+      "source": "Automation Anywhere / EvolutIA",
+      "summary": "Automation Anywhere 与 EvolutIA 联合推出企业级 AI Agent 自动化平台，面向医疗、制造、保险和金融服务行业。CEO 表示这反映了企业对安全可治理的 Agent 自动化的巨大需求。",
+      "link": "https://blog.ibvl.in/index.php/2026/03/06/automation-anywhere-evolutia-launch-enterprise-ai-agents/"
+    },
+    {
+      "title": "OpenAI Codex Security Agent：AI 安全代理进入企业实战",
+      "source": "Bloomberg / Axios",
+      "summary": "Bloomberg 报道 OpenAI 发布 Codex Security 安全代理，可自主检测代码库漏洞并提出修复方案。测试中检出 11000+ 关键漏洞，直接对标传统网络安全公司核心产品。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-06/openai-releases-ai-agent-security-tool-for-research-preview"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Amazon $500 亿投资 OpenAI：AI 军备竞赛进入新阶段",
+      "summary": "Amazon 宣布投资 $500 亿加入 OpenAI 生态，加上 SoftBank $300 亿和 Nvidia $300 亿的投入，OpenAI 单轮融资达 $1100 亿估值 $8400 亿。SoftBank 正寻求 $400 亿贷款跟进。",
+      "link": "https://www.na-biz.com/openai-and-amazon-announce-strategic-partnership/"
+    },
+    {
+      "title": "Oracle 为 AI 数据中心举债 $580 亿后面临 3 万人裁员",
+      "summary": "Oracle 董事长 Ellison 推动公司从传统数据库转型为 AI 云巨头，两个月内举债 $580 亿建设数据中心。TD Cowen 估计其 OpenAI 合作需 $1560 亿资本支出，财务压力空前巨大。",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/oracle-to-start-layoffs-which-may-go-up-to-30000-as-company-faces-cash-crunch-to-meet-its-commitment-to-sam-altmans-openai-for-/articleshow/129132517.cms"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang 暗示可能退出 OpenAI 投资",
+      "summary": "Jensen Huang 在公开场合暗示此前宣布的对 OpenAI 百亿级投资可能不会兑现，Nvidia 澄清 $1000 亿是意向书而非承诺。此举可能影响 OpenAI 融资格局和 AI 芯片供应链。",
+      "link": "https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-ceo-jensen-huang-suggests-end-of-openai-investments-apple-unveils-macbook-neo-201826536.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "Alibaba Qwen Loses Architect Lin Junyang, AI Task Force Formed",
+      "summary": "阿里巴巴 Qwen 大模型首席架构师林俊阳突然离职，成为近期离开的第三位高管。公司紧急成立 AI 特别工作组应对危机。Digitimes 分析认为这对中国 AI 发展方向产生深远影响。",
+      "link": "https://www.digitimes.com/news/a20260305PD232/alibaba-qwen-language-bytedance.html"
+    },
+    {
+      "title": "Chinese Tech Giants Recruit US AI and Chip Talent in Silicon Valley",
+      "summary": "字节跳动和百度正在硅谷大规模招聘 AI 和芯片设计人才。字节跳动的 Doubao 是2025年中国下载量最高的 AI 聊天应用，百度在 Sunnyvale 开设 10 个芯片设计岗位。",
+      "link": "https://e.vnexpress.net/news/tech/enterprises/chinese-tech-giants-recruit-us-ai-and-chip-talent-as-rivalry-heats-up-at-home-5047310.html"
+    },
+    {
+      "title": "China AI Ecosystem Leads Global Adoption According to People's Daily",
+      "summary": "人民日报报道中国 AI 生态系统在全球采用率中领先。开放权重模型策略持续推动创新，各方竞相制造下一个 DeepSeek 时刻。五年规划明确要求在制造、物流、教育和医疗领域部署 AI Agent。",
+      "link": "https://en.people.cn/n3/2026/0306/c90000-20432337.html"
+    }
+  ]
+}

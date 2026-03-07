@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月7日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月7日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Agents of Chaos：多 Agent 交互失败模式的系统性研究</h3>
+      <div class="meta">👤 Natalie Shapira (Northeastern University) 等</div>
+      <p>首次系统性研究多个 AI Agent 相互交互时的失败模式。发现当 Agent 间进行对话时个体失败会复合放大，并涌现出全新类型的灾难性故障，对当前多 Agent 系统设计敲响警钟。</p>
+  <a class="link" href="https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OLMo 3：AI2 发布完全开源的 7B 和 32B 大语言模型家族</h3>
+      <div class="meta">👤 Allen Institute for AI (AI2)</div>
+      <p>AI2 发布 OLMo 3 系列开源模型包括 7B 和 32B 两个规模，基于全新的 Dolma 3 和 Dolci 训练栈构建。完全开源包含训练数据、代码和权重，推动 AI 研究的透明度。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/03/06/google-launches-tensorflow-2-21-and-litert-faster-gpu-performance-new-npu-acceleration-and-seamless-pytorch-edge-deployment-upgrades/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LLM Benchmark 2026 全景：15 大基准测试的真实意义与局限</h3>
+      <div class="meta">👤 LXT Research</div>
+      <p>2026 年已有 15 个主流 LLM 基准测试在使用。GPT-5.3 Codex AIME 2025 得分 94%，Qwen3.5-plus AIME 2026 得分 91.3%。研究深入分析了基准测试对企业实际需求的指导意义与误区。</p>
+  <a class="link" href="https://www.lxt.ai/blog/llm-benchmarks/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Pete Hegseth 发帖后五角大楼正式执行：Anthropic 即刻被列为供应链风险</h3>
+      <div class="meta">👤 <span class="author">@PeteHegseth / Pentagon</span> · 2026-03-06</div>
+      <p>继国防部长 Hegseth 在 X 上宣布封杀后五角大楼正式执行。FastCompany 报道这是五角大楼首次将一家美国公司列为供应链风险。Anthropic CEO 表示将寻求法律救济。</p>
+  <a class="link" href="https://www.fastcompany.com/91504225/pentagon-follows-through-threat-labels-anthropic-supply-chain-risk-effective-immediately" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Jensen Huang 暗示 Nvidia 或终止对 OpenAI 的投资</h3>
+      <div class="meta">👤 <span class="author">@JensenHuang / Nvidia</span> · 2026-03-07</div>
+      <p>Yahoo Finance 报道 Nvidia CEO Jensen Huang 暗示可能终止此前宣布的对 OpenAI 百亿级投资。此前 Nvidia 澄清 $1000 亿投资只是意向书而非最终承诺。Apple 同日发布 MacBook Neo。</p>
+  <a class="link" href="https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-ceo-jensen-huang-suggests-end-of-openai-investments-apple-unveils-macbook-neo-201826536.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 回应 CNBC：Claude 被用于伊朗军事行动却遭自家政府封杀</h3>
+      <div class="meta">👤 <span class="author">@Anthropic</span> · 2026-03-06</div>
+      <p>CNBC 独家报道揭露讽刺现实：Anthropic 的 Claude 正被用于伊朗相关军事行动情报分析，却同时遭到五角大楼供应链风险标记。Anthropic 是唯一被公开列名的美国公司。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Liquid AI LocalCowork: Privacy-First Agent Workflows via MCP Protocol</h3>
+      <div class="meta">💬 MCP / Local AI Community</div>
+      <p>Liquid AI 发布 LFM2-24B-A2B 模型和 LocalCowork 桌面 Agent 应用，通过 Model Context Protocol (MCP) 实现完全本地的隐私优先 Agent 工作流。开源在 GitHub Liquid4All Cookbook 中。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Chinese Tech Firms Struggle to Keep Pace in AI Race</h3>
+      <div class="meta">💬 AI &amp; Tech Discussion</div>
+      <p>Semafor 报道阿里巴巴 Qwen 首席架构师林俊阳离职后公司紧急成立 AI 特别工作组，第三位高管离职暴露中国科技巨头在 AI 竞赛中面临的人才困境。</p>
+  <a class="link" href="https://www.semafor.com/article/03/06/2026/chinese-tech-firms-struggle-to-keep-pace-in-ai-race" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Alibaba Qwen Loses Its Architect, Stirring Questions About China AI</h3>
+      <div class="meta">💬 China AI / Open Source</div>
+      <p>阿里巴巴 Qwen 大模型负责人林俊阳突然在 X 上宣布离职，引发关于中国 AI 发展方向的广泛讨论。字节跳动等竞争对手正在硅谷大规模招聘 AI 和芯片人才。</p>
+  <a class="link" href="https://www.digitimes.com/news/a20260305PD232/alibaba-qwen-language-bytedance.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Lightricks/LTX-Desktop - 基于 LTX-2.3 的免费本地 AI 视频编辑器</h3>
+      
+      <p>Lightricks 开源的桌面视频编辑器，内置 LTX-2.3 视频生成模型。支持文本到视频和图像到视频生成完全在本地运行。Apache 2.0 许可。</p>
+  <a class="link" href="https://github.com/Lightricks/LTX-Desktop" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 247+ Stars</p></div>
+    <div class="card">
+      <h3>2. Lightricks/LTX-2 - 开源 AI 视频生成模型 4.3K Stars</h3>
+      
+      <p>LTX-2 系列最新版 2.3 支持 4K 分辨率视频生成和原生音频，Apache 2.0 开源发布完整权重和训练脚本。</p>
+  <a class="link" href="https://github.com/Lightricks/LTX-2" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ 4.3K Stars</p></div>
+    <div class="card">
+      <h3>3. OpenAI Codex Security - AI Security Vulnerability Scanner Tool</h3>
+      
+      <p>OpenAI 发布的 AI 安全代理工具可自主检测代码库中的安全漏洞。测试中已帮助发现 800+ 关键和 10500+ 高严重性安全问题。ChatGPT Enterprise 用户可免费使用首月。</p>
+  <a class="link" href="https://siliconangle.com/2026/03/06/openai-introduces-codex-security-help-developers-fix-software-vulnerabilities/" target="_blank">🔗 原文链接</a><p style="margin-top: 8px; font-size: 0.875rem;">⭐ New Stars</p></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 五角大楼正式将 Anthropic 列为供应链风险引发 HN 激烈讨论</h3>
+      <div class="meta">⬆️ 800+ Points</div>
+      <p>BBC 报道五角大楼正式将 Anthropic 列为供应链风险后在 Hacker News 引发数百条评论。社区讨论聚焦于 AI 伦理与国家安全的冲突以及政府对科技公司的权力边界。</p>
+  <a class="link" href="https://www.bbc.com/news/articles/cn5g3z3xe65o" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI Codex Security 上线：AI 安全代理检出 11000+ 关键漏洞</h3>
+      <div class="meta">⬆️ 500+ Points</div>
+      <p>OpenAI 发布 Codex Security 安全代理进入研究预览。The Decoder 报道该工具可自主检测软件项目中的漏洞，测试中发现超过 11000 个关键和高严重性安全问题。</p>
+  <a class="link" href="https://the-decoder.com/openai-launches-codex-security-an-ai-agent-designed-to-detect-vulnerabilities-in-software-projects/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. China AI Ecosystem Leads Global Adoption Powers Innovation</h3>
+      <div class="meta">⬆️ 300+ Points</div>
+      <p>人民日报英文版深度报道中国 AI 生态系统在全球 AI 采用率中居于领先地位。开源策略成为中国 AI 企业出海的核心竞争力，各方竞相制造下一个 DeepSeek 时刻。</p>
+  <a class="link" href="https://en.people.cn/n3/2026/0306/c90000-20432337.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Censorship Is Not Deterring Global Adoption of Chinese AI</h3>
+      <div class="meta">reddit: r/technology</div>
+      <p>ChinaFile 深度分析揭示尽管存在严格审查，中国 AI 工具的全球采用率仍在快速增长。DeepSeek 等开源模型通过技术手段部分绕过审查限制，在海外市场赢得大量用户。</p>
+  <a class="link" href="https://www.chinafile.com/reporting-opinion/features/censorship-not-deterring-global-adoption-of-chinese-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ChatGPT vs DeepSeek: Harvard Research Reveals AI Limits on Chinese Stocks</h3>
+      <div class="meta">reddit: r/MachineLearning</div>
+      <p>哈佛商学院研究对比 ChatGPT 和 DeepSeek 对近 5000 家中国上市公司的分析结果，发现 ChatGPT 预测明显偏乐观而 DeepSeek 更为保守。揭示了 AI 模型在金融分析中的系统性偏差。</p>
+  <a class="link" href="https://www.library.hbs.edu/working-knowledge/chatgpt-vs-deepseek-what-chinese-stocks-reveal-about-ais-limits" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LTX Desktop 开源 AI 视频编辑器在 r/StableDiffusion 引爆讨论</h3>
+      <div class="meta">reddit: r/StableDiffusion</div>
+      <p>Lightricks 发布的 LTX Desktop 免费本地 AI 视频编辑器在 Reddit 引发热烈反响。用户分享体验报告讨论本地 AI 视频生成的实用性和质量表现。</p>
+  <a class="link" href="https://www.reddit.com/r/StableDiffusion/comments/1rlpg18/we_just_shipped_ltx_desktop_a_free_local_video/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI Codex Security - AI 驱动的代码安全漏洞自动扫描器</h3>
+      
+      <p>OpenAI 发布的 AI 安全代理可自主发现、验证和修补软件漏洞。测试阶段检出 800 个关键漏洞和 10500+ 高严重性问题，对传统安全扫描工具形成降维打击。</p>
+  <a class="link" href="https://siliconangle.com/2026/03/06/openai-introduces-codex-security-help-developers-fix-software-vulnerabilities/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Liquid AI LocalCowork - 基于 MCP 的隐私优先本地 AI Agent</h3>
+      
+      <p>Liquid AI 发布 LocalCowork 桌面 Agent 应用搭载 LFM2-24B-A2B 模型，通过 MCP 协议实现完全本地的低延迟工具调用。开源发布专为隐私敏感场景设计。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI Codex Security - AI Vulnerability Detection Agent Preview</h3>
+      
+      <p>OpenAI 推出 Codex Security 研究预览版，面向 Enterprise 和 Edu 用户。该 AI 安全代理可上下文感知地检测代码库漏洞并自动生成补丁，首月免费使用。</p>
+  <a class="link" href="https://cybersecuritynews.com/openai-launches-codex-security/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Agents of Chaos 研究揭示多 Agent 交互的灾难性失败模式</h3>
+      <div class="meta">🤖 Northeastern University / ZDNET</div>
+      <p>新研究发现多个 AI Agent 相互交互时失败呈指数级复合增长，涌现出全新灾难性故障模式。使用 Claude Opus 驱动 24/7 Agent 的实验结果对多 Agent 系统部署敲响警钟。</p>
+  <a class="link" href="https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Automation Anywhere 与 EvolutIA 联合发布企业 AI Agent 平台</h3>
+      <div class="meta">🤖 Automation Anywhere / EvolutIA</div>
+      <p>Automation Anywhere 与 EvolutIA 联合推出企业级 AI Agent 自动化平台，面向医疗、制造、保险和金融服务行业。CEO 表示这反映了企业对安全可治理的 Agent 自动化的巨大需求。</p>
+  <a class="link" href="https://blog.ibvl.in/index.php/2026/03/06/automation-anywhere-evolutia-launch-enterprise-ai-agents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI Codex Security Agent：AI 安全代理进入企业实战</h3>
+      <div class="meta">🤖 Bloomberg / Axios</div>
+      <p>Bloomberg 报道 OpenAI 发布 Codex Security 安全代理，可自主检测代码库漏洞并提出修复方案。测试中检出 11000+ 关键漏洞，直接对标传统网络安全公司核心产品。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-03-06/openai-releases-ai-agent-security-tool-for-research-preview" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 被五角大楼正式列为供应链风险，成首家遭此待遇的美国公司</h3>
+      <div class="meta">📅 2026-03-06</div>
+      <p>五角大楼正式通知 Anthropic 将其列为供应链风险，即刻生效。Anthropic 是首家被此标记的美国公司，此前该标记仅用于华为等外国竞争对手。所有国防供应商和承包商必须证明不使用 Anthropic 产品。</p>
+  <a class="link" href="https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 发布 Codex Security：AI 安全代理自动检测和修复代码漏洞</h3>
+      <div class="meta">📅 2026-03-06</div>
+      <p>OpenAI 推出 Codex Security 安全代理工具，可自主发现、验证和修补软件漏洞。早期测试中已检出近 800 个关键漏洞和 10500+ 高严重性问题。该工具标志着 AI 在应用安全领域的重大突破。</p>
+  <a class="link" href="https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 面临华为式禁令风险，Bloomberg 深度分析影响</h3>
+      <div class="meta">📅 2026-03-06</div>
+      <p>Bloomberg 分析指出 Anthropic 面临成为美国科技行业内被孤立的华为式风险。供应链风险标记可能导致其失去大量美国政府业务，同时 Lockheed Martin 等军工巨头表示将转向其他 LLM 供应商。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-03-06/anthropic-risks-pariah-status-after-pentagon-calls-it-a-supply-chain-risk" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 新研究 Agents of Chaos：AI Agent 之间交互时灾难性失败呈指数级增长</h3>
+      <div class="meta">📅 2026-03-07</div>
+      <p>ZDNET 报道 Northeastern University 最新研究发现，当多个 AI Agent 相互交互时个体失败会复合并涌现出全新的失败模式。研究使用 Claude Opus 驱动的 24/7 运行 Agent 进行实验。</p>
+  <a class="link" href="https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Amazon 正式投资 OpenAI $500 亿，SoftBank 寻求 $400 亿贷款跟进</h3>
+      <div class="meta">📅 2026-03-07</div>
+      <p>Amazon 与 OpenAI 达成战略合作，投资 $500 亿（首批 $150 亿）。同时 SoftBank 正寻求高达 $400 亿贷款以增持 OpenAI 股份。OpenAI $1100 亿融资轮估值达 $8400 亿，或筹划万亿级 IPO。</p>
+  <a class="link" href="https://www.na-biz.com/openai-and-amazon-announce-strategic-partnership/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. CNN 独家：Anthropic 称供应链风险标记影响比国防部长暗示的更窄</h3>
+      <div class="meta">📅 2026-03-06</div>
+      <p>Anthropic 回应称五角大楼的供应链风险标记实际影响范围比 Hegseth 部长上周暗示的要窄得多。但 BBC 报道指出这仍是前所未有的，将引发一场史无前例的法律战。</p>
+  <a class="link" href="https://www.cnn.com/2026/03/05/tech/pentagon-anthropic-supply-chain-risk" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. Oracle 为 OpenAI 数据中心投入 $580 亿债务后或裁员 3 万人</h3>
+      <div class="meta">📅 2026-03-07</div>
+      <p>Oracle 为履行与 OpenAI 的 $3000 亿合作承诺，两个月内举债 $580 亿建设数据中心。TD Cowen 估计需 $1560 亿资本支出和约 300 万 GPU，财务压力迫使其考虑大规模裁员。</p>
+  <a class="link" href="https://timesofindia.indiatimes.com/technology/tech-news/oracle-to-start-layoffs-which-may-go-up-to-30000-as-company-faces-cash-crunch-to-meet-its-commitment-to-sam-altmans-openai-for-/articleshow/129132517.cms" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Amazon $500 亿投资 OpenAI：AI 军备竞赛进入新阶段</h3>
+      
+      <p>Amazon 宣布投资 $500 亿加入 OpenAI 生态，加上 SoftBank $300 亿和 Nvidia $300 亿的投入，OpenAI 单轮融资达 $1100 亿估值 $8400 亿。SoftBank 正寻求 $400 亿贷款跟进。</p>
+  <a class="link" href="https://www.na-biz.com/openai-and-amazon-announce-strategic-partnership/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Oracle 为 AI 数据中心举债 $580 亿后面临 3 万人裁员</h3>
+      
+      <p>Oracle 董事长 Ellison 推动公司从传统数据库转型为 AI 云巨头，两个月内举债 $580 亿建设数据中心。TD Cowen 估计其 OpenAI 合作需 $1560 亿资本支出，财务压力空前巨大。</p>
+  <a class="link" href="https://timesofindia.indiatimes.com/technology/tech-news/oracle-to-start-layoffs-which-may-go-up-to-30000-as-company-faces-cash-crunch-to-meet-its-commitment-to-sam-altmans-openai-for-/articleshow/129132517.cms" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Nvidia CEO Jensen Huang 暗示可能退出 OpenAI 投资</h3>
+      
+      <p>Jensen Huang 在公开场合暗示此前宣布的对 OpenAI 百亿级投资可能不会兑现，Nvidia 澄清 $1000 亿是意向书而非承诺。此举可能影响 OpenAI 融资格局和 AI 芯片供应链。</p>
+  <a class="link" href="https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-ceo-jensen-huang-suggests-end-of-openai-investments-apple-unveils-macbook-neo-201826536.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Alibaba Qwen Loses Architect Lin Junyang, AI Task Force Formed</h3>
+      
+      <p>阿里巴巴 Qwen 大模型首席架构师林俊阳突然离职，成为近期离开的第三位高管。公司紧急成立 AI 特别工作组应对危机。Digitimes 分析认为这对中国 AI 发展方向产生深远影响。</p>
+  <a class="link" href="https://www.digitimes.com/news/a20260305PD232/alibaba-qwen-language-bytedance.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Chinese Tech Giants Recruit US AI and Chip Talent in Silicon Valley</h3>
+      
+      <p>字节跳动和百度正在硅谷大规模招聘 AI 和芯片设计人才。字节跳动的 Doubao 是2025年中国下载量最高的 AI 聊天应用，百度在 Sunnyvale 开设 10 个芯片设计岗位。</p>
+  <a class="link" href="https://e.vnexpress.net/news/tech/enterprises/chinese-tech-giants-recruit-us-ai-and-chip-talent-as-rivalry-heats-up-at-home-5047310.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. China AI Ecosystem Leads Global Adoption According to People's Daily</h3>
+      
+      <p>人民日报报道中国 AI 生态系统在全球采用率中领先。开放权重模型策略持续推动创新，各方竞相制造下一个 DeepSeek 时刻。五年规划明确要求在制造、物流、教育和医疗领域部署 AI Agent。</p>
+  <a class="link" href="https://en.people.cn/n3/2026/0306/c90000-20432337.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:36 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
