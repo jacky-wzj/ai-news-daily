@@ -459,6 +459,19 @@ function generatePage(data, template, dateStr, previousLinks) {
     (data.siliconValley?.length || 0) +
     (data.mainlandChina?.length || 0);
 
+  // Empty state: all items were duplicates or no new content
+  if (total === 0) {
+    content = `
+    <div style="text-align:center; padding: var(--space-12) var(--space-4);">
+      <div style="font-size: 3rem; margin-bottom: var(--space-4);">📭</div>
+      <h2 style="font-size: var(--text-2xl); font-weight: 700; color: var(--text); margin-bottom: var(--space-3);">今日无新资讯</h2>
+      <p style="font-size: var(--text-base); color: var(--text-secondary); max-width: 480px; margin: 0 auto; line-height: 1.8;">
+        今天的 AI 资讯与近期内容重复度较高，未发现新的独立报道。<br>
+        请查看昨日日报获取最新动态。
+      </p>
+    </div>`;
+  }
+
   // Replace placeholders
   let html = template
     .replace('{{date}}', formatDate(new Date()))

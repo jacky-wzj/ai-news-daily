@@ -1,6 +1,6 @@
 {
   "date": "2026-03-08",
-  "ai_ecosystem_insights": [
+  "insights": [
     {
       "title": "Trump政府出台严格AI合同新规：要求AI公司允许「任何合法用途」",
       "date": "2026-03-07",
@@ -44,7 +44,7 @@
       "link": "https://releasebot.io/updates/notion"
     }
   ],
-  "huggingface_papers": [
+  "papers": [
     {
       "title": "Yann LeCun新论文：AGI定义有误，提出「超人类适应性智能」(SAI)替代",
       "date": "2026-03-07",
@@ -64,7 +64,7 @@
       "link": "https://www.marktechpost.com/2026/02/25/new-eth-zurich-study-proves-your-ai-coding-agents-are-failing-because-your-agents-md-files-are-too-detailed/"
     }
   ],
-  "x_highlights": [
+  "xPosts": [
     {
       "title": "Sam Altman回应OpenAI五角大楼合作争议：已加入技术安全保障",
       "date": "2026-03-05",
@@ -84,7 +84,7 @@
       "link": "https://www.siliconvalley.com/2026/03/03/qualcomm-ceo-predicts-2026-will-be-the-year-of-the-ai-agent/"
     }
   ],
-  "discord_community": [
+  "discord": [
     {
       "title": "Cursor收入突破20亿美元年化率：AI编程工具赛道爆发",
       "date": "2026-03-05",
@@ -104,7 +104,7 @@
       "link": "https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html"
     }
   ],
-  "github_trending": [
+  "github": [
     {
       "title": "ByteDance/deer-flow：字节跳动开源的多Agent研究助理框架",
       "date": "2026-03-04",
@@ -124,7 +124,7 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/"
     }
   ],
-  "hn_reddit": [
+  "hn": [
     {
       "title": "OpenAI正开发GitHub替代品：扩展开发者工具链版图",
       "date": "2026-03-03",
@@ -144,7 +144,7 @@
       "link": "https://www.mercurynews.com/2026/03/01/more-than-400000-jobs-silicon-valley-exposed-ai-silicon-valley-index/"
     }
   ],
-  "tools_agents": [
+  "tools": [
     {
       "title": "Perplexity推出Computer Super Agent：协调19个模型的桌面AI助手",
       "date": "2026-02-25",
@@ -164,7 +164,7 @@
       "link": "https://www.marktechpost.com/2026/03/02/meet-nullclaw-the-678-kb-zig-ai-agent-framework-running-on-1-mb-ram-and-booting-in-two-milliseconds/"
     }
   ],
-  "silicon_valley": [
+  "siliconValley": [
     {
       "title": "OpenAI发布GPT-5.4：企业级Agentic模型上线",
       "date": "2026-03-05",
@@ -184,7 +184,7 @@
       "link": "https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/"
     }
   ],
-  "china_ai": [
+  "mainlandChina": [
     {
       "title": "MiniMax发布M2.5模型：开源模型在基础任务上成本降低10倍",
       "date": "2026-03-05",
@@ -203,5 +203,7 @@
       "summary": "CNBC报道多家中国AI初创公司正在加速全球化扩张，包括Tripo等在硅谷设立办公室，瞄准海外市场。尽管面临地缘政治压力，中国AI公司凭借技术和成本优势在全球市场持续拓展。",
       "link": "https://www.cnbc.com/2026/03/04/cnbc-china-connection-newsletter-ai-startups-global-expansion-nvidia-warning-tripo-isales.html"
     }
-  ]
+  ],
+  "reddit": [],
+  "agent": []
 }
