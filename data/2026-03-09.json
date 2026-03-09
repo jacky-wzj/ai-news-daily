@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-09",
+  "insights": [
+    {
+      "title": "Claude用户暴增超越ChatGPT，Anthropic拒绝五角大楼后用户用脚投票",
+      "date": "2026-03-09",
+      "summary": "OpenAI与五角大楼签约后，ChatGPT遭遇一星评价暴增775%。Anthropic因拒绝军事化使用Claude而获得用户支持，Claude日注册量超百万，首次登顶美国App Store。特朗普政府将Anthropic列为供应链风险，Anthropic宣布法庭抗辩。",
+      "link": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/"
+    },
+    {
+      "title": "OpenAI完成史上最大私募融资1100亿美元，估值达8400亿",
+      "date": "2026-03-09",
+      "summary": "OpenAI以7300亿美元预估值完成1100亿美元融资，由Amazon（500亿）、Nvidia（300亿）和SoftBank（300亿）领投。这笔融资是此前最大一轮400亿美元的近三倍，占2026年全球AI融资总额的一半。",
+      "link": "https://www.businessinsider.com/openai-funding-round-4-times-bigger-than-largest-ipo-2026-2"
+    },
+    {
+      "title": "GPT-5.4发布：OpenAI推出极限推理模式和百万上下文窗口",
+      "date": "2026-03-09",
+      "summary": "OpenAI发布GPT-5.4系列，包含Thinking和Pro版本，成为新的SOTA模型。新模型支持100万token上下文窗口和极限推理模式，在各类基准测试中全面领先。GPT-5.4 Codex版也将在3月底前发布。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rloo7s/openais_new_gpt54_model_is_a_big_step_toward/"
+    },
+    {
+      "title": "Nvidia投资40亿美元布局光子学，加速AI数据中心互连",
+      "date": "2026-03-09",
+      "summary": "Nvidia向光子学公司Coherent和Lumentum各投资20亿美元，用于支持美国本土光子学研发和制造。此举旨在应对AI基础设施建设中不断增长的高速互连需求，同日Ayar Labs也获得5亿美元融资用于量产CPO芯片。",
+      "link": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html"
+    },
+    {
+      "title": "Karpathy发布autoresearch：AI Agent自主进行机器学习实验的开源框架",
+      "date": "2026-03-09",
+      "summary": "Andrej Karpathy开源autoresearch项目，仅630行Python代码即可让AI Agent在单GPU上自主运行ML实验。Agent能自动编辑训练代码、运行实验、评估结果并决定下一步，GitHub已获8100+星。这标志着从「vibe coding」到「agentic engineering」再到全自主研究的演进。",
+      "link": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "title": "Claude Code推出Voice Mode：开发者可用语音指令编程",
+      "date": "2026-03-09",
+      "summary": "Anthropic为Claude Code推出语音模式功能，开发者可通过语音命令请求代码修改、重构函数等操作。目前面向约5%用户开放，将在未来几周逐步推广。这标志着AI编程工具进入多模态交互时代。",
+      "link": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/"
+    },
+    {
+      "title": "中国大模型生态年增长421%，AI Agent进入真实消费场景",
+      "date": "2026-03-09",
+      "summary": "中国AI大模型生态过去一年增长421%。阿里千问发起30亿元免单活动引爆AI购物潮，腾讯元宝、字节豆包跟进。AI Agent已进入真实消费场景，用户可一句话完成点单支付。各厂商围绕OpenClaw等框架展开Token调用份额卡位战。",
+      "link": "https://finance.sina.com.cn/stock/t/2026-03-02/doc-inhpqvaq5350351.shtml"
+    }
+  ],
+  "papers": [
+    {
+      "title": "AutoResearch: Autonomous ML Experiment Loop on Single GPUs",
+      "date": "2026-03-08",
+      "summary": "Karpathy团队展示了一种轻量级自主研究范式：AI Agent在单GPU上自动迭代编辑训练脚本、运行5分钟实验、评估验证集损失，并发现了可迁移到生产系统的优化策略。论文引发社区热议。",
+      "link": "https://www.marktechpost.com/2026/03/08/andrej-karpathy-open-sources-autoresearch-a-630-line-python-tool-letting-ai-agents-run-autonomous-ml-experiments-on-single-gpus/"
+    },
+    {
+      "title": "Large Multimodal Models as General In-Context Classifiers",
+      "date": "2026-03-07",
+      "summary": "该论文提出利用大型多模态模型作为通用上下文分类器的新范式，通过少样本学习实现跨模态分类任务，在多个基准测试中取得了显著的性能提升。",
+      "link": "https://arxiv.org/abs/2602.23229"
+    },
+    {
+      "title": "Z-Image Turbo: Fast Open-Weight AI Image Generation",
+      "date": "2026-03-07",
+      "summary": "阿里巴巴推出的Z-Image Turbo是快速、免费的开源AI图像生成模型，在生成速度和质量之间取得了出色平衡，已在Hugging Face上开放权重下载。",
+      "link": "https://arxiv.org/abs/2511.22699"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy宣布开源autoresearch：AI自主研究的新范式",
+      "date": "2026-03-08",
+      "summary": "Karpathy在X上发布autoresearch项目，描述了从「vibe coding」→「agentic engineering」→「全自主研究」的演进路径。他表示AI Agent发现的优化已被整合回nanochat框架。Shopify CEO Tobi Lutke也转发评论。",
+      "link": "https://www.webpronews.com/andrej-karpathys-autoresearch-wants-to-turn-ai-into-a-fully-automated-scientist/"
+    },
+    {
+      "title": "Anthropic工程师Thariq宣布Claude Code Voice Mode上线",
+      "date": "2026-03-03",
+      "summary": "Anthropic工程师Thariq Shihipar在X上宣布Claude Code语音模式正式开始灰度发布，目前面向约5%用户。开发者可以用语音与AI编程助手对话，实现代码修改和重构。",
+      "link": "https://winbuzzer.com/2026/03/04/anthropic-rolls-out-voice-mode-claude-code-xcxwbn/"
+    },
+    {
+      "title": "Anthropic CPO Mike Krieger：Claude每日新增注册超百万",
+      "date": "2026-03-06",
+      "summary": "Anthropic首席产品官Mike Krieger在X上宣布Claude每日新增注册用户超过百万，感谢用户支持。这一增长与OpenAI五角大楼交易引发的用户外流直接相关。",
+      "link": "https://www.businessinsider.com/claude-number-1-app-stores-chatgpt-apple-google-ai-2026-3"
+    }
+  ],
+  "discord": [
+    {
+      "title": "LocalLLaMA社区热议Karpathy autoresearch：单GPU自主ML研究",
+      "date": "2026-03-09",
+      "summary": "Reddit/Discord的LocalLLaMA社区围绕Karpathy的autoresearch展开热烈讨论，用户分享了在不同GPU上的实验体验。社区认为这代表了本地AI研究的新范式。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ro00p2/project_karpathy_autoresearch_project_let_ai/"
+    },
+    {
+      "title": "社区讨论OpenAI新GPT-5.4模型对自主Agent发展的推动",
+      "date": "2026-03-05",
+      "summary": "社区讨论GPT-5.4如何推动自主AI Agent的发展，极限推理模式和百万token上下文被认为是关键突破。部分用户担忧五角大楼合同的安全影响。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rloo7s/openais_new_gpt54_model_is_a_big_step_toward/"
+    },
+    {
+      "title": "开发者社区热议Claude Code Voice Mode体验反馈",
+      "date": "2026-03-04",
+      "summary": "早期获得Voice Mode访问权限的开发者分享了使用体验，普遍认为语音编程在代码审查和架构讨论场景下效率提升明显，但在精确代码输入方面仍需改进。",
+      "link": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/"
+    }
+  ],
+  "github": [
+    {
+      "title": "karpathy/autoresearch - AI自主ML实验框架",
+      "date": "2026-03-07",
+      "summary": "Karpathy发布的autoresearch仅630行Python代码，让AI Agent在单GPU上自主运行机器学习实验。已获8100+ star和1100+ fork，是本周GitHub最热门AI项目。",
+      "link": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "title": "embeddings-benchmark/mteb - 新增zeroentropy/zembed-1嵌入模型",
+      "date": "2026-03-04",
+      "summary": "MTEB（大规模文本嵌入基准）项目新增了zeroentropy的zembed-1模型评测请求，显示嵌入模型竞争持续升温，社区对高质量文本检索和语义搜索的需求不断增长。",
+      "link": "https://github.com/embeddings-benchmark/mteb/issues/4195"
+    },
+    {
+      "title": "GitHub Trending本周AI项目活跃度持续攀升",
+      "date": "2026-03-09",
+      "summary": "本周GitHub Trending中AI相关项目表现活跃，autoresearch领跑，同时光子学AI互连、模型压缩和Agent框架类项目也获得大量关注。开源AI生态持续繁荣。",
+      "link": "https://github.com/trending"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Karpathy的autoresearch：让AI Agent通宵跑100个实验",
+      "date": "2026-03-07",
+      "summary": "autoresearch在Hacker News获得61+点赞和19+评论，社区讨论AI自主研究的可能性和局限性。评论者特别关注Agent发现的优化是否真正具有创新性。",
+      "link": "https://topaiproduct.com/2026/03/07/autoresearch-karpathys-overnight-ai-researcher-that-runs-100-experiments-while-you-sleep/"
+    },
+    {
+      "title": "Anthropic与美军AI争端的深层含义：Guardian长文分析",
+      "date": "2026-03-07",
+      "summary": "Guardian长文分析Anthropic与五角大楼AI争端的深层含义，涉及AI军事化伦理、隐私保护和企业责任。Anthropic拒绝允许Claude用于大规模监控和自主武器。",
+      "link": "https://www.theguardian.com/technology/2026/mar/07/anthropic-claude-ai-pentagon-us-military"
+    },
+    {
+      "title": "4000名Google员工曾请愿反对军事AI，为何OpenAI无人抗议？",
+      "date": "2026-03-07",
+      "summary": "Reddit和HN上热议：2018年Google因4000名员工请愿而放弃军事AI合同Project Maven，而如今OpenAI员工对五角大楼合同却鲜有公开反对。讨论反映了AI行业文化的变迁。",
+      "link": "https://www.reddit.com/r/OpenAI/comments/1rnhkp7/4000_google_employees_petitioned_against_pentagon/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "All Benchmarks of GPT-5.4 Series: 各维度全面领先的新王登基",
+      "date": "2026-03-05",
+      "summary": "Reddit r/accelerate社区分享GPT-5.4系列完整基准测试结果，显示其在推理、编程和Agent工作流等多个维度全面超越前代。讨论中也有用户对比了Claude Opus 4.6的表现。",
+      "link": "https://www.reddit.com/r/accelerate/comments/1rlp3h8/all_benchmarks_of_gpt54_seriesnew_king_in_the_town/"
+    },
+    {
+      "title": "TheInformation Reports on GPT-5.4：极限推理模式和百万token上下文",
+      "date": "2026-03-04",
+      "summary": "The Information报道GPT-5.4将包含全新的极限推理模式和100万token上下文窗口。社区讨论模型快速迭代的速度让用户难以跟上。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rko746/theinformation_reports_on_gpt54_includes_new/"
+    },
+    {
+      "title": "r/singularity：Anthropic CEO称OpenAI五角大楼公告具有误导性",
+      "date": "2026-03-05",
+      "summary": "Amodei在内部备忘录中称OpenAI的五角大楼公告具有误导性。帖子引发激烈讨论，揭示了两家公司在AI军事应用上的根本性分歧。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rl6va1/anthropic_ceo_calls_openais_pentagon_announcement/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Claude Code Voice Mode - 语音驱动的AI编程助手",
+      "date": "2026-03-03",
+      "summary": "Anthropic为Claude Code推出Voice Mode，开发者可通过语音命令进行代码修改、重构和审查。目前面向5%用户灰度发布，支持自然语言描述编程需求。",
+      "link": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/"
+    },
+    {
+      "title": "Z-Image Turbo - 阿里巴巴快速开源AI图像生成器",
+      "date": "2026-03-07",
+      "summary": "阿里巴巴推出Z-Image Turbo，一个快速且免费的开源AI图像生成模型。在速度和质量之间取得了出色平衡，适合实时应用场景，已在Hugging Face开放下载。",
+      "link": "https://saascrmreview.com/z-image-turbo-review/"
+    },
+    {
+      "title": "Heretic AI Abliteration - 突破模型安全限制的开源工具",
+      "date": "2026-03-08",
+      "summary": "Heretic AI的abliteration技术引发社区广泛关注，已有超过1000个变体模型被创建发布。基准测试显示在保持能力的同时突破了安全限制，引发关于AI安全与开放性的讨论。",
+      "link": "https://aithinkerlab.com/heretic-ai-abliteration-benchmarks-2026/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenAI新GPT-5.4模型被认为是迈向自主Agent的重大一步",
+      "date": "2026-03-05",
+      "summary": "GPT-5.4的极限推理模式和百万token上下文窗口被认为是推动自主AI Agent发展的关键。业内人士认为这使得长时间复杂任务的自主执行成为可能。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rloo7s/openais_new_gpt54_model_is_a_big_step_toward/"
+    },
+    {
+      "title": "Karpathy开源autoresearch：全自主研究Agent新品类",
+      "date": "2026-03-08",
+      "summary": "Karpathy的autoresearch代表了Agent能力的新里程碑：从辅助编码到自主进行科学研究。Agent能独立完成文献回顾、假设生成、实验执行和结果分析的完整循环。",
+      "link": "https://www.marktechpost.com/2026/03/08/andrej-karpathy-open-sources-autoresearch-a-630-line-python-tool-letting-ai-agents-run-autonomous-ml-experiments-on-single-gpus/"
+    },
+    {
+      "title": "中国AI Agent进入真实消费场景：一句话完成点单支付",
+      "date": "2026-03-02",
+      "summary": "阿里千问发起30亿元免单活动，用户通过一句话指令完成奶茶、生鲜等商品的点单与支付。腾讯元宝、字节豆包跟进，AI Agent从聊天工具进化为能执行复杂任务的消费助手。",
+      "link": "https://news.qq.com/rain/a/20260228A07NDK00"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI史上最大融资1100亿美元：Amazon投500亿，Nvidia投300亿",
+      "date": "2026-03-02",
+      "summary": "OpenAI以7300亿美元预估值完成1100亿美元融资轮，是此前最大一轮的近三倍。Amazon投资500亿、Nvidia和SoftBank各投300亿。这占到2026年全球AI融资总额的一半。",
+      "link": "https://www.geekwire.com/2026/filings-how-amazons-50b-openai-deal-actually-works-and-what-theyre-keeping-secret/"
+    },
+    {
+      "title": "Nvidia 40亿美元押注光子学：Coherent和Lumentum各获20亿",
+      "date": "2026-03-02",
+      "summary": "Nvidia向光子学公司Coherent和Lumentum各投资20亿美元，布局下一代AI数据中心光互连技术。同日Ayar Labs也完成5亿美元融资。硅光子学被视为解决AI算力互连瓶颈的关键。",
+      "link": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html"
+    },
+    {
+      "title": "Anthropic vs 五角大楼：供应链风险认定引发行业震动",
+      "date": "2026-03-07",
+      "summary": "特朗普政府将Anthropic列为供应链风险后，Anthropic宣布将在法庭挑战该决定。同时Claude下载量激增，OpenAI则迅速填补空白。事件折射出科技公司在AI军事化问题上的深刻分歧。",
+      "link": "https://www.theguardian.com/technology/2026/mar/07/anthropic-claude-ai-pentagon-us-military"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国大模型年增长421%：Qwen、DeepSeek、Kimi、GLM各显神通",
+      "date": "2026-03-02",
+      "summary": "ChatBot Arena数据显示中国头部大模型各有优势：阿里Qwen3多模态和多语言领先，DeepSeek R1推理优异，Kimi K2擅长编码和工具调用，智谱GLM-4.5实现均衡能力。中国AI生态一年增长421%。",
+      "link": "https://finance.sina.com.cn/stock/t/2026-03-02/doc-inhpqvaq5350351.shtml"
+    },
+    {
+      "title": "阿里千问30亿免单引爆AI购物潮，腾讯字节跟进Agent大战",
+      "date": "2026-03-02",
+      "summary": "阿里千问发起30亿元免单活动，用户一句话完成商品点单支付。腾讯元宝、字节豆包迅速跟进营销战。AI Agent不再只是聊天工具，开始深度执行购物、生鲜配送等消费任务。",
+      "link": "https://news.qq.com/rain/a/20260228A07NDK00"
+    },
+    {
+      "title": "2026中国AI大模型平台排行：OpenClaw成Token消耗超级大户",
+      "date": "2026-03-05",
+      "summary": "2月排行显示Kimi K2.5在OpenClaw调用榜登顶，智谱API套餐被抢空。各大厂围绕OpenClaw展开生态卡位战，百度、阿里、月之暗面、MiniMax纷纷推出一键部署版本，争夺底层模型调用份额。",
+      "link": "https://news.qq.com/rain/a/20260305A0668M00"
+    }
+  ]
+}
