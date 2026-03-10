@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-10",
+  "insights": [
+    {
+      "title": "Claude 登顶 App Store：Anthropic 用户日活突破 1100 万",
+      "date": "2026-03-10",
+      "summary": "Anthropic 的 Claude 应用在 Apple App Store 和 Google Play Store 双双登顶，日活用户突破 1100 万。OpenAI 与五角大楼的合作引发用户大规模转投 Claude，Anthropic 还推出免费 ChatGPT 历史记录导入功能加速迁移。",
+      "link": "https://www.androidheadlines.com/2026/03/claude-11-million-daily-users-2026-chatgpt.html"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.4 Thinking：首个统一推理加Agent模型",
+      "date": "2026-03-10",
+      "summary": "OpenAI 于 3 月 5 日发布 GPT-5.4 系列，包含 Thinking 和 Pro 两个版本。GDPval 基准测试83%匹配或超越行业专家，OSWorld 和 WebArena 均创纪录，支持100万token上下文和原生Computer Use。",
+      "link": "https://www.zdnet.com/article/openai-gpt-5-4/"
+    },
+    {
+      "title": "Anthropic 起诉特朗普政府：抗议供应链风险标签",
+      "date": "2026-03-10",
+      "summary": "Anthropic 正式起诉美国政府，抗议五角大楼将其列为供应链风险的决定。此前 Dario Amodei 拒绝让 Claude 用于自主武器和国内监控，遭到国防部长 Pete Hegseth 报复性标签。这是AI公司首次就安全立场与联邦政府对簿公堂。",
+      "link": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth"
+    },
+    {
+      "title": "Yann LeCun 创立的 AMI 完成 10.3 亿美元融资，估值 35 亿",
+      "date": "2026-03-10",
+      "summary": "前 Meta 首席 AI 科学家 Yann LeCun 创立的 Advanced Machine Intelligence (AMI) 完成 10.3 亿美元融资，估值达 35 亿美元。AMI 专注于世界模型研究，致力于超越当前 LLM 范式的下一代 AI 架构。",
+      "link": "http://www.econotimes.com/Yann-LeCuns-AI-Startup-AMI-Raises-1-Billion-at-35-Billion-Valuation-1735775"
+    },
+    {
+      "title": "Anthropic CEO：Claude 模型可能已具备某种意识形式",
+      "date": "2026-03-10",
+      "summary": "Anthropic CEO Dario Amodei 在纽约时报采访中透露，Claude Opus 4.6 在正式福利评估中给自己的意识概率打了15-20%的分数。Amodei 表示公司采取谨慎态度，承认我们甚至不确定模型意识意味着什么，但对这种可能性持开放态度。",
+      "link": "https://www.ndtv.com/world-news/is-claude-conscious-anthropic-ceo-dario-amodei-says-possibility-cant-be-ruled-out-11175771"
+    },
+    {
+      "title": "白宫审查各州AI法律遭共和党州议员反对",
+      "date": "2026-03-10",
+      "summary": "特朗普政府审查各州AI法律的举措遭到共和党州议员公开反对。犹他州等红州议员敦促白宫停止干预州级AI监管，同时要求AI开发者发布公共安全和儿童保护计划。联邦统一AI标准的推进陷入复杂博弈。",
+      "link": "https://thehill.com/policy/technology/5764328-gop-state-lawmakers-white-house-ai-laws/"
+    },
+    {
+      "title": "Thinking Machines Lab 两位联合创始人离职加入 Meta",
+      "date": "2026-03-10",
+      "summary": "Mira Murati（前 OpenAI CTO）创立的 AI 初创公司 Thinking Machines Lab 两位联合创始人宣布加入 Meta。公司在洽谈 500 亿美元估值融资之际遭遇核心人才流失，反映出顶级 AI 人才争夺战的白热化。",
+      "link": "https://www.thetechedvocate.org/ai-startup-thinking-machines-lab-faces-leadership-exodus-to-meta-amid-rapid-growth/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "LLM 可大规模去匿名化社交媒体账户：隐私安全重磅研究",
+      "date": "2026-03-10",
+      "summary": "研究表明大型语言模型可以通过综合分析在线信息，大规模识别匿名社交媒体账户的真实身份。这一发现引发计算机科学家和隐私专家的高度警觉，AI 监控能力的边界正在被突破。",
+      "link": "https://www.theguardian.com/technology/2026/mar/08/ai-hackers-social-media-accounts-study"
+    },
+    {
+      "title": "OpenAI GPT-5.4 基准测试创纪录：Computer Use 超越人类",
+      "date": "2026-03-10",
+      "summary": "GPT-5.4 在多项基准测试中创造纪录：GDPval 83%（覆盖44个职业）匹配或超越行业专家，OSWorld-Verified 75%首次超越人类（72.4%），WebArena Verified 同样刷新记录。原生 Computer Use 能力和100万 token 上下文是两大亮点。",
+      "link": "https://thenextweb.com/news/openai-gpt-54-launch-computer-use-benchmarks"
+    },
+    {
+      "title": "AGI 定义的不断变化：学术界与产业界的共识困境",
+      "date": "2026-03-10",
+      "summary": "学术界和产业界对 AGI 定义缺乏共识的深度分析，指出当前 AGI 定义缺乏足够的精确性和完整性，无法得出有意义的结论。随着 AI 能力快速提升，原有的基准测试不断被突破。",
+      "link": "https://news.ycombinator.com/item?id=47299009"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sam Altman 承认五角大楼交易草率：看起来投机且粗糙",
+      "date": "2026-03-10",
+      "summary": "Sam Altman 在CNBC采访和X平台上承认OpenAI与五角大楼的交易推进过于仓促，表示这一过程看起来投机且粗糙。OpenAI 正在对协议做出修改，增加监控限制条款。",
+      "link": "https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html"
+    },
+    {
+      "title": "Elon Musk 预测编程职业将在2026年底消亡",
+      "date": "2026-03-10",
+      "summary": "Elon Musk 再次发表争议言论，称 AI 将使传统编程工作在2026年底变得过时。研究显示30%的软件公司计划缩减开发团队，同时特斯拉宣称将率先创造AGI，遭到Electrek等媒体对其AI预测历史的犀利批评。",
+      "link": "https://electrek.co/2026/03/04/elon-musk-tesla-agi-claims-desperate-attempt-ai-bubble/"
+    },
+    {
+      "title": "Anthropic CEO：Claude 模型可能已具备某种意识形式",
+      "date": "2026-03-10",
+      "summary": "Dario Amodei 在纽约时报采访中的AI意识言论引发Elon Musk嘲讽回应。Amodei 表示存在20%概率 Claude 已具备意识，Musk 则在 X 上调侃这一说法。这场关于AI意识的公开辩论引发全网热议。",
+      "link": "https://www.newsweek.com/anthropic-ceo-raises-unsettling-possibility-about-ai-11644833"
+    }
+  ],
+  "discord": [
+    {
+      "title": "60 岁开发者用 Claude Code 重拾编程热情引爆社区",
+      "date": "2026-03-10",
+      "summary": "一位 60 岁的开发者分享通过 Claude Code 重新找回编程乐趣的经历，引发 AI 编程工具社区热议。这个简单的个人故事成为 Vibe Coding 运动的标志性案例。",
+      "link": "https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7"
+    },
+    {
+      "title": "AI 编码工具正在隐性加剧软件工程问题",
+      "date": "2026-03-10",
+      "summary": "社区深度讨论 AI 编码工具对软件工程的负面影响：当 Agent 能快速生成代码时，过度抽象和技术债务加速累积。调试、入职培训和事故响应成本不降反升。",
+      "link": "https://news.ycombinator.com/item?id=47246979"
+    },
+    {
+      "title": "白领工人的AI焦虑：政客们开始关注了",
+      "date": "2026-03-10",
+      "summary": "NBC News 报道引发社区讨论：美国核心白领行业（金融、保险、信息、专业服务）自2022年11月以来裁员1.9%。Amazon 宣布1.4万人裁员并强调AI转型，AI对就业的影响从预测变成现实。",
+      "link": "https://www.nbcnews.com/politics/elections/politicians-attention-white-collar-workers-rcna259447"
+    }
+  ],
+  "github": [
+    {
+      "title": "ByteDance DeerFlow 2.0：开源 SuperAgent 框架登顶 GitHub Trending",
+      "date": "2026-03-10",
+      "summary": "字节跳动开源 DeerFlow 2.0 SuperAgent 框架，支持子Agent协调、记忆系统和沙箱环境，可执行复杂的研究和软件开发任务。项目登顶 GitHub Trending 第一名，被评为2026年初最重要的AI Agent开源项目之一。",
+      "link": "https://www.marktechpost.com/2026/03/09/bytedance-releases-deerflow-2-0-an-open-source-superagent-harness-that-orchestrates-sub-agents-memory-and-sandboxes-to-do-complex-tasks/"
+    },
+    {
+      "title": "NotebookLM 推出 Cinematic Video Overviews 功能",
+      "date": "2026-03-10",
+      "summary": "Google NotebookLM 发布重大更新，推出 Cinematic Video Overviews 功能，可将研究文档和笔记转化为AI生成的电影级视频解说。使用 Gemini 和 Veo 技术，面向 Google AI Ultra 用户开放。",
+      "link": "https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/"
+    },
+    {
+      "title": "OpenAI GPT-5.4 开发者完整指南：基准、用例、API",
+      "date": "2026-03-10",
+      "summary": "dev.to 社区发布 GPT-5.4 完整开发者指南，涵盖基准测试数据、最佳用例、API 定价、长上下文行为、Computer Use 能力和 GPT-5.4 Pro 对比，成为开发者快速上手的首选资源。",
+      "link": "https://dev.to/umesh_malik/openai-gpt-54-complete-guide-benchmarks-use-cases-pricing-api-and-gpt-54-pro-comparison-m8k"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Ask HN: 你如何在 AI 时代调整自己的职业？",
+      "date": "2026-03-10",
+      "summary": "Hacker News 热门讨论帖，开发者们分享在 AI 快速发展背景下的职业调整策略。主流观点认为 AI 在问题定义清晰且有验证体系的场景下最强，但核心判断力和系统设计能力仍不可替代。",
+      "link": "https://news.ycombinator.com/item?id=47308653"
+    },
+    {
+      "title": "AI Agent 在 2026 年真的赚钱了吗？",
+      "date": "2026-03-10",
+      "summary": "对 2026 年 AI Agent 商业化现状的犀利审视：大量 Agent 初创公司获得融资，但真正产生稳定收入的仍是少数。讨论聚焦于 Agent 经济学的可行性和可持续性。",
+      "link": "https://news.ycombinator.com/item?id=47226958"
+    },
+    {
+      "title": "大多数 AI 集成都是表面功夫",
+      "date": "2026-03-10",
+      "summary": "HN 讨论指出多数企业的 AI 集成停留在表面——将 AI 功能粘贴到现有产品而非构建真正的 AI 原生产品。类比 2018 年加密货币领域的类似泡沫。",
+      "link": "https://news.ycombinator.com/item?id=47268145"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "DeepSeek V4 泄露信息汇总：万亿参数、Engram 记忆、开源权重",
+      "date": "2026-03-10",
+      "summary": "Reddit r/DeepSeek 社区汇总所有 V4 泄露信息：万亿参数、MODEL1 架构、Sparse FP8 量化、100 万 token 上下文的 Engram 记忆系统。FT 报道称发布时间与中国两会同步。",
+      "link": "https://www.reddit.com/r/DeepSeek/comments/1ridmnm/deepseek_v4_all_leaks_and_infos_for_the_release/"
+    },
+    {
+      "title": "AI 编码生产力数据出炉：结果与预期大相径庭",
+      "date": "2026-03-10",
+      "summary": "Reddit r/ExperiencedDevs 热帖讨论AI编码工具的实际生产力数据。HN讨论总结：AI 不是减少工作量，而是加剧了工作强度。DeveloperWeek 2026 指出当前 AI 工具的可用性和上下文传递存在关键缺口。",
+      "link": "https://www.reddit.com/r/ExperiencedDevs/comments/1rnkv2t/the_ai_coding_productivity_data_is_in_and_its_not/"
+    },
+    {
+      "title": "AI Agent 基准测试只关注编码，忽略了92%的美国劳动力市场",
+      "date": "2026-03-10",
+      "summary": "Reddit 热帖指出当前 AI Agent 基准测试过度聚焦编码任务，而忽略了92%的美国劳动力市场。研究发现 Agent 在非技术领域的评估严重不足，呼吁开发更全面的评估体系。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1roe1bv/ai_agent_benchmarks_obsess_over_coding_while/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "NotebookLM Cinematic Video Overviews：笔记变电影级视频",
+      "date": "2026-03-10",
+      "summary": "Google NotebookLM 推出 Cinematic Video Overviews，利用 Gemini 和 Veo 技术将研究文档转化为电影级AI视频。支持视觉材料自动整合、叙事驱动解说，面向 AI Ultra 订阅用户。",
+      "link": "https://lifehacker.com/tech/notebooklm-new-cinematic-video-tool"
+    },
+    {
+      "title": "Sam Altman 称 GPT-5.4 是他最爱的对话模型",
+      "date": "2026-03-10",
+      "summary": "TechRadar 报道 Sam Altman 称 GPT-5.4 是他最喜欢的对话模型，但承认仍需修复三个关键弱点。用户持续请愿要求恢复 4o 模型（自2026年2月13日移除后）。",
+      "link": "https://www.techradar.com/ai-platforms-assistants/chatgpt/sam-altman-says-gpt-5-4-is-his-favorite-model-to-talk-to-but-admits-openai-still-needs-to-fix-these-3-weaknesses"
+    },
+    {
+      "title": "Anthropic 380 亿美元估值背后：安全布道者的商业路径",
+      "date": "2026-03-10",
+      "summary": "深度调查文章分析 Anthropic 从 615 亿到 3800 亿美元估值的11个月暴涨历程。Dario Amodei 的安全优先策略如何在商业上反而成为最大竞争优势。",
+      "link": "https://digidai.github.io/2026/03/06/dario-amodei-anthropic-ai-safety-evangelist-business-path-deep-investigation/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "GPT-5.4：OpenAI 首个原生 Agent 模型全面解析",
+      "date": "2026-03-10",
+      "summary": "GPT-5.4 被定位为 OpenAI 首个为 Agent 工作流设计的模型。支持原生 Computer Use、100万 token 上下文和可中断推理，在 Mercor APEX-Agents 基准领先，ChatGPT、Codex 和 API 同步上线。",
+      "link": "https://gizmodo.com/openai-in-desperate-need-of-a-win-launches-gpt-5-4-2000730268"
+    },
+    {
+      "title": "Anthropic 和五角大楼重回谈判桌：CNBC 独家分析",
+      "date": "2026-03-10",
+      "summary": "CNBC 报道五个悬而未决的核心问题：Claude 曾是首个部署到政府机密网络的主要模型（2亿美元合同），现在双方正就自主武器和监控限制重新谈判。供应链风险标签的先例效应令整个AI行业紧张。",
+      "link": "https://www.cnbc.com/2026/03/05/5-big-questions-anthropic-pentagon-ai-war.html"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.4 反击：企业 Agent 市场争夺战白热化",
+      "date": "2026-03-10",
+      "summary": "Fortune 分析 OpenAI 在 Claude 登顶、五角大楼风波后发布 GPT-5.4 的战略意图。新模型直接瞄准企业 Agent 市场，与 Anthropic 在专业工作领域展开正面竞争。",
+      "link": "https://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "AMI 融资 10 亿美元：Yann LeCun 的世界模型愿景获资本力挺",
+      "date": "2026-03-10",
+      "summary": "Yann LeCun 创立的 AI 初创公司 AMI 完成 10.3 亿美元融资，估值 35 亿美元。公司专注于世界模型研究，致力于开发超越纯语言模型的下一代 AI 系统。",
+      "link": "http://www.econotimes.com/Yann-LeCuns-AI-Startup-AMI-Raises-1-Billion-at-35-Billion-Valuation-1735775"
+    },
+    {
+      "title": "Thinking Machines Lab 人才流失：120 亿美元估值公司的隐忧",
+      "date": "2026-03-10",
+      "summary": "前 OpenAI CTO Mira Murati 创立的 Thinking Machines Lab 两位联合创始人跳槽 Meta。公司在洽谈 500 亿美元估值融资之际遭遇核心人才流失。",
+      "link": "https://www.thetechedvocate.org/ai-startup-thinking-machines-lab-faces-leadership-exodus-to-meta-amid-rapid-growth/"
+    },
+    {
+      "title": "Anthropic 估值11个月翻6倍至3800亿：安全悖论还是商业神话",
+      "date": "2026-03-10",
+      "summary": "Anthropic 在 2026 年 2 月完成 300 亿美元 Series G 融资，估值达 3800 亿美元——11个月内从 615 亿翻了6倍。这一增速堪比 Nvidia 在 AI 热潮巅峰时期的股价涨幅。",
+      "link": "https://digidai.github.io/2026/03/06/dario-amodei-anthropic-ai-safety-evangelist-business-path-deep-investigation/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4 蓄势待发：万亿参数多模态模型即将开源",
+      "date": "2026-03-10",
+      "summary": "DeepSeek V4 是中国 AI 领域的重磅产品，集成文本、图像和视频生成能力。采用 MODEL1 架构，Sparse FP8 量化实现 1.8x 推理加速，计划以开源形式发布。发布时间与两会同步，彰显战略布局。",
+      "link": "https://techstory.in/deepseek-set-to-launch-v4-flagship-model-ahead-of-chinas-two-sessions/"
+    },
+    {
+      "title": "中国企业 MWC 2026 斩获多项大奖：AI+通信深度融合",
+      "date": "2026-03-10",
+      "summary": "华为、中国电信、中兴等企业在 MWC 2026 上斩获多项 GLOMO 大奖。中国移动、中国电信、中国联通联合推出 Mobile AI 战略，中国在电信AI基础设施领域的全球领先地位进一步巩固。",
+      "link": "https://english.news.cn/20260305/3d5f61485dbf4a4fa9b0f6a619af8567/c.html"
+    },
+    {
+      "title": "MWC 2026 闭幕：AI 正在重塑电信产业，中国企业斩获多项大奖",
+      "date": "2026-03-10",
+      "summary": "新华社报道 MWC 2026 闭幕，中国企业在 GLOMO 大奖中斩获多项荣誉，涵盖网络基础设施、创新产品和行业解决方案。中国移动、中国电信、中国联通联合推出 Mobile AI 战略，5G+AI 融合成为全球电信产业共识。",
+      "link": "https://english.news.cn/20260306/b3c55c182c424f6dafdf264b05c31164/c.html"
+    }
+  ]
+}
