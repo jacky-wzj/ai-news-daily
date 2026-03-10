@@ -116,11 +116,13 @@ const TOPIC_CLUSTERS = [
   { id: 'robot',       words: ['humanoid','robot','optimus','atlas','figure'] },
   { id: 'consciousness', words: ['consciousness','sentient','aware','soul','alive','feeling'] },
   { id: 'layoff',      words: ['layoff','firing','cut','restructur','downsize'] },
-  { id: 'open-source', words: ['open-source','opensource','apache','mit-license','weights','release'] },
+  { id: 'open-source', words: ['open-source','opensource','apache','mit-license','weights'] },
 ];
 
 /**
  * Match text keywords against topic clusters.
+ * Uses EXACT word match (not substring) to avoid false positives
+ * like "live" matching "alive" or "invest" matching "investigation".
  * Returns array of { id, score } sorted by score desc.
  */
 function matchTopicClusters(keywords) {
@@ -130,7 +132,25 @@ function matchTopicClusters(keywords) {
     for (const kw of keywords) {
       for (const cw of cluster.words) {
         if (kw.length >= 3 && cw.length >= 3) {
-          if (kw.includes(cw) || cw.includes(kw)) score++;
+          // Exact match or stem match, but NOT arbitrary substring (no "live" in "alive")
+          if (kw === cw) {
+            score++;
+          } else {
+            // Normalize simple plurals: strip trailing 's' for comparison
+            const normKw = kw.endsWith('s') && kw.length > 3 ? kw.slice(0, -1) : kw;
+            const normCw = cw.endsWith('s') && cw.length > 3 ? cw.slice(0, -1) : cw;
+            if (normKw === normCw) {
+              score++;
+            } else if (kw.length >= 4 && cw.length >= 4) {
+              // Allow prefix-based matching for words >=4 chars
+              // e.g. "regulat" matches "regulation", "restructur" matches "restructuring"
+              const shorter = kw.length <= cw.length ? kw : cw;
+              const longer = kw.length <= cw.length ? cw : kw;
+              if (longer.startsWith(shorter) && shorter.length >= longer.length * 0.65) {
+                score++;
+              }
+            }
+          }
         }
       }
     }
