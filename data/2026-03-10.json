@@ -8,6 +8,13 @@
       "link": "https://www.androidheadlines.com/2026/03/claude-11-million-daily-users-2026-chatgpt.html"
     },
     {
+      "title": "Anthropic 推出 Claude Code Review：多 Agent 自动审查 PR，每次收费 $15-$25",
+      "summary": "Anthropic 发布 Code Review for Claude Code，采用多 Agent 架构自动分析 PR 中的 AI 生成代码，检测逻辑错误、安全漏洞和代码质量问题。按 token 用量收费，平均每次审查 $15-$25。支持 REVIEW.md 和 CLAUDE.md 自定义规则。面向企业和团队用户开放，标志着 AI 代码审查从辅助工具迈向企业级服务。",
+      "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+      "source": "TechCrunch",
+      "date": "2026-03-10"
+    },
+    {
       "title": "OpenAI 发布 GPT-5.4 Thinking：首个统一推理加Agent模型",
       "date": "2026-03-10",
       "summary": "OpenAI 于 3 月 5 日发布 GPT-5.4 系列，包含 Thinking 和 Pro 两个版本。GDPval 基准测试83%匹配或超越行业专家，OSWorld 和 WebArena 均创纪录，支持100万token上下文和原生Computer Use。",
