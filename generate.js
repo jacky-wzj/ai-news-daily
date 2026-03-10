@@ -101,10 +101,53 @@ function extractTitleKeywords(title) {
 }
 
 /**
+ * Topic clusters for conflict detection.
+ * If a URL slug strongly matches one cluster and the title strongly matches
+ * a DIFFERENT cluster, it's likely a mismatch (even if they share a person name).
+ */
+const TOPIC_CLUSTERS = [
+  { id: 'agi',         words: ['agi','singularity','superintelligence','artificial-general'] },
+  { id: 'coding',      words: ['programming','coding','code','developer','software','engineer','job','career','obsolete','extinct','disappear'] },
+  { id: 'autonomous',  words: ['self-driving','autonomous','autopilot','fsd','robotaxi'] },
+  { id: 'chip',        words: ['chip','gpu','semiconductor','cuda','tpu','blackwell','hopper'] },
+  { id: 'regulation',  words: ['regulation','lawsuit','sue','court','ban','policy','legislation','antitrust'] },
+  { id: 'funding',     words: ['funding','valuation','ipo','acquisition','merge','billion','invest','round'] },
+  { id: 'model',       words: ['llm','benchmark','leaderboard','parameter','training','inference','fine-tune'] },
+  { id: 'robot',       words: ['humanoid','robot','optimus','atlas','figure'] },
+  { id: 'consciousness', words: ['consciousness','sentient','aware','soul','alive','feeling'] },
+  { id: 'layoff',      words: ['layoff','firing','cut','restructur','downsize'] },
+  { id: 'open-source', words: ['open-source','opensource','apache','mit-license','weights','release'] },
+];
+
+/**
+ * Match text keywords against topic clusters.
+ * Returns array of { id, score } sorted by score desc.
+ */
+function matchTopicClusters(keywords) {
+  const results = [];
+  for (const cluster of TOPIC_CLUSTERS) {
+    let score = 0;
+    for (const kw of keywords) {
+      for (const cw of cluster.words) {
+        if (kw.length >= 3 && cw.length >= 3) {
+          if (kw.includes(cw) || cw.includes(kw)) score++;
+        }
+      }
+    }
+    if (score > 0) results.push({ id: cluster.id, score });
+  }
+  return results.sort((a, b) => b.score - a.score);
+}
+
+/**
  * Check if title and link URL slug are coherent.
  * Returns { coherent: boolean, reason?: string }
- * Uses a heuristic: if the URL slug has strong keywords that share ZERO overlap
- * with the title, it's likely a mismatch.
+ *
+ * Two-layer check:
+ *   Layer 1 (original): zero keyword overlap → reject
+ *   Layer 2 (new): topic-cluster conflict detection — even if there IS some
+ *     overlap (e.g. shared person name "musk"), reject when the dominant
+ *     topic of the URL and the dominant topic of the title clearly differ.
  */
 function checkTitleLinkCoherence(title, link) {
   if (!title || !link) return { coherent: true }; // skip if missing
@@ -121,14 +164,14 @@ function checkTitleLinkCoherence(title, link) {
   const readableSlugKw = slugKw.filter(w => {
     if (/^\d+$/.test(w)) return false;                    // pure numbers
     if (/^[a-z0-9]{10,}$/.test(w)) return false;          // long alphanumeric hash
-    if (/^[a-z]{1,3}\d{4,}/.test(w)) return false;        // short prefix + long number (e.g. inhnifxu4324279)
+    if (/^[a-z]{1,3}\d{4,}/.test(w)) return false;        // short prefix + long number
     if (/\d{5,}/.test(w)) return false;                     // contains 5+ digit sequence
     if (/^detail$|^doc$|^roll$|^stock$/.test(w)) return false; // CMS path segments
     return true;
   });
   if (readableSlugKw.length < 2) return { coherent: true }; // URL slug is mostly hashes/IDs
 
-  // Check for ANY overlap (fuzzy: substring match of 4+ chars)
+  // --- Layer 1: zero overlap check (original logic) ---
   let overlap = 0;
   for (const sk of readableSlugKw) {
     for (const tk of titleKw) {
@@ -143,9 +186,34 @@ function checkTitleLinkCoherence(title, link) {
   if (overlap === 0) {
     return {
       coherent: false,
-      reason: `title-link mismatch: title="${title.slice(0,50)}" has no keyword overlap with URL slug [${slugKw.slice(0,6).join(',')}]`
+      reason: `title-link mismatch: title="${title.slice(0,50)}" has no keyword overlap with URL slug [${readableSlugKw.slice(0,6).join(',')}]`
     };
   }
+
+  // --- Layer 2: topic-cluster conflict detection ---
+  // Even with partial overlap (e.g. shared person name), check if dominant topics diverge
+  const slugTopics = matchTopicClusters(readableSlugKw);
+  const titleTopics = matchTopicClusters(titleKw);
+
+  if (slugTopics.length > 0 && titleTopics.length > 0) {
+    const slugTop = slugTopics[0]; // dominant topic of URL
+    const titleTop = titleTopics[0]; // dominant topic of title
+    // Require strong signal on at least one side (>=2) and any signal on the other (>=1)
+    const strongEnough = (slugTop.score >= 2 || titleTop.score >= 2) && slugTop.score >= 1 && titleTop.score >= 1;
+    if (slugTop.id !== titleTop.id && strongEnough) {
+      // Strong topic in both, but they differ — check if there's ANY shared topic
+      const slugTopicIds = new Set(slugTopics.map(t => t.id));
+      const titleTopicIds = new Set(titleTopics.map(t => t.id));
+      const sharedTopics = [...slugTopicIds].filter(id => titleTopicIds.has(id));
+      if (sharedTopics.length === 0) {
+        return {
+          coherent: false,
+          reason: `topic conflict: title topic="${titleTop.id}" vs URL topic="${slugTop.id}" for title="${title.slice(0,50)}" link=[${readableSlugKw.slice(0,6).join(',')}]`
+        };
+      }
+    }
+  }
+
   return { coherent: true };
 }
 
