@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月11日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月11日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. X-RAY: Mapping LLM Reasoning Capability via Formalized and Calibrated Probes</h3>
+      <div class="meta">👤 </div>
+      <p>提出 X-RAY 框架，通过形式化和校准探针量化 LLM 的结构化推理能力，揭示了传统基准测试无法发现的模型间差异。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.05290" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LIT-RAGBench: Benchmarking Generator Capabilities of LLMs in RAG</h3>
+      <div class="meta">👤 </div>
+      <p>使用虚构实体和场景构建的 RAG 评测基准，包含 114 个人工构建的日语问题和英语翻译版本，评估 LLM 基于外部文档的生成能力。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.06198" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Think, But Don't Overthink: 递归语言模型（RLMs）的复现与扩展</h3>
+      <div class="meta">👤 </div>
+      <p>对 RLMs 框架的独立复现和扩展研究，验证了 LLM 通过外部 REPL 环境处理近乎无限上下文的可行性，为突破固定上下文窗口限制提供新思路。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.02615" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Sam Altman 回应 GPT-5.4 发布：最强 Agent 编码模型</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-05</div>
+      <p>Sam Altman 在 X 上称 GPT-5.4 是 OpenAI 迄今最强的 Agent 编码模型，结合推理和工具使用实现了质的飞跃，VentureBeat 等多家媒体第一时间报道。</p>
+  <a class="link" href="https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cursor 官方宣布 Automations：构建永不下线的 AI Agent</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-05</div>
+      <p>Cursor 官方 X 账号发布 Automations 功能演示视频，展示 AI Agent 如何自动响应 GitHub PR、Slack 消息等事件触发器执行编码任务。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Yann LeCun 新创 AMI Labs 获 10.3 亿美元融资，专注世界模型</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-10</div>
+      <p>TechCrunch 报道 Yann LeCun 离开 Meta 后创办的 AMI Labs 获 10.3 亿美元融资，估值 35 亿美元，旨在构建超越 LLM 的世界模型架构。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 38 名研究者对 AI Agent 进行两周红队测试：Agents of Chaos</h3>
+      <div class="meta">💬 </div>
+      <p>来自东北大学等机构的 38 名研究者对 AI Agent 进行了为期两周的红队测试，发现多种高风险失败模式，引发 Discord 安全社区激烈讨论。</p>
+  <a class="link" href="https://www.reddit.com/r/cybersecurity_help/comments/1rn48oo/38_researchers_redteamed_ai_agents_for_2_weeks/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenClaw 2026.3.7 升级后性能问题引社区热议</h3>
+      <div class="meta">💬 </div>
+      <p>OpenClaw Discord 社区大量用户反馈 2026.3.7 升级后出现响应缓慢和错误，团队紧急发布热修复，新的可插拔上下文引擎需要额外配置优化。</p>
+  <a class="link" href="https://www.answeroverflow.com/m/1480110043050414091" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor Cloud Agents 云端 Agent 社区体验反馈</h3>
+      <div class="meta">💬 </div>
+      <p>Cursor 社区大量开发者分享 Cloud Agents 首批使用体验，讨论云端 Agent 在 CI/CD 集成、代码审查自动化方面的实际效果与局限性。</p>
+  <a class="link" href="https://releasebot.io/updates/cursor" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenClaw 突破 25 万 Stars，成为 GitHub 最热 AI Agent 项目</h3>
+      
+      <p>OpenClaw 在 GitHub 上突破 25 万 Stars 超越 React，2026.3.7 版本带来可插拔上下文引擎和多阶段 Docker 构建优化，多 Agent 协作能力质的提升。</p>
+  <a class="link" href="https://markets.financialcontent.com/stocks/article/accwirecq-2026-3-4-openclawd-releases-major-platform-update-as-openclaw-surpasses-react-with-250000-github-stars" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ByteDance DeerFlow：开源多 Agent 深度研究框架</h3>
+      
+      <p>字节跳动开源 DeerFlow 多智能体框架，专注于深度研究场景，支持自动化信息收集、分析和报告生成，GitHub 周趋势榜上位。</p>
+  <a class="link" href="https://www.bilibili.com/video/BV1kZPYz4EMc/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. MiniMax M2.5 / Kimi K2.5 / GLM-5：中国模型霸榜 OpenRouter 编程排行</h3>
+      
+      <p>MiniMax M2.5 登顶 OpenRouter 编程排行榜，Kimi K2.5 紧随其后。中国大模型占据全球前五中的四席，编码能力全面赶超。</p>
+  <a class="link" href="https://www.reddit.com/r/opencodeCLI/comments/1rneeye/glm5_minimax_m25_kimi_k25_what_is_the_best_for/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor 推出 Cloud Agents 和 Automations 平台</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Cursor 发布云端 Agent 和 Automations 功能，支持事件驱动的自动化编码，成为 Hacker News 热门话题，社区围绕安全性和成本展开讨论。</p>
+  <a class="link" href="https://dataconomy.com/2026/03/06/cursors-new-automations-launch-reimagines-agentic-coding/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GPT-5.4 API Pricing Forecast: Cost Comparison and Scenarios</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Evolink 深度分析 GPT-5.4 API 定价策略，对比各供应商成本。GPT-5.4 标准版 $2.50/M tokens，Pro 版价格约为竞品 10 倍，引发性价比讨论。</p>
+  <a class="link" href="https://evolink.ai/blog/gpt-5-4-api-pricing-2026-latest-forecast-scenarios-cost-comparison" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Agent 红队实验：McKinsey 聊天机器人在两小时内被完全攻破</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Cybernews 报道安全团队使用 AI Agent 自动化 80-90% 的攻击流程，两小时内获取 McKinsey 内部聊天机器人完整权限，凸显企业 Agent 安全短板。</p>
+  <a class="link" href="https://cybernews.com/security/ai-agent-cracked-mckinsey-chatbot/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/OpenAI 热议：OpenAI 为何在48小时内连发 GPT-5.3 和 GPT-5.4？</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit 用户讨论 OpenAI 在3月3日发布 GPT-5.3 后仅48小时又推出 GPT-5.4 的策略，猜测可能是为抢先竞争对手或应对 DeepSeek V4 的发布。</p>
+  <a class="link" href="https://www.reddit.com/r/ChatGPT/comments/1rm1bb7/why_did_openai_release_gpt53_and_gpt54_only_48/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/OpenAI 热议：GPT-5.4 刚发布就引爆讨论</h3>
+      <div class="meta">reddit: </div>
+      <p>r/OpenAI 社区 216 票热帖讨论 GPT-5.4 在推理、编码和 Agent 工作流方面的突破性能力，用户分享首批基准测试和实际使用体验。</p>
+  <a class="link" href="https://www.reddit.com/r/OpenAI/comments/1rlp3jg/breaking_openai_just_drppped_gpt54/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/cybersecurity_help：38人红队两周暴力测试 AI Agent 安全</h3>
+      <div class="meta">reddit: </div>
+      <p>网安社区围绕 Northeastern 大学的 Agents of Chaos 研究展开讨论，分享 AI Agent 在真实环境中的多种失败模式和防御策略。</p>
+  <a class="link" href="https://www.reddit.com/r/cybersecurity_help/comments/1rn48oo/38_researchers_redteamed_ai_agents_for_2_weeks/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor Automations：事件驱动的 AI 编码自动化</h3>
+      
+      <p>Cursor 推出 Automations，支持 GitHub PR、Slack、Linear、PagerDuty、Cron 和 Webhook 触发 AI Agent 在云沙箱中自动执行编码任务，BugBot 可自动修复 PR Bug。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Copilot CLI 正式发布：AI 编码助手进入终端时代</h3>
+      
+      <p>GitHub Copilot CLI 面向所有用户正式开放，支持终端内代码审查、测试生成、Bug 调试和代码库问答，配合 GPT-5.4 模型使用效果显著提升。</p>
+  <a class="link" href="https://developer.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. ByteBytego 盘点 2026 年最有影响力的 AI GitHub 仓库</h3>
+      
+      <p>ByteBytego 深度盘点当前 GitHub 上最具影响力的 AI 开源项目，涵盖 Agent 框架、模型推理、编码工具等赛道，分析它们在 AI 生态中的定位。</p>
+  <a class="link" href="https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor Automations 引领 Agentic Coding 新范式</h3>
+      <div class="meta">🤖 </div>
+      <p>Cursor 推出 Automations 和 Cloud Agents，实现事件驱动的全自动化编码。Agent 在云沙箱中运行，可响应 PR、Issue、告警等触发器，开创 always-on 编程模式。</p>
+  <a class="link" href="https://www.adwaitx.com/cursor-automations-ai-coding-agents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Meta 收购 Moltbook + Manus：Agent 社交生态加速整合</h3>
+      <div class="meta">🤖 </div>
+      <p>Meta 收购 AI Bot 社交平台 Moltbook 并整合此前收购的 Manus 团队，构建从 Agent 创建到社交分发的完整闭环。</p>
+  <a class="link" href="https://thetechportal.com/2026/03/10/meta-buys-ai-agent-social-platform-moltbook-plans-to-integrate-team-into-advanced-ai-projects" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenClaw 2026.3.7 可插拔上下文引擎重定义多 Agent 协作</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenClaw 新版本推出可插拔上下文引擎（Pluggable ContextEngine），从 tools 逻辑转向 hooks 逻辑，解决记忆混乱和 Token 成本过高问题，多 Agent 协作效率大幅提升。</p>
+  <a class="link" href="https://developer.aliyun.com/article/1715527" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI Released GPT-5.4: What You Need to Know</h3>
+      <div class="meta">📅 2026-03-05</div>
+      <p>OpenAI 发布 GPT-5.4 及其 Thinking/Pro 版本，结合推理、编码和 Agent 能力为一体，原生支持 Computer Use 模式和金融插件。</p>
+  <a class="link" href="https://deeperinsights.com/ai-blog/openai-released-gpt-5-4/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cursor 推出 Automations：让 AI Agent 永远在线的编程工具</h3>
+      <div class="meta">📅 2026-03-05</div>
+      <p>Cursor 发布 Automations 功能，支持由 GitHub PR、Slack 消息、Linear Issue 等事件触发 AI Agent 自动执行编码任务，首个示例 BugBot 可自动审查和修复 PR 中的 Bug。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta 收购 AI Bot 社交平台 Moltbook，此前已收购 Manus</h3>
+      <div class="meta">📅 2026-03-10</div>
+      <p>Meta 收购了 AI Bot 社交平台 Moltbook，加速构建超级智能团队。此前 Meta 已于2025年12月收购了自主 AI Agent 平台 Manus，持续布局 Agent 生态。</p>
+  <a class="link" href="https://www.cnn.com/2026/03/10/tech/meta-moltbook-bots-social-media" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. DeepSeek V4 蓄势待发：多模态融合、国产算力迁移引关注</h3>
+      <div class="meta">📅 2026-03-06</div>
+      <p>DeepSeek V4 因国产算力迁移和多模态集成延迟发布，但多项信号显示即将亮相。DeepSeek V3.2 在 OpenRouter 平台 Token 消耗量稳居前十。</p>
+  <a class="link" href="https://deepseekv4.app/news/2026-03-06-deepseek-v4-weekend-release-prediction" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. OpenClaw 2026.3.7 大版本更新：可插拔上下文引擎重塑 Agent 架构</h3>
+      <div class="meta">📅 2026-03-09</div>
+      <p>OpenClaw 发布 2026.3.7 版本，推出可插拔上下文引擎（Pluggable ContextEngine），新增 GPT-5.4、Gemini 3.1 Flash-Lite 支持，GitHub Stars 突破 25 万，超越 React。</p>
+  <a class="link" href="https://www.epsilla.com/blogs/2026-03-09-openclaw-2026-3-7-contextengine-agentic-architecture" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. GitHub Copilot CLI 正式 GA，Copilot Memory 默认开启</h3>
+      <div class="meta">📅 2026-03-06</div>
+      <p>GitHub Copilot CLI 正式面向所有 Copilot 用户开放，支持终端内代码审查、测试生成和调试。同时 Copilot Memory 在 Pro/Pro+ 用户中默认开启公开预览。</p>
+  <a class="link" href="https://github.blog/changelog/2026-03-04-copilot-memory-now-on-by-default-for-pro-and-pro-users-in-public-preview/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 红队实验揭示 AI Agent 安全隐患：McKinsey 聊天机器人两小时被攻破</h3>
+      <div class="meta">📅 2026-03-10</div>
+      <p>安全研究人员用 AI Agent 对 McKinsey 的企业聊天机器人进行红队测试，两小时内获得完整访问权限，揭示了 Agentic AI 在企业安全中的重大风险。</p>
+  <a class="link" href="https://cybernews.com/security/ai-agent-cracked-mckinsey-chatbot/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Yann LeCun 的 AMI Labs 以 35 亿美元估值融资 10.3 亿</h3>
+      
+      <p>Reuters 报道 Yann LeCun 创办的 AMI Labs 完成 10.3 亿美元融资，估值 35 亿美元，团队来自前 Meta AI 研究院，致力于世界模型商业化。</p>
+  <a class="link" href="https://www.reuters.com/business/ex-meta-ai-chief-yann-lecuns-ami-raises-103-billion-alternative-ai-approach-2026-03-10/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GPT-5.4 Complete Guide: Benchmarks, Pricing and Analysis</h3>
+      
+      <p>ALM Corp 全面解析 GPT-5.4：专业基准评分 83%、桌面导航超越人类表现、$2.50/M tokens 定价，是目前最强大的通用 AI 模型。</p>
+  <a class="link" href="https://almcorp.com/blog/gpt-5-4/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor 估值 293 亿美元：4 万 NVIDIA 工程师已全面切换</h3>
+      
+      <p>MIT Technology Review 将 Cursor 列为代码革命核心工具。估值达 293 亿美元，超半数财富 500 强企业在用，4 万 NVIDIA 工程师已完成迁移。</p>
+  <a class="link" href="https://kasata.medium.com/cursor-ai-in-2026-the-29-billion-ai-coding-tool-thats-replacing-your-ide-and-why-40-000-nvidia-b86bb8fca2fb" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 阿里云 CoPaw 开源：国产智能体正面对标 OpenClaw</h3>
+      
+      <p>阿里云通义实验室基于 AgentScope 框架开源 CoPaw 个人 AI 助手，主打本地/云端双部署，原生适配钉钉、飞书、QQ，被视为 OpenClaw 的国产替代。</p>
+  <a class="link" href="https://www.sohu.com/a/993942238_121124358" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek V4 即将发布：国产算力迁移完成在即</h3>
+      
+      <p>DeepSeek V4 因多模态集成和国产算力迁移延迟，但多项信号显示即将发布。当前 V3.2 在 OpenRouter 上 Token 消耗量达 3 万亿，位居全球第四。</p>
+  <a class="link" href="https://deepseekv4.app/news/2026-03-05-deepseek-v4-delayed-release-analysis" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 中国大模型霸榜 OpenRouter：MiniMax/Kimi/智谱占四席</h3>
+      
+      <p>MiniMax M2.5、Kimi K2.5、GLM-5 和 DeepSeek V3.2 占据 OpenRouter 全球编程排行榜前五中的四席，中国大模型在编码能力上全面赶超。</p>
+  <a class="link" href="https://www.reddit.com/r/opencodeCLI/comments/1rneeye/glm5_minimax_m25_kimi_k25_what_is_the_best_for/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:35 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-11",
+  "insights": [
+    {
+      "title": "OpenAI Released GPT-5.4: What You Need to Know",
+      "date": "2026-03-05",
+      "summary": "OpenAI 发布 GPT-5.4 及其 Thinking/Pro 版本，结合推理、编码和 Agent 能力为一体，原生支持 Computer Use 模式和金融插件。",
+      "link": "https://deeperinsights.com/ai-blog/openai-released-gpt-5-4/"
+    },
+    {
+      "title": "Cursor 推出 Automations：让 AI Agent 永远在线的编程工具",
+      "date": "2026-03-05",
+      "summary": "Cursor 发布 Automations 功能，支持由 GitHub PR、Slack 消息、Linear Issue 等事件触发 AI Agent 自动执行编码任务，首个示例 BugBot 可自动审查和修复 PR 中的 Bug。",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/"
+    },
+    {
+      "title": "Meta 收购 AI Bot 社交平台 Moltbook，此前已收购 Manus",
+      "date": "2026-03-10",
+      "summary": "Meta 收购了 AI Bot 社交平台 Moltbook，加速构建超级智能团队。此前 Meta 已于2025年12月收购了自主 AI Agent 平台 Manus，持续布局 Agent 生态。",
+      "link": "https://www.cnn.com/2026/03/10/tech/meta-moltbook-bots-social-media"
+    },
+    {
+      "title": "DeepSeek V4 蓄势待发：多模态融合、国产算力迁移引关注",
+      "date": "2026-03-06",
+      "summary": "DeepSeek V4 因国产算力迁移和多模态集成延迟发布，但多项信号显示即将亮相。DeepSeek V3.2 在 OpenRouter 平台 Token 消耗量稳居前十。",
+      "link": "https://deepseekv4.app/news/2026-03-06-deepseek-v4-weekend-release-prediction"
+    },
+    {
+      "title": "OpenClaw 2026.3.7 大版本更新：可插拔上下文引擎重塑 Agent 架构",
+      "date": "2026-03-09",
+      "summary": "OpenClaw 发布 2026.3.7 版本，推出可插拔上下文引擎（Pluggable ContextEngine），新增 GPT-5.4、Gemini 3.1 Flash-Lite 支持，GitHub Stars 突破 25 万，超越 React。",
+      "link": "https://www.epsilla.com/blogs/2026-03-09-openclaw-2026-3-7-contextengine-agentic-architecture"
+    },
+    {
+      "title": "GitHub Copilot CLI 正式 GA，Copilot Memory 默认开启",
+      "date": "2026-03-06",
+      "summary": "GitHub Copilot CLI 正式面向所有 Copilot 用户开放，支持终端内代码审查、测试生成和调试。同时 Copilot Memory 在 Pro/Pro+ 用户中默认开启公开预览。",
+      "link": "https://github.blog/changelog/2026-03-04-copilot-memory-now-on-by-default-for-pro-and-pro-users-in-public-preview/"
+    },
+    {
+      "title": "红队实验揭示 AI Agent 安全隐患：McKinsey 聊天机器人两小时被攻破",
+      "date": "2026-03-10",
+      "summary": "安全研究人员用 AI Agent 对 McKinsey 的企业聊天机器人进行红队测试，两小时内获得完整访问权限，揭示了 Agentic AI 在企业安全中的重大风险。",
+      "link": "https://cybernews.com/security/ai-agent-cracked-mckinsey-chatbot/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "X-RAY: Mapping LLM Reasoning Capability via Formalized and Calibrated Probes",
+      "date": "2026-03-05",
+      "summary": "提出 X-RAY 框架，通过形式化和校准探针量化 LLM 的结构化推理能力，揭示了传统基准测试无法发现的模型间差异。",
+      "link": "https://arxiv.org/abs/2603.05290"
+    },
+    {
+      "title": "LIT-RAGBench: Benchmarking Generator Capabilities of LLMs in RAG",
+      "date": "2026-03-08",
+      "summary": "使用虚构实体和场景构建的 RAG 评测基准，包含 114 个人工构建的日语问题和英语翻译版本，评估 LLM 基于外部文档的生成能力。",
+      "link": "https://arxiv.org/abs/2603.06198"
+    },
+    {
+      "title": "Think, But Don't Overthink: 递归语言模型（RLMs）的复现与扩展",
+      "date": "2026-03-04",
+      "summary": "对 RLMs 框架的独立复现和扩展研究，验证了 LLM 通过外部 REPL 环境处理近乎无限上下文的可行性，为突破固定上下文窗口限制提供新思路。",
+      "link": "https://arxiv.org/abs/2603.02615"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sam Altman 回应 GPT-5.4 发布：最强 Agent 编码模型",
+      "date": "2026-03-05",
+      "summary": "Sam Altman 在 X 上称 GPT-5.4 是 OpenAI 迄今最强的 Agent 编码模型，结合推理和工具使用实现了质的飞跃，VentureBeat 等多家媒体第一时间报道。",
+      "link": "https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for"
+    },
+    {
+      "title": "Cursor 官方宣布 Automations：构建永不下线的 AI Agent",
+      "date": "2026-03-05",
+      "summary": "Cursor 官方 X 账号发布 Automations 功能演示视频，展示 AI Agent 如何自动响应 GitHub PR、Slack 消息等事件触发器执行编码任务。",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/"
+    },
+    {
+      "title": "Yann LeCun 新创 AMI Labs 获 10.3 亿美元融资，专注世界模型",
+      "date": "2026-03-10",
+      "summary": "TechCrunch 报道 Yann LeCun 离开 Meta 后创办的 AMI Labs 获 10.3 亿美元融资，估值 35 亿美元，旨在构建超越 LLM 的世界模型架构。",
+      "link": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "38 名研究者对 AI Agent 进行两周红队测试：Agents of Chaos",
+      "date": "2026-03-07",
+      "summary": "来自东北大学等机构的 38 名研究者对 AI Agent 进行了为期两周的红队测试，发现多种高风险失败模式，引发 Discord 安全社区激烈讨论。",
+      "link": "https://www.reddit.com/r/cybersecurity_help/comments/1rn48oo/38_researchers_redteamed_ai_agents_for_2_weeks/"
+    },
+    {
+      "title": "OpenClaw 2026.3.7 升级后性能问题引社区热议",
+      "date": "2026-03-08",
+      "summary": "OpenClaw Discord 社区大量用户反馈 2026.3.7 升级后出现响应缓慢和错误，团队紧急发布热修复，新的可插拔上下文引擎需要额外配置优化。",
+      "link": "https://www.answeroverflow.com/m/1480110043050414091"
+    },
+    {
+      "title": "Cursor Cloud Agents 云端 Agent 社区体验反馈",
+      "date": "2026-03-06",
+      "summary": "Cursor 社区大量开发者分享 Cloud Agents 首批使用体验，讨论云端 Agent 在 CI/CD 集成、代码审查自动化方面的实际效果与局限性。",
+      "link": "https://releasebot.io/updates/cursor"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenClaw 突破 25 万 Stars，成为 GitHub 最热 AI Agent 项目",
+      "date": "2026-03-04",
+      "summary": "OpenClaw 在 GitHub 上突破 25 万 Stars 超越 React，2026.3.7 版本带来可插拔上下文引擎和多阶段 Docker 构建优化，多 Agent 协作能力质的提升。",
+      "link": "https://markets.financialcontent.com/stocks/article/accwirecq-2026-3-4-openclawd-releases-major-platform-update-as-openclaw-surpasses-react-with-250000-github-stars"
+    },
+    {
+      "title": "ByteDance DeerFlow：开源多 Agent 深度研究框架",
+      "date": "2026-03-06",
+      "summary": "字节跳动开源 DeerFlow 多智能体框架，专注于深度研究场景，支持自动化信息收集、分析和报告生成，GitHub 周趋势榜上位。",
+      "link": "https://www.bilibili.com/video/BV1kZPYz4EMc/"
+    },
+    {
+      "title": "MiniMax M2.5 / Kimi K2.5 / GLM-5：中国模型霸榜 OpenRouter 编程排行",
+      "date": "2026-03-07",
+      "summary": "MiniMax M2.5 登顶 OpenRouter 编程排行榜，Kimi K2.5 紧随其后。中国大模型占据全球前五中的四席，编码能力全面赶超。",
+      "link": "https://www.reddit.com/r/opencodeCLI/comments/1rneeye/glm5_minimax_m25_kimi_k25_what_is_the_best_for/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Cursor 推出 Cloud Agents 和 Automations 平台",
+      "date": "2026-03-05",
+      "summary": "Cursor 发布云端 Agent 和 Automations 功能，支持事件驱动的自动化编码，成为 Hacker News 热门话题，社区围绕安全性和成本展开讨论。",
+      "link": "https://dataconomy.com/2026/03/06/cursors-new-automations-launch-reimagines-agentic-coding/"
+    },
+    {
+      "title": "GPT-5.4 API Pricing Forecast: Cost Comparison and Scenarios",
+      "date": "2026-03-06",
+      "summary": "Evolink 深度分析 GPT-5.4 API 定价策略，对比各供应商成本。GPT-5.4 标准版 $2.50/M tokens，Pro 版价格约为竞品 10 倍，引发性价比讨论。",
+      "link": "https://evolink.ai/blog/gpt-5-4-api-pricing-2026-latest-forecast-scenarios-cost-comparison"
+    },
+    {
+      "title": "AI Agent 红队实验：McKinsey 聊天机器人在两小时内被完全攻破",
+      "date": "2026-03-10",
+      "summary": "Cybernews 报道安全团队使用 AI Agent 自动化 80-90% 的攻击流程，两小时内获取 McKinsey 内部聊天机器人完整权限，凸显企业 Agent 安全短板。",
+      "link": "https://cybernews.com/security/ai-agent-cracked-mckinsey-chatbot/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/OpenAI 热议：OpenAI 为何在48小时内连发 GPT-5.3 和 GPT-5.4？",
+      "date": "2026-03-05",
+      "summary": "Reddit 用户讨论 OpenAI 在3月3日发布 GPT-5.3 后仅48小时又推出 GPT-5.4 的策略，猜测可能是为抢先竞争对手或应对 DeepSeek V4 的发布。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1rm1bb7/why_did_openai_release_gpt53_and_gpt54_only_48/"
+    },
+    {
+      "title": "r/OpenAI 热议：GPT-5.4 刚发布就引爆讨论",
+      "date": "2026-03-05",
+      "summary": "r/OpenAI 社区 216 票热帖讨论 GPT-5.4 在推理、编码和 Agent 工作流方面的突破性能力，用户分享首批基准测试和实际使用体验。",
+      "link": "https://www.reddit.com/r/OpenAI/comments/1rlp3jg/breaking_openai_just_drppped_gpt54/"
+    },
+    {
+      "title": "r/cybersecurity_help：38人红队两周暴力测试 AI Agent 安全",
+      "date": "2026-03-07",
+      "summary": "网安社区围绕 Northeastern 大学的 Agents of Chaos 研究展开讨论，分享 AI Agent 在真实环境中的多种失败模式和防御策略。",
+      "link": "https://www.reddit.com/r/cybersecurity_help/comments/1rn48oo/38_researchers_redteamed_ai_agents_for_2_weeks/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Cursor Automations：事件驱动的 AI 编码自动化",
+      "date": "2026-03-05",
+      "summary": "Cursor 推出 Automations，支持 GitHub PR、Slack、Linear、PagerDuty、Cron 和 Webhook 触发 AI Agent 在云沙箱中自动执行编码任务，BugBot 可自动修复 PR Bug。",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/"
+    },
+    {
+      "title": "Copilot CLI 正式发布：AI 编码助手进入终端时代",
+      "date": "2026-03-06",
+      "summary": "GitHub Copilot CLI 面向所有用户正式开放，支持终端内代码审查、测试生成、Bug 调试和代码库问答，配合 GPT-5.4 模型使用效果显著提升。",
+      "link": "https://developer.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course"
+    },
+    {
+      "title": "ByteBytego 盘点 2026 年最有影响力的 AI GitHub 仓库",
+      "date": "2026-03-09",
+      "summary": "ByteBytego 深度盘点当前 GitHub 上最具影响力的 AI 开源项目，涵盖 Agent 框架、模型推理、编码工具等赛道，分析它们在 AI 生态中的定位。",
+      "link": "https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Cursor Automations 引领 Agentic Coding 新范式",
+      "date": "2026-03-05",
+      "summary": "Cursor 推出 Automations 和 Cloud Agents，实现事件驱动的全自动化编码。Agent 在云沙箱中运行，可响应 PR、Issue、告警等触发器，开创 always-on 编程模式。",
+      "link": "https://www.adwaitx.com/cursor-automations-ai-coding-agents/"
+    },
+    {
+      "title": "Meta 收购 Moltbook + Manus：Agent 社交生态加速整合",
+      "date": "2026-03-10",
+      "summary": "Meta 收购 AI Bot 社交平台 Moltbook 并整合此前收购的 Manus 团队，构建从 Agent 创建到社交分发的完整闭环。",
+      "link": "https://thetechportal.com/2026/03/10/meta-buys-ai-agent-social-platform-moltbook-plans-to-integrate-team-into-advanced-ai-projects"
+    },
+    {
+      "title": "OpenClaw 2026.3.7 可插拔上下文引擎重定义多 Agent 协作",
+      "date": "2026-03-09",
+      "summary": "OpenClaw 新版本推出可插拔上下文引擎（Pluggable ContextEngine），从 tools 逻辑转向 hooks 逻辑，解决记忆混乱和 Token 成本过高问题，多 Agent 协作效率大幅提升。",
+      "link": "https://developer.aliyun.com/article/1715527"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Yann LeCun 的 AMI Labs 以 35 亿美元估值融资 10.3 亿",
+      "date": "2026-03-10",
+      "summary": "Reuters 报道 Yann LeCun 创办的 AMI Labs 完成 10.3 亿美元融资，估值 35 亿美元，团队来自前 Meta AI 研究院，致力于世界模型商业化。",
+      "link": "https://www.reuters.com/business/ex-meta-ai-chief-yann-lecuns-ami-raises-103-billion-alternative-ai-approach-2026-03-10/"
+    },
+    {
+      "title": "GPT-5.4 Complete Guide: Benchmarks, Pricing and Analysis",
+      "date": "2026-03-08",
+      "summary": "ALM Corp 全面解析 GPT-5.4：专业基准评分 83%、桌面导航超越人类表现、$2.50/M tokens 定价，是目前最强大的通用 AI 模型。",
+      "link": "https://almcorp.com/blog/gpt-5-4/"
+    },
+    {
+      "title": "Cursor 估值 293 亿美元：4 万 NVIDIA 工程师已全面切换",
+      "date": "2026-03-08",
+      "summary": "MIT Technology Review 将 Cursor 列为代码革命核心工具。估值达 293 亿美元，超半数财富 500 强企业在用，4 万 NVIDIA 工程师已完成迁移。",
+      "link": "https://kasata.medium.com/cursor-ai-in-2026-the-29-billion-ai-coding-tool-thats-replacing-your-ide-and-why-40-000-nvidia-b86bb8fca2fb"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里云 CoPaw 开源：国产智能体正面对标 OpenClaw",
+      "date": "2026-03-08",
+      "summary": "阿里云通义实验室基于 AgentScope 框架开源 CoPaw 个人 AI 助手，主打本地/云端双部署，原生适配钉钉、飞书、QQ，被视为 OpenClaw 的国产替代。",
+      "link": "https://www.sohu.com/a/993942238_121124358"
+    },
+    {
+      "title": "DeepSeek V4 即将发布：国产算力迁移完成在即",
+      "date": "2026-03-05",
+      "summary": "DeepSeek V4 因多模态集成和国产算力迁移延迟，但多项信号显示即将发布。当前 V3.2 在 OpenRouter 上 Token 消耗量达 3 万亿，位居全球第四。",
+      "link": "https://deepseekv4.app/news/2026-03-05-deepseek-v4-delayed-release-analysis"
+    },
+    {
+      "title": "中国大模型霸榜 OpenRouter：MiniMax/Kimi/智谱占四席",
+      "date": "2026-03-07",
+      "summary": "MiniMax M2.5、Kimi K2.5、GLM-5 和 DeepSeek V3.2 占据 OpenRouter 全球编程排行榜前五中的四席，中国大模型在编码能力上全面赶超。",
+      "link": "https://www.reddit.com/r/opencodeCLI/comments/1rneeye/glm5_minimax_m25_kimi_k25_what_is_the_best_for/"
+    }
+  ]
+}
