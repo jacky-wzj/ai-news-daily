@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-12",
+  "insights": [
+    {
+      "title": "Yann LeCun 离开 Meta 创办 AMI Labs，种子轮融资 10.3 亿美元",
+      "date": "2026-03-10",
+      "summary": "图灵奖得主 Yann LeCun 创办的 Advanced Machine Intelligence Labs 完成 10.3 亿美元种子轮融资，估值 35 亿美元。投资者包括 Nvidia、Mark Cuban、Eric Schmidt、Jeff Bezos。AMI 致力于开发 World Models，挑战 LLM 范式，专注推理、规划和物理世界理解能力。",
+      "link": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
+    },
+    {
+      "title": "Anthropic 起诉五角大楼黑名单，AI 安全与军方冲突升级",
+      "date": "2026-03-09",
+      "summary": "五角大楼将 Anthropic 列为「供应链风险」，阻止国防承包商使用 Claude。Anthropic 向联邦法院提起诉讼，称该决定违反言论自由和正当程序权，实质是对其 AI 安全护栏的惩罚。法律专家认为 Anthropic 有很强的胜诉理由。",
+      "link": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/"
+    },
+    {
+      "title": "GTC 2026 即将开幕：Nvidia Vera Rubin 架构 + Feynman 芯片首秀",
+      "date": "2026-03-12",
+      "summary": "GTC 2026 将于 3 月 16-19 日在圣何塞举行，Jensen Huang 暗示将展示「世界从未见过的芯片」。市场期待 Vera Rubin 平台性能较 Blackwell Ultra 提升 3.3 倍，以及首次深入展示 Feynman 架构——专为 AI Agent 的推理和长期记忆需求设计的下一代芯片。",
+      "link": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "title": "Alibaba Qwen 3.5 发布：397B MoE 模型，9B 小模型击败 OpenAI 旗舰",
+      "date": "2026-03-02",
+      "summary": "阿里巴巴发布 Qwen 3.5 系列，采用 MoE 架构，总参数 397B，每 token 仅激活 17B。9B 小模型在多项推理和知识基准上超越了参数量 13 倍的 OpenAI GPT-OSS-120B，专为边缘设备优化。但 Qwen 团队核心成员离职引发开源路线不确定性。",
+      "link": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in"
+    },
+    {
+      "title": "LLM 大规模去匿名化研究引发隐私恐慌",
+      "date": "2026-03-07",
+      "summary": "研究论文表明 LLM 能够大规模匹配匿名账户与真实身份，在 Reddit 和 HN 测试中匹配率达 25%-52%。The Verge 和多家媒体报道后引发隐私讨论，研究者警告假名发布已不再安全。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/889395/ai-agents-unmask-anonymous-online-accounts"
+    },
+    {
+      "title": "Seedance 2.0 定价公布，AI 视频生成进入多模态编排时代",
+      "date": "2026-03-05",
+      "summary": "ByteDance 的 Seedance 2.0 视频生成模型定价约 $0.14/秒，支持文本+最多 9 张图片+3 段视频+3 段音频输入，生成最长 15 秒 1080p 视频。与 Veo 3.1 和 Sora 2 Pro 竞争，但 API 因版权和内容安全合规延期。",
+      "link": "https://technode.com/2026/03/05/bytedances-seedance-2-0-video-model-costs-about-0-14-per-second/"
+    },
+    {
+      "title": "Nvidia 与 Thinking Machines Lab 达成千兆瓦级长期战略合作",
+      "date": "2026-03-10",
+      "summary": "Nvidia 宣布与 Thinking Machines Lab 建立长期千兆瓦级战略合作伙伴关系，为 AI 基础设施提供大规模算力支持。这是 GTC 2026 前的重磅合作，预示着 AI 基础设施向更大规模演进。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Yann LeCun 论文：AGI 定义有误，提出超人适应性智能 (SAI)",
+      "date": "2026-03-07",
+      "summary": "Yann LeCun 新论文认为 AGI 的定义存在根本性错误，提出 Superhuman Adaptable Intelligence (SAI) 作为替代概念，强调 AI 系统应具备适应性而非通用性，为 World Models 路线提供理论基础。",
+      "link": "https://www.marktechpost.com/2026/03/07/yann-lecuns-new-ai-paper-argues-agi-is-misdefined-and-introduces-superhuman-adaptable-intelligence-sai-instead/"
+    },
+    {
+      "title": "ETH Zurich 研究：AGENTS.md 文件过于详细反而降低 AI 编码代理性能",
+      "date": "2026-02-25",
+      "summary": "ETH Zurich 的研究证明，给 AI 编码代理的 AGENTS.md 配置文件写得过于详细时，性能反而下降。研究建议精简指令，让代理保留自主判断空间。",
+      "link": "https://www.sri.inf.ethz.ch/publications/gloaguen2026agentsmd"
+    },
+    {
+      "title": "Microsoft 开源 Phi-4-Reasoning-Vision 15B 多模态推理模型",
+      "date": "2026-03-04",
+      "summary": "微软开源 Phi-4-Reasoning-Vision 15B，一个专注多模态推理的小参数模型。仅 15B 参数即在视觉推理任务上表现优秀，为端侧多模态 AI 应用提供新选择。",
+      "link": "https://siliconangle.com/2026/03/04/microsoft-open-sources-multimodal-reasoning-model-15b-parameters/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andrej Karpathy：编程已经面目全非，AI Agent 真正可用了",
+      "date": "2026-02-26",
+      "summary": "Karpathy 发文称 AI Agent 到了真正能用的阶段，编程方式已发生根本性变化。他开源的 autoresearch 工具（630 行 Python）让 AI Agent 在单 GPU 上自主运行 100 个 ML 实验。",
+      "link": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei 称不能排除 Claude 具有意识的可能性",
+      "date": "2026-03-08",
+      "summary": "Amodei 在采访中表示无法排除 Claude 可能拥有某种形式意识的可能性，这一言论引发 AI 意识问题的广泛讨论和争议。",
+      "link": "https://www.newsweek.com/anthropic-ceo-raises-unsettling-possibility-about-ai-11644833"
+    },
+    {
+      "title": "Sam Altman 称 GPT-5.4 是他最喜欢对话的模型，但承认 3 个弱点待修复",
+      "date": "2026-03-07",
+      "summary": "Sam Altman 在社交媒体上称 GPT-5.4 是他最喜欢对话的模型，同时坦承 OpenAI 仍需在三个方面改进，态度较以往更加务实。",
+      "link": "https://www.techradar.com/ai-platforms-assistants/chatgpt/sam-altman-says-gpt-5-4-is-his-favorite-model-to-talk-to-but-admits-openai-still-needs-to-fix-these-3-weaknesses"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Code 子代理嵌套子代理模式引发开发者热议",
+      "date": "2026-03-04",
+      "summary": "Reddit 和 Discord 社区热烈讨论 Claude Code 的子代理嵌套模式（subagents inside subagents），开发者分享实际使用体验，认为这是 agentic coding 的重要进化方向。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/"
+    },
+    {
+      "title": "AI Agent 安全红队测试：38 名研究员 2 周攻击 AI Agent 的发现",
+      "date": "2026-03-08",
+      "summary": "38 名安全研究员对 AI Agent 进行了为期 2 周的红队测试，结果发现多个严重安全漏洞。社区讨论 Agent 安全的重要性远超预期。",
+      "link": "https://www.reddit.com/r/cybersecurity_help/comments/1rn48oo/38_researchers_redteamed_ai_agents_for_2_weeks/"
+    },
+    {
+      "title": "Spec-Driven Development 成为 Claude Code 和 Codex 的最佳实践",
+      "date": "2026-03-04",
+      "summary": "社区分享使用 Meta-Prompting 和 Spec-Driven Development 配合 Claude Code 和 Codex 的开发方法论，被认为是提升 AI 辅助开发效率的最佳实践之一。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1rg0b9i/has_anyone_tried_the_spec_driven_development/"
+    }
+  ],
+  "github": [
+    {
+      "title": "ByteDance DeerFlow 2.0：开源超级 Agent 编排框架",
+      "date": "2026-03-09",
+      "summary": "字节跳动开源 DeerFlow 2.0，一个超级 Agent 编排框架，支持子代理编排、记忆管理和沙箱执行复杂任务。GitHub 迅速获得大量 star。",
+      "link": "https://github.com/bytedance/deer-flow"
+    },
+    {
+      "title": "Karpathy autoresearch：630 行 Python 让 AI 自主跑 ML 实验",
+      "date": "2026-03-08",
+      "summary": "Andrej Karpathy 开源 autoresearch，仅 630 行 Python 代码即可让 AI Agent 在单 GPU 上自主运行机器学习实验，号称睡一觉起来看实验结果。",
+      "link": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "title": "2026 Top AI GitHub 仓库年度盘点",
+      "date": "2026-03-10",
+      "summary": "ByteByteGo 发布 2026 年 AI 领域最热门 GitHub 仓库盘点，涵盖 Agent 框架、推理优化、多模态模型等方向，反映 AI 开源生态的最新趋势。",
+      "link": "https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026"
+    }
+  ],
+  "hn": [
+    {
+      "title": "LLM 辅助去匿名化引发 Hacker News 激烈讨论",
+      "date": "2026-03-08",
+      "summary": "研究表明 LLM 可将匿名 HN 用户与真实 LinkedIn 身份匹配，HN 社区讨论火爆。用户担忧多年匿名发帖已不再安全。",
+      "link": "https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html"
+    },
+    {
+      "title": "60 岁开发者靠 Vibe Coding 登上 Hacker News 头条",
+      "date": "2026-03-02",
+      "summary": "一位 60 岁开发者分享使用 AI 辅助编程（Vibe Coding）的真实经验，引发关于 AI 编程是否真正普惠所有年龄层开发者的讨论。",
+      "link": "https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7"
+    },
+    {
+      "title": "AI Coding Agent 生产力数据出炉：结果出乎意料",
+      "date": "2026-03-09",
+      "summary": "资深开发者社区讨论 AI Coding Agent 的实际生产力数据，结论并非全面乐观——某些场景下效率提升显著，但复杂系统维护场景仍有明显短板。",
+      "link": "https://www.reddit.com/r/ExperiencedDevs/comments/1rnkv2t/the_ai_coding_productivity_data_is_in_and_its_not/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/LocalLLaMA 热议：Alibaba CEO 承诺 Qwen 将保持开源",
+      "date": "2026-03-07",
+      "summary": "Alibaba CEO 公开表示 Qwen 将继续保持开源路线，回应市场对 Qwen 团队核心人员离职后开源前景的担忧。LocalLLaMA 社区讨论激烈。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1rl6lnl/alibaba_ceo_qwen_will_remain_opensource/"
+    },
+    {
+      "title": "r/artificial：LLM 大规模去匿名化研究引发隐私讨论",
+      "date": "2026-03-07",
+      "summary": "LLM 能以惊人精度大规模揭露匿名用户身份的研究论文在 r/artificial 引发热烈讨论，用户探讨 LLM 在模式匹配方面的独特能力。",
+      "link": "https://www.reddit.com/r/artificial/comments/1rl5wwp/llms_can_unmask_pseudonymous_users_at_scale_with/"
+    },
+    {
+      "title": "r/singularity：OpenAI GPT-5.4 发布是迈向 Agentic AI 的重要一步",
+      "date": "2026-03-06",
+      "summary": "社区讨论 GPT-5.4 在原生电脑使用模式和金融插件方面的能力提升，认为这是迈向真正 Agentic AI 的重要里程碑。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rloo7s/openais_new_gpt54_model_is_a_big_step_toward/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Cursor Automations 上线：Agentic Coding 进入云端",
+      "date": "2026-03-05",
+      "summary": "Cursor 推出 Automations 功能，将 AI 编码代理推向云端，支持自动化工作流。同时 Cursor 已在 JetBrains IDE 上线，年收入率达 20 亿美元。",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/"
+    },
+    {
+      "title": "GitHub Copilot Memory 默认开启 + CLI 免费课程发布",
+      "date": "2026-03-04",
+      "summary": "GitHub Copilot 为 Pro 用户默认开启 Memory 功能，记住用户偏好和代码风格。同时发布 Copilot CLI 免费实操课程。",
+      "link": "https://github.blog/changelog/2026-03-04-copilot-memory-now-on-by-default-for-pro-and-pro-users-in-public-preview/"
+    },
+    {
+      "title": "Perplexity 推出 Computer AI Agent，协调 19 个模型",
+      "date": "2026-02-25",
+      "summary": "Perplexity 发布 Computer 超级 Agent，能够协调 19 个 AI 模型完成复杂任务。三星手机也开始集成 Perplexity 的 Agentic 工具。",
+      "link": "https://venturebeat.com/technology/perplexity-launches-computer-ai-agent-that-coordinates-19-models-priced-at"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenAI 正在开发 GitHub 替代品，打造开发者工具链",
+      "date": "2026-03-03",
+      "summary": "The Information 报道 OpenAI 正在开发 GitHub 的替代产品，意图构建完整的 AI 原生开发者工具链，与 Microsoft/GitHub 形成直接竞争。",
+      "link": "https://www.reuters.com/business/openai-is-developing-alternative-microsofts-github-information-reports-2026-03-03/"
+    },
+    {
+      "title": "Meta 收购 AI Agent 社交平台 Moltbook",
+      "date": "2026-03-10",
+      "summary": "Meta 收购 AI Agent 社交平台 Moltbook，计划将团队整合到高级 AI 项目中。此举表明大厂对 AI Agent 社交场景的布局正在加速。",
+      "link": "https://thetechportal.com/2026/03/10/meta-buys-ai-agent-social-platform-moltbook-plans-to-integrate-team-into-advanced-ai-projects"
+    },
+    {
+      "title": "AWS 推出 AI Agent 医疗平台 Amazon Connect Health",
+      "date": "2026-03-05",
+      "summary": "AWS 发布基于 Amazon Connect 的 Health AI Agent 平台，面向医疗服务提供商，标志着 AI Agent 在垂直行业的落地加速。",
+      "link": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Nvidia GTC 2026 被称为「AI 超级碗」，Vera Rubin 将开启新纪元",
+      "date": "2026-03-11",
+      "summary": "GTC 2026 被华尔街称为 AI 领域的超级碗。市场期待 Jensen Huang 正式发布 Vera Rubin 平台并首次展示 Feynman 架构。若 Rubin 性能达预期 3.3 倍提升，将触发数据中心大规模升级周期。",
+      "link": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "title": "2 月全球 VC 投资 1890 亿美元，OpenAI 和 Anthropic 领跑",
+      "date": "2026-03-03",
+      "summary": "Crunchbase 报告显示 2 月全球 VC 投资达 1890 亿美元，OpenAI、Anthropic、Waymo 领跑。AI 相关投资占总额超过 60%。",
+      "link": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/"
+    },
+    {
+      "title": "Yann LeCun 巴黎创办 AMI Labs 获 10.3 亿美元种子轮",
+      "date": "2026-03-10",
+      "summary": "前 Meta AI 首席科学家 Yann LeCun 在巴黎创立 AMI Labs，获 10.3 亿美元种子轮融资——创 AI 初创企业种子轮融资纪录。Nvidia、Bezos、Schmidt 等领投，主攻 World Models 方向。",
+      "link": "https://www.reuters.com/business/ex-meta-ai-chief-yann-lecuns-ami-raises-103-billion-alternative-ai-approach-2026-03-10/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里 Qwen 团队核心成员离职引发开源路线不确定性",
+      "date": "2026-03-09",
+      "summary": "VentureBeat 报道阿里 Qwen 团队关键人物离职并进行重组。企业依赖 Apache 2.0 许可的 Qwen 模型面临未来旗舰版可能转为闭源付费 API 的风险。",
+      "link": "https://howaiworks.ai/blog/alibaba-qwen-team-departures-restructuring"
+    },
+    {
+      "title": "DeepSeek V4 多模态旗舰模型即将发布",
+      "date": "2026-03-08",
+      "summary": "DeepSeek V4 被曝将在近期发布，多模态能力是核心卖点。据传 DeepSeek 已摆脱对 Nvidia 和 AMD 芯片的依赖，使用国产算力训练。",
+      "link": "https://www.reddit.com/r/DeepSeek/comments/1ridmnm/deepseek_v4_all_leaks_and_infos_for_the_release/"
+    },
+    {
+      "title": "ByteDance Seedance 2.0 API 因版权争议延期上线",
+      "date": "2026-03-05",
+      "summary": "火山引擎原定 2 月 24 日推出 Seedance 2.0 API，但因版权争议和内容安全合规问题推迟。Seedance 2.0 发布后引发大量深度伪造视频传播，凸显 AI 视频生成的监管挑战。",
+      "link": "https://breakingac.com/news/2026/mar/10/why-seedance-20-matters-after-the-hype/"
+    }
+  ]
+}
