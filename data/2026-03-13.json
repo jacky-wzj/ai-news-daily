@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-13",
+  "insights": [
+    {
+      "title": "GPT-5.4 正式发布：百万 token 上下文 + 原生计算机操控",
+      "date": "2026-03-05",
+      "summary": "OpenAI 3月5日发布 GPT-5.4，支持100万 token 上下文窗口、原生计算机操作（Computer Use）和 Tool Search 功能（可削减50%token成本），直接瞄准 Claude Code 的编程代理市场。GDPval 83%、OSWorld 75%，对标 Claude Opus 4.6 和 Gemini 3.1 Pro。",
+      "link": "https://www.vice.com/en/article/release-gpt54-thinking/"
+    },
+    {
+      "title": "Microsoft Copilot Cowork × Anthropic Claude：企业 Agent 新范式",
+      "date": "2026-03-09",
+      "summary": "微软联合 Anthropic 推出 Copilot Cowork，将 Claude Cowork 的 agentic 能力集成进 M365，覆盖 HR、投行、设计等场景。Anthropic 同步推出 Claude Marketplace 和金融服务插件（FactSet、S&P Global、PwC），Claude Cowork 此前触发了2850亿美元 SaaS 股票抛售。",
+      "link": "https://fortune.com/2026/03/09/microsoft-copilot-cowork-ai-agents-anthropic-e7-m365-saas/"
+    },
+    {
+      "title": "NVIDIA NemoClaw 开源企业 Agent 平台即将在 GTC 2026 亮相",
+      "date": "2026-03-13",
+      "summary": "NVIDIA GTC 2026（3月16-19日）即将在圣何塞举办。据 Wired 独家报道，NVIDIA 将推出开源企业 AI Agent 平台 NemoClaw，面向 Salesforce、Google 等企业客户，提供安全的 Agent 部署方案。黄仁勋预告将发布「让世界惊讶的芯片」。",
+      "link": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/"
+    },
+    {
+      "title": "中国开源 LLM 密集发布：DeepSeek V3.2 / GLM-5 / MiniMax M2.5 齐亮相",
+      "date": "2026-03-07",
+      "summary": "数周内四款中国开源大模型密集发布：DeepSeek V3.2、智谱 GLM-5（中文能力最优）、MiniMax M2.5（代码准确率92%）、月之暗面 Kimi K2.5（万亿参数 MoE）。GLM-5 和 MiniMax M2.5 在性价比上直追 GPT-5.4，DeepSeek V4 也已暗中蓄势。",
+      "link": "https://integratedcognition.com/blog/march-2026s-ai-launch-wave-what-lawyers-should-make-of-gpt-54-claude-sonnet-46-gemini-31-pro-grok-420-glm-5-minimax-m25-and-the-deepseek-question"
+    },
+    {
+      "title": "AGENTS.md 规范被6万+开源项目采纳 — AI 编程基础设施标准化",
+      "date": "2026-03-10",
+      "summary": "AGENTS.md 规范已被超过60,000个开源项目采用，为 AI 编程 Agent 提供统一的项目级指令格式。但 ETH Zurich 最新研究对其效果提出质疑，认为 LLM 生成的 AGENTS.md 文件可能反而妨碍 Agent 表现。争论推动了社区对 Agent 上下文工程的深入思考。",
+      "link": "https://www.infoq.com/news/2026/03/agents-context-file-value-review/"
+    },
+    {
+      "title": "阿里 CoPaw 开源：国产 AI 助手挑战 OpenClaw",
+      "date": "2026-03-09",
+      "summary": "阿里云 AgentScope 团队 2月底开源 CoPaw，定位「住在电脑里的个人 AI 助手」，支持钉钉/飞书/QQ/Discord 等多渠道接入，主打本地/云端双部署和国产平台原生适配。与 OpenClaw（22.8万 star）形成正面竞争。",
+      "link": "https://tbbbk.com/copaw-vs-openclaw-comparison-2026/"
+    },
+    {
+      "title": "2026年 AI Agent 全栈技术栈成型：Claude 4 + CrewAI + Devin 2.0",
+      "date": "2026-03-11",
+      "summary": "Reddit r/AI_Agents 社区热议2026 Agent 技术栈：Claude 4 做核心推理、Devin 2.0 处理开发任务、CrewAI 编排多 Agent 协作已成主流选择。Sub-Routines schema 的加入使 Agent 对齐能力显著提升。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1rqnv3a/what_is_your_full_ai_agent_stack_in_2026/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Towards Autonomous Mathematics Research — AI 自主数学研究里程碑",
+      "date": "2026-03-06",
+      "summary": "论文展示了 Aletheia 系统从奥赛题到博士级习题的自主数学研究能力，包括：无人干预生成的研究论文（算术几何特征权常数）、人机协作证明（独立集粒子系统界限）、以及对700个开放问题的半自主评估（含4个开放问题的自主解决）。",
+      "link": "https://arxiv.org/abs/2602.10177"
+    },
+    {
+      "title": "AgentOS: 从应用孤岛到自然语言驱动的数据生态",
+      "date": "2026-03-11",
+      "summary": "提出 AgentOS 概念——用自然语言统一管理分散的应用数据生态。结合 Internet of Agents 框架和 ReAct 推理范式，为 Agent 跨应用协作提供底层操作系统级支持。",
+      "link": "https://arxiv.org/html/2603.08938v1"
+    },
+    {
+      "title": "HEAL: Hindsight Entropy-Assisted Learning for Reasoning Distillation",
+      "date": "2026-03-12",
+      "summary": "提出基于后验熵辅助的推理蒸馏方法 HEAL，通过 on-policy self-distillation 技术让大语言模型在推理任务上实现更高效的知识压缩和传递，解决了传统蒸馏在链式推理上的效果衰减问题。",
+      "link": "https://arxiv.org/html/2603.10359v1"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Jensen Huang 预告 GTC 2026「让世界惊讶的芯片」",
+      "date": "2026-03-12",
+      "summary": "NVIDIA CEO 黄仁勋在社交媒体预热 GTC 2026，暗示将发布划时代的 AI 推理芯片，引发投资者和开发者社区的大量讨论。分析师认为这标志着从生成式聊天到完全自主 Agentic AI 系统的关键转折。",
+      "link": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/"
+    },
+    {
+      "title": "GPT-5.4 vs Claude Code 之争引爆开发者讨论",
+      "date": "2026-03-13",
+      "summary": "GPT-5.4 发布后，大量开发者对比其与 Claude Code 在编程场景的表现。Medium 热文指出，真正的故事不在于谁赢了基准测试，而在于 AI 编程工具的竞争正推动整个行业向前——原生计算机操作和百万级上下文成为新标配。",
+      "link": "https://medium.com/data-science-collective/gpt-5-4-came-for-claude-code-the-real-story-is-bigger-than-both-927059667584"
+    },
+    {
+      "title": "Anthropic Claude Cowork 引发 SaaS 股票 2850 亿美元抛售后续",
+      "date": "2026-03-10",
+      "summary": "Claude Cowork 的 agentic 自动化能力让投资者重新评估传统 SaaS 公司估值。微软迅速集成 Copilot Cowork 是直接回应。讨论焦点已从「AI会不会取代SaaS」转向「哪些SaaS会先被替代」。",
+      "link": "https://venturebeat.com/orchestration/microsoft-announces-copilot-cowork-with-help-from-anthropic-a-cloud-powered"
+    }
+  ],
+  "discord": [
+    {
+      "title": "2026 AI Agent 全栈方案讨论：从编排到部署的最佳实践",
+      "date": "2026-03-11",
+      "summary": "多个 AI Discord 社区（CrewAI、LangChain、AutoGen）围绕 Agent 全栈方案展开热烈讨论：LangGraph + DeerFlow 2.0 的编排方案获得高关注，Docker sandbox + Memory layer 成为标配。Sub-Routines schema 被视为解决 Agent 对齐问题的关键突破。",
+      "link": "https://kiledjian.com/2026/03/06/deerflow-bytedances-opensource-ai-agent.html"
+    },
+    {
+      "title": "Impeccable Design Vocabulary：AI 前端设计语言 Trending",
+      "date": "2026-03-12",
+      "summary": "GitHub Trending 新项目 Impeccable 在设计师社区引发讨论，提出了一套 AI 驱动的前端设计语言 vocabulary，包含17个命令和「策展反模式」指引，帮助开发者实现 impeccable frontend design。",
+      "link": "https://paddo.dev/blog/impeccable-design-vocabulary/"
+    },
+    {
+      "title": "Vibe Coding 工具大比拼：Lovable vs Windsurf vs Softr",
+      "date": "2026-03-12",
+      "summary": "Product Hunt 上 Vibe Coding 类工具集中上线，Lovable（全栈 chat-driven 生成 + GitHub 同步）、Windsurf（首个 Agentic IDE）和 Softr（AI + No-Code）形成三足鼎立。社区讨论焦点在于复杂后端场景下的可靠性。",
+      "link": "https://www.producthunt.com/categories/vibe-coding"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenClaw — 4个月 25万 star，超越 React 成 GitHub 增速最快项目",
+      "date": "2026-03-10",
+      "summary": "OpenClaw 在不到4个月内突破25万 GitHub star，打破 React 用十年达到同等里程碑的记录。这个本地优先的 AI 助手项目已引发阿里 CoPaw、字节 DeerFlow 等大厂跟进，成为2026年开源 AI 领域的标志性项目。",
+      "link": "https://byteiota.com/openclaw-250k-github-stars-in-4-months-beats-react/"
+    },
+    {
+      "title": "DeerFlow 2.0 — 字节跳动开源 SuperAgent 框架",
+      "date": "2026-03-06",
+      "summary": "字节跳动开源的 DeerFlow 2.0 登顶 GitHub Trending #1。基于 LangGraph + LangChain 构建，提供子 Agent 编排、持久记忆、Docker 沙箱执行和可扩展 Skills 机制，覆盖编程、深度研究、设计等复杂工作流。",
+      "link": "https://www.deeplearning.ai/the-batch/deerflow-2-0-puts-new-spin-on-claw-like-agents/"
+    },
+    {
+      "title": "MiroFish — 通用群智引擎，面向万物预测",
+      "date": "2026-03-11",
+      "summary": "MiroFish 登上 GitHub Trending，定位为通用群体智能引擎（Universal Swarm Intelligence Engine），可用于多类型预测任务。项目利用群智算法聚合多个 Agent 的预测能力，在开源社区获得高关注。",
+      "link": "https://aitoolly.com/ai-news/article/2026-03-11-mirofish-a-concise-and-universal-swarm-intelligence-engine-for-predicting-everything"
+    }
+  ],
+  "hn": [
+    {
+      "title": "GPT-5.4 vs Claude Opus 4.6 Coding Comparison: 开发者该选谁？",
+      "date": "2026-03-09",
+      "summary": "HN 热议 GPT-5.4 vs Claude Opus 4.6 的编程对比。GPT-5.4 每 token 便宜6倍但 Opus 在 SWE-Bench Verified 领先。Tool Search 功能削减50% token 消耗，原生 Computer Use 将 Agent 编程推向新高度。",
+      "link": "https://www.nxcode.io/resources/news/gpt-5-4-vs-claude-opus-4-6-coding-comparison-2026"
+    },
+    {
+      "title": "Did MIT Researchers Really Destroy the Context Window Limit?",
+      "date": "2026-03-09",
+      "summary": "MIT 研究者提出 Recursive Language Models（RLMs），将 prompt 作为外部环境的一部分递归处理，突破 LLM 固有上下文窗口限制。方法极其简洁——用 Python 变量存储大规模 prompt 并递归调用 LM。HN 社区热议其对超长文档理解的实际意义。",
+      "link": "https://www.franksworld.com/2026/03/09/did-mit-researchers-really-destroy-the-context-window-limit/"
+    },
+    {
+      "title": "LLM 推理失败模式系统性分析",
+      "date": "2026-03-06",
+      "summary": "论文系统性分析了大语言模型的推理失败模式——即使在看似简单的任务中也会出现显著失败。文章引发 HN 社区关于 LLM 推理可靠性边界和安全部署的深入讨论。",
+      "link": "https://arxiv.org/html/2602.06176v1"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/AI_Agents：2026年你的完整 AI Agent 技术栈是什么？",
+      "date": "2026-03-11",
+      "summary": "热帖汇集了社区的 Agent 技术栈选择：Claude 4 核心推理 + Devin 2.0 开发 + CrewAI 多 Agent 协作成为主流。Sub-Routines schema 被认为是2026年 Agent 对齐的 game changer。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1rqnv3a/what_is_your_full_ai_agent_stack_in_2026/"
+    },
+    {
+      "title": "Being a developer in 2026: AI 时代的开发者体验",
+      "date": "2026-03-11",
+      "summary": "r/singularity 讨论帖引发大量共鸣：开发者需要同时 review AI 生成的代码、追踪变更、在下一个任务运行时审查实现。Spec-Driven Development 被认为是唯一可规模化的方式。有人总结——「剑斗还是那场剑斗，只是编译器换了」。",
+      "link": "https://www.reddit.com/r/singularity/comments/1rr247v/being_a_developer_in_2026/"
+    },
+    {
+      "title": "I spent months building a case for why the AI economic disruption is structurally irreversible",
+      "date": "2026-03-06",
+      "summary": "r/ArtificialInteligence 高质量长帖，作者花数月构建论证框架：AI 对经济的冲击是结构性不可逆的。从就业数据看，AI mentions 在数据岗（45.9%）、产品岗（43.0%）、工程岗（39.3%）最高，且正向非技术职能扩散。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1rm25px/i_spent_months_building_a_case_for_why_the_ai/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Claude Marketplace — Anthropic 推出企业级第三方工具商店",
+      "date": "2026-03-06",
+      "summary": "Anthropic 推出 Claude Marketplace，企业可一站式采购 Claude 驱动的 Replit、GitLab、Harvey 等第三方工具。替代多方采购模式，简化 AI 工具供应链管理。",
+      "link": "https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude"
+    },
+    {
+      "title": "Windsurf Agentic IDE — AI 原生开发环境的深度解析",
+      "date": "2026-03-12",
+      "summary": "Windsurf 自称「首个 agentic IDE」，在 Product Hunt AI 编程分类获得 4.6/5 高分。核心卖点是 Cascade 自动编码助手、Context Engine 上下文管理引擎，和对复杂多文件任务的 AI Agent 原生支持。",
+      "link": "https://grokipedia.com/page/Windsurf_IDE"
+    },
+    {
+      "title": "Deepgram — Voice AI 开发者平台新晋热门",
+      "date": "2026-03-12",
+      "summary": "Deepgram 作为 Voice AI 平台在 Product Hunt AI Agent 分类崛起，提供从语音识别到对话 AI 的全栈方案，覆盖 Web Chat 到电话场景，开发者友好度和企业合规性是主要卖点。",
+      "link": "https://www.producthunt.com/categories/ai-agents"
+    }
+  ],
+  "agent": [
+    {
+      "title": "NVIDIA NemoClaw：开源企业 AI Agent 平台即将发布",
+      "date": "2026-03-10",
+      "summary": "据 Wired 和 TechCrunch 报道，NVIDIA 将在 GTC 2026 发布开源企业 AI Agent 平台 NemoClaw，面向需要在组织内大规模部署 AI Agent 的企业。这将是 NVIDIA 在 Agent 领域的首个重大开源产品。",
+      "link": "https://www.techloy.com/nvidia-to-launch-open-source-ai-agent-nemoclaw-at-gtc-2026-what-we-know-so-far/"
+    },
+    {
+      "title": "Anthropic Claude Cowork 插件生态：金融服务版率先落地",
+      "date": "2026-03-09",
+      "summary": "Anthropic 发布 Claude Cowork 金融服务插件，与 FactSet、S&P Global、PwC 合作覆盖投行、财富管理和审计场景。Claude Cowork 可在本地设备运行 agentic 文件和应用自动化，微软已将其集成进 Copilot。",
+      "link": "https://www.wealthmanagement.com/artificial-intelligence/agentic-ai-101-for-advisors-as-anthropic-launches-wealth-management-tools"
+    },
+    {
+      "title": "字节 DeerFlow 2.0 成为2026年初最受瞩目的开源 Agent 框架",
+      "date": "2026-03-06",
+      "summary": "Andrew Ng 的 The Batch 对 DeerFlow 2.0 做了专题报道。该框架基于 LangGraph/LangChain，提供完整的 Agent 编排方案：子 Agent、记忆层、文件系统、Docker 沙箱、可扩展 Skills。被视为 OpenClaw 级别项目的开源替代方案之一。",
+      "link": "https://www.deeplearning.ai/the-batch/deerflow-2-0-puts-new-spin-on-claw-like-agents/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "微软推出 M365 E7 授权层 + Copilot Cowork：AI Agent 企业版图扩张",
+      "date": "2026-03-09",
+      "summary": "微软发布全新 M365 E7 授权层（$30/用户/月），包含与 Anthropic 联合开发的 Copilot Cowork。这是微软对 Claude Cowork 引发 SaaS 恐慌的直接回应，标志着 AI Agent 从开发者工具走向企业标准化采购。",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
+    },
+    {
+      "title": "GTC 2026 被称为「AI 超级碗」：NVIDIA 预告新芯片和 Agent 平台",
+      "date": "2026-03-13",
+      "summary": "GTC 2026（3月16-19日）被投资者和媒体称为「AI 的超级碗」。黄仁勋预告将发布「让世界惊讶」的推理芯片和开源 Agent 平台 NemoClaw，还有 $200 亿收购后的整合产品。主题覆盖 Physical AI、AI 工厂和 Agentic AI。",
+      "link": "https://fortune.com/2026/03/12/nvidia-gtc-preview-the-real-march-madness-jensen-huang/"
+    },
+    {
+      "title": "OpenAI retiring GPT-5.1: Reddit 社区发起「拯救 GPT-5.1」行动",
+      "date": "2026-03-12",
+      "summary": "OpenAI 3月11日正式退役 GPT-5.1（Instant/Thinking/Pro），对话自动迁移至 GPT-5.3/5.4。r/OpenAI 社区爆发争议，教师、研究者和无障碍倡导者表示其整个项目依赖 GPT-5.1，模型快速迭代引发用户信任危机。",
+      "link": "https://www.reddit.com/r/OpenAI/comments/1rmj2cj/help_save_gpt4o_and_gpt51_before_theyre_gone/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "CoPaw 开源详解：阿里 AgentScope 团队打造的国产 AI 助手平台",
+      "date": "2026-03-09",
+      "summary": "阿里云 AgentScope 团队2月28日开源 CoPaw（Co Personal Agent Workstation），Apache 2.0 协议。支持钉钉/飞书/QQ/Discord/iMessage 多渠道接入，主打本地/云端双部署、主动心跳机制和模块化零代码扩展。已推进至 v0.0.5。",
+      "link": "https://www.aihub.cn/agents/copaw/"
+    },
+    {
+      "title": "国产大模型性价比之争：DeepSeek V3.2 / MiniMax M2.5 / GLM-5 实测对比",
+      "date": "2026-03-11",
+      "summary": "三款2026年初发布的国产大模型实测对比：GLM-5 中文能力最优，MiniMax M2.5 代码准确率最高（92%），DeepSeek V3.2 综合性价比突出。DeepSeek V4 也已传出消息。价格战持续白热化。",
+      "link": "https://help.apiyi.com/openclaw-cost-effective-models-deepseek-minimax-glm5.html"
+    },
+    {
+      "title": "字节跳动开源 DeerFlow SuperAgent 框架，对标 OpenClaw Agent 生态",
+      "date": "2026-03-08",
+      "summary": "字节跳动2月底开源 DeerFlow（Deep Exploration and Efficient Research Flow），被称为 SuperAgent 框架。基于 LangGraph/LangChain，提供子 Agent 编排、持久记忆、Docker 沙箱。与阿里 CoPaw 一同，标志着国内大厂全面跟进 OpenClaw 开创的 AI 助手赛道。",
+      "link": "https://www.tekedia.com/bytedance-open-sources-a-powerful-ai-system-deerflow/"
+    }
+  ]
+}
