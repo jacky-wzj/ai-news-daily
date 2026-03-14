@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月14日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月14日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GLM-5 技术报告：完全适配国产芯片的全能大模型</h3>
+      <div class="meta">👤 </div>
+      <p>智谱发布 GLM-5 技术论文，详细披露模型架构和训练细节。GLM-5 完成与华为昇腾、摩尔线程、海光、寒武纪等 7 种国产芯片的全栈适配，在国产芯片集群上实现高吞吐低延迟推理。海外网友评论称中国 AI 成本效率已超美国。</p>
+  <a class="link" href="https://www.36kr.com/p/3695400723394178" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Academia and the AI Brain Drain — Schneier 论学术界人才流失</h3>
+      <div class="meta">👤 </div>
+      <p>安全专家 Schneier 撰文分析 AI 人才从学术界流向工业界的加速趋势。文章指出，当西方还在争论 GPT-5 vs Claude 4 时，中国开源社区已在默默交付生产级工具，部分项目在亚洲拥有数万 GitHub Stars 却在西方几乎无人知晓。</p>
+  <a class="link" href="https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek 内部人士：自我改进 AI Agent 即将到来</h3>
+      <div class="meta">👤 </div>
+      <p>来自 DeepSeek 的内部消息透露自我改进型 AI Agent 的研究取得重大进展。该研究方向聚焦于让 Agent 在执行任务过程中持续优化自身策略，被认为是通向更高级自主 AI 系统的关键路径。</p>
+  <a class="link" href="https://www.reddit.com/r/accelerate/comments/1rnael7/selfimproving_ai_agents_are_almost_here_deepseek/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Perplexity Ask 2026 大会：Computer Agent 正式面向企业开放</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-13</div>
+      <p>Perplexity 在首届 Ask 2026 大会上宣布其多模型 AI Agent「Computer」正式面向企业客户开放，配备安全控制、合规功能和 Slack 集成。同时发布 Agent API，支持多 LLM 编排和实时网络搜索。</p>
+  <a class="link" href="https://www.neuralbuddies.com/p/ai-news-recap-march-12-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hacker News 正式禁止 AI 生成和 AI 编辑的评论</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-12</div>
+      <p>Y Combinator 运营的 Hacker News 更新社区指南，正式禁止 AI 生成或 AI 辅助编辑的评论。管理者表示「宁要蹩脚英语也不要 AI 糊弄」，引发社区对 AI 生成内容泛滥的广泛讨论。</p>
+  <a class="link" href="https://cybernews.com/ai-news/hacker-news-bans-ai-generated-and-edited-comments/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google Maps 十年最大改版：Gemini 驱动的全新体验</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-12</div>
+      <p>Google Maps 迎来过去十年最大规模改版，核心由 Gemini 驱动。新版地图支持自然语言导航查询、智能行程规划和基于 AI 的实时路况分析，标志着传统地图应用向 AI 原生应用的转型。</p>
+  <a class="link" href="https://jls42.org/en/news/ia-actualites-12-mar-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI Agent 工作区即活系统：持久化 Workspace 的实践范式</h3>
+      <div class="meta">💬 </div>
+      <p>开发者分享数月 AI Agent 构建经验：最大突破来自将工作区视为「活系统」而非静态目录。通过持久化状态、上下文注入和增量记忆，Agent 的任务完成率和一致性显著提升。</p>
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1rs8f1v/ive_been_building_with_ai_agents_for_months_the/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 一周 12+ AI 模型发布：2026年3月的 AI 雪崩</h3>
+      <div class="meta">💬 </div>
+      <p>北大、字节和 Canva 联合发布的 Helios 14B 模型可在单卡 H100 上实现 19.5 FPS 实时视频生成。加上 GPT-5.4、GLM-5 等，一周内超过 12 个重量级 AI 模型同时发布，涵盖视频、语言和 3D 领域。</p>
+  <a class="link" href="https://www.sci-tech-today.com/news/march-2026-ai-models-avalanche/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Perplexity Deep Research 重大升级：多模型 Council 协同推理</h3>
+      <div class="meta">💬 </div>
+      <p>Perplexity 升级覆盖 Deep Research、多模型 Council、增强记忆和全新 Web UI。集成 Opus 4.5/4.6 模型，新增金融热力图、更丰富的推理链路和企业管理控制。Learn 步进式学习功能同步上线。</p>
+  <a class="link" href="https://releasebot.io/updates/perplexity-ai" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. llmfit：一秒检测你的电脑能跑哪些 AI 大模型</h3>
+      
+      <p>开源 TUI 工具 llmfit 自动检测 CPU/GPU/内存配置，从 500+ 大模型库中筛选当前硬件可运行的模型，显示预估速度和资源占用。对本地部署 LLM 的选型非常实用。</p>
+  <a class="link" href="https://www.appinn.com/llmfit/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 开源 LLM 2026 排行榜：Onyx 自托管本地模型评测</h3>
+      
+      <p>Onyx 发布 2026 年自托管 LLM 排行榜，横向对比开源模型的质量、速度、硬件需求和成本。为本地部署场景提供了实际可操作的选型参考，被 LocalLLaMA 社区广泛传播。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/1rqpmea/open_sourced_llm_ranking_2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Helios 14B：北大+字节+Canva 联合开源实时视频生成模型</h3>
+      
+      <p>Helios 是一个 14B 参数的自回归扩散模型，在单张 NVIDIA H100 GPU 上实现 19.5 FPS 实时视频生成，支持分钟级视频输出。采用 Apache 2.0 开源协议。</p>
+  <a class="link" href="https://www.sci-tech-today.com/news/march-2026-ai-models-avalanche/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 启动智库应对五角大楼黑名单之争</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>The Verge 报道 Anthropic 在面临政府黑名单风险之际成立 Anthropic Institute。公司透露「数百家企业」已联系 Anthropic 寻求合规指引，最严重情况下数十亿美元 2026 年营收面临风险。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA GTC 的 CPU 转折：Vera CPU 成为 AI 工作负载新瓶颈突破口</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>CNBC 深度报道 NVIDIA 正将 CPU 推上 AI 战略核心。Vera CPU 已投入生产，通常与 Blackwell/Rubin GPU 配对部署。NVIDIA AI 基础设施负责人称 CPU 正成为 Agentic 工作流的瓶颈。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.4 Review：原生 Computer Use + 百万 Token + Benchmarks 全解析</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>GPT-5.4 于 3月5日发布，首次在通用模型中内置原生电脑操控能力，上下文窗口扩展至 100 万 Token。GDPval 83%、OSWorld 75%，事实错误较 GPT-5.2 减少 33%。Tool Search 机制使工具密集型工作流 Token 成本降低 47%。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/gpt-5-4-review-benchmarks-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA 将投入 260 亿美元构建开放权重 AI 模型</h3>
+      <div class="meta">reddit: </div>
+      <p>r/LocalLLaMA 热帖：NVIDIA 财务文件披露将投入 260 亿美元开发开放权重模型。社区讨论认为这将重塑开源 AI 格局，NVIDIA 已成为 5 万亿美元市值公司。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/1rr4by8/nvidia_will_spend_26_billion_to_build_openweight/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA 计划推出开源 AI Agent 平台 NemoClaw</h3>
+      <div class="meta">reddit: </div>
+      <p>r/LocalLLaMA 讨论 NVIDIA 的 NemoClaw 企业 Agent 平台。社区分析其定位为企业安全替代方案，预计 GTC 期间正式发布，将改变企业 AI Agent 部署的格局。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/1rpgr8c/nvidia_is_planning_to_launch_an_opensource_ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Benchmark 存亡录：哪些基准测试在 2026 年还有意义</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit 热帖系统梳理了当前 AI 基准测试的有效性。ARC-AGI-2 被认为仍有区分度（纯 LLM 得分 0%，最佳推理系统 54%，人类 60%）。四大实验室已在模型卡中报告此指标。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/1rovfbw/i_made_a_list_of_every_ai_benchmark_that_still/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Perplexity Comet 浏览器 + Max 层级：AI 搜索的新形态</h3>
+      
+      <p>Perplexity 推出 Comet 独立浏览器和 $200/月 Max 订阅层。集成 GPT-5.2、Claude Sonnet 4.5 和 Gemini 3 Pro 模型，支持 Deep Research、多模型 Council 和增强记忆，将浏览会话融入对话工作流。</p>
+  <a class="link" href="https://similarlabs.com/blog/perplexity-ai-review" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 2026 国内 AI 编程套餐横评：Cursor/Cline/Claude Code 配什么国产模型</h3>
+      
+      <p>掘金社区发布 2026 年国内 AI Coding Plan 全量横评，覆盖各大厂商针对 Cursor、Cline、Claude Code 等工具推出的订阅套餐，从价格、模型质量、延迟等维度给出选型指南。</p>
+  <a class="link" href="https://juejin.cn/post/7615892857225035830" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI Workspace Analytics：企业级 AI 使用分析面板上线</h3>
+      
+      <p>OpenAI 为 ChatGPT Enterprise 和 Edu 推出全新分析面板，提供工作空间级洞察、基准对比、影响力调查、任务模式分析和新的 Analytics Viewer 角色。支持用户 opt-out 和两周调查预设窗口。</p>
+  <a class="link" href="https://www.edtechinnovationhub.com/news/openai-rolls-out-gpt-54-thinking-in-chatgpt-with-new-control-over-ai-responses" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Perplexity Agent API：搜索驱动的智能体开发新范式</h3>
+      <div class="meta">🤖 </div>
+      <p>Perplexity 发布 Agent API，整合多 LLM 编排、实时网络搜索和推理控制。开发者可以构建「搜索增强型」Agent，自动完成信息收集、分析和任务执行的完整闭环。</p>
+  <a class="link" href="https://opentools.ai/news/perplexity-launches-game-changing-agent-api-for-ai-developers" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI Agent 四大平台横评：OpenClaw vs Perplexity Computer vs Manus vs Claude Cowork</h3>
+      <div class="meta">🤖 </div>
+      <p>PC Build Advisor 发布 2026 年 3 月四大 AI Agent 平台深度对比。Perplexity Computer 的 Model Council 架构获得最高智能评价，OpenClaw 在本地自主性方面领先，Claude Cowork 在协作场景表现突出。</p>
+  <a class="link" href="https://www.pcbuildadvisor.com/openclaw-vs-perplexity-computer-vs-manus-ai-vs-claude-cowork-the-ultimate-guide/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. NVIDIA NemoClaw：GTC 2026 将发布的企业级开源 Agent 平台</h3>
+      <div class="meta">🤖 </div>
+      <p>NVIDIA 即将在 GTC 发布 NemoClaw（Apache 2.0），定位企业 AI Agent 平台。已向 Salesforce、Cisco、Google 等巨头推介，提供企业级安全保障和合规性。</p>
+  <a class="link" href="https://www.forbes.com/sites/jonmarkman/2026/03/11/nvidia-moves-beyond-chips-with-an-open-source-platform-for-ai-agents/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Reuters：NVIDIA GTC 2026 聚焦竞争优势，Vera Rubin 与 NemoClaw 呼之欲出</h3>
+      <div class="meta">📅 2026-03-14</div>
+      <p>Reuters 报道 Jensen Huang 将于周一在圣何塞 SAP Center 发表 GTC 2026 主题演讲，预计公布旨在保持芯片制造商领先地位的产品和合作伙伴关系。市场期待 Vera Rubin 超级芯片平台、NemoClaw 开源 Agent 平台和 Feynman 架构首次技术深潜。</p>
+  <a class="link" href="https://www.reuters.com/technology/nvidia-focus-competition-beating-ai-advances-megaconference-2026-03-13/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 字节跳动通过马来西亚合作伙伴获取 36000 块 NVIDIA B200 芯片</h3>
+      <div class="meta">📅 2026-03-13</div>
+      <p>WSJ 独家报道字节跳动与东南亚公司 Aolani Cloud 合作，在马来西亚部署约 500 套 NVIDIA Blackwell 系统，总计约 36000 块 B200 芯片。这是中国科技巨头绕过芯片出口限制的最大规模海外 AI 算力布局。</p>
+  <a class="link" href="https://www.reuters.com/world/asia-pacific/chinas-bytedance-gets-access-top-nvidia-ai-chips-wsj-reports-2026-03-13/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta 发布四款自研 AI 芯片 MTIA 300/400/450/500</h3>
+      <div class="meta">📅 2026-03-11</div>
+      <p>Meta 一口气公布四代 MTIA 自研芯片。MTIA 300 已投入生产用于推荐排序训练，MTIA 400 性能与商用芯片竞争，MTIA 450/500 进一步提升内存带宽。Meta 正加速减少对 NVIDIA 和 AMD 的依赖，2027 年底前全部部署。</p>
+  <a class="link" href="https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Claude 全面支持交互式可视化输出，跨所有计划可用</h3>
+      <div class="meta">📅 2026-03-13</div>
+      <p>Anthropic 的 Claude 现在可以在对话中直接生成交互式图表、图形和可视化内容，所有订阅计划均可使用。这些可视化内容嵌入聊天流中并支持实时更新，显著增强了与 ChatGPT 和 Gemini 的竞争力。</p>
+  <a class="link" href="https://news.quantosei.com/2026/03/13/anthropics-claude-ai-can-respond-with-charts-diagrams-and-other-visuals-now/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. OpenAI Sora 2 Video API 正式面向全部开发者开放</h3>
+      <div class="meta">📅 2026-03-13</div>
+      <p>OpenAI 将 Sora 2 驱动的 Video API 全面开放给开发者，支持自定义角色、视频续接和批量生成，最长可生成 20 秒视频。Reuters 报道 Sora 即将直接集成到 ChatGPT 中，Netflix 也已开始采购 AI 生成内容。</p>
+  <a class="link" href="https://www.reuters.com/business/openai-plans-launch-its-sora-video-tool-chatgpt-information-reports-2026-03-11/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Anthropic 成立 Anthropic Institute，应对五角大楼黑名单危机</h3>
+      <div class="meta">📅 2026-03-12</div>
+      <p>Anthropic 宣布成立 Anthropic Institute，由联合创始人 Jack Clark 领导。在面临政府黑名单风险之际，数百家企业已联系 Anthropic 寻求合规指引，最严重情况下数十亿美元 2026 年营收面临风险。</p>
+  <a class="link" href="https://siliconangle.com/2026/03/11/anthropic-launches-anthropic-institute-tackle-ai-risks/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. The Biggest AI Stories of the Year So Far — TechCrunch 年度盘点</h3>
+      <div class="meta">📅 2026-03-13</div>
+      <p>TechCrunch 发布 2026 年上半年 AI 大事件盘点，涵盖重大收购、独立开发者崛起、公众抗议和存在性风险谈判等。从 GPT-5.4 发布到 NVIDIA GTC 预热，AI 行业正以前所未有的速度重塑技术格局。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/13/the-biggest-ai-stories-of-the-year-so-far/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA GTC 2026 预览：5 万亿市值公司的 AI 全栈野心</h3>
+      
+      <p>Yahoo Finance 深度分析 NVIDIA GTC 大会预期：Vera Rubin 平台、NemoClaw Agent 平台、物理 AI 和机器人技术。Huang 称物理 AI 是数万亿美元的市场机会，大会不仅关于芯片而是全栈 AI 生态。</p>
+  <a class="link" href="https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Meta 四代自研芯片计划：减少 NVIDIA 依赖，构建自主 AI 基础设施</h3>
+      
+      <p>CNBC 报道 Meta 发布四代 MTIA 芯片路线图（300-500），MTIA 300 已投产，其余将在 2027 年底前部署。Meta 正从 NVIDIA 最大客户之一转变为自研芯片竞争者，芯片自主战略加速。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 五角大楼黑名单之争：数十亿美元营收面临风险</h3>
+      
+      <p>The Verge 获得的文件显示，数百家合作企业对合规要求感到困惑，部分企业已在评估终止合作的权利。Anthropic Institute 的成立被视为应对政治风险的战略举措。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 智谱 GLM-5 技术全公开：完全适配 7 种国产芯片，成本效率引海外关注</h3>
+      
+      <p>智谱发布 GLM-5 完整技术报告，完成华为昇腾、摩尔线程、海光、寒武纪、昆仑芯、沐曦、燧原 7 种国产芯片全栈适配。通过底层算子优化，在国产芯片集群上实现高吞吐低延迟运行。36氪报道外国网友评价中国 AI 成本效率已超美国。</p>
+  <a class="link" href="https://www.36kr.com/p/3695400723394178" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱 AI 启动 IPO：估值超 200 亿，大模型六小虎首家上市</h3>
+      
+      <p>智谱 AI 正式启动 IPO，估值超 200 亿元，成为「大模型六小虎」中首家启动上市的公司。GLM-130B 已在昇腾、海光、神威等国产平台实现从零训练，适配 40+ GPU 芯片高效推理。</p>
+  <a class="link" href="https://36kr.com/p/3251196943983110" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 字节跳动海外布局 36000 块 B200：中国 AI 全球算力版图扩张</h3>
+      
+      <p>WSJ 报道字节跳动与 Aolani Cloud 合作在马来西亚部署 500 套 NVIDIA Blackwell 系统。这不仅是单次硬件采购，更代表中国科技公司在全球 AI 算力布局的战略转向——从国内受限环境向海外不受限节点迁移。</p>
+  <a class="link" href="https://technode.global/2026/03/13/bytedance-to-deploy-nvidia-chips-in-malaysia-for-ai-research-wsj/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:34 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
