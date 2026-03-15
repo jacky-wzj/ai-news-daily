@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-15",
+  "insights": [
+    {
+      "title": "NVIDIA 将在 GTC 2026 发布企业 AI Agent 开源平台 NemoClaw",
+      "date": "2026-03-15",
+      "summary": "NVIDIA 将在 GTC 2026 主题演讲中正式发布 NemoClaw，一个面向企业的开源 AI Agent 平台。该平台支持任意硬件运行，整合安全防护栏和合规治理能力，Salesforce、Google 等巨头已表达合作意向。直接对标 OpenClaw 生态的企业级空白。",
+      "link": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html"
+    },
+    {
+      "title": "Meta 计划裁员 20%：AI 基础设施成本飙升倒逼组织瘦身",
+      "date": "2026-03-15",
+      "summary": "Reuters 独家报道：Meta 计划裁员 20% 以上（约 16000 人），直接原因是 AI 基础设施投资成本飙升。Zuckerberg 的 AI 豪赌正在重塑公司结构——大量资源从社交产品转向 AI 研发和数据中心建设。股价闻讯暴跌 3.83%。",
+      "link": "https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/"
+    },
+    {
+      "title": "Tesla Terafab 将于 7 天后启动：Musk 自建 AI 芯片工厂",
+      "date": "2026-03-15",
+      "summary": "Elon Musk 宣布 Tesla 的 Terafab AI 芯片制造项目将于 3 月 21 日正式启动。这一举措将大幅减少对外部芯片供应商的依赖，加速自动驾驶和 Optimus 机器人的 AI 硬件自主化进程。",
+      "link": "https://www.reuters.com/business/autos-transportation/musk-says-teslas-gigantic-chip-fab-project-launch-seven-days-2026-03-14/"
+    },
+    {
+      "title": "GPT-5.4 发布：原生 Computer Use 模式和金融插件",
+      "date": "2026-03-15",
+      "summary": "OpenAI 发布 GPT-5.4，支持原生桌面操控（Computer Use）和 1M token 上下文窗口。OSWorld 基准测试 75%，超越人类专家 72.4%。社区测试显示编码 SWE-bench 得分略逊于 Claude Opus 4.6（80.0% vs 80.8%），但多模态能力和金融插件独树一帜。",
+      "link": "https://www.nxcode.io/resources/news/gpt-5-4-release-date-features-pricing-2026"
+    },
+    {
+      "title": "中国大模型 API 调用量包揽全球前三，OpenClaw 效应持续发酵",
+      "date": "2026-03-15",
+      "summary": "OpenRouter 数据：阶跃星辰 Step3.5 Flash 登顶全球调用量第一，MiniMax M2.5 紧随其后。中国大模型周调用量达 4.19 万亿 Token 环比涨 34.9%。MiniMax 市值突破 3826 亿港元超越百度。",
+      "link": "https://36kr.com/p/3721061600965385"
+    },
+    {
+      "title": "Claude Opus 4.6 霸榜 SWE-bench 和 Terminal-Bench：Agent 编码新王者",
+      "date": "2026-03-15",
+      "summary": "Anthropic 的 Claude Opus 4.6 在 Terminal-Bench 2.0 中创下 65.4% 最高纪录，SWE-bench Verified 达 80.8%。GPT-5.4 虽紧追不舍，但 Claude 在 Agent 编码场景的统治地位进一步巩固。",
+      "link": "https://aitoolsreview.co.uk/insights/claude-opus-4-6-deep-dive"
+    },
+    {
+      "title": "Morgan Stanley 警告 AI 突破将冲击就业和电网",
+      "date": "2026-03-15",
+      "summary": "Morgan Stanley 发布报告预测 2026 上半年将出现 AI 重大突破，可能导致电力需求激增 12-25% 和大规模岗位替代。AI Agent 将率先影响知识工作者，企业需在效率提升和人力转型之间做出抉择。",
+      "link": "https://finance.yahoo.com/news/morgan-stanley-warns-ai-breakthrough-072000084.html"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Kimi K2.5：零视觉监督微调 + Agent Swarm 架构突破",
+      "date": "2026-03-15",
+      "summary": "月之暗面 Kimi K2.5 论文引发社区热议，提出零视觉监督微调和 Agent Swarm 协作机制。分析认为即将发布的 DeepSeek V4 在 Agent 层面可能难以超越 K2.5。模型参数接近 1T，本地推理已不现实。",
+      "link": "https://www.bilibili.com/video/BV1NoZCBjEZY/"
+    },
+    {
+      "title": "GPT-5.4 vs Claude Opus 4.6：2026 年 3 月 AI 模型全面对比",
+      "date": "2026-03-15",
+      "summary": "LaoZhang AI 发布 2026 年 3 月最全模型对比：SWE-bench Opus 4.6 (80.8%) vs GPT-5.2 (80.0%)，Terminal-Bench Opus 4.6 (65.4%) 大幅领先。GPT-5.4 在多模态和长上下文方面优势明显。",
+      "link": "https://blog.laozhang.ai/en/posts/chatgpt-vs-claude"
+    },
+    {
+      "title": "Anthropic Claude 模型演进全时间线：从 Claude 1 到 Opus 4.6",
+      "date": "2026-03-15",
+      "summary": "ScriptByAI 整理 Claude 全系列模型发展历程，从 2023 年 Claude 1 到 2026 年 Opus 4.6。Sonnet 4.6 于 2026 年 2 月 17 日发布，Anthropic 承诺永久保留退役模型权重。",
+      "link": "https://www.scriptbyai.com/anthropic-claude-timeline/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy 开源 AutoResearch：让 AI 24/7 自主做研究",
+      "date": "2026-03-15",
+      "summary": "Andrej Karpathy 开源 AutoResearch 项目，允许用户同时运行数百个 AI 研究 Agent，自动搜索文献、跑实验、生成报告。GitHub 迅速走红，被称为'开源版 24/7 AI 研究实验室'。",
+      "link": "https://www.theunwindai.com/p/karpathy-open-sourced-a-24-7-ai-research-lab"
+    },
+    {
+      "title": "OpenAI 高管 Kalinowski 因 Pentagon 合同分歧辞职",
+      "date": "2026-03-15",
+      "summary": "Reddit 热帖揭示辞职内幕：核心争议不在伦理而在工程能力。保密环境下运行 LLM 需要完整推理追踪、决策可重放和气隙网络，而 OpenAI 目前缺乏这些军事级基础设施。",
+      "link": "https://www.reddit.com/r/artificial/comments/1rpgkz6/openais_top_exec_resignation_exposes_something/"
+    },
+    {
+      "title": "Yann LeCun AMI Labs 10 亿种子轮押注 World Model",
+      "date": "2026-03-15",
+      "summary": "LeCun 创办的 AMI Labs 以 35 亿美金估值完成 AI 历史最大种子轮。基于 JEPA 架构的'世界模型'挑战 LLM 主导范式，CEO 预言六个月内'世界模型'将成新的融资关键词。",
+      "link": "https://siliconangle.com/2026/03/10/yann-lecuns-new-startup-ami-labs-raises-1-03b-train-world-models/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "The Agency：61 个 AI Agent 的 GitHub 仓库 7 天破万星",
+      "date": "2026-03-15",
+      "summary": "从社区讨论演变而来的 The Agency 项目——9 个部门 61 个 AI 专家 Agent 的定义文件——7 天内获 10K+ Star。已有 19.2K Star 和 3K Fork，被认为是最系统化的 AI 团队 Agent 框架。",
+      "link": "https://medium.com/coding-nexus/someone-built-a-full-ai-agency-on-github-61-agents-10k-stars-in-7-days-ac976f85925d"
+    },
+    {
+      "title": "skills.sh 兴起：跨 Agent 可复用技能分发平台",
+      "date": "2026-03-15",
+      "summary": "2026 年初上线的 skills.sh 正在成为跨 AI Agent 技能分发的事实标准，支持 30+ 种 AI Agent。CLI 自动检测 Agent 类型并安装对应技能包。",
+      "link": "https://dev.to/dmgjdagooc/the-rise-of-reusable-ai-agent-skills-how-skillssh-and-anthropic-are-changing-the-way-we-build-242d"
+    },
+    {
+      "title": "Google Antigravity Agent IDE 深度评测：免费还能多 Agent 协作",
+      "date": "2026-03-15",
+      "summary": "Google Antigravity 作为 Agent-first IDE 快速崛起，支持 Gemini/Claude/GPT 多模型，Manager View 实现多 Agent 协作。对比 Cursor 和 Claude Code 各有优劣，但完全免费的公测策略让它成为 2026 年 AI 编码领域最大黑马。",
+      "link": "https://www.heyuan110.com/posts/ai/2026-03-10-google-antigravity-review/"
+    }
+  ],
+  "github": [
+    {
+      "title": "The Agency：9 大部门 61 个 AI Agent 组成完整虚拟公司",
+      "date": "2026-03-15",
+      "summary": "一个完整的 AI 公司组织结构：涵盖工程、设计、增长营销等 9 个部门共 61 个专家 Agent，7 天内 GitHub Star 从 0 飙到 19.2K。每个 Agent 都有详细系统提示和工作流定义。",
+      "link": "https://www.prismnews.com/topics/agency-seo-growth/ai-repo-the-agency-surpasses-10k-github-stars-in-just-7-days"
+    },
+    {
+      "title": "agent-browser：AI Agent 低 token 消耗的浏览器自动化 CLI",
+      "date": "2026-03-15",
+      "summary": "Vercel Labs 出品的 Rust + Playwright 无头浏览器工具，专为 AI Agent 设计。对比截图方案 token 消耗大幅降低，被 Claude Code 社区评为最佳浏览器自动化方案。",
+      "link": "https://medium.com/coding-nexus/your-ai-agent-can-now-control-a-browser-and-it-wont-eat-your-token-budget-3de66bc4885d"
+    },
+    {
+      "title": "Karpathy AutoResearch：开源自主 AI 研究框架",
+      "date": "2026-03-15",
+      "summary": "Karpathy 开源的 AutoResearch 框架允许并行运行数百个 AI 研究 Agent，自动检索论文、设计实验、生成报告。被媒体称为'开源版 24/7 AI 研究实验室'。",
+      "link": "https://www.originxai.com/blog/autonomous-ai-agents-karpathy-autoresearch/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "SWE-agent 2.0：让 LLM 独立修 Bug 的开源编码代理",
+      "date": "2026-03-15",
+      "summary": "SWE-agent 2.0 发布，让 LLM 能独立 debug、打补丁和解决 GitHub Issues，无需持续人工干预。被认为是开源 AI 编码代理的重要里程碑，直接对标 Devin。",
+      "link": "https://yuv.ai/blog/swe-agent-v2"
+    },
+    {
+      "title": "BrowserOS：原生运行 AI Agent 的新型浏览器",
+      "date": "2026-03-15",
+      "summary": "BrowserOS 在浏览器引擎层面嵌入 AI Agent，所有数据留在本地。不是给浏览器加聊天机器人，而是从底层重新定义 Web 交互方式。HN 社区热烈讨论。",
+      "link": "https://www.blog.brightcoding.dev/2026/02/14/browseros-the-revolutionary-ai-browser-that-runs-agents-natively"
+    },
+    {
+      "title": "GDC 2026：AI 和裁员双重危机重创游戏行业",
+      "date": "2026-03-15",
+      "summary": "GDC 2026 在旧金山举行，EA 裁员、AI 存在感催生集体焦虑。超 2300 名从业者调查显示裁员波影响持续扩大，外包主导开发成为新常态。投资人表示对行业'妖魔化 AI'感到'震惊和悲伤'。",
+      "link": "https://noticiasycafe.com/en/news/gdc-2026-layoffs-ai-state-video-game-industry"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "GPT-5.4 上线 4 天 Reddit 社区实测对比 Claude Sonnet 4.6",
+      "date": "2026-03-15",
+      "summary": "Reddit r/AI_Agents 77 票 96 评论的热帖：GPT-5.4 原生 Computer Use 和 1M 上下文很惊艳，但编码和 Agent 任务仍被 Claude 压制。社区共识：多模态选 GPT，Agent 选 Claude。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1rppvan/i_built_the_same_saas_with_gpt_54_and_claude_code/"
+    },
+    {
+      "title": "微软基于 Anthropic Claude 发布 Copilot Cowork 引 Reddit 热议",
+      "date": "2026-03-15",
+      "summary": "r/ChatGPT 热帖讨论微软基于 Claude 构建 Copilot Cowork 的战略意义。社区担忧'即使是 Claude Cowork 的阉割版也足以颠覆大量知识工作'。链接附原文分析。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1rp78zu/microsoft_just_launched_an_ai_that_does_your/"
+    },
+    {
+      "title": "为什么 Claude 突然成为 AI 社区焦点？",
+      "date": "2026-03-15",
+      "summary": "r/PromptEngineering 热帖：多数人认可 Claude 技术实力，但也有人指出 Anthropic 的'心理营销策略'。Claude Code 和 Cowork 产品矩阵被认为是关键推手。",
+      "link": "https://www.reddit.com/r/PromptEngineering/comments/1rroa6q/why_are_people_suddenly_talking_more_about_claude/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "agent-browser：Vercel 出品的 AI Agent 浏览器控制工具",
+      "date": "2026-03-15",
+      "summary": "基于 Rust 构建的无头浏览器 CLI，支持 AI Agent 浏览网页、截图、填表、提取数据。对比截图方案 token 消耗大幅降低，被 Claude Code 社区评为最佳方案。",
+      "link": "https://dev.to/minatoplanb/i-tested-every-browser-automation-tool-for-claude-code-heres-my-final-verdict-3hb7"
+    },
+    {
+      "title": "Microsoft Copilot Cowork：Anthropic 技术驱动的企业 AI Agent",
+      "date": "2026-03-15",
+      "summary": "微软推出 Copilot Cowork，整合 Anthropic Claude Cowork 技术。Axios 指出这款产品'以抹去微软数千亿市值的 Anthropic 产品命名'，AI Agent 可在 Microsoft 365 生态中自主执行跨应用任务。",
+      "link": "https://www.axios.com/2026/03/09/microsoft-copilot-cowork-anthropic"
+    },
+    {
+      "title": "skills.sh：AI Agent 通用技能分发 CLI 平台",
+      "date": "2026-03-15",
+      "summary": "支持 30+ 种 AI Agent 的可复用技能分发平台，CLI 自动检测 Agent 类型并安装匹配技能。已成为跨 Agent 技能生态的事实标准。",
+      "link": "https://dev.to/dmgjdagooc/the-rise-of-reusable-ai-agent-skills-how-skillssh-and-anthropic-are-changing-the-way-we-build-242d"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Agentic AI 周报：企业采用率加速，三方混战格局形成",
+      "date": "2026-03-15",
+      "summary": "波士顿分析研究所 3 月 7-13 日 Agentic AI 周报：市场增速创纪录。Microsoft Copilot Cowork、NVIDIA NemoClaw、OpenClaw 生态三方混战格局正在形成，企业 Agent 部署量同比增长 340%。",
+      "link": "https://bostoninstituteofanalytics.org/blog/agentic-ai-news-roundup-7-13-march-2026-market-growth-enterprise-adoption-new-ai-agents/"
+    },
+    {
+      "title": "OpenClaw 全球爆火后的安全警钟：23 万实例暴露公网",
+      "date": "2026-03-15",
+      "summary": "OpenClaw 25 万+ GitHub Star 登顶历史榜首，但安全问题严峻。国家网信中心监测超 23 万实例暴露公网，已出现命令注入、越权执行和数据删除的真实攻击案例。",
+      "link": "https://news.qq.com/rain/a/20260309A077BT00"
+    },
+    {
+      "title": "NVIDIA NemoClaw：GTC 2026 即将揭幕的企业级 Agent 平台",
+      "date": "2026-03-15",
+      "summary": "NVIDIA 的 NemoClaw 是专为企业打造的开源 AI Agent 平台，内置安全防护栏，支持跨硬件部署。明日 Jensen Huang 将在 GTC 主题演讲中正式发布，预计改变企业 Agent 部署格局。",
+      "link": "https://awesomeagents.ai/news/nvidia-nemoclaw-enterprise-ai-agents/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "AMI Labs 融 10.3 亿美金训练 World Model",
+      "date": "2026-03-15",
+      "summary": "Yann LeCun 创办的 AMI Labs 获 10.3 亿种子轮，巴黎总部，核心团队来自 Meta FAIR。基于 JEPA 架构开发物理世界理解系统，挑战 LLM 范式。Latent Space 深度分析其技术路线和商业前景。",
+      "link": "https://www.latent.space/p/ainews-yann-lecuns-ami-labs-launches"
+    },
+    {
+      "title": "Broadcom AI 芯片收入翻倍至 84 亿美元，挑战 NVIDIA 霸主地位",
+      "date": "2026-03-15",
+      "summary": "Broadcom 最新财报显示 AI 芯片收入同比暴涨 106% 达 84 亿美元，占总营收 43%。CEO 预测到 2027 年 AI 芯片业务将突破千亿美元。定制 AI 芯片正在蚕食 NVIDIA 通用 GPU 的市场份额，AI 算力格局加速分化。",
+      "link": "https://www.analyticsinsight.net/news/broadcom-stock-drops-4-despite-record-ai-revenue-and-optimistic-forecast"
+    },
+    {
+      "title": "Meta 计划裁员 20% 以上：AI 成本重压下的断臂求生",
+      "date": "2026-03-15",
+      "summary": "Meta 正在计划可能影响 20% 以上员工的大规模裁员（约 16000 人），以抵消 AI 基础设施投资的巨额成本。TechCrunch 报道称 AI 相关的收购和招聘支出也是裁员驱动因素之一。",
+      "link": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "腾讯龙虾大反攻：WorkBuddy + QClaw 双线布局 Agent 入口",
+      "date": "2026-03-15",
+      "summary": "腾讯先推 WorkBuddy（企微端）再推 QClaw（微信/QQ 端），形成社交+办公双场景覆盖。36 氪分析：飞书抢企业工作场景，QClaw 抢个人通讯场景，本质是对'任务发起场景'的卡位战。",
+      "link": "https://36kr.com/p/3721035816268545"
+    },
+    {
+      "title": "国家网信中心预警：OpenClaw 安全风险升级，超 23 万实例暴露",
+      "date": "2026-03-15",
+      "summary": "全球超 23 万台 OpenClaw 实例暴露于公网。已发现的漏洞以命令注入、路径遍历和访问控制为主，利用难度较低。已出现智能体越权执行、删除用户数据的真实案例。Prompt Injection 攻击已在社交场景中被实战利用。",
+      "link": "https://developer.aliyun.com/article/1715610"
+    },
+    {
+      "title": "中国大模型 API 价格战白热化：阶跃星辰调用量全球第一",
+      "date": "2026-03-15",
+      "summary": "OpenClaw 效应下阶跃星辰 Step3.5 Flash 登顶 OpenRouter 全球调用量第一。GLM-5 约 745B、DeepSeek V3.2 约 685B、Kimi K2 接近 1T，参数竞赛白热化。国内 API 定价进入'每百万 Token 个位数'的极限竞争。",
+      "link": "https://makeronsite.com/2026-china-ai-model-api-price-comparison.html"
+    }
+  ]
+}
