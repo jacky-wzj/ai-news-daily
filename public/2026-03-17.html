@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月17日星期二</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月17日星期二</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. InternVL-U: 4B 参数统一多模态模型超越 14B 基线</h3>
+      <div class="meta">👤 </div>
+      <p>InternVL-U 仅用 4B 参数，在生成、编辑任务上持续超越 BAGEL(14B) 等 3 倍规模模型，同时保持强大的多模态理解和推理能力。实现了理解-推理-生成-编辑的统一。</p>
+  <a class="link" href="https://papers.cool/arxiv/2603.09877" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. XSkill: 多模态 Agent 的持续学习框架</h3>
+      <div class="meta">👤 </div>
+      <p>提出 XSkill 框架，让多模态 Agent 从经验和技能中持续学习。解决了 Agent 在长期运行中知识积累和技能迁移的核心问题。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.12056" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LLM Architecture Gallery: Sebastian Raschka 发布 LLM 架构全景图</h3>
+      <div class="meta">👤 </div>
+      <p>Sebastian Raschka 发布 LLM Architecture Gallery，系统梳理从 GPT-2 到最新模型的架构演进。HN 热议指出：7 年来改进很多，但尚无根本性创新突破。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47388676" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Elon Musk 宣布 xAI 彻底开放，点赞 Qwen 3.5 小模型</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-14</div>
+      <p>Musk 宣布 xAI 走向完全开放路线，并公开点赞 Qwen 3.5 小模型的表现。此举引发行业讨论：大厂开源是否正在成为 AI 竞争的必选项。</p>
+  <a class="link" href="https://news.softunis.com/53395.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA 官宣 100% 员工使用 Claude Code，AI 编码工具格局剧变</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-16</div>
+      <p>GTC 2026 上 NVIDIA 高管透露公司 100% 员工都在使用 Claude Code。这一数据被广泛传播，被视为 Anthropic 在企业级 AI 编码市场的里程碑。</p>
+  <a class="link" href="https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 被五角大楼列入禁用名单后发起用户感恩促销</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-15</div>
+      <p>Anthropic 因拒绝军事应用被五角大楼禁用后，迅速推出限时用量翻倍促销。社交媒体热议其「被禁=品牌加分」的逆向营销效应。</p>
+  <a class="link" href="https://timesofindia.indiatimes.com/technology/tech-news/after-getting-banned-by-pentagon-anthropic-to-customers-as-a-small-thank-you-to-everyone-using-claude-we-are-doubling-/articleshow/129606059.cms" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI 编码社区辩论：Claude Code vs Cursor vs Copilot 2026 终极对决</h3>
+      <div class="meta">💬 </div>
+      <p>多个 AI 开发者 Discord 社区密集讨论编码工具选择。Claude Code 8 个月从零到第一，Cursor 仍是 power user 最爱，Copilot 在企业合规场景保持优势。</p>
+  <a class="link" href="https://dev.to/alexcloudstar/claude-code-vs-cursor-vs-github-copilot-the-2026-ai-coding-tool-showdown-53n4" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LocalLLaMA 社区测试本地运行 Qwen 3.5:9B 的实用场景</h3>
+      <div class="meta">💬 </div>
+      <p>社区分享本地运行小模型的实践经验：Qwen 3.5:9B 在工具调用、信息提取等嵌入式场景表现出色。结论是小模型不适合通用知识，但工具使用能力已很强。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47363754" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. MiroFish: 群体智能预测引擎登顶 GitHub Trending，28K Stars</h3>
+      
+      <p>基于 OASIS 框架的多 Agent 群体智能引擎，可模拟社会/市场动态进行预测。LLM API 成本下降让多 Agent 模拟从学术实验变为实用工具。</p>
+  <a class="link" href="https://github.com/666ghj/MiroFish" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hindsight: vectorize-io 推出 AI Agent 学习记忆系统</h3>
+      
+      <p>vectorize-io 开源的 Hindsight 项目专注于 Agent 的长期记忆问题，让 AI Agent 从经验中学习和提炼知识。解决了 Agent 系统中「金鱼记忆」的痛点。</p>
+  <a class="link" href="https://github.com/vectorize-io/hindsight" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. LLM Architecture Gallery: 7 年来 LLM 架构改进很多但无根本创新</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Sebastian Raschka 的 LLM 架构全景图引发 HN 深度讨论。社区共识：从 GPT-2 至今架构层面改进显著但缺乏根本性突破，Transformer 仍是唯一范式。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47388676" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LLMs 令人精疲力竭：在人类必须参与的循环中存在硬上限</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN 热帖讨论 LLM 使用的「人在环中」疲劳感。核心观点：直到 AI 100% 超越人类，人类审查 AI 输出的认知负担将限制实际生产力提升。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47391803" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/ClaudeAI 热议 Claude 3月用量翻倍促销的实际体验</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit Claude 社区分享非高峰时段用量翻倍的实际体验。讨论焦点：Enterprise 计划不参与促销、最佳使用时间段规划、与五角大楼禁令的时间线巧合。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeAI/comments/1rtumb0/claude_march_2026_usage_promotion_limitedtime/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/LocalLLaMA: BitNet 1-bit LLM 推理框架引发本地部署讨论</h3>
+      <div class="meta">reddit: </div>
+      <p>BitNet 的 1-bit LLM 推理框架在 Reddit 引发热议。社区讨论方向：小型 LLM 正朝着工具使用（包括搜索）方向演进，通用知识不够但专项能力已到位。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47334694" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/artificial: AI 对传统行业的冲击全景——五大应用板块扫描</h3>
+      <div class="meta">reddit: </div>
+      <p>36氪长文被搬运到 Reddit 讨论。AI 在教育（高考志愿）、养猪业、短剧行业的规模化应用超出预期。核心洞察：AI 正从「辅助工具」变成「原生产力」。</p>
+  <a class="link" href="https://36kr.com/p/3680115716206212" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA Nemotron 3 Super: 混合架构 Agentic 推理模型开放权重</h3>
+      
+      <p>NVIDIA 发布 Nemotron 3 Super，结合状态空间模型、Transformer 和 Latent MoE 设计，专为 Agentic 工作流优化。开放权重，在推理/编码/工具使用上表现优异。</p>
+  <a class="link" href="https://www.singleapi.net/2026/03/13/nvidia-nemotron-3-and-claude-ai-agents-advances/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 编码工具 2026 年 3 月排行：Claude Code 登顶、Codex 重返前五</h3>
+      
+      <p>LogRocket 发布 AI 开发工具排行榜。Claude Code 8 个月从零到第一，OpenAI Codex 以云端沙盒化执行和 GitHub 深度集成重返前五，Cursor 持续领先 IDE 类别。</p>
+  <a class="link" href="https://blog.logrocket.com/ai-dev-tool-power-rankings/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor vs Windsurf 2026 对比：模型限制后 Windsurf 成为中国热门替代</h3>
+      
+      <p>Cursor 在中国遭遇模型限制后，Windsurf 成为热门替代。Cascade 跨会话记忆、Cursor 多模型切换（Claude Sonnet 4.6/GPT-5.4/Gemini 3.1 Pro）各有优势。</p>
+  <a class="link" href="https://www.dgtsell.com/articles/windsurf-vs-cursor-comparison-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GTC 2026: NVIDIA 与 OpenClaw 达成合作，Agent 平台进入企业级</h3>
+      <div class="meta">🤖 </div>
+      <p>GTC 2026 上 NVIDIA 宣布与 OpenClaw 的合作关系，Disney 机器人、太空数据中心和 OpenClaw Agent 成为大会焦点。Agent 从个人工具向企业级基础设施演进。</p>
+  <a class="link" href="https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里吴泳铭亲自下场 B 端 AI 应用：创造 Token、输送 Token、应用 Token</h3>
+      <div class="meta">🤖 </div>
+      <p>阿里云推出基于 OpenClaw 的「一键养虾」平台 JVS Claw，零代码三步操作。吴泳铭提出「创造/输送/应用 Token」三段论，标志着阿里从模型竞赛转向应用落地。</p>
+  <a class="link" href="https://finance.sina.com.cn/stock/t/2026-03-16/doc-inhrffse5704712.shtml" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Agentic 安全验证成为新范式：自主检测与修复威胁</h3>
+      <div class="meta">🤖 </div>
+      <p>The Hacker News 报道 Agentic AI 正在改变安全验证领域。通过统一数据织物和暴露情报，AI Agent 实现自动化安全验证、快速威胁检测和修复。</p>
+  <a class="link" href="https://thehackernews.com/2026/03/why-security-validation-is-becoming.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA GTC 2026: 黄仁勋预计 Blackwell + Vera Rubin 到 2027 年订单达 1 万亿美元</h3>
+      <div class="meta">📅 2026-03-17</div>
+      <p>GTC 2026 大会上，黄仁勋宣布 Vera Rubin 芯片架构正式亮相，称 Blackwell 和 Vera Rubin 系列到 2027 年订单将超 1 万亿美元。DLSS 5 发布，100% NVIDIA 员工使用 Claude Code，推理推断「拐点」已到。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 限时促销：3/13-3/27 非高峰时段用量翻倍</h3>
+      <div class="meta">📅 2026-03-15</div>
+      <p>Anthropic 宣布 Claude 在 3 月 13-27 日期间，非高峰时段（ET 8AM-2PM 外）Free/Pro/Max/Team 所有计划用量翻倍。此举被解读为与五角大楼禁令后的用户关系修复策略。</p>
+  <a class="link" href="https://www.engadget.com/ai/anthropic-is-doubling-claudes-usage-limits-during-off-peak-hours-for-the-next-two-weeks-163645928.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Karpathy 开源 AutoResearch：AI Agent 自主跑 ML 实验，一周 30K+ Stars</h3>
+      <div class="meta">📅 2026-03-10</div>
+      <p>Andrej Karpathy 发布 autoresearch——630 行 Python 代码实现 AI Agent 自主执行 ML 实验循环（改代码→训练→评估→迭代），一周内 GitHub 30,307 stars，成为史上增长最快的 repo 之一。</p>
+  <a class="link" href="https://venturebeat.com/technology/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 中国大厂全面入局「养龙虾」：腾讯阿里字节百度小米争夺 AI Agent 入口</h3>
+      <div class="meta">📅 2026-03-11</div>
+      <p>OpenClaw 热潮席卷中国，腾讯一天推三款产品，字节上线 ArkClaw，阿里推出 CoPaw/HiClaw，百度推移动版，小米启动 miclaw 封测。BAT 纷纷在自家云平台上线 OpenClaw 托管服务，Agent 从「聊天机器人」升级为「数字员工」。</p>
+  <a class="link" href="https://www.huxiu.com/article/4841219.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. VS Code 1.109 支持多 Agent 编排：Claude + Codex + Copilot 同框</h3>
+      <div class="meta">📅 2026-03-14</div>
+      <p>VS Code 1.109 版本在 2 月发布的多 Agent 编排功能正在被广泛采用。开发者可以在同一编辑器中同时运行 Claude Code、Codex Agent 和 GitHub Copilot，AI 编码工具从「选一个」进入「全都要」时代。</p>
+  <a class="link" href="https://markaicode.com/vs/vs-code-vs-cursor/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. MiroFish 成 GitHub #1 Trending：群体智能引擎用多 Agent 模拟预测万物</h3>
+      <div class="meta">📅 2026-03-16</div>
+      <p>MiroFish 基于 OASIS 框架构建的群体智能引擎登顶 GitHub Trending，28K Stars。利用多 Agent 模拟进行市场/社会预测，LLM API 成本下降使多 Agent 系统从学术走向实用。</p>
+  <a class="link" href="https://byteiota.com/mirofish-githubs-1-trending-ai-swarm-engine-hits-28k-stars/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 阿里通义实验室架构调整后人才流失：后训练负责人加入字节 Seed 团队</h3>
+      <div class="meta">📅 2026-03-12</div>
+      <p>通义千问后训练负责人郁博文加入字节跳动 Seed 团队，Code 负责人惠彬原转投 Meta。Qwen 团队被拆分为预训练/后训练/多模态等模块后，核心团队加速散开。开源模型团队的商业化压力与人才保留矛盾凸显。</p>
+  <a class="link" href="https://36kr.com/p/3709827296440713" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA GTC 2026: 1 万亿美元订单愿景，Vera Rubin 芯片架构正式登场</h3>
+      
+      <p>黄仁勋在 GTC 2026 主题演讲中称 Blackwell + Vera Rubin 到 2027 年订单达 1 万亿美元。DLSS 5 发布，RTX PRO 4500 Blackwell Server Edition 即将上市。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 开发工具竞争白热化：Claude Code 8 个月登顶，IDE 格局重塑</h3>
+      
+      <p>2026 年 AI 编码工具格局发生剧变。Claude Code 从零到第一仅用 8 个月，Cursor 仍是 power user 最爱，VS Code 原生支持多 Agent 编排改变了游戏规则。</p>
+  <a class="link" href="https://zapier.com/blog/ai-coding-tools/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 阿里通义核心团队流失加速：林俊旸离职撕开深层暗涌</h3>
+      
+      <p>通义千问创始成员林俊旸离职，后训练负责人郁博文加入字节 Seed 团队，Code 负责人惠彬原转投 Meta。Qwen 做到全球开源第一却留不住人，开源模型商业化困境凸显。</p>
+  <a class="link" href="https://36kr.com/p/3709827296440713" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 字节跳动 1600 亿加码 AI：SeedChip 量产在即，豆包 2.0 蓄势待发</h3>
+      
+      <p>字节跳动 2026 年 AI 基建投入达 1600 亿，自研 SeedChip 推理芯片进入量产倒计时，豆包大模型 2.0 蓄势待发。加上从阿里挖来的核心人才，字节 AI 实力急速膨胀。</p>
+  <a class="link" href="https://developer.aliyun.com/article/1715703" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 2026 年 AI 40 大风口：代码场景成企业「获得感」最强领域</h3>
+      
+      <p>36氪盘点 2026 年 AI 40 大风口。代码生成已从辅助工具升级为原生产力，AI 玩具市场达 290 亿元，字节/华为/京东/百度/商汤全面入场。多家公司明确要求所有开发者拥抱大模型。</p>
+  <a class="link" href="https://36kr.com/p/3676032461546116" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:30 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
