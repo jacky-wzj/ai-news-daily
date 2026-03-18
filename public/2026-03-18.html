@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月18日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月18日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. JEPA 世界模型架构深度解析：从 I-JEPA 到 VL-JEPA</h3>
+      <div class="meta">👤 </div>
+      <p>随着 AMI Labs 成立，JEPA 架构重新成为研究热点。innobu 发布深度解析文章，梳理从 I-JEPA 到 2026 年 VL-JEPA 的演进，对比世界模型与 LLM 在潜在空间预测上的根本差异。</p>
+  <a class="link" href="https://www.innobu.com/en/articles/jepa-world-models-energy-based-models-ai-architecture" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA Nemotron 3 Super 开源发布：面向 Agent 系统的推理模型</h3>
+      <div class="meta">👤 </div>
+      <p>NVIDIA 在 GTC 期间开源 Nemotron 3 Super 模型，专为 Agentic 系统设计，强调推理准确性。权重已上线 Hugging Face、OpenRouter 和 Perplexity 平台。</p>
+  <a class="link" href="https://www.indiatvnews.com/technology/news/nvidia-nemotron-3-super-open-source-ai-model-launched-for-agentic-systems-2026-03-13-1033651" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Karpathy AI 就业风险可视化：高薪白领岗位被标记最高风险</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-15</div>
+      <p>Karpathy 在 X 上分享基于劳工统计局数据的 AI 就业风险可视化项目，法律、金融、管理类高薪岗位被标记最高暴露度。帖子删除后仍病毒传播，Elon Musk 预测「全民高收入」。</p>
+  <a class="link" href="https://www.ndtv.com/world-news/openai-co-founder-andrej-karpathy-ranks-jobs-by-ai-risk-elon-musk-predicts-universal-high-income-11220928" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenClaw 创始人确认腾讯云成为官方赞助商</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-15</div>
+      <p>OpenClaw 创始人在社交媒体宣布腾讯云正式成为项目官方赞助商，信息同步至 GitHub。腾讯全系龙虾产品矩阵包括 WorkBuddy、QClaw 等五款产品，市值因此暴涨。</p>
+  <a class="link" href="https://36kr.com/p/3724960263549703" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenClaw 3.13 发布：70+ 稳定性补丁，移动端重新设计</h3>
+      <div class="meta">💬 </div>
+      <p>OpenClaw v2026.3.13-1 发布，包含移动端界面重设计、内存使用优化（2x 修复）和 70 余项稳定性补丁。社区讨论集中在 Ollama 推理输出修复和新的 worktree 执行模式。</p>
+  <a class="link" href="https://openclaws.io/blog/openclaw-3-13-release" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LocalLLaMA 社区解读 OpenClaw 2026.3.11 发布要点</h3>
+      <div class="meta">💬 </div>
+      <p>Reddit LocalLLaMA 用户逐条解读 OpenClaw 最新 release notes，提炼对 Agent 构建和运行有实际影响的变更。帖子引发跨社区讨论。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/1rrkyut/i_read_the_2026311_release_notes_openclaw_latest/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.3 Codex 搭配 OpenClaw：定价、配置和适用场景指南</h3>
+      <div class="meta">💬 </div>
+      <p>haimaker.ai 发布 GPT-5.3-Codex 在 OpenClaw 中的完整使用指南。自主调试能力获得好评，但简单 CRUD 任务建议使用更便宜的模型。社区讨论模型选择策略。</p>
+  <a class="link" href="https://haimaker.ai/blog/gpt-5-3-codex-openclaw/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Karpathy/autoresearch：自主科研 AI Agent，GitHub 爆火</h3>
+      
+      <p>Karpathy 开源 autoresearch 项目，让 AI Agent 自动完成文献检索、实验设计、代码优化的完整科研循环。YouTube 解析视频获百万播放，Fortune 深度报道。</p>
+  <a class="link" href="https://aihola.com/article/karpathy-autoresearch-ai-agents" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hindsight — vectorize-io 的学习型 Agent 记忆框架登上 Trending</h3>
+      
+      <p>vectorize-io 推出 Hindsight 项目，为 AI Agent 提供学习型长期记忆系统，支持跨会话知识积累和检索。本周登上 GitHub Trending。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-03-15-hindsight-learning-agent-memory-a-new-project-trending-on-github-by-vectorize-io" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Shadowbroker：OSINT 多域情报平台，304 HN 积分引爆关注</h3>
+      
+      <p>Shadowbroker 整合 15 个实时数据源（企业飞机追踪、卫星轨道、地震事件等）的 OSINT 平台，成为本周 Hacker News 最热非 AI 开源项目，304 积分。</p>
+  <a class="link" href="https://www.americanpartisan.org/2026/03/introducing-shadowbroker-multi-domain-osint-platform/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Yann LeCun 融资 $10 亿构建理解物理世界的 AI</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>AMI Labs 融资消息登上 HN 热门，引发 LLM vs 世界模型路线之争。评论区对 JEPA 可行性意见分化，但共识是 LLM 在物理世界推理上存在根本瓶颈。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47320600" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GTC 2026：NVIDIA 的自动驾驶「ChatGPT 时刻」</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>NVIDIA 在 GTC 上展示 Vera Rubin 驱动的自动驾驶推理方案，Quartz 称其为自动驾驶领域的 ChatGPT 时刻。推理性能飞跃让端到端自动驾驶成本大幅下降。</p>
+  <a class="link" href="https://qz.com/nvidia-gtc-2026-jensen-huang-keynote-takeaways" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. China CERT 警告 OpenClaw 可导致严重安全漏洞</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>The Register 报道中国 CERT 发布 OpenClaw 安全警告，指出多个已披露的严重漏洞可导致凭证窃取和攻击。帖子在 HN 引发关于 AI Agent 安全的深入讨论。</p>
+  <a class="link" href="https://www.theregister.com/2026/03/12/china_cert_openclaw_security_warning/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GPT-5.4 在游戏 Agent 编码联赛中大幅领先所有模型</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/OpenAI 用户分享 Game Agent Coding League 3 月赛果：GPT-5.4 明显领先，GPT-5.3-Codex 远超 Sonnet。讨论集中在 GPT-5.4 的推理能力对 Agent 任务的实际提升。</p>
+  <a class="link" href="https://www.reddit.com/r/OpenAI/comments/1rue7p0/gpt54_beating_all_other_top_models_by_far_in_game/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek V4 疑似泄露：神秘模型 Hunter Alpha 引发猜测</h3>
+      <div class="meta">reddit: </div>
+      <p>OpenRouter 平台出现匿名模型 Hunter Alpha，自称中国训练、知识截止 2025 年 5 月。路透社测试发现特征与 DeepSeek V4 高度吻合，中国媒体称 V4 可能 4 月发布。</p>
+  <a class="link" href="https://www.firstpost.com/tech/a-mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-13990619.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenClaw 3.13 发布日志：对 Agent 工作流的实际影响</h3>
+      
+      <p>OpenClaw 最新版本包含移动端重设计、内存优化、Ollama 推理修复等 70+ 补丁。Releasebot 整理完整更新时间线，涵盖所有 2026 年 3 月变更。</p>
+  <a class="link" href="https://releasebot.io/updates/openclaw" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 腾讯 WorkBuddy：零部署浏览器即用的桌面 AI 智能体</h3>
+      
+      <p>腾讯推出 WorkBuddy，完全兼容 OpenClaw 技能生态，浏览器直接使用无需部署。支持企业微信远程遥控，可无缝接入 QQ、飞书、钉钉等平台。</p>
+  <a class="link" href="https://finance.sina.com.cn/roll/2026-03-12/doc-inhqsteu1939190.shtml" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 2026 年 3 月四款改变游戏规则的 AI 工具</h3>
+      
+      <p>Medium Synthetic Futures 专栏盘点 3 月最具突破性的 AI 工具发布，涵盖代码生成、多模态处理、自动化工作流和 Agent 编排等领域。</p>
+  <a class="link" href="https://medium.com/synthetic-futures/four-ai-tools-that-just-changed-whats-possible-in-march-2026-a20d5df46341" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Karpathy AgentHub 仓库短暂现身：多智能体协作平台雏形</h3>
+      <div class="meta">🤖 </div>
+      <p>Karpathy 在 GitHub 上短暂发布 AgentHub 仓库后删除，LocalLLaMA 社区迅速发现并创建 fork。社区猜测其聚焦 Agent 定义和可发现性，而非执行层。</p>
+  <a class="link" href="https://www.reddit.com/r/LocalLLaMA/comments/1rqucay/karpathys_new_repo_agenthub_anyone_have_info/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenClaw 技能生态持续壮大：从养龙虾到构建 Agent 操作系统</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenClaw skills marketplace 快速增长，dev.to 盘点 2026 年 GitHub 上 Top 20 AI 项目。OpenClaw 从日常办公到复杂 Agent 编排的全场景覆盖引发关注。</p>
+  <a class="link" href="https://dev.to/nocobase/top-20-ai-projects-on-github-to-watch-in-2026-not-just-openclaw-4878" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 2026 年 7 大开源 AI Agent 框架对比</h3>
+      <div class="meta">🤖 </div>
+      <p>Bluehost 发布开源 Agent 框架横评，对比 LangChain、CrewAI、AutoGPT 等七大方案。原生支持 Azure OpenAI、OpenAI 和 Hugging Face 后端成为标配。</p>
+  <a class="link" href="https://www.bluehost.com/blog/best-open-source-ai-agent-frameworks/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA GTC 2026: Vera Rubin 平台发布，AI 推理进入万亿美元赛道</h3>
+      <div class="meta">📅 2026-03-16</div>
+      <p>黄仁勋在 GTC 2026 主题演讲中发布 Vera Rubin AI 平台，包含下一代 GPU 和 NVLink 72 互联方案，宣称将推动 AI 推理成本再降 10 倍。NVIDIA 目标 2027 年数据中心收入突破 1 万亿美元。</p>
+  <a class="link" href="https://www.datacenterknowledge.com/data-center-chips/gtc-2026-nvidia-unveils-vera-rubin-ai-platform-eyes-1t-by-2027" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 发布 GPT-5.4 mini 和 nano：旗舰级性能，成本大幅下降</h3>
+      <div class="meta">📅 2026-03-17</div>
+      <p>OpenAI 推出 GPT-5.4 mini 和 nano API 版本，速度是 GPT-5 mini 的 2 倍，支持原生 computer use、1M token 上下文窗口和 Tool Search（减少 47% token 消耗）。定位编码助手和子代理。</p>
+  <a class="link" href="https://www.testingcatalog.com/openai-launches-gpt-5-4-mini-and-gpt-5-4-nano-on-apis/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Yann LeCun 创办 AMI Labs：$10.3 亿种子轮押注 JEPA 世界模型</h3>
+      <div class="meta">📅 2026-03-10</div>
+      <p>LeCun 离开 Meta 后创办 AMI Labs，基于 JEPA 架构构建世界模型，估值 $35 亿，创欧洲种子轮纪录。目标超越 LLM 在物理世界推理的瓶颈，瞄准机器人和医疗场景。</p>
+  <a class="link" href="https://www.hpcwire.com/aiwire/2026/03/11/yann-lecuns-ami-secures-1b-seed-to-develop-ai-world-models/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Karpathy autoresearch 引爆讨论：AI 自主科研代理时代来临</h3>
+      <div class="meta">📅 2026-03-17</div>
+      <p>Karpathy 发布 autoresearch 项目让 AI Agent 自主完成完整科研循环。Fortune 报道他计划下一步实现多 Agent 异步协作研究，目标不是模拟一个博士生，而是模拟整个研究社区。</p>
+  <a class="link" href="https://medium.com/data-science-in-your-pocket/andrej-karpathys-autoresearch-bye-bye-researchers-76319a719630" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Anthropic 签约五角大楼，AI 安全公司进入国防领域引发争议</h3>
+      <div class="meta">📅 2026-03-11</div>
+      <p>TIME 报道 Anthropic 与美国国防部达成合作，Claude 用于情报分析和决策支持。一家以安全为使命的公司进入军事领域，被视为 AI 行业从理想主义走向务实的标志。</p>
+  <a class="link" href="https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. 中国政府警告国企限制 OpenClaw：从全民养虾到安全管控</h3>
+      <div class="meta">📅 2026-03-11</div>
+      <p>路透社报道中国政府和国企要求员工停止在办公设备安装 OpenClaw，CNVD 发布安全指南。The Register 披露已发现多个严重漏洞可导致凭证窃取。TechRadar 称安全恐慌正在蔓延。</p>
+  <a class="link" href="https://www.reuters.com/technology/china-moves-curb-use-openclaw-ai-banks-state-agencies-bloomberg-news-reports-2026-03-11/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA GTC 2026：黄仁勋的万亿美元 AI 推理蓝图</h3>
+      
+      <p>eWeek 深度分析 GTC 2026 发布内容：Vera Rubin 平台、Neuron 推理芯片、NVLink 72 互联。黄仁勋将 AI 从训练转向推理的转型比作互联网从拨号到宽带。</p>
+  <a class="link" href="https://www.eweek.com/news/nvidia-gtc-2026-ai-inference-vera-rubin-neuron/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AMI Labs 估值 $35 亿：世界模型能否颠覆 LLM 范式？</h3>
+      
+      <p>Futurum Group 深度分析 AMI Labs 的技术路线和商业前景。JEPA 架构在机器人和医疗场景的潜力巨大，但从实验室到产品的鸿沟仍需跨越。</p>
+  <a class="link" href="https://futurumgroup.com/insights/yann-lecuns-ami-raises-1bn-seed-round-is-the-world-model-era-finally-here/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 中国警告国企限制 OpenClaw：路透社、BBC、China Daily 连续报道</h3>
+      
+      <p>中国网络安全中心（CNVD）发布 OpenClaw 安全警告，China Daily 报道大量互联网暴露部署存在重大网络安全风险。从全民养虾到安全管控的反转引发全球关注。</p>
+  <a class="link" href="https://www.chinadaily.com.cn/a/202603/13/WS69b412eca310d6866eb3dbf1.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek V4 疑似泄露：Hunter Alpha 匿名模型震动开发者社区</h3>
+      
+      <p>OpenRouter 出现匿名中国 AI 模型 Hunter Alpha，路透社测试发现其自称中国训练、知识截止 2025 年 5 月，与 DeepSeek V4 特征高度吻合。V4 预计 4 月发布。</p>
+  <a class="link" href="https://tribune.com.pk/story/2598213/a-mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 19:30 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
