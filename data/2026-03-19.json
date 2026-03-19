@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-19",
+  "insights": [
+    {
+      "title": "NVIDIA GTC 2026：Vera Rubin 架构发布，AI 基础设施全面升级",
+      "date": "2026-03-18",
+      "summary": "黄仁勋在 GTC 2026 主题演讲中发布 Vera Rubin 架构与 NemoTron Ultra 开放权重模型，同时宣布 DGX Spark 个人 AI 超算，标志着 AI 硬件进入新纪元。NVIDIA 还投资 Nebius $2B，全力布局下一代 AI 基础设施。",
+      "link": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "title": "Meta 签下 $270亿 Nebius AI 基础设施大单",
+      "date": "2026-03-16",
+      "summary": "Meta 与荷兰数据中心公司 Nebius 签署五年最高 $270 亿美元 AI 基础设施协议，涵盖 Nvidia Vera Rubin 下一代芯片的专属算力，创下科技史上最大单笔 AI 基础设施采购记录。",
+      "link": "https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html"
+    },
+    {
+      "title": "OpenAI 准备 IPO，暗示取消无限订阅制",
+      "date": "2026-03-17",
+      "summary": "OpenAI 年化收入突破 $250亿，CNBC 报道其正准备 2026 年 IPO。ChatGPT 负责人 Nick Turley 表示当前定价模式是「意外产物」，无限订阅可能消失，未来或转向按量计费。",
+      "link": "https://www.cnbc.com/2026/03/17/openai-preps-for-ipo-in-2026-says-chatgpt-must-be-productivity-tool.html"
+    },
+    {
+      "title": "Mistral 发布 Forge 平台和 Small 4 模型，剑指企业 AI 定制化",
+      "date": "2026-03-18",
+      "summary": "法国 AI 公司 Mistral 在 GTC 大会上推出 Forge 企业模型训练平台，允许企业基于私有数据从头构建定制 AI 模型，同时发布 Small 4 高效模型，正面挑战 OpenAI 和 Anthropic 的企业市场。",
+      "link": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/"
+    },
+    {
+      "title": "Ayar Labs $5亿 E 轮融资，硅光子 AI 芯片进入量产",
+      "date": "2026-03-13",
+      "summary": "硅光子 chiplet 公司 Ayar Labs 完成 $5 亿 E 轮融资，由 Neuberger Berman 领投，ARK Invest、联发科等参投。其 TeraPHY 光学引擎解决 GPU 互连带宽瓶颈，AMD/Intel/Nvidia 均为早期投资方。",
+      "link": "https://www.storagenewsletter.com/2026/03/13/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/"
+    },
+    {
+      "title": "中国 AI 大模型调用量连续两周超越美国",
+      "date": "2026-03-16",
+      "summary": "全球 API 数据显示，中国 AI 大模型周调用量达 4.69 万亿 Token，超越美国的 3.294 万亿 Token，连续两周保持领先。国产模型在编程和智能体领域能力快速追赶全球头部。",
+      "link": "https://36kr.com/p/3725445557991808"
+    },
+    {
+      "title": "Snowflake AI 沙箱逃逸事件引发企业 AI 安全警钟",
+      "date": "2026-03-19",
+      "summary": "安全研究人员发现 Snowflake Cortex AI 存在沙箱逃逸漏洞，AI 可设置标志触发未沙箱化的命令执行，引发 HN 热议。同期 Claude Cowork 也被曝 prompt injection 文件窃取风险，企业 AI 安全成为焦点话题。",
+      "link": "https://news.ycombinator.com/item?id=47427017"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Nemotron Ultra: 开放权重推理模型新标杆",
+      "date": "2026-03-18",
+      "summary": "NVIDIA 在 GTC 上发布 Nemotron Ultra 系列开放权重模型，涵盖 253B 参数推理模型，在多项基准上接近甚至超越闭源模型，采用混合专家架构和思维链优化，支持 DGX Spark 本地部署。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    },
+    {
+      "title": "LLM 可大规模去匿名化在线用户身份",
+      "date": "2026-03-15",
+      "summary": "Ars Technica 报道的最新研究显示，大语言模型可以通过分析写作风格和行为模式，以惊人准确度大规模揭示匿名用户的真实身份，引发严重隐私担忧。",
+      "link": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/"
+    },
+    {
+      "title": "OS-Level Sandboxing: AI Agent 的内核级隔离方案",
+      "date": "2026-03-15",
+      "summary": "DEV 社区发布深度技术文章，比较 gVisor 与 bwrap 两种 AI Agent 沙箱隔离方案，针对 prompt injection 和内核漏洞不同威胁模型给出选型建议，为 Agent 安全部署提供实操指南。",
+      "link": "https://dev.to/uenyioha/os-level-sandboxing-kernel-isolation-for-ai-agents-3fdg"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Jensen Huang GTC 2026 主题演讲引爆科技圈",
+      "date": "2026-03-18",
+      "summary": "黄仁勋 GTC 2026 主题演讲宣布 Vera Rubin 架构、DGX Spark 个人超算、Nemotron Ultra 开放权重模型等重磅产品，X 上 #GTC2026 话题热度飙升，AI 从业者热议 NVIDIA 生态全面升级。",
+      "link": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang"
+    },
+    {
+      "title": "OpenAI 取消无限订阅引发 #QuitGPT 讨论",
+      "date": "2026-03-17",
+      "summary": "ChatGPT 负责人暗示无限订阅将消失后，X 上 #QuitGPT 话题再度活跃，用户讨论替代方案，Claude、Gemini 和本地模型被频繁提及。Business Insider 推文获大量转发讨论。",
+      "link": "https://www.businessinsider.com/openai-may-drop-unlimited-chatgpt-plans-exec-says-2026-3"
+    },
+    {
+      "title": "AI 不是泡沫：Understanding AI 万字分析获热传",
+      "date": "2026-03-16",
+      "summary": "Understanding AI 发布深度文章分析 AI 投资回报数据，论证 OpenAI 2026 年预计 $300 亿收入、行业实际增长曲线与互联网泡沫本质不同，在 X 上被广泛讨论和引用。",
+      "link": "https://www.understandingai.org/p/it-still-doesnt-look-like-theres"
+    }
+  ],
+  "discord": [
+    {
+      "title": "AI Agent 安全沙箱设计热议：Snowflake 逃逸事件后",
+      "date": "2026-03-19",
+      "summary": "Snowflake Cortex 沙箱逃逸和 Claude Cowork prompt injection 事件引发开发者社区对 AI Agent 安全隔离方案的深入讨论，gVisor、bwrap、Firecracker 等方案被比较。",
+      "link": "https://securityboulevard.com/2026/03/the-prompt-injection-peril-and-why-ai-agents-are-your-networks-newest-vulnerability/"
+    },
+    {
+      "title": "Mistral Small 4 实测：轻量级模型的企业级表现",
+      "date": "2026-03-18",
+      "summary": "开发者社区围绕 Mistral 新发布的 Small 4 模型展开测评讨论，该模型在代码生成和推理任务上表现出色，且资源消耗低，被认为是企业本地部署的理想选择。",
+      "link": "https://www.siliconrepublic.com/machines/mistral-ai-france-small-4-forge-enterprise"
+    },
+    {
+      "title": "NemoTron Ultra 开放权重引发本地部署热潮",
+      "date": "2026-03-18",
+      "summary": "NVIDIA 发布 NemoTron Ultra 开放权重模型后，社区讨论如何在 DGX Spark 和消费级硬件上部署 253B 参数模型，vLLM 和 TensorRT-LLM 优化方案被广泛分享。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    }
+  ],
+  "github": [
+    {
+      "title": "NVIDIA NemoTron Ultra 开放权重发布",
+      "date": "2026-03-18",
+      "summary": "NVIDIA 在 GitHub 上开源 NemoTron Ultra 系列推理模型，基于混合专家架构，253B 参数，支持 128K 上下文窗口，在 MMLU、HumanEval 等基准上接近 GPT-5 级别表现。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    },
+    {
+      "title": "Gemini CLI 新增 Plan Mode 和 Sashiko Agent",
+      "date": "2026-03-17",
+      "summary": "Google Gemini CLI 更新引入 Plan Mode 规划模式和 Sashiko agentic 代码审查工具，支持自动分析代码库、制定实施计划后执行，成为 GitHub 本周热门项目。",
+      "link": "https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/"
+    },
+    {
+      "title": "Cursor + JetBrains ACP 集成正式上线",
+      "date": "2026-03-14",
+      "summary": "Cursor 加入 ACP Registry 并正式支持 JetBrains IDE，开发者可在 IntelliJ/PyCharm 中直接使用 Cursor 的 AI 编码能力，打通多 IDE 生态协作。",
+      "link": "https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Snowflake AI 逃逸沙箱并执行恶意代码",
+      "date": "2026-03-19",
+      "summary": "HN 热帖揭示 Snowflake Cortex AI 可通过设置标志触发未沙箱化的命令执行，实质上沙箱形同虚设。社区讨论认为这暴露了当前企业 AI 安全架构的系统性问题。",
+      "link": "https://news.ycombinator.com/item?id=47427017"
+    },
+    {
+      "title": "OpenAI ARR 突破 $250亿，正式筹备 IPO",
+      "date": "2026-03-17",
+      "summary": "CNBC 报道 OpenAI 准备 2026 年 IPO，预计 2030 年收入超 $2800 亿。HN 社区热议其高增长背后的成本结构，质疑计算成本增速是否可持续。",
+      "link": "https://www.cnbc.com/2026/03/17/openai-preps-for-ipo-in-2026-says-chatgpt-must-be-productivity-tool.html"
+    },
+    {
+      "title": "Claude Cowork 上线 48 小时即被发现 prompt injection 漏洞",
+      "date": "2026-03-16",
+      "summary": "安全研究人员在 Claude Cowork 协作功能上线两天内，成功演示通过 prompt injection 窃取用户机密文件到攻击者账户，引发对 AI 协作工具安全性的广泛讨论。",
+      "link": "https://medium.com/@rentierdigital/claude-cowork-steals-your-files-the-prompt-injection-nightmare-that-breaks-in-48-hours-0ae8f361320c"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "AI 不是泡沫——数据分析深度贴",
+      "date": "2026-03-16",
+      "summary": "Understanding AI 发布详细数据分析文章引发 Reddit AI 社区热议，讨论 AI 投资回报率、OpenAI $300亿年收入预期与互联网泡沫的本质区别，多数评论认为当前 AI 增长有实质业务支撑。",
+      "link": "https://www.understandingai.org/p/it-still-doesnt-look-like-theres"
+    },
+    {
+      "title": "企业 AI Agent 安全隔离最佳实践讨论",
+      "date": "2026-03-15",
+      "summary": "Snowflake 沙箱逃逸事件后，r/MachineLearning 社区讨论 AI Agent 部署安全策略，涉及 gVisor、Firecracker 微虚拟机、bwrap 命名空间隔离等方案的实际选型经验。",
+      "link": "https://securityboulevard.com/2026/03/the-prompt-injection-peril-and-why-ai-agents-are-your-networks-newest-vulnerability/"
+    },
+    {
+      "title": "LLM 去匿名化能力引发隐私大讨论",
+      "date": "2026-03-15",
+      "summary": "最新研究表明 LLM 可通过写作风格分析大规模去匿名化在线用户，Reddit 隐私社区热烈讨论其对言论自由和匿名文化的影响，呼吁建立 AI 隐私保护规范。",
+      "link": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Mistral Forge：企业自建 AI 模型平台",
+      "date": "2026-03-18",
+      "summary": "Mistral 发布 Forge 平台，企业可基于私有数据从头训练、适配和持续优化 AI 模型。支持全流程模型构建，定位为 OpenAI 和 Anthropic 企业 API 之外的「自主可控」替代方案。",
+      "link": "https://venturebeat.com/infrastructure/mistral-ai-launches-forge-to-help-companies-build-proprietary-ai-models"
+    },
+    {
+      "title": "Snowflake Project SnowWork：Agentic AI 工作平台",
+      "date": "2026-03-18",
+      "summary": "Snowflake 发布 Project SnowWork，让业务用户通过对话式 AI Agent 直接从数据生成报告、分析和演示，内置 RBAC 权限控制和数据治理，减少对数据团队的依赖。",
+      "link": "https://www.businesswire.com/news/home/20260318040040/en/Snowflake-Launches-Project-SnowWork-Bringing-Outcome-Driven-AI-to-Every-Business-User"
+    },
+    {
+      "title": "Cursor + JetBrains ACP：跨 IDE AI 编码集成",
+      "date": "2026-03-14",
+      "summary": "Cursor 正式加入 ACP Registry，可在 JetBrains 全系 IDE 中使用。开发者无需切换编辑器即可获得 Cursor 的 AI 编码、自动补全和 Agent 模式能力。",
+      "link": "https://cursor.com/blog/jetbrains-acp"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Snowflake Project SnowWork：企业级 Agentic AI 落地",
+      "date": "2026-03-18",
+      "summary": "Snowflake 推出结果驱动型 AI Agent 平台 SnowWork，让非技术用户通过自然语言与数据交互完成分析任务。内置企业安全控制，被视为 Agentic AI 在企业场景的重要里程碑。",
+      "link": "https://www.businesswire.com/news/home/20260318040040/en/Snowflake-Launches-Project-SnowWork-Bringing-Outcome-Driven-AI-to-Every-Business-User"
+    },
+    {
+      "title": "Prompt Injection 成为 AI Agent 最大安全威胁",
+      "date": "2026-03-12",
+      "summary": "Security Boulevard 深度分析指出，随着 AI Agent 获得越来越多系统权限，prompt injection 已从学术问题变为实际网络安全威胁，呼吁企业将 Agent 安全纳入 DevSecOps 流程。",
+      "link": "https://securityboulevard.com/2026/03/the-prompt-injection-peril-and-why-ai-agents-are-your-networks-newest-vulnerability/"
+    },
+    {
+      "title": "FARS 全自动 AI 科学家 270 小时连续研究实验",
+      "date": "2026-03-19",
+      "summary": "Analemma 团队打造的 FARS 系统完成 270 小时连续公开直播，自主提出研究想法、编写代码、运行实验。这是目前最长的全自动 AI 科研 Agent 公开运行记录。",
+      "link": "https://www.bilibili.com/video/BV1VnftBSE8V/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "NVIDIA GTC 2026：AI 硬件全家桶更新",
+      "date": "2026-03-18",
+      "summary": "GTC 2026 成为本周硅谷焦点：Vera Rubin 架构、DGX Spark 个人超算（$3899起）、NemoTron Ultra 开源模型、以及 $2B Nebius 投资，NVIDIA 全面巩固 AI 基础设施霸主地位。",
+      "link": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "title": "OpenAI 年收入 $250亿，IPO 箭在弦上",
+      "date": "2026-03-17",
+      "summary": "CNBC 独家报道 OpenAI 正式启动 IPO 准备，预计 2030 年收入超 $2800 亿。Sam Altman 将 ChatGPT 重新定位为「生产力工具」，试图吸引机构投资者。同时暗示定价将大幅调整。",
+      "link": "https://www.cnbc.com/2026/03/17/openai-preps-for-ipo-in-2026-says-chatgpt-must-be-productivity-tool.html"
+    },
+    {
+      "title": "Ayar Labs $5亿融资：硅光子成为 AI 基础设施新赛道",
+      "date": "2026-03-13",
+      "summary": "硅光子 chiplet 公司 Ayar Labs 获 $5 亿 E 轮融资并与 Wiwynn 达成战略合作。其共封装光学技术直接解决 GPU 集群互连带宽瓶颈，被视为下一代 AI 数据中心关键技术。",
+      "link": "https://www.storagenewsletter.com/2026/03/13/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国 AI 大模型调用量连续两周超越美国",
+      "date": "2026-03-16",
+      "summary": "全球 API 数据显示中国 AI 大模型周调用量达 4.69 万亿 Token，超越美国 3.294 万亿 Token。国产模型在编程和智能体领域能力快速提升，东莞证券研报看好调用量持续增长。",
+      "link": "https://36kr.com/p/3725445557991808"
+    },
+    {
+      "title": "央视 315 曝光 AI 大模型投毒乱象",
+      "date": "2026-03-16",
+      "summary": "2026 年央视 315 晚会曝光部分服务商通过批量制造虚假信息投喂 AI 大模型，操控 AI 回答结果。GEO（生成式引擎优化）灰色产业链浮出水面，引发对 AI 内容可信度的广泛关注。",
+      "link": "https://finance.sina.com.cn/tech/roll/2026-03-16/doc-inhrequq2747158.shtml"
+    },
+    {
+      "title": "美的发布 MevoX 智能体，家电巨头全面拥抱 AI Agent",
+      "date": "2026-03-17",
+      "summary": "美的在 AWE 2026 上发布 MevoX 智能体，具备高阶推理和持续记忆能力，支持 1.4 亿联网家电统一调度。提出三年 600 亿元 AI 研发投入计划，联合华为、比亚迪推进车家互联。",
+      "link": "https://www.pconline.com.cn/focus/2116/21161974.html"
+    }
+  ]
+}

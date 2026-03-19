@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-03-19",
   "urls": [
     "http://www.econotimes.com/Yann-LeCuns-AI-Startup-AMI-Raises-1-Billion-at-35-Billion-Valuation-1735775",
     "https://36kr.com/p/3676032461546116",
     "https://36kr.com/p/3680115716206212",
     "https://36kr.com/p/3709827296440713",
+    "https://36kr.com/p/3725445557991808",
     "https://9to5mac.com/2026/03/01/apple-replacing-core-ml-with-modernized-core-ai-framework-for-ios-27-at-wwdc/",
     "https://academy.dair.ai/blog/agents-md-evaluation",
     "https://acecloud.ai/blog/nvidia-blackwell-ultra-b300-gb300-guide/",
@@ -53,6 +54,7 @@
     "https://dev.to/joeljstephen/february-2026-ai-roundup-agents-take-the-wheel-11jo",
     "https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7",
     "https://dev.to/timothy_spann_a41a639e47c/all-data-and-ai-weekly-230-23-feb-2026-4a1",
+    "https://dev.to/uenyioha/os-level-sandboxing-kernel-isolation-for-ai-agents-3fdg",
     "https://dev.to/umesh_malik/openai-gpt-54-complete-guide-benchmarks-use-cases-pricing-api-and-gpt-54-pro-comparison-m8k",
     "https://developer.aliyun.com/article/1715527",
     "https://developer.aliyun.com/article/1715703",
@@ -75,6 +77,7 @@
     "https://finance.sina.com.cn/stock/t/2026-03-02/doc-inhpqvaq5350351.shtml",
     "https://finance.sina.com.cn/stock/t/2026-03-16/doc-inhrffse5704712.shtml",
     "https://finance.sina.com.cn/tech/roll/2026-02-23/doc-inhntzzs0195376.shtml",
+    "https://finance.sina.com.cn/tech/roll/2026-03-16/doc-inhrequq2747158.shtml",
     "https://finance.yahoo.com/news/deepseek-release-long-awaited-ai-162425187.html",
     "https://fortune.com/2026/02/27/block-jack-dorsey-ceo-xyz-stock-square-4000-ai-layoffs/",
     "https://fortune.com/2026/03/02/anthropic-claude-dario-amodei-number-one-app-store-openai-chatgpt-sam-altman-department-war/",
@@ -99,6 +102,7 @@
     "https://markaicode.com/vs/vs-code-vs-cursor/",
     "https://markets.financialcontent.com/stocks/article/accwirecq-2026-3-4-openclawd-releases-major-platform-update-as-openclaw-surpasses-react-with-250000-github-stars",
     "https://meditations.metavert.io/p/the-state-of-ai-agents-in-2026",
+    "https://medium.com/@rentierdigital/claude-cowork-steals-your-files-the-prompt-injection-nightmare-that-breaks-in-48-hours-0ae8f361320c",
     "https://medium.com/illumination/perplexity-computer-launch-2026-full-review-of-the-new-agentic-ai-tool-df227eb61c36",
     "https://mlq.ai/news/ai-roundup/2026-03-08/march-8-ai-roundup-massive-model-launches-funding-frenzies-and-pentagon-standoffs-rock-the-industry/",
     "https://money.usnews.com/investing/news/articles/2026-02-27/nvidia-plans-new-chip-to-speed-ai-processing-wsj-reports",
@@ -123,6 +127,7 @@
     "https://news.ycombinator.com/item?id=47363754",
     "https://news.ycombinator.com/item?id=47388676",
     "https://news.ycombinator.com/item?id=47391803",
+    "https://news.ycombinator.com/item?id=47427017",
     "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
     "https://papers.cool/arxiv/2603.09877",
     "https://quantumzeitgeist.com/artificial-faster-intelligence-learns-virtual-worlds/",
@@ -130,6 +135,7 @@
     "https://releasebot.io/updates/notion",
     "https://releasebot.io/updates/openai",
     "https://saascrmreview.com/z-image-turbo-review/",
+    "https://securityboulevard.com/2026/03/the-prompt-injection-peril-and-why-ai-agents-are-your-networks-newest-vulnerability/",
     "https://seekingalpha.com/news/4560015-ai-coding-firm-cursor-reaches-2b-annual-revenue-rate",
     "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-25",
     "https://sfstandard.com/2026/02/27/anthropic-trump-blacklist/",
@@ -145,6 +151,7 @@
     "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
     "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
     "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
+    "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
     "https://technode.com/2026/03/05/bytedances-seedance-2-0-video-model-costs-about-0-14-per-second/",
     "https://techplanet.today/post/when-ai-says-no-understanding-llm-failures-and-the-hilarious-reality-of-ai-assisted-coding",
     "https://techstory.in/deepseek-set-to-launch-v4-flagship-model-ahead-of-chinas-two-sessions/",
@@ -162,6 +169,7 @@
     "https://topaiproduct.com/2026/03/07/autoresearch-karpathys-overnight-ai-researcher-that-runs-100-experiments-while-you-sleep/",
     "https://ucstrategies.com/news/notebooklms-new-update-5-real-world-use-cases-that-give-you-an-edge-at-work/",
     "https://variety.com/2026/film/news/netflix-acquires-ben-affleck-ai-filmmaking-startup-interpositive-1236679498/",
+    "https://venturebeat.com/infrastructure/mistral-ai-launches-forge-to-help-companies-build-proprietary-ai-models",
     "https://venturebeat.com/orchestration/openais-big-investment-from-aws-comes-with-something-else-new-stateful",
     "https://venturebeat.com/technology/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai",
     "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
@@ -180,14 +188,17 @@
     "https://www.axios.com/2026/03/06/white-house-red-state-ai-laws-scrutiny",
     "https://www.bbc.com/news/articles/cn48jj3y8ezo",
     "https://www.bilibili.com/video/BV1T3FhzjEAX/",
+    "https://www.bilibili.com/video/BV1VnftBSE8V/",
     "https://www.bilibili.com/video/BV1kZPYz4EMc/",
     "https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech",
     "https://www.businessinsider.com/andrej-karpathy-programming-unrecognizable-ai-2026-2",
     "https://www.businessinsider.com/claude-number-1-app-stores-chatgpt-apple-google-ai-2026-3",
     "https://www.businessinsider.com/openai-funding-round-4-times-bigger-than-largest-ipo-2026-2",
+    "https://www.businessinsider.com/openai-may-drop-unlimited-chatgpt-plans-exec-says-2026-3",
     "https://www.businessinsider.com/quitgpt-protest-against-openai-is-about-more-than-the-pentagon-2026-3",
     "https://www.businessinsider.com/takeaways-sam-altman-openai-pentagon-deal-ask-me-anything-2026-3",
     "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2",
+    "https://www.businesswire.com/news/home/20260318040040/en/Snowflake-Launches-Project-SnowWork-Bringing-Outcome-Driven-AI-to-Every-Business-User",
     "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html",
     "https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html",
     "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html",
@@ -195,7 +206,9 @@
     "https://www.cnbc.com/2026/03/04/cnbc-china-connection-newsletter-ai-startups-global-expansion-nvidia-warning-tripo-isales.html",
     "https://www.cnbc.com/2026/03/04/trump-faces-an-ai-data-center-power-dilemma-ahead-of-midterms.html",
     "https://www.cnbc.com/2026/03/05/5-big-questions-anthropic-pentagon-ai-war.html",
+    "https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html",
     "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+    "https://www.cnbc.com/2026/03/17/openai-preps-for-ipo-in-2026-says-chatgpt-must-be-productivity-tool.html",
     "https://www.cnbc.com/video/2026/03/03/qualcomm-ceo-consumers-are-going-to-see-better-ai-agents.html",
     "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
     "https://www.cnn.com/2026/03/10/tech/meta-moltbook-bots-social-media",
@@ -236,6 +249,7 @@
     "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth",
     "https://www.nytimes.com/2026/02/26/technology/block-square-job-cuts-ai.html",
     "https://www.nytimes.com/2026/03/02/technology/openai-pentagon-deal-amended-surveillance.html",
+    "https://www.pconline.com.cn/focus/2116/21161974.html",
     "https://www.pcworld.com/article/3076653/ai-could-dox-your-anonymous-posts.html",
     "https://www.producthunt.com/categories/ai-agent-automation",
     "https://www.producthunt.com/products/lunair",
@@ -297,10 +311,12 @@
     "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-02-25",
     "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-03-11",
     "https://www.siliconrepublic.com/business/toby-pohlen-latest-co-founder-to-exit-xai-jimmy-ba-tony-wu",
+    "https://www.siliconrepublic.com/machines/mistral-ai-france-small-4-forge-enterprise",
     "https://www.siliconvalley.com/2026/03/03/qualcomm-ceo-predicts-2026-will-be-the-year-of-the-ai-agent/",
     "https://www.singleapi.net/2026/03/13/nvidia-nemotron-3-and-claude-ai-agents-advances/",
     "https://www.sohu.com/a/993942238_121124358",
     "https://www.sri.inf.ethz.ch/publications/gloaguen2026agentsmd",
+    "https://www.storagenewsletter.com/2026/03/13/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/",
     "https://www.techbyjohan.com/tech-insights-2026-week-11/",
     "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
     "https://www.techradar.com/ai-platforms-assistants/chatgpt/sam-altman-says-gpt-5-4-is-his-favorite-model-to-talk-to-but-admits-openai-still-needs-to-fix-these-3-weaknesses",
@@ -321,6 +337,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
     "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
     "https://www.trendingtopics.eu/chatgpt-claude-anthropic-pentago-deal-cancel-openai/",
+    "https://www.understandingai.org/p/it-still-doesnt-look-like-theres",
     "https://www.webpronews.com/andrej-karpathys-autoresearch-wants-to-turn-ai-into-a-fully-automated-scientist/",
     "https://www.windowscentral.com/artificial-intelligence/cancel-chatgpt-movement-goes-mainstream-after-openai-closes-deal-with-u-s-department-of-war-as-anthropic-refuses-to-surveil-american-citizens",
     "https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/",
@@ -461,102 +478,102 @@
   "https://www.analyticsinsight.net/news/broadcom-stock-drops-4-despite-record-ai-revenue-and-optimistic-forecast": "2026-03-15",
   "https://nvidianews.nvidia.com/news/nvidia-gtc-2026-keynote": {
     "date": "2026-03-16",
-    "title": "NVIDIA GTC 2026 \u5f00\u5e55\uff1aNemoClaw \u6b63\u5f0f\u53d1\u5e03\uff0c\u4f01\u4e1a Agent \u751f\u6001\u4e09\u56fd\u6740",
+    "title": "NVIDIA GTC 2026 开幕：NemoClaw 正式发布，企业 Agent 生态三国杀",
     "section": "insights"
   },
   "https://www.donews.com/news/detail/4/4285012.html": {
     "date": "2026-03-16",
-    "title": "\u534e\u6cf0\u8bc1\u5238\uff1aAI \u4ea7\u4e1a\u7ade\u4e89\u91cd\u5fc3\u4ece\u6a21\u578b\u80fd\u529b\u8f6c\u5411\u590d\u6742\u4efb\u52a1\u4ea4\u4ed8\u4e0e Agent \u843d\u5730",
+    "title": "华泰证券：AI 产业竞争重心从模型能力转向复杂任务交付与 Agent 落地",
     "section": "insights"
   },
   "https://link.baai.ac.cn/@AI_era/114054302939750400": {
     "date": "2026-03-16",
-    "title": "\u5168\u6c11\u517b\u867e\u70ed\u6f6e\u9000\u53bb\uff1aOpenClaw \u5b89\u88c5\u6f6e\u672a\u6b47\u5378\u8f7d\u670d\u52a1\u5df2\u4e0a\u7ebf",
+    "title": "全民养虾热潮退去：OpenClaw 安装潮未歇卸载服务已上线",
     "section": "insights"
   },
   "https://mp.weixin.qq.com/s/AI-Agent-2026-market-explosion": {
     "date": "2026-03-16",
-    "title": "2026 \u5e74\u88ab\u5b9a\u4e49\u4e3a AI Agent \u5143\u5e74\uff1a\u4e07\u4ebf\u5e02\u573a\u6b63\u5728\u7206\u53d1",
+    "title": "2026 年被定义为 AI Agent 元年：万亿市场正在爆发",
     "section": "insights"
   },
   "https://zhuanlan.zhihu.com/p/1043296847": {
     "date": "2026-03-16",
-    "title": "\u77e5\u4e4e\u6df1\u5ea6\uff1a2026 \u5e74\u7b49\u5f85 AI \u8fdb\u5165\u7269\u7406\u4e16\u754c",
+    "title": "知乎深度：2026 年等待 AI 进入物理世界",
     "section": "insights"
   },
   "https://www.afzhan.com/news/detail/95821.html": {
     "date": "2026-03-16",
-    "title": "\u6d82\u9e26\u667a\u80fd\u53d1\u5e03 DuckyClaw \u786c\u4ef6\u539f\u751f AI Agent \u6846\u67b6",
+    "title": "涂鸦智能发布 DuckyClaw 硬件原生 AI Agent 框架",
     "section": "insights"
   },
   "https://arxiv.org/abs/2603.09841": {
     "date": "2026-03-16",
-    "title": "NemoClaw\uff1aNVIDIA \u4f01\u4e1a\u7ea7 AI Agent \u5e73\u53f0\u67b6\u6784\u8bba\u6587",
+    "title": "NemoClaw：NVIDIA 企业级 AI Agent 平台架构论文",
     "section": "papers"
   },
   "https://arxiv.org/abs/2603.08956": {
     "date": "2026-03-16",
-    "title": "Kimi K2.5 \u6280\u672f\u62a5\u544a\u66f4\u65b0\uff1aAgent Swarm \u534f\u4f5c\u673a\u5236\u5b9e\u9a8c\u7ed3\u679c",
+    "title": "Kimi K2.5 技术报告更新：Agent Swarm 协作机制实验结果",
     "section": "papers"
   },
   "https://arxiv.org/abs/2603.09234": {
     "date": "2026-03-16",
-    "title": "GPT-5.4 \u6280\u672f\u8bc4\u6d4b\uff1aComputer Use \u80fd\u529b vs \u4eba\u7c7b\u4e13\u5bb6",
+    "title": "GPT-5.4 技术评测：Computer Use 能力 vs 人类专家",
     "section": "papers"
   },
   "https://nitter.net/sama/status/1901234567890123456": {
     "date": "2026-03-16",
-    "title": "Sam Altman \u56de\u5e94 GPT-5.4 \u7f16\u7801\u4e0d\u654c Claude\uff1a\u6211\u4eec\u5728\u591a\u6a21\u6001\u4e0a\u66f4\u5f3a",
+    "title": "Sam Altman 回应 GPT-5.4 编码不敌 Claude：我们在多模态上更强",
     "section": "xPosts"
   },
   "https://www.latent.space/p/gtc-2026-agent-developer-implications": {
     "date": "2026-03-16",
-    "title": "Claude Code \u793e\u533a\u70ed\u8bae\uff1aGTC 2026 \u5bf9 Agent \u5f00\u53d1\u8005\u610f\u5473\u7740\u4ec0\u4e48",
+    "title": "Claude Code 社区热议：GTC 2026 对 Agent 开发者意味着什么",
     "section": "discord"
   },
   "https://github.com/NVIDIA/NemoClaw": {
     "date": "2026-03-16",
-    "title": "NemoClaw\uff1aNVIDIA \u5f00\u6e90\u4f01\u4e1a\u7ea7 AI Agent \u7f16\u6392\u5e73\u53f0",
+    "title": "NemoClaw：NVIDIA 开源企业级 AI Agent 编排平台",
     "section": "github"
   },
   "https://github.com/tuya/DuckyClaw": {
     "date": "2026-03-16",
-    "title": "DuckyClaw\uff1a\u6d82\u9e26\u667a\u80fd\u786c\u4ef6\u539f\u751f AI Agent \u6846\u67b6\u5f00\u6e90",
+    "title": "DuckyClaw：涂鸦智能硬件原生 AI Agent 框架开源",
     "section": "github"
   },
   "https://www.reddit.com/r/MachineLearning/comments/1rq8j2k/nvidia_nemoclaw_open_source_enterprise_agent/": {
     "date": "2026-03-16",
-    "title": "GTC 2026 \u5b9e\u65f6\u8ba8\u8bba\u5e16\uff1aNemoClaw \u5f00\u6e90\u662f\u5927\u5229\u597d\u8fd8\u662f\u751f\u6001\u788e\u7247\u5316\uff1f",
+    "title": "GTC 2026 实时讨论帖：NemoClaw 开源是大利好还是生态碎片化？",
     "section": "reddit"
   },
   "https://www.reddit.com/r/AI_Agents/comments/1rq9abc/agent_coding_battle_claude_code_vs_gpt54_vs_antigravity/": {
     "date": "2026-03-16",
-    "title": "r/AI_Agents\uff1aAgent \u7f16\u7801\u5b9e\u6218\u2014\u2014Claude Code vs GPT-5.4 vs Antigravity",
+    "title": "r/AI_Agents：Agent 编码实战——Claude Code vs GPT-5.4 vs Antigravity",
     "section": "reddit"
   },
   "https://www.reddit.com/r/technology/comments/1rq7xyz/meta_layoffs_ai_teams_actually_hiring/": {
     "date": "2026-03-16",
-    "title": "Meta \u88c1\u5458 20% \u540e\u7eed\uff1a\u5185\u90e8\u5458\u5de5\u7206\u6599 AI \u57fa\u7840\u8bbe\u65bd\u56e2\u961f\u53cd\u800c\u5728\u6269\u62db",
+    "title": "Meta 裁员 20% 后续：内部员工爆料 AI 基础设施团队反而在扩招",
     "section": "reddit"
   },
   "https://docs.anthropic.com/en/docs/claude-code/changelog": {
     "date": "2026-03-16",
-    "title": "Claude Code 1.0.24 \u66f4\u65b0\uff1a\u652f\u6301 NemoClaw AOP \u534f\u8bae\u96c6\u6210",
+    "title": "Claude Code 1.0.24 更新：支持 NemoClaw AOP 协议集成",
     "section": "tools"
   },
   "https://www.jiemian.com/article/12345678.html": {
     "date": "2026-03-16",
-    "title": "Artefact \u4e0a\u6d77\u8bba\u575b\uff1a\u4f01\u4e1a AI Agent \u843d\u5730\u8def\u5f84\u6df1\u5ea6\u5bf9\u8bdd",
+    "title": "Artefact 上海论坛：企业 AI Agent 落地路径深度对话",
     "section": "agent"
   },
   "https://mp.weixin.qq.com/s/AI-IP-new-rules-2026": {
     "date": "2026-03-16",
-    "title": "AI \u77e5\u8bc6\u4ea7\u6743\u89c4\u5219\u5730\u9707\uff1a2026 \u5e74 2-3 \u6708\u520a\u6df1\u5ea6\u89e3\u8bfb",
+    "title": "AI 知识产权规则地震：2026 年 2-3 月刊深度解读",
     "section": "mainlandChina"
   },
   "https://mp.weixin.qq.com/s/shenzhen-ai-agent-training-2026": {
     "date": "2026-03-16",
-    "title": "\u6df1\u5733\u7387\u5148\u542f\u52a8 AI \u667a\u80fd\u4f53\u57f9\u8bad\u8ba4\u8bc1\uff1a\u653f\u4f01\u8054\u5408\u63a8\u52a8\u4eba\u624d\u8f6c\u578b",
+    "title": "深圳率先启动 AI 智能体培训认证：政企联合推动人才转型",
     "section": "mainlandChina"
   },
   "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/": "2026-03-18",
