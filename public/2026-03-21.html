@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月21日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月21日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. BIGMAS: 受脑启发的图多智能体系统用于LLM推理</h3>
+      <div class="meta">👤 </div>
+      <p>提出Brain-Inspired Graph Multi-Agent Systems，在Game24、Six Fives和Tower of London任务上，基于6个前沿LLM验证BIGMAS持续提升推理性能，超越ReAct等现有多Agent基线。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.15371" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. InterveneBench: LLM在真实社会系统中的干预推理基准</h3>
+      <div class="meta">👤 </div>
+      <p>针对LLM在因果研究设计中的局限性，提出InterveneBench基准和多Agent框架STRIDES，在干预推理任务上显著超越SOTA推理模型。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.15542" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Helium: 从数据系统视角优化Agent工作流的LLM服务</h3>
+      <div class="meta">👤 </div>
+      <p>将经典查询优化原理应用于LLM Agent服务，Helium在多种工作负载上实现最高1.56倍的加速，为Agentic AI的大规模部署提供系统级优化方案。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.16104" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI安全社区声援Anthropic对抗五角大楼施压</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-20</div>
+      <p>Anthropic因拒绝取消AI安全限制被国防部列为供应链风险后，Google DeepMind首席科学家Jeff Dean等AI研究者公开表态支持AI安全底线。</p>
+  <a class="link" href="https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 开发者热议Hunter Alpha身份之谜：从DeepSeek V4到小米MiMo</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-19</div>
+      <p>OpenRouter上万亿参数匿名模型引发开发者社区大范围讨论和基准测试，最初被认为是DeepSeek V4，后有证据指向小米MiMo-V2-Pro。</p>
+  <a class="link" href="https://mashable.com/article/mystery-ai-model-hunter-alpha-may-be-deepseek-in-disguise" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AGENTS.md成为AI编码Agent标配：20+工具原生支持</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-21</div>
+      <p>截至2026年3月，GitHub Copilot、Cursor、Windsurf、Codex CLI、Devin等20+工具已原生解析AGENTS.md。开发者社区讨论这一新标准如何改变人机协作编码方式。</p>
+  <a class="link" href="https://particula.tech/blog/agents-md-ai-coding-agent-configuration" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI编码Agent安全性争论：Discord社区分两派</h3>
+      <div class="meta">💬 </div>
+      <p>围绕HN热帖「Agent stuff is making me lose respect for our industry」，Discord AI社区展开激烈辩论，一方担忧安全最佳实践被抛弃，另一方展示高质量Agent工作流。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47444816" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Stanford OpenJarvis：本地优先AI Agent框架引发隐私讨论</h3>
+      <div class="meta">💬 </div>
+      <p>Stanford发布OpenJarvis开源框架，支持完全在设备端运行的个人AI Agent，具备工具调用、记忆和持续学习能力。Discord隐私AI社区热议其对云端Agent模式的挑战。</p>
+  <a class="link" href="https://dataconomy.com/2026/03/16/openjarvis-local-first-ai-agents-that-run-entirely-on-device/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.4 mini上线免费版ChatGPT：Discord开发者社区测评反馈</h3>
+      <div class="meta">💬 </div>
+      <p>GPT-5.4 mini向免费用户开放后，Discord多个AI开发者频道涌入大量测评对比，重点关注其subagent能力和多模态理解的提升。</p>
+  <a class="link" href="https://dataconomy.com/2026/03/18/openai-releases-gpt-5-4-mini-and-nano-models/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GitNexus知识图谱引擎17K Stars：让AI编码Agent理解代码全局架构</h3>
+      
+      <p>GitNexus将代码库索引为知识图谱，暴露每个依赖、调用链和执行流，通过MCP让AI编码Agent不再盲目修改代码。2月发布至今Stars突破17.4K。</p>
+  <a class="link" href="https://byteiota.com/gitnexus-transforms-ai-coding-with-knowledge-graphs/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NemoClaw开源Agent框架登陆GitHub</h3>
+      
+      <p>NVIDIA在GTC 2026发布的NemoClaw企业级Agent框架开源上线GitHub，专注安全治理和隐私保护，为生产环境Agent部署提供基础设施。</p>
+  <a class="link" href="https://popularaitools.ai/nvidia-gtc-2026-nemoclaw/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Bridge ACE：自托管开源AI IDE新选手</h3>
+      
+      <p>Bridge ACE作为完全自托管的开源AI IDE在GitHub开源，支持Claude/Codex/Qwen多模型，Apache 2.0协议，无需云端依赖。</p>
+  <a class="link" href="https://dev.to/bridgeace/bridge-ace-vs-claude-code-vs-cursor-vs-windsurf-vs-devin-an-honest-comparison-march-2026-1de0" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Agent stuff is really making me lose respect for our industry</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN热帖引发大量讨论：Agent编码工具让开发者集体放弃编程安全最佳实践，确定性被牺牲。评论区从愤怒到务实，折射行业对AI Agent的复杂情绪。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47444816" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. I'm OK being left behind, thanks — 拒绝AI焦虑的声音</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN热帖讨论AI时代的选择焦虑，有人选择不追赶AI浪潮。评论区理性分析当前AI工具的真实生产力增益，认为onboarding成本仍然较高。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47454341" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 如何评估LLM输出太AI味的问题</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>创业者分享构建内容生成工具时面临的核心工程挑战：让模型停止使用delve、testament等AI味词汇。HN社区分享各种去AI味的技术方案。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47450556" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic vs 五角大楼：军方用户反对替换Claude</h3>
+      <div class="meta">reddit: </div>
+      <p>Reuters报道显示，尽管Hegseth要求五角大楼放弃Anthropic的Claude，但军方用户强烈反对，认为替换并不容易。Reddit AI社区深度讨论AI公司对军方说不的权利。</p>
+  <a class="link" href="https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. The Actual State of AI Engineering In 2026</h3>
+      <div class="meta">reddit: </div>
+      <p>r/aiengineering热帖讨论2026年AI Engineering的真实状态，从模型选型到Agent部署的实战经验分享，以及AI对工程师就业市场的实际影响。</p>
+  <a class="link" href="https://www.reddit.com/r/aiengineering/comments/1rf7myh/the_actual_state_of_ai_engineering_in_2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 2月全球AI APP下载报告：ChatGPT领先但增速放缓</h3>
+      <div class="meta">reddit: </div>
+      <p>点点数据显示2026年2月全球原生AI APP下载3.5亿次，ChatGPT和Gemini领先但均出现下滑，豆包下降明显，即梦AI挤入前五，DeepSeek跌出榜单。</p>
+  <a class="link" href="https://36kr.com/p/3725337174995713" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Pixel March Drop：Circle to Search + Magic Cue新AI功能</h3>
+      
+      <p>Google发布3月Pixel Drop更新，Circle to Search获得新的个性化能力，Magic Cue提供餐饮建议，Watch增加安全功能，AI功能持续深入日常场景。</p>
+  <a class="link" href="https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Stanford OpenJarvis：完全离线运行的个人AI Agent框架</h3>
+      
+      <p>Stanford开源OpenJarvis框架，支持在本地设备上构建带工具调用、记忆和持续学习的个人AI Agent，数据永不离开设备，隐私优先。</p>
+  <a class="link" href="https://dataconomy.com/2026/03/16/openjarvis-local-first-ai-agents-that-run-entirely-on-device/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.4 mini向免费用户开放：支持Thinking模式和subagent</h3>
+      
+      <p>OpenAI将GPT-5.4 mini部署到ChatGPT免费版，通过Thinking功能开放，并新增subagent能力。在视觉和编码基准测试上大幅超越前代mini模型。</p>
+  <a class="link" href="https://www.androidheadlines.com/2026/03/openai-gpt-5-4-mini-nano-launch-free-chatgpt.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. LLM Web Agent为何失败？层级规划视角的深度分析</h3>
+      <div class="meta">🤖 </div>
+      <p>arXiv新论文从层级规划角度系统分析LLM Web Agent的失败原因，发现提升感知定位和自适应控制（而非仅高层推理）才是实现人类级可靠性的关键。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.14248" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenJarvis：Stanford打造本地优先Agent框架，挑战云端模式</h3>
+      <div class="meta">🤖 </div>
+      <p>Stanford发布的OpenJarvis框架让个人AI Agent完全在本地运行，具备工具使用、记忆持久化和增量学习能力。这标志着Agent范式从云端向边缘设备的重要转移。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/03/12/stanford-researchers-release-openjarvis-a-local-first-framework-for-building-on-device-personal-ai-agents-with-tools-memory-and-learning/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 2026年Agent从Chatbot走向基础设施：Reddit热议范式转变</h3>
+      <div class="meta">🤖 </div>
+      <p>Reddit r/AI_Agents热帖指出2024是Chatbot之年，2026年AI正变得像电网一样无形且必要——静默处理数据同步、邮件分类、能源优化。Agent正在消失于日常基础设施中。</p>
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1rvvz4z/2024_was_the_year_of_the_chatbot_2026_is_the_year/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic vs 五角大楼：AI安全红线之争白热化</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>五角大楼将Anthropic列为「供应链风险」，因其拒绝在军事系统中移除AI安全护栏。Anthropic提起诉讼反击，法庭文件揭示双方曾接近达成协议。这场冲突正在重新定义AI伦理与国家安全的边界。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hunter Alpha谜团揭晓：万亿参数模型疑似小米MiMo-V2-Pro</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>3月11日匿名上线OpenRouter的Hunter Alpha模型（1万亿参数、100万token上下文），被开发者广泛猜测为DeepSeek V4，最新证据指向小米MiMo-V2-Pro。中国AI暗战进入隐身测试新阶段。</p>
+  <a class="link" href="https://www.technology.org/2026/03/19/whos-that-ai-the-mystery-model-everyone-blamed-on-deepseek-turned-out-to-be-xiaomi/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.4 Mini/Nano发布：免费用户也能用准旗舰级AI</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>OpenAI发布GPT-5.4 mini和nano两款紧凑模型，mini版本响应速度提升2倍以上，现已向免费和Go用户开放。在编程和多模态理解上较GPT-5.0 mini大幅提升。</p>
+  <a class="link" href="https://9to5mac.com/2026/03/17/openai-releases-gpt-5-4-mini-and-nano-its-most-capable-small-models-yet/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 腾讯QClaw（龙虾）邀请制测试：AI接入微信生态</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>3月18日腾讯低调开放QClaw测试，基于OpenClaw技能体系，可直接操作微信完成任务。马化腾亲自转发产品矩阵文章，腾讯市值因此暴涨3500亿。企业微信同步开放OpenClaw机器人接入。</p>
+  <a class="link" href="https://36kr.com/p/3728581722092039" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. AI编码工具大横评：Claude Code vs Cursor vs Windsurf vs Devin（2026年3月）</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>DEV Community发布2026年3月AI编码工具全面对比，Opus 4.6编码智能领先，Codex CLI沙盒安全性最佳，Cursor在2026年初加入OS级沙盒。AGENTS.md已成为所有主流AI编码工具的标配。</p>
+  <a class="link" href="https://dev.to/bridgeace/bridge-ace-vs-claude-code-vs-cursor-vs-windsurf-vs-devin-an-honest-comparison-march-2026-1de0" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. 2026年3月：12+新AI模型集中发布，行业进入「模型爆炸」期</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>仅3月一个月内就有超过12个重要AI模型发布，包括GPT-5.4系列、Hunter Alpha、腾讯混元等。模型竞赛从参数规模转向效率和场景落地，Agentic AI成为主旋律。</p>
+  <a class="link" href="https://www.devflokers.com/blog/new-ai-model-releases-open-source-projects-march-18-19-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. HN热议：Agent编程正在颠覆软件工程最佳实践</h3>
+      <div class="meta">📅 2026-03-21</div>
+      <p>Hacker News热帖引发争论：AI Agent编码工具正让开发者集体放弃多年积累的编程/安全最佳实践，软件质量和确定性被牺牲。但也有人展示Agent辅助开发的高质量产出流程。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47444816" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic起诉美国政府：AI伦理公司的生存之战</h3>
+      
+      <p>Anthropic因坚持AI安全底线被五角大楼列为供应链风险后提起两项诉讼。$200M军事合同破裂，Trump公开施压，但军方用户抵制替换Claude。这是AI行业史上最重大的伦理对抗事件。</p>
+  <a class="link" href="https://www.newyorker.com/news/annals-of-inquiry/the-pentagon-went-to-war-with-anthropic-whats-really-at-stake" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI GPT-5.4 mini/nano发布：小模型大能力</h3>
+      
+      <p>OpenAI发布GPT-5.4 mini和nano两款小型模型，mini版向免费用户开放，nano版面向端侧部署。小模型赛道竞争白热化，AI民主化加速。</p>
+  <a class="link" href="https://9to5google.com/2026/03/17/openai-gpt-5-4-mini-nano-models/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Hunter Alpha引发规模定律质疑：中国模型的成本效率冲击</h3>
+      
+      <p>分析认为Hunter Alpha（疑似小米MiMo-V2-Pro）以极低训练成本实现万亿参数，如果属实将彻底颠覆AI规模定律。硅谷巨头面临来自中国的又一次成本效率冲击。</p>
+  <a class="link" href="https://efficienist.com/what-is-hunter-alpha-openrouter-model-could-actually-be-xiaomi-mimo-v2-pro/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 腾讯QClaw（龙虾）低调开测：AI Agent接入微信生态</h3>
+      
+      <p>腾讯以邀请制测试形式发布QClaw，可直接操作微信完成任务，兼容OpenClaw技能体系。马化腾凌晨转发，腾讯市值暴涨3500亿。但体验反馈显示产品仍较粗糙。</p>
+  <a class="link" href="https://36kr.com/p/3728581722092039" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hunter Alpha身份反转：从DeepSeek V4到小米MiMo-V2-Pro</h3>
+      
+      <p>OpenRouter上匿名万亿参数模型Hunter Alpha引发全球开发者猜测是DeepSeek V4，最新调查指向小米。小米在AI大模型领域的隐秘布局曝光，中国AI竞争格局再添变数。</p>
+  <a class="link" href="https://efficienist.com/what-is-hunter-alpha-openrouter-model-could-actually-be-xiaomi-mimo-v2-pro/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 腾讯AI急行军：微信生态的AI化与混元大模型4月对决</h3>
+      
+      <p>马化腾承认腾讯AI起步慢，但正在全力追赶。QClaw上线、企业微信接入Agent、混元登顶LMArena榜单。4月将迎来DeepSeek V4与腾讯混元的关键对决，微信等超级场景成为胜负手。</p>
+  <a class="link" href="https://www.huxiu.com/article/4842068.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:35 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
