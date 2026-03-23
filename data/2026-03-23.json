@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-23",
+  "insights": [
+    {
+      "title": "小米 MiMo-V2-Pro 万亿参数模型揭秘：Hunter Alpha 身份确认，AI 格局再变",
+      "date": "2026-03-23",
+      "summary": "小米以 Hunter Alpha 匿名身份在 OpenRouter 上线万亿参数模型 MiMo-V2-Pro，一度被误认为 DeepSeek V4。该模型在编码和 Agent 任务上接近 Claude Opus 4.6，成本却低 67%，VentureBeat 称这是中国 AI 的重要里程碑。",
+      "link": "https://venturebeat.com/technology/xiaomi-stuns-with-new-mimo-v2-pro-llm-nearing-gpt-5-2-opus-4-6-performance"
+    },
+    {
+      "title": "NVIDIA GTC 2026 全面解读：七款芯片、万亿美元订单、Agentic AI 全面押注",
+      "date": "2026-03-23",
+      "summary": "黄仁勋在 GTC 2026 近三小时主题演讲中发布 Vera Rubin 平台、DGX Spark 桌面超算和 Thinking Machines Lab，宣布预计 Blackwell 和 Vera Rubin 系统到 2027 年订单达 1 万亿美元。",
+      "link": "https://thegpu.ai/p/nvidia-gtc-2026-full-breakdown"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.4 mini/nano：子代理时代的小模型革命",
+      "date": "2026-03-23",
+      "summary": "OpenAI 推出 GPT-5.4 mini 和 nano 两款小模型，专为 Agent 子任务设计，速度提升 2 倍以上，编码和推理表现接近 GPT-5.4。Free 和 Go 用户也可通过 Thinking 切换使用推理能力。",
+      "link": "https://thenewstack.io/gpt-54-nano-mini/"
+    },
+    {
+      "title": "OpenAI 合并 ChatGPT+Codex+Atlas 为桌面超级应用",
+      "date": "2026-03-23",
+      "summary": "OpenAI 于 3 月 20 日确认将 ChatGPT、Codex 编程平台和 Atlas 浏览器合并为单一桌面「超级应用」，内部称产品碎片化已拖慢研发速度并影响质量。",
+      "link": "https://www.sightsinplus.com/news/chatgpt-just-got-a-promotion-meet-new-ai-first-desktop-ecosystem-by-openai"
+    },
+    {
+      "title": "SWE-Bench 2026 年 3 月排行榜：Claude Opus 4.5 领跑 80.9%，十二款模型达到生产级",
+      "date": "2026-03-23",
+      "summary": "2026 年 3 月 SWE-Bench Verified 排行榜：Claude Opus 4.5 以 80.9% 领跑，Claude Opus 4.6 紧随 80.8%，Gemini 3.1 Pro 80.6%，GPT-5.2 80.0%。四大基准对比显示 AI 编程能力正加速趋同。",
+      "link": "https://www.marc0.dev/en/leaderboard"
+    },
+    {
+      "title": "Karpathy AutoResearch 掀起 AI 自研范式讨论：700 次实验、20 项优化一夜完成",
+      "date": "2026-03-23",
+      "summary": "Andrej Karpathy 开源 autoresearch 框架，让 AI Agent 在单 GPU 上 2 天内自主运行 700 次 ML 实验并发现 20 项训练优化。SkyPilot 团队已将其扩展到 GPU 集群并行运行，引发「AI 研究员是否会被取代」的行业辩论。",
+      "link": "https://fortune.com/2026/03/17/andrej-karpathy-loop-autonomous-ai-agents-future/"
+    },
+    {
+      "title": "阿里云、百度智能云同步涨价：AI 算力紧缺成新常态",
+      "date": "2026-03-23",
+      "summary": "3 月 18 日阿里云和百度智能云同时宣布上调 AI 算力及存储产品价格，最高涨幅 34%。春节期间 Agent 应用爆发，百炼 MaaS 1-3 月创历史最高增速，Token 调用量暴涨推动算力成本上升。",
+      "link": "https://finance.sina.com.cn/jjxw/2026-03-18/doc-inhrkskx9448044.shtml"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Attention Residuals: Kimi 团队提出新型注意力残差连接机制",
+      "date": "2026-03-23",
+      "summary": "Kimi 团队（Moonshot AI）提出 Attention Residuals 方法，重新设计 PreNorm 残差连接方案，在 r/MachineLearning 引发热议。论文展示了对现代 Transformer 标准架构的重要改进。",
+      "link": "https://arxiv.org/abs/2603.15031"
+    },
+    {
+      "title": "ICML 2026 严打 LLM 审稿：违规使用 AI 的审稿论文被拒",
+      "date": "2026-03-23",
+      "summary": "ICML 2026 发布公告，对违反「禁止使用 LLM 审稿」政策的审稿人进行处罚，相关论文直接被拒。这是顶会首次大规模执行 AI 审稿禁令，引发学术界关于 AI 辅助学术工作边界的激烈讨论。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/"
+    },
+    {
+      "title": "GPT-5.4 vs Claude Opus 4.6 vs Gemini 3.1 Pro：2026 年 3 月终极对决",
+      "date": "2026-03-23",
+      "summary": "Claude Opus 4.6 以 81.4% SWE-bench 领跑编码和 14.5 小时任务持续力，GPT-5.4 以 75% OSWorld 领跑计算机操作（首次超越人类），Gemini 3.1 Pro 以 80.6% 紧随其后。三大模型各有擅长领域。",
+      "link": "https://spectrumailab.com/blog/gpt-5-4-vs-claude-opus-4-6-vs-gemini-3-1-pro-comparison-2026"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy：AutoResearch Agent 端到端自主工作流「is wild」",
+      "date": "2026-03-23",
+      "summary": "Karpathy 在 X 上分享 autoresearch 框架成果，称 Agent 自动发现了他 20 年手动研究中遗漏的注意力缩放和正则化问题。Forbes 深度报道引发数万次转发，成为本周 AI 社区最热话题。",
+      "link": "https://www.forbes.com/sites/josipamajic/2026/03/19/ai-agents-run-experiments-while-you-sleep-so-what-should-knowledge-workers-do/"
+    },
+    {
+      "title": "OpenAI 收购 Astral（ruff/uv）：继续加码 Python 开发者工具链",
+      "date": "2026-03-23",
+      "summary": "OpenAI 确认收购高性能 Python 工具开发商 Astral（ruff/uv 的创建者），此前曾试图 30 亿美元收购 Windsurf 未果。tracxn 统计 OpenAI 截至 3 月已完成 13 起收购。",
+      "link": "https://tracxn.com/d/acquisitions/acquisitions-by-openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg"
+    },
+    {
+      "title": "法国检方怀疑 Musk 故意利用 Grok Deepfake 争议提升 xAI 估值",
+      "date": "2026-03-23",
+      "summary": "法国检方表示 Grok 生成的 Deepfake 色情图片争议可能是「为人为提升 X 和 xAI 公司估值而故意制造的」。同时三名田纳西州未成年人已对 xAI 提起联邦诉讼，AI 安全监管进入新阶段。",
+      "link": "https://www.japantimes.co.jp/news/2026/03/22/world/crime-legal/french-prosecutors-musk-deepfakes/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "LocalLLaMA 社区热议：Claude Code/AI Agent 频繁搞乱代码库怎么办？",
+      "date": "2026-03-23",
+      "summary": "开发者在社区分享被 Claude Code 等 AI Agent 搞乱代码库的经历，并开源了一个带 Undo 按钮的 Sudo 包装工具。帖子引发对 AI 编程安全性和回滚机制的广泛讨论。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1rxxuf9/i_got_tired_of_claude_codeai_agents_messing_up_my/"
+    },
+    {
+      "title": "Apple Siri + Gemini 升级本月落地？Apple Intelligence 终于要兑现承诺",
+      "date": "2026-03-23",
+      "summary": "9to5Mac 报道 Apple 的 Gemini 驱动 Siri 升级可能在 3 月底随 iOS 26.5 beta 开始推送。这意味着 Apple Intelligence 核心功能将在 WWDC 2024 宣布近两年后首次真正落地。",
+      "link": "https://9to5mac.com/2026/03/20/apples-gemini-powered-siri-upgrade-could-still-arrive-this-month/"
+    },
+    {
+      "title": "GitHub 开源周报：Agent Harness 生态成熟，obra/superpowers 月增 38K 星",
+      "date": "2026-03-23",
+      "summary": "本周 GitHub 三大主题：Agent harness 框架成熟（superpowers 92K 星、gstack 一周 23K 星）、浏览器自动化基础设施层涌现、BitNet 量化项目在 HN 获 370 点。",
+      "link": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-03-18"
+    }
+  ],
+  "github": [
+    {
+      "title": "karpathy/autoresearch：AI Agent 自主运行 ML 实验的开源框架",
+      "date": "2026-03-23",
+      "summary": "Karpathy 开源的 autoresearch 框架在 GitHub 迅速走红，约 630 行代码 + 一个 Markdown prompt 即可让 Agent 在单 GPU 上自主运行数百次训练实验并发现优化点。SkyPilot 已实现集群级并行扩展。",
+      "link": "https://blog.skypilot.co/scaling-autoresearch/"
+    },
+    {
+      "title": "Open-SWE: LangChain 开源异步编程 Agent 框架",
+      "date": "2026-03-23",
+      "summary": "LangChain 团队发布 Open-SWE，一款完全开源的异步编程 Agent 框架，专为软件工程任务设计。在 GitHub Trending 上迅速上升，提供对 Codex/Devin 等商业产品的开源替代方案。",
+      "link": "https://aitoolly.com/ai-news/article/2026-03-21-langchain-ai-launches-open-swe-a-new-open-source-asynchronous-coding-agent-for-software-engineering"
+    },
+    {
+      "title": "GitHub Copilot Squad：仓库内多 Agent 协调编排",
+      "date": "2026-03-23",
+      "summary": "GitHub 官方博客详解 Copilot Squad 多 Agent 编排模式，支持在单个仓库内运行多个协调的 AI Agent 进行并行开发。这标志着从单 Agent 辅助到多 Agent 协作的范式转变。",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "在 AI 聊天机器人编程时代，新技术如何诞生？",
+      "date": "2026-03-23",
+      "summary": "HN 讨论帖探讨 AI 编程时代的技术创新悖论：如果所有人都用 AI 写代码，谁来发明新的编程范式和技术？社区认为 AI 可能帮助打破 NIH 综合症，但也可能固化现有技术栈。",
+      "link": "https://news.ycombinator.com/item?id=47480159"
+    },
+    {
+      "title": "2026 年 3 月 Top 5 LLMs 全面对比：Claude Opus 4.6 编码最强，GPT-5.4 终端执行最快",
+      "date": "2026-03-23",
+      "summary": "AlphaCorp 深度对比显示：Claude Opus 4.6 在复杂多文件推理领先（80.8% SWE-bench），GPT-5.4 终端执行最强（75.1% Terminal-Bench 2.0），Gemini 3.1 Pro 基准接近但价格最优。",
+      "link": "https://www.alphacorp.ai/blog/top-5-llms-for-march-2026-benchmarks-pricing-picks"
+    },
+    {
+      "title": "公司强推 AI 工具提升指标，开发者质疑其真实价值",
+      "date": "2026-03-23",
+      "summary": "HN 热评讨论公司强制使用 AI 编程工具以获取使用量指标的现象，社区质疑这是「烧 Token 给 AI 公司送钱」，与当年云计算炒作时的 CTO 决策失误如出一辙。",
+      "link": "https://news.ycombinator.com/item?id=47455064"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/LocalLLaMA：DeepSeek 到底在搞什么？几乎所有中国 AI 公司都已超越他们",
+      "date": "2026-03-23",
+      "summary": "157 票热帖讨论 DeepSeek 的沉寂：小米 MiMo-V2 已发布万亿参数模型，Qwen3.5 表现抢眼，但 DeepSeek 自 V3 后长时间无新动作，社区猜测可能在准备重大更新或转向新方向。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ryhn0o/what_the_hell_is_deepseek_doing_for_so_long/"
+    },
+    {
+      "title": "r/MachineLearning：ICML 因使用 LLM 审稿而拒绝违规论文",
+      "date": "2026-03-23",
+      "summary": "ICML 2026 对违反 LLM 审稿政策的审稿人及其论文采取处罚措施，r/MachineLearning 社区对此高度关注，讨论 AI 在学术审稿中的伦理边界。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/"
+    },
+    {
+      "title": "r/LocalLLaMA：Hunter Alpha 确认为小米 MiMo-V2-Pro，新模型即将到来",
+      "date": "2026-03-23",
+      "summary": "OpenRouter 匿名模型 Hunter/Healer Alpha 正式被确认为小米 MiMo-V2-Pro。社区讨论其万亿参数但不开源的矛盾，以及新版本模型的发布预告。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1rwm542/openrouter_stealth_model_hunterhealer_alpha_has/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Windsurf 简化定价：告别积分制，转向配额制套餐",
+      "date": "2026-03-23",
+      "summary": "Windsurf（前身 Codeium，已被 Cognition/Devin 收购）在 2026 年 3 月简化定价方案，用 Free/Pro/Teams/Max 配额制取代积分制。同期 Cursor 也加入 JetBrains ACP，AI IDE 竞争格局加速整合。",
+      "link": "https://www.getpanto.ai/blog/windsurf-ai-ide-statistics"
+    },
+    {
+      "title": "NotebookLM Cinematic Video Overviews：文档自动生成电影级视频",
+      "date": "2026-03-23",
+      "summary": "Google NotebookLM 推出 Cinematic Video Overviews 功能，3 月 19 日向 AI Pro/Ultra 用户全面开放。可将文档、PDF、笔记自动转化为带动画、旁白和流畅转场的专业视频概览。",
+      "link": "https://jetstream.blog/en/notebooklm-cinematic-video-overviews-google-ai-pro-rollout/"
+    },
+    {
+      "title": "Google Gemini 全家桶升级：AI Studio、Stitch、Drive 工作流 + NotebookLM 视频",
+      "date": "2026-03-23",
+      "summary": "Google 3 月 20 日集中发布多项 AI 功能更新：AI Studio 全面升级、Google Stitch 新工具、Gemini 集成 Google Drive 工作流，配合 NotebookLM 视频功能构成完整的 AI 工具生态。",
+      "link": "https://www.bizrescuepro.com/build-shippable-ai-tools-with-geminis-studio-stitch-notebooklm-video-drive-workflows/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "AutoResearch 引爆 AI 自研范式：Agent 一夜完成 700 次实验",
+      "date": "2026-03-23",
+      "summary": "Karpathy 的 autoresearch 框架让 AI Agent 自主设计实验、修改训练代码、优化模型参数。Forbes 报道这标志着「知识工作者需要重新思考自己的角色」，Agent 正在从辅助工具进化为独立研究者。",
+      "link": "https://blog.skypilot.co/scaling-autoresearch/"
+    },
+    {
+      "title": "AGENTS.md 成为 AI 编程标准：Linux 基金会背书、6 万+ 仓库采用",
+      "date": "2026-03-23",
+      "summary": "AGENTS.md 规范获 Linux 基金会 Agentic AI Foundation 背书，已被超过 6 万个 GitHub 仓库采用，包括 OpenAI、Apache Airflow、Temporal 等项目。成为 AI Agent 与代码仓库交互的事实标准。",
+      "link": "https://vibecoding.app/blog/agents-md-review"
+    },
+    {
+      "title": "OpenAI 超级应用整合 Codex + Atlas：Agent 工作流统一入口",
+      "date": "2026-03-23",
+      "summary": "OpenAI 将 ChatGPT、Codex 和 Atlas 浏览器合并为统一桌面应用，为 Agent 工作流提供从对话、编码到浏览的一站式体验。内部认为产品碎片化已成为 Agent 能力释放的瓶颈。",
+      "link": "https://www.el-balad.com/16886749"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Grok Deepfake 诉讼升级：法国检方调查 Musk 是否故意利用争议提升估值",
+      "date": "2026-03-23",
+      "summary": "法国检方怀疑 Musk 故意利用 Grok Deepfake 争议来人为提升 X 和 xAI 的估值。三名田纳西州未成年人已提起联邦诉讼，此案可能成为 AI 安全监管的标志性事件。",
+      "link": "https://www.japantimes.co.jp/news/2026/03/22/world/crime-legal/french-prosecutors-musk-deepfakes/"
+    },
+    {
+      "title": "OpenAI 2026 年 13 起收购：从 Astral 到 Torch 全面布局",
+      "date": "2026-03-23",
+      "summary": "OpenAI 3 月收购 Python 工具商 Astral（ruff/uv 创建者），此前 1 月以 6000 万美元收购医疗科技公司 Torch。截至 2026 年 3 月已完成 13 起收购，从开发者工具到垂直行业全面扩张。",
+      "link": "https://tracxn.com/d/acquisitions/acquisitions-by-openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg"
+    },
+    {
+      "title": "AI IDE 三国杀：Cursor vs Windsurf vs Copilot 2026 年终局对比",
+      "date": "2026-03-23",
+      "summary": "Cognition 收购 Windsurf 后两产品仍独立运行；Google 以 24 亿美元挖走 CEO 和联合创始人；OpenAI 30 亿美元收购 Windsurf 尝试被微软阻止；Cursor 加入 JetBrains ACP。AI IDE 赛道进入终局整合期。",
+      "link": "https://www.buildmvpfast.com/blog/cursor-vs-windsurf-vs-copilot-best-ai-ide-2026"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "小米 MiMo-V2 系列发布：万亿参数模型从「匿名黑马」到正式亮相",
+      "date": "2026-03-23",
+      "summary": "小米 3 月 18 日正式发布 MiMo-V2 系列（Pro/Omni/TTS），MiMo-V2-Pro 是万亿参数推理模型，此前以 Hunter Alpha 身份在 OpenRouter 上累计处理超 1T tokens。在 Agent 任务上直逼 Claude Opus 4.6，成本低 67%。",
+      "link": "https://apidog.com/blog/xiaomi-mimo-v2-pro/"
+    },
+    {
+      "title": "阿里云、百度智能云同步涨价：AI 算力成本上涨 5%-34%",
+      "date": "2026-03-23",
+      "summary": "3 月 18 日阿里云宣布 AI 算力卡产品涨价 5%-34%，CPFS 存储涨价 30%，4 月 18 日起执行。百度智能云同步跟进。核心原因是 Token 调用量暴涨——百炼 1-3 月创历史最高增速，腾讯混元单月调用量暴涨 4 倍。",
+      "link": "https://finance.sina.com.cn/tech/roll/2026-03-18/doc-inhrkwsr7483178.shtml"
+    },
+    {
+      "title": "DeepSeek 长期沉寂引发社区猜测：是在憋大招还是掉队？",
+      "date": "2026-03-23",
+      "summary": "小米、阿里、智谱等中国 AI 公司纷纷发布新模型，但 DeepSeek 自 V3 后长时间无新动作。Reddit 社区热议其沉寂原因，猜测可能在准备更大规模的模型更新或转向新技术方向。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1ryhn0o/what_the_hell_is_deepseek_doing_for_so_long/"
+    }
+  ]
+}
