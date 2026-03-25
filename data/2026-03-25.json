@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-25",
+  "insights": [
+    {
+      "title": "Anthropic Claude 实现全自主电脑操控：Cowork + Code 可在用户离开时接管 Mac 执行任务",
+      "date": "2026-03-25",
+      "summary": "Anthropic 更新 Claude Cowork 和 Claude Code，新增 Computer Use 能力，可在 macOS 上自主操作应用完成任务。配合上周发布的 Dispatch 功能，用户可从手机远程指派任务给桌面 Claude。这标志着 Agent 从「对话助手」进化为「自主操作员」。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer"
+    },
+    {
+      "title": "OpenAI 收购 Python 工具链公司 Astral，编码工具军备竞赛升级",
+      "date": "2026-03-19",
+      "summary": "继收购 Windsurf 之后，OpenAI 宣布收购 Python 工具链公司 Astral（uv/ruff 的开发者），进一步强化其 AI 编码生态。此举与 Anthropic Claude Code 正面交锋，AI 编码工具从模型竞争进入全栈工具链竞争阶段。",
+      "link": "https://www.reuters.com/technology/openai-buy-python-toolmaker-astral-take-anthropic-2026-03-19/"
+    },
+    {
+      "title": "OpenAI 与 Anthropic 同时拉拢 PE 机构，企业 AI 市场进入「军备+融资」双线作战",
+      "date": "2026-03-23",
+      "summary": "Reuters 独家报道 OpenAI 向 PE 机构提供 17.5% 保底回报组建企业 AI 合资公司，Anthropic 也在同步谈判。双方均考虑今年 IPO，企业 AI 部署从技术竞争升级为资本+渠道的全面战争。OpenAI 预计 2026 年亏损 140 亿美元。",
+      "link": "https://www.reuters.com/business/openai-sweetens-private-equity-pitch-amid-enterprise-turf-war-with-anthropic-2026-03-23/"
+    },
+    {
+      "title": "NVIDIA GTC 2026 全面开花：Vera Rubin 路线图 + DGX Station GB300 + 1万亿美元算力需求预测",
+      "date": "2026-03-16",
+      "summary": "黄仁勋在 GTC 2026 主题演讲中发布 Vera Rubin 平台路线图（推理能效是 Blackwell 的 10 倍）、DGX Station GB300 桌面超算（748GB 显存）、Vera CPU，并预测到 2027 年 AI 算力购买订单将达 1 万亿美元。推理工作负载正式超越训练成为主要算力需求。",
+      "link": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "title": "微信正式推出 ClawBot 插件，腾讯 AI 生态全面接入 OpenClaw 体系",
+      "date": "2026-03-23",
+      "summary": "微信官方上线 ClawBot 插件，超 10 亿用户可直接在微信中使用 AI Agent。腾讯同步推出企业端 WorkBuddy 和开发者端 Lighthouse，支持混元、DeepSeek、GLM 等多模型。这是中国 AI Agent 进入全民级应用的标志性事件。",
+      "link": "https://www.thehindu.com/sci-tech/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle/article70774226.ece"
+    },
+    {
+      "title": "DeepSeek-R1 核心作者郭达雅离职，V4 发布蒙上阴影",
+      "date": "2026-03-22",
+      "summary": "DeepSeek-R1 核心作者郭达雅（1995 年生，中山大学博士）正式离职，市场猜测其将加入大厂或创业。DeepSeek V4 发布时间表因此更加不确定。同时 Bloomberg 报道 DeepSeek 大量招聘 Agentic AI 岗位，暗示其战略方向从纯模型转向 Agent。",
+      "link": "https://finance.sina.cn/stock/jdts/2026-03-21/detail-inhrtpvz6081168.d.html"
+    },
+    {
+      "title": "OpenCode 开源 AI 编码 Agent 爆发：126K GitHub Stars，免费替代 Claude Code 成开发者新宠",
+      "date": "2026-03-25",
+      "summary": "OpenCode 作为开源 AI 编码 Agent 突破 12.6 万 GitHub Stars，支持 75+ LLM 提供商，月活 500 万用户。同期 Goose（Block 开源的免费编码 Agent）和 NousCoder-14B 也在冲击 Claude Code 的市场地位。开源编码 Agent 正在重塑 200 美元/月订阅模型。",
+      "link": "https://news.ycombinator.com/item?id=47460525"
+    }
+  ],
+  "papers": [
+    {
+      "title": "AI Can Learn Scientific Taste：用引用数据训练小模型预测热门论文",
+      "date": "2026-03-20",
+      "summary": "该论文提出 Reinforcement Learning from Citation Feedback 方法，训练小模型预测哪些论文会成为热门。实验证明引用、点赞等社交信号可以教会 AI 对学术质量的「品味」判断，而非仅执行能力。Ethan Mollick 等学术大V 广泛传播。",
+      "link": "https://arxiv.org/abs/2603.14473"
+    },
+    {
+      "title": "Attention Residuals (AttnRes)：重新定义 Transformer 注意力机制的残差连接",
+      "date": "2026-03-20",
+      "summary": "该论文提出 Attention Residuals（AttnRes）方法，在 Transformer 注意力层中引入新型残差连接，显著提升模型在长序列推理和多跳任务上的表现。该方法可即插即用地应用于现有模型架构，在多个基准上取得 SOTA 结果。",
+      "link": "https://arxiv.org/abs/2603.15031"
+    },
+    {
+      "title": "Production Agentic RAG：从 arXiv Paper Curator 看企业级 Agent RAG 系统设计",
+      "date": "2026-03-24",
+      "summary": "该课程/论文以 arXiv 论文管理器为案例，系统性地讲解了生产级 Agentic RAG 系统的架构设计，包括检索策略、Agent 编排、错误恢复等关键工程问题。实操性极强，适合正在落地 RAG 系统的团队。",
+      "link": "https://aitoolly.com/ai-news/article/2026-03-24-production-agentic-rag-course-a-comprehensive-guide-to-building-modern-ai-systems-from-scratch"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic 官宣 Claude Computer Use：@claudeai 演示从手机远程指派桌面任务",
+      "date": "2026-03-23",
+      "summary": "Claude 官方账号发布 Computer Use 功能演示视频，展示用户从 iPhone 通过 Dispatch 指派任务，Claude 在 Mac 上自主打开应用、操作文件完成工作。推文引发大量开发者讨论 Agent 自主操作的安全边界。",
+      "link": "https://coincentral.com/anthropic-claude-will-now-take-over-your-computer-while-youre-on-your-phone/"
+    },
+    {
+      "title": "Ethan Mollick 分享「AI 能学会科学品味」论文：引用数据可训练模型判断论文质量",
+      "date": "2026-03-23",
+      "summary": "Wharton 教授 Ethan Mollick 在 LinkedIn 分享 arXiv 论文 2603.14473，指出引用、点赞等信号可以教 AI 判断质量而非仅执行。引发学术界和 AI 社区对「AI 审美」和「AI 策展」的广泛讨论。",
+      "link": "https://arxiv.org/abs/2603.14473"
+    },
+    {
+      "title": "OpenAI 被报道开发三合一「超级应用」：ChatGPT + 编码工具 + 浏览器",
+      "date": "2026-03-20",
+      "summary": "多家媒体报道 OpenAI 计划将 ChatGPT、编码工具和网页浏览器合并为桌面「超级应用」，直接对标 Anthropic Claude Desktop + Cowork 的产品形态。这一消息在 X 上引发关于 AI 产品形态整合趋势的讨论。",
+      "link": "https://www.siliconrepublic.com/business/openai-to-reportedly-take-on-anthropic-with-new-desktop-superapp"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Goose vs Claude Code 辩论：免费开源编码 Agent 能否替代 200 美元/月订阅？",
+      "date": "2026-03-22",
+      "summary": "Discord 多个 AI 开发者社区热议 Block 开源的 Goose 编码 Agent 对 Claude Code 的冲击。开发者实测对比显示 Goose 在本地运行无需订阅费，但在复杂重构任务上仍有差距。讨论焦点转向 AI 编码工具的定价合理性。",
+      "link": "https://richlyai.com/blog/goose-free-ai-coding-tool-rivaling-200-claude-code-ai-news/"
+    },
+    {
+      "title": "MiniMax-M2.7 自进化模型实测：10B 参数达到旗舰级性能，价格仅为 Opus 1/50",
+      "date": "2026-03-19",
+      "summary": "Discord AI 社区对 MiniMax 3月18日发布的 M2.7 模型展开密集测试讨论。该模型首创「自进化」训练方法，10B 参数在多个基准上逼近 Claude Opus 水平，但推理成本仅为其 1/50。开发者关注其在长上下文和 Agent 场景的实际表现。",
+      "link": "https://aiexotic.com/blog/minimax-m27-self-evolving-multimodal-ai-benchmarks"
+    },
+    {
+      "title": "Anthropic 指控 DeepSeek/Moonshot/MiniMax 创建 2.4 万假账号蒸馏 Claude 引发热议",
+      "date": "2026-03-24",
+      "summary": "Anthropic 披露三家中国 AI 公司通过 2.4 万假账号、1600 万次对话大规模蒸馏 Claude 模型能力。Discord 社区讨论模型蒸馏的法律和伦理边界，以及开源模型在中美 AI 竞争中的角色。",
+      "link": "https://www.startupdifferent.com/podcast/ai-espionage"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenCode：开源 AI 编码 Agent，126K Stars，支持 75+ LLM 提供商",
+      "date": "2026-03-25",
+      "summary": "Go 语言编写的终端 AI 编码 Agent，支持 Anthropic、OpenAI、Gemini 和本地 Ollama 模型。提供代码生成、重构、审查等功能，无需订阅费。近期因 HN 讨论和 Claude Code 定价争议而大幅增长。",
+      "link": "https://news.ycombinator.com/item?id=47460525"
+    },
+    {
+      "title": "NousCoder-14B：Nous Research 开源编码专用模型，14B 参数对标 Claude Code",
+      "date": "2026-03-19",
+      "summary": "Nous Research 发布 14B 参数的开源编码专用模型，专注于代码生成和理解。在 Claude Code 热度最高的时间点精准入场，为开发者提供可自部署的编码模型选择。",
+      "link": "https://boulderbubble.com/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in-the-claude-code-moment-48/"
+    },
+    {
+      "title": "LangChain Open-SWE：开源异步编码 Agent，面向软件工程任务",
+      "date": "2026-03-21",
+      "summary": "LangChain 推出 Open-SWE 开源异步编码 Agent，专为软件工程任务设计。支持自动 Issue 修复、PR 生成等工作流，可与现有 CI/CD 管道集成。",
+      "link": "https://aitoolly.com/ai-news/article/2026-03-21-langchain-ai-launches-open-swe-a-new-open-source-asynchronous-coding-agent-for-software-engineering"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenCode：开源 AI 编码 Agent 登顶 HN",
+      "date": "2026-03-25",
+      "summary": "OpenCode 在 HN 引发热议，开发者讨论其与 Claude Code 的对比。主要争议包括：TypeScript 代码库过于复杂、内存占用高（1GB+）、但免费和开源是核心竞争力。",
+      "link": "https://news.ycombinator.com/item?id=47460525"
+    },
+    {
+      "title": "arXiv 宣布从康奈尔大学独立，成为独立非营利组织",
+      "date": "2026-03-23",
+      "summary": "运营 30+ 年的预印本平台 arXiv 宣布从康奈尔大学独立运营。HN 社区讨论其对学术出版生态的影响，以及独立后如何应对 AI 生成论文的审核挑战。",
+      "link": "https://news.ycombinator.com/item?id=47450478"
+    },
+    {
+      "title": "Teaching Claude to QA a Mobile App：用 Claude 自动化移动应用质量测试",
+      "date": "2026-03-24",
+      "summary": "开发者分享用 Claude 自动 QA 移动应用的完整实践，包括隔离工作树、范围化任务、选择性提交等工程方法。HN 讨论聚焦于 AI Agent 在测试领域的实际落地挑战。",
+      "link": "https://news.ycombinator.com/item?id=47480900"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Claude Cowork Computer Use 实测：从手机远程控制 Mac 的真实体验",
+      "date": "2026-03-24",
+      "summary": "Reddit r/MachineLearning 和 r/artificial 大量讨论 Anthropic Claude 新发布的 Computer Use 功能实际体验。用户反馈操作准确率约 85%，复杂多步骤任务仍需人工干预，但简单自动化场景已经可用。",
+      "link": "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html"
+    },
+    {
+      "title": "OpenAI vs Anthropic 策略对比：Ship Everything vs Perfect One Thing",
+      "date": "2026-03-18",
+      "summary": "Sherwood News 的深度分析文章在 Reddit 引发大量讨论。OpenAI 走「全面铺开」路线（ChatGPT + 编码 + 搜索 + 超级应用），Anthropic 走「极致单品」路线（Claude Code/Cowork）。社区辩论哪种策略更能赢得企业市场。",
+      "link": "https://sherwood.news/tech/openai-is-shipping-everything-anthropic-is-perfecting-one-thing/"
+    },
+    {
+      "title": "国产模型编程能力排行热议：MiniMax-M2.7 发布后的格局变化",
+      "date": "2026-03-19",
+      "summary": "Linux.do 和 Reddit 中文 AI 社区热议 MiniMax-M2.7 发布后国产模型的编程能力排行。讨论涉及 MiniMax-M2.7、DeepSeek、通义千问 Qwen3.5、智谱 GLM-5 等模型的实测对比，焦点在于「智能化」与「编程能力」的区分。",
+      "link": "https://linux.do/t/topic/1782654"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Claude Dispatch：从手机远程指派桌面 AI Agent 任务的持久线程",
+      "date": "2026-03-17",
+      "summary": "Anthropic 发布 Claude Dispatch，作为 Cowork 的研究预览功能。Pro 和 Max 用户可通过 iOS/Android 客户端创建持久线程，远程指派桌面 Claude 执行任务（如检查邮件、启动编码会话）。手机和桌面之间的上下文自动同步。",
+      "link": "https://www.forbes.com/sites/ronschmelzer/2026/03/20/claude-dispatch-lets-you-control-claude-cowork-with-your-phone/"
+    },
+    {
+      "title": "Goose：Block 开源的免费 AI 编码 Agent，无需订阅即可本地运行",
+      "date": "2026-03-21",
+      "summary": "Block（原 Square）开源的 Goose 编码 Agent 近期因 Claude Code 200 美元/月定价争议而走红。支持本地运行，无订阅费和速率限制，无需云依赖。开发者社区将其视为 Claude Code 的最佳免费替代方案。",
+      "link": "https://richlyai.com/blog/goose-free-ai-coding-tool-rivaling-200-claude-code-ai-news/"
+    },
+    {
+      "title": "OpenAI 计划打造桌面「超级应用」：ChatGPT + 编码 + 浏览器三合一",
+      "date": "2026-03-20",
+      "summary": "多家媒体报道 OpenAI 正在开发桌面端超级应用，将 ChatGPT 聊天、编码工具（Codex/Windsurf）和网页浏览器整合为统一界面，直接对标 Anthropic Claude Desktop 的产品形态。预计年内发布。",
+      "link": "https://www.siliconrepublic.com/business/openai-to-reportedly-take-on-anthropic-with-new-desktop-superapp"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic Claude Computer Use 正式发布：AI Agent 首次实现桌面级自主操作",
+      "date": "2026-03-24",
+      "summary": "Anthropic 将 Computer Use 从研究预览升级为 Claude Cowork 和 Code 的正式功能。Claude 可自主控制 macOS 应用（打开文件、操作浏览器、编辑文档），配合 Dispatch 实现手机远程指派。这是 AI Agent 从「对话式」到「操作式」的里程碑。",
+      "link": "https://www.pcmag.com/news/anthropics-claude-can-now-use-your-computer-to-complete-tasks-for-you"
+    },
+    {
+      "title": "DeepSeek 大量招聘 Agentic AI 岗位，战略方向从纯模型转向 Agent",
+      "date": "2026-03-24",
+      "summary": "Bloomberg 报道 DeepSeek 发布大量 Agentic AI 相关职位，包括自主 Agent 研究、工具使用优化等方向。这暗示 DeepSeek 在 V4 模型之外正在构建完整的 Agent 产品线，中国 AI 竞争从模型能力扩展到 Agent 生态。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-24/deepseek-s-latest-job-postings-highlight-pivot-to-agentic-ai"
+    },
+    {
+      "title": "Salesforce 推出新一代 Slackbot AI Agent，对决 Microsoft Copilot 和 Google Agent",
+      "date": "2026-03-20",
+      "summary": "Salesforce 在 Slack 中推出新一代 AI Agent，可自动处理客户查询、生成报告、协调工作流。此举是对 Microsoft Teams Copilot 和 Google Workspace Agent 的直接回应，企业办公 AI Agent 三方混战格局形成。",
+      "link": "https://dev.to/aibughunter/the-llm-and-ai-agent-releases-that-actually-matter-this-week-march-2026-5d7i"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 向 PE 机构提供 17.5% 保底回报，与 Anthropic 争夺企业 AI 市场",
+      "date": "2026-03-23",
+      "summary": "Reuters 独家报道 OpenAI 以 17.5% 保底回报向 PE 机构推介企业 AI 合资公司，Anthropic 同步竞标。双方今年均考虑 IPO。OpenAI 年化营收已突破 200 亿美元但预计 2026 年亏损 140 亿美元。企业 AI 市场从技术竞争升级为资本军备竞赛。",
+      "link": "https://www.forbes.com/sites/josipamajic/2026/03/23/openai-offers-private-equity-firms-a-175-guaranteed-return-to-win-the-enterprise-ai-race-against-anthropic/"
+    },
+    {
+      "title": "NVIDIA GTC 2026：黄仁勋预测 AI 算力需求达 1 万亿美元，发布 Vera Rubin 路线图",
+      "date": "2026-03-16",
+      "summary": "NVIDIA GTC 2026 大会上黄仁勋宣布到 2027 年 AI 算力订单将达 1 万亿美元。发布 Vera Rubin 平台（推理能效 10x Blackwell）、DGX Station GB300（748GB 显存桌面超算）、与 T-Mobile/Adobe/Disney 等新合作。推理正式超越训练成为第一大算力需求。",
+      "link": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
+    },
+    {
+      "title": "Kleiner Perkins 募资 35 亿美元 AI 专项基金，2026 年 AI 投资持续升温",
+      "date": "2026-03-24",
+      "summary": "顶级 VC Kleiner Perkins 完成 35 亿美元 AI 聚焦基金募集。Crunchbase 数据显示 2026 年前两周 AI 领域已有 200+ 轮融资共计超 250 亿美元（含 xAI 200 亿美元 Series E）。AI 资本市场热度持续创新高。",
+      "link": "https://news.crunchbase.com/sections/ai/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "微信正式上线 ClawBot 插件：10 亿用户可直接使用 AI Agent",
+      "date": "2026-03-23",
+      "summary": "腾讯微信官方推出 ClawBot 插件，用户在「设置→插件」中即可开启。ClawBot 以联系人形式存在于微信中，支持语音回复。社区已开源将其接入 Codex 和 Claude Code 的方案。这是中国 AI Agent 触达全民级用户的重要里程碑。",
+      "link": "https://36kr.com/p/3718513542149511"
+    },
+    {
+      "title": "阶跃星辰上线 Step Plan 订阅套餐，国产模型厂商订阅制加速推进",
+      "date": "2026-03-23",
+      "summary": "阶跃星辰推出 Step Plan 订阅服务，紧跟智谱 GLM Coding Plan 之后。国产模型厂商从 API 计价加速转向订阅制，与 Claude Code/ChatGPT Pro 直接对标。行业评论称「模型厂商雪崩海啸已至」。",
+      "link": "https://www.bilibili.com/video/BV1SLAGzrEyG/"
+    },
+    {
+      "title": "DeepSeek 转向 Agentic AI 招聘，R1 核心作者离职后加速战略调整",
+      "date": "2026-03-24",
+      "summary": "在核心作者郭达雅离职后，DeepSeek 大量发布 Agentic AI 相关岗位。Bloomberg 和 36氪 分析认为 DeepSeek 正从纯模型研究转向 Agent 产品化。DeepSeek V4 即将于 4 月发布，市场高度关注其是否会整合 Agent 能力。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-24/deepseek-s-latest-job-postings-highlight-pivot-to-agentic-ai"
+    }
+  ]
+}
