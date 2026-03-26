@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-26",
+  "insights": [
+    {
+      "title": "Anthropic Claude Computer Use 正式发布，桌面 Agent 三强争霸格局形成",
+      "date": "2026-03-24",
+      "summary": "Anthropic 发布 Claude Computer Use 功能，Claude 可在 macOS 上点击、滚动、操作应用完成任务。结合上周推出的 Dispatch 手机远程控制功能，形成 Claude Cowork + Dispatch + Computer Use 完整桌面 Agent 方案。与 Manus My Computer 和 Perplexity Personal Computer 构成桌面 Agent 三强格局。",
+      "link": "https://www.macrumors.com/2026/03/24/claude-use-mac-remotely-iphone/"
+    },
+    {
+      "title": "LiteLLM 供应链攻击事件：CI/CD 安全再敲警钟",
+      "date": "2026-03-25",
+      "summary": "LiteLLM 版本 1.82.7-1.82.8 被 TeamPCP 通过 Trivy CI/CD 漏洞植入后门，3月24日发布到 PyPI。Endor Labs 和 JFrog 联合披露。该事件影响大量使用 LiteLLM 作为 LLM 代理网关的企业，凸显 AI 基础设施供应链安全的脆弱性。",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html"
+    },
+    {
+      "title": "NVIDIA NemoClaw 深度解读：企业级 Agent 安全运行时 OpenShell",
+      "date": "2026-03-22",
+      "summary": "Forbes 深度报道 NVIDIA OpenShell 运行时——NemoClaw 的核心组件。提供进程外策略执行、沙盒化运行、细粒度权限控制和隐私路由。被认为是企业采用 AI Agent 的关键一步：让自进化 Agent 在安全边界内运行。",
+      "link": "https://www.forbes.com/sites/davealtavilla/2026/03/19/nvidia-openshell-brings-critical-ai-guardrails-for-self-evolving-claws/"
+    },
+    {
+      "title": "Karpathy：AI Agent 已写了他80%的代码，编程正变得面目全非",
+      "date": "2026-03-22",
+      "summary": "Andrej Karpathy 在 X 上发文称 AI Agent 已编写其80%的代码，编程工作流正经历'极度颠覆性'变革。Forbes 深度报道指出，初级开发者首当其冲——入门门槛在变，但高级工程师的审查和架构能力反而更加关键。",
+      "link": "https://www.forbes.com/sites/josipamajic/2026/03/22/ai-agents-wrote-80-of-karpathys-code-junior-developers-are-paying-the-price/"
+    },
+    {
+      "title": "Sora 正式下线，字节 Seedance 2.0 登顶视频生成榜首",
+      "date": "2026-03-25",
+      "summary": "OpenAI 正式关闭 Sora 视频生成服务，转向与迪士尼合作的定制化视频方案。与此同时，字节跳动 Seedance 2.0 以原生 2K、4模态输入、30秒极速生成登顶 Artificial Analysis 视频生成榜。但因好莱坞版权投诉，全球推广已暂时暂停。",
+      "link": "https://help.apiyi.com/sora-2-shutdown-seedance-anthropic-compute-strategy-analysis.html"
+    },
+    {
+      "title": "Figma 向 AI Agent 开放画布：设计工具进入 Agent 化时代",
+      "date": "2026-03-25",
+      "summary": "Figma 发布 MCP Server Beta 版和 use_figma 工具，AI Agent（Claude Code、Codex、Cursor）可直接在 Figma 画布上创建和编辑设计资产、组件、变量和自动布局。设计工具从辅助进化到 Agent 可编程。",
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    },
+    {
+      "title": "阿里通义 Qwen3.5-Max-Preview 发布，LM Arena 国内登顶",
+      "date": "2026-03-20",
+      "summary": "阿里发布 Qwen3.5-Max-Preview 旗舰模型，LM Arena 获1464分跻身全球前五、国内第一。同系列 Qwen3.5-Plus 采用 3970亿总参/170亿激活的 MoE 架构。阿里还上线首个原生多模态 Qwen3.5，同步实现视觉理解与复杂推理。",
+      "link": "https://ai-bot.cn/qwen3-5-max-preview/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "AI Agent 已能自主完成高能物理实验全流程",
+      "date": "2026-03-25",
+      "summary": "论文展示 Claude Code 在给定 HEP 数据集和实验文献后，可自主完成事件选择、背景估计、不确定性量化等分析全流程。标志 AI Agent 在硬科学实验中的能力已接近研究生水平。",
+      "link": "https://arxiv.org/abs/2603.20179"
+    },
+    {
+      "title": "Hyperagents：多智能体协作的新范式",
+      "date": "2026-03-25",
+      "summary": "提出 Hyperagents 框架，探索多个 AI Agent 如何通过超图结构进行高效协作，解决传统多 Agent 系统中通信瓶颈和任务分配不均的问题。",
+      "link": "https://arxiv.org/abs/2603.19461"
+    },
+    {
+      "title": "VideoSeek：长视频理解的工具导向搜索 Agent",
+      "date": "2026-03-25",
+      "summary": "提出 VideoSeek，利用视频逻辑流主动寻找关键证据而非穷举解析全视频的长视频 Agent 方案。大幅降低长视频问答的计算成本，同时提升答案准确率。",
+      "link": "https://arxiv.org/abs/2603.20185"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy：编程正变得'面目全非'",
+      "date": "2026-03-22",
+      "summary": "Andrej Karpathy 发长推讨论 AI Agent 对编程工作流的颠覆：80%代码由 AI 完成，人类角色转向审查和架构设计。称这一变化'extremely disruptive to the default programming workflow'，引发科技圈广泛讨论。",
+      "link": "https://www.forbes.com/sites/josipamajic/2026/03/22/ai-agents-wrote-80-of-karpathys-code-junior-developers-are-paying-the-price/"
+    },
+    {
+      "title": "AI 安全抗议蔓延至 Anthropic/OpenAI/xAI 旧金山总部",
+      "date": "2026-03-24",
+      "summary": "数十名抗议者在三家 AI 公司旧金山办公室外集会，要求 Dario Amodei、Sam Altman、Elon Musk 公开承诺：若其他领先公司暂停前沿 AI 开发，他们也同步暂停。",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/protests-outside-anthropic-openai-and-xai-offices-in-san-francisco-organisers-said-that-they-want-company-ceos-to-publicly-commit-to-/articleshow/129750840.cms"
+    },
+    {
+      "title": "Anthropic Claude Computer Use 安全性遭质疑：Lifehacker 亲测",
+      "date": "2026-03-24",
+      "summary": "Lifehacker 编辑亲测 Claude Computer Use 后发文称：功能确实能自动化 Mac 上几乎所有操作，但速度慢且存在巨大安全隐患。AI 接管鼠标键盘控制权的风险引发广泛讨论。",
+      "link": "https://lifehacker.com/tech/claude-computer-use-impressions"
+    }
+  ],
+  "discord": [
+    {
+      "title": "MacStories 首测 Claude Code Channels：Telegram/Discord 连接本地 Agent",
+      "date": "2026-03-20",
+      "summary": "MacStories 发布 Claude Code Channels 首发体验报告。支持从手机 Telegram/Discord 向 Mac 上运行的 Claude Code 会话发送消息，代码和工具不离开本地机器。社区热议其架构和未来平台扩展计划。",
+      "link": "https://www.macstories.net/stories/first-look-hands-on-with-claude-codes-new-telegram-and-discord-integrations/"
+    },
+    {
+      "title": "Cursor vs Claude Code vs Aider：2026 AI 编码工具终极对比",
+      "date": "2026-03-25",
+      "summary": "DEV Community 社区热帖对比三大 AI 编码工具。共识：真正的高手用混合工作流——Cursor 处理 UI，Claude Code 在终端跑重活（数据库迁移、E2E 测试等）。",
+      "link": "https://dev.to/sameer_saleem/claude-code-vs-cursor-vs-aider-the-2026-battle-for-your-terminal-and-ide-3cb4"
+    },
+    {
+      "title": "Cursor 社区讨论：Cursor 的未来是变成 Claude Code？",
+      "date": "2026-03-20",
+      "summary": "Forbes 报道 Cursor 战略转向——优先打造能与 Claude Code Opus 竞争的无人类交互模型，而非继续做'人类+AI 协作编辑器'。Cursor 社区论坛引发激烈讨论。",
+      "link": "https://forum.cursor.com/t/the-future-of-cursor-is-becoming-claude-code/155326"
+    }
+  ],
+  "github": [
+    {
+      "title": "langchain-ai/langchain：Agent 工程平台持续霸榜",
+      "date": "2026-03-26",
+      "summary": "LangChain 本周继续稳居 GitHub Trending 前列。近期发布 Open-SWE 异步编码 Agent，面向软件工程场景提供开源解决方案。",
+      "link": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "title": "pathwaycom/pathway：实时流处理 + RAG 的 Python ETL 框架",
+      "date": "2026-03-26",
+      "summary": "本周获 2311 星。支持流处理、实时分析和 LLM Pipeline 的 Python ETL 框架，特别适合构建 Production-grade 的 Agentic RAG 系统。",
+      "link": "https://github.com/pathwaycom/pathway"
+    },
+    {
+      "title": "EleutherAI/lm-evaluation-harness：LLM 评测标准框架",
+      "date": "2026-03-26",
+      "summary": "Few-shot 语言模型评测框架本周持续活跃。随着各家模型密集发布，统一评测标准的需求激增，成为模型对比的基础设施。",
+      "link": "https://github.com/EleutherAI/lm-evaluation-harness"
+    }
+  ],
+  "hn": [
+    {
+      "title": "'有人也觉得讨论 AI 很无聊吗？'登顶 HN 358 票",
+      "date": "2026-03-25",
+      "summary": "一篇题为'Is anybody else bored of talking about AI?'的帖子在 Hacker News 获得 358 票登顶。反映科技社区对 AI 话题饱和的情绪，评论区掀起关于 AI 炒作 vs 实质的激烈辩论。",
+      "link": "https://www.theneuron.ai/ai-news-digests/around-the-horn-digest-everything-that-happened-in-ai-on-wednesday-march-25-2026-/"
+    },
+    {
+      "title": "LiteLLM 供应链攻击：AI 基础设施安全面临严峻挑战",
+      "date": "2026-03-25",
+      "summary": "LiteLLM v1.82.7-1.82.8 通过 Trivy CI/CD 被植入后门，影响大量使用该库作为 LLM 网关的项目。HN 社区深入讨论开源 AI 供应链安全的系统性风险。",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html"
+    },
+    {
+      "title": "Claude Code Auto Mode 发布：TechCrunch 称 Anthropic 在放权与安全间找平衡",
+      "date": "2026-03-24",
+      "summary": "TechCrunch 报道 Anthropic 为 Claude Code 推出 Auto Mode，让 AI 自主执行低风险操作无需逐项审批，同时内置安全分类器监控每个工具调用。反映整个行业在 Agent 自主性与安全性之间的权衡探索。",
+      "link": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/technology：Anthropic Claude 桌面控制功能引发隐私争议",
+      "date": "2026-03-25",
+      "summary": "CNBC 报道 Claude Computer Use 后，Reddit r/technology 热帖引发激烈讨论。用户分为两派：技术派赞叹能力飞跃，隐私派直言'不想让 Skynet 控制我的电脑'。",
+      "link": "https://www.reddit.com/r/technology/comments/1s3cbn3/anthropic_says_claude_can_now_use_your_computer/"
+    },
+    {
+      "title": "r/AI_Agents：Harvard 教授用 Claude 2周完成前沿物理研究",
+      "date": "2026-03-24",
+      "summary": "哈佛物理教授与 Claude 合作2周完成量子场论前沿论文（传统需1-2年），但关键是教授的专业判断能力让他能识别 AI 的'偷工减料'，这个 catch-and-correct 循环才是研究成立的保证。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1s27pe0/a_harvard_physics_professor_just_used_claude_ai/"
+    },
+    {
+      "title": "r/ClaudeAI：Claude Code 到底是提高生产力还是增加娱乐性？",
+      "date": "2026-03-21",
+      "summary": "热门讨论帖引发开发者社区共鸣：'2026年了，大家在用 AI 写2018年水平的应用，只是更快了。' 社区反思 AI 编码工具的真实生产力提升 vs 虚假忙碌感。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1rzvfat/is_claude_code_actually_making_you_more/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Figma MCP Server Beta：AI Agent 直接读写 Figma 设计文件",
+      "date": "2026-03-25",
+      "summary": "Figma 发布 MCP Server Beta 和 use_figma 工具，Claude Code、Codex、Cursor 等 AI Agent 可直接在 Figma 中创建和修改原生设计资产。设计工具从'给 AI 看'进化到'AI 来画'。",
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    },
+    {
+      "title": "NVIDIA Llama Nemotron：开源推理模型新标杆",
+      "date": "2026-03-20",
+      "summary": "NVIDIA 发布 Llama Nemotron 系列推理模型，基于 Llama 架构优化。作为 NemoClaw 栈的核心组件，提供企业级推理能力的同时保持完全开源，支持本地部署。",
+      "link": "https://developer.nvidia.com/blog/run-autonomous-self-evolving-agents-more-safely-with-nvidia-openshell/"
+    },
+    {
+      "title": "Claude Computer Use：Mac 全自动化操控但安全风险巨大",
+      "date": "2026-03-24",
+      "summary": "Anthropic 发布 Claude Computer Use，让 Claude 接管 Mac 的鼠标键盘控制权完成任务。Lifehacker 测评确认功能强大但速度慢，安全风险是主要顾虑。Winbuzzer 报道 Claude Code 同步获得 Auto Mode。",
+      "link": "https://winbuzzer.com/2026/03/25/anthropic-claude-code-cowork-auto-mode-computer-use-xcxwbn/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Open-SWE：LangChain 开源异步编码 Agent 框架",
+      "date": "2026-03-21",
+      "summary": "LangChain 发布 Open-SWE，MIT 许可的开源异步编码 Agent 框架，参考 Stripe、Ramp、Coinbase 内部实践。不同于 Cursor/Copilot 的阻塞式交互，Open-SWE 在后台异步执行代码任务。",
+      "link": "https://byteiota.com/open-swe-langchain-autonomous-coding-agent/"
+    },
+    {
+      "title": "Manus My Computer：Meta 桌面 AI Agent 正式登陆 Mac/Windows",
+      "date": "2026-03-21",
+      "summary": "Meta 旗下 Manus（2025年12月以20亿美元收购）发布桌面应用 My Computer，支持 macOS 和 Windows。AI Agent 可直接操作本地文件、运行终端命令、控制本地 GPU 任务。",
+      "link": "https://tech.yahoo.com/ai/meta-ai/articles/meta-brings-manus-ai-agent-175511333.html"
+    },
+    {
+      "title": "Perplexity Personal Computer：Mac mini 上的全栈 AI Agent",
+      "date": "2026-03-21",
+      "summary": "Perplexity 发布 Personal Computer 产品，基于 Mac mini 的本地 AI Agent 系统。强调数据不出设备。PCWorld 称其代表'下一代 PC 将运行在 AI Agent 之上'。",
+      "link": "https://www.pcworld.com/article/3094751/your-next-pc-wont-just-have-ai-agents-it-will-run-on-them.html"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic vs Pentagon：联邦法官称五角大楼禁令'令人不安'",
+      "date": "2026-03-25",
+      "summary": "联邦法官对五角大楼禁止使用 Anthropic 的决定表示'troubling'。此前 Trump 因 Anthropic 拒绝军事用途而下令禁用，而 OpenAI 迅速填补空白与五角大楼达成机密系统 AI 合同。AI 伦理与国防需求的冲突白热化。",
+      "link": "https://www.ms.now/news/anthropic-takes-fight-against-pentagon-to-federal-court"
+    },
+    {
+      "title": "OpenAI 收购 Astral：Python 工具链的战略布局",
+      "date": "2026-03-22",
+      "summary": "OpenAI 收购 Python 工具链公司 Astral（Ruff 和 uv 的开发者），强化 Codex 在 Python 开发者生态的布局。此举被视为 OpenAI 构建编码 Agent 基础设施的关键一步。",
+      "link": "https://github.com/astral-sh/ruff"
+    },
+    {
+      "title": "NVIDIA NemoClaw 被评为'Agent 安全堡垒'：企业部署标准化方案",
+      "date": "2026-03-24",
+      "summary": "Medium 深度技术解析 NemoClaw 的安全架构：Docker+K3s 沙盒化运行时、策略引擎、隐私路由。Jensen Huang GTC 演讲将其定位为'代理计算机的开源操作系统'。Dell 成为首家预装出货 OEM。",
+      "link": "https://medium.com/@jiten.p.oswal/nvidia-nemoclaw-building-a-security-fortress-for-autonomous-agents-332cb4e37ce0"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "字节跳动 Seedance 2.0 登顶视频生成榜后遭好莱坞版权阻击",
+      "date": "2026-03-23",
+      "summary": "字节 Seedance 2.0 以原生 2K 分辨率、30秒极速生成登顶 Artificial Analysis 榜首，但随即遭迪士尼、环球等好莱坞巨头版权投诉，全球推广被迫暂停。AI 视频生成的能力与版权的博弈进入关键阶段。",
+      "link": "https://linux.do/t/topic/1802779"
+    },
+    {
+      "title": "阿里 Qwen3.5-Max-Preview 发布，国产大模型首入全球前五",
+      "date": "2026-03-20",
+      "summary": "阿里通义千问发布 Qwen3.5-Max-Preview，LM Arena 得分1464进入全球前五、国内第一。基础能力评测1470分全球第六。同系列多模态 Qwen3.5 上线，国产大模型能力首次进入全球第一梯队。",
+      "link": "https://finance.sina.cn/tech/2026-03-20/detail-inhrqtzh0949390.d.html?vt=4"
+    },
+    {
+      "title": "Manus 桌面版发布引发中国科技圈热议",
+      "date": "2026-03-26",
+      "summary": "Manus 发布 My Computer 桌面应用后，搜狐等媒体复盘其数据：2025年3月访问量峰值2376万后持续下滑，用户留存率低。桌面版能否逆转颓势成焦点。与此同时，中国企业基于 OpenClaw 平台的 Agent 开发热潮正在兴起。",
+      "link": "https://www.sohu.com/a/1001124871_121948396"
+    }
+  ]
+}

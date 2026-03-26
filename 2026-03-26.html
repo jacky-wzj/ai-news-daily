@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月26日星期四</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月26日星期四</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI Agent 已能自主完成高能物理实验全流程</h3>
+      <div class="meta">👤 </div>
+      <p>论文展示 Claude Code 在给定 HEP 数据集和实验文献后，可自主完成事件选择、背景估计、不确定性量化等分析全流程。标志 AI Agent 在硬科学实验中的能力已接近研究生水平。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.20179" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hyperagents：多智能体协作的新范式</h3>
+      <div class="meta">👤 </div>
+      <p>提出 Hyperagents 框架，探索多个 AI Agent 如何通过超图结构进行高效协作，解决传统多 Agent 系统中通信瓶颈和任务分配不均的问题。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.19461" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. VideoSeek：长视频理解的工具导向搜索 Agent</h3>
+      <div class="meta">👤 </div>
+      <p>提出 VideoSeek，利用视频逻辑流主动寻找关键证据而非穷举解析全视频的长视频 Agent 方案。大幅降低长视频问答的计算成本，同时提升答案准确率。</p>
+  <a class="link" href="https://arxiv.org/abs/2603.20185" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Karpathy：编程正变得'面目全非'</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-22</div>
+      <p>Andrej Karpathy 发长推讨论 AI Agent 对编程工作流的颠覆：80%代码由 AI 完成，人类角色转向审查和架构设计。称这一变化'extremely disruptive to the default programming workflow'，引发科技圈广泛讨论。</p>
+  <a class="link" href="https://www.forbes.com/sites/josipamajic/2026/03/22/ai-agents-wrote-80-of-karpathys-code-junior-developers-are-paying-the-price/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 安全抗议蔓延至 Anthropic/OpenAI/xAI 旧金山总部</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-24</div>
+      <p>数十名抗议者在三家 AI 公司旧金山办公室外集会，要求 Dario Amodei、Sam Altman、Elon Musk 公开承诺：若其他领先公司暂停前沿 AI 开发，他们也同步暂停。</p>
+  <a class="link" href="https://timesofindia.indiatimes.com/technology/tech-news/protests-outside-anthropic-openai-and-xai-offices-in-san-francisco-organisers-said-that-they-want-company-ceos-to-publicly-commit-to-/articleshow/129750840.cms" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic Claude Computer Use 安全性遭质疑：Lifehacker 亲测</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-24</div>
+      <p>Lifehacker 编辑亲测 Claude Computer Use 后发文称：功能确实能自动化 Mac 上几乎所有操作，但速度慢且存在巨大安全隐患。AI 接管鼠标键盘控制权的风险引发广泛讨论。</p>
+  <a class="link" href="https://lifehacker.com/tech/claude-computer-use-impressions" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. MacStories 首测 Claude Code Channels：Telegram/Discord 连接本地 Agent</h3>
+      <div class="meta">💬 </div>
+      <p>MacStories 发布 Claude Code Channels 首发体验报告。支持从手机 Telegram/Discord 向 Mac 上运行的 Claude Code 会话发送消息，代码和工具不离开本地机器。社区热议其架构和未来平台扩展计划。</p>
+  <a class="link" href="https://www.macstories.net/stories/first-look-hands-on-with-claude-codes-new-telegram-and-discord-integrations/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cursor vs Claude Code vs Aider：2026 AI 编码工具终极对比</h3>
+      <div class="meta">💬 </div>
+      <p>DEV Community 社区热帖对比三大 AI 编码工具。共识：真正的高手用混合工作流——Cursor 处理 UI，Claude Code 在终端跑重活（数据库迁移、E2E 测试等）。</p>
+  <a class="link" href="https://dev.to/sameer_saleem/claude-code-vs-cursor-vs-aider-the-2026-battle-for-your-terminal-and-ide-3cb4" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor 社区讨论：Cursor 的未来是变成 Claude Code？</h3>
+      <div class="meta">💬 </div>
+      <p>Forbes 报道 Cursor 战略转向——优先打造能与 Claude Code Opus 竞争的无人类交互模型，而非继续做'人类+AI 协作编辑器'。Cursor 社区论坛引发激烈讨论。</p>
+  <a class="link" href="https://forum.cursor.com/t/the-future-of-cursor-is-becoming-claude-code/155326" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. langchain-ai/langchain：Agent 工程平台持续霸榜</h3>
+      
+      <p>LangChain 本周继续稳居 GitHub Trending 前列。近期发布 Open-SWE 异步编码 Agent，面向软件工程场景提供开源解决方案。</p>
+  <a class="link" href="https://github.com/langchain-ai/langchain" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. pathwaycom/pathway：实时流处理 + RAG 的 Python ETL 框架</h3>
+      
+      <p>本周获 2311 星。支持流处理、实时分析和 LLM Pipeline 的 Python ETL 框架，特别适合构建 Production-grade 的 Agentic RAG 系统。</p>
+  <a class="link" href="https://github.com/pathwaycom/pathway" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. EleutherAI/lm-evaluation-harness：LLM 评测标准框架</h3>
+      
+      <p>Few-shot 语言模型评测框架本周持续活跃。随着各家模型密集发布，统一评测标准的需求激增，成为模型对比的基础设施。</p>
+  <a class="link" href="https://github.com/EleutherAI/lm-evaluation-harness" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. '有人也觉得讨论 AI 很无聊吗？'登顶 HN 358 票</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>一篇题为'Is anybody else bored of talking about AI?'的帖子在 Hacker News 获得 358 票登顶。反映科技社区对 AI 话题饱和的情绪，评论区掀起关于 AI 炒作 vs 实质的激烈辩论。</p>
+  <a class="link" href="https://www.theneuron.ai/ai-news-digests/around-the-horn-digest-everything-that-happened-in-ai-on-wednesday-march-25-2026-/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LiteLLM 供应链攻击：AI 基础设施安全面临严峻挑战</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>LiteLLM v1.82.7-1.82.8 通过 Trivy CI/CD 被植入后门，影响大量使用该库作为 LLM 网关的项目。HN 社区深入讨论开源 AI 供应链安全的系统性风险。</p>
+  <a class="link" href="https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude Code Auto Mode 发布：TechCrunch 称 Anthropic 在放权与安全间找平衡</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>TechCrunch 报道 Anthropic 为 Claude Code 推出 Auto Mode，让 AI 自主执行低风险操作无需逐项审批，同时内置安全分类器监控每个工具调用。反映整个行业在 Agent 自主性与安全性之间的权衡探索。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/technology：Anthropic Claude 桌面控制功能引发隐私争议</h3>
+      <div class="meta">reddit: </div>
+      <p>CNBC 报道 Claude Computer Use 后，Reddit r/technology 热帖引发激烈讨论。用户分为两派：技术派赞叹能力飞跃，隐私派直言'不想让 Skynet 控制我的电脑'。</p>
+  <a class="link" href="https://www.reddit.com/r/technology/comments/1s3cbn3/anthropic_says_claude_can_now_use_your_computer/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/AI_Agents：Harvard 教授用 Claude 2周完成前沿物理研究</h3>
+      <div class="meta">reddit: </div>
+      <p>哈佛物理教授与 Claude 合作2周完成量子场论前沿论文（传统需1-2年），但关键是教授的专业判断能力让他能识别 AI 的'偷工减料'，这个 catch-and-correct 循环才是研究成立的保证。</p>
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1s27pe0/a_harvard_physics_professor_just_used_claude_ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/ClaudeAI：Claude Code 到底是提高生产力还是增加娱乐性？</h3>
+      <div class="meta">reddit: </div>
+      <p>热门讨论帖引发开发者社区共鸣：'2026年了，大家在用 AI 写2018年水平的应用，只是更快了。' 社区反思 AI 编码工具的真实生产力提升 vs 虚假忙碌感。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeAI/comments/1rzvfat/is_claude_code_actually_making_you_more/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Figma MCP Server Beta：AI Agent 直接读写 Figma 设计文件</h3>
+      
+      <p>Figma 发布 MCP Server Beta 和 use_figma 工具，Claude Code、Codex、Cursor 等 AI Agent 可直接在 Figma 中创建和修改原生设计资产。设计工具从'给 AI 看'进化到'AI 来画'。</p>
+  <a class="link" href="https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA Llama Nemotron：开源推理模型新标杆</h3>
+      
+      <p>NVIDIA 发布 Llama Nemotron 系列推理模型，基于 Llama 架构优化。作为 NemoClaw 栈的核心组件，提供企业级推理能力的同时保持完全开源，支持本地部署。</p>
+  <a class="link" href="https://developer.nvidia.com/blog/run-autonomous-self-evolving-agents-more-safely-with-nvidia-openshell/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude Computer Use：Mac 全自动化操控但安全风险巨大</h3>
+      
+      <p>Anthropic 发布 Claude Computer Use，让 Claude 接管 Mac 的鼠标键盘控制权完成任务。Lifehacker 测评确认功能强大但速度慢，安全风险是主要顾虑。Winbuzzer 报道 Claude Code 同步获得 Auto Mode。</p>
+  <a class="link" href="https://winbuzzer.com/2026/03/25/anthropic-claude-code-cowork-auto-mode-computer-use-xcxwbn/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Open-SWE：LangChain 开源异步编码 Agent 框架</h3>
+      <div class="meta">🤖 </div>
+      <p>LangChain 发布 Open-SWE，MIT 许可的开源异步编码 Agent 框架，参考 Stripe、Ramp、Coinbase 内部实践。不同于 Cursor/Copilot 的阻塞式交互，Open-SWE 在后台异步执行代码任务。</p>
+  <a class="link" href="https://byteiota.com/open-swe-langchain-autonomous-coding-agent/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Manus My Computer：Meta 桌面 AI Agent 正式登陆 Mac/Windows</h3>
+      <div class="meta">🤖 </div>
+      <p>Meta 旗下 Manus（2025年12月以20亿美元收购）发布桌面应用 My Computer，支持 macOS 和 Windows。AI Agent 可直接操作本地文件、运行终端命令、控制本地 GPU 任务。</p>
+  <a class="link" href="https://tech.yahoo.com/ai/meta-ai/articles/meta-brings-manus-ai-agent-175511333.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Perplexity Personal Computer：Mac mini 上的全栈 AI Agent</h3>
+      <div class="meta">🤖 </div>
+      <p>Perplexity 发布 Personal Computer 产品，基于 Mac mini 的本地 AI Agent 系统。强调数据不出设备。PCWorld 称其代表'下一代 PC 将运行在 AI Agent 之上'。</p>
+  <a class="link" href="https://www.pcworld.com/article/3094751/your-next-pc-wont-just-have-ai-agents-it-will-run-on-them.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic Claude Computer Use 正式发布，桌面 Agent 三强争霸格局形成</h3>
+      <div class="meta">📅 2026-03-24</div>
+      <p>Anthropic 发布 Claude Computer Use 功能，Claude 可在 macOS 上点击、滚动、操作应用完成任务。结合上周推出的 Dispatch 手机远程控制功能，形成 Claude Cowork + Dispatch + Computer Use 完整桌面 Agent 方案。与 Manus My Computer 和 Perplexity Personal Computer 构成桌面 Agent 三强格局。</p>
+  <a class="link" href="https://www.macrumors.com/2026/03/24/claude-use-mac-remotely-iphone/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LiteLLM 供应链攻击事件：CI/CD 安全再敲警钟</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>LiteLLM 版本 1.82.7-1.82.8 被 TeamPCP 通过 Trivy CI/CD 漏洞植入后门，3月24日发布到 PyPI。Endor Labs 和 JFrog 联合披露。该事件影响大量使用 LiteLLM 作为 LLM 代理网关的企业，凸显 AI 基础设施供应链安全的脆弱性。</p>
+  <a class="link" href="https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. NVIDIA NemoClaw 深度解读：企业级 Agent 安全运行时 OpenShell</h3>
+      <div class="meta">📅 2026-03-22</div>
+      <p>Forbes 深度报道 NVIDIA OpenShell 运行时——NemoClaw 的核心组件。提供进程外策略执行、沙盒化运行、细粒度权限控制和隐私路由。被认为是企业采用 AI Agent 的关键一步：让自进化 Agent 在安全边界内运行。</p>
+  <a class="link" href="https://www.forbes.com/sites/davealtavilla/2026/03/19/nvidia-openshell-brings-critical-ai-guardrails-for-self-evolving-claws/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Karpathy：AI Agent 已写了他80%的代码，编程正变得面目全非</h3>
+      <div class="meta">📅 2026-03-22</div>
+      <p>Andrej Karpathy 在 X 上发文称 AI Agent 已编写其80%的代码，编程工作流正经历'极度颠覆性'变革。Forbes 深度报道指出，初级开发者首当其冲——入门门槛在变，但高级工程师的审查和架构能力反而更加关键。</p>
+  <a class="link" href="https://www.forbes.com/sites/josipamajic/2026/03/22/ai-agents-wrote-80-of-karpathys-code-junior-developers-are-paying-the-price/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Sora 正式下线，字节 Seedance 2.0 登顶视频生成榜首</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>OpenAI 正式关闭 Sora 视频生成服务，转向与迪士尼合作的定制化视频方案。与此同时，字节跳动 Seedance 2.0 以原生 2K、4模态输入、30秒极速生成登顶 Artificial Analysis 视频生成榜。但因好莱坞版权投诉，全球推广已暂时暂停。</p>
+  <a class="link" href="https://help.apiyi.com/sora-2-shutdown-seedance-anthropic-compute-strategy-analysis.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Figma 向 AI Agent 开放画布：设计工具进入 Agent 化时代</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>Figma 发布 MCP Server Beta 版和 use_figma 工具，AI Agent（Claude Code、Codex、Cursor）可直接在 Figma 画布上创建和编辑设计资产、组件、变量和自动布局。设计工具从辅助进化到 Agent 可编程。</p>
+  <a class="link" href="https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 阿里通义 Qwen3.5-Max-Preview 发布，LM Arena 国内登顶</h3>
+      <div class="meta">📅 2026-03-20</div>
+      <p>阿里发布 Qwen3.5-Max-Preview 旗舰模型，LM Arena 获1464分跻身全球前五、国内第一。同系列 Qwen3.5-Plus 采用 3970亿总参/170亿激活的 MoE 架构。阿里还上线首个原生多模态 Qwen3.5，同步实现视觉理解与复杂推理。</p>
+  <a class="link" href="https://ai-bot.cn/qwen3-5-max-preview/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic vs Pentagon：联邦法官称五角大楼禁令'令人不安'</h3>
+      
+      <p>联邦法官对五角大楼禁止使用 Anthropic 的决定表示'troubling'。此前 Trump 因 Anthropic 拒绝军事用途而下令禁用，而 OpenAI 迅速填补空白与五角大楼达成机密系统 AI 合同。AI 伦理与国防需求的冲突白热化。</p>
+  <a class="link" href="https://www.ms.now/news/anthropic-takes-fight-against-pentagon-to-federal-court" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 收购 Astral：Python 工具链的战略布局</h3>
+      
+      <p>OpenAI 收购 Python 工具链公司 Astral（Ruff 和 uv 的开发者），强化 Codex 在 Python 开发者生态的布局。此举被视为 OpenAI 构建编码 Agent 基础设施的关键一步。</p>
+  <a class="link" href="https://github.com/astral-sh/ruff" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. NVIDIA NemoClaw 被评为'Agent 安全堡垒'：企业部署标准化方案</h3>
+      
+      <p>Medium 深度技术解析 NemoClaw 的安全架构：Docker+K3s 沙盒化运行时、策略引擎、隐私路由。Jensen Huang GTC 演讲将其定位为'代理计算机的开源操作系统'。Dell 成为首家预装出货 OEM。</p>
+  <a class="link" href="https://medium.com/@jiten.p.oswal/nvidia-nemoclaw-building-a-security-fortress-for-autonomous-agents-332cb4e37ce0" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 字节跳动 Seedance 2.0 登顶视频生成榜后遭好莱坞版权阻击</h3>
+      
+      <p>字节 Seedance 2.0 以原生 2K 分辨率、30秒极速生成登顶 Artificial Analysis 榜首，但随即遭迪士尼、环球等好莱坞巨头版权投诉，全球推广被迫暂停。AI 视频生成的能力与版权的博弈进入关键阶段。</p>
+  <a class="link" href="https://linux.do/t/topic/1802779" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里 Qwen3.5-Max-Preview 发布，国产大模型首入全球前五</h3>
+      
+      <p>阿里通义千问发布 Qwen3.5-Max-Preview，LM Arena 得分1464进入全球前五、国内第一。基础能力评测1470分全球第六。同系列多模态 Qwen3.5 上线，国产大模型能力首次进入全球第一梯队。</p>
+  <a class="link" href="https://finance.sina.cn/tech/2026-03-20/detail-inhrqtzh0949390.d.html?vt=4" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Manus 桌面版发布引发中国科技圈热议</h3>
+      
+      <p>Manus 发布 My Computer 桌面应用后，搜狐等媒体复盘其数据：2025年3月访问量峰值2376万后持续下滑，用户留存率低。桌面版能否逆转颓势成焦点。与此同时，中国企业基于 OpenClaw 平台的 Agent 开发热潮正在兴起。</p>
+  <a class="link" href="https://www.sohu.com/a/1001124871_121948396" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:34 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
