@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-27",
+  "insights": [
+    {
+      "title": "Anthropic Claude 推出 Computer Use：AI Agent 正式接管你的 Mac",
+      "date": "2026-03-24",
+      "summary": "Anthropic 发布 Claude Code 和 Cowork 更新，Claude 可远程控制 Mac 电脑，打开应用、浏览网页、填写表格。用户外出时可通过 iPhone 远程下达指令，标志着 AI Agent 从对话助手正式迈向真正的计算机操作者。",
+      "link": "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html"
+    },
+    {
+      "title": "Figma 向 AI Agent 开放画布写入权限：设计工作流革命",
+      "date": "2026-03-24",
+      "summary": "Figma 推出 use_figma MCP 工具和 Agent Skills（开放 Beta），AI Agent 可直接在 Figma 画布上创建和编辑组件、应用变量、构建设计。Cursor 和 Claude Code 等工具可通过 MCP 协议与 Figma 画布交互，设计与开发的界限正在被彻底打破。",
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    },
+    {
+      "title": "Cursor Composer 2 承认基于 Kimi K2.5：开源归属争议升级",
+      "date": "2026-03-22",
+      "summary": "开发者 Fynn 在 API 响应中发现 Cursor Composer 2 实际基于 Moonshot AI 的 Kimi K2.5 模型，Elon Musk 公开回复确认。Cursor 联合创始人 Aman Sanger 承认未标注来源是失误。事件引发开源归属和商业伦理的广泛讨论。",
+      "link": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/"
+    },
+    {
+      "title": "LiteLLM PyPI 供应链攻击：AI 基础设施安全警钟",
+      "date": "2026-03-24",
+      "summary": "LiteLLM v1.82.7 和 v1.82.8 在 PyPI 上被植入恶意代码，攻击者通过 Trivy CI/CD 工作流入侵，注入凭据窃取器。PyPI 已隔离整个 LiteLLM 包。作为广泛使用的 LLM 代理网关，此次事件凸显 AI 供应链安全的脆弱性。",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html"
+    },
+    {
+      "title": "OpenAI 再融 $100 亿，总轮次达 $1200 亿刷新历史",
+      "date": "2026-03-25",
+      "summary": "OpenAI 正从 MGX、Coatue、Thrive Capital 和 Altimeter Capital 获得约 $100 亿新投资，使其最新融资轮总额超过 $1200 亿，估值达 $7300 亿。OpenAI 基金会计划 2026 年发放 $10 亿赠款用于 AI 安全和社会影响研究。",
+      "link": "https://www.cnbc.com/2026/03/24/openai-secures-an-extra-10-billion-in-record-funding-round-cfo-friar-says.html"
+    },
+    {
+      "title": "Arm 发布首款自研 AGI CPU：136 核数据中心芯片，Meta 为首发客户",
+      "date": "2026-03-25",
+      "summary": "Arm 35 年历史上首次发布自研生产级芯片 AGI CPU，采用台积电 3nm 工艺，双 chiplet 设计搭载 136 个 Neoverse V3 核心，专为 AI 推理优化。Meta 为首发合作伙伴，标志着 Arm 从 IP 授权商向芯片制造商的战略转型。Arm 股价飙升 16%。",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/arm-launches-its-first-data-center-cpu"
+    },
+    {
+      "title": "Samsung 浏览器登陆 Windows：内置 Perplexity Agentic AI 助手",
+      "date": "2026-03-25",
+      "summary": "Samsung Browser 正式推出 Windows 版，核心亮点是内置 Perplexity 驱动的 Agentic AI 助手，可用自然语言管理标签页、搜索历史和跨页面摘要。支持跨设备无缝浏览位置同步，宣告 AI-native 浏览器时代来临。",
+      "link": "https://www.androidauthority.com/samsung-browser-windows-release-3652072/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates",
+      "date": "2026-03-26",
+      "summary": "提出层级化思维模板扩展方法，通过结构化推理模板库提升 LLM 的多步推理能力。在数学和逻辑推理基准上显著超越 CoT 方法。",
+      "link": "https://huggingface.co/papers/2502.06772"
+    },
+    {
+      "title": "VideoMamba: State Space Model for Efficient Video Understanding",
+      "date": "2026-03-26",
+      "summary": "将 Mamba 状态空间模型应用于视频理解，实现线性复杂度的长视频建模。在多个视频分类和理解基准上达到 SOTA，推理速度大幅领先 Transformer 方案。",
+      "link": "https://huggingface.co/papers/2403.06977"
+    },
+    {
+      "title": "OmniParser V2: Screen Parsing Toolkit for Autonomous GUI Agents",
+      "date": "2026-03-25",
+      "summary": "微软开源 OmniParser V2 屏幕解析工具包，为 GUI 自动化 Agent 提供精确的屏幕元素定位和交互理解能力，是 Computer Use 类 Agent 的核心基础设施。",
+      "link": "https://github.com/microsoft/OmniParser"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Elon Musk 确认 Cursor Composer 2 即 Kimi 2.5",
+      "date": "2026-03-20",
+      "summary": "Elon Musk 在开发者 Fynn 的帖子下回复 Yeah it is Kimi 2.5，直接确认 Cursor Composer 2 使用 Moonshot AI 的 Kimi K2.5 作为基础模型，引发关于 AI 开源归属的大讨论。",
+      "link": "https://www.financialexpress.com/life/technology-cursor-composer-2-kimi-k2-5-controversy-co-founder-aman-sanger-admits-using-moonshot-ai-model-after-elon-musk-remarks-4181046/"
+    },
+    {
+      "title": "Anthropic 发布 Claude Computer Use 演示视频",
+      "date": "2026-03-23",
+      "summary": "Anthropic 在 X 上发布 Claude 远程操控 Mac 的演示视频，展示用户通过 iPhone 让 Claude 自动处理会议笔记、打开应用等任务。视频引发热议，Computer Use 正式进入实用阶段。",
+      "link": "https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html"
+    },
+    {
+      "title": "Figma CEO Dylan Field 宣布 AI Agent 画布写入权限",
+      "date": "2026-03-24",
+      "summary": "Dylan Field 在 X 上宣布 Figma 向 AI Agent 开放画布读写权限，通过 MCP 协议和 Skills 系统，AI 可直接在设计文件中操作，呼吁设计师拥抱 Agent 驱动的工作流。",
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Figma MCP 实战：Claude Code 直接操作 Figma 画布",
+      "date": "2026-03-25",
+      "summary": "r/ClaudeCode 社区讨论 Figma 新推出的 use_figma MCP 工具，用户分享了使用 Claude Code 通过 MCP 协议直接在 Figma 中创建组件库和设计的实战经验。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1s30dy7/ai_agents_can_finally_write_to_figma_what_you/"
+    },
+    {
+      "title": "OpenCode 开源 AI 编码 Agent 用户体验对比",
+      "date": "2026-03-26",
+      "summary": "社区活跃讨论 OpenCode 这款 Go 语言编写的开源 AI 编码 Agent，支持 75+ LLM 模型，用户对比了其与 Claude Code 和 Cursor 的使用体验和资源效率。",
+      "link": "https://dev.to/onsen/opencode-the-open-source-ai-coding-agent-reviewed-595p"
+    },
+    {
+      "title": "LiteLLM 供应链攻击紧急响应讨论",
+      "date": "2026-03-25",
+      "summary": "多个 AI 开发社区紧急讨论 LiteLLM PyPI 供应链攻击事件，分享检测方法和缓解措施。Datadog 安全实验室发布详细技术分析。",
+      "link": "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenCode - 开源 AI 编码 Agent",
+      "date": "2026-03-26",
+      "summary": "Go 语言编写的终端原生 AI 编码 Agent，支持 Anthropic、OpenAI、Gemini 等 75+ 模型，通过 OpenRouter 和 Ollama 本地模型。被视为 Claude Code 的开源替代品，近期在 Hacker News 上引发热议。",
+      "link": "https://news.ycombinator.com/item?id=47460525"
+    },
+    {
+      "title": "OmniParser V2 - 微软屏幕解析工具包",
+      "date": "2026-03-25",
+      "summary": "微软开源的 GUI 屏幕解析工具包，为 Computer Use 类 AI Agent 提供屏幕元素精确识别和交互定位能力，是构建桌面自动化 Agent 的关键组件。",
+      "link": "https://github.com/microsoft/OmniParser"
+    },
+    {
+      "title": "Figma MCP Server - Figma 画布 AI Agent 桥接",
+      "date": "2026-03-24",
+      "summary": "Figma 官方发布的 MCP Server 实现，让 AI Agent（如 Claude Code、Cursor）通过 Model Context Protocol 直接读写 Figma 设计文件，附带 9 个预制 Skills。",
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenCode - 开源 AI 编码 Agent 引爆 HN 讨论",
+      "date": "2026-03-26",
+      "summary": "OpenCode 登上 Hacker News 热榜，社区对比其与 Cursor、Claude Code 的差异。讨论焦点包括 Go vs TypeScript 实现、资源效率、多模型支持等。",
+      "link": "https://news.ycombinator.com/item?id=47460525"
+    },
+    {
+      "title": "Cursor Composer 2 实际是 Kimi K2.5 + RL",
+      "date": "2026-03-25",
+      "summary": "Cursor 使用中国开源模型 Kimi K2.5 作为 Composer 2 基础的消息登上 HN 热榜，开发者激烈讨论开源模型商业化中的归属和透明度问题。",
+      "link": "https://news.ycombinator.com/item?id=47452404"
+    },
+    {
+      "title": "LiteLLM PyPI 供应链攻击技术分析",
+      "date": "2026-03-25",
+      "summary": "Datadog 安全实验室对 LiteLLM 供应链攻击的详细技术分析在 HN 引发广泛关注，攻击路径从 Trivy 延伸到 npm 和 PyPI，凸显 CI/CD 安全的系统性风险。",
+      "link": "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "AI Agents 终于能写入 Figma 了：开发者视角分析",
+      "date": "2026-03-25",
+      "summary": "r/ClaudeCode 帖子详细梳理 Figma use_figma MCP 工具的技术细节，从 read-only 到 read/write 的演进路径，以及 Agent Skills 如何编码团队设计规范。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1s30dy7/ai_agents_can_finally_write_to_figma_what_you/"
+    },
+    {
+      "title": "Figma AI Agent 对设计行业的影响讨论",
+      "date": "2026-03-24",
+      "summary": "r/FigmaDesign 社区讨论 Figma 向 AI Agent 开放画布的影响，设计师对 Agent 取代部分设计工作的担忧与期待并存，MCP 协议被认为将重新定义设计师与开发者的协作方式。",
+      "link": "https://www.reddit.com/r/FigmaDesign/comments/1s2exku/new_bridging_design_and_code_with_ai_agents_in/"
+    },
+    {
+      "title": "开源 AI Agent 基础设施的商品化趋势",
+      "date": "2026-03-22",
+      "summary": "讨论 OpenCode、LiteLLM 等开源 Agent 工具如何加速 AI Agent 基础设施的商品化，以及这对商业 AI 产品的影响。",
+      "link": "https://www.epsilla.com/blogs/open-source-ai-agent-infrastructure-march-2026"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Figma use_figma MCP Tool - AI 设计自动化",
+      "date": "2026-03-24",
+      "summary": "Figma 推出的 MCP Server 工具，让 Claude Code、Cursor 等 AI Agent 直接操作 Figma 画布。支持创建组件、应用变量、构建设计系统，附带 9 个预制 Agent Skills。",
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    },
+    {
+      "title": "OpenCode - 免费开源 AI 编码 Agent",
+      "date": "2026-03-26",
+      "summary": "Go 编写的终端 AI 编码 Agent，支持 75+ LLM 提供商包括 Anthropic、OpenAI、Google、Ollama 本地模型。被称为 Claude Code 的开源免费替代品。",
+      "link": "https://news.ycombinator.com/item?id=47460525"
+    },
+    {
+      "title": "Samsung Browser for Windows - Perplexity Agentic AI 浏览器",
+      "date": "2026-03-25",
+      "summary": "Samsung 正式发布 Windows 版浏览器，内置 Perplexity 驱动的 Agentic AI 助手。支持自然语言管理标签页、跨页面内容摘要、跨设备浏览同步等功能。",
+      "link": "https://www.androidauthority.com/samsung-browser-windows-release-3652072/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic Claude Computer Use 正式发布",
+      "date": "2026-03-23",
+      "summary": "Anthropic 更新 Claude Code 和 Cowork，新增 Computer Use 能力。Claude 可远程操控 Mac 电脑：打开应用、浏览网页、填写表格，用户可通过 iPhone 远程下达指令。这是 AI Agent 从助手走向执行者的里程碑。",
+      "link": "https://www.macrumors.com/2026/03/24/claude-use-mac-remotely-iphone/"
+    },
+    {
+      "title": "Figma Agent Skills：设计领域的 Agent 框架",
+      "date": "2026-03-24",
+      "summary": "Figma 推出 Agent Skills 系统，允许团队将设计规范、组件库规则编码为可执行的 Agent 指令。AI Agent 在设计时可自动遵循团队规范，首批 9 个 Skills 涵盖组件库构建、无障碍规范生成等。",
+      "link": "https://alternativeto.net/news/2026/3/figma-opens-direct-ai-agent-design-on-canvas-introduces-skills-for-guided-workflows/"
+    },
+    {
+      "title": "Perplexity Agentic Browsing 进入 Samsung 生态",
+      "date": "2026-03-25",
+      "summary": "Perplexity 的 Agentic AI 能力通过 Samsung Browser 进入 Windows PC 和 Bixby 语音助手，实现自然语言驱动的浏览器操作和跨标签页智能摘要。AI Agent 正从独立应用向操作系统和浏览器层面渗透。",
+      "link": "https://phandroid.com/2026/03/26/samsung-browser-for-windows-just-launched-with-a-perplexity-ai-assistant-on-board/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 再融 $100 亿，估值达 $7300 亿",
+      "date": "2026-03-25",
+      "summary": "OpenAI 正从 MGX、Coatue、Thrive Capital 获得约 $100 亿新融资，总轮次超 $1200 亿。OpenAI 基金会计划 2026 年发放 $10 亿赠款。AI 军备竞赛的资本规模已达天文数字。",
+      "link": "https://www.cnbc.com/2026/03/24/openai-secures-an-extra-10-billion-in-record-funding-round-cfo-friar-says.html"
+    },
+    {
+      "title": "Arm 发布首款自研 AGI CPU，Meta 为首发客户",
+      "date": "2026-03-25",
+      "summary": "Arm 35 年来首次发布自研生产芯片 AGI CPU：台积电 3nm、136 核 Neoverse V3、双 chiplet 设计。专为 AI 推理场景优化，Meta 为首发合作伙伴。Arm 股价飙升 16%，标志其从 IP 授权转型芯片制造商。",
+      "link": "https://newsroom.arm.com/news/arm-agi-cpu-launch"
+    },
+    {
+      "title": "Cursor 估值 $500 亿的透明度危机",
+      "date": "2026-03-22",
+      "summary": "Cursor（Anysphere）在 Composer 2 使用 Kimi K2.5 未标注来源被曝光后，引发估值是否合理的讨论。作为估值 $500 亿的 AI IDE 独角兽，开源模型商业化中的透明度和归属问题成为行业焦点。",
+      "link": "https://www.businessinsider.com/cursor-composer-chinese-model-kimi-moonshot-ai-coding-low-cost-2026-3"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国互联网大厂百虾大战：Agent 平台混战升级",
+      "date": "2026-03-25",
+      "summary": "字节跳动 ArkClaw（3月9日上线）、腾讯 WorkBuddy（3月9日上线，兼容 OpenClaw Skills）、阿里云 CoPaw、小米 MiClaw 等纷纷推出 Agent 平台。OpenClaw 生态成为事实标准，各家围绕 Skills 和 MCP 协议展开差异化竞争。",
+      "link": "https://36kr.com/p/3730941191258371"
+    },
+    {
+      "title": "阿里国际推出首个企业级 AI 智能体 Accio Work",
+      "date": "2026-03-24",
+      "summary": "阿里国际正式在海外上线企业级 AI 智能体 Accio Work，号称可自主帮人做生意。同时阿里云 AI 收入连续第十个季度保持三位数增长，Qwen 3.5-Plus 在编程和 Agent 评估中表现优异。",
+      "link": "https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamht7218817.d.html"
+    },
+    {
+      "title": "Moonshot AI Kimi K2.5 因 Cursor 事件全球走红",
+      "date": "2026-03-22",
+      "summary": "月之暗面（Moonshot AI）的 Kimi K2.5 因 Cursor Composer 2 事件意外获得全球关注。预训练负责人杜羽伦公开质疑 Cursor 未遵守许可证。这一事件为中国开源 AI 模型赢得了前所未有的国际影响力。",
+      "link": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月27日星期五</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月27日星期五</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates</h3>
+      <div class="meta">👤 </div>
+      <p>提出层级化思维模板扩展方法，通过结构化推理模板库提升 LLM 的多步推理能力。在数学和逻辑推理基准上显著超越 CoT 方法。</p>
+  <a class="link" href="https://huggingface.co/papers/2502.06772" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. VideoMamba: State Space Model for Efficient Video Understanding</h3>
+      <div class="meta">👤 </div>
+      <p>将 Mamba 状态空间模型应用于视频理解，实现线性复杂度的长视频建模。在多个视频分类和理解基准上达到 SOTA，推理速度大幅领先 Transformer 方案。</p>
+  <a class="link" href="https://huggingface.co/papers/2403.06977" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OmniParser V2: Screen Parsing Toolkit for Autonomous GUI Agents</h3>
+      <div class="meta">👤 </div>
+      <p>微软开源 OmniParser V2 屏幕解析工具包，为 GUI 自动化 Agent 提供精确的屏幕元素定位和交互理解能力，是 Computer Use 类 Agent 的核心基础设施。</p>
+  <a class="link" href="https://github.com/microsoft/OmniParser" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Elon Musk 确认 Cursor Composer 2 即 Kimi 2.5</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-20</div>
+      <p>Elon Musk 在开发者 Fynn 的帖子下回复 Yeah it is Kimi 2.5，直接确认 Cursor Composer 2 使用 Moonshot AI 的 Kimi K2.5 作为基础模型，引发关于 AI 开源归属的大讨论。</p>
+  <a class="link" href="https://www.financialexpress.com/life/technology-cursor-composer-2-kimi-k2-5-controversy-co-founder-aman-sanger-admits-using-moonshot-ai-model-after-elon-musk-remarks-4181046/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 发布 Claude Computer Use 演示视频</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-23</div>
+      <p>Anthropic 在 X 上发布 Claude 远程操控 Mac 的演示视频，展示用户通过 iPhone 让 Claude 自动处理会议笔记、打开应用等任务。视频引发热议，Computer Use 正式进入实用阶段。</p>
+  <a class="link" href="https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Figma MCP 实战：Claude Code 直接操作 Figma 画布</h3>
+      <div class="meta">💬 </div>
+      <p>r/ClaudeCode 社区讨论 Figma 新推出的 use_figma MCP 工具，用户分享了使用 Claude Code 通过 MCP 协议直接在 Figma 中创建组件库和设计的实战经验。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeCode/comments/1s30dy7/ai_agents_can_finally_write_to_figma_what_you/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenCode 开源 AI 编码 Agent 用户体验对比</h3>
+      <div class="meta">💬 </div>
+      <p>社区活跃讨论 OpenCode 这款 Go 语言编写的开源 AI 编码 Agent，支持 75+ LLM 模型，用户对比了其与 Claude Code 和 Cursor 的使用体验和资源效率。</p>
+  <a class="link" href="https://dev.to/onsen/opencode-the-open-source-ai-coding-agent-reviewed-595p" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LiteLLM 供应链攻击紧急响应讨论</h3>
+      <div class="meta">💬 </div>
+      <p>多个 AI 开发社区紧急讨论 LiteLLM PyPI 供应链攻击事件，分享检测方法和缓解措施。Datadog 安全实验室发布详细技术分析。</p>
+  <a class="link" href="https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OmniParser V2 - 微软屏幕解析工具包</h3>
+      
+      <p>微软开源的 GUI 屏幕解析工具包，为 Computer Use 类 AI Agent 提供屏幕元素精确识别和交互定位能力，是构建桌面自动化 Agent 的关键组件。</p>
+  <a class="link" href="https://github.com/microsoft/OmniParser" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor Composer 2 实际是 Kimi K2.5 + RL</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Cursor 使用中国开源模型 Kimi K2.5 作为 Composer 2 基础的消息登上 HN 热榜，开发者激烈讨论开源模型商业化中的归属和透明度问题。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47452404" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LiteLLM PyPI 供应链攻击技术分析</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Datadog 安全实验室对 LiteLLM 供应链攻击的详细技术分析在 HN 引发广泛关注，攻击路径从 Trivy 延伸到 npm 和 PyPI，凸显 CI/CD 安全的系统性风险。</p>
+  <a class="link" href="https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI Agents 终于能写入 Figma 了：开发者视角分析</h3>
+      <div class="meta">reddit: </div>
+      <p>r/ClaudeCode 帖子详细梳理 Figma use_figma MCP 工具的技术细节，从 read-only 到 read/write 的演进路径，以及 Agent Skills 如何编码团队设计规范。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeCode/comments/1s30dy7/ai_agents_can_finally_write_to_figma_what_you/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Figma AI Agent 对设计行业的影响讨论</h3>
+      <div class="meta">reddit: </div>
+      <p>r/FigmaDesign 社区讨论 Figma 向 AI Agent 开放画布的影响，设计师对 Agent 取代部分设计工作的担忧与期待并存，MCP 协议被认为将重新定义设计师与开发者的协作方式。</p>
+  <a class="link" href="https://www.reddit.com/r/FigmaDesign/comments/1s2exku/new_bridging_design_and_code_with_ai_agents_in/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 开源 AI Agent 基础设施的商品化趋势</h3>
+      <div class="meta">reddit: </div>
+      <p>讨论 OpenCode、LiteLLM 等开源 Agent 工具如何加速 AI Agent 基础设施的商品化，以及这对商业 AI 产品的影响。</p>
+  <a class="link" href="https://www.epsilla.com/blogs/open-source-ai-agent-infrastructure-march-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Samsung Browser for Windows - Perplexity Agentic AI 浏览器</h3>
+      
+      <p>Samsung 正式发布 Windows 版浏览器，内置 Perplexity 驱动的 Agentic AI 助手。支持自然语言管理标签页、跨页面内容摘要、跨设备浏览同步等功能。</p>
+  <a class="link" href="https://www.androidauthority.com/samsung-browser-windows-release-3652072/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Figma Agent Skills：设计领域的 Agent 框架</h3>
+      <div class="meta">🤖 </div>
+      <p>Figma 推出 Agent Skills 系统，允许团队将设计规范、组件库规则编码为可执行的 Agent 指令。AI Agent 在设计时可自动遵循团队规范，首批 9 个 Skills 涵盖组件库构建、无障碍规范生成等。</p>
+  <a class="link" href="https://alternativeto.net/news/2026/3/figma-opens-direct-ai-agent-design-on-canvas-introduces-skills-for-guided-workflows/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Perplexity Agentic Browsing 进入 Samsung 生态</h3>
+      <div class="meta">🤖 </div>
+      <p>Perplexity 的 Agentic AI 能力通过 Samsung Browser 进入 Windows PC 和 Bixby 语音助手，实现自然语言驱动的浏览器操作和跨标签页智能摘要。AI Agent 正从独立应用向操作系统和浏览器层面渗透。</p>
+  <a class="link" href="https://phandroid.com/2026/03/26/samsung-browser-for-windows-just-launched-with-a-perplexity-ai-assistant-on-board/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 再融 $100 亿，总轮次达 $1200 亿刷新历史</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>OpenAI 正从 MGX、Coatue、Thrive Capital 和 Altimeter Capital 获得约 $100 亿新投资，使其最新融资轮总额超过 $1200 亿，估值达 $7300 亿。OpenAI 基金会计划 2026 年发放 $10 亿赠款用于 AI 安全和社会影响研究。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/24/openai-secures-an-extra-10-billion-in-record-funding-round-cfo-friar-says.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Arm 发布首款自研 AGI CPU：136 核数据中心芯片，Meta 为首发客户</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>Arm 35 年历史上首次发布自研生产级芯片 AGI CPU，采用台积电 3nm 工艺，双 chiplet 设计搭载 136 个 Neoverse V3 核心，专为 AI 推理优化。Meta 为首发合作伙伴，标志着 Arm 从 IP 授权商向芯片制造商的战略转型。Arm 股价飙升 16%。</p>
+  <a class="link" href="https://www.tomshardware.com/tech-industry/semiconductors/arm-launches-its-first-data-center-cpu" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Samsung 浏览器登陆 Windows：内置 Perplexity Agentic AI 助手</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>Samsung Browser 正式推出 Windows 版，核心亮点是内置 Perplexity 驱动的 Agentic AI 助手，可用自然语言管理标签页、搜索历史和跨页面摘要。支持跨设备无缝浏览位置同步，宣告 AI-native 浏览器时代来临。</p>
+  <a class="link" href="https://www.androidauthority.com/samsung-browser-windows-release-3652072/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 再融 $100 亿，估值达 $7300 亿</h3>
+      
+      <p>OpenAI 正从 MGX、Coatue、Thrive Capital 获得约 $100 亿新融资，总轮次超 $1200 亿。OpenAI 基金会计划 2026 年发放 $10 亿赠款。AI 军备竞赛的资本规模已达天文数字。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/24/openai-secures-an-extra-10-billion-in-record-funding-round-cfo-friar-says.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Arm 发布首款自研 AGI CPU，Meta 为首发客户</h3>
+      
+      <p>Arm 35 年来首次发布自研生产芯片 AGI CPU：台积电 3nm、136 核 Neoverse V3、双 chiplet 设计。专为 AI 推理场景优化，Meta 为首发合作伙伴。Arm 股价飙升 16%，标志其从 IP 授权转型芯片制造商。</p>
+  <a class="link" href="https://newsroom.arm.com/news/arm-agi-cpu-launch" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor 估值 $500 亿的透明度危机</h3>
+      
+      <p>Cursor（Anysphere）在 Composer 2 使用 Kimi K2.5 未标注来源被曝光后，引发估值是否合理的讨论。作为估值 $500 亿的 AI IDE 独角兽，开源模型商业化中的透明度和归属问题成为行业焦点。</p>
+  <a class="link" href="https://www.businessinsider.com/cursor-composer-chinese-model-kimi-moonshot-ai-coding-low-cost-2026-3" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 中国互联网大厂百虾大战：Agent 平台混战升级</h3>
+      
+      <p>字节跳动 ArkClaw（3月9日上线）、腾讯 WorkBuddy（3月9日上线，兼容 OpenClaw Skills）、阿里云 CoPaw、小米 MiClaw 等纷纷推出 Agent 平台。OpenClaw 生态成为事实标准，各家围绕 Skills 和 MCP 协议展开差异化竞争。</p>
+  <a class="link" href="https://36kr.com/p/3730941191258371" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里国际推出首个企业级 AI 智能体 Accio Work</h3>
+      
+      <p>阿里国际正式在海外上线企业级 AI 智能体 Accio Work，号称可自主帮人做生意。同时阿里云 AI 收入连续第十个季度保持三位数增长，Qwen 3.5-Plus 在编程和 Agent 评估中表现优异。</p>
+  <a class="link" href="https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamht7218817.d.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:34 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
