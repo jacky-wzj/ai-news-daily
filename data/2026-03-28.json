@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-28",
+  "insights": [
+    {
+      "title": "OpenAI 关停 Sora，全面转向企业级 SuperApp 战略",
+      "date": "2026-03-25",
+      "summary": "OpenAI 正式关停上线仅 176 天的 Sora 视频平台（日推理成本高达 1500 万美元），将 ChatGPT、Codex、Atlas 浏览器合并为桌面级 SuperApp，IPO 前聚焦企业生产力。Sora 团队转向机器人方向。",
+      "link": "https://www.wired.com/story/openai-shuts-down-sora-ipo-ai-superapp/"
+    },
+    {
+      "title": "Cursor Composer 2 承认基于月之暗面 Kimi K2.5 构建",
+      "date": "2026-03-22",
+      "summary": "Cursor 发布 Composer 2 后被用户发现底层使用了 Moonshot AI 的开源模型 Kimi K2.5，随后公开承认。约 25% 算力来自 Kimi 基座，75% 为自有训练。引发开源归因透明度争议。",
+      "link": "https://www.tipranks.com/news/cursor-sparks-outrage-after-getting-caught-using-moonshot-ai-kimi-in-its-models"
+    },
+    {
+      "title": "小米 MiMo-V2-Pro 揭晓：万亿参数模型曾匿名登顶 OpenRouter",
+      "date": "2026-03-18",
+      "summary": "3 月 11 日匿名出现在 OpenRouter 上的 Hunter Alpha 实为小米 MiMo-V2-Pro——万亿参数 MoE 模型，性能接近 Claude Opus 4.6，成本仅五分之一。匿名期每周消耗 5000 亿 token。",
+      "link": "https://the-decoder.com/xiaomi-launches-three-mimo-ai-models-to-power-agents-robots-and-voice/"
+    },
+    {
+      "title": "Google TurboQuant 压缩技术震动硬件市场",
+      "date": "2026-03-24",
+      "summary": "Google 发布 TurboQuant 博客，展示 PolarQuant+QJL 方案将 KV Cache 内存压缩 6 倍、推理速度提升 8 倍且精度零损失，引发内存芯片股价波动，将在 ICLR 2026 正式发表。",
+      "link": "https://finance.biggo.com/news/_Q6LKZ0Bq7sy_YQMqkDq"
+    },
+    {
+      "title": "EU AI Act August 2026 Deadline：仅 8 个成员国就绪",
+      "date": "2026-03-26",
+      "summary": "欧盟 AI 法案高风险 AI 系统规则将于 2026 年 8 月 2 日全面生效，但仅 8 个成员国完成准备。欧洲议会投票推迟部分高风险条款至 2027 年 12 月。",
+      "link": "https://worldreporter.com/eu-ai-act-august-2026-deadline-only-8-of-27-eu-states-ready-what-it-means-for-global-ai-compliance/"
+    },
+    {
+      "title": "OpenAI Codex CLI v0.116.0 发布：插件系统与多 Agent v2",
+      "date": "2026-03-19",
+      "summary": "Codex CLI 达 67K GitHub Star，新版支持 ChatGPT 设备码登录、插件一等公民工作流、结构化 Agent 间消息通信。OpenAI 明确 Codex 不受 Sora 关停影响，将持续发展。",
+      "link": "https://www.augmentcode.com/learn/openai-codex-cli-enterprise"
+    },
+    {
+      "title": "CLI vs MCP：Agent 基础设施之争白热化",
+      "date": "2026-03-26",
+      "summary": "Google Workspace CLI (gws) 首周获 1 万+ GitHub Star，内置 MCP Server 和 100+ Agent Skills。同时 HackerNoon 发文称 MCP 已死、CLI 正赢得 Agent 基础设施之争，引发社区激烈讨论。",
+      "link": "https://hackernoon.com/mcp-is-dead-the-cli-is-winning-the-ai-agent-stack"
+    }
+  ],
+  "papers": [
+    {
+      "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+      "date": "2026-03-22",
+      "summary": "DeepSeek 联合北大、清华发表的重磅论文，提出双路径架构解决 Agent 大模型推理中的存储带宽瓶颈，被认为可能暗示 DeepSeek V4 底层架构方向。",
+      "link": "https://www.bilibili.com/video/BV1AFADzTEWz/"
+    },
+    {
+      "title": "TurboQuant: Google KV Cache 压缩 6 倍无精度损失",
+      "date": "2026-03-24",
+      "summary": "Google 研究团队的激进 KV Cache 压缩方案，将内存使用压缩 6 倍、推理速度提升 8 倍，且为即插即用方案，将在 ICLR 2026 上正式展示。",
+      "link": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/"
+    },
+    {
+      "title": "DeepSeek V3.2-Exp: Sparse Attention + DSA 在 MLA 架构下的实例化",
+      "date": "2026-03-26",
+      "summary": "DeepSeek 最新实验版本引入稀疏注意力机制与 DSA（Dynamic Sparse Attention）在 Multi-head Latent Attention 架构下的工程实现，为超长上下文推理提供新范式。",
+      "link": "https://www.bilibili.com/video/BV1PGnmzVEwa/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Cursor 联合创始人 Aman Sanger 回应 Kimi K2.5 争议",
+      "date": "2026-03-22",
+      "summary": "Cursor 联合创始人在 X 上发布系列帖子，承认 Composer 2 基于 Kimi K2.5 构建，但强调 75% 算力为自有训练，性能与原版 Kimi 有本质差异。Elon Musk 也参与评论。",
+      "link": "https://www.builder.io/blog/cursor-vs-claude-code"
+    },
+    {
+      "title": "Sam Altman 谈 Sora 关停：团队将转向机器人",
+      "date": "2026-03-24",
+      "summary": "Sam Altman 表示 Sora 关停是战略聚焦决定，团队将投入长期技术赌注如机器人领域，同时将消费级产品整合为单一 SuperApp。",
+      "link": "https://slate.com/technology/2026/03/ai-openai-sam-altman-disney-sora-shutdown.html"
+    },
+    {
+      "title": "AI Coding Agents 2026 Compared：Cursor vs Codex vs Claude Code",
+      "date": "2026-03-25",
+      "summary": "X 社区大量讨论 AI 编码工具格局变化，Cursor 的 Kimi 争议、OpenAI Codex 持续发力、Claude Code 稳步迭代，开发者在选择中摇摆。",
+      "link": "https://ilirivezaj.com/blog/ai-coding-agents-2026-compared"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Cursor 社区激辩 Composer 2 透明度问题",
+      "date": "2026-03-23",
+      "summary": "Cursor Discord 社区爆发对 Composer 2 使用 Moonshot Kimi 模型未披露的激烈讨论，用户质疑付费产品的模型归因透明度和数据流向问题。",
+      "link": "https://www.tipranks.com/news/cursor-sparks-outrage-after-getting-caught-using-moonshot-ai-kimi-in-its-models"
+    },
+    {
+      "title": "OpenRouter 社区追踪 Hunter Alpha 真实身份",
+      "date": "2026-03-18",
+      "summary": "OpenRouter Discord 社区用户在 Hunter Alpha 匿名模型登顶时展开大规模猜测，多数人认定是 DeepSeek V4，最终揭晓为小米 MiMo-V2-Pro。",
+      "link": "https://particula.tech/blog/xiaomi-mimo-v2-pro-hunter-alpha-explained"
+    },
+    {
+      "title": "MCP Server 生态讨论：Top 50 最热门 MCP 服务端",
+      "date": "2026-03-25",
+      "summary": "Pulse MCP 统计显示 MCP 使用持续增长，前 50 最热搜 MCP Server 中 42 个面向工程师。Discord 社区讨论 CLI vs MCP 的基础设施路线之争。",
+      "link": "https://mcpmanager.ai/blog/most-popular-mcp-servers/"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenAI Codex CLI (67K ⭐) — 终端编码 Agent v0.116.0",
+      "date": "2026-03-19",
+      "summary": "OpenAI 官方终端编码 Agent，新版支持插件一等公民、结构化多 Agent 消息通信、ChatGPT 设备码认证。已有 9K Fork、400+ 贡献者。",
+      "link": "https://www.augmentcode.com/learn/openai-codex-cli-enterprise"
+    },
+    {
+      "title": "Google Stitch MCP Server + SDK（2.4K ⭐）",
+      "date": "2026-03-22",
+      "summary": "Google 设计工具 Stitch 推出 MCP Server 和 SDK，可连接 Gemini CLI、Claude Code、Cursor 等编码工具，Skills 库快速增长。",
+      "link": "https://nervegna.substack.com/p/vibe-design-is-real-inside-google"
+    },
+    {
+      "title": "Google Workspace CLI (gws)（10K+ ⭐）— AI Agent 工作空间",
+      "date": "2026-03-25",
+      "summary": "Google 发布统一命令行工具 gws，内置 MCP Server 支持和 100+ 预制 Agent Skills，首周即获万星。支持 Docs、Sheets、Slides 自动化。",
+      "link": "https://zenvanriel.com/ai-engineer-blog/google-workspace-cli-ai-agents-guide/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "MCP Is Dead. The CLI Is Winning the AI Agent Stack",
+      "date": "2026-03-26",
+      "summary": "HackerNoon 长文引发 Hacker News 热议：开发者正抛弃臃肿的 Agent 协议转向 CLI 作为构建 AI Agent 的最实用基础设施，2026 年 CLI 复兴势不可挡。",
+      "link": "https://hackernoon.com/mcp-is-dead-the-cli-is-winning-the-ai-agent-stack"
+    },
+    {
+      "title": "OpenAI 关停 Sora：日推理成本 1500 万美元不可持续",
+      "date": "2026-03-26",
+      "summary": "Cybernews 报道 Sora 的推理成本约每天 1500 万美元，经济上不可持续。HN 社区讨论 AI 视频生成商业模式的根本性挑战。",
+      "link": "https://cybernews.com/ai-news/why-did-open-ai-sora-crash-and-burn/"
+    },
+    {
+      "title": "Google Cloud 发布 Agentic AI 安全策略与 Wiz 集成",
+      "date": "2026-03-23",
+      "summary": "Google Cloud 推出 Agent AI 安全策略，集成 Wiz 威胁情报，支持托管 MCP 客户端基础设施提供统一治理，预计 4 月 GA。",
+      "link": "https://siliconangle.com/2026/03/23/google-cloud-unveils-agentic-ai-security-strategy-wiz-integration-threat-intelligence-upgrades/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Kimi 2.5 争议：500 亿估值的公司忘了标注开源来源",
+      "date": "2026-03-22",
+      "summary": "r/ArtificialInteligence 热帖讨论 Cursor 使用 Kimi 但未披露事件，社区辩论开源模型商用归因的道德和法律边界。有人认为这是 non-story，也有人要求更高透明度。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1rzwm9t/the_kimi_25_controversy_when_a_50_billion_startup/"
+    },
+    {
+      "title": "2026 AI 工具终极对比：豆包 vs DeepSeek vs ChatGPT vs Cursor",
+      "date": "2026-03-26",
+      "summary": "CSDN 社区发起 2026 年 AI 工具横向对比，涵盖编程、办公、创意场景。Cursor Agent 模式最强但贵，DeepSeek 免费且代码能力出色。",
+      "link": "https://blog.csdn.net/u012669164/article/details/159510846"
+    },
+    {
+      "title": "开源 Agent 基础设施商品化趋势加速",
+      "date": "2026-03-22",
+      "summary": "Medium 深度分析：中国诞生全球首个 Agent-Native AI 模型，西方实验室应警惕。开源 Agent 基础设施正快速商品化，高效上下文投递才是性能瓶颈。",
+      "link": "https://medium.com/@tatsuru.okada/the-worlds-first-agent-native-ai-model-is-chinese-and-western-labs-should-be-worried-576e62ff4fc9"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Stitch：AI 驱动的 Vibe Design 设计工具",
+      "date": "2026-03-22",
+      "summary": "Google Stitch 3 月更新引入 MCP Server、SDK 和 Skills 库，支持 AI Agent 直接在画布上设计。设计师可通过自然语言指令驱动 Figma 级别设计工作流。",
+      "link": "https://nervegna.substack.com/p/vibe-design-is-real-inside-google"
+    },
+    {
+      "title": "Figma MCP 给 AI Agent 画布写权限：实测效果",
+      "date": "2026-03-25",
+      "summary": "Figma 正式开放 Canvas API 给 AI Agent 写权限，配合 Skills 机制实现引导式设计工作流。首批 9 个官方 Skill 覆盖组件库、无障碍审查等场景。",
+      "link": "https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens"
+    },
+    {
+      "title": "ChatGPT 2026 新功能汇总：GPT-5.4 + Codex + SuperApp",
+      "date": "2026-03-26",
+      "summary": "GPT-5.4 整合推理、编码和 Agent 工作流，Codex 支持 Windows 桌面端和 Skills 系统，OpenAI 正合并所有产品为统一 SuperApp。",
+      "link": "https://aibusinessweekly.net/p/chatgpt-new-features-2026"
+    }
+  ],
+  "agent": [
+    {
+      "title": "NVIDIA NemoClaw：GTC 2026 发布企业级 Agent 平台",
+      "date": "2026-03-24",
+      "summary": "NVIDIA 在 GTC 2026 上发布 NemoClaw 企业级 AI Agent 平台，搭配 Vera Rubin 新架构芯片，支持多 Agent 协作的生产级工作流。",
+      "link": "https://zenvanriel.com/ai-engineer-blog/nvidia-nemoclaw-enterprise-ai-agent-platform/"
+    },
+    {
+      "title": "78% 企业有 AI Agent 试点，但仅 15% 进入生产",
+      "date": "2026-03-25",
+      "summary": "2026 年 3 月调查显示 78% 的企业已有 AI Agent 试点项目，但进入生产环境的不到 15%。从 POC 到 Production 的鸿沟成为行业焦点。",
+      "link": "https://www.digitalapplied.com/blog/google-workspace-cli-agent-automate-docs-sheets-slides"
+    },
+    {
+      "title": "OpenClaw 掀起中国企业「养虾热」",
+      "date": "2026-03-25",
+      "summary": "人人都是产品经理报道：2026 年 3 月，真正高度自动化的 Agent OpenClaw 引发中国企业大规模采用 AI Agent 的浪潮，大厂 AI 竞争从模型之争转向 Agent 落地。",
+      "link": "https://www.woshipm.com/ai/6362948.html"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI IPO 准备：关停 Sora、砍 Instant Checkout、聚焦 SuperApp",
+      "date": "2026-03-24",
+      "summary": "OpenAI 在 IPO 前大刀阔斧：关停 Sora 和 Instant Checkout 购物功能，将所有消费产品整合为统一桌面 SuperApp。CNBC 报道这是 OpenAI「副业时代」的终结。",
+      "link": "https://www.cnbc.com/2026/03/24/openai-shutters-short-form-video-app-sora-as-company-reels-in-costs.html"
+    },
+    {
+      "title": "Meta 反垄断让步：WhatsApp 向第三方 AI 助手开放一年",
+      "date": "2026-03-28",
+      "summary": "欧盟反垄断压力下，Meta 同意在欧洲向竞争对手 AI 聊天机器人开放 WhatsApp 平台 12 个月。AI 平台垄断攻防战升级。",
+      "link": "https://www.cdomagazine.tech/aiml/meta-opens-whatsapp-to-rival-ai-chatbots-in-europe-for-one-year"
+    },
+    {
+      "title": "DeepSeek V4 预期升温：V3.2-Exp 架构突破 + DualPath 论文",
+      "date": "2026-03-25",
+      "summary": "DeepSeek V3.2 实验版引入稀疏注意力，配合 DualPath 论文揭示的推理优化方向，社区预测 V4 可能 4 月发布。Hunter Alpha 事件被证实与 DeepSeek 无关。",
+      "link": "https://evolink.ai/blog/deepseek-v4-release-window-prep"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "小米 MiMo-V2 系列：Pro + Flash + Omni + TTS 全矩阵发布",
+      "date": "2026-03-18",
+      "summary": "小米 AI 发布 MiMo-V2 全系列模型：Pro（万亿参数旗舰）、Flash（轻量推理）、Omni（多模态）、TTS（语音合成），配套 MiMo Chat 和 MiMo Claw Agent。",
+      "link": "https://www.aimadetools.com/blog/mimo-v2-family-guide/"
+    },
+    {
+      "title": "智谱 GLM-5 涨价与 GLM-5.1 开源承诺并行",
+      "date": "2026-03-25",
+      "summary": "智谱 AI GLM-5-Turbo 闭源发布引发社区不满后，全球负责人李紫宣承诺 GLM-5.1 将开源。中国大模型的「开源 vs 闭源」路线博弈持续。",
+      "link": "https://aihola.com/article/glm-5-1-open-source"
+    },
+    {
+      "title": "大厂 AI 生死战：2025 下狠手，2026 见真章",
+      "date": "2026-03-25",
+      "summary": "中国互联网大厂 AI 竞争白热化：百度、字节、阿里、腾讯全面投入 Agent 赛道。春节期间千问、GLM-5 集中发布，3 月 OpenClaw 引发企业级 Agent 采用浪潮。",
+      "link": "https://www.woshipm.com/ai/6362948.html"
+    }
+  ]
+}

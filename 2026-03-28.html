@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月28日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月28日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference</h3>
+      <div class="meta">👤 </div>
+      <p>DeepSeek 联合北大、清华发表的重磅论文，提出双路径架构解决 Agent 大模型推理中的存储带宽瓶颈，被认为可能暗示 DeepSeek V4 底层架构方向。</p>
+  <a class="link" href="https://www.bilibili.com/video/BV1AFADzTEWz/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. TurboQuant: Google KV Cache 压缩 6 倍无精度损失</h3>
+      <div class="meta">👤 </div>
+      <p>Google 研究团队的激进 KV Cache 压缩方案，将内存使用压缩 6 倍、推理速度提升 8 倍，且为即插即用方案，将在 ICLR 2026 上正式展示。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek V3.2-Exp: Sparse Attention + DSA 在 MLA 架构下的实例化</h3>
+      <div class="meta">👤 </div>
+      <p>DeepSeek 最新实验版本引入稀疏注意力机制与 DSA（Dynamic Sparse Attention）在 Multi-head Latent Attention 架构下的工程实现，为超长上下文推理提供新范式。</p>
+  <a class="link" href="https://www.bilibili.com/video/BV1PGnmzVEwa/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor 联合创始人 Aman Sanger 回应 Kimi K2.5 争议</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-22</div>
+      <p>Cursor 联合创始人在 X 上发布系列帖子，承认 Composer 2 基于 Kimi K2.5 构建，但强调 75% 算力为自有训练，性能与原版 Kimi 有本质差异。Elon Musk 也参与评论。</p>
+  <a class="link" href="https://www.builder.io/blog/cursor-vs-claude-code" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sam Altman 谈 Sora 关停：团队将转向机器人</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-24</div>
+      <p>Sam Altman 表示 Sora 关停是战略聚焦决定，团队将投入长期技术赌注如机器人领域，同时将消费级产品整合为单一 SuperApp。</p>
+  <a class="link" href="https://slate.com/technology/2026/03/ai-openai-sam-altman-disney-sora-shutdown.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Coding Agents 2026 Compared：Cursor vs Codex vs Claude Code</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-25</div>
+      <p>X 社区大量讨论 AI 编码工具格局变化，Cursor 的 Kimi 争议、OpenAI Codex 持续发力、Claude Code 稳步迭代，开发者在选择中摇摆。</p>
+  <a class="link" href="https://ilirivezaj.com/blog/ai-coding-agents-2026-compared" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor 社区激辩 Composer 2 透明度问题</h3>
+      <div class="meta">💬 </div>
+      <p>Cursor Discord 社区爆发对 Composer 2 使用 Moonshot Kimi 模型未披露的激烈讨论，用户质疑付费产品的模型归因透明度和数据流向问题。</p>
+  <a class="link" href="https://www.tipranks.com/news/cursor-sparks-outrage-after-getting-caught-using-moonshot-ai-kimi-in-its-models" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenRouter 社区追踪 Hunter Alpha 真实身份</h3>
+      <div class="meta">💬 </div>
+      <p>OpenRouter Discord 社区用户在 Hunter Alpha 匿名模型登顶时展开大规模猜测，多数人认定是 DeepSeek V4，最终揭晓为小米 MiMo-V2-Pro。</p>
+  <a class="link" href="https://particula.tech/blog/xiaomi-mimo-v2-pro-hunter-alpha-explained" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. MCP Server 生态讨论：Top 50 最热门 MCP 服务端</h3>
+      <div class="meta">💬 </div>
+      <p>Pulse MCP 统计显示 MCP 使用持续增长，前 50 最热搜 MCP Server 中 42 个面向工程师。Discord 社区讨论 CLI vs MCP 的基础设施路线之争。</p>
+  <a class="link" href="https://mcpmanager.ai/blog/most-popular-mcp-servers/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI Codex CLI (67K ⭐) — 终端编码 Agent v0.116.0</h3>
+      
+      <p>OpenAI 官方终端编码 Agent，新版支持插件一等公民、结构化多 Agent 消息通信、ChatGPT 设备码认证。已有 9K Fork、400+ 贡献者。</p>
+  <a class="link" href="https://www.augmentcode.com/learn/openai-codex-cli-enterprise" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google Stitch MCP Server + SDK（2.4K ⭐）</h3>
+      
+      <p>Google 设计工具 Stitch 推出 MCP Server 和 SDK，可连接 Gemini CLI、Claude Code、Cursor 等编码工具，Skills 库快速增长。</p>
+  <a class="link" href="https://nervegna.substack.com/p/vibe-design-is-real-inside-google" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google Workspace CLI (gws)（10K+ ⭐）— AI Agent 工作空间</h3>
+      
+      <p>Google 发布统一命令行工具 gws，内置 MCP Server 支持和 100+ 预制 Agent Skills，首周即获万星。支持 Docs、Sheets、Slides 自动化。</p>
+  <a class="link" href="https://zenvanriel.com/ai-engineer-blog/google-workspace-cli-ai-agents-guide/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. MCP Is Dead. The CLI Is Winning the AI Agent Stack</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HackerNoon 长文引发 Hacker News 热议：开发者正抛弃臃肿的 Agent 协议转向 CLI 作为构建 AI Agent 的最实用基础设施，2026 年 CLI 复兴势不可挡。</p>
+  <a class="link" href="https://hackernoon.com/mcp-is-dead-the-cli-is-winning-the-ai-agent-stack" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 关停 Sora：日推理成本 1500 万美元不可持续</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Cybernews 报道 Sora 的推理成本约每天 1500 万美元，经济上不可持续。HN 社区讨论 AI 视频生成商业模式的根本性挑战。</p>
+  <a class="link" href="https://cybernews.com/ai-news/why-did-open-ai-sora-crash-and-burn/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google Cloud 发布 Agentic AI 安全策略与 Wiz 集成</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Google Cloud 推出 Agent AI 安全策略，集成 Wiz 威胁情报，支持托管 MCP 客户端基础设施提供统一治理，预计 4 月 GA。</p>
+  <a class="link" href="https://siliconangle.com/2026/03/23/google-cloud-unveils-agentic-ai-security-strategy-wiz-integration-threat-intelligence-upgrades/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Kimi 2.5 争议：500 亿估值的公司忘了标注开源来源</h3>
+      <div class="meta">reddit: </div>
+      <p>r/ArtificialInteligence 热帖讨论 Cursor 使用 Kimi 但未披露事件，社区辩论开源模型商用归因的道德和法律边界。有人认为这是 non-story，也有人要求更高透明度。</p>
+  <a class="link" href="https://www.reddit.com/r/ArtificialInteligence/comments/1rzwm9t/the_kimi_25_controversy_when_a_50_billion_startup/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 2026 AI 工具终极对比：豆包 vs DeepSeek vs ChatGPT vs Cursor</h3>
+      <div class="meta">reddit: </div>
+      <p>CSDN 社区发起 2026 年 AI 工具横向对比，涵盖编程、办公、创意场景。Cursor Agent 模式最强但贵，DeepSeek 免费且代码能力出色。</p>
+  <a class="link" href="https://blog.csdn.net/u012669164/article/details/159510846" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 开源 Agent 基础设施商品化趋势加速</h3>
+      <div class="meta">reddit: </div>
+      <p>Medium 深度分析：中国诞生全球首个 Agent-Native AI 模型，西方实验室应警惕。开源 Agent 基础设施正快速商品化，高效上下文投递才是性能瓶颈。</p>
+  <a class="link" href="https://medium.com/@tatsuru.okada/the-worlds-first-agent-native-ai-model-is-chinese-and-western-labs-should-be-worried-576e62ff4fc9" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Stitch：AI 驱动的 Vibe Design 设计工具</h3>
+      
+      <p>Google Stitch 3 月更新引入 MCP Server、SDK 和 Skills 库，支持 AI Agent 直接在画布上设计。设计师可通过自然语言指令驱动 Figma 级别设计工作流。</p>
+  <a class="link" href="https://nervegna.substack.com/p/vibe-design-is-real-inside-google" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Figma MCP 给 AI Agent 画布写权限：实测效果</h3>
+      
+      <p>Figma 正式开放 Canvas API 给 AI Agent 写权限，配合 Skills 机制实现引导式设计工作流。首批 9 个官方 Skill 覆盖组件库、无障碍审查等场景。</p>
+  <a class="link" href="https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. ChatGPT 2026 新功能汇总：GPT-5.4 + Codex + SuperApp</h3>
+      
+      <p>GPT-5.4 整合推理、编码和 Agent 工作流，Codex 支持 Windows 桌面端和 Skills 系统，OpenAI 正合并所有产品为统一 SuperApp。</p>
+  <a class="link" href="https://aibusinessweekly.net/p/chatgpt-new-features-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. NVIDIA NemoClaw：GTC 2026 发布企业级 Agent 平台</h3>
+      <div class="meta">🤖 </div>
+      <p>NVIDIA 在 GTC 2026 上发布 NemoClaw 企业级 AI Agent 平台，搭配 Vera Rubin 新架构芯片，支持多 Agent 协作的生产级工作流。</p>
+  <a class="link" href="https://zenvanriel.com/ai-engineer-blog/nvidia-nemoclaw-enterprise-ai-agent-platform/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 78% 企业有 AI Agent 试点，但仅 15% 进入生产</h3>
+      <div class="meta">🤖 </div>
+      <p>2026 年 3 月调查显示 78% 的企业已有 AI Agent 试点项目，但进入生产环境的不到 15%。从 POC 到 Production 的鸿沟成为行业焦点。</p>
+  <a class="link" href="https://www.digitalapplied.com/blog/google-workspace-cli-agent-automate-docs-sheets-slides" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenClaw 掀起中国企业「养虾热」</h3>
+      <div class="meta">🤖 </div>
+      <p>人人都是产品经理报道：2026 年 3 月，真正高度自动化的 Agent OpenClaw 引发中国企业大规模采用 AI Agent 的浪潮，大厂 AI 竞争从模型之争转向 Agent 落地。</p>
+  <a class="link" href="https://www.woshipm.com/ai/6362948.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 关停 Sora，全面转向企业级 SuperApp 战略</h3>
+      <div class="meta">📅 2026-03-25</div>
+      <p>OpenAI 正式关停上线仅 176 天的 Sora 视频平台（日推理成本高达 1500 万美元），将 ChatGPT、Codex、Atlas 浏览器合并为桌面级 SuperApp，IPO 前聚焦企业生产力。Sora 团队转向机器人方向。</p>
+  <a class="link" href="https://www.wired.com/story/openai-shuts-down-sora-ipo-ai-superapp/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cursor Composer 2 承认基于月之暗面 Kimi K2.5 构建</h3>
+      <div class="meta">📅 2026-03-22</div>
+      <p>Cursor 发布 Composer 2 后被用户发现底层使用了 Moonshot AI 的开源模型 Kimi K2.5，随后公开承认。约 25% 算力来自 Kimi 基座，75% 为自有训练。引发开源归因透明度争议。</p>
+  <a class="link" href="https://www.tipranks.com/news/cursor-sparks-outrage-after-getting-caught-using-moonshot-ai-kimi-in-its-models" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 小米 MiMo-V2-Pro 揭晓：万亿参数模型曾匿名登顶 OpenRouter</h3>
+      <div class="meta">📅 2026-03-18</div>
+      <p>3 月 11 日匿名出现在 OpenRouter 上的 Hunter Alpha 实为小米 MiMo-V2-Pro——万亿参数 MoE 模型，性能接近 Claude Opus 4.6，成本仅五分之一。匿名期每周消耗 5000 亿 token。</p>
+  <a class="link" href="https://the-decoder.com/xiaomi-launches-three-mimo-ai-models-to-power-agents-robots-and-voice/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Google TurboQuant 压缩技术震动硬件市场</h3>
+      <div class="meta">📅 2026-03-24</div>
+      <p>Google 发布 TurboQuant 博客，展示 PolarQuant+QJL 方案将 KV Cache 内存压缩 6 倍、推理速度提升 8 倍且精度零损失，引发内存芯片股价波动，将在 ICLR 2026 正式发表。</p>
+  <a class="link" href="https://finance.biggo.com/news/_Q6LKZ0Bq7sy_YQMqkDq" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. EU AI Act August 2026 Deadline：仅 8 个成员国就绪</h3>
+      <div class="meta">📅 2026-03-26</div>
+      <p>欧盟 AI 法案高风险 AI 系统规则将于 2026 年 8 月 2 日全面生效，但仅 8 个成员国完成准备。欧洲议会投票推迟部分高风险条款至 2027 年 12 月。</p>
+  <a class="link" href="https://worldreporter.com/eu-ai-act-august-2026-deadline-only-8-of-27-eu-states-ready-what-it-means-for-global-ai-compliance/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. OpenAI Codex CLI v0.116.0 发布：插件系统与多 Agent v2</h3>
+      <div class="meta">📅 2026-03-19</div>
+      <p>Codex CLI 达 67K GitHub Star，新版支持 ChatGPT 设备码登录、插件一等公民工作流、结构化 Agent 间消息通信。OpenAI 明确 Codex 不受 Sora 关停影响，将持续发展。</p>
+  <a class="link" href="https://www.augmentcode.com/learn/openai-codex-cli-enterprise" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. CLI vs MCP：Agent 基础设施之争白热化</h3>
+      <div class="meta">📅 2026-03-26</div>
+      <p>Google Workspace CLI (gws) 首周获 1 万+ GitHub Star，内置 MCP Server 和 100+ Agent Skills。同时 HackerNoon 发文称 MCP 已死、CLI 正赢得 Agent 基础设施之争，引发社区激烈讨论。</p>
+  <a class="link" href="https://hackernoon.com/mcp-is-dead-the-cli-is-winning-the-ai-agent-stack" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI IPO 准备：关停 Sora、砍 Instant Checkout、聚焦 SuperApp</h3>
+      
+      <p>OpenAI 在 IPO 前大刀阔斧：关停 Sora 和 Instant Checkout 购物功能，将所有消费产品整合为统一桌面 SuperApp。CNBC 报道这是 OpenAI「副业时代」的终结。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/24/openai-shutters-short-form-video-app-sora-as-company-reels-in-costs.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Meta 反垄断让步：WhatsApp 向第三方 AI 助手开放一年</h3>
+      
+      <p>欧盟反垄断压力下，Meta 同意在欧洲向竞争对手 AI 聊天机器人开放 WhatsApp 平台 12 个月。AI 平台垄断攻防战升级。</p>
+  <a class="link" href="https://www.cdomagazine.tech/aiml/meta-opens-whatsapp-to-rival-ai-chatbots-in-europe-for-one-year" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek V4 预期升温：V3.2-Exp 架构突破 + DualPath 论文</h3>
+      
+      <p>DeepSeek V3.2 实验版引入稀疏注意力，配合 DualPath 论文揭示的推理优化方向，社区预测 V4 可能 4 月发布。Hunter Alpha 事件被证实与 DeepSeek 无关。</p>
+  <a class="link" href="https://evolink.ai/blog/deepseek-v4-release-window-prep" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 小米 MiMo-V2 系列：Pro + Flash + Omni + TTS 全矩阵发布</h3>
+      
+      <p>小米 AI 发布 MiMo-V2 全系列模型：Pro（万亿参数旗舰）、Flash（轻量推理）、Omni（多模态）、TTS（语音合成），配套 MiMo Chat 和 MiMo Claw Agent。</p>
+  <a class="link" href="https://www.aimadetools.com/blog/mimo-v2-family-guide/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱 GLM-5 涨价与 GLM-5.1 开源承诺并行</h3>
+      
+      <p>智谱 AI GLM-5-Turbo 闭源发布引发社区不满后，全球负责人李紫宣承诺 GLM-5.1 将开源。中国大模型的「开源 vs 闭源」路线博弈持续。</p>
+  <a class="link" href="https://aihola.com/article/glm-5-1-open-source" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 大厂 AI 生死战：2025 下狠手，2026 见真章</h3>
+      
+      <p>中国互联网大厂 AI 竞争白热化：百度、字节、阿里、腾讯全面投入 Agent 赛道。春节期间千问、GLM-5 集中发布，3 月 OpenClaw 引发企业级 Agent 采用浪潮。</p>
+  <a class="link" href="https://www.woshipm.com/ai/6362948.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:53 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
