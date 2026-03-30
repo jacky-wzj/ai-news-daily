@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年3月30日星期一</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年3月30日星期一</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ARC-AGI-3：人类轻松解决而 AI 全面失败的新基准</h3>
+      <div class="meta">👤 </div>
+      <p>ARC Prize 发布 ARC-AGI-3 基准，所有前沿模型得分低于 1%，而人类首次尝试正确率 100%。Gemini 3.1 Pro 最高仅 0.37%，揭示当前 LLM 在真正泛化推理能力上的根本缺陷。</p>
+  <a class="link" href="https://arcprize.org/arc-agi/3" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Voxtral TTS：Mistral 的 4B 开源流式语音生成模型</h3>
+      <div class="meta">👤 </div>
+      <p>Mistral AI 发布 Voxtral TTS，一个 4B 参数的开源文本转语音模型，支持低延迟流式输出和 9 种语言。在语音自然度上超越 ElevenLabs，且可在智能手表级设备上运行。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/03/28/mistral-ai-releases-voxtral-tts-a-4b-open-weight-streaming-speech-model-for-low-latency-multilingual-voice-generation/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cohere Transcribe：面向企业的开源语音转文字模型</h3>
+      <div class="meta">👤 </div>
+      <p>Cohere 发布首个语音模型 Transcribe，开源的自动语音识别系统，专为会议记录和语音分析等企业场景设计，在准确度上达到业内领先水平。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Jensen Huang 接受 Lex Fridman 采访：「我们已经实现了 AGI」</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-23</div>
+      <p>Nvidia CEO 黄仁勋在 Lex Fridman 播客中大胆宣称 AGI 已经实现，理由是 AI Agent 已能独立创建和运营十亿美元级企业。此言论引爆社交媒体讨论，AGI 定义再次成为焦点。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sam Altman 回应 Sora 关闭：将聚焦数据中心和新模型 Spud</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-24</div>
+      <p>OpenAI CEO Sam Altman 在 Sora 关闭后表示将把安全监督让渡出去，自己专注于数据中心和融资。同时透露了代号为「Spud」的新模型计划。</p>
+  <a class="link" href="https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Sanders 和 AOC 提议禁建新数据中心，直到国会通过 AI 监管法案</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-25</div>
+      <p>美国参议员 Sanders 和众议员 AOC 联合提出迄今最激进的 AI 政策立场：在国会通过全面 AI 监管之前，禁止所有新数据中心的建设。该提案在科技圈引发激烈辩论。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Computer Use 社区实测：真的能在 Mac 上自主完成任务</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic 推出 Computer Use 功能，让 Claude 在 Cowork 和 Claude Code 中直接控制 Mac 的键盘、鼠标和应用程序。社区用户开始大量分享远程自主任务完成的测试结果。</p>
+  <a class="link" href="https://claude.com/blog/dispatch-and-computer-use" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cog 项目走红：为 Claude Code 添加持久记忆和自我反思</h3>
+      <div class="meta">💬 </div>
+      <p>开源项目 Cog 在社区引发关注，通过纯文本文件为 Claude Code 添加持久记忆、自我反思和场景模拟能力，配合每夜合并流水线实现长期上下文维护。</p>
+  <a class="link" href="https://lab.puga.com.br/cog/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Stripe Projects 发布：一行命令部署全栈 AI 应用</h3>
+      <div class="meta">💬 </div>
+      <p>Stripe 推出 Projects 平台，从命令行直接配置 hosting、数据库、认证和 AI 能力，让开发者或 AI Agent 无需配置十几个服务就能发布全栈应用。</p>
+  <a class="link" href="https://projects.dev/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Onyx：兼容所有主流 LLM 的开源企业 AI 平台</h3>
+      
+      <p>开源 AI 平台 Onyx 在 GitHub 热度攀升，提供统一的聊天接口兼容 OpenAI、Claude、Gemini 等所有主流 LLM。支持本地部署和企业级数据安全，定位为开源版 ChatGPT Enterprise。</p>
+  <a class="link" href="https://github.com/onyx-dot-app/onyx" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI Codex Plugins：连接 Slack、Figma、Notion 等 20+ 工具</h3>
+      
+      <p>OpenAI 为 Codex 推出插件系统，可连接 Slack、Figma、Notion、Gmail、Google Drive 等 20+ 工具，使 Codex 能跨实际工作应用处理规划和协调任务。</p>
+  <a class="link" href="https://developers.openai.com/codex/plugins" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Ramp CLI：为 AI Agent 提供 50+ 企业财务管理工具</h3>
+      
+      <p>Ramp 发布 CLI 工具包，为 AI Agent 提供 50+ 企业财务管理能力，涵盖卡片管理、账单处理、费用审批和差旅审批等场景。Agent 化企业管理的又一实践。</p>
+  <a class="link" href="https://agents.ramp.com/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 数据泄露揭示最强模型 Claude Mythos</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Fortune 独家报道 Anthropic 近 3000 份文档泄露事件，其中包含对 Claude Mythos 模型的详细描述，被称为「在网络安全能力上远超任何现有 AI 模型」。HN 社区对模型安全性展开激烈讨论。</p>
+  <a class="link" href="https://fortune.com/2026/03/26/anthropic-leaked-unreleased-model-exclusive-event-security-issues-cybersecurity-unsecured-data-store/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Waymo 达到每周 50 万次付费出行里程碑</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Waymo 宣布在美国 10 个城市达到每周 50 万次付费自动驾驶出行，一年内翻倍。3000 辆无人驾驶出租车每周行驶 400 万英里。自动驾驶商业化正在加速。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI 关闭 Sora 的真正原因分析</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>TechCrunch 深度分析 OpenAI 关闭 Sora 的背后逻辑：Sora 曾邀请用户上传面部数据，引发数据抓取质疑。成本过高和产品定位不清是关键因素。AI 视频赛道面临现实检验。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AGI 已经实现？Reddit 社区激辩黄仁勋言论</h3>
+      <div class="meta">reddit: </div>
+      <p>黄仁勋在 Lex Fridman 播客中宣称 AGI 已实现，Reddit r/BetterOffline 等社区展开激烈讨论。多数用户质疑这是为 Nvidia 股价造势，但也有人认为 Agent 能力确实在快速接近 AGI 定义。</p>
+  <a class="link" href="https://www.reddit.com/r/BetterOffline/comments/1s1oho7/agi_has_been_achieved_jensen_huang_on_lex_fridman/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Reddit 热议：AI 内容占比一年增长 13%，平台公布治理方案</h3>
+      <div class="meta">reddit: </div>
+      <p>研究显示 Reddit 平台 AI 生成内容从 2024 到 2025 年增长 13%。Reddit 公布内容治理新方案，引发社区关于 AI 内容检测和人类真实性的深度讨论。</p>
+  <a class="link" href="https://www.techsciencetoday.com/tech/reddit-revealed-how-it-plans-to-deal-with-its-growing-ai-content-problem/18621" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude Mythos 泄露事件：AI 安全的新警钟</h3>
+      <div class="meta">reddit: </div>
+      <p>Anthropic 数据泄露事件在 Reddit 掀起波澜。泄露文档称 Mythos 在网络攻击能力上「远超防御者」，社区讨论 AI 安全治理与模型能力快速增长之间的矛盾。</p>
+  <a class="link" href="https://mashable.com/article/claude-mythos-ai-model-anthropic-leak" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Computer Use：AI 接管你的 Mac 桌面</h3>
+      
+      <p>Anthropic 推出 Computer Use，让 Claude 通过 Cowork 和 Claude Code 直接控制 Mac 的键盘、鼠标和应用程序，实现在用户离开时自主完成任务。桌面级 AI 自动化正式到来。</p>
+  <a class="link" href="https://claude.com/blog/dispatch-and-computer-use" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Shopify Tinker：免费 AI 创意工具套件</h3>
+      
+      <p>Shopify 推出 Tinker，提供免费的 AI 视频、图片、3D 模型和产品摄影工具，可在手机端使用。面向电商场景的创意生产力工具。</p>
+  <a class="link" href="https://www.tinker.com/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Suno v5.5：AI 音乐升级，支持声音克隆和自定义模型</h3>
+      
+      <p>AI 音乐平台 Suno 发布 v5.5，新增经认证的声音克隆功能和自定义模型，可以学习用户跨多首歌曲的音乐风格。AI 音乐创作进入个性化时代。</p>
+  <a class="link" href="https://suno.com/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Ai2 开源 Web Agent：对标 OpenAI、Google 和 Anthropic 的闭源方案</h3>
+      <div class="meta">🤖 </div>
+      <p>Allen AI 研究院发布开源 Web Agent，可在浏览器中导航和完成任务。与 OpenAI Operator、Google Mariner 等闭源方案形成对标，强调开发者可审查 Agent 行为的透明性优势。</p>
+  <a class="link" href="https://www.geekwire.com/2026/ai2-releases-open-source-web-agent-to-rival-closed-systems-from-openai-google-and-anthropic/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 计划 IPO：估值或超 600 亿美元</h3>
+      <div class="meta">🤖 </div>
+      <p>The Information 报道 Anthropic 最早于 2026 年 Q4 IPO，可能融资 600 亿美元以上，将成为仅次于 SpaceX 的史上第二大公开发行。Agent 赛道的资本化进入新阶段。</p>
+  <a class="link" href="https://www.theinformation.com/articles/anthropic-discusses-going-public-soon-fourth-quarter" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Harvey 确认 110 亿美元估值：Sequoia 三次加注法律 AI</h3>
+      <div class="meta">🤖 </div>
+      <p>法律 AI 创业公司 Harvey 完成 2 亿美元融资，估值 110 亿美元。Sequoia 三次加注，VC 资金正从模型公司向垂直 AI 应用扩散。Agent 在法律领域的商业化证明了垂直赛道价值。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic Mythos 泄露震动行业：网络安全股暴跌</h3>
+      <div class="meta">📅 2026-03-26</div>
+      <p>安全研究人员在 Anthropic 未加密数据库中发现近 3000 份未发布文档，其中包含 Claude Mythos（代号 Capybara）的草案，描述为超越 Opus 的新一代模型。Anthropic 确认模型真实存在，称其为「能力阶跃式提升」。泄露引发网络安全股下跌 3-7%。</p>
+  <a class="link" href="https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 关闭 Sora：上线仅 6 个月，10 亿迪士尼合作泡汤</h3>
+      <div class="meta">📅 2026-03-24</div>
+      <p>OpenAI 突然宣布关闭视频生成应用 Sora，距公开发布仅 6 个月。10 亿美元的迪士尼合作随之告吹。官方称将把视频生成技术转向机器人训练。TechCrunch 分析指出这可能是 AI 视频赛道的现实检查时刻。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Apple 开放 Siri 给第三方 AI：iOS 27 引入 Extensions 系统</h3>
+      <div class="meta">📅 2026-03-26</div>
+      <p>Bloomberg 报道 Apple 将在 iOS 27 中开放 Siri 给 Gemini、Claude 等第三方 AI 助手。通过全新 Extensions 系统实现竞争性接入。Apple 同时在研发自有聊天机器人（代号 Campos），基于 Google Gemini 驱动。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. ARC-AGI-3 让所有前沿模型集体翻车：最高分仅 0.37%</h3>
+      <div class="meta">📅 2026-03-28</div>
+      <p>新发布的 ARC-AGI-3 基准测试让所有前沿模型尴尬——Gemini 3.1 Pro 以 0.37% 领先，Grok 4.2 直接 0 分。然而这些任务 100% 的人类被试首次尝试就能解决。这是对当前 AI 泛化能力最有力的一次质疑。</p>
+  <a class="link" href="https://arcprize.org/arc-agi/3" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Jensen Huang 宣称「AGI 已经实现」，引发定义之争</h3>
+      <div class="meta">📅 2026-03-23</div>
+      <p>Nvidia CEO 黄仁勋在 Lex Fridman 播客中表示「我认为 AGI 已经实现」，引用 AI Agent 已能管理高价值企业为证。发言引发广泛讨论，Fortune 等媒体指出 AGI 的定义至今无共识。</p>
+  <a class="link" href="https://www.forbes.com/sites/antoniopequenoiv/2026/03/23/nvidias-jensen-huang-says-he-thinks-weve-achieved-agi/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Arm 35 年来首颗自研芯片：136 核 AGI CPU，Meta 首发客户</h3>
+      <div class="meta">📅 2026-03-24</div>
+      <p>Arm 发布首款自研数据中心处理器 AGI CPU，136 核 3nm 工艺，专为 AI 推理优化。Meta 为首发客户，OpenAI、Cerebras、Cloudflare 已签约。这标志着 Arm 从 IP 授权商向芯片制造商的重大转型。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 语音 AI 三连发：Mistral、Cohere、腾讯同日发布语音模型</h3>
+      <div class="meta">📅 2026-03-26</div>
+      <p>3 月 26 日成为开源语音 AI 里程碑日：Mistral 发布 Voxtral TTS（4B 参数，9 语言），击败 ElevenLabs；Cohere 推出 Transcribe 开源语音转文字模型；腾讯发布 CoVo-Audio。语音 AI 层正在快速爆发。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Granola 从会议记录升级为企业 AI 平台，融资 1.25 亿美元</h3>
+      
+      <p>笔记应用 Granola 完成 1.25 亿美元融资，估值 15 亿美元。从会议笔记工具全面升级为企业 AI 应用平台，支持 Agent 能力。SaaS 向 AI-Native 转型的典型案例。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sanders 和 AOC 提议：国会通过 AI 法规前禁建数据中心</h3>
+      
+      <p>美国参议员 Bernie Sanders 和众议员 AOC 提出迄今最激进的 AI 政策——在国会通过全面 AI 监管法案之前，禁止所有新数据中心建设。科技行业反应强烈。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google AI Day：Gemini 3.1 Flash Live + Search Live 全球上线</h3>
+      
+      <p>Google 发布年度最大 AI 更新：Gemini 3.1 Flash Live 模型、Search Live 登陆 200+ 国家、支持从竞品 AI 应用导入聊天记录。Google 的策略：让 Gemini 粘性强到用户无法离开。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. MiniMax M2.5 连续五周霸榜全球大模型调用量冠军</h3>
+      
+      <p>国产大模型 MiniMax M2.5 连续五周位居全球大模型 API 调用量第一。中国 AI 周调用量达 7.3 万亿 Token，国产大模型正式进入规模化应用时代。MiniMax 港股上涨超 12%。</p>
+  <a class="link" href="https://finance.sina.com.cn/jjxw/2026-03-24/doc-inhsarqw7500442.shtml" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 腾讯 GDPS 大会首发 Agent 产品全景，BAT 三足鼎立格局成型</h3>
+      
+      <p>腾讯在 2026 全球开发者先锋大会上发布 Agent 产品全景图，覆盖底层算力到上层应用全链条。与阿里、字节形成 AI Agent 三足鼎立格局。企业微信已支持一键接入 MCP。</p>
+  <a class="link" href="https://www.woshipm.com/ai/6365085.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. MiniMax M2.7 发布：支持多 Agent 协作，97% 技能遵循率</h3>
+      
+      <p>MiniMax 发布 M2.7，支持 Agent Team 多智能体协作。在 2000+ Token 的复杂技能场景下仍保持 97% 的技能遵循率，Toolathon 正确率 46.3% 全球第一梯队。模型自我进化能力成为亮点。</p>
+  <a class="link" href="https://www.minimaxi.com/news/minimax-m27-zh" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:33 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

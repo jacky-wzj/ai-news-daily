@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-30",
+  "insights": [
+    {
+      "title": "Anthropic Mythos 泄露震动行业：网络安全股暴跌",
+      "date": "2026-03-26",
+      "summary": "安全研究人员在 Anthropic 未加密数据库中发现近 3000 份未发布文档，其中包含 Claude Mythos（代号 Capybara）的草案，描述为超越 Opus 的新一代模型。Anthropic 确认模型真实存在，称其为「能力阶跃式提升」。泄露引发网络安全股下跌 3-7%。",
+      "link": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+    },
+    {
+      "title": "OpenAI 关闭 Sora：上线仅 6 个月，10 亿迪士尼合作泡汤",
+      "date": "2026-03-24",
+      "summary": "OpenAI 突然宣布关闭视频生成应用 Sora，距公开发布仅 6 个月。10 亿美元的迪士尼合作随之告吹。官方称将把视频生成技术转向机器人训练。TechCrunch 分析指出这可能是 AI 视频赛道的现实检查时刻。",
+      "link": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/"
+    },
+    {
+      "title": "Apple 开放 Siri 给第三方 AI：iOS 27 引入 Extensions 系统",
+      "date": "2026-03-26",
+      "summary": "Bloomberg 报道 Apple 将在 iOS 27 中开放 Siri 给 Gemini、Claude 等第三方 AI 助手。通过全新 Extensions 系统实现竞争性接入。Apple 同时在研发自有聊天机器人（代号 Campos），基于 Google Gemini 驱动。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27"
+    },
+    {
+      "title": "ARC-AGI-3 让所有前沿模型集体翻车：最高分仅 0.37%",
+      "date": "2026-03-28",
+      "summary": "新发布的 ARC-AGI-3 基准测试让所有前沿模型尴尬——Gemini 3.1 Pro 以 0.37% 领先，Grok 4.2 直接 0 分。然而这些任务 100% 的人类被试首次尝试就能解决。这是对当前 AI 泛化能力最有力的一次质疑。",
+      "link": "https://arcprize.org/arc-agi/3"
+    },
+    {
+      "title": "Jensen Huang 宣称「AGI 已经实现」，引发定义之争",
+      "date": "2026-03-23",
+      "summary": "Nvidia CEO 黄仁勋在 Lex Fridman 播客中表示「我认为 AGI 已经实现」，引用 AI Agent 已能管理高价值企业为证。发言引发广泛讨论，Fortune 等媒体指出 AGI 的定义至今无共识。",
+      "link": "https://www.forbes.com/sites/antoniopequenoiv/2026/03/23/nvidias-jensen-huang-says-he-thinks-weve-achieved-agi/"
+    },
+    {
+      "title": "Arm 35 年来首颗自研芯片：136 核 AGI CPU，Meta 首发客户",
+      "date": "2026-03-24",
+      "summary": "Arm 发布首款自研数据中心处理器 AGI CPU，136 核 3nm 工艺，专为 AI 推理优化。Meta 为首发客户，OpenAI、Cerebras、Cloudflare 已签约。这标志着 Arm 从 IP 授权商向芯片制造商的重大转型。",
+      "link": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html"
+    },
+    {
+      "title": "语音 AI 三连发：Mistral、Cohere、腾讯同日发布语音模型",
+      "date": "2026-03-26",
+      "summary": "3 月 26 日成为开源语音 AI 里程碑日：Mistral 发布 Voxtral TTS（4B 参数，9 语言），击败 ElevenLabs；Cohere 推出 Transcribe 开源语音转文字模型；腾讯发布 CoVo-Audio。语音 AI 层正在快速爆发。",
+      "link": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "ARC-AGI-3：人类轻松解决而 AI 全面失败的新基准",
+      "date": "2026-03-28",
+      "summary": "ARC Prize 发布 ARC-AGI-3 基准，所有前沿模型得分低于 1%，而人类首次尝试正确率 100%。Gemini 3.1 Pro 最高仅 0.37%，揭示当前 LLM 在真正泛化推理能力上的根本缺陷。",
+      "link": "https://arcprize.org/arc-agi/3"
+    },
+    {
+      "title": "Voxtral TTS：Mistral 的 4B 开源流式语音生成模型",
+      "date": "2026-03-28",
+      "summary": "Mistral AI 发布 Voxtral TTS，一个 4B 参数的开源文本转语音模型，支持低延迟流式输出和 9 种语言。在语音自然度上超越 ElevenLabs，且可在智能手表级设备上运行。",
+      "link": "https://www.marktechpost.com/2026/03/28/mistral-ai-releases-voxtral-tts-a-4b-open-weight-streaming-speech-model-for-low-latency-multilingual-voice-generation/"
+    },
+    {
+      "title": "Cohere Transcribe：面向企业的开源语音转文字模型",
+      "date": "2026-03-26",
+      "summary": "Cohere 发布首个语音模型 Transcribe，开源的自动语音识别系统，专为会议记录和语音分析等企业场景设计，在准确度上达到业内领先水平。",
+      "link": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Jensen Huang 接受 Lex Fridman 采访：「我们已经实现了 AGI」",
+      "date": "2026-03-23",
+      "summary": "Nvidia CEO 黄仁勋在 Lex Fridman 播客中大胆宣称 AGI 已经实现，理由是 AI Agent 已能独立创建和运营十亿美元级企业。此言论引爆社交媒体讨论，AGI 定义再次成为焦点。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi"
+    },
+    {
+      "title": "Sam Altman 回应 Sora 关闭：将聚焦数据中心和新模型 Spud",
+      "date": "2026-03-24",
+      "summary": "OpenAI CEO Sam Altman 在 Sora 关闭后表示将把安全监督让渡出去，自己专注于数据中心和融资。同时透露了代号为「Spud」的新模型计划。",
+      "link": "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/"
+    },
+    {
+      "title": "Sanders 和 AOC 提议禁建新数据中心，直到国会通过 AI 监管法案",
+      "date": "2026-03-25",
+      "summary": "美国参议员 Sanders 和众议员 AOC 联合提出迄今最激进的 AI 政策立场：在国会通过全面 AI 监管之前，禁止所有新数据中心的建设。该提案在科技圈引发激烈辩论。",
+      "link": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Computer Use 社区实测：真的能在 Mac 上自主完成任务",
+      "date": "2026-03-28",
+      "summary": "Anthropic 推出 Computer Use 功能，让 Claude 在 Cowork 和 Claude Code 中直接控制 Mac 的键盘、鼠标和应用程序。社区用户开始大量分享远程自主任务完成的测试结果。",
+      "link": "https://claude.com/blog/dispatch-and-computer-use"
+    },
+    {
+      "title": "Cog 项目走红：为 Claude Code 添加持久记忆和自我反思",
+      "date": "2026-03-28",
+      "summary": "开源项目 Cog 在社区引发关注，通过纯文本文件为 Claude Code 添加持久记忆、自我反思和场景模拟能力，配合每夜合并流水线实现长期上下文维护。",
+      "link": "https://lab.puga.com.br/cog/"
+    },
+    {
+      "title": "Stripe Projects 发布：一行命令部署全栈 AI 应用",
+      "date": "2026-03-28",
+      "summary": "Stripe 推出 Projects 平台，从命令行直接配置 hosting、数据库、认证和 AI 能力，让开发者或 AI Agent 无需配置十几个服务就能发布全栈应用。",
+      "link": "https://projects.dev/"
+    }
+  ],
+  "github": [
+    {
+      "title": "Onyx：兼容所有主流 LLM 的开源企业 AI 平台",
+      "date": "2026-03-28",
+      "summary": "开源 AI 平台 Onyx 在 GitHub 热度攀升，提供统一的聊天接口兼容 OpenAI、Claude、Gemini 等所有主流 LLM。支持本地部署和企业级数据安全，定位为开源版 ChatGPT Enterprise。",
+      "link": "https://github.com/onyx-dot-app/onyx"
+    },
+    {
+      "title": "OpenAI Codex Plugins：连接 Slack、Figma、Notion 等 20+ 工具",
+      "date": "2026-03-27",
+      "summary": "OpenAI 为 Codex 推出插件系统，可连接 Slack、Figma、Notion、Gmail、Google Drive 等 20+ 工具，使 Codex 能跨实际工作应用处理规划和协调任务。",
+      "link": "https://developers.openai.com/codex/plugins"
+    },
+    {
+      "title": "Ramp CLI：为 AI Agent 提供 50+ 企业财务管理工具",
+      "date": "2026-03-28",
+      "summary": "Ramp 发布 CLI 工具包，为 AI Agent 提供 50+ 企业财务管理能力，涵盖卡片管理、账单处理、费用审批和差旅审批等场景。Agent 化企业管理的又一实践。",
+      "link": "https://agents.ramp.com/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Anthropic 数据泄露揭示最强模型 Claude Mythos",
+      "date": "2026-03-26",
+      "summary": "Fortune 独家报道 Anthropic 近 3000 份文档泄露事件，其中包含对 Claude Mythos 模型的详细描述，被称为「在网络安全能力上远超任何现有 AI 模型」。HN 社区对模型安全性展开激烈讨论。",
+      "link": "https://fortune.com/2026/03/26/anthropic-leaked-unreleased-model-exclusive-event-security-issues-cybersecurity-unsecured-data-store/"
+    },
+    {
+      "title": "Waymo 达到每周 50 万次付费出行里程碑",
+      "date": "2026-03-27",
+      "summary": "Waymo 宣布在美国 10 个城市达到每周 50 万次付费自动驾驶出行，一年内翻倍。3000 辆无人驾驶出租车每周行驶 400 万英里。自动驾驶商业化正在加速。",
+      "link": "https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/"
+    },
+    {
+      "title": "OpenAI 关闭 Sora 的真正原因分析",
+      "date": "2026-03-29",
+      "summary": "TechCrunch 深度分析 OpenAI 关闭 Sora 的背后逻辑：Sora 曾邀请用户上传面部数据，引发数据抓取质疑。成本过高和产品定位不清是关键因素。AI 视频赛道面临现实检验。",
+      "link": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "AGI 已经实现？Reddit 社区激辩黄仁勋言论",
+      "date": "2026-03-23",
+      "summary": "黄仁勋在 Lex Fridman 播客中宣称 AGI 已实现，Reddit r/BetterOffline 等社区展开激烈讨论。多数用户质疑这是为 Nvidia 股价造势，但也有人认为 Agent 能力确实在快速接近 AGI 定义。",
+      "link": "https://www.reddit.com/r/BetterOffline/comments/1s1oho7/agi_has_been_achieved_jensen_huang_on_lex_fridman/"
+    },
+    {
+      "title": "Reddit 热议：AI 内容占比一年增长 13%，平台公布治理方案",
+      "date": "2026-03-26",
+      "summary": "研究显示 Reddit 平台 AI 生成内容从 2024 到 2025 年增长 13%。Reddit 公布内容治理新方案，引发社区关于 AI 内容检测和人类真实性的深度讨论。",
+      "link": "https://www.techsciencetoday.com/tech/reddit-revealed-how-it-plans-to-deal-with-its-growing-ai-content-problem/18621"
+    },
+    {
+      "title": "Claude Mythos 泄露事件：AI 安全的新警钟",
+      "date": "2026-03-27",
+      "summary": "Anthropic 数据泄露事件在 Reddit 掀起波澜。泄露文档称 Mythos 在网络攻击能力上「远超防御者」，社区讨论 AI 安全治理与模型能力快速增长之间的矛盾。",
+      "link": "https://mashable.com/article/claude-mythos-ai-model-anthropic-leak"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Claude Computer Use：AI 接管你的 Mac 桌面",
+      "date": "2026-03-27",
+      "summary": "Anthropic 推出 Computer Use，让 Claude 通过 Cowork 和 Claude Code 直接控制 Mac 的键盘、鼠标和应用程序，实现在用户离开时自主完成任务。桌面级 AI 自动化正式到来。",
+      "link": "https://claude.com/blog/dispatch-and-computer-use"
+    },
+    {
+      "title": "Shopify Tinker：免费 AI 创意工具套件",
+      "date": "2026-03-28",
+      "summary": "Shopify 推出 Tinker，提供免费的 AI 视频、图片、3D 模型和产品摄影工具，可在手机端使用。面向电商场景的创意生产力工具。",
+      "link": "https://www.tinker.com/"
+    },
+    {
+      "title": "Suno v5.5：AI 音乐升级，支持声音克隆和自定义模型",
+      "date": "2026-03-28",
+      "summary": "AI 音乐平台 Suno 发布 v5.5，新增经认证的声音克隆功能和自定义模型，可以学习用户跨多首歌曲的音乐风格。AI 音乐创作进入个性化时代。",
+      "link": "https://suno.com/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Ai2 开源 Web Agent：对标 OpenAI、Google 和 Anthropic 的闭源方案",
+      "date": "2026-03-24",
+      "summary": "Allen AI 研究院发布开源 Web Agent，可在浏览器中导航和完成任务。与 OpenAI Operator、Google Mariner 等闭源方案形成对标，强调开发者可审查 Agent 行为的透明性优势。",
+      "link": "https://www.geekwire.com/2026/ai2-releases-open-source-web-agent-to-rival-closed-systems-from-openai-google-and-anthropic/"
+    },
+    {
+      "title": "Anthropic 计划 IPO：估值或超 600 亿美元",
+      "date": "2026-03-28",
+      "summary": "The Information 报道 Anthropic 最早于 2026 年 Q4 IPO，可能融资 600 亿美元以上，将成为仅次于 SpaceX 的史上第二大公开发行。Agent 赛道的资本化进入新阶段。",
+      "link": "https://www.theinformation.com/articles/anthropic-discusses-going-public-soon-fourth-quarter"
+    },
+    {
+      "title": "Harvey 确认 110 亿美元估值：Sequoia 三次加注法律 AI",
+      "date": "2026-03-25",
+      "summary": "法律 AI 创业公司 Harvey 完成 2 亿美元融资，估值 110 亿美元。Sequoia 三次加注，VC 资金正从模型公司向垂直 AI 应用扩散。Agent 在法律领域的商业化证明了垂直赛道价值。",
+      "link": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Granola 从会议记录升级为企业 AI 平台，融资 1.25 亿美元",
+      "date": "2026-03-25",
+      "summary": "笔记应用 Granola 完成 1.25 亿美元融资，估值 15 亿美元。从会议笔记工具全面升级为企业 AI 应用平台，支持 Agent 能力。SaaS 向 AI-Native 转型的典型案例。",
+      "link": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/"
+    },
+    {
+      "title": "Sanders 和 AOC 提议：国会通过 AI 法规前禁建数据中心",
+      "date": "2026-03-25",
+      "summary": "美国参议员 Bernie Sanders 和众议员 AOC 提出迄今最激进的 AI 政策——在国会通过全面 AI 监管法案之前，禁止所有新数据中心建设。科技行业反应强烈。",
+      "link": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/"
+    },
+    {
+      "title": "Google AI Day：Gemini 3.1 Flash Live + Search Live 全球上线",
+      "date": "2026-03-26",
+      "summary": "Google 发布年度最大 AI 更新：Gemini 3.1 Flash Live 模型、Search Live 登陆 200+ 国家、支持从竞品 AI 应用导入聊天记录。Google 的策略：让 Gemini 粘性强到用户无法离开。",
+      "link": "https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "MiniMax M2.5 连续五周霸榜全球大模型调用量冠军",
+      "date": "2026-03-24",
+      "summary": "国产大模型 MiniMax M2.5 连续五周位居全球大模型 API 调用量第一。中国 AI 周调用量达 7.3 万亿 Token，国产大模型正式进入规模化应用时代。MiniMax 港股上涨超 12%。",
+      "link": "https://finance.sina.com.cn/jjxw/2026-03-24/doc-inhsarqw7500442.shtml"
+    },
+    {
+      "title": "腾讯 GDPS 大会首发 Agent 产品全景，BAT 三足鼎立格局成型",
+      "date": "2026-03-28",
+      "summary": "腾讯在 2026 全球开发者先锋大会上发布 Agent 产品全景图，覆盖底层算力到上层应用全链条。与阿里、字节形成 AI Agent 三足鼎立格局。企业微信已支持一键接入 MCP。",
+      "link": "https://www.woshipm.com/ai/6365085.html"
+    },
+    {
+      "title": "MiniMax M2.7 发布：支持多 Agent 协作，97% 技能遵循率",
+      "date": "2026-03-30",
+      "summary": "MiniMax 发布 M2.7，支持 Agent Team 多智能体协作。在 2000+ Token 的复杂技能场景下仍保持 97% 的技能遵循率，Toolathon 正确率 46.3% 全球第一梯队。模型自我进化能力成为亮点。",
+      "link": "https://www.minimaxi.com/news/minimax-m27-zh"
+    }
+  ]
+}
