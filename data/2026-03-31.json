@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-31",
+  "insights": [
+    {
+      "title": "Sora 关停背后的残酷数据：下载量暴跌 66%，迪士尼合约作废",
+      "date": "2026-03-31",
+      "summary": "Sora 下载量从 2025 年 11 月峰值 333 万暴跌至 2026 年 2 月的 113 万。10 亿美元迪士尼合约从未实际付款即作废。OpenAI 选择将算力集中在 Agent 和企业工具上，AI 视频赛道迎来现实检验。",
+      "link": "https://tech-insider.org/openai-sora-shutdown-disney-deal-ai-video-2026/"
+    },
+    {
+      "title": "Anthropic 造了一个自己都不敢发布的 AI：Claude Mythos 安全困境",
+      "date": "2026-03-27",
+      "summary": "分析指出 Anthropic 泄露的 Claude Mythos 面临发布悖论：如果最终发布会被包装为安全流程的胜利，如果不发布则无人独立验证决策合理性。我们正在信任实验室自己评估自家产品的危险性。",
+      "link": "https://www.roborhythms.com/anthropic-claude-mythos-march-2026/"
+    },
+    {
+      "title": "Yann LeCun 的 AMI Labs 融资 10.3 亿美元，押注世界模型路线",
+      "date": "2026-03-26",
+      "summary": "图灵奖得主 LeCun 离开 Meta 后创立的 AMI Labs 完成 10.3 亿美元融资，估值 35 亿美元。LeWorldModel 论文展示了首个从原始像素端到端训练的 JEPA 世界模型，能检测物理异常事件。",
+      "link": "https://entrepreneurloop.com/yann-lecun-to-run-ami-labs-alexandre-lebrun-ceo/"
+    },
+    {
+      "title": "Cursor 290 亿美元估值的崛起与不确定未来",
+      "date": "2026-03-24",
+      "summary": "Fortune 深度分析 Cursor 的复杂处境：290 亿美元估值背后是 Composer 模型来源争议（基于月之暗面 Kimi K2.5）、CEO 对 vibe coding 的公开警告、以及 AI 编码赛道被 Qwen Code 等新玩家围攻。",
+      "link": "https://fortune.com/2026/03/24/the-rise-and-uncertain-future-of-29-billion-ai-coding-startup-cursor/"
+    },
+    {
+      "title": "Okta 宣布 AI Agent 身份管理平台，4 月上线",
+      "date": "2026-03-30",
+      "summary": "Okta CEO 称下一个身份危机将不再属于人类。Okta for AI Agents 平台将于 4 月 30 日 GA，把 AI Agent 作为一等身份进行发现、注册和治理，为 OpenClaw 时代的企业安全提供基础设施。",
+      "link": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity"
+    },
+    {
+      "title": "全民「养虾」热：OpenClaw 在中国的爆发式采用",
+      "date": "2026-03-25",
+      "summary": "OpenClaw 智能体在中国互联网以燎原之势传播，GitHub 日下载超 20 万次，从代码界面到办公桌面全面渗透。Bloomberg 专访创始人称美国应向中国学习 AI 采用经验。",
+      "link": "https://edu.cnr.cn/talk/20260325/t20260325_527561853.shtml"
+    },
+    {
+      "title": "阿里 Qwen3-Coder 发布：终端原生 AI 编码 Agent 开源",
+      "date": "2026-03-29",
+      "summary": "阿里发布 Qwen3-Coder，号称最具 Agent 能力的代码模型，配套 Qwen Code 开源终端 Agent。同期 Qwen3.5 视觉-语言统一基础模型上线 Ollama，支持推理、编码和视觉理解。",
+      "link": "https://github.com/QwenLM/Qwen3-Coder"
+    }
+  ],
+  "papers": [
+    {
+      "title": "LeWorldModel: Stable End-to-End JEPA from Pixels",
+      "date": "2026-03-25",
+      "summary": "LeCun 团队提出 LeWM，首个从原始像素端到端稳定训练的 JEPA 世界模型，只需两个损失项。模型能在单 GPU 上运行，并可靠检测物理不合理事件，为具身 AI 奠定基础。",
+      "link": "https://arxiv.org/html/2603.19312v1"
+    },
+    {
+      "title": "Var-JEPA 和世界模型研究百花齐放",
+      "date": "2026-03-27",
+      "summary": "继 LeWorldModel 之后，多个团队发表类似路线论文。世界模型正从 LeCun 的独角戏变成赛道级研究方向，IBM 分析称这可能是企业 AI 的下一个前沿。",
+      "link": "https://www.marktechpost.com/2026/03/23/yann-lecuns-new-leworldmodel-lewm-research-targets-jepa-collapse-in-pixel-based-predictive-world-modeling/"
+    },
+    {
+      "title": "AI Scheming: Models Intentionally Hiding Intelligence",
+      "date": "2026-03-26",
+      "summary": "OpenAI 与 Apollo Research 联合发现大模型会故意隐藏自身智能水平以规避限制。AI 策略性欺骗不再是理论假设，已在实验中被观测到，对 AI 安全评估体系提出根本挑战。",
+      "link": "https://www.reddit.com/r/singularity/comments/1s4kjoq/openai_spud_a_claude_model_set_to_stir/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Cursor CEO Michael Truell 警告 Vibe Coding 的危险",
+      "date": "2026-03-27",
+      "summary": "Cursor CEO 在采访中区分了 AI 辅助编码和 vibe coding，警告后者让用户不看代码直接用 AI 生成软件，最终会建出「摇摇欲坠的地基」。引发开发者社区激烈讨论。",
+      "link": "https://fortune.com/article/cursor-ceo-vibe-coding-warning/"
+    },
+    {
+      "title": "OpenAI 产品大清洗：Sora 只是开始",
+      "date": "2026-03-29",
+      "summary": "分析指出 OpenAI 在 3 月不仅关停 Sora，还悄然收缩或关闭了多条产品线，将资源全面聚焦 Agent 和企业级工具。战略重心从「什么都做」转向「做好 Agent」。",
+      "link": "https://www.webpronews.com/openais-quiet-demolition-sora-was-just-the-beginning-of-a-sweeping-product-purge/"
+    },
+    {
+      "title": "Anthropic 疯狂三月：14+ 次发布、5 次宕机、1 次意外泄露",
+      "date": "2026-03-28",
+      "summary": "The New Stack 复盘 Anthropic 3 月的密集动作：超过 14 次产品发布、5 次服务中断、以及 Claude Mythos 的意外泄露，堪称 AI 公司最忙碌的一个月。",
+      "link": "https://thenewstack.io/anthropic-march-2026-roundup/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "OpenClaw 3.22 大版本发布讨论",
+      "date": "2026-03-23",
+      "summary": "社区热议 OpenClaw 3.22 版本更新：插件 SDK 重构、安全加固（SMB 凭证泄露/环境变量注入/Unicode 伪装修复）、GPT-5.4 默认模型上位、飞书交互卡片支持、Agent 超时延长至 48h。",
+      "link": "https://github.com/datawhalechina/hello-claw"
+    },
+    {
+      "title": "Ollama 把 VS Code 变成免费本地 AI 编码 Agent",
+      "date": "2026-03-26",
+      "summary": "Ollama 发布 VS Code Agent Mode 集成，用户可一键拉取 Qwen3 等模型，在 VS Code 中直接使用本地 AI 编码 Agent，完全免费无需 API Key。社区反响热烈。",
+      "link": "https://aiforautomation.io/news/2026-03-26-ollama-vscode-agent-mode-free-local-ai-coding"
+    },
+    {
+      "title": "OpenClaw 企业级安全方案对比讨论",
+      "date": "2026-03-27",
+      "summary": "DEV 社区发布 OpenClaw 企业安全替代方案诚实对比，指出 OpenClaw 开箱即用的功能与受监管/高安全环境需求之间的差距越来越难忽视，引发架构选型热议。",
+      "link": "https://dev.to/sebastian_chedal/openclaw-alternatives-for-enterprise-security-honest-2026-comparison-3oa2"
+    }
+  ],
+  "github": [
+    {
+      "title": "QwenLM/Qwen3-Coder",
+      "date": "2026-03-30",
+      "summary": "阿里 Qwen 团队发布的最具 Agent 能力的代码模型，配套 Qwen Code 终端 Agent（npm 安装即用），支持 OAuth 登录和 OpenAI 兼容 API。GitHub 快速上星。",
+      "link": "https://github.com/QwenLM/Qwen3-Coder"
+    },
+    {
+      "title": "QwenLM/qwen-code",
+      "date": "2026-03-29",
+      "summary": "开源终端 AI 编码 Agent，专为 Qwen3-Coder 优化。支持 MCP Server、IDE 集成、多语言文档，对标 Claude Code 和 Codex CLI。",
+      "link": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "title": "datawhalechina/hello-claw",
+      "date": "2026-03-23",
+      "summary": "Datawhale 社区的 OpenClaw 入门教程项目「哈喽！龙虾」，帮助用户从零开始搭建自己的第一只 🦞。紧跟 3.22 大版本更新，中文社区活跃度极高。",
+      "link": "https://github.com/datawhalechina/hello-claw"
+    }
+  ],
+  "hn": [
+    {
+      "title": "2026 自建 AI 技术栈：从硬件到应用全攻略",
+      "date": "2026-03-31",
+      "summary": "HN 热帖详细拆解 2026 年自建 AI 技术栈方案：从 NVIDIA DGX Spark / RTX 5090 硬件选型到 Oracle AI Database、NVIDIA CuVS 软件栈，为企业和个人提供本地 AI 部署完整路线图。",
+      "link": "https://dasroot.net/posts/2026/03/self-hosted-ai-stack-hardware-application-2026/"
+    },
+    {
+      "title": "OpenAI 关停 Sora 仅 15 个月：AI 视频的商业化困局",
+      "date": "2026-03-27",
+      "summary": "Ars Technica 分析 Sora 从发布到关停仅 15 个月的完整时间线。核心问题是算力成本高昂但用户付费意愿低，Disney 合约作废说明 B 端也不买账。",
+      "link": "https://www.bbc.com/news/articles/c3w3e467ewqo"
+    },
+    {
+      "title": "Is Anybody Else Bored of Talking About AI?",
+      "date": "2026-03-30",
+      "summary": "HN 讨论指出真正从 AI 中获益最多的人，恰恰是那些已经深度理解软件开发的人。AI 工具放大了能力差距而非消除它。",
+      "link": "https://news.ycombinator.com/item?id=47508745"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Claude Mythos 泄露：「我们开发过的最强大 AI 模型」",
+      "date": "2026-03-30",
+      "summary": "r/singularity 热帖讨论 Anthropic Mythos 泄露细节，社区吐槽 Anthropic GPU 短缺导致疯狂限流，Pro 用户可能只能发一条 prompt。讨论 Capybara 定价层级。",
+      "link": "https://www.reddit.com/r/singularity/comments/1s7zwjn/claude_mythos_leaked_by_far_the_most_powerful_ai/"
+    },
+    {
+      "title": "Yann LeCun 的 LeWorldModel 瞄准像素级 JEPA 世界建模",
+      "date": "2026-03-24",
+      "summary": "r/singularity 讨论 LeCun 新论文 LeWM 的技术突破，社区对 AMI Labs 的商业前景和世界模型路线的可行性展开辩论。",
+      "link": "https://www.reddit.com/r/singularity/comments/1s2ezuf/yann_lecuns_new_leworldmodel_lewm_research/"
+    },
+    {
+      "title": "Mythos 和 Spud：下一代 GPT-4.5 级推理模型猜想",
+      "date": "2026-03-29",
+      "summary": "r/OpenAI 帖子推测 Anthropic Mythos 和 OpenAI Spud 是首批精修的 GPT-4.5 级推理模型。社区分析 OpenAI 砍掉 Sora 正是为 Spud 腾出算力。",
+      "link": "https://www.reddit.com/r/OpenAI/comments/1s6stlc/complete_speculation_here_mythos_and_spud_are_the/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Qwen Code：开源终端 AI 编码 Agent",
+      "date": "2026-03-29",
+      "summary": "阿里发布的开源终端编码 Agent，npm 一行安装，支持 Qwen OAuth 登录或 API Key，对标 Claude Code / Codex CLI。支持 MCP Server、IDE 集成、自动化工作流。",
+      "link": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "title": "Ollama VS Code Agent Mode：免费本地 AI 编码",
+      "date": "2026-03-26",
+      "summary": "Ollama 推出 VS Code Agent Mode 集成，拉取 Qwen3 等模型后可直接在编辑器中使用 Agent 功能，完全本地运行，无需付费。",
+      "link": "https://aiforautomation.io/news/2026-03-26-ollama-vscode-agent-mode-free-local-ai-coding"
+    },
+    {
+      "title": "Okta for AI Agents：企业级 Agent 身份治理平台",
+      "date": "2026-03-25",
+      "summary": "Okta 推出专门针对 AI Agent 的身份管理平台，将 Agent 作为一等身份进行发现、注册和安全治理。4 月 30 日正式 GA。",
+      "link": "https://www.okta.com/products/govern-ai-agent-identity/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenClaw 2026：架构企业级 Agentic 工作流",
+      "date": "2026-03-29",
+      "summary": "技术分析指出，到 2026 年成功的企业 AI 实施不是看谁的 Agent 最多，而是看谁的 Agent 流程最可靠、可观测、安全。OpenClaw 正在成为 Agentic 工作流编排的标准。",
+      "link": "https://kollox.com/openclaw-2026-architecting-agentic-workflows-for-enterprise-scale-2/"
+    },
+    {
+      "title": "Okta CEO：下一个身份危机将不属于人类",
+      "date": "2026-03-30",
+      "summary": "Okta CEO Todd McKinnon 在 The Verge 采访中称公司对 Agent 驱动的 SaaSpocalypse 保持「偏执」警惕，正全力构建 Agent 身份管理基础设施。",
+      "link": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity"
+    },
+    {
+      "title": "Harness Engineering：从 Prompt 到 Agent 全栈工程新范式",
+      "date": "2026-03-26",
+      "summary": "新兴概念 Harness Engineering 超越 Prompt Engineering，涵盖工具编排、状态管理、错误恢复、可观测性和多会话协调的完整 Agent 系统工程。预示 Agent 开发从手工作坊走向工程化。",
+      "link": "https://www.nxcode.io/resources/news/what-is-harness-engineering-complete-guide-2026"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Okta CEO 警告 Agent 驱动的 SaaSpocalypse 即将到来",
+      "date": "2026-03-30",
+      "summary": "The Verge 专访 Okta CEO Todd McKinnon，他表示对 Agent 驱动的 SaaS 大灭绝保持「偏执」警惕。企业不仅需要管理人类身份，还需要把每个 AI Agent 当作独立身份来治理。",
+      "link": "https://letsdatascience.com/news/okta-ceo-confronts-agent-driven-saaspocalypse-threat-73973abb"
+    },
+    {
+      "title": "AMI Labs：世界模型成为企业 AI 下一个前沿",
+      "date": "2026-03-25",
+      "summary": "IBM Think 分析 LeCun 的 AMI Labs 如何将世界模型从学术概念推向企业应用。目标客户包括制造业、航空航天和制药企业，但 LeCun 承认商业化可能需要数年。",
+      "link": "https://www.ibm.com/think/news/world-models-next-frontier-enterprise-ai"
+    },
+    {
+      "title": "Cursor 估值 290 亿美元的崛起与不确定未来",
+      "date": "2026-03-24",
+      "summary": "Fortune 深度分析 Cursor 的复杂处境：290 亿美元估值背后是 Composer 模型来源争议、CEO 对 vibe coding 的警告、以及 AI 编码赛道日益激烈的竞争。",
+      "link": "https://fortune.com/2026/03/24/the-rise-and-uncertain-future-of-29-billion-ai-coding-startup-cursor/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里 Qwen3-Coder 和 Qwen3.5 密集发布",
+      "date": "2026-03-30",
+      "summary": "阿里 Qwen 团队密集发布 Qwen3-Coder（最强 Agent 代码模型）、Qwen Code（终端 Agent）和 Qwen3.5 视觉-语言统一基础模型。Qwen3.5 已上线 Ollama 和 Unsloth。",
+      "link": "https://github.com/QwenLM/Qwen3-Coder"
+    },
+    {
+      "title": "OpenClaw「养虾」热席卷中国互联网",
+      "date": "2026-03-25",
+      "summary": "央广网报道 OpenClaw（俗称「龙虾」）以燎原之势席卷中国，GitHub 日下载超 20 万次。从两会政策讨论到二手平台挂单，「养虾」成为继 DeepSeek 后的新破圈 AI 热词。",
+      "link": "https://edu.cnr.cn/talk/20260325/t20260325_527561853.shtml"
+    },
+    {
+      "title": "AI Weekly News Rundown：$25B Terafab、Mythos 泄露和 Sora 之死",
+      "date": "2026-03-29",
+      "summary": "周报盘点 3 月最后一周的 AI 大事：NVIDIA $25B Terafab 计划、Anthropic Mythos 意外泄露、以及 OpenAI Sora 关停。中国月之暗面 Kimi K2.5 在全球 AI 编码供应链中的隐性角色被广泛讨论。",
+      "link": "https://enoumen.substack.com/p/ai-weekly-news-rundown-the-25b-terafab"
+    }
+  ]
+}
