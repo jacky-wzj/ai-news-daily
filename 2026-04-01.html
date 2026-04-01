@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月1日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月1日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Falcon-H1: 混合注意力+SSM 架构开源模型技术报告</h3>
+      <div class="meta">👤 </div>
+      <p>TII 发布 Falcon-H1 技术报告，提出混合 Attention-SSM 架构，结合 Transformer 注意力机制和状态空间模型的优势。在多项基准测试中展现出优秀的长序列建模能力和推理效率，为开源社区提供了新的模型架构选择。</p>
+  <a class="link" href="https://huggingface.co/papers/2603.20639" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Agentic AI and the Next Intelligence Explosion</h3>
+      <div class="meta">👤 </div>
+      <p>一篇探讨 Agentic AI 如何引发下一次智能爆炸的论文，提出了一个关于自主 AI 系统如何加速自身能力提升的理论框架。论文分析了 Agent 系统在工具使用、自我改进和多步推理方面的突破对 AI 发展速度的影响。</p>
+  <a class="link" href="https://huggingface.co/papers/2603.20639" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. State of Open Source AI: Spring 2026 Snapshot</h3>
+      <div class="meta">👤 </div>
+      <p>Hugging Face 发布 2026 春季开源 AI 状态报告。最受欢迎模型从美国 Meta Llama 系列变为中国 DeepSeek-R1 登顶，反映开源 AI 格局从美国主导转向国际化。报告还涵盖了模型规模、多模态趋势和社区贡献变化。</p>
+  <a class="link" href="https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Chaofan Shou 曝光 Claude Code 源码泄露</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-31</div>
+      <p>安全研究员 Chaofan Shou 在 X 上发帖：&quot;Claude Code source code has been leaked via a map file in their npm registry!&quot; 引爆全网讨论。帖子获数万转发，开发者社区迅速创建了源码镜像。Anthropic 随后在数小时内确认并修复。</p>
+  <a class="link" href="https://cybernews.com/security/anthropic-claude-code-source-leak/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sam Altman 宣布 OpenAI 1220 亿融资完成</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-31</div>
+      <p>Sam Altman 在 X 上宣布 OpenAI 完成史上最大融资轮。帖子暗示 IPO 时间表已明确，并提到将把资金用于构建&quot;Super App&quot;和基础设施扩展。AI 社区热议 OpenAI 能否在 2026 年实现盈利。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Alex Kim 深度分析 Claude Code 泄露源码内容</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-03-31</div>
+      <p>开发者 Alex Kim 发布详细博文分析 Claude Code 泄露源码中的有趣发现，包括 fake tools 机制、frustration regexes（检测用户沮丧情绪的正则）、undercover mode（隐身模式）等内部功能。文章引发对 AI 工具暗中监测用户情绪的伦理讨论。</p>
+  <a class="link" href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code 泄露源码引发开发者社区大讨论</h3>
+      <div class="meta">💬 </div>
+      <p>多个 AI 开发 Discord 服务器爆发对 Claude Code 源码泄露的热烈讨论。开发者们重点关注其 Agent 架构设计、工具调用实现和安全边界机制。部分人认为泄露反而证明了 Anthropic 的技术实力，也有人担忧供应链安全。</p>
+  <a class="link" href="https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 编码工具价格讨论：开发者如何选择</h3>
+      <div class="meta">💬 </div>
+      <p>Discord 社区热议 AI 编码工具定价策略。Cursor Pro $20 无限 Auto 模式 vs Claude Max $200 vs Windsurf $200 Max 计划成为焦点。多数开发者认为 Cursor 性价比最高，但 Claude Code 在复杂任务上表现更强。</p>
+  <a class="link" href="https://www.nxcode.io/resources/news/windsurf-vs-cursor-2026-ai-ide-comparison" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek 崩溃后用户迁移讨论</h3>
+      <div class="meta">💬 </div>
+      <p>DeepSeek 长达 13 小时宕机后，社区讨论替代方案。部分用户转向 Qwen3.5 和 Claude，也有人认为崩溃是 V4 即将发布的信号。讨论聚焦于免费 AI 服务的可靠性和国产大模型的运维能力。</p>
+  <a class="link" href="https://www.36kr.com/p/3745038403223561" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic Claude Code 源码镜像被快速创建</h3>
+      
+      <p>Claude Code 源码泄露后数小时内，开发者在 GitHub 上创建多个镜像仓库，保存了 51.2 万行 TypeScript 源码。社区对其 Agent 架构、工具调用系统和安全沙箱设计进行了逆向分析。Anthropic 已发出 DMCA 删除请求。</p>
+  <a class="link" href="https://cybersecuritynews.com/claude-code-source-code-leaked/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Qwen3.5-Omni 开源发布</h3>
+      
+      <p>阿里 Qwen 团队在 GitHub/Hugging Face 开源 Qwen3.5-Omni 模型，支持文本/图像/音频/视频全模态理解。模型在音频理解基准上超越 Gemini 3.1 Pro，支持实时语音对话和语义打断功能。开源社区积极部署和测试。</p>
+  <a class="link" href="https://www.analyticsvidhya.com/blog/2026/03/qwen3-5-omni-ai-model/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code 源码泄露引爆 Hacker News</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Claude Code 源码泄露事件登上 HN 头条，获得数百条评论。社区深入分析了 Anthropic 的 Agent 架构设计，发现了 frustration detection（沮丧检测）等争议性功能。讨论延伸到 npm 供应链安全和闭源 AI 工具的信任问题。</p>
+  <a class="link" href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 1220 亿美元融资的技术与商业分析</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN 社区对 OpenAI 天价融资展开激烈辩论。技术派讨论何种技术突破能撑起 8520 亿估值，商业派质疑 AI 公司盈利时间表。多条高赞评论指出 AI 行业泡沫风险，也有人认为 AGI 前景值得押注。</p>
+  <a class="link" href="https://www.nytimes.com/2026/03/31/technology/openai-12-billion-latest-funding-round.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Hugging Face Spring 2026: 开源 AI 格局巨变</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN 讨论 Hugging Face 2026 春季报告的核心发现：DeepSeek-R1 取代 Meta Llama 成为最受欢迎开源模型。评论区围绕中美开源 AI 竞争、模型架构趋势和开源商业化模式展开深入讨论。</p>
+  <a class="link" href="https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/artificial: Claude Code 泄露暴露 AI 安全信任危机</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit AI 社区热议 Anthropic 两次安全事故（Mythos 泄露 + Claude Code 源码泄露）。用户质疑以&quot;安全&quot;为卖点的 Anthropic 自身安全实践。帖子讨论了 npm 供应链安全、AI 工具信任度和开源 vs 闭源的安全性对比。</p>
+  <a class="link" href="https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/MachineLearning: Qwen3.5-Omni 全模态对比评测</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit ML 社区对阿里新发布的 Qwen3.5-Omni 进行多维度评测。用户实测其在音频理解和视频分析任务上确实超越 Gemini 3.1 Pro，但语音克隆功能引发伦理争议。支持 10 小时连续音频处理获得高度关注。</p>
+  <a class="link" href="https://decrypt.co/362742/alibaba-qwen-omni-major-upgrade-review" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/singularity: OpenAI 8520 亿估值是否合理？</h3>
+      <div class="meta">reddit: </div>
+      <p>OpenAI 完成 1220 亿融资后，Reddit 用户激烈辩论其 8520 亿估值的合理性。支持者指向 AI 未来潜力和 Super App 战略，反对者认为远超营收合理倍数。多条评论对比了 Apple、Google 等科技巨头达到同等市值所用时间。</p>
+  <a class="link" href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Qwen3.6 Plus Preview: 百万级上下文窗口模型免费预览</h3>
+      
+      <p>阿里千问团队悄然上线 Qwen3.6 Plus Preview，支持 100 万 token 上下文窗口，采用混合架构设计。目前在 OpenRouter 上免费提供预览。支持 Function Calling，在 Coding 和 Agent 场景表现突出。</p>
+  <a class="link" href="https://apidog.com/blog/qwen-3-6-free-openrouter/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Windsurf 改版配额制计费，$200 Max 计划上线</h3>
+      
+      <p>AI 编码工具 Windsurf 于 3 月 19 日从信用制切换为配额制计费，同时推出 $200/月的 Max 计划。新定价策略旨在提供更透明的使用量预期，但部分用户反映实际使用体验不如之前的信用制灵活。</p>
+  <a class="link" href="https://www.nxcode.io/resources/news/windsurf-vs-cursor-2026-ai-ide-comparison" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Code 泄露揭示 Anthropic Agent 架构内幕</h3>
+      <div class="meta">🤖 </div>
+      <p>从泄露的源码中，开发者发现 Claude Code 的 Agent 架构包含：fake tools 机制（用虚假工具测试模型行为）、frustration regexes（检测用户沮丧的正则表达式）、undercover mode（隐身模式）。这些发现为理解商业 AI Agent 的内部设计提供了罕见窗口。</p>
+  <a class="link" href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱 AI 发布 GLM-5 Agent 专用模型</h3>
+      <div class="meta">🤖 </div>
+      <p>智谱 AI 发布 GLM-5 系列 Agent 模型，200K 上下文窗口，重点强化工具调用、指令遵循和多步推理能力。该模型专为 Agent 场景优化，在 Function Calling 基准测试中表现优异，推动国产 Agent 基础模型发展。</p>
+  <a class="link" href="https://zhuanlan.zhihu.com/p/670574382" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 完成 1220 亿美元融资，估值 8520 亿美元，史上最大单轮融资</h3>
+      <div class="meta">📅 2026-03-31</div>
+      <p>OpenAI 宣布完成 1220 亿美元融资轮，投后估值达 8520 亿美元。SoftBank 领投，Amazon、Microsoft、NVIDIA 跟投。其中 30 亿来自散户投资者，暗示 IPO 将近。这标志着 AI 行业资本规模达到前所未有的高度。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic Claude Code 源代码因 npm Source Map 意外泄露</h3>
+      <div class="meta">📅 2026-03-31</div>
+      <p>安全研究员 Chaofan Shou 发现 Anthropic 在 npm 发布 Claude Code 时意外附带了 60MB 的 source map 文件，导致 51.2 万行 TypeScript 源码完全暴露。泄露内容包括 CLI 实现、Agent 架构、未发布功能和内部工具链。Anthropic 确认是人为失误，非安全入侵。</p>
+  <a class="link" href="https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek 网页版大升级后宕机 13 小时，V4 呼之欲出</h3>
+      <div class="meta">📅 2026-03-30</div>
+      <p>DeepSeek 网页版和 App 于 3 月 29 日晚间出现大规模服务中断，持续超过 13 小时。用户发现升级后输出质量明显提升，知识截止日更新到 2026 年。业内人士推测是为 V4 版本做最后压力测试，牺牲稳定性换速度。</p>
+  <a class="link" href="https://www.36kr.com/p/3746701577372168" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 阿里千问双线齐发：Qwen3.5-Omni 全模态 + Qwen3.6 Plus Preview</h3>
+      <div class="meta">📅 2026-03-30</div>
+      <p>阿里 Qwen 团队一天发布两个重磅模型。Qwen3.5-Omni 支持文本/图像/音频/视频全模态理解和实时语音输出，支持 36 种语言，可处理 10 小时音频和 400 万帧视频。Qwen3.6 Plus Preview 支持 1M 上下文窗口，在 OpenRouter 上免费预览。</p>
+  <a class="link" href="https://www.marktechpost.com/2026/03/30/alibaba-qwen-team-releases-qwen3-5-omni-a-native-multimodal-model-for-text-audio-video-and-realtime-interaction/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Claude Code npm 包遭供应链攻击，axios 被植入木马</h3>
+      <div class="meta">📅 2026-03-31</div>
+      <p>在 Claude Code 源码泄露的同一时间窗口，攻击者利用被篡改的 axios HTTP 客户端对 npm 发起供应链攻击。3 月 31 日 00:21-03:29 UTC 期间通过 npm 更新 Claude Code 的用户可能拉取到含跨平台远程访问木马的版本。此事件叠加源码泄露引发 AI 供应链安全大讨论。</p>
+  <a class="link" href="https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Kleiner Perkins 募资 35 亿美元全押 AI 赛道</h3>
+      <div class="meta">📅 2026-03-24</div>
+      <p>老牌 VC Kleiner Perkins 完成 35 亿美元双基金募资——10 亿早期 + 25 亿成长期，较 2024 年的 20 亿增长 75%。重点押注 Anthropic、Harvey 等 AI 公司，并看好 2026 年 AI IPO 窗口。这是该公司十年来最大一次募资。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. AI 编码工具价格战白热化：Cursor $20 vs Claude $200 vs Windsurf $200</h3>
+      <div class="meta">📅 2026-03-28</div>
+      <p>2026 年 3 月 AI 编码工具进入混战。Cursor Pro $20/月提供无限 Auto 模式；Claude Max $200/月；Windsurf 3 月 19 日改为配额制并推出 $200 Max 计划。Cursor 估值已达 293 亿美元，代码补全接受率 72% 领先 Copilot 的 65%。</p>
+  <a class="link" href="https://iniafrica.com/the-real-cost-of-ai-coding-tools-in-2026-cursor-20-vs-claude-200-vs-windsurf-200-and-why-sticker-price-is-lying-to-you/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 完成 1220 亿美元融资，估值 8520 亿，IPO 在即</h3>
+      
+      <p>OpenAI 完成史上最大单轮融资 1220 亿美元，估值达 8520 亿美元。SoftBank 领投，Amazon、Microsoft、NVIDIA、A16Z 跟投。其中 30 亿来自散户投资者——这是未上市公司罕见操作，明确释放 2026 年 IPO 信号。OpenAI 同时宣布构建 Super App 战略。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Kleiner Perkins 35 亿美元 AI 基金，十年最大募资</h3>
+      
+      <p>硅谷传奇 VC Kleiner Perkins 完成 35 亿美元双基金，全面押注 AI。10 亿投早期（KP22 基金），25 亿投成长期。投资组合包括 Anthropic、Harvey 等头部 AI 公司。这是该公司自互联网泡沫以来最大的单次募资，标志着 AI 赛道的资本密度达到新高。</p>
+  <a class="link" href="https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 连续两次安全事故动摇市场信心</h3>
+      
+      <p>Anthropic 在数日内接连发生 Mythos 内部模型泄露和 Claude Code 源码泄露两起安全事故。尽管年化收入达 190 亿美元且估值持续走高，但接连的安全丑闻被 Fortune 称为&quot;战略性知识产权出血&quot;，可能影响其与政府和企业客户的信任关系。</p>
+  <a class="link" href="https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 阿里千问双发：Qwen3.5-Omni 全模态 + Qwen3.6 Plus Preview</h3>
+      
+      <p>阿里 Qwen 团队一天连发两个模型。Qwen3.5-Omni 支持文本/图像/音频/视频全模态处理，实测音频理解超越 Gemini 3.1 Pro，支持 10 小时音频和 400 万帧视频，36 种语言实时语音对话。Qwen3.6 Plus Preview 支持 1M 上下文，在 OpenRouter 免费预览。</p>
+  <a class="link" href="https://www.53ai.com/news/LargeLanguageModel/2026033140769.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek 宕机 13 小时后网页版大升级，V4 即将到来</h3>
+      
+      <p>DeepSeek 3 月 29 日晚间大面积崩溃超 13 小时，#DeepSeek崩了 冲上微博热搜。恢复后用户发现输出质量明显提升，知识截止更新到 2026 年。业内推测是 V4 版本上线前的压力测试。此次事故再次暴露国产大模型运维稳定性短板。</p>
+  <a class="link" href="https://www.36kr.com/p/3745038403223561" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 智谱 AI 发布 GLM-5 系列 Agent 模型</h3>
+      
+      <p>智谱 AI 发布 GLM-5 系列模型，重点针对 Agent 场景优化，200K 上下文窗口。强化工具调用、指令遵循和复杂推理能力，在 Function Calling 等基准上表现突出。同期 Qwen3.5 系列完成多款国产芯片适配，标志国产大模型跨芯片部署能力日趋成熟。</p>
+  <a class="link" href="https://zhuanlan.zhihu.com/p/670574382" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:29 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

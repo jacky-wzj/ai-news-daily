@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-01",
+  "insights": [
+    {
+      "title": "OpenAI 完成 1220 亿美元融资，估值 8520 亿美元，史上最大单轮融资",
+      "date": "2026-03-31",
+      "summary": "OpenAI 宣布完成 1220 亿美元融资轮，投后估值达 8520 亿美元。SoftBank 领投，Amazon、Microsoft、NVIDIA 跟投。其中 30 亿来自散户投资者，暗示 IPO 将近。这标志着 AI 行业资本规模达到前所未有的高度。",
+      "link": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/"
+    },
+    {
+      "title": "Anthropic Claude Code 源代码因 npm Source Map 意外泄露",
+      "date": "2026-03-31",
+      "summary": "安全研究员 Chaofan Shou 发现 Anthropic 在 npm 发布 Claude Code 时意外附带了 60MB 的 source map 文件，导致 51.2 万行 TypeScript 源码完全暴露。泄露内容包括 CLI 实现、Agent 架构、未发布功能和内部工具链。Anthropic 确认是人为失误，非安全入侵。",
+      "link": "https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know"
+    },
+    {
+      "title": "DeepSeek 网页版大升级后宕机 13 小时，V4 呼之欲出",
+      "date": "2026-03-30",
+      "summary": "DeepSeek 网页版和 App 于 3 月 29 日晚间出现大规模服务中断，持续超过 13 小时。用户发现升级后输出质量明显提升，知识截止日更新到 2026 年。业内人士推测是为 V4 版本做最后压力测试，牺牲稳定性换速度。",
+      "link": "https://www.36kr.com/p/3746701577372168"
+    },
+    {
+      "title": "阿里千问双线齐发：Qwen3.5-Omni 全模态 + Qwen3.6 Plus Preview",
+      "date": "2026-03-30",
+      "summary": "阿里 Qwen 团队一天发布两个重磅模型。Qwen3.5-Omni 支持文本/图像/音频/视频全模态理解和实时语音输出，支持 36 种语言，可处理 10 小时音频和 400 万帧视频。Qwen3.6 Plus Preview 支持 1M 上下文窗口，在 OpenRouter 上免费预览。",
+      "link": "https://www.marktechpost.com/2026/03/30/alibaba-qwen-team-releases-qwen3-5-omni-a-native-multimodal-model-for-text-audio-video-and-realtime-interaction/"
+    },
+    {
+      "title": "Claude Code npm 包遭供应链攻击，axios 被植入木马",
+      "date": "2026-03-31",
+      "summary": "在 Claude Code 源码泄露的同一时间窗口，攻击者利用被篡改的 axios HTTP 客户端对 npm 发起供应链攻击。3 月 31 日 00:21-03:29 UTC 期间通过 npm 更新 Claude Code 的用户可能拉取到含跨平台远程访问木马的版本。此事件叠加源码泄露引发 AI 供应链安全大讨论。",
+      "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html"
+    },
+    {
+      "title": "Kleiner Perkins 募资 35 亿美元全押 AI 赛道",
+      "date": "2026-03-24",
+      "summary": "老牌 VC Kleiner Perkins 完成 35 亿美元双基金募资——10 亿早期 + 25 亿成长期，较 2024 年的 20 亿增长 75%。重点押注 Anthropic、Harvey 等 AI 公司，并看好 2026 年 AI IPO 窗口。这是该公司十年来最大一次募资。",
+      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/"
+    },
+    {
+      "title": "AI 编码工具价格战白热化：Cursor $20 vs Claude $200 vs Windsurf $200",
+      "date": "2026-03-28",
+      "summary": "2026 年 3 月 AI 编码工具进入混战。Cursor Pro $20/月提供无限 Auto 模式；Claude Max $200/月；Windsurf 3 月 19 日改为配额制并推出 $200 Max 计划。Cursor 估值已达 293 亿美元，代码补全接受率 72% 领先 Copilot 的 65%。",
+      "link": "https://iniafrica.com/the-real-cost-of-ai-coding-tools-in-2026-cursor-20-vs-claude-200-vs-windsurf-200-and-why-sticker-price-is-lying-to-you/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Falcon-H1: 混合注意力+SSM 架构开源模型技术报告",
+      "date": "2026-03-28",
+      "summary": "TII 发布 Falcon-H1 技术报告，提出混合 Attention-SSM 架构，结合 Transformer 注意力机制和状态空间模型的优势。在多项基准测试中展现出优秀的长序列建模能力和推理效率，为开源社区提供了新的模型架构选择。",
+      "link": "https://huggingface.co/papers/2603.20639"
+    },
+    {
+      "title": "Agentic AI and the Next Intelligence Explosion",
+      "date": "2026-03-27",
+      "summary": "一篇探讨 Agentic AI 如何引发下一次智能爆炸的论文，提出了一个关于自主 AI 系统如何加速自身能力提升的理论框架。论文分析了 Agent 系统在工具使用、自我改进和多步推理方面的突破对 AI 发展速度的影响。",
+      "link": "https://huggingface.co/papers/2603.20639"
+    },
+    {
+      "title": "State of Open Source AI: Spring 2026 Snapshot",
+      "date": "2026-03-26",
+      "summary": "Hugging Face 发布 2026 春季开源 AI 状态报告。最受欢迎模型从美国 Meta Llama 系列变为中国 DeepSeek-R1 登顶，反映开源 AI 格局从美国主导转向国际化。报告还涵盖了模型规模、多模态趋势和社区贡献变化。",
+      "link": "https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Chaofan Shou 曝光 Claude Code 源码泄露",
+      "date": "2026-03-31",
+      "summary": "安全研究员 Chaofan Shou 在 X 上发帖：\"Claude Code source code has been leaked via a map file in their npm registry!\" 引爆全网讨论。帖子获数万转发，开发者社区迅速创建了源码镜像。Anthropic 随后在数小时内确认并修复。",
+      "link": "https://cybernews.com/security/anthropic-claude-code-source-leak/"
+    },
+    {
+      "title": "Sam Altman 宣布 OpenAI 1220 亿融资完成",
+      "date": "2026-03-31",
+      "summary": "Sam Altman 在 X 上宣布 OpenAI 完成史上最大融资轮。帖子暗示 IPO 时间表已明确，并提到将把资金用于构建\"Super App\"和基础设施扩展。AI 社区热议 OpenAI 能否在 2026 年实现盈利。",
+      "link": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
+    },
+    {
+      "title": "Alex Kim 深度分析 Claude Code 泄露源码内容",
+      "date": "2026-03-31",
+      "summary": "开发者 Alex Kim 发布详细博文分析 Claude Code 泄露源码中的有趣发现，包括 fake tools 机制、frustration regexes（检测用户沮丧情绪的正则）、undercover mode（隐身模式）等内部功能。文章引发对 AI 工具暗中监测用户情绪的伦理讨论。",
+      "link": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Code 泄露源码引发开发者社区大讨论",
+      "date": "2026-03-31",
+      "summary": "多个 AI 开发 Discord 服务器爆发对 Claude Code 源码泄露的热烈讨论。开发者们重点关注其 Agent 架构设计、工具调用实现和安全边界机制。部分人认为泄露反而证明了 Anthropic 的技术实力，也有人担忧供应链安全。",
+      "link": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
+    },
+    {
+      "title": "AI 编码工具价格讨论：开发者如何选择",
+      "date": "2026-03-29",
+      "summary": "Discord 社区热议 AI 编码工具定价策略。Cursor Pro $20 无限 Auto 模式 vs Claude Max $200 vs Windsurf $200 Max 计划成为焦点。多数开发者认为 Cursor 性价比最高，但 Claude Code 在复杂任务上表现更强。",
+      "link": "https://www.nxcode.io/resources/news/windsurf-vs-cursor-2026-ai-ide-comparison"
+    },
+    {
+      "title": "DeepSeek 崩溃后用户迁移讨论",
+      "date": "2026-03-30",
+      "summary": "DeepSeek 长达 13 小时宕机后，社区讨论替代方案。部分用户转向 Qwen3.5 和 Claude，也有人认为崩溃是 V4 即将发布的信号。讨论聚焦于免费 AI 服务的可靠性和国产大模型的运维能力。",
+      "link": "https://www.36kr.com/p/3745038403223561"
+    }
+  ],
+  "github": [
+    {
+      "title": "Anthropic Claude Code 源码镜像被快速创建",
+      "date": "2026-03-31",
+      "summary": "Claude Code 源码泄露后数小时内，开发者在 GitHub 上创建多个镜像仓库，保存了 51.2 万行 TypeScript 源码。社区对其 Agent 架构、工具调用系统和安全沙箱设计进行了逆向分析。Anthropic 已发出 DMCA 删除请求。",
+      "link": "https://cybersecuritynews.com/claude-code-source-code-leaked/"
+    },
+    {
+      "title": "Qwen3.5-Omni 开源发布",
+      "date": "2026-03-30",
+      "summary": "阿里 Qwen 团队在 GitHub/Hugging Face 开源 Qwen3.5-Omni 模型，支持文本/图像/音频/视频全模态理解。模型在音频理解基准上超越 Gemini 3.1 Pro，支持实时语音对话和语义打断功能。开源社区积极部署和测试。",
+      "link": "https://www.analyticsvidhya.com/blog/2026/03/qwen3-5-omni-ai-model/"
+    },
+    {
+      "title": "Google TurboQuant: KV Cache 压缩 6 倍加速算法",
+      "date": "2026-03-25",
+      "summary": "Google Research 开源 TurboQuant 压缩算法，可将 LLM Key-Value Cache 内存减少至少 6 倍，推理速度提升最高 8 倍。该方法兼容主流开源模型，为大规模部署提供了重要的工程优化方案。",
+      "link": "https://www.theneuron.ai/ai-news-digests/around-the-horn-digest-everything-that-happened-in-ai-on-wednesday-march-25-2026-/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Claude Code 源码泄露引爆 Hacker News",
+      "date": "2026-03-31",
+      "summary": "Claude Code 源码泄露事件登上 HN 头条，获得数百条评论。社区深入分析了 Anthropic 的 Agent 架构设计，发现了 frustration detection（沮丧检测）等争议性功能。讨论延伸到 npm 供应链安全和闭源 AI 工具的信任问题。",
+      "link": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/"
+    },
+    {
+      "title": "OpenAI 1220 亿美元融资的技术与商业分析",
+      "date": "2026-03-31",
+      "summary": "HN 社区对 OpenAI 天价融资展开激烈辩论。技术派讨论何种技术突破能撑起 8520 亿估值，商业派质疑 AI 公司盈利时间表。多条高赞评论指出 AI 行业泡沫风险，也有人认为 AGI 前景值得押注。",
+      "link": "https://www.nytimes.com/2026/03/31/technology/openai-12-billion-latest-funding-round.html"
+    },
+    {
+      "title": "Hugging Face Spring 2026: 开源 AI 格局巨变",
+      "date": "2026-03-26",
+      "summary": "HN 讨论 Hugging Face 2026 春季报告的核心发现：DeepSeek-R1 取代 Meta Llama 成为最受欢迎开源模型。评论区围绕中美开源 AI 竞争、模型架构趋势和开源商业化模式展开深入讨论。",
+      "link": "https://www.libertify.com/interactive-library/state-open-source-ai-hugging-face-spring-2026/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/artificial: Claude Code 泄露暴露 AI 安全信任危机",
+      "date": "2026-03-31",
+      "summary": "Reddit AI 社区热议 Anthropic 两次安全事故（Mythos 泄露 + Claude Code 源码泄露）。用户质疑以\"安全\"为卖点的 Anthropic 自身安全实践。帖子讨论了 npm 供应链安全、AI 工具信任度和开源 vs 闭源的安全性对比。",
+      "link": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
+    },
+    {
+      "title": "r/MachineLearning: Qwen3.5-Omni 全模态对比评测",
+      "date": "2026-03-30",
+      "summary": "Reddit ML 社区对阿里新发布的 Qwen3.5-Omni 进行多维度评测。用户实测其在音频理解和视频分析任务上确实超越 Gemini 3.1 Pro，但语音克隆功能引发伦理争议。支持 10 小时连续音频处理获得高度关注。",
+      "link": "https://decrypt.co/362742/alibaba-qwen-omni-major-upgrade-review"
+    },
+    {
+      "title": "r/singularity: OpenAI 8520 亿估值是否合理？",
+      "date": "2026-03-31",
+      "summary": "OpenAI 完成 1220 亿融资后，Reddit 用户激烈辩论其 8520 亿估值的合理性。支持者指向 AI 未来潜力和 Super App 战略，反对者认为远超营收合理倍数。多条评论对比了 Apple、Google 等科技巨头达到同等市值所用时间。",
+      "link": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Qwen3.6 Plus Preview: 百万级上下文窗口模型免费预览",
+      "date": "2026-03-31",
+      "summary": "阿里千问团队悄然上线 Qwen3.6 Plus Preview，支持 100 万 token 上下文窗口，采用混合架构设计。目前在 OpenRouter 上免费提供预览。支持 Function Calling，在 Coding 和 Agent 场景表现突出。",
+      "link": "https://apidog.com/blog/qwen-3-6-free-openrouter/"
+    },
+    {
+      "title": "Windsurf 改版配额制计费，$200 Max 计划上线",
+      "date": "2026-03-19",
+      "summary": "AI 编码工具 Windsurf 于 3 月 19 日从信用制切换为配额制计费，同时推出 $200/月的 Max 计划。新定价策略旨在提供更透明的使用量预期，但部分用户反映实际使用体验不如之前的信用制灵活。",
+      "link": "https://www.nxcode.io/resources/news/windsurf-vs-cursor-2026-ai-ide-comparison"
+    },
+    {
+      "title": "Cohere Transcribe: 新一代语音转文本模型",
+      "date": "2026-03-25",
+      "summary": "Cohere 发布 Transcribe 语音识别模型，在多语言转录准确率上刷新基准。支持实时流式转录和长音频处理，面向企业级应用场景。与 Google TurboQuant 一起成为本周开发者工具领域的重要进展。",
+      "link": "https://www.theneuron.ai/ai-news-digests/around-the-horn-digest-everything-that-happened-in-ai-on-wednesday-march-25-2026-/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Claude Code 泄露揭示 Anthropic Agent 架构内幕",
+      "date": "2026-03-31",
+      "summary": "从泄露的源码中，开发者发现 Claude Code 的 Agent 架构包含：fake tools 机制（用虚假工具测试模型行为）、frustration regexes（检测用户沮丧的正则表达式）、undercover mode（隐身模式）。这些发现为理解商业 AI Agent 的内部设计提供了罕见窗口。",
+      "link": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/"
+    },
+    {
+      "title": "智谱 AI 发布 GLM-5 Agent 专用模型",
+      "date": "2026-03-26",
+      "summary": "智谱 AI 发布 GLM-5 系列 Agent 模型，200K 上下文窗口，重点强化工具调用、指令遵循和多步推理能力。该模型专为 Agent 场景优化，在 Function Calling 基准测试中表现优异，推动国产 Agent 基础模型发展。",
+      "link": "https://zhuanlan.zhihu.com/p/670574382"
+    },
+    {
+      "title": "异步软件工程 Agent 的有效策略研究",
+      "date": "2026-03-25",
+      "summary": "一篇新论文研究了异步软件工程 Agent 的有效工作策略。提出了多种提升 Agent 在代码理解、任务分解和工具使用效率的方法，为构建更实用的编程 Agent 提供理论指导。论文配有开源代码。",
+      "link": "https://www.theneuron.ai/ai-news-digests/around-the-horn-digest-everything-that-happened-in-ai-on-wednesday-march-25-2026-/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 完成 1220 亿美元融资，估值 8520 亿，IPO 在即",
+      "date": "2026-03-31",
+      "summary": "OpenAI 完成史上最大单轮融资 1220 亿美元，估值达 8520 亿美元。SoftBank 领投，Amazon、Microsoft、NVIDIA、A16Z 跟投。其中 30 亿来自散户投资者——这是未上市公司罕见操作，明确释放 2026 年 IPO 信号。OpenAI 同时宣布构建 Super App 战略。",
+      "link": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/"
+    },
+    {
+      "title": "Kleiner Perkins 35 亿美元 AI 基金，十年最大募资",
+      "date": "2026-03-24",
+      "summary": "硅谷传奇 VC Kleiner Perkins 完成 35 亿美元双基金，全面押注 AI。10 亿投早期（KP22 基金），25 亿投成长期。投资组合包括 Anthropic、Harvey 等头部 AI 公司。这是该公司自互联网泡沫以来最大的单次募资，标志着 AI 赛道的资本密度达到新高。",
+      "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/"
+    },
+    {
+      "title": "Anthropic 连续两次安全事故动摇市场信心",
+      "date": "2026-03-31",
+      "summary": "Anthropic 在数日内接连发生 Mythos 内部模型泄露和 Claude Code 源码泄露两起安全事故。尽管年化收入达 190 亿美元且估值持续走高，但接连的安全丑闻被 Fortune 称为\"战略性知识产权出血\"，可能影响其与政府和企业客户的信任关系。",
+      "link": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里千问双发：Qwen3.5-Omni 全模态 + Qwen3.6 Plus Preview",
+      "date": "2026-03-30",
+      "summary": "阿里 Qwen 团队一天连发两个模型。Qwen3.5-Omni 支持文本/图像/音频/视频全模态处理，实测音频理解超越 Gemini 3.1 Pro，支持 10 小时音频和 400 万帧视频，36 种语言实时语音对话。Qwen3.6 Plus Preview 支持 1M 上下文，在 OpenRouter 免费预览。",
+      "link": "https://www.53ai.com/news/LargeLanguageModel/2026033140769.html"
+    },
+    {
+      "title": "DeepSeek 宕机 13 小时后网页版大升级，V4 即将到来",
+      "date": "2026-03-30",
+      "summary": "DeepSeek 3 月 29 日晚间大面积崩溃超 13 小时，#DeepSeek崩了 冲上微博热搜。恢复后用户发现输出质量明显提升，知识截止更新到 2026 年。业内推测是 V4 版本上线前的压力测试。此次事故再次暴露国产大模型运维稳定性短板。",
+      "link": "https://www.36kr.com/p/3745038403223561"
+    },
+    {
+      "title": "智谱 AI 发布 GLM-5 系列 Agent 模型",
+      "date": "2026-03-26",
+      "summary": "智谱 AI 发布 GLM-5 系列模型，重点针对 Agent 场景优化，200K 上下文窗口。强化工具调用、指令遵循和复杂推理能力，在 Function Calling 等基准上表现突出。同期 Qwen3.5 系列完成多款国产芯片适配，标志国产大模型跨芯片部署能力日趋成熟。",
+      "link": "https://zhuanlan.zhihu.com/p/670574382"
+    }
+  ]
+}
