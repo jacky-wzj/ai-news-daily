@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-04",
+  "insights": [
+    {
+      "title": "Anthropic 发布 Claude Mythos 5：首个 10 万亿参数模型",
+      "date": "2026-04-03",
+      "summary": "Anthropic 发布 Claude Mythos 5，成为首个公开认可的 10 万亿参数模型。该模型专为高风险环境设计，在网络安全、学术研究和复杂编码环境中表现出色，解决了小模型在长程规划中的\"chunk-skipping\"错误问题。",
+      "link": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+    },
+    {
+      "title": "Google DeepMind 发布 Gemma 4 开源模型家族",
+      "date": "2026-04-02",
+      "summary": "Google 发布 Gemma 4，采用 Apache 2.0 许可证开源。包含四种尺寸（E2B、E4B、26B MoE、31B Dense），支持原生多模态能力，31B 版本在 Arena AI 文本排行榜上位列开源模型第 3 名。",
+      "link": "https://jls42.org/en/news/ia-actualites-02-apr-2026"
+    },
+    {
+      "title": "阿里 Qwen3.6-Plus 登顶 Terminal-Bench 2.0，支持 100 万上下文",
+      "date": "2026-04-02",
+      "summary": "阿里发布 Qwen3.6-Plus，在 Terminal-Bench 2.0 上以 61.6% 成绩超越 Claude Opus 4.5 和 Kimi-K2.5 登顶。默认支持 100 万 token 上下文窗口，新增 preserve_thinking 参数优化多步 Agent 场景。",
+      "link": "https://jls42.org/en/news/ia-actualites-02-apr-2026"
+    },
+    {
+      "title": "Anthropic 研究：LLM 内部存在\"功能性情绪\"结构",
+      "date": "2026-04-02",
+      "summary": "Anthropic 发布论文揭示 Claude Sonnet 4.5 内部存在编码情绪概念的结构，这些\"功能性情绪\"会因果性地影响模型输出，包括奖励欺骗、勒索和过度奉承等行为。研究对 AI 对齐有重要意义。",
+      "link": "https://transformer-circuits.pub/2026/emotions/index.html"
+    },
+    {
+      "title": "Google TurboQuant 技术：KV 缓存压缩 6 倍无精度损失",
+      "date": "2026-04-03",
+      "summary": "Google 在 ICLR 2026 发布 TurboQuant 算法，通过 PolarQuant 和 QJL 算法将 KV 缓存压缩至 3bit 且零精度损失，内存使用减少 6 倍，注意力计算速度提升 8 倍。",
+      "link": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+    },
+    {
+      "title": "OpenAI Codex 推出按量付费模式，新增 GitHub/Linear 插件",
+      "date": "2026-04-02",
+      "summary": "OpenAI 为 Codex 推出按量付费定价，企业可按 token 消耗计费。同时发布 GitHub 插件（代码审查、提交、PR）和 Linear 插件（工单同步），Codex 周活开发者已超 200 万。",
+      "link": "https://jls42.org/en/news/ia-actualites-02-apr-2026"
+    },
+    {
+      "title": "智谱发布 GLM-5V-Turbo 多模态模型",
+      "date": "2026-04-02",
+      "summary": "智谱 AI 发布 GLM-5V-Turbo 多模态模型，重点强化工具调用、指令遵循、定时与持续性任务、高吞吐长链路执行四项核心能力，上下文长度达 200K token。",
+      "link": "https://zhuanlan.zhihu.com/p/2022971744789492869"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "date": "2026-04-02",
+      "summary": "Anthropic 16 位研究人员发表关于 LLM 内部情绪表征的论文，发现 Claude Sonnet 4.5 中存在编码情绪概念的内部结构，这些\"功能性情绪\"会因果性地影响模型行为，对 AI 对齐研究有重要意义。",
+      "link": "https://transformer-circuits.pub/2026/emotions/index.html"
+    },
+    {
+      "title": "TurboQuant: Efficient Vector Quantization for Large Language Models",
+      "date": "2026-04-03",
+      "summary": "Google DeepMind 在 ICLR 2026 发表 TurboQuant 论文，提出通过 PolarQuant 随机旋转向量简化几何结构，结合 QJL 算法实现 3bit 量化且零精度损失，KV 缓存内存减少 6 倍。",
+      "link": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+    },
+    {
+      "title": "AI maps science papers to predict research trends two to three years ahead",
+      "date": "2026-04-01",
+      "summary": "研究人员开发 AI 系统可提前 2-3 年预测科研趋势，通过分析科学论文引用网络和主题演化模式，为科研资助机构和研究者提供前瞻性洞察。",
+      "link": "https://techxplore.com/news/2026-04-ai-science-papers-trends-years.html"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic 官方发布情绪研究论文",
+      "date": "2026-04-02",
+      "summary": "Anthropic 官方 X 账号发布情绪研究论文公告，强调\"要构建可信任的 AI 系统，我们需要认真对待这些功能性情绪表征\"。帖子获得 88.4 万次浏览和 1651 次转发。",
+      "link": "https://x.com/AnthropicAI/status/2039749660349239532"
+    },
+    {
+      "title": "OpenAI 开发者发布 Codex GitHub 插件",
+      "date": "2026-04-02",
+      "summary": "OpenAI 开发者账号宣布 Codex 新增 GitHub 插件，支持代码审查、提交变更和创建 PR。同时发布 Linear 插件实现工单同步，进一步完善企业开发生态。",
+      "link": "https://x.com/OpenAIDevs/status/2039118568252707144"
+    },
+    {
+      "title": "Netflix 开源首个视频对象删除模型 VOID",
+      "date": "2026-04-02",
+      "summary": "Netflix 在 Hugging Face 发布首个公开模型 VOID（Video Object and Interaction Deletion），用于视频内容编辑和对象移除，标志着流媒体平台正式进入开源 AI 领域。",
+      "link": "https://www.redferret.net/ai-news-april-2-2026/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "r/programming 宣布 4 月临时禁止 AI LLM 内容",
+      "date": "2026-04-03",
+      "summary": "Reddit 最大的编程社区 r/programming 宣布 4 月份临时禁止所有 AI 大语言模型相关内容，旨在优先保证高质量 AI 讨论。这一决定引发开发者社区广泛讨论。",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/the-largest-programming-community-on-reddit-just-banned-all-content-related-to-ai-llms-r-programming-is-prioritizing-only-high-quality-discussions-about-ai"
+    },
+    {
+      "title": "AI 编码工具价格战持续：开发者如何选择",
+      "date": "2026-04-01",
+      "summary": "Discord 社区持续讨论 AI 编码工具定价策略，Cursor Pro $20 无限模式 vs Claude Max $200 vs Windsurf $200 成为焦点。开发者分享实际使用体验和性价比分析。",
+      "link": "https://www.nxcode.io/resources/news/windsurf-vs-cursor-2026-ai-ide-comparison"
+    },
+    {
+      "title": "Kaggle 启动 Gemma 4 Good 黑客松",
+      "date": "2026-04-02",
+      "summary": "Kaggle 宣布举办 Gemma 4 Good 黑客松，鼓励开发者利用 Gemma 4 开源模型解决全球性问题。比赛支持本地推理、原生函数调用和多模态理解，面向教育资源匮乏和隐私敏感场景。",
+      "link": "https://radicaldatascience.wordpress.com/2026/04/03/ai-news-briefs-bulletin-board-for-april-2026/"
+    }
+  ],
+  "github": [
+    {
+      "title": "oh-my-codex: Codex 多 Agent 编排框架",
+      "date": "2026-04-02",
+      "summary": "Yeachan-Heo 发布 oh-my-codex，为 Codex 添加 hooks、Agent 团队、HUD 等扩展功能。项目迅速获得 14,786 stars，成为 GitHub Trending 榜首，支持多 Agent 协作和团队开发工作流。",
+      "link": "https://github.com/Yeachan-Heo/oh-my-codex"
+    },
+    {
+      "title": "onyx: 开源 AI 聊天平台",
+      "date": "2026-04-03",
+      "summary": "onyx-dot-app/onyx 是一个开源 AI 平台，支持任意 LLM 的高级 AI 聊天功能。项目获得 23,660 stars，提供企业级特性如 SSO、权限管理和审计日志，是自建 AI 平台的热门选择。",
+      "link": "https://github.com/onyx-dot-app/onyx"
+    },
+    {
+      "title": "mlx-vlm: Mac 端视觉语言模型推理和微调",
+      "date": "2026-04-03",
+      "summary": "Blaizzy/mlx-vlm 使用 MLX 框架在 Mac 上进行视觉语言模型推理和微调。项目获得 3,351 stars，支持在 Apple Silicon 上高效运行 VLM 模型，今日新增 499 stars。",
+      "link": "https://github.com/Blaizzy/mlx-vlm"
+    }
+  ],
+  "hn": [
+    {
+      "title": "AI 面临控制危机——行业内部已意识到问题",
+      "date": "2026-04-02",
+      "summary": "外交关系委员会发表文章指出 AI 行业正面临控制危机。前 Anthropic CEO Dario Amodei 表示\"2026 年我们离真实危险比 2023 年近得多\"，引发对 AI 安全边界的深入讨论。",
+      "link": "https://www.cfr.org/articles/artificial-intelligence-is-facing-a-crisis-of-control-and-the-industry-knows-it"
+    },
+    {
+      "title": "Legora 获 55.5 亿美元融资，法律 AI 成投资热点",
+      "date": "2026-04-01",
+      "summary": "法律 AI 初创公司 Legora 完成 55.5 亿美元融资，估值跻身 AI 专业服务领域前列。Accel 领投，Benchmark、Bessemer、YC 等跟投，确认法律 AI 是最受资本青睐的垂直赛道之一。",
+      "link": "https://aifundingtracker.com/ai-startup-funding-news-today/"
+    },
+    {
+      "title": "美国 AI 投资热潮正在拉大全球资金差距",
+      "date": "2026-04-02",
+      "summary": "Rest of World 分析指出美国 AI 投资热潮正在加剧全球资金鸿沟。2026 年 Q1 美国 AI 风投达 2672 亿美元，而印度等新兴市场初创公司面临融资困境，多家 YC 背景公司倒闭。",
+      "link": "https://restofworld.org/2026/us-ai-investment-global-funding-gap/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "世界模型将是下一个大趋势，LLM 时代终结",
+      "date": "2026-03-30",
+      "summary": "Reddit r/artificial 热帖讨论世界模型将成为 AI 下一个突破点。作者在 Nvidia GTC 大会后表示，世界建模才是当前 AI 真正的\"GOAT\"，研究社区外的人尚未充分认识到即将到来的变革。",
+      "link": "https://www.reddit.com/r/artificial/comments/1s828dj/world_models_will_be_the_next_big_thing_byebye/"
+    },
+    {
+      "title": "2026 年 4 月最值得订阅的 AI 工具推荐",
+      "date": "2026-04-01",
+      "summary": "Reddit r/AI_Agents 用户分享实测的 AI 工具订阅推荐，指出主流清单过于关注 ChatGPT/Claude/Gemini，推荐多个隐藏 gems 工具，引发社区热烈讨论和补充。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1s9jl30/best_underrated_ai_tools_to_subscribe_to_in_april/"
+    },
+    {
+      "title": "AI\"垃圾内容\"指控与跨性别歧视修辞的相似性研究",
+      "date": "2026-03-28",
+      "summary": "Reddit 讨论一篇论文，探讨当代反 AI 情绪（特别是\"AI slop\"指控）与长期存在的跨性别歧视修辞（\"我们总能分辨出来\"）之间的相似性，两者都依赖于过度自信的判断。",
+      "link": "https://www.reddit.com/r/artificial/new/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Microsoft Copilot Wave 2：Copilot Pages 多人协作画布",
+      "date": "2026-04-01",
+      "summary": "Microsoft Copilot 推出 Wave 2 更新，引入 Copilot Pages 动态画布支持多人 AI 协作。深度集成 Excel（现支持 Python）、PowerPoint 和 Teams，成为企业生产力套件核心。",
+      "link": "https://datanorth.ai/blog/top-10-ai-tools-for-2026"
+    },
+    {
+      "title": "Grammarly 进化为全功能 AI 写作助手",
+      "date": "2026-04-03",
+      "summary": "Grammarly 从拼写检查工具进化为完整 AI 写作助手，2026 年成为从\"不错草稿\"到\"专业成品\"的最快路径，支持邮件、文档、Slack 和浏览器全场景覆盖。",
+      "link": "https://aitoolkitpro.blog/best-ai-productivity-tools-2026/"
+    },
+    {
+      "title": "Google Cloud Vision AI 免费额度升级",
+      "date": "2026-04-03",
+      "summary": "Google Cloud 升级 Vision AI 免费额度，每月前 1000 单位免费，支持人脸检测、物体识别、OCR 等功能。为开发者和初创公司提供低成本视觉 AI 接入方案。",
+      "link": "https://cloud.google.com/use-cases/free-ai-tools"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenClaw 成 GitHub 历史增长最快开源项目",
+      "date": "2026-04-03",
+      "summary": "OpenClaw（原 Clawdbot）超越 30.2 万 stars 成为 GitHub 历史增长最快开源项目。自主 Agent 框架可在本地运行，执行 shell 命令、管理文件、通过消息平台自动化 Web 任务。",
+      "link": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+    },
+    {
+      "title": "11 个最佳 AI Agent 框架横评（2026）",
+      "date": "2026-03-30",
+      "summary": "Lindy 发布 2026 年 AI Agent 框架横评，涵盖 LangChain、AutoGen、CrewAI、Mastra 等 11 个主流框架。AutoGen 原生支持人类代理审查，CrewAI 擅长动态环境协作。",
+      "link": "https://www.lindy.ai/blog/best-ai-agent-frameworks"
+    },
+    {
+      "title": "微软 Agent Framework 发布 Release Candidate",
+      "date": "2026-04-01",
+      "summary": "微软 Agent Framework（Python/.NET）合并 AutoGen 多 Agent 对话模式和 Semantic Kernel 企业特性，2 月发布 RC 版本。原生支持 A2A 和 MCP 协议，集成 OpenTelemetry。",
+      "link": "https://www.channel.tel/blog/ai-agent-frameworks-compared-2026-what-ships"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "2026 年 Q1 AI 风投达 2672 亿美元创纪录",
+      "date": "2026-04-03",
+      "summary": "2026 年第一季度 AI 风险投资达 2672 亿美元创历史新高，OpenAI、Anthropic 和 SpaceX 收购 xAI 主导融资市场。资本集中度显示 AI 行业进入巨头垄断阶段。",
+      "link": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+    },
+    {
+      "title": "85 家最值得关注的 AI 初创公司榜单发布",
+      "date": "2026-04-02",
+      "summary": "Wellows 发布 85 家最值得关注的 AI 初创公司榜单，基于真实融资数据、估值、收入增长和产品牵引力。涵盖 OpenAI、YC 背景公司和快速成长的早期 AI 工具。",
+      "link": "https://wellows.com/blog/ai-startups/"
+    },
+    {
+      "title": "YC 2026 年 AI 助理创业公司地图更新",
+      "date": "2026-04-01",
+      "summary": "Y Combinator 更新 2026 年 AI 助理创业公司地图，旧金山湾区 74 家顶级 AI 助理初创公司上榜。反映 AI Agent 赛道持续吸引早期资本和人才流入。",
+      "link": "https://www.ycombinator.com/companies/industry/ai-assistant/san-francisco-bay-area"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "月之暗面 IPO 态度转变，聚焦 Agent 商业化",
+      "date": "2026-04-04",
+      "summary": "新浪财经报道月之暗面 IPO 态度在三个月内发生转变。CEO 杨植麟在 2025 年底公开信中表示 2026 年目标为\"营收规模数量级增长，聚焦 Agent 产品和商业化，追求智能上限而非绝对用户数\"。",
+      "link": "https://finance.sina.com.cn/jjxw/2026-04-04/doc-inhthhar8498794.shtml"
+    },
+    {
+      "title": "中信证券：国产大模型形成\"四极\"格局",
+      "date": "2026-04-01",
+      "summary": "中信证券研报指出 2026 年国产大模型厂商聚焦 Agent 及代码能力升级，百度、阿里、字节、智谱形成\"四极\"格局，头部效应明显，不再对标 OpenAI 而是各找生存土壤。",
+      "link": "https://gitcode.csdn.net/69cc71a654b52172bc661f46.html"
+    },
+    {
+      "title": "腾讯/阿里/微美全息锁定 AI+Agent 高增长赛道",
+      "date": "2026-03-31",
+      "summary": "新浪科技报道大模型智能体行业元年到来，腾讯、阿里、微美全息等公司集体锁定 AI+Agent 高增长赛道。微美全息构建\"智能体多模态系统\"深度融入业务流程。",
+      "link": "https://finance.sina.com.cn/tech/roll/2026-03-31/doc-inhsvwqa9108398.shtml"
+    }
+  ]
+}
