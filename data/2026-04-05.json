@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-05",
+  "insights": [
+    {
+      "title": "Q1 2026 创业融资破纪录，AI 吸走 81% 资金",
+      "date": "2026-04-01",
+      "summary": "2026年Q1全球创业融资达2970亿美元，环比增长150%，其中AI公司占据绝对主导。OpenAI、Anthropic、Waymo等巨头引领 mega-deals，AI占融资总额的81%。",
+      "link": "https://techcrunch.com/2026/04/01/startup-funding-shatters-all-records-in-q1/"
+    },
+    {
+      "title": "OpenAI 收购科技播客 TBPN，首次进军媒体",
+      "date": "2026-04-02",
+      "summary": "OpenAI以未披露金额收购科技商业播客 TBPN（Technology Business Programming Network），这是其首次收购媒体公司。该节目曾采访扎克伯格、纳德拉和奥特曼。",
+      "link": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/"
+    },
+    {
+      "title": "Anthropic 源码泄露：Claude Code 50万行代码曝光",
+      "date": "2026-04-01",
+      "summary": "Claude Code v2.1.88在npm发布时意外附带59.8MB source map文件，导致近2000个文件、约50万行源代码泄露。代码中发现了类电子宠物的编程助手计划和always-on AI agent蓝图。",
+      "link": "https://www.the-ai-corner.com/p/claude-code-source-code-leaked-2026"
+    },
+    {
+      "title": "Anthropic 4亿美元收购生物AI初创公司 Coefficient Bio",
+      "date": "2026-04-03",
+      "summary": "Anthropic以全股票交易约4亿美元收购成立仅8个月的 stealth biotech AI公司 Coefficient Bio，进军药物发现领域。公司正筹备最快10月IPO。",
+      "link": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/"
+    },
+    {
+      "title": "Cursor 3 发布：AI 编码 Agent 正面交锋 Claude Code 和 Codex",
+      "date": "2026-04-02",
+      "summary": "Cursor发布Cursor 3（代号Glass），引入聊天机器人式AI Agent工作流，开发者可用自然语言描述需求并选择LLM执行任务，从编码助手转向Agent平台。",
+      "link": "https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/"
+    },
+    {
+      "title": "硅谷陷入自我改进 AI 机器人的狂热",
+      "date": "2026-04-04",
+      "summary": "The Atlantic报道硅谷对能自我改进的AI系统的痴迷。OpenAI发布了'在创造自身中发挥关键作用'的模型，计划6个月内推出'intern级别的AI研究助手'。",
+      "link": "https://www.theatlantic.com/technology/2026/04/ai-industry-self-improving-bots/686686/"
+    },
+    {
+      "title": "扎克伯格时隔20年重返写代码，重度使用 Claude Code",
+      "date": "2026-04-03",
+      "summary": "据Pragmatic Engineer报道，扎克伯格已停止20年后重新提交代码到Meta代码库，并是Claude Code CLI的重度用户。Meta Creation org 目标年中65%工程师用AI写75%以上代码。",
+      "link": "https://monkfrom.earth/blogs/zuckerberg-back-to-coding-claude-code"
+    }
+  ],
+  "papers": [
+    {
+      "title": "VOID: Netflix 开源视频对象删除与物理合理修复模型",
+      "date": "2026-04-03",
+      "summary": "Netflix与索菲亚大学联合发布VOID模型，基于CogVideoX-Fun-V1.5-5b-InP构建，可从视频中删除对象并物理合理地填补空白，支持交互感知quadmask条件。",
+      "link": "https://arxiv.org/abs/2604.02296"
+    },
+    {
+      "title": "AI 论文通过同行评审：AI生成研究首次被学术期刊接受",
+      "date": "2026-03-30",
+      "summary": "一篇完全由AI生成的研究论文通过了主要学术期刊的同行评审，标志着AI自主科研能力的重要里程碑。",
+      "link": "https://phys.org/news/2026-03-ai-paper-peer.html"
+    },
+    {
+      "title": "Towards a Medical AI Scientist: 医疗领域自主AI科研系统",
+      "date": "2026-03-30",
+      "summary": "提出医疗AI科学家框架，利用AI在医疗领域进行自主科学发现，展示了AI在药物发现和临床研究中的巨大潜力。",
+      "link": "https://arxiv.org/abs/2603.28589"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Elon Musk 宣布 Grok Imagine 提示词辅助功能",
+      "date": "2026-04-03",
+      "summary": "Elon Musk在X上发布Grok新功能：Grok可帮助用户为图片和视频生成编写更好的提示词，降低创作门槛。同时确认Grok Imagine Pro模式（1080P）将于4月底推出。",
+      "link": "https://www.ibtimes.com/elon-musk-highlights-grok-ais-ability-generate-better-prompts-images-videos-2026-viral-x-post-3800870"
+    },
+    {
+      "title": "Musk 要求 SpaceX IPO 顾问团必须订阅 Grok",
+      "date": "2026-04-03",
+      "summary": "据NYT报道，Musk要求参与SpaceX IPO的银行、律所、审计师等顾问机构必须购买Grok订阅，作为合作前提条件。",
+      "link": "https://www.nytimes.com/2026/04/03/business/spacex-ipo-grok-elon-musk.html"
+    },
+    {
+      "title": "Yann LeCun：大语言模型不是AI的未来",
+      "date": "2026-04-01",
+      "summary": "LeCun在布朗大学演讲中表示LLM不是AI的未来，需要新方法才能实现类人智能。其AMI Labs正在研发'世界模型'（world models），通过感官数据而非文本训练AI理解物理世界。",
+      "link": "https://www.brown.edu/news/2026-04-01/yann-lecun-artificial-intelligence-pioneer"
+    }
+  ],
+  "discord": [
+    {
+      "title": "AI编程助手4月排行榜：Cursor Composer 2领跑",
+      "date": "2026-04-02",
+      "summary": "AI编码助手最新对比评测显示，Cursor Composer 2在SWE-bench上得分61.3领先，GitHub Copilot和Claude Code紧随其后。开发者社区在各大Discord服务器中热议AI编码工具的选择。",
+      "link": "https://www.digitalapplied.com/blog/ai-coding-assistants-april-2026-cursor-copilot-claude"
+    },
+    {
+      "title": "AI Agent 能否替代传统软件？社区热议",
+      "date": "2026-04-01",
+      "summary": "AI社区讨论Agentic AI是否会取代传统软件应用。核心观点：确定性代码仍可靠、便宜、快速，自然语言UI并非最佳交互方式，Agent目前缺乏基础设施操作能力。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1s8jl3r/will_agentic_ai_eventually_replace_traditional/"
+    },
+    {
+      "title": "Reddit r/programming 4月临时禁止LLM相关内容",
+      "date": "2026-04-01",
+      "summary": "最大编程社区r/programming宣布在4月临时禁止所有LLM相关帖子，为期2-4周，旨在减少AI噪音、恢复技术讨论质量，但不影响更广泛的AI/ML话题讨论。",
+      "link": "https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
+    }
+  ],
+  "github": [
+    {
+      "title": "Netflix/void-model：视频对象删除与物理修复框架",
+      "date": "2026-04-03",
+      "summary": "Netflix开源VOID视频对象删除模型，基于阿里巴巴PAI的CogVideoX-Fun-V1.5-5b-InP，支持复杂交互场景下的物理合理视频修复。",
+      "link": "https://github.com/Netflix/void-model"
+    },
+    {
+      "title": "EvoScientist：自进化AI科学家多Agent系统",
+      "date": "2026-04-02",
+      "summary": "EvoScientist实现端到端自主科学发现的多Agent evolving AI系统，通过自进化树搜索和自动化实验循环推进科研。",
+      "link": "https://github.com/EvoScientist/EvoScientist"
+    },
+    {
+      "title": "Claw Code：开源AI编码Agent框架，数日获72000星",
+      "date": "2026-04-02",
+      "summary": "Python+Rust构建的开源AI编码基础设施项目，提供工具编排到Agent运行时的完整方案，发布数日即获72000+ GitHub Stars。",
+      "link": "https://www.financialcontent.com/article/247pressrelease-2026-4-2-claw-code-launches-open-source-ai-coding-agent-framework-with-72000-github-stars-in-first-days"
+    }
+  ],
+  "hn": [
+    {
+      "title": "如何在2026年科技行业生存",
+      "date": "2026-04-01",
+      "summary": "HN热帖讨论科技行业从业者如何应对AI冲击。核心观点：反对AI的环保和社会影响，而非AI本身；AI PR Spam正在污染开源生态；维护成本在AI辅助代码激增后反而上升。",
+      "link": "https://news.ycombinator.com/item?id=47571746"
+    },
+    {
+      "title": "r/programming 禁止LLM帖子引发HN热议",
+      "date": "2026-04-04",
+      "summary": "Reddit最大编程社区禁止LLM相关帖子的决定在HN引发广泛讨论，讨论围绕AI内容泛滥、开源社区维护者负担、以及AI辅助代码质量问题展开。",
+      "link": "https://news.ycombinator.com/item?id=47610336"
+    },
+    {
+      "title": "Mac mini上部署Ollama和Gemma 4 26B的2026年4月配置指南",
+      "date": "2026-04-04",
+      "summary": "HN讨论在Mac mini上本地运行Gemma 4 26B模型的实践经验。Google刚发布Gemma 4并切换到Apache 2.0许可，社区对快速跟进的tokenizer和量化实现质量表示担忧。",
+      "link": "https://news.ycombinator.com/item?id=47624731"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/programming宣布临时禁止LLM内容",
+      "date": "2026-04-01",
+      "summary": "r/programming版主宣布在4月实行2-4周LLM内容禁令，所有LLM相关帖子、文章、视频均被禁止，但更广泛的AI和机器学习讨论仍允许。",
+      "link": "https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
+    },
+    {
+      "title": "AI Agent能写代码但仍无法部署",
+      "date": "2026-04-01",
+      "summary": "Reddit讨论指出当前AI Agent的关键短板：Agent无法拥有基础设施——不能自建数据库、购买域名、创建基础设施、设置支付流程或部署应用。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1s9vfla/ai_agents_can_write_code_they_still_cant_deploy_it/"
+    },
+    {
+      "title": "2026年最AI Agent按使用场景推荐",
+      "date": "2026-03-29",
+      "summary": "Reddit r/singularity用户分享2026年 favorite AI agents按场景分类推荐，涵盖Relevance AI（销售工作流）、Bardeen（浏览器自动化）、Dust tt（团队知识Agent）等。",
+      "link": "https://www.reddit.com/r/singularity/comments/1s73m2h/my_favorite_ai_agents_in_2026_sorted_by_use_case/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Gemma 4发布：Apache 2.0许可的开源模型",
+      "date": "2026-04-02",
+      "summary": "Google发布Gemma 4系列开源模型，切换到Apache 2.0许可，在Android AICore Developer Preview中提供。新模型是下一代Gemini Nano的基础。",
+      "link": "https://arstechnica.com/ai/2026/04/google-announces-gemma-4-open-ai-models-switches-to-apache-2-0-license/"
+    },
+    {
+      "title": "Hugging Face TRL v1.0：统一后训练栈",
+      "date": "2026-04-01",
+      "summary": "Hugging Face发布TRL v1.0，整合SFT、Reward Modeling、DPO和GRPO工作流于一体，为大模型后训练提供统一框架。",
+      "link": "https://www.marktechpost.com/2026/04/01/hugging-face-releases-trl-v1-0-a-unified-post-training-stack-for-sft-reward-modeling-dpo-and-grpo-workflows/"
+    },
+    {
+      "title": "Modular 26.2：图像生成与Mojo AI编码升级",
+      "date": "2026-04-02",
+      "summary": "Modular发布26.2版本，带来SOTA图像生成能力和Mojo语言AI编码升级，推动更可编程和可移植的AI基础设施。",
+      "link": "https://www.modular.com/blog/modular-26-2-state-of-the-art-image-generation-and-upgraded-ai-coding-with-mojo"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenAI Codex推出按量付费定价",
+      "date": "2026-04-02",
+      "summary": "OpenAI为Codex推出面向团队的按量付费（pay-as-you-go）定价方案，降低中小团队使用AI编码代理的门槛。",
+      "link": "https://openai.com/news/"
+    },
+    {
+      "title": "AI Agent 从执行工具升级为数字伙伴",
+      "date": "2026-04-01",
+      "summary": "智能体AI正从单纯'执行工具'升级为'数字伙伴'，能自主拆解任务、调用工具、持续优化。中国AI大模型周调用量升至7.359万亿Token，连续三周超越美国。",
+      "link": "https://www.softunis.com/55002.html"
+    },
+    {
+      "title": "Anthropic 订阅用户4月4日起不再支持第三方工具使用",
+      "date": "2026-04-04",
+      "summary": "Anthropic宣布从4月4日12pm PT起，Claude订阅用户将不再涵盖在OpenClaw等第三方工具上的使用额度，以更好地管理容量。",
+      "link": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "AI正在改变硅谷，首先改变的是科技行业本身",
+      "date": "2026-04-02",
+      "summary": "NYT深度报道AI如何重塑硅谷工作模式。按座位定价的SaaS模式受威胁——因为快速增长的公司可能通过添加AI Agent而非招聘员工来扩张。",
+      "link": "https://www.nytimes.com/2026/04/02/technology/ai-silicon-valley-tech-work.html"
+    },
+    {
+      "title": "AI数据中心热岛效应：硅谷局部升温9度为全球最高",
+      "date": "2026-04-01",
+      "summary": "剑桥大学研究首次证实AI数据中心与地表热岛效应的直接关联。硅谷AI数据中心集群局部地表温度较周边高9度，超3.4亿人口面临更热居住环境。",
+      "link": "https://k.sina.com.cn/article_7857201856_1d45362c001903v1ky.html"
+    },
+    {
+      "title": "OpenAI 二级市场遇冷，投资者转向 Anthropic",
+      "date": "2026-04-01",
+      "summary": "据彭博社报道，OpenAI股份在二级市场失宠，部分情况下几乎无法脱手，投资者迅速转向最大竞争对手Anthropic。Anthropic据报正准备最早10月IPO。",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4将搭载华为芯片，自主可控路线加速",
+      "date": "2026-04-03",
+      "summary": "据The Information报道，DeepSeek下一代V4模型将运行在华为最新设计的芯片上。V4采用万亿参数MoE架构+原生多模态+1M+上下文窗口，主攻长期记忆与编码能力。",
+      "link": "https://www.reuters.com/world/china/deepseeks-v4-model-will-run-huawei-chips-information-reports-2026-04-03/"
+    },
+    {
+      "title": "学而思发布基于OpenClaw架构的学生专属智能体'小精龙'",
+      "date": "2026-04-01",
+      "summary": "学而思发布基于OpenClaw（俗称'龙虾'）架构定制的原生学生端精准学产品——小精龙，整合长期记忆、动态学情诊断、教育专属Skill链与情感陪伴系统，为学生提供全流程AI伴学服务。",
+      "link": "https://www.bjnews.com.cn/detail/1775054559168259.html"
+    },
+    {
+      "title": "2026年AI三大趋势：推理能力、智能体与场景闭环",
+      "date": "2026-04-03",
+      "summary": "澎湃新闻分析2026年初AI领域'三足鼎立'格局已从'大模型参数竞赛'转向'推理能力、智能体（Agents）与场景闭环'的深度较量，国产大模型竞相发布新模型聚焦Agent及代码能力。",
+      "link": "https://m.thepaper.cn/newsDetail_forward_32889979"
+    }
+  ]
+}
