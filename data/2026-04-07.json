@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-07",
+  "insights": [
+    {
+      "title": "OpenAI 完成 1220 亿美元融资，估值达 8520 亿美元",
+      "date": "2026-04-07",
+      "summary": "OpenAI 正式完成 1220 亿美元融资，投后估值 8520 亿美元，成为史上最大融资轮。软银联合领投，Amazon、NVIDIA、Microsoft 参投。企业收入占比已达 40%，预计年底与消费端持平。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round"
+    },
+    {
+      "title": "Anthropic 4 亿美元收购生物 AI 初创 Coefficient Bio",
+      "date": "2026-04-07",
+      "summary": "Anthropic 以 4 亿美元全资收购生物 AI 初创公司 Coefficient Bio，将团队并入医疗生命科学部门。此前 Anthropic 已推出 Claude Life Sciences，布局生物医药赛道。",
+      "link": "https://www.biospace.com/business/ai-giant-anthropic-leans-into-life-sciences-with-400m-coefficient-bio-catch"
+    },
+    {
+      "title": "AI 能源危机与突破：神经符号 AI 降低能耗 100 倍",
+      "date": "2026-04-07",
+      "summary": "AI 数据中心用电量已超过 30 个国家，能源消耗成为行业最大瓶颈。与此同时，研究人员发布突破性神经符号 AI 方案，可将能耗降低 100 倍并提升精度，或为 AI 算力危机提供解法。",
+      "link": "https://newsable.asianetnews.com/international/science/ai-energy-new-breakthrough-cuts-power-use-by-100-times-articleshow-vkiafz7"
+    },
+    {
+      "title": "Anthropic 封杀第三方工具：OpenClaw 用户须额外付费",
+      "date": "2026-04-07",
+      "summary": "Anthropic 宣布自 4 月 4 日起，Claude Pro/Max 订阅用户不能再通过 OpenClaw 等第三方工具使用订阅额度，必须转为 pay-as-you-go 的 extra usage 计费或 API 调用，引发社区强烈反应。",
+      "link": "https://www.pcmag.com/news/anthropic-you-cant-use-openclaw-with-claude-without-paying-extra"
+    },
+    {
+      "title": "一人公司时代到来：Medvi 靠 AI 打造 18 亿美元远程医疗帝国",
+      "date": "2026-04-07",
+      "summary": "Matthew Gallagher 仅用 2 万美元和 AI 工具，14 个月内将远程医疗公司 Medvi 做到 4.01 亿美元年营收、25 万客户，预计 2026 年营收将达 18 亿美元，仅 2 名全职员工。",
+      "link": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"
+    },
+    {
+      "title": "OpenAI 收购科技播客 TBPN 引争议",
+      "date": "2026-04-07",
+      "summary": "OpenAI 宣布收购科技脱口秀 TBPN，未披露金额。Sam Altman 称 TBPN 将保持编辑独立性。此举被视为 OpenAI 在 IPO 前布局舆论话语权，WIRED 和 CNBC 均提出质疑。",
+      "link": "https://www.wired.com/story/openai-acquires-tbpn-buys-positive-news-coverage/"
+    },
+    {
+      "title": "Karpathy 提出 LLM 知识库新范式，绕过 RAG 架构",
+      "date": "2026-04-07",
+      "summary": "Andrej Karpathy 在 X 上分享了个人知识库架构——用 LLM 自动维护 evolving markdown 库，无需 RAG 或向量数据库，前端用 Obsidian。帖子获得 1600 万次浏览，引发广泛效仿。",
+      "link": "https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an"
+    }
+  ],
+  "papers": [
+    {
+      "title": "TRL v1.0：Hugging Face 统一后训练栈发布",
+      "date": "2026-04-07",
+      "summary": "Hugging Face 发布 TRL v1.0，统一了 SFT、奖励建模、DPO 和 GRPO 工作流，为开源模型后训练提供标准化框架，降低大模型微调门槛。",
+      "link": "https://www.artificialintelligence-news.com/"
+    },
+    {
+      "title": "神经符号 AI 突破：能耗降低 100 倍且精度更高",
+      "date": "2026-04-07",
+      "summary": "研究团队将神经网络与符号推理结合，在保持甚至提升精度的同时，将 AI 推理能耗降低至原来的 1/100，为可持续 AI 开辟新路径。",
+      "link": "https://tech-insider.org/ai-data-center-power-crisis-2026/"
+    },
+    {
+      "title": "Netflix 开源 VOID 视频修复模型",
+      "date": "2026-04-07",
+      "summary": "Netflix 在 Hugging Face 开源 VOID 视频修复模型，可自动移除视频中不需要的对象并智能填充背景，为影视后期制作提供 AI 工具。",
+      "link": "https://letsdatascience.com/news/netflix-releases-void-video-inpainting-model-99ea59e8"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy 分享 LLM 知识库架构，1600 万次曝光",
+      "date": "2026-04-07",
+      "summary": "Karpathy 在 X 上发布 LLM Knowledge Bases 帖子，展示用 AI 自动维护个人知识库的三步工作流，两日内获得超 1600 万次浏览和 10 万+书签。",
+      "link": "https://x.com/i/trending/2039841987067617664"
+    },
+    {
+      "title": "Boris Cherny 宣布 Claude 订阅不再覆盖 OpenClaw",
+      "date": "2026-04-07",
+      "summary": "Anthropic 的 Claude Code 负责人 Boris Cherny 在 X 上宣布，自 4 月 4 日起，订阅用户通过 OpenClaw 等第三方工具的用量将不再计入订阅额度，需额外付费。",
+      "link": "https://mashable.com/article/claude-users-will-have-to-pay-extra-to-use-openclaw"
+    },
+    {
+      "title": "Forbes: AI and 20000 helped build 1.8B telehealth startup Medvi",
+      "date": "2026-04-07",
+      "summary": "OpenAI 总裁在 X 上转发纽约时报关于 Medvi 的报道，称 'AI 为创业者创造了新机遇'。Medvi 用 AI 工具仅 2 人做到 18 亿美元营收。",
+      "link": "https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Developers Discord 热烈讨论 OpenClaw 收费变更",
+      "date": "2026-04-07",
+      "summary": "Anthropic 官方 Claude Developers Discord 社区对 OpenClaw 额外付费政策展开激烈讨论，开发者呼吁提供过渡方案和更透明的定价。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1sddp7l/discord_bot_that_lets_you_chat_with_claude_code/"
+    },
+    {
+      "title": "OpenACP 项目支持 Discord/Telegram 控制 Claude Code",
+      "date": "2026-04-07",
+      "summary": "开源项目 OpenACP 实现了通过 Discord、Telegram 或 Slack 控制 Claude Code 等 AI 编程代理，支持持久化会话、记忆和审计日志。",
+      "link": "https://dev.to/tigergethigher/how-to-control-claude-code-from-telegram-discord-or-slack-self-hosted-open-source-1jk8"
+    },
+    {
+      "title": "Claude Code Channels 插件支持 Telegram、Discord、iMessage",
+      "date": "2026-04-07",
+      "summary": "Claude Code 推出 Channels 插件架构，可直接在 Telegram、Discord 和 iMessage 中与 AI 编程代理交互，代码和工具始终留在本地机器。",
+      "link": "https://claudefa.st/blog/guide/development/claude-code-channels"
+    }
+  ],
+  "github": [
+    {
+      "title": "Microsoft VibeVoice — 开源前沿语音 AI 框架",
+      "date": "2026-04-07",
+      "summary": "Microsoft 开源 VibeVoice 语音 AI 框架，支持 60 分钟长音频单次处理和 90 分钟多说话人对话音频生成，50+ 语言支持，GitHub 本周获 37,000+ stars。",
+      "link": "https://github.com/microsoft/VibeVoice"
+    },
+    {
+      "title": "NousResearch Hermes Agent — 可成长的智能体框架",
+      "date": "2026-04-07",
+      "summary": "NousResearch 推出 Hermes Agent 智能体框架，主打 '与用户共同成长' 的自适应 AI 代理，本周 GitHub trending 获 29,000+ stars。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "claude-howto — Claude Code 视觉图解指南",
+      "date": "2026-04-07",
+      "summary": "开发者 luongnv89 发布 claude-howto，以视觉图解和实例驱动的方式介绍 Claude Code 从基础到高级智能体的全面指南，本周获 21,000+ stars。",
+      "link": "https://github.com/luongnv89/claude-howto"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Anthropic 禁止 Claude 订阅用于 OpenClaw 等第三方工具",
+      "date": "2026-04-07",
+      "summary": "HN 热议话题：Anthropic 宣布 Claude Pro/Max 订阅用户不能再将订阅额度用于 OpenClaw 等第三方代理工具，需改用 pay-as-you-go 计费或 API 密钥。",
+      "link": "https://news.ycombinator.com/item?id=47633396"
+    },
+    {
+      "title": "r/programming bans all discussion of LLM programming",
+      "date": "2026-04-07",
+      "summary": "Reddit 最大编程社区 r/programming 宣布 4 月份临时禁止所有 LLM 相关帖子，以恢复技术讨论质量，HN 同步引发热议。",
+      "link": "https://windowsforum.com/threads/r-programming-temporarily-bans-llm-posts-to-cut-ai-hype-and-restore-technical-signal.409812/"
+    },
+    {
+      "title": "OpenAI 收购 TBPN 播客",
+      "date": "2026-04-07",
+      "summary": "HN 讨论 OpenAI 收购科技播客 TBPN 的战略意图，社区普遍质疑此举的合理性和对媒体独立性的影响。",
+      "link": "https://news.ycombinator.com/item?id=47617376"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Largest programming community on Reddit bans all AI LLM content for April",
+      "date": "2026-04-07",
+      "summary": "r/programming 版主宣布在 2-4 周内禁止所有 LLM 相关帖子、文章和视频，旨在减少 AI 炒作、恢复技术讨论的信号质量。",
+      "link": "https://tech.yahoo.com/social-media/articles/largest-programming-community-reddit-just-102000961.html"
+    },
+    {
+      "title": "Science AI progress r/accelerate community discussion",
+      "date": "2026-04-07",
+      "summary": "r/singularity 热门讨论：AI-2027 预测团队将 AGI 最可能年份从原来的预期提前了约 1.5 年，认为 2027 或 2028 年最有可能实现 AGI。",
+      "link": "https://www.reddit.com/r/accelerate/comments/1sde6rc/science_ai_progress/"
+    },
+    {
+      "title": "Karpathy 的 LLM 知识库工作流引发 Obsidian 社区热议",
+      "date": "2026-04-07",
+      "summary": "r/ObsidianMD 和 r/AI_Agents 围绕 Karpathy 的 LLM 知识库方法论展开讨论，有人将其实现为 Claude Code 技能，也有人质疑其实用性。",
+      "link": "https://www.reddit.com/r/ObsidianMD/comments/1sb02pb/karpathys_workflow/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenACP — 跨平台 AI 编程代理桥接工具",
+      "date": "2026-04-07",
+      "summary": "开源项目 OpenACP 提供统一的桥接层，支持通过 Telegram、Discord、Slack 等消息平台控制 Claude Code、Codex、Gemini CLI 等 AI 编程代理。",
+      "link": "https://dev.to/tigergethigher/how-to-control-claude-code-from-telegram-discord-or-slack-self-hosted-open-source-1jk8"
+    },
+    {
+      "title": "Claude Code Channels — 直接在聊天中控制 AI 编程",
+      "date": "2026-04-07",
+      "summary": "Claude Code 新推出的 Channels 功能允许在 Telegram、Discord、iMessage 中与 AI 编程代理交互，代码处理完全在本地完成。",
+      "link": "https://claudefa.st/blog/guide/development/claude-code-channels"
+    },
+    {
+      "title": "claude-howto — Claude Code 全方位指南",
+      "date": "2026-04-07",
+      "summary": "一份可视化、示例驱动的 Claude Code 完整指南，涵盖从基础概念到高级智能体构建，附带可复制模板，一周内获 21,000+ stars。",
+      "link": "https://github.com/luongnv89/claude-howto"
+    }
+  ],
+  "agent": [
+    {
+      "title": "NousResearch Hermes Agent：与用户共同成长的 AI 代理",
+      "date": "2026-04-07",
+      "summary": "NousResearch 发布 Hermes Agent，一个可随用户交互不断进化的智能体框架，支持记忆持久化和自适应学习，GitHub 一周获 29,000+ stars。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "Anthropic cuts third party OpenClaw usage requires extra payment",
+      "date": "2026-04-07",
+      "summary": "Anthropic 宣布 Claude 订阅不再覆盖 OpenClaw 等第三方代理框架，标志着 AI 代理工具从免费使用向付费模式的转折。开发者需转向 API 或 extra usage。",
+      "link": "https://www.axios.com/2026/04/06/anthropic-openclaw-subscription-openai"
+    },
+    {
+      "title": "微软 VibeVoice 开源语音 AI 赋能多模态代理",
+      "date": "2026-04-07",
+      "summary": "微软开源 VibeVoice，支持 60 分钟音频单次处理和 50+ 语言，为语音代理和多模态 AI 应用提供开源基础设施，GitHub 37,000+ stars。",
+      "link": "https://github.com/microsoft/VibeVoice"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI valued at 852 billion after completing 122 billion round",
+      "date": "2026-04-07",
+      "summary": "OpenAI 完成史上最大融资轮，1220 亿美元投后估值 8520 亿美元。企业收入占比 40%，月营收突破 20 亿美元，预计年底企业端与消费端收入持平。",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round"
+    },
+    {
+      "title": "AI 数据中心用电量超 30 国，能源危机成 2026 焦点",
+      "date": "2026-04-07",
+      "summary": "斯坦福专家 Koomey 指出 AI 数据中心能耗已超过 30 个国家。2026 年国情咨文专门提及数据中心能源可负担性，政策监管框架加速推进。",
+      "link": "https://tech-insider.org/ai-data-center-power-crisis-2026/"
+    },
+    {
+      "title": "Medvi：AI 驱动的 18 亿美元一人公司案例震撼硅谷",
+      "date": "2026-04-07",
+      "summary": "纽约时报深度报道 Medvi——一个靠 2 万美元和 AI 工具在 14 个月内做到 18 亿美元营收的远程医疗公司，仅 2 名全职员工。OpenAI 总裁亲自转发。",
+      "link": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里发布 Qwen3.6-Plus，登顶全球模型调用榜",
+      "date": "2026-04-07",
+      "summary": "阿里千问发布新一代大语言模型 Qwen3.6-Plus，编程能力超越 2-3 倍参数量的 GLM-5、Kimi-K2.5，发布仅 1 天在 OpenRouter 日调用量突破 1.4 万亿 Token 登顶全球榜首。",
+      "link": "https://www.guancha.cn/economy/2026_04_02_812339.shtml"
+    },
+    {
+      "title": "智谱发布 GLM-5V-Turbo 多模态编程模型",
+      "date": "2026-04-07",
+      "summary": "智谱正式发布专为视觉编程打造的多模态 Coding 基座模型 GLM-5V-Turbo，赋予 AI Agent '看懂'设计稿与网页界面的能力，将感知链路从字符扩展到视觉。",
+      "link": "https://www.aitop100.cn/ai-daily-2026-04-02"
+    },
+    {
+      "title": "中国 AI 智能体产业在中关村论坛年会上聚焦开源",
+      "date": "2026-04-07",
+      "summary": "2026 年中关村论坛年会上，月之暗面 CEO 杨植麟主持圆桌对话，与智谱 CEO 张鹏、小米 MiMo 负责人罗福莉等探讨 OpenClaw 革命与中国开源模型发展。智谱 2025 年营收 7.24 亿同比翻倍。",
+      "link": "https://www.stcn.com/article/detail/3717921.html"
+    }
+  ]
+}
