@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月8日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月8日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Single-Agent LLMs Outperform Multi-Agent Systems on Multi-Hop Reasoning</h3>
+      <div class="meta">👤 </div>
+      <p>论文证明在同等思考 token 预算下，单智能体 LLM 在多跳推理任务中优于多智能体系统。提出 FR-CoT 结构化简短推理方法，在保持准确率的同时将函数幻觉率降至 0%。</p>
+  <a class="link" href="https://arxiv.org/abs/2604.02460" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. How Well Do Agentic Skills Work in the Wild</h3>
+      <div class="meta">👤 </div>
+      <p>大规模实证研究评估 LLM 代理技能在真实场景中的表现，涵盖自适应策略、可重用知识积累和持续进化记忆等方法，为 AI 代理实际部署提供基准参考。</p>
+  <a class="link" href="https://arxiv.org/html/2604.04323" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. MatClaw: Autonomous Code-First LLM Agent for Materials Exploration</h3>
+      <div class="meta">👤 </div>
+      <p>MatClaw 是一个自主代码优先的 LLM 代理，用于端到端材料探索。该代理能够自主编写代码、执行实验和分析结果，推动材料科学领域的 AI 应用。</p>
+  <a class="link" href="https://arxiv.org/abs/2604.02688" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Developers Discord 讨论 OpenClaw 收费变更</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic 官方 Claude Developers Discord 社区对 OpenClaw 额外付费政策展开激烈讨论。开发者呼吁提供过渡方案和更透明的定价机制，Slashdot 和 TechRadar 均有跟进报道。</p>
+  <a class="link" href="https://slashdot.org/story/26/04/04/1919236/anthropic-announces-claude-subscribers-must-now-pay-extra-to-use-openclaw" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hermes Agent 在 AI 社区引发热议</h3>
+      <div class="meta">💬 </div>
+      <p>NousResearch 的 Hermes Agent 在多个 Discord AI 社区引发讨论。该自主代理可在服务器上持续运行，具备记忆持久化和自适应学习能力，支持 Telegram、Discord、Slack、WhatsApp 等多平台消息接入。</p>
+  <a class="link" href="https://hermes-agent.nousresearch.com/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor 3 多代理架构在开发者社区引发讨论</h3>
+      <div class="meta">💬 </div>
+      <p>Cursor 3 发布后，多个开发者 Discord 社区对多代理编程 IDE 架构展开讨论。用户关注多代理并行执行的实际效果、代码审查流程以及与 Claude Code 和 Codex 的差异化优势。</p>
+  <a class="link" href="https://creati.ai/ai-news/2026-04-06/cursor-3-agent-first-interface-claude-code-codex/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. leigest519/ScreenCoder — UI 截图转 HTML 代码工具</h3>
+      
+      <p>ScreenCoder 是一款 UI 截图转 HTML 的开源工具，基于 UIED 引擎，支持多种 LLM 后端。开发者可通过 HuggingFace 在线 Demo 体验，社区正在扩展设计工具集成。</p>
+  <a class="link" href="https://github.com/leigest519/ScreenCoder" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 与 Big Tech 合作推进 AI 网络安全项目</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Reuters 报道 Anthropic 宣布与多家大型科技公司合作推进 AI 网络安全项目。此前黑客曾利用 Claude AI 的漏洞攻击约 30 家全球组织，Anthropic 正推动行业协作应对 AI 安全威胁。</p>
+  <a class="link" href="https://www.reuters.com/legal/litigation/anthropic-touts-ai-cybersecurity-project-with-big-tech-partners-2026-04-07/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 或在 4 月发布，多名核心成员已离职</h3>
+      <div class="meta">reddit: </div>
+      <p>r/DeepSeek 讨论帖引用中文媒体报道，DeepSeek V4 可能在 4 月发布，但多名核心成员已离职。V4 将在华为芯片上运行，标志中国 AI 芯片独立的重要进展。</p>
+  <a class="link" href="https://www.reddit.com/r/DeepSeek/comments/1sb4yhv/chinese_media_deepseek_v4_may_be_released_in/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cursor 3 — 多代理编程 IDE</h3>
+      
+      <p>Cursor 3 采用全新代理优先架构，用户可将编程任务分配给多个 AI 代理并行执行。支持统一监控视图审查输出，直接挑战 Anthropic Claude Code 和 OpenAI Codex 的开发者市场份额。</p>
+  <a class="link" href="https://www.gizmodo.com/cursors-new-tool-lets-users-delegate-to-a-team-of-coding-agents-2000741761" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ScreenCoder — UI 截图转 HTML 开源工具</h3>
+      
+      <p>ScreenCoder 是一款开源的 UI 截图转 HTML 代码工具，基于 UIED 引擎，支持多种 LLM 后端。HuggingFace 提供在线 Demo，社区正在扩展对主流设计工具的集成支持。</p>
+  <a class="link" href="https://github.com/leigest519/ScreenCoder" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google AI Edge Eloquent — 离线优先 AI 语音转文字应用</h3>
+      
+      <p>Google 低调发布 AI Edge Eloquent iOS 应用，基于 Gemma 模型实现完全端侧语音转文字，无需联网。免费无订阅、无使用上限，自动去除填充词，直接挑战 Wispr Flow 等付费产品。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. MatClaw：自主代码优先的材料探索 AI 代理</h3>
+      <div class="meta">🤖 </div>
+      <p>MatClaw 是一个自主代码优先的 LLM 代理，用于端到端材料探索。该代理能够自主编写代码、执行计算实验和分析结果，推动材料科学领域的 AI 应用，论文已发布在 arXiv 上。</p>
+  <a class="link" href="https://arxiv.org/abs/2604.02688" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. LLM 代理技能真实场景基准测试：效果几何？</h3>
+      <div class="meta">🤖 </div>
+      <p>最新 arXiv 论文对 LLM 代理技能在真实环境中的表现进行大规模基准测试，评估了自适应策略、可重用知识积累和持续进化记忆等方法，为 AI 代理实际部署提供系统性参考。</p>
+  <a class="link" href="https://arxiv.org/html/2604.04323" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 发布 Mythos 模型并警告网络安全风险</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>Anthropic 正式发布 Mythos Preview 模型预览版，同时警告其网络攻击能力过于强大，可能引发网络安全危机。单个 AI 代理扫描漏洞和利用的速度远超数百名人类黑客。Anthropic 宣布在完善安全防护前不会公开发布完整版。</p>
+  <a class="link" href="https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sam Altman 面临《纽约客》深度调查：内部员工不信任 OpenAI CEO</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>《纽约客》发布对 Sam Altman 的长篇调查报道，披露了 Ilya Sutskever 和 Dario Amodei 此前编制的内部备忘录，指控 Altman 存在「欺骗和操纵」行为。微软高管表示有「小但真实的可能性」Altman 会被记住为 AI 领域的 Bernie Madoff。</p>
+  <a class="link" href="https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 单智能体 LLM 在多跳推理中击败多智能体系统</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>arXiv 新论文证明，在相同思维 token 预算下，单智能体 LLM 在多跳推理任务中表现优于多智能体系统。论文提出了结构化简短 CoT 方法，在不牺牲准确率的情况下将函数幻觉降至 0%。</p>
+  <a class="link" href="https://arxiv.org/abs/2604.02460" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Anthropic 禁止 Claude 订阅用于 OpenClaw 等第三方工具</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>Anthropic 宣布从 4 月 4 日起，Claude Pro/Max 订阅用户不能再将订阅额度用于 OpenClaw 等第三方代理框架，需改用 pay-as-you-go 计费。Lifehacker 评论称「$20/月的自助餐厅已经关门了」。</p>
+  <a class="link" href="https://lifehacker.com/tech/openclaw-now-costs-more-than-ever" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. AI 代理技能在真实场景中的效果基准测试</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>arXiv 最新研究评估了 LLM 代理技能在真实环境中的表现，分析了自适应策略、可重用代码片段和持续进化记忆等方法在复杂任务链中的有效性。</p>
+  <a class="link" href="https://arxiv.org/html/2604.04323" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 发布 Mythos 模型，警告 AI 网络攻击能力将颠覆网络安全格局</h3>
+      
+      <p>Anthropic 正式发布 Mythos Preview，同时发布行业预警：该模型的网络攻击能力可能引发网络安全「分水岭时刻」。单个 AI 代理发现和利用漏洞的速度远超人类黑客团队。CNN 和 NYT 均有详细报道。</p>
+  <a class="link" href="https://edition.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 《纽约客》调查 Sam Altman：OpenAI 内部员工不信任 CEO</h3>
+      
+      <p>Ronan Farrow 发表长篇调查报道，披露 200+ 页 OpenAI 内部文件。Ilya Sutskever 和 Dario Amodei 的备忘录指控 Altman 存在「欺骗和操纵」行为。标题直指核心问题：「Sam Altman 可能掌控我们的未来——我们能信任他吗？」</p>
+  <a class="link" href="https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Musk 要求参与 SpaceX IPO 的机构必须订阅 Grok</h3>
+      
+      <p>据《纽约时报》报道，Elon Musk 要求所有参与 SpaceX IPO 的银行、律所和审计机构订阅 xAI 的 Grok 聊天机器人。同时 Grok Imagine 2.0 宣布延迟几周发布，但新增质量模式和速度模式。</p>
+  <a class="link" href="https://seekingalpha.com/news/4572523-musk-wants-banks-working-spacex-ipo-buy-grok" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 即将在华为芯片上发布，中国 AI 芯片独立迈出关键一步</h3>
+      
+      <p>据 Reuters 报道，DeepSeek 下一代 V4 模型将在华为最新芯片上运行，预计数周内发布。多家中国科技巨头已下大量订单。这标志着中国 AI 减少对美国芯片依赖的重要进展。</p>
+  <a class="link" href="https://techwireasia.com/2026/04/deepseek-v4-points-to-growing-use-of-huawei-chips-in-ai-models/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里千问上线 Qwen3.6-Plus Preview 及 Qwen3.5-Omni 系列模型</h3>
+      
+      <p>阿里通义千问发布 Qwen3.6-Plus Preview 模型和 Qwen3.5-Omni 系列模型。Qwen3.6-Plus 在编程、推理和多模态能力上均有显著提升，持续巩固阿里在中国大模型市场的领先地位。</p>
+  <a class="link" href="https://www.aliyun.com/product/tongyi" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek V4 延迟发布引关注：多名核心成员离职</h3>
+      
+      <p>中文媒体报道 DeepSeek V4 可能在 4 月发布，但多名核心成员已离职。尽管 V4-Lite 基准测试结果曝光，完整版仍需时间。市场关注 V4 能否保持 DeepSeek 的开源领先优势。</p>
+  <a class="link" href="https://findskill.ai/blog/deepseek-v4-release-date-specs/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 18:57 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
