@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-09",
+  "insights": [
+    {
+      "title": "Anthropic 禁止 Claude 订阅用户使用 OpenClaw 等第三方 Agent 框架",
+      "date": "2026-04-04",
+      "summary": "Anthropic 宣布从 4 月 4 日起，Claude Pro/Max 订阅用户不能再将额度用于 OpenClaw 等第三方 agentic 工具，需额外付费。Boris Cherny 表示订阅制无法承载 Agent 的高频调用模式，Claude Code 也受到影响。",
+      "link": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
+    },
+    {
+      "title": "Anthropic 发布 Claude Mythos Preview，定位网络安全\"清算\"",
+      "date": "2026-04-07",
+      "summary": "Anthropic 发布 Claude Mythos Preview 并发起 Project Glasswing 安全倡议，12 家合作伙伴共同推进。Mythos 自主发现了 FreeBSD 17 年历史的远程代码执行漏洞（CVE-2026-4747），但因安全风险不会公开发布。",
+      "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
+    },
+    {
+      "title": "OpenAI 发布超智能转型蓝图：公共财富基金、机器人税与四天工作制",
+      "date": "2026-04-06",
+      "summary": "OpenAI 发布 13 页政策文件《智能时代产业政策》，提出建立公共财富基金、对自动化劳动征税、试行 32 小时工作周等建议，为超级智能时代的经济转型做准备。",
+      "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
+    },
+    {
+      "title": "Google 发布 Gemma 4：字节效率最强的开源模型家族",
+      "date": "2026-04-02",
+      "summary": "Google DeepMind 正式发布 Gemma 4 系列开放权重模型，基于 Gemini 3 技术，涵盖从手机到工作站的多种规模，专为高级推理和 agentic 工作流设计。",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+    },
+    {
+      "title": "Broadcom 与 Google、Anthropic 扩大 AI 芯片合作",
+      "date": "2026-04-06",
+      "summary": "Broadcom 宣布与 Google 合作生产下一代 AI 芯片，同时与 Anthropic 达成扩大协议，为其 Claude 模型提供更大算力和 TPU 容量支持。",
+      "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
+    },
+    {
+      "title": "OpenAI、Anthropic、Google 联手对抗中国模型复制",
+      "date": "2026-04-06",
+      "summary": "三大竞争对手罕见合作，共同打击中国竞争者从美国前沿 AI 模型中提取结果以获取优势的行为。",
+      "link": "https://www.siliconvalley.com/2026/04/07/openai-anthropic-google-unite-to-combat-model-copying-in-china/"
+    },
+    {
+      "title": "TurboQuant 社区生态爆发：5 个独立实现，MacBook 跑 104B 模型",
+      "date": "2026-04-07",
+      "summary": "Google 发布 TurboQuant KV cache 压缩算法两周后，社区已出现 5 个独立实现，llama.cpp 分支可在 MacBook 上运行 104B 参数模型，vLLM 集成也在推进中。",
+      "link": "https://dev.to/alanwest/google-dropped-turboquant-two-weeks-ago-the-community-already-made-it-usable-3h0k"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Foundations for Agentic AI Investigations from the Forensic Analysis of OpenClaw",
+      "date": "2026-04-07",
+      "summary": "研究 Agentic AI 系统在数字取证中的内部状态重建方法，针对个人 AI 助手在调查中的行为还原提出框架。",
+      "link": "https://arxiv.org/abs/2604.05589"
+    },
+    {
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "date": "2026-04-06",
+      "summary": "提出多 Agent 协作框架，自动化 AI 研究论文写作流程，涵盖文献检索、实验设计到论文生成的完整流水线。",
+      "link": "https://arxiv.org/abs/2604.05018"
+    },
+    {
+      "title": "Memory Intelligence Agent: 集成非参数与参数记忆系统的强化学习框架",
+      "date": "2026-04-07",
+      "summary": "Memory Intelligence Agent 框架将非参数记忆和参数记忆系统与强化学习集成，在开放世界环境中实现高效推理和自主进化。",
+      "link": "https://huggingface.co/papers/2604.04503"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy 发布 LLM Wiki：用 AI 构建第二大脑",
+      "date": "2026-04-04",
+      "summary": "Andrej Karpathy 在 GitHub Gist 发布 llm-wiki.md，展示用 Claude Code 将原始研究转化为自维护 Wiki 的新工作流，放弃 RAG 和向量数据库。引发广泛讨论。",
+      "link": "https://x.com/karpathy/status/2040470801506541998"
+    },
+    {
+      "title": "Karpathy 展示 Autoresearch：递归自学习的 AI 研究 Agent",
+      "date": "2026-03-30",
+      "summary": "Karpathy 开源 autoresearch 项目，66,000+ GitHub stars，他两天的扩展运行产生了 700 个实验，推动 AI 辅助科研的广泛讨论。",
+      "link": "https://x.com/karpathy/status/2039805659525644595"
+    },
+    {
+      "title": "Cursor 3 发布：从 IDE 到 Agent 管理平台",
+      "date": "2026-04-02",
+      "summary": "Cursor 发布 Cursor 3，将传统代码编辑器替换为 Agent 管理控制台，支持多仓库、Agent 协作和 PR 工作流，标志着 AI 编程工具的重大范式转变。",
+      "link": "https://cursor.com/blog/cursor-3"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Hacker News 热议：Anthropic 禁止 OpenClaw 使用 Claude 订阅",
+      "date": "2026-04-04",
+      "summary": "HN 社区热议 Anthropic 从 4 月 4 日起禁止 Claude Code 订阅用户使用 OpenClaw 等第三方 agentic 工具，开发者担心成本上升和生态割裂。",
+      "link": "https://news.ycombinator.com/item?id=47633396"
+    },
+    {
+      "title": "HN 讨论：Sam Altman 的超智能\"新政\"蓝图",
+      "date": "2026-04-07",
+      "summary": "纽约客深度调查引发 HN 热议，社区讨论 OpenAI 政策建议的可行性及其与 Musk 的法律纠纷，对超级智能治理方案意见分化。",
+      "link": "https://news.ycombinator.com/item?id=47659135"
+    },
+    {
+      "title": "r/LocalLLaMA: Gemma 4 26B A3B 配置得当效果惊人",
+      "date": "2026-04-07",
+      "summary": "社区讨论 Gemma 4 26B A3B 模型的最佳配置参数（temperature=1.0, top_p=0.95, top_k=64），分享本地部署经验和性能表现。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1segstx/gemma_4_26b_a3b_is_mindblowingly_good_if/"
+    }
+  ],
+  "github": [
+    {
+      "title": "oh-my-codex: 为 Codex 添加 Hooks、Agent 团队和 HUD",
+      "date": "2026-04-09",
+      "summary": "OmX - Oh My codeX 让 Codex 不再孤单，支持 hooks、agent teams、HUD 等功能，本周获 11,503 stars，是当前增长最快的 AI 编程工具仓库。",
+      "link": "https://github.com/Yeachan-Heo/oh-my-codex"
+    },
+    {
+      "title": "NousResearch/hermes-agent: 与你一起成长的智能 Agent",
+      "date": "2026-04-09",
+      "summary": "NousResearch 推出的可成长型 Agent 框架，总 stars 达 40,643，本周新增 14,811 stars，代表了开源 Agent 框架的最新方向。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "google-ai-edge/gallery: 端侧 ML/GenAI 用例展示",
+      "date": "2026-04-09",
+      "summary": "Google AI Edge 发布的端侧 ML 和 GenAI 用例展示库，支持本地模型试用，本周新增 3,796 stars，总 star 19,741。",
+      "link": "https://github.com/google-ai-edge/gallery"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Anthropic 禁止 Claude Code 订阅用户使用 OpenClaw",
+      "date": "2026-04-04",
+      "summary": "HN 热帖讨论 Anthropic 对第三方 agentic 工具的限制政策，开发者社区反应强烈，担忧 AI 编程工具生态的开放性和成本问题。",
+      "link": "https://news.ycombinator.com/item?id=47633396"
+    },
+    {
+      "title": "纽约客深度调查：Sam Altman 能信任吗？",
+      "date": "2026-04-07",
+      "summary": "纽约客发布关于 Sam Altman 的长篇调查报道，HN 讨论热烈，涉及 OpenAI 的治理结构、与 Musk 的法律战及超级智能转型计划。",
+      "link": "https://news.ycombinator.com/item?id=47659135"
+    },
+    {
+      "title": "OpenAI 的超智能社会转型蓝图",
+      "date": "2026-04-06",
+      "summary": "OpenAI 发布 13 页政策文件，提出公共财富基金、机器人税、四天工作制等建议，HN 社区就其可行性和动机展开深度辩论。",
+      "link": "https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/artificial: Claude Mythos Preview 讨论",
+      "date": "2026-04-08",
+      "summary": "社区热议 Anthropic 的 Claude Mythos Preview，讨论其安全策略：自主发现漏洞但不公开发布，让企业自行修复后再披露。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sfhsvz/claude_mythos_preview/"
+    },
+    {
+      "title": "r/singularity: OpenAI 是否将发布 Mythos 级别的 AI？",
+      "date": "2026-04-08",
+      "summary": "讨论 OpenAI 即将发布的 Spud 模型是否达到 Mythos 级别，社区对开源模型在 2027 年的能力前景充满期待。",
+      "link": "https://www.reddit.com/r/singularity/comments/1sfl50i/is_openai_about_to_release_a_mythos_level_ai_to/"
+    },
+    {
+      "title": "r/LocalLLaMA: Gemma 4 26B A3B 配置调优讨论",
+      "date": "2026-04-07",
+      "summary": "社区分享 Gemma 4 26B A3B 模型的最佳运行参数和部署经验，讨论其作为开源模型的性能表现。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1segstx/gemma_4_26b_a3b_is_mindblowingly_good_if/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Cursor 3: Agent 驱动的编程工作流",
+      "date": "2026-04-02",
+      "summary": "Cursor 发布 v3，将传统 IDE 转变为 Agent 管理控制台，支持自然语言描述任务、选择 LLM、多 Agent 协作和 PR 工作流。",
+      "link": "https://cursor.com/blog/cursor-3"
+    },
+    {
+      "title": "Google AI Edge Gallery: 端侧 ML/GenAI 用例平台",
+      "date": "2026-04-08",
+      "summary": "Google AI Edge 发布端侧机器学习用例展示平台，开发者可直接在本地试用各种 ML 和 GenAI 模型和应用场景。",
+      "link": "https://github.com/google-ai-edge/gallery"
+    },
+    {
+      "title": "TurboQuant 社区生态：5 个独立实现可用",
+      "date": "2026-04-07",
+      "summary": "Google TurboQuant KV cache 压缩算法发布两周后，社区已产生 5 个独立实现，包括 llama.cpp Metal 支持和 vLLM 集成。",
+      "link": "https://dev.to/alanwest/google-dropped-turboquant-two-weeks-ago-the-community-already-made-it-usable-3h0k"
+    }
+  ],
+  "agent": [
+    {
+      "title": "NousResearch Hermes Agent: 与你一起成长的智能 Agent",
+      "date": "2026-04-09",
+      "summary": "NousResearch 推出 Hermes Agent 框架，40,643 GitHub stars，支持 Agent 随用户成长和能力进化，是开源 Agent 领域的重要里程碑。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "oh-my-codex: Codex 的 hooks 和 Agent 团队扩展",
+      "date": "2026-04-09",
+      "summary": "OmX 为 Codex 添加 hooks、agent teams、HUD 等功能，本周新增 11,503 stars，成为增长最快的 Codex 扩展工具。",
+      "link": "https://github.com/Yeachan-Heo/oh-my-codex"
+    },
+    {
+      "title": "Anthropic 限制第三方 Agent 框架使用 Claude 订阅",
+      "date": "2026-04-04",
+      "summary": "Anthropic 宣布 Claude Pro/Max 订阅不能用于 OpenClaw 等第三方 agentic 工具，需额外付费，引发开发者社区广泛关注和讨论。",
+      "link": "https://venturebeat.com/technology/anthropic-cuts-off-the-ability-to-use-claude-subscriptions-with-openclaw-and"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic 发布 Claude Mythos Preview 并发起 Project Glasswing",
+      "date": "2026-04-07",
+      "summary": "Anthropic 发布具有强大网络安全能力的 Claude Mythos Preview，同时联合 12 家合作伙伴发起 Project Glasswing 安全倡议。",
+      "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
+    },
+    {
+      "title": "OpenAI 发布超智能时代社会转型政策蓝图",
+      "date": "2026-04-06",
+      "summary": "OpenAI 发布 13 页政策文件，提出公共财富基金、机器人税、四天工作制等建议，为超级智能时代的经济和社会治理做准备。",
+      "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
+    },
+    {
+      "title": "Broadcom 扩大与 Google、Anthropic 的 AI 芯片合作",
+      "date": "2026-04-06",
+      "summary": "Broadcom 宣布扩大与 Google 和 Anthropic 的芯片合作协议，为其 AI 基础设施提供更大算力和下一代 TPU 容量支持。",
+      "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "2026 智能体 AI 元年：中国大模型调用量首超美国",
+      "date": "2026-04-05",
+      "summary": "中国工程院院士张亚勤提出 2026 年是智能体 AI 元年，中国大模型周调用量达 5.16 万亿 Token，首次超越美国的 2.7 万亿。",
+      "link": "https://gitcode.csdn.net/69d2553854b52172bc672037.html"
+    },
+    {
+      "title": "2026 年 4 月 AI 行业全景：巨头融资创新高，智能体时代启幕",
+      "date": "2026-04-08",
+      "summary": "阿里云通义团队 72 小时内连续推出三款模型：Qwen3.5-Omni、Wan2.7-Image、Qwen3.6-Plus，其中 Qwen3.6-Plus 单日调用量突破 1.4 万亿 Token。",
+      "link": "https://www.dtm.com.cn/news/202604/227569.html"
+    },
+    {
+      "title": "全球首届具身智能开发者大会在深圳落幕",
+      "date": "2026-04-03",
+      "summary": "深圳举办全球首届具身智能开发者大会，自变量机器人 CEO 王潜表示将通过开源平台和软硬件开发系统推动中国具身智能生态发展。",
+      "link": "http://cn.chinadaily.com.cn/a/202604/03/WS69cf7ebca310942cc49a6659.html"
+    }
+  ]
+}
