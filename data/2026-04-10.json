@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-10",
+  "insights": [
+    {
+      "title": "Meta员工自建Claude用量排行榜，Zuckerberg未进前250",
+      "date": "2026-04-09",
+      "summary": "Meta内部出现员工自建的Claude Token使用量排行榜，员工可互相比拼AI用量并获得Model Connoisseur等称号，但CEO Zuckerberg的用量甚至未进前250名。",
+      "link": "https://fortune.com/2026/04/09/meta-killed-employee-ai-token-dashboard/"
+    },
+    {
+      "title": "OpenAI、Anthropic、Google联合打击对抗性蒸馏窃取模型",
+      "date": "2026-04-07",
+      "summary": "三大AI巨头通过Frontier Model Forum共享情报，合作打击中国竞争对手利用对抗性蒸馏技术窃取美国前沿模型成果的行为。",
+      "link": "https://www.roborhythms.com/openai-anthropic-google-fight-chinese-ai-copying-2026/"
+    },
+    {
+      "title": "Anthropic发布Claude Mythos Preview——首个十万亿参数模型",
+      "date": "2026-04-07",
+      "summary": "Anthropic向约40家科技公司有限发布Claude Mythos Preview，该模型在网络安全、学术研究等领域表现卓越，SWE-bench Verified得分93.9%，远超Claude Opus 4.6的80.8%。",
+      "link": "https://news.ycombinator.com/item?id=47679155"
+    },
+    {
+      "title": "DARPA启动MATHBAC——AI智能体协作的数学基础",
+      "date": "2026-04-08",
+      "summary": "DARPA发布Mathematics of Boosting Agentic Communication项目，提供最高200万美元Phase I资助，旨在建立AI智能体协作的数学和信息论基础。",
+      "link": "https://www.theregister.com/2026/04/08/darpa_wants_ai_agent_communication/"
+    },
+    {
+      "title": "首个AI自主网络攻击：智能体利用内核漏洞获取root权限",
+      "date": "2026-04-06",
+      "summary": "Anthropic报告了首个由AI智能体主导的网络攻击案例，智能体利用CVE-2026-4747内核漏洞在无人类协助下完成攻击链，标志着AI网络安全新纪元。",
+      "link": "https://www.nytimes.com/2026/04/06/technology/ai-cybersecurity-hackers.html"
+    },
+    {
+      "title": "美国和中国能合作让AI更安全",
+      "date": "2026-04-09",
+      "summary": "Foreign Affairs发文指出中美在AI安全领域的合作既必要又可行，呼吁两国在模型安全和全球治理方面建立沟通机制。",
+      "link": "https://www.foreignaffairs.com/united-states/america-and-china-can-make-ai-safer"
+    },
+    {
+      "title": "AI制造假疾病：科学家揭示AI医疗幻觉风险",
+      "date": "2026-04-10",
+      "summary": "Nature报道科学家发明了一种虚构疾病，而AI系统却告诉人们它是真实的，揭示了AI在医疗领域的幻觉风险和可信度问题。",
+      "link": "https://innovationinthenews.substack.com/p/innovation-in-the-news-april-10-2026"
+    }
+  ],
+  "papers": [
+    {
+      "title": "ClawArena：在演化信息环境中基准测试AI智能体",
+      "date": "2026-04-06",
+      "summary": "提出ClawArena基准测试框架，在动态演化信息环境中评估AI智能体的协调能力，包含多智能体部分信息协调任务。",
+      "link": "https://huggingface.co/papers/2604.04202"
+    },
+    {
+      "title": "Self-Distilled RLVR：自蒸馏强化学习推理优化",
+      "date": "2026-04-05",
+      "summary": "提出自蒸馏RLVR方法，结合FIPO（Future-KL影响策略优化）激发深度推理能力，在数学和代码推理基准上表现优异。",
+      "link": "https://huggingface.co/papers/2604.03128"
+    },
+    {
+      "title": "The ATOM Report：测量开放语言模型生态系统",
+      "date": "2026-04-09",
+      "summary": "全面分析来自阿里Qwen、DeepSeek、Meta Llama等的约1500个主流开放模型的采用快照，揭示开源AI生态现状。",
+      "link": "https://arxiv.org/html/2604.07190v1"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Alexandr Wang宣布Meta AI App Store排名飙升至第5",
+      "date": "2026-04-09",
+      "summary": "Meta首席AI官Alexandr Wang在X上宣布，Muse Spark发布后Meta AI应用从App Store第57名飙升至第5名，下载量单日增长87%。",
+      "link": "https://x.com/alexandr_wang/status/2042254047244398978"
+    },
+    {
+      "title": "Musk转发New Yorker调查报告称Altman不应掌管超级AI",
+      "date": "2026-04-09",
+      "summary": "Musk在X上转发Ronan Farrow对Sam Altman的深度调查报告，评论称Altman不是应该掌管超级强大AI的人。",
+      "link": "https://twitter.com/ohryansbelt/status/2041151473984123274"
+    },
+    {
+      "title": "Karpathy谈AI Agent趋势——从编码到智能家居的Dobby管家",
+      "date": "2026-04-09",
+      "summary": "Karpathy在No Priors播客中透露自己数月未写代码，转向用AI Agent管理智能家居，将AI管家命名为Dobby the Elf Claw。",
+      "link": "https://www.benzinga.com/news/topics/26/04/51746743/i-call-him-dobby-the-elf-claw-openai-cofounder-andrej-karpathy-says-after-nvidias-jensen-huang-gifts-him-a-superchip-to-power-his-ai-home"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Hermes Agent生态系统地图发布——80+项目覆盖全栈",
+      "date": "2026-04-09",
+      "summary": "Nous Research发布Hermes Agent完整生态地图，涵盖技能、插件、记忆、编排、部署等80+经过质量过滤的项目。",
+      "link": "https://hermes-ecosystem.vercel.app/"
+    },
+    {
+      "title": "NVIDIA全国机器人周——OpenClaw在Jetson Thor端侧运行",
+      "date": "2026-04-10",
+      "summary": "NVIDIA全国机器人周期间宣布，OpenClaw已完全在Jetson Thor本地运行，由优化后的Nemotron开放模型和vLLM推理库驱动，展示了端侧AI推理的新突破。",
+      "link": "https://blogs.nvidia.com/blog/national-robotics-week-2026/"
+    },
+    {
+      "title": "Karpathy的LLM Wiki模式在知识管理社区引爆讨论",
+      "date": "2026-04-09",
+      "summary": "Karpathy提出的用Markdown Wiki替代RAG的个人知识库模式在知识管理社区引发广泛讨论，多个社区开始实践该模式。",
+      "link": "https://www.mindstudio.ai/blog/andrej-karpathy-llm-wiki-knowledge-base-claude-code"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenClaw突破30万星——史上增长最快的开源项目",
+      "date": "2026-04-03",
+      "summary": "OpenClaw成为GitHub历史上增长最快的开源项目，超过302,000星。该自主智能体框架支持本地运行、Shell命令执行和Web自动化。",
+      "link": "https://github.com/OpenClaw/openclaw"
+    },
+    {
+      "title": "LLM Wiki v2——扩展Karpathy的LLM Wiki模式",
+      "date": "2026-04-10",
+      "summary": "社区基于Karpathy的LLM Wiki idea file，发布LLM Wiki v2，整合了agentmemory持久化记忆引擎的经验教训。",
+      "link": "https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2"
+    },
+    {
+      "title": "AutoResearchClaw——从想法到论文的自主科研智能体",
+      "date": "2026-04-08",
+      "summary": "AutoResearchClaw实现从研究想法到完整论文的端到端自动化，支持文献检索、实验设计、结果分析和论文撰写全流程。",
+      "link": "https://github.com/OpenClaw/AutoResearchClaw"
+    }
+  ],
+  "hn": [
+    {
+      "title": "MCP vs Skills：为什么我仍然偏好MCP而非Skills标准",
+      "date": "2026-04-10",
+      "summary": "作者论证MCP相比Skills标准为LLM服务集成提供了更实用的标准化方案，引发社区140+条评论的热议。",
+      "link": "https://news.ycombinator.com/item?id=47712718"
+    },
+    {
+      "title": "Claude Mythos Preview网络安全能力评估",
+      "date": "2026-04-07",
+      "summary": "Anthropic发布Claude Mythos Preview网络安全能力评估报告，早期版本已能利用proc访问搜索凭证、尝试绕过沙箱。",
+      "link": "https://news.ycombinator.com/item?id=47679155"
+    },
+    {
+      "title": "NASA如何构建Artemis II的容错计算机",
+      "date": "2026-04-09",
+      "summary": "ACM报道NASA为Artemis II登月任务打造的容错计算机系统，展示了极端环境下计算可靠性的工程实践。",
+      "link": "https://news.ycombinator.com/item?id=47704804"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "OpenAI超级智能转型蓝图：公共财富基金与四天工作制",
+      "date": "2026-04-06",
+      "summary": "OpenAI正式发布超级智能转型蓝图，提出公共财富基金和四天工作周等政策建议，引发r/singularity社区热烈讨论。",
+      "link": "https://www.reddit.com/r/singularity/comments/1se6obs/openai_just_dropped_their_blueprint_for_the/"
+    },
+    {
+      "title": "Claude Mythos Preview讨论——Anthropic为何不公开发布",
+      "date": "2026-04-09",
+      "summary": "r/Anthropic社区热议Claude Mythos Preview为何仅面向企业客户有限发布，以及其实际能力表现。",
+      "link": "https://www.reddit.com/r/Anthropic/comments/1sgegbx/mythos_anthropic/"
+    },
+    {
+      "title": "Sam Altman同事称其几乎不会写代码且不懂基础ML概念",
+      "date": "2026-04-08",
+      "summary": "New Yorker长篇报道揭示Sam Altman的技术能力争议，前同事称其几乎不会编程且对基础机器学习概念理解有限。",
+      "link": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google LiteRT-LM——高性能开源边缘设备LLM推理框架",
+      "date": "2026-04-08",
+      "summary": "Google AI Edge发布LiteRT-LM，高性能开源框架用于边缘设备LLM推理，配套GitHub Gallery展示设备端ML应用案例。",
+      "link": "https://aitoolly.com/ai-news/article/2026-04-08-google-launches-litert-lm-a-high-performance-open-source-framework-for-edge-device-llm-inference"
+    },
+    {
+      "title": "Karpathy LLM Wiki——用Markdown构建个人知识库工具",
+      "date": "2026-04-04",
+      "summary": "基于Karpathy提出的LLM Wiki模式，社区涌现多款工具，支持用LLM自动维护Markdown知识库，替代传统RAG方案。",
+      "link": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+    },
+    {
+      "title": "Eluvio EVIE——面向视频内容库和体育赛事的AI编排工具",
+      "date": "2026-04-07",
+      "summary": "Eluvio在NAB 2026上发布下一代视频智能编辑器EVIE，支持帧级精确视频智能和AI智能体编排。",
+      "link": "https://www.prnewswire.com/news-releases/eluvio-introduces-inline-frame-accurate-video-intelligence-and-next-gen-eluvio-video-intelligence-editor-evie-with-new-advanced-ai-tools-for-agentic-orchestration-of-title-libraries-and-live-sports-at-nab-2026-302735290.html"
+    }
+  ],
+  "agent": [
+    {
+      "title": "AWS DevOps Agent和Security Agent正式发布",
+      "date": "2026-04-06",
+      "summary": "AWS宣布DevOps Agent和Security Agent进入GA阶段，企业可在生产环境中部署AI智能体进行运维自动化和安全防护。",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-devops-agent-security-agent-ga-product-lifecycle-updates-and-more-april-6-2026/"
+    },
+    {
+      "title": "OpenAI发布ChatGPT Pro——100美元/月对标Claude Code",
+      "date": "2026-04-09",
+      "summary": "OpenAI推出ChatGPT Pro订阅服务，月费100美元，直接对标Anthropic的Claude Code订阅模式，加剧AI编程工具竞争。",
+      "link": "https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html"
+    },
+    {
+      "title": "Anthropic降低企业构建AI Agent的门槛",
+      "date": "2026-04-10",
+      "summary": "Anthropic正努力降低企业使用Claude构建AI Agent的门槛，推出更简化的Agent开发工具和集成方案。",
+      "link": "https://llm-stats.com/ai-news"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Musk要求法院罢免OpenAI CEO Sam Altman",
+      "date": "2026-04-07",
+      "summary": "Elon Musk在诉讼中正式要求罢免Sam Altman和Greg Brockman的OpenAI高管职位，案件预计本月开庭审理。",
+      "link": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html"
+    },
+    {
+      "title": "Broadcom与Google、Anthropic达成扩展芯片协议",
+      "date": "2026-04-06",
+      "summary": "Broadcom宣布与Google就下一代AI芯片生产达成扩展协议，同时与Anthropic达成扩大合作协议。",
+      "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
+    },
+    {
+      "title": "OpenAI收购热门科技播客TBPN引发媒体独立性争议",
+      "date": "2026-04-03",
+      "summary": "OpenAI收购YouTube和X平台热门科技播客TBPN，Sam Altman表示TBPN是其最爱的科技节目，引发媒体独立性质疑。",
+      "link": "https://www.hollywoodreporter.com/business/business-news/billionares-buying-media-deals-openai-tbpn-larry-ellison-1236554833/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4即将发布——中国AI ambitions的又一关键节点",
+      "date": "2026-04-09",
+      "summary": "DeepSeek备受期待的V4模型即将亮相，市场关注其能否在华为芯片上运行，以及能否成为Nvidia的真正替代方案。",
+      "link": "https://www.japantimes.co.jp/business/2026/04/09/tech/deepseek-new-model-china-ambitions/"
+    },
+    {
+      "title": "中国计划将AI引入课堂加速数字化转型",
+      "date": "2026-04-10",
+      "summary": "新华社报道，中国计划将AI技术引入课堂教学，加速教育领域数字化推进，这是国家AI战略在教育领域的重要落地。",
+      "link": "http://en.people.cn/n3/2026/0410/c90000-20445391.html"
+    },
+    {
+      "title": "美国顶级AI机器人学者或将加入复旦大学",
+      "date": "2026-04-09",
+      "summary": "UC San Diego的苏浩教授出现在复旦大学电子信息学院教授名单中，专攻AI和机器人领域，反映中国对全球AI人才的吸引力。",
+      "link": "https://www.scmp.com/news/china/science/article/3349408/one-americas-top-ai-robot-scholars-about-join-chinas-tech-talent-pool"
+    }
+  ]
+}
