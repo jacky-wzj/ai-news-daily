@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月11日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月11日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GLM-5.1 开源登顶 SWE-bench Pro，国产模型首次超越 Claude Opus 4.6</h3>
+      <div class="meta">👤 </div>
+      <p>智谱发布并开源 GLM-5.1，成为全球首个支持 8 小时持续工作的开源模型，在 SWE-bench Pro 中超越 Claude Opus 4.6，Hugging Face CEO 亲自站台。</p>
+  <a class="link" href="https://www.21jingji.com/article/20260408/herald/8768bba79b0a0f812fa23fdce8532779.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Claude Mythos Preview 在网络安全基准测试中表现突出</h3>
+      <div class="meta">👤 </div>
+      <p>Anthropic 发布的 Claude Mythos Preview 在代码安全任务中表现显著优于现有模型，能够在关键软件中发现大量零日漏洞，引发安全社区关注。</p>
+  <a class="link" href="https://red.anthropic.com/2026/mythos-preview/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 通义千问 Qwen3.6-Plus 登顶全球编程榜第二</h3>
+      <div class="meta">👤 </div>
+      <p>阿里通义实验室发布 Qwen3.6-Plus，在 LMArena Code Arena 编程盲测中以 1452 分获全球第二，拥有 100 万 token 超长上下文和业界领先的 Agentic Coding 能力。</p>
+  <a class="link" href="https://www.ithome.com/0/935/963.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 官方宣布 V4 将在华为昇腾 950PR 上运行</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-07</div>
+      <p>DeepSeek 官宣下一代旗舰模型 V4 将完全运行于华为昇腾 950PR 芯片，从 CUDA 全面迁移至 CANN 框架，被视为中国 AI 芯片的安卓时刻。</p>
+  <a class="link" href="https://www.myzaker.com/article/69d9aeaf8e9f0962120541e1" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sam Altman 与 Vinod Khosla 联名提议：AI 时代取消多数美国人所得税</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-07</div>
+      <p>OpenAI CEO Sam Altman 与知名投资人 Vinod Khosla 联合提出 AI 时代税改方案，建议年收入 10 万美元以下免所得税，通过公共财富基金分配 AI 红利。</p>
+  <a class="link" href="https://fortune.com/2026/04/07/sam-altman-vinod-khosla-openai-tax-code-american-income-tax-100k/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta Muse Spark 在 Artificial Analysis 排名第四引发热议</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-09</div>
+      <p>Meta 新模型 Muse Spark 在 Artificial Analysis Index 中排名第四，社区评价褒贬不一。有人认为 Meta 强势回归，也有人认为该模型仅达到两个月前顶尖水平的定位。</p>
+  <a class="link" href="https://www.cnbc.com/2026/04/09/metas-long-awaited-ai-model-is-finally-here-but-can-it-make-money.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 智谱 GLM-5.1 开源引爆开发者社区讨论</h3>
+      <div class="meta">💬 </div>
+      <p>GLM-5.1 开源后在多个 AI 开发者社区引发热议，LINUX DO 等社区出现大量关于 8 小时持续工作能力的讨论和实测报告。</p>
+  <a class="link" href="https://linux.do/t/topic/1920764" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Microsoft Agent Framework 1.0 发布引 Agent 框架生态讨论</h3>
+      <div class="meta">💬 </div>
+      <p>微软 Agent Framework 1.0 正式发布，统一了 Semantic Kernel 和 AutoGen 两个 SDK。Forbes 评论微软的 Agent 工具栈令开发者困惑，而竞争对手则在简化。</p>
+  <a class="link" href="https://www.forbes.com/sites/janakirammsv/2026/04/06/microsofts-agent-stack-confuses-developers-while-rivals-simplify/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Superpowers Framework: Composable Skills for Coding Agents</h3>
+      <div class="meta">💬 </div>
+      <p>新的 Composable Agent Skill Framework 发布，提供结构化的 AI 编程技能组合方法，支持将专用能力集成到 AI 驱动的编程任务中，提升开发效率。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-04-10-superpowers-a-comprehensive-agent-skill-framework-and-software-development-methodology-for-ai-coding" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. zai-org/GLM-5.1 — 智谱开源最强编程模型</h3>
+      
+      <p>智谱开源 GLM-5.1 模型，支持 8 小时持续自主工作，在 SWE-bench Pro 中位列开源第一，成为当前全球最强开源编程模型。</p>
+  <a class="link" href="https://github.com/zai-org/GLM-5" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. microsoft/agent-framework — 微软 Agent Framework 1.0</h3>
+      
+      <p>微软正式发布 Agent Framework 1.0 版本（.NET + Python），统一了此前不兼容的两个 SDK，支持 MCP 和 A2A 协议。</p>
+  <a class="link" href="https://github.com/microsoft/agent-framework" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenBMB 发布 VoxCPM2 — 无 Tokenizer 的真实语音克隆模型</h3>
+      
+      <p>清华 OpenBMB 团队发布 VoxCPM2，采用无 Tokenizer 架构简化 TTS 生成流程，支持多语言语音生成和真实语音克隆。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-04-11-openbmb-launches-voxcpm2-a-tokenizer-free-text-to-speech-model-for-multilingual-voice-generation-and" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic Project Glasswing: Mythos Preview 限量发布</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Simon Willison 发文分析 Anthropic 限制 Claude Mythos Preview 仅对安全研究人员开放的决定，认为这是面对 AI 网络安全风险时的必要举措。</p>
+  <a class="link" href="https://simonwillison.net/2026/Apr/7/project-glasswing/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 完成 1220 亿美元融资：硅谷史上最大融资背后的隐忧</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>270 页文件曝光 OpenAI 绝密黑料：CFO 抗议 Altman 强推 IPO 计划，预计 2026 年亏损 140 亿美元，到 2027 年现金消耗将飙升至 570 亿。亚马逊对赌协议要求 2028 年底前实现 AGI 或完成 IPO。</p>
+  <a class="link" href="https://www.tmtpost.com/7943896.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. EY 推出全球 Agent 框架用于审计业务</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>安永发布全球多 Agent AI 框架并嵌入 EY Canvas 审计平台，约 13 万审计师使用，目标 2028 年实现 100% Agent 支持审计活动。</p>
+  <a class="link" href="https://letsdatascience.com/news/ey-launches-global-agent-framework-for-assurance-f6912a85" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Meta Muse Spark 在 Artificial Analysis 排名第四</h3>
+      <div class="meta">reddit: </div>
+      <p>r/singularity 热帖：Meta Muse Spark 在 Artificial Analysis Index 中排名第四，用户实测其在 Linux 内核汇编优化等任务上表现不俗。</p>
+  <a class="link" href="https://www.reddit.com/r/singularity/comments/1shb3qg/damn_meta_is_back_meta_muse_spark_ranks_4th_in/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Muse Spark — Meta 超智能实验室首款模型</h3>
+      <div class="meta">reddit: </div>
+      <p>r/singularity 讨论 Meta 首款 Muse 系列模型 Muse Spark 的发布，强调其效率优势和竞争力表现，但定位并非顶级模型。</p>
+  <a class="link" href="https://www.reddit.com/r/singularity/comments/1sfxfv3/muse_spark_first_model_from_meta/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 11年老程序员：离开 AI 已无法调试代码</h3>
+      <div class="meta">reddit: </div>
+      <p>r/artificial 热帖：一位有 11 年编程经验的开发者表示，上个月发现自己在没有 AI 辅助的情况下完全无法调试问题，这比任何行业动态都让他感到恐惧。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1sderg4/i_have_been_coding_for_11_years_and_i_caught/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Qwen3-Coder-Next — 阿里开源编程专用模型</h3>
+      
+      <p>通义千问团队开源 Qwen3-Coder-Next 编程专用模型，面向 AI 编程场景深度优化，支持 Claude Code、OpenCode 等主流开发工具接入。</p>
+  <a class="link" href="https://help.aliyun.com/zh/model-studio/coding-plan" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Microsoft Agent Framework 1.0 — 支持 .NET 和 Python 的 Agent 开发框架</h3>
+      
+      <p>微软发布生产级 Agent Framework 1.0，融合 Semantic Kernel 和 AutoGen 概念，支持 MCP 和 A2A 协议，适用于 .NET 和 Python 开发。</p>
+  <a class="link" href="https://visualstudiomagazine.com/articles/2026/04/06/microsoft-ships-production-ready-agent-framework-1-0-for-net-and-python.aspx" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. WordPress 7.0 引入 Abilities API 支持 AI 集成</h3>
+      
+      <p>WordPress 7.0 发布计划引入 Abilities API，支持与 OpenAI 等 AI 工具集成，实现更智能的工作流和自动化。</p>
+  <a class="link" href="https://www.copebusiness.com/wordpress/wordpress-7-0-release-date-features-delay-upgrade-guide/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Microsoft Agent Framework 1.0 正式发布</h3>
+      <div class="meta">🤖 </div>
+      <p>微软将 Semantic Kernel 和 AutoGen 统一为 Agent Framework 1.0，提供 .NET 和 Python 双语言支持，内置 MCP 和 A2A 协议。</p>
+  <a class="link" href="https://startdebugging.net/2026/04/microsoft-agent-framework-1-0-ai-agents-in-csharp/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱 GLM-5.1 支持 8 小时持续自主工作</h3>
+      <div class="meta">🤖 </div>
+      <p>GLM-5.1 成为全球首个支持单次任务持续工作 8 小时的开源模型，可在单次任务中自主规划、执行并交付工程级成果，重新定义 Agent 能力边界。</p>
+  <a class="link" href="https://www.21jingji.com/article/20260408/herald/8768bba79b0a0f812fa23fdce8532779.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Qwen3.6-Plus 登顶 LMArena 编程能力全球第二</h3>
+      <div class="meta">🤖 </div>
+      <p>阿里 Qwen3.6-Plus 在 LMArena Code Arena 编程盲测中以 1452 分位列全球第二，拥有百万级上下文和最强 Agentic Coding 能力。</p>
+  <a class="link" href="https://www.ithome.com/0/935/963.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 发布 Claude Mythos Preview，启动 Project Glasswing 网络安全计划</h3>
+      <div class="meta">📅 2026-04-07</div>
+      <p>Anthropic 发布新一代前沿模型 Claude Mythos Preview，因网络安全风险顾虑仅向 AWS、Apple、Google、Microsoft 等 45+ 家合作组织限量开放，并启动 Project Glasswing 计划投入 1 亿美元 Claude 额度用于防御性安全工作。</p>
+  <a class="link" href="https://www.anthropic.com/glasswing" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 完成 1220 亿美元融资，估值达 8520 亿美元创历史纪录</h3>
+      <div class="meta">📅 2026-04-05</div>
+      <p>OpenAI 宣布完成 1220 亿美元承诺资本融资，投后估值达 8520 亿美元，由软银和 a16z 领投。公司月收入已达 20 亿美元，同时公布了超级应用蓝图和共同富裕基金计划。</p>
+  <a class="link" href="https://daringfireball.net/2026/04/openai_future" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta 发布 Muse Spark——超智能实验室首款 AI 模型</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>Meta 旗下超智能实验室（Alexandr Wang 领导的 Meta Superintelligence Lab）发布首款模型 Muse Spark，已在 Artificial Analysis 排名第四，即将接入 Facebook、Instagram、WhatsApp 和 Messenger。</p>
+  <a class="link" href="https://www.reuters.com/sustainability/sustainable-finance-reporting/meta-unveils-first-ai-model-superintelligence-team-2026-04-08/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 中国大模型周调用量连续五周超越美国，达 12.96 万亿 Token</h3>
+      <div class="meta">📅 2026-04-06</div>
+      <p>据 OpenRouter 数据，中国 AI 大模型上周调用量达 12.96 万亿 Token，环比增长 31%，连续五周超越美国。MiniMax M2.5、Kimi K2.5、GLM-5、DeepSeek V3.2 四款中国模型占据全球前五中的四席。</p>
+  <a class="link" href="https://finance.sina.com.cn/tech/discovery/2026-04-06/doc-inhtqaaa1197790.shtml" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. 阿里百度腾讯集体加入 AI 算力涨价潮，云计算终结 20 年降价史</h3>
+      <div class="meta">📅 2026-04-09</div>
+      <p>继腾讯 3 月率先涨价后，阿里云和百度智能云宣布 4 月 18 日起 AI 算力产品最高涨价 34% 和 30%，腾讯云随后宣布 AI 算力等产品涨价 5%。供应链成本上涨推动国内三大云厂商集体调价。</p>
+  <a class="link" href="https://www.stcn.com/article/detail/3734661.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. 硅谷掀起 996 风潮：AI 热潮下科技巨头加班文化加剧</h3>
+      <div class="meta">📅 2026-04-07</div>
+      <p>华尔街日报、纽约时报等主流媒体报道，硅谷科技公司在 AI 热潮下开始实行类似中国 996 的工作制度，每周工作 6 天、每天 12 小时成为新常态，引发关于工作与生活平衡的广泛讨论。</p>
+  <a class="link" href="https://www.wenxuecity.com/news/2026/04/07/126606093.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 国产大模型：这次剧本不一样——中国模型调用量首超美国</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>36氪深度报道：2025年底 OpenRouter 中国开发者仅占 6%，但到 2026 年 4 月，中国大模型周调用量连续五周超越美国。MiniMax M2.5、Kimi K2.5、GLM-5、DeepSeek V3.2 霸榜全球前五，中国 AI 正在改写全球格局。</p>
+  <a class="link" href="https://36kr.com/p/3756517273895689" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 完成 1220 亿美元融资，估值 8520 亿美元</h3>
+      
+      <p>OpenAI 完成史上最大规模融资 1220 亿美元，投后估值 8520 亿美元，软银和 a16z 领投。公司月收入达 20 亿美元，预计 2030 年前还需消耗 2000 多亿美元。</p>
+  <a class="link" href="https://www.neowin.net/news/openai-becomes-a-852-billion-giant-with-record-breaking-122b-funding-round/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 启动 Project Glasswing，45+ 家企业联手防御 AI 网络攻击</h3>
+      
+      <p>Anthropic 联合 AWS、Apple、Google、Microsoft、Nvidia 等 45 家组织启动 Project Glasswing，利用 Claude Mythos Preview 加强关键软件安全，投入 1 亿美元额度。</p>
+  <a class="link" href="https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta 发布 Muse Spark，超智能实验室首款产品</h3>
+      
+      <p>Meta 发布 Muse Spark 模型，是 Alexandr Wang 领导的超智能实验室首款产品，采用闭源策略，已在 Artificial Analysis 排名第四，即将接入全线产品。</p>
+  <a class="link" href="https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 放弃英伟达，全面适配华为昇腾 950PR</h3>
+      
+      <p>DeepSeek 宣布下一代旗舰模型 V4 将完全运行于华为昇腾 950PR 芯片，底层代码从 CUDA 迁移到 CANN 框架，被称为中国 AI 芯片的安卓时刻。</p>
+  <a class="link" href="https://www.myzaker.com/article/69d9aeaf8e9f0962120541e1" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱 GLM-5.1 开源：国产模型首次超越 Claude Opus 4.6</h3>
+      
+      <p>智谱发布并开源 GLM-5.1，在 SWE-bench Pro 中超越 Claude Opus 4.6，支持 8 小时持续自主工作，成为全球最强开源模型，同时宣布 API 提价 10%。</p>
+  <a class="link" href="https://www.qbitai.com/2026/04/397898.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 中国大模型周调用量连续五周超越美国，达 12.96 万亿 Token</h3>
+      
+      <p>OpenRouter 数据显示中国大模型上周调用量 12.96 万亿 Token，环比增长 31%，连续五周超越美国，MiniMax、月之暗面、智谱、DeepSeek 四款模型霸榜全球前五。</p>
+  <a class="link" href="https://36kr.com/p/3700980530851712" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:34 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

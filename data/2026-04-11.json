@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-11",
+  "insights": [
+    {
+      "title": "Anthropic 发布 Claude Mythos Preview，启动 Project Glasswing 网络安全计划",
+      "date": "2026-04-07",
+      "summary": "Anthropic 发布新一代前沿模型 Claude Mythos Preview，因网络安全风险顾虑仅向 AWS、Apple、Google、Microsoft 等 45+ 家合作组织限量开放，并启动 Project Glasswing 计划投入 1 亿美元 Claude 额度用于防御性安全工作。",
+      "link": "https://www.anthropic.com/glasswing"
+    },
+    {
+      "title": "OpenAI 完成 1220 亿美元融资，估值达 8520 亿美元创历史纪录",
+      "date": "2026-04-05",
+      "summary": "OpenAI 宣布完成 1220 亿美元承诺资本融资，投后估值达 8520 亿美元，由软银和 a16z 领投。公司月收入已达 20 亿美元，同时公布了超级应用蓝图和共同富裕基金计划。",
+      "link": "https://daringfireball.net/2026/04/openai_future"
+    },
+    {
+      "title": "Meta 发布 Muse Spark——超智能实验室首款 AI 模型",
+      "date": "2026-04-08",
+      "summary": "Meta 旗下超智能实验室（Alexandr Wang 领导的 Meta Superintelligence Lab）发布首款模型 Muse Spark，已在 Artificial Analysis 排名第四，即将接入 Facebook、Instagram、WhatsApp 和 Messenger。",
+      "link": "https://www.reuters.com/sustainability/sustainable-finance-reporting/meta-unveils-first-ai-model-superintelligence-team-2026-04-08/"
+    },
+    {
+      "title": "中国大模型周调用量连续五周超越美国，达 12.96 万亿 Token",
+      "date": "2026-04-06",
+      "summary": "据 OpenRouter 数据，中国 AI 大模型上周调用量达 12.96 万亿 Token，环比增长 31%，连续五周超越美国。MiniMax M2.5、Kimi K2.5、GLM-5、DeepSeek V3.2 四款中国模型占据全球前五中的四席。",
+      "link": "https://finance.sina.com.cn/tech/discovery/2026-04-06/doc-inhtqaaa1197790.shtml"
+    },
+    {
+      "title": "阿里百度腾讯集体加入 AI 算力涨价潮，云计算终结 20 年降价史",
+      "date": "2026-04-09",
+      "summary": "继腾讯 3 月率先涨价后，阿里云和百度智能云宣布 4 月 18 日起 AI 算力产品最高涨价 34% 和 30%，腾讯云随后宣布 AI 算力等产品涨价 5%。供应链成本上涨推动国内三大云厂商集体调价。",
+      "link": "https://www.stcn.com/article/detail/3734661.html"
+    },
+    {
+      "title": "硅谷掀起 996 风潮：AI 热潮下科技巨头加班文化加剧",
+      "date": "2026-04-07",
+      "summary": "华尔街日报、纽约时报等主流媒体报道，硅谷科技公司在 AI 热潮下开始实行类似中国 996 的工作制度，每周工作 6 天、每天 12 小时成为新常态，引发关于工作与生活平衡的广泛讨论。",
+      "link": "https://www.wenxuecity.com/news/2026/04/07/126606093.html"
+    },
+    {
+      "title": "国产大模型：这次剧本不一样——中国模型调用量首超美国",
+      "date": "2026-04-08",
+      "summary": "36氪深度报道：2025年底 OpenRouter 中国开发者仅占 6%，但到 2026 年 4 月，中国大模型周调用量连续五周超越美国。MiniMax M2.5、Kimi K2.5、GLM-5、DeepSeek V3.2 霸榜全球前五，中国 AI 正在改写全球格局。",
+      "link": "https://36kr.com/p/3756517273895689"
+    }
+  ],
+  "papers": [
+    {
+      "title": "GLM-5.1 开源登顶 SWE-bench Pro，国产模型首次超越 Claude Opus 4.6",
+      "date": "2026-04-08",
+      "summary": "智谱发布并开源 GLM-5.1，成为全球首个支持 8 小时持续工作的开源模型，在 SWE-bench Pro 中超越 Claude Opus 4.6，Hugging Face CEO 亲自站台。",
+      "link": "https://www.21jingji.com/article/20260408/herald/8768bba79b0a0f812fa23fdce8532779.html"
+    },
+    {
+      "title": "Claude Mythos Preview 在网络安全基准测试中表现突出",
+      "date": "2026-04-07",
+      "summary": "Anthropic 发布的 Claude Mythos Preview 在代码安全任务中表现显著优于现有模型，能够在关键软件中发现大量零日漏洞，引发安全社区关注。",
+      "link": "https://red.anthropic.com/2026/mythos-preview/"
+    },
+    {
+      "title": "通义千问 Qwen3.6-Plus 登顶全球编程榜第二",
+      "date": "2026-04-02",
+      "summary": "阿里通义实验室发布 Qwen3.6-Plus，在 LMArena Code Arena 编程盲测中以 1452 分获全球第二，拥有 100 万 token 超长上下文和业界领先的 Agentic Coding 能力。",
+      "link": "https://www.ithome.com/0/935/963.htm"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "DeepSeek 官方宣布 V4 将在华为昇腾 950PR 上运行",
+      "date": "2026-04-07",
+      "summary": "DeepSeek 官宣下一代旗舰模型 V4 将完全运行于华为昇腾 950PR 芯片，从 CUDA 全面迁移至 CANN 框架，被视为中国 AI 芯片的安卓时刻。",
+      "link": "https://www.myzaker.com/article/69d9aeaf8e9f0962120541e1"
+    },
+    {
+      "title": "Sam Altman 与 Vinod Khosla 联名提议：AI 时代取消多数美国人所得税",
+      "date": "2026-04-07",
+      "summary": "OpenAI CEO Sam Altman 与知名投资人 Vinod Khosla 联合提出 AI 时代税改方案，建议年收入 10 万美元以下免所得税，通过公共财富基金分配 AI 红利。",
+      "link": "https://fortune.com/2026/04/07/sam-altman-vinod-khosla-openai-tax-code-american-income-tax-100k/"
+    },
+    {
+      "title": "Meta Muse Spark 在 Artificial Analysis 排名第四引发热议",
+      "date": "2026-04-09",
+      "summary": "Meta 新模型 Muse Spark 在 Artificial Analysis Index 中排名第四，社区评价褒贬不一。有人认为 Meta 强势回归，也有人认为该模型仅达到两个月前顶尖水平的定位。",
+      "link": "https://www.cnbc.com/2026/04/09/metas-long-awaited-ai-model-is-finally-here-but-can-it-make-money.html"
+    }
+  ],
+  "discord": [
+    {
+      "title": "智谱 GLM-5.1 开源引爆开发者社区讨论",
+      "date": "2026-04-08",
+      "summary": "GLM-5.1 开源后在多个 AI 开发者社区引发热议，LINUX DO 等社区出现大量关于 8 小时持续工作能力的讨论和实测报告。",
+      "link": "https://linux.do/t/topic/1920764"
+    },
+    {
+      "title": "Microsoft Agent Framework 1.0 发布引 Agent 框架生态讨论",
+      "date": "2026-04-06",
+      "summary": "微软 Agent Framework 1.0 正式发布，统一了 Semantic Kernel 和 AutoGen 两个 SDK。Forbes 评论微软的 Agent 工具栈令开发者困惑，而竞争对手则在简化。",
+      "link": "https://www.forbes.com/sites/janakirammsv/2026/04/06/microsofts-agent-stack-confuses-developers-while-rivals-simplify/"
+    },
+    {
+      "title": "Superpowers Framework: Composable Skills for Coding Agents",
+      "date": "2026-04-10",
+      "summary": "新的 Composable Agent Skill Framework 发布，提供结构化的 AI 编程技能组合方法，支持将专用能力集成到 AI 驱动的编程任务中，提升开发效率。",
+      "link": "https://aitoolly.com/ai-news/article/2026-04-10-superpowers-a-comprehensive-agent-skill-framework-and-software-development-methodology-for-ai-coding"
+    }
+  ],
+  "github": [
+    {
+      "title": "zai-org/GLM-5.1 — 智谱开源最强编程模型",
+      "date": "2026-04-08",
+      "summary": "智谱开源 GLM-5.1 模型，支持 8 小时持续自主工作，在 SWE-bench Pro 中位列开源第一，成为当前全球最强开源编程模型。",
+      "link": "https://github.com/zai-org/GLM-5"
+    },
+    {
+      "title": "microsoft/agent-framework — 微软 Agent Framework 1.0",
+      "date": "2026-04-03",
+      "summary": "微软正式发布 Agent Framework 1.0 版本（.NET + Python），统一了此前不兼容的两个 SDK，支持 MCP 和 A2A 协议。",
+      "link": "https://github.com/microsoft/agent-framework"
+    },
+    {
+      "title": "OpenBMB 发布 VoxCPM2 — 无 Tokenizer 的真实语音克隆模型",
+      "date": "2026-04-11",
+      "summary": "清华 OpenBMB 团队发布 VoxCPM2，采用无 Tokenizer 架构简化 TTS 生成流程，支持多语言语音生成和真实语音克隆。",
+      "link": "https://aitoolly.com/ai-news/article/2026-04-11-openbmb-launches-voxcpm2-a-tokenizer-free-text-to-speech-model-for-multilingual-voice-generation-and"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Anthropic Project Glasswing: Mythos Preview 限量发布",
+      "date": "2026-04-07",
+      "summary": "Simon Willison 发文分析 Anthropic 限制 Claude Mythos Preview 仅对安全研究人员开放的决定，认为这是面对 AI 网络安全风险时的必要举措。",
+      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/"
+    },
+    {
+      "title": "OpenAI 完成 1220 亿美元融资：硅谷史上最大融资背后的隐忧",
+      "date": "2026-04-08",
+      "summary": "270 页文件曝光 OpenAI 绝密黑料：CFO 抗议 Altman 强推 IPO 计划，预计 2026 年亏损 140 亿美元，到 2027 年现金消耗将飙升至 570 亿。亚马逊对赌协议要求 2028 年底前实现 AGI 或完成 IPO。",
+      "link": "https://www.tmtpost.com/7943896.html"
+    },
+    {
+      "title": "EY 推出全球 Agent 框架用于审计业务",
+      "date": "2026-04-07",
+      "summary": "安永发布全球多 Agent AI 框架并嵌入 EY Canvas 审计平台，约 13 万审计师使用，目标 2028 年实现 100% Agent 支持审计活动。",
+      "link": "https://letsdatascience.com/news/ey-launches-global-agent-framework-for-assurance-f6912a85"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Meta Muse Spark 在 Artificial Analysis 排名第四",
+      "date": "2026-04-09",
+      "summary": "r/singularity 热帖：Meta Muse Spark 在 Artificial Analysis Index 中排名第四，用户实测其在 Linux 内核汇编优化等任务上表现不俗。",
+      "link": "https://www.reddit.com/r/singularity/comments/1shb3qg/damn_meta_is_back_meta_muse_spark_ranks_4th_in/"
+    },
+    {
+      "title": "Muse Spark — Meta 超智能实验室首款模型",
+      "date": "2026-04-08",
+      "summary": "r/singularity 讨论 Meta 首款 Muse 系列模型 Muse Spark 的发布，强调其效率优势和竞争力表现，但定位并非顶级模型。",
+      "link": "https://www.reddit.com/r/singularity/comments/1sfxfv3/muse_spark_first_model_from_meta/"
+    },
+    {
+      "title": "11年老程序员：离开 AI 已无法调试代码",
+      "date": "2026-04-06",
+      "summary": "r/artificial 热帖：一位有 11 年编程经验的开发者表示，上个月发现自己在没有 AI 辅助的情况下完全无法调试问题，这比任何行业动态都让他感到恐惧。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sderg4/i_have_been_coding_for_11_years_and_i_caught/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Qwen3-Coder-Next — 阿里开源编程专用模型",
+      "date": "2026-04-04",
+      "summary": "通义千问团队开源 Qwen3-Coder-Next 编程专用模型，面向 AI 编程场景深度优化，支持 Claude Code、OpenCode 等主流开发工具接入。",
+      "link": "https://help.aliyun.com/zh/model-studio/coding-plan"
+    },
+    {
+      "title": "Microsoft Agent Framework 1.0 — 支持 .NET 和 Python 的 Agent 开发框架",
+      "date": "2026-04-03",
+      "summary": "微软发布生产级 Agent Framework 1.0，融合 Semantic Kernel 和 AutoGen 概念，支持 MCP 和 A2A 协议，适用于 .NET 和 Python 开发。",
+      "link": "https://visualstudiomagazine.com/articles/2026/04/06/microsoft-ships-production-ready-agent-framework-1-0-for-net-and-python.aspx"
+    },
+    {
+      "title": "WordPress 7.0 引入 Abilities API 支持 AI 集成",
+      "date": "2026-04-09",
+      "summary": "WordPress 7.0 发布计划引入 Abilities API，支持与 OpenAI 等 AI 工具集成，实现更智能的工作流和自动化。",
+      "link": "https://www.copebusiness.com/wordpress/wordpress-7-0-release-date-features-delay-upgrade-guide/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Microsoft Agent Framework 1.0 正式发布",
+      "date": "2026-04-03",
+      "summary": "微软将 Semantic Kernel 和 AutoGen 统一为 Agent Framework 1.0，提供 .NET 和 Python 双语言支持，内置 MCP 和 A2A 协议。",
+      "link": "https://startdebugging.net/2026/04/microsoft-agent-framework-1-0-ai-agents-in-csharp/"
+    },
+    {
+      "title": "智谱 GLM-5.1 支持 8 小时持续自主工作",
+      "date": "2026-04-08",
+      "summary": "GLM-5.1 成为全球首个支持单次任务持续工作 8 小时的开源模型，可在单次任务中自主规划、执行并交付工程级成果，重新定义 Agent 能力边界。",
+      "link": "https://www.21jingji.com/article/20260408/herald/8768bba79b0a0f812fa23fdce8532779.html"
+    },
+    {
+      "title": "Qwen3.6-Plus 登顶 LMArena 编程能力全球第二",
+      "date": "2026-04-02",
+      "summary": "阿里 Qwen3.6-Plus 在 LMArena Code Arena 编程盲测中以 1452 分位列全球第二，拥有百万级上下文和最强 Agentic Coding 能力。",
+      "link": "https://www.ithome.com/0/935/963.htm"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI 完成 1220 亿美元融资，估值 8520 亿美元",
+      "date": "2026-04-05",
+      "summary": "OpenAI 完成史上最大规模融资 1220 亿美元，投后估值 8520 亿美元，软银和 a16z 领投。公司月收入达 20 亿美元，预计 2030 年前还需消耗 2000 多亿美元。",
+      "link": "https://www.neowin.net/news/openai-becomes-a-852-billion-giant-with-record-breaking-122b-funding-round/"
+    },
+    {
+      "title": "Anthropic 启动 Project Glasswing，45+ 家企业联手防御 AI 网络攻击",
+      "date": "2026-04-07",
+      "summary": "Anthropic 联合 AWS、Apple、Google、Microsoft、Nvidia 等 45 家组织启动 Project Glasswing，利用 Claude Mythos Preview 加强关键软件安全，投入 1 亿美元额度。",
+      "link": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/"
+    },
+    {
+      "title": "Meta 发布 Muse Spark，超智能实验室首款产品",
+      "date": "2026-04-08",
+      "summary": "Meta 发布 Muse Spark 模型，是 Alexandr Wang 领导的超智能实验室首款产品，采用闭源策略，已在 Artificial Analysis 排名第四，即将接入全线产品。",
+      "link": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4 放弃英伟达，全面适配华为昇腾 950PR",
+      "date": "2026-04-07",
+      "summary": "DeepSeek 宣布下一代旗舰模型 V4 将完全运行于华为昇腾 950PR 芯片，底层代码从 CUDA 迁移到 CANN 框架，被称为中国 AI 芯片的安卓时刻。",
+      "link": "https://www.myzaker.com/article/69d9aeaf8e9f0962120541e1"
+    },
+    {
+      "title": "智谱 GLM-5.1 开源：国产模型首次超越 Claude Opus 4.6",
+      "date": "2026-04-08",
+      "summary": "智谱发布并开源 GLM-5.1，在 SWE-bench Pro 中超越 Claude Opus 4.6，支持 8 小时持续自主工作，成为全球最强开源模型，同时宣布 API 提价 10%。",
+      "link": "https://www.qbitai.com/2026/04/397898.html"
+    },
+    {
+      "title": "中国大模型周调用量连续五周超越美国，达 12.96 万亿 Token",
+      "date": "2026-04-06",
+      "summary": "OpenRouter 数据显示中国大模型上周调用量 12.96 万亿 Token，环比增长 31%，连续五周超越美国，MiniMax、月之暗面、智谱、DeepSeek 四款模型霸榜全球前五。",
+      "link": "https://36kr.com/p/3700980530851712"
+    }
+  ]
+}
