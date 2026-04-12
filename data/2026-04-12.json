@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-12",
+  "insights": [
+    {
+      "title": "Anthropic发布Claude Mythos Preview：AI网络安全能力的分水岭",
+      "date": "2026-04-07",
+      "summary": "Anthropic发布Claude Mythos Preview模型，在网络安全领域展现出超越绝大多数人类的能力。该模型在CyberGym漏洞复现基准上达到83.1%，SWE-bench Verified达到93.9%。Anthropic联合AWS、Apple、Google、Microsoft等12家巨头启动Project Glasswing，投入1亿美元帮助防御者应对AI驱动的网络安全威胁。",
+      "link": "https://www.neuralbuddies.com/p/ai-news-recap-april-10-2026"
+    },
+    {
+      "title": "Meta发布Muse Spark：Alexandr Wang主导的首款闭源AI模型",
+      "date": "2026-04-08",
+      "summary": "Meta Superintelligence Labs发布首款AI模型Muse Spark，放弃开源策略转向闭源路线。该模型采用并行子代理架构，在AI Analysis Index上排名第四（得分52），仅次于Gemini 3.1 Pro和GPT-5.4（均为57分）。此前Meta首席AI科学家Yann LeCun因与Wang理念不合已于3月离职。",
+      "link": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+    },
+    {
+      "title": "OpenAI发布13页政策论文：呼吁机器人税、公共财富基金和四天工作制",
+      "date": "2026-04-06",
+      "summary": "OpenAI发布政策蓝图，建议对自动化劳动征税、建立由AI公司部分出资的公共财富基金，以及试点32小时/周四天工作制。论文警告AI超级智能可能对劳动力市场产生深远影响，呼吁政府、企业和工会提前布局应对。",
+      "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
+    },
+    {
+      "title": "Qwen3.6-Plus上线OpenRouter，单日调用量1.4万亿Token创全球纪录",
+      "date": "2026-04-02",
+      "summary": "阿里云通义实验室发布的Qwen3.6-Plus上线OpenRouter后单日调用量激增711%，突破1.4万亿Token，创下OpenRouter平台全球模型调用量新纪录。该模型支持100万Token上下文，在Agentic coding、前端编程等领域显著增强，国际Arena编程能力子榜中国第一。",
+      "link": "https://www.geekpark.net/news/362240"
+    },
+    {
+      "title": "Google将NotebookLM深度整合进Gemini，打造一体化研究助手",
+      "date": "2026-04-09",
+      "summary": "Google在Gemini中新增Notebooks功能，与NotebookLM无缝同步。用户可直接在Gemini中创建项目笔记本，整理聊天记录、文件和研究资料，双向联动，无需手动分享即可跨工具检索内容。",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/"
+    },
+    {
+      "title": "OpenAI/Anthropic/Google罕见联手：通过前沿模型论坛对抗模型蒸馏",
+      "date": "2026-04-06",
+      "summary": "三巨头通过Frontier Model Forum共享信息，联手打击对抗性蒸馏行为。Anthropic指控DeepSeek、MiniMax和月之暗面进行超1600万次对抗性交互。被指控方回应称API自动调用是行业普遍行为，仅凭调用模式断言蓄意蒸馏证据不足。",
+      "link": "https://www.tmtpost.com/7944578.html"
+    },
+    {
+      "title": "纽约客长篇调查：Sam Altman能掌控AI的未来吗？他值得信任吗？",
+      "date": "2026-04-06",
+      "summary": "Ronan Farrow和Andrew Marantz历时一年半的调查文章发表，基于未公开的内部备忘录和100多次采访。文章探讨了Altman是否能在OpenAI掌握如此大权的情况下兑现承诺。同日OpenAI发布了超级智能时代的政策建议，形成强烈对照。",
+      "link": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted"
+    }
+  ],
+  "papers": [
+    {
+      "title": "情感提示对大语言模型行为的影响研究",
+      "date": "2026-04-07",
+      "summary": "论文研究情感提示（emotional prompting）在大语言模型性能、真实性和责任感方面的作用，系统评估了不同情感强度和措辞对LLM输出的影响，为prompt工程提供了实证基础。",
+      "link": "https://arxiv.org/abs/2604.07369"
+    },
+    {
+      "title": "The ATOM Report：开放语言模型生态全景报告",
+      "date": "2026-04-08",
+      "summary": "Mistral发布的ATOM报告对约1500个主流开源语言模型进行全面adoption分析。关键发现：Qwen在2025年9月超越Llama累计下载量，到2026年3月达到9.42亿次下载，几乎是Llama（4.76亿次）的两倍。",
+      "link": "https://arxiv.org/abs/2604.07190"
+    },
+    {
+      "title": "TurboQuant：Google向量量化方案实现LLM KV缓存压缩6倍",
+      "date": "2026-04-09",
+      "summary": "Google提出TurboQuant算法，使用面向LLM的向量量化方法将KV缓存内存压缩至1/6，且对推理速度无负面影响。该方案基于1948年的数学理论，为在本地运行大模型提供了新的可能。",
+      "link": "https://hackaday.com/2026/04/09/turboquant-reducing-llm-memory-usage-with-vector-quantization/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sam Altman宣布重置OpenAI Codex使用限制",
+      "date": "2026-04-07",
+      "summary": "在Anthropic发布Claude Mythos Preview的同日，Sam Altman在X上宣布重置Codex的使用限制，向开发者释放更多使用额度，被视为对Anthropic网络安全能力展示的回应。",
+      "link": "https://www.financialexpress.com/life/technology-sam-altman-resets-openai-codex-limits-after-anthropics-alarming-claude-mythos-update-4200060/"
+    },
+    {
+      "title": "Alexandr Wang发布Meta Muse Spark：Meta AI路线的重大转向",
+      "date": "2026-04-08",
+      "summary": "Meta首席AI官Alexandr Wang通过社交平台发布Muse Spark模型，标志着Meta从开源Llama路线转向闭源专有模型策略。此前Yann LeCun已因理念分歧离开Meta。",
+      "link": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
+    },
+    {
+      "title": "开源社区热议：Claude Code源码泄露事件后的AI代理安全反思",
+      "date": "2026-04-05",
+      "summary": "Reddit r/artificial社区热议Claude Code源码意外泄露事件，有开发者指出泄露内容实际上公开了首个完整的生产级AI代理构建蓝图，引发对AI代理安全性的深度讨论。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sd0iaa/removed_by_moderator/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "AI安全社区讨论：Claude Mythos Preview的网络安全能力评估",
+      "date": "2026-04-07",
+      "summary": "多个AI安全社区和Discord频道围绕Claude Mythos Preview的网络安全能力展开讨论，重点关注其83.1%的CyberGym得分和Project Glasswing的12家合作伙伴联盟。",
+      "link": "https://www.neuralbuddies.com/p/ai-news-recap-april-10-2026"
+    },
+    {
+      "title": "开发者社区热议Google LiteRT-LM：边缘推理的开源基础",
+      "date": "2026-04-08",
+      "summary": "Edge MLOps社区和LinkedIn等技术社区热议Google发布的LiteRT-LM框架，被认为是连接HuggingFace模型与边缘设备部署之间的关键开源基础设施。",
+      "link": "https://github.com/google-ai-edge/LiteRT-LM"
+    },
+    {
+      "title": "Qwen3.6-Plus免费模型引发开发者迁移潮",
+      "date": "2026-04-03",
+      "summary": "V2EX和开发者社区大量讨论Qwen3.6-Plus在OpenRouter上免费开放后的实际使用体验，多名开发者反馈其在编程和上下文理解方面表现优异，开始从其他模型迁移。",
+      "link": "https://www.v2ex.com/t/1204541"
+    }
+  ],
+  "github": [
+    {
+      "title": "google-ai-edge/LiteRT-LM：Google边缘设备LLM推理框架",
+      "date": "2026-04-08",
+      "summary": "Google正式发布LiteRT-LM，一个生产就绪的高性能开源推理框架，用于在边缘设备上部署大型语言模型。支持Kotlin、Python和C++跨平台SDK，是Edge AI领域的重要开源基础设施。",
+      "link": "https://github.com/google-ai-edge/LiteRT-LM"
+    },
+    {
+      "title": "google-ai-edge/gallery：端侧ML/GenAI用例展示库",
+      "date": "2026-04-09",
+      "summary": "Google AI Edge推出Gallery仓库，集中展示各类端侧机器学习和生成式AI用例，开发者可直接在本地环境中测试和使用各种AI模型，降低Edge AI开发门槛。",
+      "link": "https://github.com/google-ai-edge/gallery"
+    },
+    {
+      "title": "obra/Superpowers：面向编码智能体的可组合技能框架",
+      "date": "2026-04-10",
+      "summary": "Superpowers项目提出了一套完整的AI编码智能体软件开发方法论，通过模块化可组合的技能系统，允许开发者构建高度专业化的智能体，无需为每个任务重新构建底层逻辑。",
+      "link": "https://aitoolly.com/ai-news/article/2026-04-10-superpowers-a-comprehensive-agent-skill-framework-and-software-development-methodology-for-ai-coding"
+    }
+  ],
+  "hn": [
+    {
+      "title": "评估Claude Mythos Preview的网络安全能力",
+      "date": "2026-04-07",
+      "summary": "Hacker News热门讨论，围绕Claude Mythos Preview在网络安全领域的突破展开。讨论涉及CyberGym 83.1%的得分、Project Glasswing联盟、以及AI模型是否已越过网络安全威胁的临界点。",
+      "link": "https://news.ycombinator.com/item?id=47679155"
+    },
+    {
+      "title": "Qwen3.6-Plus成为首个单日处理超1万亿Token的模型",
+      "date": "2026-04-07",
+      "summary": "HN热议Qwen3.6-Plus在OpenRouter上的破纪录表现。讨论集中在模型免费策略带来的用户迁移效应，以及其约100B参数规模下仍能保持优秀编程能力的原因。",
+      "link": "https://news.ycombinator.com/item?id=47653975"
+    },
+    {
+      "title": "Anthropic的Claude Mythos不是超级黑客，而是销售策略",
+      "date": "2026-04-11",
+      "summary": "HN上对Claude Mythos Preview发布动机的质疑讨论。有观点认为Anthropic此举更多是商业定位而非纯粹的安全预警，但也有人指出如果Mythos确实比现有模型更强，迟早会成为实际问题。",
+      "link": "https://news.ycombinator.com/item?id=47718155"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/artificial: 读完Mythos AI的报道后我盯着屏幕发了5分钟呆",
+      "date": "2026-04-08",
+      "summary": "Reddit r/artificial热门帖子，用户表达了对Claude Mythos Preview网络安全能力的震撼。讨论中有人指出没人谈论这个已成2026年的流行语，但AI安全能力的跃升确实值得认真对待。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sg12t0/i_just_read_about_mythos_ai_and_i_genuinely_sat/"
+    },
+    {
+      "title": "r/OpenAI: 纽约客发布关于Sam Altman和OpenAI的重大调查报道",
+      "date": "2026-04-06",
+      "summary": "基于未公开内部备忘录和100多次采访的长篇调查在r/OpenAI引发热议。文章探讨了Altman是否值得信任来掌管AI的未来，与OpenAI同日发布超级智能政策建议形成强烈反差。",
+      "link": "https://www.reddit.com/r/OpenAI/comments/1sdyg8c/new_yorker_published_a_major_investigation_into/"
+    },
+    {
+      "title": "r/artificial: 11年编程经验的开发者承认离开AI已无法调试代码",
+      "date": "2026-04-05",
+      "summary": "一位有11年编程经验的开发者分享了自己完全无法脱离AI辅助调试代码的经历，引发社区对AI时代开发者能力变化的深度讨论。有人表示使用Claude反而提升了思考能力。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sderg4/i_have_been_coding_for_11_years_and_i_caught/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google LiteRT-LM：生产就绪的端侧LLM推理框架",
+      "date": "2026-04-08",
+      "summary": "Google发布的高性能开源推理框架LiteRT-LM，支持在边缘设备上部署大型语言模型。提供Kotlin、Python、C++跨平台SDK，填补了HuggingFace模型到边缘部署之间的关键空白。",
+      "link": "https://github.com/google-ai-edge/LiteRT-LM"
+    },
+    {
+      "title": "Google Gemini Notebooks：与NotebookLM同步的研究工作空间",
+      "date": "2026-04-09",
+      "summary": "Google在Gemini中新增Notebooks功能，与NotebookLM深度集成。支持跨工具无缝检索内容，聊天记录、文件、研究资料统一管理，无需手动分享即可在Gemini和NotebookLM之间互操作。",
+      "link": "https://www.engadget.com/ai/google-bakes-notebooklm-its-research-tool-into-gemini-101850634.html"
+    },
+    {
+      "title": "Superpowers：面向AI编码智能体的可组合技能框架",
+      "date": "2026-04-10",
+      "summary": "Superpowers提供了一套完整的AI编码智能体软件开发方法论，通过模块化可组合技能系统，让开发者能构建高度专业化的编码智能体，降低复杂多智能体系统的开发门槛。",
+      "link": "https://aitoolly.com/ai-news/article/2026-04-10-superpowers-a-comprehensive-agent-skill-framework-and-software-development-methodology-for-ai-coding"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Meta Muse Spark采用并行子代理架构进军AI Agent领域",
+      "date": "2026-04-08",
+      "summary": "Muse Spark采用并行子代理架构（parallel sub-agent architecture），包含思考模式处理复杂任务。该模型将在WhatsApp、Instagram、Facebook、Messenger和AI眼镜中逐步部署，标志着Meta全面进军AI Agent市场。",
+      "link": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/"
+    },
+    {
+      "title": "Qwen3.6-Plus在Agentic Coding领域显著增强",
+      "date": "2026-04-02",
+      "summary": "Qwen3.6-Plus在Agentic coding、前端编程、Vibe coding等代码能力方面显著增强，多模态识别、OCR、物体定位能力同步提升。在OpenRouter国际Arena编程能力子榜中位列中国第一。",
+      "link": "https://developer.aliyun.com/article/1724287"
+    },
+    {
+      "title": "Anthropic Claude Mythos Preview的Agent级网络渗透能力引发关注",
+      "date": "2026-04-07",
+      "summary": "Claude Mythos Preview展示了Agent级别的自主网络渗透能力，在无需人工引导的情况下链式利用多个Linux内核漏洞实现权限提升。这标志着AI Agent从辅助编程向自主安全操作的跃迁。",
+      "link": "https://www.neuralbuddies.com/p/ai-news-recap-april-10-2026"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic年化收入突破300亿美元，与博通和谷歌签署大规模算力协议",
+      "date": "2026-04-06",
+      "summary": "Anthropic宣布年化收入（ARR）超过300亿美元，较2025年底的90亿美元大幅增长，正式超过OpenAI披露的250亿美元。同时与博通和谷歌签署数GW级TPU算力协议，2027年开始供货。",
+      "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
+    },
+    {
+      "title": "纽约客发布Sam Altman调查报道：信任危机与AI权力集中",
+      "date": "2026-04-06",
+      "summary": "Ronan Farrow和Andrew Marantz历时一年半的调查文章发布，基于未公开内部备忘录和100多次采访。文章质疑Altman是否能在掌控AI未来的同时值得信任，指出其过往行为中存在不一致的坦诚问题。",
+      "link": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/"
+    },
+    {
+      "title": "OpenAI发布超级智能时代经济政策蓝图",
+      "date": "2026-04-06",
+      "summary": "OpenAI发布13页政策文件，呼吁机器人税、公共财富基金和四天工作制试点。公司承认文件非最终建议而是讨论起点，邀请政府、公民社会和企业共同应对AI对劳动力市场的潜在冲击。",
+      "link": "https://thenextweb.com/news/openai-robot-taxes-wealth-fund-superintelligence-policy"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "Qwen3.6-Plus单日调用量破1.4万亿Token，刷新OpenRouter全球纪录",
+      "date": "2026-04-03",
+      "summary": "阿里云通义实验室的Qwen3.6-Plus上线OpenRouter后表现惊人，单日调用量激增711%，突破1.4万亿Token，创下OpenRouter平台全球纪录。OpenRouter美国用户占比47.17%，显示中国模型在国际市场的强劲竞争力。",
+      "link": "https://www.geekpark.net/news/362240"
+    },
+    {
+      "title": "美国AI三巨头联手打击模型蒸馏，指控中国AI公司超1600万次对抗性交互",
+      "date": "2026-04-06",
+      "summary": "OpenAI、Anthropic和Google通过前沿模型论坛联手对抗模型蒸馏，Anthropic指控DeepSeek、MiniMax和月之暗面进行超1600万次对抗性交互。被指控方回应称API自动调用是行业普遍行为。",
+      "link": "https://www.zaobao.com.sg/news/china/story20260407-8851208"
+    },
+    {
+      "title": "智谱发布GLM-5.1并提价10%，国产模型告别白菜价时代",
+      "date": "2026-04-08",
+      "summary": "智谱AI正式发布GLM-5.1模型并在三大代码评测基准上达到Claude Opus 4.6的94.6%，较前代GLM-5提升28%。同时宣布API提价10%，标志着国产大模型从价格战转向价值竞争。",
+      "link": "https://hwcomputing.csdn.net/69d6539054b52172bc67c94c.html"
+    }
+  ]
+}
