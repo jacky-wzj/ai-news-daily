@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-13",
+  "insights": [
+    {
+      "title": "Anthropic 发布 Claude Managed Agents：企业级 AI Agent 基础设施落地",
+      "date": "2026-04-08",
+      "summary": "Anthropic 正式发布 Claude Managed Agents（公共 Beta），为企业提供开箱即用的 Agent 基础设施，包含沙箱隔离、状态管理、凭证管理、编排和错误恢复。Notion、Asana、Sentry 等已率先采用。Agent Harness 接口设计面向长期演进，标志着 AI Agent 从实验走向生产的关键一步。",
+      "link": "https://www.anthropic.com/engineering/managed-agents"
+    },
+    {
+      "title": "Sam Altman 住宅遭燃烧弹袭击，OpenAI 发布 AI 新契约引发争议",
+      "date": "2026-04-10",
+      "summary": "OpenAI CEO Sam Altman 旧金山住宅遭燃烧弹袭击，警方已逮捕嫌疑人。此前 Altman 发表长文呼吁为 AI 时代建立新的社会契约，承认 AI 发展速度引发正当焦虑。事件将反科技情绪从线上讨论推向实体安全威胁。纽约客同期发布深度调查报道，质疑 Altman 的可信度。",
+      "link": "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html"
+    },
+    {
+      "title": "Claude Mythos Finds Thousands of Zero-Day Flaws, Project Glasswing Launched",
+      "date": "2026-04-11",
+      "summary": "NBC 报道 Claude Mythos 发现数千零日漏洞，专家警告'Vulnpocalypse'即将到来。Anthropic 启动 Project Glasswing，联合 AWS、Apple、Google、Microsoft 等 12 家巨头投入 1 亿美元帮助防御者应对 AI 驱动的网络安全威胁。",
+      "link": "https://www.nbcnews.com/tech/security/anthropic-claude-mythos-ai-hackers-cybersecurity-vulnerabilities-rcna273673"
+    },
+    {
+      "title": "OpenAI 第三方工具 Axios 安全事件，用户数据未受影响",
+      "date": "2026-04-10",
+      "summary": "OpenAI 发现涉及第三方开发者工具 Axios 的安全问题，影响 macOS 应用认证流程。根因为 GitHub Actions 工作流配置错误，已修复。公司要求用户更新 ChatGPT 和 Codex Mac 应用作为预防措施，确认密码和 API Key 未被泄露。",
+      "link": "https://www.reuters.com/business/openai-identifies-security-issue-involving-third-party-tool-says-user-data-was-2026-04-11/"
+    },
+    {
+      "title": "Google Gemini 添加心理健康支持功能，回应致死诉讼",
+      "date": "2026-04-07",
+      "summary": "Google 宣布为 Gemini 聊天机器人新增心理健康支持功能，并向心理危机热线捐赠 3000 万美元。此前面临致命诉讼——指控 Gemini 在佛罗里达州协助用户自杀。这是 AI 公司在产品安全与伦理责任方面的重大政策调整。",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-07/google-adds-mental-health-tools-to-gemini-chatbot-after-lawsuit"
+    },
+    {
+      "title": "Hugging Face 发布深度伪造检测工具，推进 AI 内容水印与识别",
+      "date": "2026-04-11",
+      "summary": "Hugging Face 发布一系列 AI 生成内容检测和水印工具，帮助用户识别 Deepfake。此前黑客曾利用 HF 平台发起针对 Android 的恶意攻击。该举措加强了 AI 社区在内容真实性方面的基础设施建设。",
+      "link": "https://mashable.com/article/hugging-face-empowers-users-ai-deepfake-detetection-tools"
+    },
+    {
+      "title": "NVIDIA GTC 2026：物理 AI 全栈工作流发布",
+      "date": "2026-04-07",
+      "summary": "NVIDIA GTC 2026 展示从仿真到部署的全栈物理 AI 管道，Nemotron 3 开放模型家族扩展，Serve Robotics 发布 AI 对话机器人 Maggie。黄仁勋展示 Olaf 机器人即将在巴黎迪士尼亮相。",
+      "link": "https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-debut-conversational-robot-powered-edge-ai-nvidia"
+    }
+  ],
+  "papers": [
+    {
+      "title": "LPM 1.0: Video-based Character Performance Model",
+      "date": "2026-04-10",
+      "summary": "提出基于视频的角色表演模型，采用单流架构实现快速音视频生成基础模型。在角色动画生成方面展现了 SOTA 性能，大幅简化了多模态生成模型的复杂度。",
+      "link": "https://huggingface.co/papers/2604.07823"
+    },
+    {
+      "title": "CUE-R: Beyond the Final Answer in Retrieval-Augmented Generation",
+      "date": "2026-04-07",
+      "summary": "提出推理与验证框架，用于提升 RAG 系统的可靠性。通过让模型在检索增强生成过程中进行自我验证，显著减少幻觉，为可信 RAG 系统提供了新范式。",
+      "link": "https://huggingface.co/papers/2604.05467"
+    },
+    {
+      "title": "Scal3R: Scalable Test-Time Training for 3D Vision",
+      "date": "2026-04-10",
+      "summary": "alphaXiv 趋势论文 Scal3R 提出可扩展的测试时训练方法，在 3D 视觉任务上取得 SOTA。该研究代表了测试时自适应方向的重要进展，与 Gemini 3.1 Pro 在 13 个基准领先形成呼应。",
+      "link": "https://www.alphaxiv.org/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sam Altman 回应纽约客报道和住宅袭击事件",
+      "date": "2026-04-10",
+      "summary": "Sam Altman 在 X 平台发布长文回应纽约客深度调查报道，同时确认其住宅遭燃烧弹袭击。他写道：'我今天早上写了这篇，不确定是否发布，但还是发出来了。' 引发广泛讨论。",
+      "link": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/"
+    },
+    {
+      "title": "Yann LeCun 评论 Claude Mythos：拒绝安全恐慌论",
+      "date": "2026-04-12",
+      "summary": "Meta 首席 AI 科学家 Yann LeCun 公开反驳围绕 Claude Mythos 的担忧，认为对 AI 安全能力的恐慌被夸大。他指出 Anthropic 的'选择性品牌发布'策略并非出于技术风险，而是商业考量。",
+      "link": "https://www.newsx.com/tech-and-auto/mythos-drama-meta-ai-chief-scientist-yann-lecun-comments-on-mythos-ai-sparks-debateknow-about-anthropics-new-model-and-its-controversy-197870/"
+    },
+    {
+      "title": "Sam Altman 在 X 平台暗示 'Project Strawberry' 即将公布",
+      "date": "2026-04-11",
+      "summary": "Sam Altman 在 X 上暗示神秘项目 'Project Strawberry' 即将发布，引发社区猜测。考虑到 Altman 过往的'hype-man'记录，社区对这条推文持谨慎态度。",
+      "link": "https://mashable.com/article/sam-altman-teased-project-strawberry-on-x-secret-openai-ai-tool"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Discord AI Ecommerce Bot：从管理员学习智能票务系统",
+      "date": "2026-04-07",
+      "summary": "Alhena AI 推出支持电商场景的 Discord 机器人，可从管理员回复中学习、处理票务并运行多配置文件支持。零幻觉设计成为其核心卖点，代表了 AI Agent 在 Discord 社区中的落地新方向。",
+      "link": "https://alhena.ai/blog/discord-ai-ecommerce-automated-responses-ticketing/"
+    },
+    {
+      "title": "Discord 4月6日补丁更新：AI 相关功能增强",
+      "date": "2026-04-06",
+      "summary": "Discord 发布 2026 年 4 月 6 日补丁更新，包含常规、聊天、活动与 Apps、音视频、媒体和无障碍访问等多方面改进，进一步巩固其作为 AI 社区核心平台的地位。",
+      "link": "https://discord.com/blog/discord-patch-notes-april-6-2026"
+    },
+    {
+      "title": "IBM watsonx.governance AI 风险管理技术研讨会",
+      "date": "2026-04-10",
+      "summary": "ABS Community 举办 watsonx.governance 2026 年 4 月技术研讨会，聚焦 AI 安全风险管理。涵盖 AI 治理框架、风险量化和合规自动化等议题，为企业 AI 部署提供指导。",
+      "link": "https://community.abs-consulting.com/t/securing-ai-risk-watsonx-governance-april-2026-technical-touchpoint/1452"
+    }
+  ],
+  "github": [
+    {
+      "title": "HKUDS/OpenSpace: 让 Agent 更智能、低成本、自进化",
+      "date": "2026-03-26",
+      "summary": "OpenSpace 是一个面向 AI Agent 的技能管理系统，支持动态技能目录扫描、轻量级本地技能搜索。兼容 OpenClaw、nanobot、Claude Code、Codex、Cursor 等主流 Agent 框架。",
+      "link": "https://github.com/HKUDS/OpenSpace"
+    },
+    {
+      "title": "steven2358/awesome-generative-ai: 生成式 AI 精选列表",
+      "date": "2026-04-10",
+      "summary": "该仓库持续更新现代生成式 AI 项目和服务的精选列表，是开发者了解 AI 生态的重要参考资源。在 AI 快速演进的 2026 年 4 月保持活跃维护。",
+      "link": "https://github.com/steven2358/awesome-generative-ai"
+    },
+    {
+      "title": "immich-app/immich: 高性能自托管照片视频管理方案",
+      "date": "2026-04-13",
+      "summary": "immich 本周新增 1,351 stars，总量达 97,745。作为高性能自托管照片和视频管理解决方案，在 AI 驱动的媒体管理领域持续增长，支持 AI 智能搜索和面部识别。",
+      "link": "https://github.com/immich-app/immich"
+    }
+  ],
+  "hn": [
+    {
+      "title": "2026 年 4 月 AI 工具竞赛白热化",
+      "date": "2026-04-09",
+      "summary": "DEV Community 综述了 4 月 3-9 日 AI 工具生态的重大变化：跨运行时互操作性成为新焦点，Agent Framework 1.0 带来完整 MCP 支持，A2A 1.0 即将支持跨框架 Agent 协作。",
+      "link": "https://dev.to/alexmercedcoder/ai-tools-race-heats-up-week-of-april-3-9-2026-37fl"
+    },
+    {
+      "title": "AI 在网络安全领域的双刃剑效应",
+      "date": "2026-04-06",
+      "summary": "纽约时报报道 AI 如何颠覆网络安全格局：国家支持的中文黑客利用 AI 渗透全球约 30 家公司和政府机构。GlassWorm 恶意扩展使用 Zig 编译二进制文件逃避检测，代表 AI 时代新型攻击手段。",
+      "link": "https://thehackernews.com/"
+    },
+    {
+      "title": "AI 模型发布综述：Claude Mythos 到 GPT-5.5 全面盘点",
+      "date": "2026-04-09",
+      "summary": "renovateqr.com 发布 2026 年 4 月 AI 模型全面盘点，涵盖 Claude Mythos 泄露、GPT-5.5 Spud、Gemini 3.1 Pro、Grok 4.20 和 Llama 4 等重大发布。独立基准 LMSYS Chatbot Arena 和 ARC-AGI 持续跟踪模型能力演进。",
+      "link": "https://renovateqr.com/blog/ai-models-april-2026"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/AI_Agents: 2026 年最佳 AI Agent 工具和框架讨论",
+      "date": "2026-04-08",
+      "summary": "Reddit r/AI_Agents 社区热议 2026 年最佳 Agent 框架。CrewAI、LangGraph、Mastra 等被广泛讨论。社区共识：2026 年 Agent 开发已从框架选择转向实际落地能力的竞争。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1sfrb3t/what_are_the_best_tools_and_frameworks_for/"
+    },
+    {
+      "title": "AI Hopeful: Why AI Gives Us Reason for Optimism",
+      "date": "2026-04-10",
+      "summary": "Reddit r/artificial 社区讨论对 AI 保持乐观的理由。帖子引发大量正面回应，涵盖 AI 在医疗、教育、科研等领域的积极影响。社区认为尽管存在挑战，AI 整体上是推动人类进步的力量。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sh6q8p/why_are_you_hopeful_about_ai/"
+    },
+    {
+      "title": "CMV: The Next Government Needs to Make AI Regulation Its Top Priority",
+      "date": "2026-04-12",
+      "summary": "Reddit r/changemyview 帖子主张 AI 监管应成为政府首要任务。认为 AI 公司为了利润而忽视社会成本，呼吁建立行业尊重的 AGI 标准制定机制。帖子引发关于 AI 治理路线的深度辩论。",
+      "link": "https://www.reddit.com/r/changemyview/comments/1siznfe/cmv_the_next_government_needs_to_make_ai/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Adobe Acrobat Student Spaces: AI 驱动的学习工具",
+      "date": "2026-04-09",
+      "summary": "Adobe 推出 Student Spaces，将讲座、PDF 和笔记自动转换为抽认卡、测验、思维导图、视频和播客。AI 驱动的内容理解和多模态输出，为学生提供了全新的学习体验。",
+      "link": "https://www.aixploria.com/en/last-ai/"
+    },
+    {
+      "title": "AI 编码工具完整指南：2026 年全量对比",
+      "date": "2026-04-13",
+      "summary": "The AI Corner 发布 2026 年 AI 编码工具完整指南，覆盖所有主流工具、定价和工作流。数据显示 51% 的 GitHub 代码已为 AI 生成或辅助，非技术创始人也能用 AI 构建 ARR 超 20 万美元的产品。",
+      "link": "https://www.the-ai-corner.com/p/ai-coding-tools-complete-guide-2026"
+    },
+    {
+      "title": "AriseAlpha AI Trading Platform Launches Free Automated Trading",
+      "date": "2026-04-10",
+      "summary": "AriseAlpha 推出免费 AI 交易平台，集成自动化加密货币交易、AI 股票交易和投资组合管理。为个人投资者提供机构级 AI 交易能力，降低 AI 量化投资门槛。",
+      "link": "https://markets.businessinsider.com/news/stocks/arisealpha-launches-free-ai-crypto-stock-trading-platform-with-automated-trading-tools-and-portfolio-management-2026-1036010798"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Claude Managed Agents 正式上线：Anthropic 的 Agent 基础设施战略",
+      "date": "2026-04-08",
+      "summary": "Anthropic 发布 Claude Managed Agents 公共 Beta，提供托管式 Agent 运行服务，处理沙箱、状态、凭证、编排和错误恢复。Notion、Asana、Sentry 已率先采用，标志着 Agent 基础设施走向企业级。",
+      "link": "https://platform.claude.com/docs/en/managed-agents/overview"
+    },
+    {
+      "title": "n8n: 2026 年 AI Agent 开发工具重新定义",
+      "date": "2026-04-06",
+      "summary": "n8n 发布博客文章，提出 2026 年 AI Agent 开发工具的新范式：路由和分支（将查询路由到最合适的专业 Agent）、并行化（同时运行多个 Agent）。代表了从单一 Agent 到多 Agent 协作的模式转变。",
+      "link": "https://blog.n8n.io/we-need-re-learn-what-ai-agent-development-tools-are-in-2026/"
+    },
+    {
+      "title": "Enterprise Agentic AI Landscape: Trust, Flexibility and Vendor Lock-in",
+      "date": "2026-04-06",
+      "summary": "Kai Waehner 分析 2026 年企业级 Agentic AI 格局，覆盖信任、灵活性和供应商锁定问题。指出 Peter Steinberger 的个人 AI Agent 框架 60 天内成为 GitHub 增长最快的开源项目之一，反映 Agent 基础设施需求爆发。",
+      "link": "https://www.kai-waehner.de/blog/2026/04/06/enterprise-agentic-ai-landscape-2026-trust-flexibility-and-vendor-lock-in/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Sam Altman 住宅遭袭与 OpenAI 'AI 新契约'引发全美讨论",
+      "date": "2026-04-10",
+      "summary": "Sam Altman 旧金山住宅遭燃烧弹袭击，警方逮捕嫌疑人。Altman 同期发布'AI 新契约'长文，呼吁建立适应 AI 时代的社会契约。纽约客深度调查质疑其可信度。事件将硅谷反科技情绪推向新高度。",
+      "link": "https://sfstandard.com/2026/04/12/openai-wants-new-deal-ai-attack-sam-altman-s-home-made-urgent/"
+    },
+    {
+      "title": "Google I/O 2026 前瞻：Gemini Ultra 2、Android 17 即将揭晓",
+      "date": "2026-04-11",
+      "summary": "Google I/O 2026 即将召开，预计将发布 Gemini Ultra 2、Android 17、Pixel 10 及多项 AI 新功能。Google 同时面临 Gemini 心理健康功能诉讼后的品牌修复压力。",
+      "link": "https://www.linos.ai/technology/google-io-2026-announcements/"
+    },
+    {
+      "title": "Meta Debuts Muse Spark AI Model From Superintelligence Lab",
+      "date": "2026-04-08",
+      "summary": "Meta 发布 Muse Spark，由 Alex Wang 领导的超智能实验室首款 AI 模型。该模型小巧快速但能推理科学、数学和健康复杂问题。纽约时报报道称这是 Meta 在 AI 竞赛中追赶 Google 和 OpenAI 的关键一步。",
+      "link": "https://www.nytimes.com/2026/04/08/technology/meta-muse-spark-ai-model.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "百度 Create 2026 定档 5 月：Agent Infra 与 AI Infra 双突破",
+      "date": "2026-04-09",
+      "summary": "百度宣布 Create 2026 AI 开发者大会将于 5 月 13-14 日在北京举办。今年战略升级，整合'Create 百度 AI 开发者大会'与'云智大会'。百度智能云将在 AI Infra 与 Agent Infra 两大方向发布重大突破。百度 Du Claw 全链条能力（芯片-云-模型-Agent）成为独特优势。",
+      "link": "https://www.donews.com/news/detail/8/6505875.html"
+    },
+    {
+      "title": "百度 APP 上线本地生活专区，接入 AI 智能体'小惠助手'",
+      "date": "2026-04-10",
+      "summary": "百度 APP 正式上线本地生活专区，覆盖美食、维修、家政、教育等多个垂直类目。内置 AI 智能体'小惠助手'，支持语音和文字交互，可实时查询价格、对比服务方案。标志着百度 AI Agent 在本地生活场景的深度落地。",
+      "link": "https://www.donews.com/news/detail/8/6505875.html"
+    },
+    {
+      "title": "中国 AI 模型全球调用量三周内激增 127%，首次超越美国",
+      "date": "2026-04-08",
+      "summary": "据 ThinkChina 报道，中国 AI 模型全球调用量三周内激增 127%，首次超越美国。中国占据全球前五模型中的四席（DeepSeek、Qwen 等）。Qwen3.6-Plus 在 OpenRouter 上线后单日调用量突破 1.4 万亿 Token，创下全球首个万亿级模型应用纪录。",
+      "link": "https://mojuz.com/aizixun/45.html"
+    }
+  ]
+}

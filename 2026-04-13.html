@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月13日星期一</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月13日星期一</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. LPM 1.0: Video-based Character Performance Model</h3>
+      <div class="meta">👤 </div>
+      <p>提出基于视频的角色表演模型，采用单流架构实现快速音视频生成基础模型。在角色动画生成方面展现了 SOTA 性能，大幅简化了多模态生成模型的复杂度。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.07823" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. CUE-R: Beyond the Final Answer in Retrieval-Augmented Generation</h3>
+      <div class="meta">👤 </div>
+      <p>提出推理与验证框架，用于提升 RAG 系统的可靠性。通过让模型在检索增强生成过程中进行自我验证，显著减少幻觉，为可信 RAG 系统提供了新范式。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.05467" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Scal3R: Scalable Test-Time Training for 3D Vision</h3>
+      <div class="meta">👤 </div>
+      <p>alphaXiv 趋势论文 Scal3R 提出可扩展的测试时训练方法，在 3D 视觉任务上取得 SOTA。该研究代表了测试时自适应方向的重要进展，与 Gemini 3.1 Pro 在 13 个基准领先形成呼应。</p>
+  <a class="link" href="https://www.alphaxiv.org/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Sam Altman 回应纽约客报道和住宅袭击事件</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-10</div>
+      <p>Sam Altman 在 X 平台发布长文回应纽约客深度调查报道，同时确认其住宅遭燃烧弹袭击。他写道：'我今天早上写了这篇，不确定是否发布，但还是发出来了。' 引发广泛讨论。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Yann LeCun 评论 Claude Mythos：拒绝安全恐慌论</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-12</div>
+      <p>Meta 首席 AI 科学家 Yann LeCun 公开反驳围绕 Claude Mythos 的担忧，认为对 AI 安全能力的恐慌被夸大。他指出 Anthropic 的'选择性品牌发布'策略并非出于技术风险，而是商业考量。</p>
+  <a class="link" href="https://www.newsx.com/tech-and-auto/mythos-drama-meta-ai-chief-scientist-yann-lecun-comments-on-mythos-ai-sparks-debateknow-about-anthropics-new-model-and-its-controversy-197870/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Sam Altman 在 X 平台暗示 'Project Strawberry' 即将公布</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-11</div>
+      <p>Sam Altman 在 X 上暗示神秘项目 'Project Strawberry' 即将发布，引发社区猜测。考虑到 Altman 过往的'hype-man'记录，社区对这条推文持谨慎态度。</p>
+  <a class="link" href="https://mashable.com/article/sam-altman-teased-project-strawberry-on-x-secret-openai-ai-tool" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Discord AI Ecommerce Bot：从管理员学习智能票务系统</h3>
+      <div class="meta">💬 </div>
+      <p>Alhena AI 推出支持电商场景的 Discord 机器人，可从管理员回复中学习、处理票务并运行多配置文件支持。零幻觉设计成为其核心卖点，代表了 AI Agent 在 Discord 社区中的落地新方向。</p>
+  <a class="link" href="https://alhena.ai/blog/discord-ai-ecommerce-automated-responses-ticketing/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Discord 4月6日补丁更新：AI 相关功能增强</h3>
+      <div class="meta">💬 </div>
+      <p>Discord 发布 2026 年 4 月 6 日补丁更新，包含常规、聊天、活动与 Apps、音视频、媒体和无障碍访问等多方面改进，进一步巩固其作为 AI 社区核心平台的地位。</p>
+  <a class="link" href="https://discord.com/blog/discord-patch-notes-april-6-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. IBM watsonx.governance AI 风险管理技术研讨会</h3>
+      <div class="meta">💬 </div>
+      <p>ABS Community 举办 watsonx.governance 2026 年 4 月技术研讨会，聚焦 AI 安全风险管理。涵盖 AI 治理框架、风险量化和合规自动化等议题，为企业 AI 部署提供指导。</p>
+  <a class="link" href="https://community.abs-consulting.com/t/securing-ai-risk-watsonx-governance-april-2026-technical-touchpoint/1452" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. HKUDS/OpenSpace: 让 Agent 更智能、低成本、自进化</h3>
+      
+      <p>OpenSpace 是一个面向 AI Agent 的技能管理系统，支持动态技能目录扫描、轻量级本地技能搜索。兼容 OpenClaw、nanobot、Claude Code、Codex、Cursor 等主流 Agent 框架。</p>
+  <a class="link" href="https://github.com/HKUDS/OpenSpace" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. steven2358/awesome-generative-ai: 生成式 AI 精选列表</h3>
+      
+      <p>该仓库持续更新现代生成式 AI 项目和服务的精选列表，是开发者了解 AI 生态的重要参考资源。在 AI 快速演进的 2026 年 4 月保持活跃维护。</p>
+  <a class="link" href="https://github.com/steven2358/awesome-generative-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. immich-app/immich: 高性能自托管照片视频管理方案</h3>
+      
+      <p>immich 本周新增 1,351 stars，总量达 97,745。作为高性能自托管照片和视频管理解决方案，在 AI 驱动的媒体管理领域持续增长，支持 AI 智能搜索和面部识别。</p>
+  <a class="link" href="https://github.com/immich-app/immich" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 2026 年 4 月 AI 工具竞赛白热化</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>DEV Community 综述了 4 月 3-9 日 AI 工具生态的重大变化：跨运行时互操作性成为新焦点，Agent Framework 1.0 带来完整 MCP 支持，A2A 1.0 即将支持跨框架 Agent 协作。</p>
+  <a class="link" href="https://dev.to/alexmercedcoder/ai-tools-race-heats-up-week-of-april-3-9-2026-37fl" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 在网络安全领域的双刃剑效应</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>纽约时报报道 AI 如何颠覆网络安全格局：国家支持的中文黑客利用 AI 渗透全球约 30 家公司和政府机构。GlassWorm 恶意扩展使用 Zig 编译二进制文件逃避检测，代表 AI 时代新型攻击手段。</p>
+  <a class="link" href="https://thehackernews.com/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI 模型发布综述：Claude Mythos 到 GPT-5.5 全面盘点</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>renovateqr.com 发布 2026 年 4 月 AI 模型全面盘点，涵盖 Claude Mythos 泄露、GPT-5.5 Spud、Gemini 3.1 Pro、Grok 4.20 和 Llama 4 等重大发布。独立基准 LMSYS Chatbot Arena 和 ARC-AGI 持续跟踪模型能力演进。</p>
+  <a class="link" href="https://renovateqr.com/blog/ai-models-april-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/AI_Agents: 2026 年最佳 AI Agent 工具和框架讨论</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/AI_Agents 社区热议 2026 年最佳 Agent 框架。CrewAI、LangGraph、Mastra 等被广泛讨论。社区共识：2026 年 Agent 开发已从框架选择转向实际落地能力的竞争。</p>
+  <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1sfrb3t/what_are_the_best_tools_and_frameworks_for/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI Hopeful: Why AI Gives Us Reason for Optimism</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/artificial 社区讨论对 AI 保持乐观的理由。帖子引发大量正面回应，涵盖 AI 在医疗、教育、科研等领域的积极影响。社区认为尽管存在挑战，AI 整体上是推动人类进步的力量。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1sh6q8p/why_are_you_hopeful_about_ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. CMV: The Next Government Needs to Make AI Regulation Its Top Priority</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/changemyview 帖子主张 AI 监管应成为政府首要任务。认为 AI 公司为了利润而忽视社会成本，呼吁建立行业尊重的 AGI 标准制定机制。帖子引发关于 AI 治理路线的深度辩论。</p>
+  <a class="link" href="https://www.reddit.com/r/changemyview/comments/1siznfe/cmv_the_next_government_needs_to_make_ai/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Adobe Acrobat Student Spaces: AI 驱动的学习工具</h3>
+      
+      <p>Adobe 推出 Student Spaces，将讲座、PDF 和笔记自动转换为抽认卡、测验、思维导图、视频和播客。AI 驱动的内容理解和多模态输出，为学生提供了全新的学习体验。</p>
+  <a class="link" href="https://www.aixploria.com/en/last-ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 编码工具完整指南：2026 年全量对比</h3>
+      
+      <p>The AI Corner 发布 2026 年 AI 编码工具完整指南，覆盖所有主流工具、定价和工作流。数据显示 51% 的 GitHub 代码已为 AI 生成或辅助，非技术创始人也能用 AI 构建 ARR 超 20 万美元的产品。</p>
+  <a class="link" href="https://www.the-ai-corner.com/p/ai-coding-tools-complete-guide-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AriseAlpha AI Trading Platform Launches Free Automated Trading</h3>
+      
+      <p>AriseAlpha 推出免费 AI 交易平台，集成自动化加密货币交易、AI 股票交易和投资组合管理。为个人投资者提供机构级 AI 交易能力，降低 AI 量化投资门槛。</p>
+  <a class="link" href="https://markets.businessinsider.com/news/stocks/arisealpha-launches-free-ai-crypto-stock-trading-platform-with-automated-trading-tools-and-portfolio-management-2026-1036010798" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Managed Agents 正式上线：Anthropic 的 Agent 基础设施战略</h3>
+      <div class="meta">🤖 </div>
+      <p>Anthropic 发布 Claude Managed Agents 公共 Beta，提供托管式 Agent 运行服务，处理沙箱、状态、凭证、编排和错误恢复。Notion、Asana、Sentry 已率先采用，标志着 Agent 基础设施走向企业级。</p>
+  <a class="link" href="https://platform.claude.com/docs/en/managed-agents/overview" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. n8n: 2026 年 AI Agent 开发工具重新定义</h3>
+      <div class="meta">🤖 </div>
+      <p>n8n 发布博客文章，提出 2026 年 AI Agent 开发工具的新范式：路由和分支（将查询路由到最合适的专业 Agent）、并行化（同时运行多个 Agent）。代表了从单一 Agent 到多 Agent 协作的模式转变。</p>
+  <a class="link" href="https://blog.n8n.io/we-need-re-learn-what-ai-agent-development-tools-are-in-2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Enterprise Agentic AI Landscape: Trust, Flexibility and Vendor Lock-in</h3>
+      <div class="meta">🤖 </div>
+      <p>Kai Waehner 分析 2026 年企业级 Agentic AI 格局，覆盖信任、灵活性和供应商锁定问题。指出 Peter Steinberger 的个人 AI Agent 框架 60 天内成为 GitHub 增长最快的开源项目之一，反映 Agent 基础设施需求爆发。</p>
+  <a class="link" href="https://www.kai-waehner.de/blog/2026/04/06/enterprise-agentic-ai-landscape-2026-trust-flexibility-and-vendor-lock-in/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 发布 Claude Managed Agents：企业级 AI Agent 基础设施落地</h3>
+      <div class="meta">📅 2026-04-08</div>
+      <p>Anthropic 正式发布 Claude Managed Agents（公共 Beta），为企业提供开箱即用的 Agent 基础设施，包含沙箱隔离、状态管理、凭证管理、编排和错误恢复。Notion、Asana、Sentry 等已率先采用。Agent Harness 接口设计面向长期演进，标志着 AI Agent 从实验走向生产的关键一步。</p>
+  <a class="link" href="https://www.anthropic.com/engineering/managed-agents" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sam Altman 住宅遭燃烧弹袭击，OpenAI 发布 AI 新契约引发争议</h3>
+      <div class="meta">📅 2026-04-10</div>
+      <p>OpenAI CEO Sam Altman 旧金山住宅遭燃烧弹袭击，警方已逮捕嫌疑人。此前 Altman 发表长文呼吁为 AI 时代建立新的社会契约，承认 AI 发展速度引发正当焦虑。事件将反科技情绪从线上讨论推向实体安全威胁。纽约客同期发布深度调查报道，质疑 Altman 的可信度。</p>
+  <a class="link" href="https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude Mythos Finds Thousands of Zero-Day Flaws, Project Glasswing Launched</h3>
+      <div class="meta">📅 2026-04-11</div>
+      <p>NBC 报道 Claude Mythos 发现数千零日漏洞，专家警告'Vulnpocalypse'即将到来。Anthropic 启动 Project Glasswing，联合 AWS、Apple、Google、Microsoft 等 12 家巨头投入 1 亿美元帮助防御者应对 AI 驱动的网络安全威胁。</p>
+  <a class="link" href="https://www.nbcnews.com/tech/security/anthropic-claude-mythos-ai-hackers-cybersecurity-vulnerabilities-rcna273673" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. OpenAI 第三方工具 Axios 安全事件，用户数据未受影响</h3>
+      <div class="meta">📅 2026-04-10</div>
+      <p>OpenAI 发现涉及第三方开发者工具 Axios 的安全问题，影响 macOS 应用认证流程。根因为 GitHub Actions 工作流配置错误，已修复。公司要求用户更新 ChatGPT 和 Codex Mac 应用作为预防措施，确认密码和 API Key 未被泄露。</p>
+  <a class="link" href="https://www.reuters.com/business/openai-identifies-security-issue-involving-third-party-tool-says-user-data-was-2026-04-11/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Google Gemini 添加心理健康支持功能，回应致死诉讼</h3>
+      <div class="meta">📅 2026-04-07</div>
+      <p>Google 宣布为 Gemini 聊天机器人新增心理健康支持功能，并向心理危机热线捐赠 3000 万美元。此前面临致命诉讼——指控 Gemini 在佛罗里达州协助用户自杀。这是 AI 公司在产品安全与伦理责任方面的重大政策调整。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-04-07/google-adds-mental-health-tools-to-gemini-chatbot-after-lawsuit" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Hugging Face 发布深度伪造检测工具，推进 AI 内容水印与识别</h3>
+      <div class="meta">📅 2026-04-11</div>
+      <p>Hugging Face 发布一系列 AI 生成内容检测和水印工具，帮助用户识别 Deepfake。此前黑客曾利用 HF 平台发起针对 Android 的恶意攻击。该举措加强了 AI 社区在内容真实性方面的基础设施建设。</p>
+  <a class="link" href="https://mashable.com/article/hugging-face-empowers-users-ai-deepfake-detetection-tools" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. NVIDIA GTC 2026：物理 AI 全栈工作流发布</h3>
+      <div class="meta">📅 2026-04-07</div>
+      <p>NVIDIA GTC 2026 展示从仿真到部署的全栈物理 AI 管道，Nemotron 3 开放模型家族扩展，Serve Robotics 发布 AI 对话机器人 Maggie。黄仁勋展示 Olaf 机器人即将在巴黎迪士尼亮相。</p>
+  <a class="link" href="https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-debut-conversational-robot-powered-edge-ai-nvidia" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Sam Altman 住宅遭袭与 OpenAI 'AI 新契约'引发全美讨论</h3>
+      
+      <p>Sam Altman 旧金山住宅遭燃烧弹袭击，警方逮捕嫌疑人。Altman 同期发布'AI 新契约'长文，呼吁建立适应 AI 时代的社会契约。纽约客深度调查质疑其可信度。事件将硅谷反科技情绪推向新高度。</p>
+  <a class="link" href="https://sfstandard.com/2026/04/12/openai-wants-new-deal-ai-attack-sam-altman-s-home-made-urgent/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google I/O 2026 前瞻：Gemini Ultra 2、Android 17 即将揭晓</h3>
+      
+      <p>Google I/O 2026 即将召开，预计将发布 Gemini Ultra 2、Android 17、Pixel 10 及多项 AI 新功能。Google 同时面临 Gemini 心理健康功能诉讼后的品牌修复压力。</p>
+  <a class="link" href="https://www.linos.ai/technology/google-io-2026-announcements/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta Debuts Muse Spark AI Model From Superintelligence Lab</h3>
+      
+      <p>Meta 发布 Muse Spark，由 Alex Wang 领导的超智能实验室首款 AI 模型。该模型小巧快速但能推理科学、数学和健康复杂问题。纽约时报报道称这是 Meta 在 AI 竞赛中追赶 Google 和 OpenAI 的关键一步。</p>
+  <a class="link" href="https://www.nytimes.com/2026/04/08/technology/meta-muse-spark-ai-model.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 百度 Create 2026 定档 5 月：Agent Infra 与 AI Infra 双突破</h3>
+      
+      <p>百度宣布 Create 2026 AI 开发者大会将于 5 月 13-14 日在北京举办。今年战略升级，整合'Create 百度 AI 开发者大会'与'云智大会'。百度智能云将在 AI Infra 与 Agent Infra 两大方向发布重大突破。百度 Du Claw 全链条能力（芯片-云-模型-Agent）成为独特优势。</p>
+  <a class="link" href="https://www.donews.com/news/detail/8/6505875.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 百度 APP 上线本地生活专区，接入 AI 智能体'小惠助手'</h3>
+      
+      <p>百度 APP 正式上线本地生活专区，覆盖美食、维修、家政、教育等多个垂直类目。内置 AI 智能体'小惠助手'，支持语音和文字交互，可实时查询价格、对比服务方案。标志着百度 AI Agent 在本地生活场景的深度落地。</p>
+  <a class="link" href="https://www.donews.com/news/detail/8/6505875.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 中国 AI 模型全球调用量三周内激增 127%，首次超越美国</h3>
+      
+      <p>据 ThinkChina 报道，中国 AI 模型全球调用量三周内激增 127%，首次超越美国。中国占据全球前五模型中的四席（DeepSeek、Qwen 等）。Qwen3.6-Plus 在 OpenRouter 上线后单日调用量突破 1.4 万亿 Token，创下全球首个万亿级模型应用纪录。</p>
+  <a class="link" href="https://mojuz.com/aizixun/45.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:33 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
