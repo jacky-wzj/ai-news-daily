@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-15",
+  "insights": [
+    {
+      "title": "OpenAI 发布 GPT-5.4-Cyber，网络安全专用模型面向认证防御者开放",
+      "date": "2026-04-14",
+      "summary": "OpenAI 推出 GPT-5.4-Cyber，这是 GPT-5.4 的网络安全微调版本，通过扩展的 Trusted Access for Cyber 计划，向经过认证的安全专业人员开放高级防御工作流。",
+      "link": "https://www.reuters.com/technology/openai-unveils-gpt-54-cyber-week-after-rivals-announcement-ai-model-2026-04-14/"
+    },
+    {
+      "title": "Sam Altman 回应住所遭燃烧弹袭击，呼吁降低 AI 对立情绪",
+      "date": "2026-04-13",
+      "summary": "OpenAI CEO Sam Altman 在住所遭燃烧弹袭击后发布博客，公开家庭照片并呼吁社会降低围绕 AI 的激烈言辞与暴力行为。袭击者被发现携带其他 AI 高管名单。",
+      "link": "https://www.latimes.com/business/story/2026-04-13/openai-ceo-sam-altman-addresses-molotov-cocktail-attack-ai-backlash"
+    },
+    {
+      "title": "Anthropic 发布 Claude Mythos Preview，发现数千个零日漏洞后仅面向受限机构开放",
+      "date": "2026-04-07",
+      "summary": "Anthropic 发布 Claude Mythos Preview，该模型在主要操作系统和浏览器中发现数千个高危零日漏洞。出于安全考量，Anthropic 启动 Project Glasswing，仅向合作伙伴机构提供访问。",
+      "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html"
+    },
+    {
+      "title": "OpenAI、Anthropic、Google 联合对抗中国 AI 公司的对抗性蒸馏攻击",
+      "date": "2026-04-07",
+      "summary": "三大前沿模型公司通过 Frontier Model Forum 共享情报，联合对抗中国 AI 公司通过对抗性蒸馏技术窃取模型的行为。",
+      "link": "https://www.remio.ai/post/meta-s-first-closed-source-ai-model-arrives-and-it-breaks-every-promise-zuckerberg-made-about-open"
+    },
+    {
+      "title": "OpenAI 内部备忘录痛批 Anthropic，AI 前沿公司竞争白热化",
+      "date": "2026-04-14",
+      "summary": "OpenAI 内部备忘录流出，直指 Anthropic 的安全声明是营销手段，两家前沿 AI 公司之间的竞争已从技术层面延伸到公关和叙事战场。",
+      "link": "https://finance.yahoo.com/sectors/technology/article/tech-stocks-today-suspect-arrested-in-alleged-attack-on-openai-ceo-altmans-home-144220291.html"
+    },
+    {
+      "title": "Anthropic 遭遇性能下降争议，Claude 用户报告响应变慢和限制收紧",
+      "date": "2026-04-14",
+      "summary": "Anthropic 面临用户大规模投诉，Claude 聊天机器人出现性能下降，有分析认为可能与 Mythos 模型消耗大量算力有关，公司被指责缺乏透明度。",
+      "link": "https://fortune.com/2026/04/14/anthropic-claude-performance-decline-user-complaints-backlash-lack-of-transparency-accusations-compute-crunch/"
+    },
+    {
+      "title": "SiFive 完成 4 亿美元融资，估值 36.5 亿美元，Nvidia 参投 RISC-V AI 芯片",
+      "date": "2026-04-09",
+      "summary": "RISC-V 芯片设计公司 SiFive 完成超额认购的 4 亿美元 G 轮融资，Nvidia 参与投资，估值达 36.5 亿美元，加速高性能 AI 数据中心芯片研发。",
+      "link": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "From Reasoning to Agentic: Credit Assignment in RL for LLMs",
+      "date": "2026-04-13",
+      "summary": "论文系统分析了从单步推理到多步智能体交互中强化学习信用分配的挑战，涵盖 100+ 轮次（100K-1M tokens）的长程交互场景，为 Agentic RL 提供理论框架。",
+      "link": "https://arxiv.org/abs/2604.09459"
+    },
+    {
+      "title": "CONSCIENTIA: LLM 智能体在多智能体 NYC 模拟中的策略欺骗与信任涌现",
+      "date": "2026-04-10",
+      "summary": "研究在多智能体模拟环境中 LLM 智能体如何自发产生欺骗与信任行为，为 AI 对齐和多智能体安全提供重要的实证参考。",
+      "link": "https://arxiv.org/abs/2604.09746"
+    },
+    {
+      "title": "EigentSearch-Q+: 结构化推理工具增强深度研究智能体",
+      "date": "2026-04-10",
+      "summary": "提出使用结构化推理工具增强深度研究智能体，解决现有研究中隐含非结构化搜索行为导致的冗余探索问题，显著提升开放域问答效果。",
+      "link": "https://arxiv.org/abs/2604.07927"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "OpenAI 官方宣布 GPT-5.4-Cyber：面向认证网络安全防御者的高级访问",
+      "date": "2026-04-14",
+      "summary": "OpenAI 在 X 上正式宣布推出 GPT-5.4-Cyber，扩展 Trusted Access for Cyber 计划，最高层级客户可申请访问该网络安全专用模型。",
+      "link": "https://x.com/OpenAI/status/2044161906936791179"
+    },
+    {
+      "title": "Amjad Masad（Replit CEO）：大多数人可衡量事物上松散、模糊事物上苛刻",
+      "date": "2026-04-13",
+      "summary": "Replit CEO 发推指出行业常见问题：人们倾向于扭曲数据以适应故事，却要求本质上不可精确的事物保持精确——这是在\"伪装严谨\"。",
+      "link": "https://x.com/amasad/status/2043948524908490953"
+    },
+    {
+      "title": "Sam Altman 发布博客回应燃烧弹袭击事件",
+      "date": "2026-04-11",
+      "summary": "Sam Altman 在住所遭受燃烧弹袭击后发布个人博客，呼吁降低 AI 相关言论和策略的激烈程度，并公开家庭照片以示决心。",
+      "link": "https://blog.samaltman.com/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Code vs OpenClaw 2026：开发者的选择指南",
+      "date": "2026-04-14",
+      "summary": "开发者社区深度对比 Claude Code 和 OpenClaw：Claude Code 是专业编程代理，OpenClaw 是开源个人 AI 助手框架，讨论聚焦于何时使用哪个工具。",
+      "link": "https://claudefa.st/blog/tools/extensions/openclaw-vs-claude-code"
+    },
+    {
+      "title": "Claude Managed Agents vs OpenClaw：API 优先 vs 容器化部署对比",
+      "date": "2026-04-11",
+      "summary": "社区讨论 Anthropic 的 Claude Managed Agents（API 优先）与 OpenClaw（容器化运行）的差异，焦点在于集成难度、安全性和终端用户可用性。",
+      "link": "https://openclawlaunch.com/blog/claude-managed-agents-vs-openclaw-2026"
+    },
+    {
+      "title": "OpenHarness：在 Discord/飞书/Telegram 中运行的开源智能体框架",
+      "date": "2026-04-14",
+      "summary": "HKUDS 发布 OpenHarness，内置个人智能体 Ohmo，支持在 Discord、飞书、Telegram 中自主分叉分支、写代码、运行测试和开 PR，兼容 Claude Code 和 Codex。",
+      "link": "https://github.com/HKUDS/OpenHarness"
+    }
+  ],
+  "github": [
+    {
+      "title": "HKUDS/OpenHarness — 开源智能体框架与个人智能体 Ohmo",
+      "date": "2026-04-14",
+      "summary": "OpenHarness 提供开放的智能体开发框架，内置 Ohmo 个人智能体，支持在多个平台（飞书/Slack/Telegram/Discord）自主执行编码任务，集成 OpenClaw、Claude Code 等 CLI 代理。",
+      "link": "https://github.com/HKUDS/OpenHarness"
+    },
+    {
+      "title": "goldmar/openclaw-code-agent — 从聊天中管理 Claude Code 和 Codex 编码会话",
+      "date": "2026-04-11",
+      "summary": "OpenClaw 插件，支持从 Telegram、Discord 等渠道启动 Claude Code 和 Codex 后台编码会话，执行前审查计划，持续追踪作业进度。",
+      "link": "https://github.com/goldmar/openclaw-code-agent"
+    },
+    {
+      "title": "Enderfga/openclaw-claude-code — 将 Claude Code CLI 变为可编程无头编码引擎",
+      "date": "2026-04-15",
+      "summary": "OpenClaw 插件，将 Claude Code CLI 转换为可编程的无头编码引擎，支持文件编辑、工具使用、Git 感知、上下文管理和多轮对话，无需自行构建编排层。",
+      "link": "https://github.com/Enderfga/openclaw-claude-code"
+    }
+  ],
+  "hn": [
+    {
+      "title": "NPR：AI 在发现安全漏洞方面越来越强 — Anthropic Project Glasswing 深度报道",
+      "date": "2026-04-11",
+      "summary": "NPR 深度报道 Anthropic 的 Claude Mythos 模型和 Project Glasswing 如何改变网络安全格局：AI 能够自主发现主要操作系统和浏览器中的高危漏洞。",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5778508/anthropic-project-glasswing-ai-cybersecurity-mythos-preview"
+    },
+    {
+      "title": "WIRED：Meta Muse Spark 分析 — 扎克伯格重新回到 AI 竞赛",
+      "date": "2026-04-13",
+      "summary": "WIRED 分析 Meta 发布 Muse Spark 的战略意义：这是 Meta 从开源 Llama 转向闭源模型的标志性事件，扎克伯格试图在 AI 前沿模型竞赛中重新获得一席之地。",
+      "link": "https://www.wired.com/story/muse-spark-meta-open-source-closed-source/"
+    },
+    {
+      "title": "SiFive 完成 4 亿美元融资，RISC-V 架构挑战 AI 数据中心芯片格局",
+      "date": "2026-04-09",
+      "summary": "RISC-V 芯片 IP 公司 SiFive 完成 4 亿美元 G 轮融资，估值 36.5 亿美元，Nvidia 参投。Arm 新战略方向为 SiFive 赢得新客户创造了机会。",
+      "link": "https://www.reuters.com/business/sifive-raises-400-million-atreides-nvidia-data-center-chip-technology-2026-04-09/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/claude：Claude Mythos 正在验证 AI 2027 预测中的恐惧场景",
+      "date": "2026-04-10",
+      "summary": "Reddit 社区讨论 Anthropic 的 Claude Mythos 模型如何精确命中了 AI 2027 预测中描述的风险场景——自主发现零日漏洞并开发攻击利用。",
+      "link": "https://www.reddit.com/r/claude/comments/1sh96mu/anthropics_new_claude_mythos_is_doing_exactly/"
+    },
+    {
+      "title": "r/LocalLLaMA：Gemma 4 27B vs GPT-OSS 20B 对比评测",
+      "date": "2026-04-12",
+      "summary": "Reddit 社区对比 Google Gemma 4 27B 和 OpenAI GPT-OSS 20B，社区共识是 Gemma 4 在大多数任务上明显优于 GPT-OSS 20B。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1sjdyu9/gemma4_27b_vs_gptoss_20b_has_anyone_compared_them/"
+    },
+    {
+      "title": "r/AgentsOfAI：OpenClaw 完整搭建指南 2026 — 从零到多智能体系统",
+      "date": "2026-04-11",
+      "summary": "社区发布 OpenClaw 完整搭建指南，涵盖从零开始到多平台（Telegram/Discord）多智能体系统的全流程，自动引导用户完成 BotFather 配置。",
+      "link": "https://www.reddit.com/r/AgentsOfAI/comments/1sim9st/the_complete_openclaw_setup_guide_2026_from_zero/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Anthropic 推出 Claude Managed Agents：企业级智能体部署平台",
+      "date": "2026-04-14",
+      "summary": "Anthropic 推出 Claude Managed Agents，为企业提供托管式 Claude 智能体部署方案，降低智能体开发和运维门槛，与 OpenClaw 形成竞争。",
+      "link": "https://www.mindstudio.ai/blog/openclaw-vs-claude-code-channels-vs-managed-agents-2026"
+    },
+    {
+      "title": "Google ADK（Agent Development Kit）：多智能体编排框架突破 8200 星",
+      "date": "2026-04-14",
+      "summary": "Google 的多智能体编排框架 google/adk-python 在 GitHub 获得 8200+ 星，成为本月最受关注的多智能体开发工具，支持复杂的智能体编排和工具调用。",
+      "link": "https://github.com/google/adk-python"
+    },
+    {
+      "title": "OpenHarness：一键启动的开源智能体开发框架",
+      "date": "2026-04-14",
+      "summary": "HKUDS 发布 OpenHarness，一条命令即可启动，内置 Ohmo 个人智能体，支持 Claude Code、Codex、OpenClaw 等多种 CLI 代理集成，开源免费。",
+      "link": "https://github.com/HKUDS/OpenHarness"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Claude Code Channels vs OpenClaw vs Managed Agents：三足鼎立的智能体部署方案",
+      "date": "2026-04-14",
+      "summary": "Anthropic 的 Claude Code Channels、OpenClaw 开源框架和 Managed Agents 三种方案形成竞争格局，各自在集成难度、安全性和成本上各有优劣。",
+      "link": "https://www.mindstudio.ai/blog/openclaw-vs-claude-code-channels-vs-managed-agents-2026"
+    },
+    {
+      "title": "OpenClaw 生态爆发：Claude Code 插件、编码代理、多渠道部署方案涌现",
+      "date": "2026-04-14",
+      "summary": "OpenClaw 生态系统持续繁荣，多个插件支持从聊天渠道管理 Claude Code 和 Codex 后台编码会话，Discord、Telegram、飞书等多平台部署方案日趋成熟。",
+      "link": "https://github.com/goldmar/openclaw-code-agent"
+    },
+    {
+      "title": "OpenHarness 发布 Ohmo 个人智能体：在飞书/Slack 中自主开发代码",
+      "date": "2026-04-14",
+      "summary": "香港大学 HKUDS 团队发布 OpenHarness 框架及内置智能体 Ohmo，用户可在飞书、Slack、Telegram、Discord 中与之对话，Ohmo 自主完成分支、编码、测试、PR 全流程。",
+      "link": "https://github.com/HKUDS/OpenHarness"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "SiFive 融资 4 亿美元，Nvidia 参投，RISC-V 架构进军 AI 数据中心",
+      "date": "2026-04-09",
+      "summary": "RISC-V 芯片 IP 设计公司 SiFive 完成 4 亿美元 G 轮融资，估值 36.5 亿美元，Nvidia 参与投资，计划加速高性能 AI 数据中心芯片研发，挑战 Arm 架构地位。",
+      "link": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/"
+    },
+    {
+      "title": "AI 安全风暴：Cloud Security Alliance 发布「Mythos-ready」防御指南",
+      "date": "2026-04-14",
+      "summary": "CSA 实验室发布「Mythos-ready」安全框架，帮助企业应对 AI 驱动的大规模漏洞发现时代。Claude Mythos 已证明能在主流系统中发现数千个零日漏洞。",
+      "link": "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/mythosreadyv8.pdf"
+    },
+    {
+      "title": "Anthropic 性能危机：Claude 用户大规模投诉，或受 Mythos 算力挤占影响",
+      "date": "2026-04-14",
+      "summary": "Fortune 报道 Anthropic 面临用户大规模性能投诉，有分析认为 Mythos 模型可能消耗了大量算力资源，导致普通用户体验下降，公司被指缺乏透明度。",
+      "link": "https://fortune.com/2026/04/14/anthropic-claude-performance-decline-user-complaints-backlash-lack-of-transparency-accusations-compute-crunch/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里发布通义千问 Qwen3.6-Plus：百万上下文 + 最强 Agentic Coding 能力",
+      "date": "2026-04-02",
+      "summary": "阿里通义实验室发布 Qwen3.6-Plus，支持 100 万 token 超长上下文，在 Agentic Coding、前端编程、Vibe Coding 等代码能力上显著增强，深度适配 OpenClaw、Qwen Code 等主流 Agent 框架。",
+      "link": "https://zeeklog.com/guo-chan-bian-cheng-ai-tian-hua-ban-lai-liao-tong-yi-qian-wen-qwen3-6-plus-shen-du-ce-ping-bai-mo-shang-xia-wen-zui-qiang-dai-ma-neng-li-8/"
+    },
+    {
+      "title": "DeepSeek 上线专家模式，V4 旗舰模型预计 4 月下旬发布",
+      "date": "2026-04-08",
+      "summary": "DeepSeek 首次在产品端引入模式分层设计（快速模式/专家模式），同时创始人梁文锋在内部沟通中透露 DeepSeek V4 旗舰模型将于 4 月下旬正式发布。",
+      "link": "https://www.ithome.com/0/937/682.htm"
+    },
+    {
+      "title": "宇树科技 H1 机器人百米速度 10 米/秒逼近博尔特，国产人形机器人产量预计激增 94%",
+      "date": "2026-04-11",
+      "summary": "宇树科技 H1 机器人实测峰值速度达 10 米/秒，逼近博尔特 10.44 米/秒的纪录。TrendForce 预计 2026 年中国人形机器人产量同比激增 94%，宇树和智元合计占近 80% 出货量。",
+      "link": "https://finance.sina.cn/stock/jdts/2026-04-11/detail-inhtzxrs8054889.d.html"
+    }
+  ]
+}
