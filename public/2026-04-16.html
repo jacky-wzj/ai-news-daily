@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月16日星期四</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月16日星期四</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks</h3>
+      <div class="meta">👤 </div>
+      <p>提出空间感知研究代理的计算基准测试框架，通过计算锚定推理方法评估 AI 代理在空间理解和操作任务中的能力表现。</p>
+  <a class="link" href="https://arxiv.org/abs/2604.12102" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Memory Intelligence Agent (MIA): 带反思和无监督判断机制的智能体</h3>
+      <div class="meta">👤 </div>
+      <p>提出 Memory Intelligence Agent 框架，整合反思和无监督判断机制，增强智能体在开放世界中的推理和自我进化能力。在 11 个基准测试中验证了 MIA 的优越性。</p>
+  <a class="link" href="https://arxiv.org/abs/2604.04503" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. TRUST Agents: 协作式多智能体假新闻检测与可解释验证框架</h3>
+      <div class="meta">👤 </div>
+      <p>提出 TRUST Agents 协作式多智能体框架，用于假新闻检测、可解释事实核查和复杂声明的结构化推理。系统采用模块化流水线，各专门化智能体负责声明提取、证据检索等任务。</p>
+  <a class="link" href="https://arxiv.org/html/2604.12184" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 崛起令 OpenAI 投资者生疑：估值 8520 亿美元面临审查</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-14</div>
+      <p>TechCrunch 报道，OpenAI 8520 亿美元估值正面临部分投资者质疑，公司正转向企业客户并应对 Anthropic 的竞争。Anthropic 年化收入已突破 300 亿美元，超越 OpenAI 的 250 亿美元。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Lex Fridman 发布与 Jensen Huang 深度对话：NVIDIA 是 AI 革命的核心引擎</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-14</div>
+      <p>Lex Fridman 在 X 上发布与 NVIDIA CEO Jensen Huang 的深度访谈，讨论 NVIDIA 作为人类历史上最有价值和最具影响力公司之一，如何成为 AI 革命的核心引擎。</p>
+  <a class="link" href="https://x.com/lexfridman/status/2036123301140111406" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. NVIDIA AI 官方：Jensen Huang 在 GTC 2026 开场活动中惊喜现身讨论 OpenClaw 合作</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-10</div>
+      <p>NVIDIA AI 官方账号发布：Jensen Huang 在 #NVIDIAGTC 主题演讲前活动中惊喜亮相，与 OpenClaw 创始人 @steipete 讨论合作及智能 AI 模型的未来。</p>
+  <a class="link" href="https://x.com/NVIDIAAI/status/2042739450946687123" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Euronews：为何 Anthropic 最强大的 AI 模型 Mythos 过于危险无法公开发布</h3>
+      <div class="meta">💬 </div>
+      <p>Euronews 深度分析 Anthropic 不发布 Claude Mythos 的原因：该模型在发现主要操作系统和浏览器中的高危漏洞方面过于有效，99% 的漏洞尚未修复。社区担忧如果此类能力扩散到不负责任的参与者手中将带来巨大风险。</p>
+  <a class="link" href="https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 英国 AISI 发布 Claude Mythos Preview 网络安全能力评估报告</h3>
+      <div class="meta">💬 </div>
+      <p>英国 AI 安全研究所 (AISI) 发布对 Claude Mythos Preview 的独立评估报告，验证了 Anthropic 关于该模型网络安全能力的声明，为 AI 安全治理提供政府层面的专业意见。</p>
+  <a class="link" href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 合成数据全新分类框架：南洋理工、清华等四校突破传统认知</h3>
+      <div class="meta">💬 </div>
+      <p>南洋理工大学、清华大学等四校研究团队梳理 300 余篇文献，提出合成数据全新分类框架，突破「合成数据=生成模型」的传统认知，按应用划分为四大层级，明确其发展路径。</p>
+  <a class="link" href="https://www.aitntnews.com/ainews" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. multica-ai/multica — 开源托管智能体平台</h3>
+      
+      <p>开源的托管智能体平台，可将编码智能体转化为真正的团队成员——分配任务、追踪进度、复合技能。本周增长迅速，成为 AI 协作开发的新选择。</p>
+  <a class="link" href="https://github.com/multica-ai/multica" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. shiyu-coder/Kronos — 金融语言基础模型</h3>
+      
+      <p>Kronos 是面向金融市场的语言基础模型，本周登上 GitHub Trending 前列。该模型专注于金融数据理解和量化分析任务，为 AI 金融应用提供新的开源选择。</p>
+  <a class="link" href="https://github.com/shiyu-coder/Kronos" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. addyosmani/agent-skills — 生产级 AI 编码智能体工程技能库</h3>
+      
+      <p>Addy Osmani 推出的生产级 AI 编码智能体工程技能库，提供经过验证的最佳实践和工程技能模板，帮助 AI 智能体更高效地完成编码任务。</p>
+  <a class="link" href="https://github.com/addyosmani/agent-skills" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Mythos Preview 能力大幅提升，Anthropic 决定不向公众开放</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN 热议 Anthropic 因 Claude Mythos Preview 能力大幅增强而决定暂不公开发布。讨论涉及 AI 安全、模型能力阈值评估、以及 Anthropic 对自动化 AI 研发能力阈值的判断。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47679363" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Project Glasswing：AI 时代关键软件安全计划</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN 讨论 Anthropic 的 Project Glasswing 安全计划。社区认为，面对 AI 模型越来越强的漏洞发现能力，联合行业共同构建防御体系是必要的应对策略。同时也有人讨论了硬件层面的安全挑战。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47679121" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 评估 Claude Mythos Preview 的网络安全能力</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN 讨论对 Claude Mythos Preview 网络安全能力的技术评估。有开发者指出企业 Splunk 系统的实际使用情况远不如预期，大部分公司并未真正关注收集到的安全数据，AI 漏洞发现能力的实际价值仍待验证。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47755805" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. r/singularity: Anthropic 新模型 Claude Mythos 太强大，因此不向公众发布</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit 社区热议 Claude Mythos：Anthropic 因模型能力过于强大而选择不公开发布。讨论聚焦于网络安全风险、Project Glasswing 合作伙伴计划，以及 AI 能力边界问题。</p>
+  <a class="link" href="https://www.reddit.com/r/singularity/comments/1sf3uhp/anthropics_new_model_claude_mythos_is_so_powerful/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/singularity: Claude Mythos Preview 基准测试数据公布</h3>
+      <div class="meta">reddit: </div>
+      <p>社区分享了 Claude Mythos Preview 的详细基准测试数据，包括 SWE-bench Verified 93.9%、GPQA Diamond 94.6% 等成绩，引发关于模型真实能力的讨论。</p>
+  <a class="link" href="https://www.reddit.com/r/singularity/comments/1sf3zme/claude_mythos_preview_benchmarks/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/OpenAI: OpenAI 推出 GPT-5.4-Cyber，正面挑战 Claude Mythos</h3>
+      <div class="meta">reddit: </div>
+      <p>OpenAI 面向有限群体推出 GPT-5.4-Cyber 测试版，旨在对抗 Anthropic Claude Mythos 在网络安全领域的领先优势。Google Cloud 和 Microsoft 也在推进 AI 辅助安全运营。</p>
+  <a class="link" href="https://www.reddit.com/r/OpenAI/comments/1slmujp/breaking_openai_rolls_out_gpt54cyber_to_limited/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google 推出 Gemini Agent Designer：无代码 AI 代理构建平台</h3>
+      
+      <p>Google 为 Gemini 新增一级 Agents 入口，上线无代码 Agent Designer，普通用户无需编程即可让 AI 完成多步任务。Google、OpenAI、Anthropic 正争夺 AI Agent 编排层市场。</p>
+  <a class="link" href="https://docs.cloud.google.com/gemini/enterprise/docs/agent-designer" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AWS 发布 Amazon Bio Discovery：AI 驱动的药物发现平台</h3>
+      
+      <p>AWS 推出 Amazon Bio Discovery，集成 40+ 顶尖大模型，帮助科学家无需编写代码即可运行复杂的药物发现计算工作流。AI 代理协助选择模型、设置参数和评估候选药物，已得到 MSK 等机构采用。</p>
+  <a class="link" href="https://aws.amazon.com/blogs/industries/introducing-amazon-bio-discovery/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Notion 推出 Custom Agents：历时 3 年重写的 AI 代理系统</h3>
+      
+      <p>Notion 历时 3 年先后 5 次重写 Agent 系统，推出的 Custom Agents 是其历史上转化率最高的新功能之一，支持用户自定义 AI Agent 自动完成各类工作任务。</p>
+  <a class="link" href="https://www.aitntnews.com/ainews" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Gemini Agents 正式登场：无代码构建 + Workspace 深度集成</h3>
+      <div class="meta">🤖 </div>
+      <p>Google 为 Gemini 新增一级 Agents 入口，上线无代码 Agent Designer，让普通用户无需编程即可创建多步骤 AI 代理。与 Google Workspace 深度集成，标志着 AI 代理平民化的关键一步。</p>
+  <a class="link" href="https://docs.cloud.google.com/gemini/enterprise/docs/agent-designer" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Notion Custom Agents 发布：历史上转化率最高的新功能</h3>
+      <div class="meta">🤖 </div>
+      <p>Notion 推出 Custom Agents，允许用户自定义 AI 代理自动完成工作任务。该功能历经 3 年 5 次重写，成为 Notion 历史上转化率最高的新功能。</p>
+  <a class="link" href="https://www.aitntnews.com/ainews" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Amazon Bio Discovery Agent：从药物设计到湿实验室的全流程自动化</h3>
+      <div class="meta">🤖 </div>
+      <p>AWS 发布 Amazon Bio Discovery，集成 AI 代理辅助药物发现全流程。科学家可运行复杂计算工作流而无需编写代码，合作机构已将抗体设计周期从数月缩短至数周。</p>
+  <a class="link" href="https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Stanford 发布 2026 AI Index 报告：企业 AI 采用率达 88%，80% 大学生使用生成式 AI</h3>
+      <div class="meta">📅 2026-04-13</div>
+      <p>斯坦福 HAI 发布年度 AI Index 报告，揭示生成式 AI 发布仅三年就达到 53% 的人口级采用率。中国 AI 模型已与美国并驾齐驱，Anthropic 在 2026 年 3 月模型排行榜领先。同时公众对 AI 透明度和监管信任度下降，AI 论文数量在各自然科学领域占比达 6-9%。</p>
+  <a class="link" href="https://hai.stanford.edu/ai-index/2026-ai-index-report" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Bloomberg：Anthropic 发现 Mythos AI 过于危险，无法向公众发布</h3>
+      <div class="meta">📅 2026-04-16</div>
+      <p>Bloomberg 深度报道 Anthropic 如何发现 Claude Mythos AI 模型过于危险而无法公开发布。该模型可自主扫描并利用关键软件中的零日漏洞，包括 FreeBSD 17 年 RCE 漏洞和 FFmpeg 16 年安全缺陷。公司同步启动 Project Glasswing，联合 40 家公司探索防御用途。</p>
+  <a class="link" href="https://www.bloomberg.com/news/features/2026-04-16/how-anthropic-discovered-mythos-ai-was-too-dangerous-for-release" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LMSYS Chatbot Arena 排行榜 2026：Anthropic Claude Opus 4.6 领跑 Google xAI OpenAI</h3>
+      <div class="meta">📅 2026-04-06</div>
+      <p>2026 年 4 月 AI 模型排行榜显示，Anthropic Claude Opus 4.6 Thinking 以 1504 Elo 分领跑全球，Google Gemini 3.1 Pro 以 1493 分位居第三。xAI Grok 4.20 凭借实时社交数据整合冲入前四，中国 GLM-5.1 以极低价格达到 Claude Opus 4.6 94.6% 的编码能力。</p>
+  <a class="link" href="https://aidevdayindia.org/blogs/lmsys-chatbot-arena-current-rankings/live-ai-leaderboard-2026.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Science：AI 大幅提升科学家效率，但可能导致科学研究整体萎缩</h3>
+      <div class="meta">📅 2026-01-14</div>
+      <p>Science 报道 Nature 发表的研究发现，AI 工具显著提升了单个科学家的研究效率，但可能导致科学研究范围整体缩小。不同自然科学领域中，提及 AI 的论文比例已达 6-9%，研究者拥抱 AI 的同时也带来新的科研格局变化。</p>
+  <a class="link" href="https://www.science.org/content/article/ai-has-supercharged-scientists-may-have-shrunk-science" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Anthropic 用弱监督强模型实验：千问模型模拟人类和超级 AI，PGR 从 0.23 提至 0.97</h3>
+      <div class="meta">📅 2026-04-16</div>
+      <p>Anthropic 开展弱监督强模型实验，使用两款阿里千问模型分别模拟人类和超级 AI，借助 AI 研究员将 PGR 从人类基线 0.23 提升至 0.97，总成本仅 1.8 万美元，为未来超级 AI 对齐监督研究提供可行方向。</p>
+  <a class="link" href="https://www.aitntnews.com/ainews" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Anthropic 崛起令 OpenAI 投资者生疑：估值 8520 亿美元面临审查</h3>
+      <div class="meta">📅 2026-04-14</div>
+      <p>TechCrunch 报道，OpenAI 8520 亿美元估值正面临部分投资者质疑，公司正转向企业客户并应对 Anthropic 的竞争。Anthropic 年化收入已突破 300 亿美元，超越 OpenAI 的 250 亿美元，收到多家 VC 给出的最高 8000 亿美元估值报价。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. Nature：AI 工具大幅提升个体科研效率但可能导致科学研究整体缩小</h3>
+      <div class="meta">📅 2026-01-14</div>
+      <p>Nature 发表论文指出，AI 工具显著提升了单个科学家的研究效率，但可能导致科学研究范围整体缩小。AI 在科研中的角色正从辅助工具升级为自主研究的 AI 科学家，科学基础模型与自动化实验室的结合将极大加速新材料与药物研发。</p>
+  <a class="link" href="https://www.nature.com/articles/d41586-025-04092-3" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Jensen Huang 接受 Dwarkesh Patel 专访：英伟达的核心是电子到 Token 的转化</h3>
+      
+      <p>英伟达 CEO Jensen Huang 在 Dwarkesh Podcast 接受深度专访，讨论 TPU 竞争、是否应该向中国出售芯片、英伟达为何不做云服务商、以及其投资策略。Huang 强调英伟达的核心是完成电子到 Token 的转化，并回应了供应链、竞争和中国 AI 发展等热点问题。</p>
+  <a class="link" href="https://www.dwarkesh.com/p/jensen-huang" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Musk vs OpenAI 欺诈案：1340 亿美元大战定于 4 月 27 日开庭</h3>
+      
+      <p>Elon Musk 起诉 OpenAI 欺诈案定于 2026 年 4 月 27 日正式开庭。Musk 要求撤销 Sam Altman 和 Greg Brockman 的领导职务，并逆转 OpenAI 的营利性转型。OpenAI 则反控 Musk 利用消失的消息逃避取证。</p>
+  <a class="link" href="https://www.michaelrcronin.com/post/musk-vs-openai-fraud-trial-134b-battle-set-for-april-27-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Stanford 报告：中国缩小与美国 AI 差距至接近零，斯坦福 AI Index 揭示关键发现</h3>
+      
+      <p>SiliconANGLE 报道斯坦福 2026 AI Index 最引人注目的发现：中国已消除与美国在 AI 性能方面的差距。报告同时揭示 AI 模型在科学和复杂推理方面取得突破性成果，但环境代价令人担忧。美国在 AI 支出方面领先全球，但吸引顶尖人才变得更加困难。</p>
+  <a class="link" href="https://www.businesstoday.in/technology/story/china-narrows-ai-gap-with-us-to-near-zero-stanford-report-shows-525911-2026-04-16" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 它石智航完成超 4.5 亿美元 Pre-A 轮融资，创中国具身智能单轮最高纪录</h3>
+      
+      <p>具身智能公司它石智航（TARS）宣布完成超 4.5 亿美元 Pre-A 轮融资，由高瓴、红杉、美团联合领投，创下中国具身智能有史以来最高单轮融资纪录。这是它石智航第二次刷新行业融资纪录。</p>
+  <a class="link" href="https://www.stcn.com/article/detail/3754343.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 通义千问联合港中大发布 OccuBench：AI 智能体真实职业能力评测基准</h3>
+      
+      <p>通义千问联合香港中文大学发布 OccuBench 评测基准，通过大模型模拟职业场景评测 AI Agent 真实职业能力，覆盖 10 大行业 100 个场景，已测试 15 个前沿大模型，项目已开源。</p>
+  <a class="link" href="https://www.aitntnews.com/ainews" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 智元机器人 4 月 17 日举办 2026 合作伙伴大会，将发布 4 款本体新品及 4 个 AI 大模型</h3>
+      
+      <p>智元机器人宣布将于 4 月 17 日举办 2026 合作伙伴大会，届时将发布 4 大本体新品、4 大创新 AI 大模型、7 大解决方案及开放数据集，展示具身智能最新成果。</p>
+  <a class="link" href="https://www.stcn.com/article/detail/3743134.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:40 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
