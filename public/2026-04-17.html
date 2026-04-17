@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月17日星期五</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月17日星期五</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. SemaClaw：通过Harness Engineering构建通用个人AI Agent</h3>
+      <div class="meta">👤 </div>
+      <p>美的AIRC团队提出SemaClaw框架，基于OpenClaw的成功经验，通过Harness Engineering构建通用个人AI Agent。论文提出知识激活、AI Skills等核心概念，展示了如何将个人AI Agent部署到日常生活场景中。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.11548" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Lyra 2.0：可探索的生成式3D世界</h3>
+      <div class="meta">👤 </div>
+      <p>Lyra 2.0提出了可探索的生成式3D世界新范式，结合OmniRoam等技术实现世界漫游。该研究在3D内容生成和交互领域取得显著进展，为虚拟世界和机器人仿真提供新的基础模型。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.13036" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. IceCache：面向长序列LLM的高效KV-cache管理</h3>
+      <div class="meta">👤 </div>
+      <p>IceCache提出了一种内存高效的KV-cache管理方案，针对长序列LLM推理优化。结合ARKV自适应资源管理技术，在保持模型性能的同时显著降低显存开销，对长上下文应用场景具有重要价值。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.10539" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic推出Claude Code Channels：Discord/Telegram直接控制AI编码</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic于3月发布Claude Code Channels，将agentic编码harness连接到Discord和Telegram。开发者可以在聊天平台直接控制本地Claude Code会话，引发社区关于是否会取代OpenClaw的热烈讨论。</p>
+  <a class="link" href="https://fazm.ai/blog/ai-agent-news-april-2026-claude-code-openclaw" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Claude用户现在使用OpenClaw需要额外付费</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic政策调整后，Claude订阅用户如果希望通过自己的订阅使用开源OpenClaw Agent框架，除非愿意支付更高费用，否则将无法继续使用。这一变化引发了社区对AI Agent生态格局变化的讨论。</p>
+  <a class="link" href="https://aibusiness.com/agentic-ai/claude-subscribers-now-have-pay-use-openclaw" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude-mem：Claude Code自动记忆插件，支持Discord/Telegram实时推送</h3>
+      <div class="meta">💬 </div>
+      <p>Claude-mem是一款Claude Code插件，自动捕获编码会话中的所有操作，使用Claude的agent-sdk进行AI压缩，并将相关上下文注入未来会话。支持将实时观察推送到Telegram、Discord、Slack等频道。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-04-15-claude-mem-a-new-claude-code-plugin-for-automated-session-memory-and-context-injection" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. thedotmack/claude-mem：Claude Code自动记忆插件</h3>
+      
+      <p>自动捕获Claude Code编码会话中的所有操作，通过AI智能压缩，并将会话上下文注入未来的编码会话中。安装器自动处理依赖、插件设置和AI提供商配置。</p>
+  <a class="link" href="https://github.com/thedotmack/claude-mem" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. awesome-opensource-ai：2026年最佳开源AI项目精选列表</h3>
+      
+      <p>精选2026年最优质的真正开源AI项目、模型、工具和基础设施列表。包括google/adk-python（8200+星）、meta-llama/llama-stack（6400+星）、openai/codex-cli（5800+星）等热门项目的聚合索引。</p>
+  <a class="link" href="https://github.com/alvinreal/awesome-opensource-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Archon：首个开源AI编程基准构建器</h3>
+      
+      <p>Archon被公认为首个专门为AI编程设计的开源基准构建器和测试框架生成器，旨在让AI编程变得确定性和可重复。该工具在GitHub Trending上持续上榜。</p>
+  <a class="link" href="https://github.com/openclaw/archon" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Opus 4.7 发布</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN首页热议Anthropic发布Claude Opus 4.7模型。这是Anthropic最新的旗舰模型，继续在agentic编码、工具使用和推理能力上推进前沿。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47793411" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic在上诉法院败诉：无法暂停供应链风险标签</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Anthropic在上诉法院败诉，无法阻止供应链风险标签的实施。HN社区对判决进行深度分析，讨论了AI公司面临的监管挑战和法律风险。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47735712" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI驱动的硬件黑客手臂：用胶带、旧摄像头和CNC机器打造</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN热议一位开发者用胶带、旧摄像头和CNC机器打造的AI驱动硬件黑客手臂项目，展示了AI在物理世界中的实际应用潜力。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47800033" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GPT-Rosalind for life sciences research：Reddit热议OpenAI生物学AI模型</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/singularity社区热议OpenAI发布GPT-Rosalind。评论指出生物学研究的现实挑战：细胞需要时间生长、实验需要时间运行、临床试验耗时数月且多数失败。AI可以加速但不能跳过这些物理过程。</p>
+  <a class="link" href="https://www.reddit.com/r/singularity/comments/1sne2e7/introducing_gptrosalind_for_life_sciences_research/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. r/accelerate：OpenAI推出GPT-Rosalind前沿推理模型</h3>
+      <div class="meta">reddit: </div>
+      <p>r/accelerate社区讨论GPT-Rosalind模型：针对科学工作流优化，在蛋白质和化学推理、基因组分析、生物化学知识和科学工具使用方面表现更强。</p>
+  <a class="link" href="https://www.reddit.com/r/accelerate/comments/1sneio2/openai_introduces_gptrosalind_a_frontier/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. r/vibecoding：2026年4月AI Agent编码器现状</h3>
+      <div class="meta">reddit: </div>
+      <p>社区深入讨论AI Agent、Skills和Workflows的区别与融合趋势。用户反映在2026年的AI发展阶段，这些工具/逻辑是否已经内建到基础模型中，引发了关于Agent架构演进方向的讨论。</p>
+  <a class="link" href="https://www.reddit.com/r/vibecoding/comments/1sjk0ww/state_of_ai_agent_coders_april_2026_agents_vs/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Adobe Firefly AI Assistant：跨Creative Cloud的创意Agent</h3>
+      
+      <p>Adobe正式发布Firefly AI Assistant，通过自然语言编排Photoshop、Premiere、Lightroom、Illustrator、Express等多应用工作流。即将推出公测，并与Anthropic Claude集成。</p>
+  <a class="link" href="https://blog.adobe.com/en/publish/2026/04/15/introducing-firefly-ai-assistant-new-way-create-with-our-creative-agent" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Voicebox：GitHub新兴开源语音合成Studio</h3>
+      
+      <p>Voicebox在GitHub Trending上崭露头角，是一个开源语音合成Studio。项目强调开源性质，为开发者和创作者提供探索合成语音生成的基础平台，无需依赖专有软件生态。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-04-16-voicebox-a-new-open-source-voice-synthesis-studio-emerges-on-github-for-developers" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Newton：面向机器人的开源GPU物理引擎</h3>
+      
+      <p>Newton是一款基于NVIDIA Warp构建的开源GPU加速物理引擎，专为机器人专家和研究者设计。利用GPU加速实现高速物理仿真，在机器人仿真领域具有独特价值。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-04-10-newton-a-new-open-source-gpu-accelerated-physics-engine-built-on-nvidia-warp-for-robotics-research" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic推出Claude Managed Agents：企业级Agent规模化部署服务</h3>
+      <div class="meta">🤖 </div>
+      <p>Anthropic发布Claude Managed Agents，为企业用户提供开箱即用的AI Agent基础设施。开发者可以快速构建和部署Agent，Anthropic负责底层基础设施管理，降低企业采用AI Agent的门槛。</p>
+  <a class="link" href="https://aibusiness.com/agentic-ai/claude-subscribers-now-have-pay-use-openclaw" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱发布GLM-4.7-Flash，Coding Plan体验优化</h3>
+      <div class="meta">🤖 </div>
+      <p>智谱AI发布GLM-4.7-Flash模型，针对Coding Plan体验问题进行优化并开启专项退款通道。智谱2026年一季度API调用定价提升83%后仍供不应求，调用量增长400%。</p>
+  <a class="link" href="https://www.bilibili.com/video/BV1z5QTBmEJH/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google Agent-to-Agent Protocol一周年：150+组织参与</h3>
+      <div class="meta">🤖 </div>
+      <p>2026年4月9日是Google Agent-to-Agent Protocol发布一周年。目前超过150个组织参与该协议，GitHub仓库超过22000星，并已有生产级部署案例。该协议正在成为多Agent系统互操作的重要标准。</p>
+  <a class="link" href="https://dev.to/alexmercedcoder/ai-weekly-agents-models-and-chips-april-9-15-2026-486f" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Understanding the current state of AI：MIT Tech Review图表解读AI发展现状</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>MIT Technology Review深度解读斯坦福2026 AI指数报告：Anthropic顶级模型仅领先中国最佳模型2.7%；基准测试正快速失去追踪AI进展的能力——一个流行的数学基准测试错误率高达42%；最佳模型在GAIA基准上的准确率已超50%。</p>
+  <a class="link" href="https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 反AI情绪升级：从抗议走向暴力</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>Fortune报道，Sam Altman住所遭燃烧瓶袭击后，又有两人在其住所附近开枪被捕。极端反AI情绪正在升级，但更广泛、更温和的反AI情绪已经积累了多年。AI行业在如何讲述自身故事上出现严重分歧。</p>
+  <a class="link" href="https://fortune.com/2026/04/16/anti-ai-sentiment-is-rising-and-its-starting-to-turn-violent/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude subscribers now have to pay to use OpenClaw：Anthropic政策调整引发用户不满</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>Anthropic政策调整后，Claude订阅用户如果希望通过自己的订阅使用开源OpenClaw Agent框架，除非愿意支付更高费用，否则将无法继续使用。多名用户从$200/月降级至$20/月，转投Codex Pro计划，社区普遍认为Anthropic模型表现极不稳定。</p>
+  <a class="link" href="https://aibusiness.com/agentic-ai/claude-subscribers-now-have-pay-use-openclaw" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. OpenAI发布GPT-Rosalind：首个生命科学专用AI模型</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>OpenAI发布专门面向生命科学研究的GPT-Rosalind模型，与Amgen、Moderna、Thermo Fisher等合作。该模型针对生物信息学和基因组数据优化，在BixBench基准测试中达到0.751的通过率，旨在加速药物发现和蛋白质工程。</p>
+  <a class="link" href="https://openai.com/index/introducing-gpt-rosalind/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. OpenAI GPT-5.4-Cyber：面向网络安全的有限发布模型</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>OpenAI发布GPT-5.4-Cyber，专门针对防御性网络安全工作微调的旗舰模型变体。与Anthropic此前Mythos模型类似，该模型仅面向受信任组织有限发布，不向公众开放。</p>
+  <a class="link" href="https://www.nytimes.com/2026/04/14/technology/openai-cybersecurity-gpt54-cyber.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Adobe Firefly AI Assistant：跨Creative Cloud的创意Agent发布</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>Adobe正式发布Firefly AI Assistant，作为跨Creative Cloud生态系统的统一创意Agent。支持通过自然语言编排Photoshop、Premiere、Lightroom、Illustrator等多步工作流，即将推出公测版本，并与Anthropic Claude集成。</p>
+  <a class="link" href="https://blog.adobe.com/en/publish/2026/04/15/introducing-firefly-ai-assistant-new-way-create-with-our-creative-agent" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. Anthropic推出Claude Code Channels：从Discord/Telegram控制AI编码Agent</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>Anthropic于3月推出Claude Code Channels功能，允许开发者通过Discord和Telegram直接控制本地Claude Code会话。社区对此反应热烈，引发关于是否会替代OpenClaw等第三方Agent框架的讨论。</p>
+  <a class="link" href="https://fazm.ai/blog/ai-agent-news-april-2026-claude-code-openclaw" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI行业叙事分歧：Altman、Amodei、Pichai各执一词</h3>
+      
+      <p>Axios报道，Sam Altman在住所遭袭击后的博客中表示低估了'文字和叙事的力量'。AI行业领袖在如何向公众讲述AI故事上出现严重分歧——从Amodei的安全优先到Pichai的渐进式推进。</p>
+  <a class="link" href="https://www.axios.com/2026/04/16/ai-industry-narrative-altman-amodei-pichai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. New Yorker深度调查Sam Altman：OpenAI权力故事</h3>
+      
+      <p>Ronan Farrow在New Yorker发表关于Sam Altman的深度调查报道，揭示OpenAI内部的权力叙事。Altman被描绘为一个极具影响力但充满争议的人物，'AI既是技术故事也是权力故事'。</p>
+  <a class="link" href="https://www.wbur.org/hereandnow/2026/04/14/sam-altman-ronan-farrow" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI宣布Codex用量限制每新增百万用户重置一次</h3>
+      
+      <p>面对Anthropic的用户流失，Altman宣布OpenAI将在Codex产品每新增一百万用户时重置用量限制。这一策略被视为OpenAI利用更强算力优势争夺AI编码市场的重要信号。</p>
+  <a class="link" href="https://slate.com/technology/2026/04/ai-anthropic-claude-openai-user-revolt.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 字节跳动发布豆包大模型2.0：Seed 2.0全量上线</h3>
+      
+      <p>字节跳动宣布豆包大模型正式进入2.0阶段，发布Seed2.0系列，包含Pro、Lite、Mini等多个版本。同时推出原生全双工语音大模型Seeduplex，已全量上线豆包App，实现听与说同步的实时交互。</p>
+  <a class="link" href="https://news.qq.com/rain/a/20260410A06LDZ00" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里通义千问开源Qwen3.6-35B-A3B：3B激活参数高效模型</h3>
+      
+      <p>4月15日，阿里通义千问团队宣布开源Qwen3.6-35B-A3B，总参数规模350亿，每token仅激活约30亿参数。这是Qwen3.6系列首个开放权重模型，在Terminal-Bench等基准测试中表现优异。</p>
+  <a class="link" href="https://www.datalearner.com/blog/1051776350386571" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 豆包二代AI手机将于2026年Q2发布，荣耀洽谈合作</h3>
+      
+      <p>中兴通讯与字节跳动联合研发的第二代豆包AI手机将于2026年第二季度中后期发布。荣耀也在与字节跳动就'豆包手机'合作展开接洽。IDC预计2026年中国AI手机出货量将达1.47亿台，占整体市场53%。</p>
+  <a class="link" href="https://www.ofweek.com/ai/2026-04/ART-201718-8110-30685263.html" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:36 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
