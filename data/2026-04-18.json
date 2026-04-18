@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-18",
+  "insights": [
+    {
+      "title": "Meta计划5月20日开始大规模裁员，约10%员工（8000人）受影响",
+      "date": "2026-04-17",
+      "summary": "Reuters独家报道，Meta计划于5月20日启动第一波裁员，约8000名员工（占全球workforce的10%）将被裁撤，主要为软件开发者，AI正在重塑公司岗位结构。后续裁员将在2026年继续进行。",
+      "link": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+    },
+    {
+      "title": "DeepSeek寻求100亿美元估值融资，至少3亿美元",
+      "date": "2026-04-17",
+      "summary": "据Reuters报道，中国AI公司DeepSeek正与投资者洽谈以100亿美元估值融资至少3亿美元。此前The Information率先披露了这一消息，DeepSeek的R1模型曾在2025年短暂追平GPT-4o。",
+      "link": "https://www.reuters.com/world/china/chinas-deepseek-is-raising-funds-10-billion-valuation-information-reports-2026-04-17/"
+    },
+    {
+      "title": "OpenAI发布GPT-Rosalind：专为生命科学和药物研发设计的AI模型",
+      "date": "2026-04-17",
+      "summary": "OpenAI推出GPT-Rosalind，首个专为生物化学、基因组学和药物研发优化的前沿推理模型。以英国科学家Rosalind Franklin命名，仅面向美国合格客户开放研究预览，旨在将10-15年的药物研发周期大幅缩短。",
+      "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/openai-launches-ai-model-gpt-rosalind-life-sciences-research-2026-04-16/"
+    },
+    {
+      "title": "公众对AI态度转负面，Anthropic和OpenAI IPO前景面临挑战",
+      "date": "2026-04-15",
+      "summary": "CNBC报道，公众对AI和数据中心的负面情绪上升，40%投资者因公众情绪对IPO持犹豫态度。与此同时，OpenAI的8520亿美元估值正受到自家投资者质疑，Anthropic的崛起也让OpenAI投资者重新思考。",
+      "link": "https://www.cnbc.com/2026/04/15/public-opinion-ai-data-centers-anthropic-openai-ipo.html"
+    },
+    {
+      "title": "Anthropic发布Claude Mythos并启动Project Glasswing安全防御联盟",
+      "date": "2026-04-07",
+      "summary": "Anthropic发布其最强大的模型Claude Mythos Preview，发现数千个零日漏洞，但选择不公开发布。转而启动Project Glasswing项目，联合40+组织（微软、苹果、Google、摩根大通等）共同修补漏洞，引发网络安全行业广泛讨论。",
+      "link": "https://fortune.com/2026/04/13/cybersecurity-anthropic-claude-mythos-dario-amodei-tech-ceo/"
+    },
+    {
+      "title": "Adobe Firefly AI Assistant与Canva AI 2.0：创意AI Agent时代到来",
+      "date": "2026-04-16",
+      "summary": "Adobe发布Firefly AI Assistant，可跨Creative Cloud应用执行多步骤工作流；Canva在Create 2026大会上发布AI 2.0，从设计平台转型为AI平台，支持持久记忆、自然语言编辑和第三方集成。创意领域正被Agentic AI重塑。",
+      "link": "https://www.pcworld.com/article/3116557/adobe-and-canva-want-their-ai-agents-to-replace-your-creative-workflow.html"
+    },
+    {
+      "title": "TSMC Q1利润增长58%，AI芯片需求创纪录",
+      "date": "2026-04-16",
+      "summary": "台积电公布第一季度利润增长58%，超出预期，AI需求持续推动创纪录营收。CNBC报道显示，AI芯片需求增长仍是半导体行业最强驱动力。",
+      "link": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html"
+    }
+  ],
+  "papers": [
+    {
+      "title": "EXAONE 4.5 Technical Report — LG AI Research",
+      "date": "2026-04-13",
+      "summary": "LG发布EXAONE 4.5技术报告，在通用基准测试中达到竞争性性能，在文档理解和韩语上下文推理方面超越同规模SOTA模型。论文链接在Hugging Face Paper页面展示。",
+      "link": "https://huggingface.co/papers/2604.08644"
+    },
+    {
+      "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+      "date": "2026-04-15",
+      "summary": "Lyra 2.0论文提出可探索的生成式3D世界，支持用户通过生成式AI创建和交互3D环境。",
+      "link": "https://arxiv.org/abs/2604.13036"
+    },
+    {
+      "title": "On the Creativity of AI Agents",
+      "date": "2026-04-14",
+      "summary": "arXiv论文探讨AI Agent的创造力，分析了多Agent在非合作环境中的诗歌生成等创造性任务，研究AI创造力的边界和评估方法。",
+      "link": "https://arxiv.org/html/2604.13242"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic Claude Mythos发现数千零日漏洞引发AI安全大讨论",
+      "date": "2026-04-07",
+      "summary": "Anthropic宣布Claude Mythos Preview能比绝大多数人类更擅长发现软件漏洞，在各大操作系统和浏览器中发现数千个零日漏洞，引发X平台上关于AI安全风险的激烈讨论。",
+      "link": "https://www.pymnts.com/cybersecurity/2026/anthropic-and-openai-just-rewrote-the-cybersecurity-playbook/"
+    },
+    {
+      "title": "Cloudflare Agents Week：AI Gateway统一推理层 + Sandboxes GA",
+      "date": "2026-04-16",
+      "summary": "Cloudflare在Agents Week期间宣布将AI Gateway构建为统一推理层，支持14+提供商模型调用，同时Cloudflare Sandboxes正式GA，为AI Agent提供持久隔离环境。",
+      "link": "https://www.shashi.co/2026/04/cloudflare-agents-week-infrastructure.html"
+    },
+    {
+      "title": "GLM-5.1开源编码模型：在SWE-Bench Pro上以58.4分超越GPT-5.4和Claude Opus",
+      "date": "2026-04-07",
+      "summary": "Z.ai开源GLM-5.1模型，754B参数MoE架构，可自主运行8小时完成复杂编码任务，MIT许可证。在SWE-Bench Pro上以58.4分超越GPT-5.4、Opus 4.6和Gemini 3.1 Pro，X平台AI社区广泛转发。",
+      "link": "https://www.buildfastwithai.com/blogs/glm-5-1-code-arena-open-source-2026"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Cloudflare Agents Week 2026：AI基础设施的全面升级",
+      "date": "2026-04-16",
+      "summary": "Cloudflare举办Agents Week活动，发布AI Platform统一推理层、Sandboxes GA、Project Think下一代AI Agent构建方案、Unweight无损推理压缩等多项重磅更新。",
+      "link": "https://www.cloudflare.com/agents-week/"
+    },
+    {
+      "title": "OpenAI发布GPT-Rosalind：生命科学AI模型引发开发者讨论",
+      "date": "2026-04-17",
+      "summary": "OpenAI发布专为生命科学和药物研发设计的GPT-Rosalind模型，在开发者社区引发关于垂直领域AI模型可行性和应用前景的广泛讨论。",
+      "link": "https://venturebeat.com/technology/openai-debuts-gpt-rosalind-a-new-limited-access-model-for-life-sciences-and-broader-codex-plugin-on-github"
+    },
+    {
+      "title": "Databricks Agent Bricks平台发布：企业级Agent治理方案",
+      "date": "2026-04-14",
+      "summary": "Databricks发布Agent Bricks企业级Agent平台，通过Unity Catalog和AI Gateway统一管理模型、编码Agent和MCP连接工具的访问控制、权限和可观测性。",
+      "link": "https://www.databricks.com/blog/agent-bricks-governed-enterprise-agent-platform"
+    }
+  ],
+  "github": [
+    {
+      "title": "GLM-5.1开源：首个在Code Arena进入前三的开源权重模型",
+      "date": "2026-04-07",
+      "summary": "Z.ai开源GLM-5/GLM-5.1系列模型，754B MoE架构，支持8小时自主编码，MIT许可证。Z.ai开发者文档提供完整API指南和部署方案。",
+      "link": "https://www.mindstudio.ai/blog/what-is-glm-5-1-open-source-coding-model-4"
+    },
+    {
+      "title": "danielmiessler/Personal_AI_Infrastructure — 基于Claude Code的个人AI基础设施",
+      "date": "2026-04-10",
+      "summary": "Daniel Miessler发布的PAI项目，利用Claude Code的hook系统、上下文管理和Agent架构构建个人AI基础设施层，放大人类能力的Agentic AI方案。",
+      "link": "https://github.com/danielmiessler/Personal_AI_Infrastructure"
+    },
+    {
+      "title": "ruvnet/RuVector — Rust构建的高性能实时自学习向量GNN记忆数据库",
+      "date": "2026-04-14",
+      "summary": "RuVector是用Rust构建的高性能实时自学习向量GNN记忆数据库，支持低延迟LLM推理、图神经网络和AI OCR，在GitHub Trending上受到关注。",
+      "link": "https://github.com/ruvnet/ruvector"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
+      "date": "2026-04-17",
+      "summary": "Cloudflare发布AI推理平台，为AI Agent设计的统一推理层。Hacker News热帖引发关于Cloudflare Workers AI绑定、数据库部署和推理优化等技术讨论。",
+      "link": "https://news.ycombinator.com/item?id=47792538"
+    },
+    {
+      "title": "Meta targets May 20 for first wave of layoffs — additional cuts later in 2026",
+      "date": "2026-04-17",
+      "summary": "Reuters报道Meta计划5月20日开始大规模裁员，约10%员工受影响。Hacker News社区热议AI驱动的裁员趋势和科技行业workforce变化。",
+      "link": "https://news.ycombinator.com/item?id=47793544"
+    },
+    {
+      "title": "OpenAI launches GPT-Rosalind for life sciences research",
+      "date": "2026-04-17",
+      "summary": "OpenAI发布专为生命科学设计的GPT-Rosalind模型，Hacker News上引发关于AI在生物和药物研发领域应用的讨论，包括对专业模型的可行性分析。",
+      "link": "https://news.ycombinator.com/item?id=47791286"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Meta targets May 20 for first wave of layoffs — r/cscareerquestions热议",
+      "date": "2026-04-17",
+      "summary": "Reuters报道Meta裁员计划后，r/cscareerquestions社区引发大量讨论。开发者们讨论AI替代人力趋势、裁员赔偿和职业转型策略。",
+      "link": "https://www.reddit.com/r/cscareerquestions/comments/1sodf04/meta_targets_may_20_for_first_wave_of_layoffs/"
+    },
+    {
+      "title": "The most valuable AI skill in 2026 isn't building — it's selling",
+      "date": "2026-04-15",
+      "summary": "r/ArtificialInteligence社区热议：2026年最有价值的AI技能不是构建，而是向不懂AI的人推销你构建的产品。讨论涉及AI商业化落地和销售能力。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1slutoq/the_most_valuable_ai_skill_in_2026_isnt_building/"
+    },
+    {
+      "title": "How to become AI Engineer in 2026? — r/learnmachinelearning",
+      "date": "2026-04-13",
+      "summary": "r/learnmachinelearning社区讨论2026年如何成为AI工程师，社区成员分享学习路径、项目实践和求职经验，反映AI工程技能需求的快速变化。",
+      "link": "https://www.reddit.com/r/learnmachinelearning/comments/1skaknd/how_to_become_ai_engineer_in_2026/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Adobe Firefly AI Assistant — 跨Creative Cloud的创意Agent",
+      "date": "2026-04-15",
+      "summary": "Adobe发布Firefly AI Assistant，可在Photoshop、Premiere、Lightroom、Illustrator等Creative Cloud应用间执行复杂多步骤工作流，公测即将开放。AI Agent正式进入创意工作流。",
+      "link": "https://news.adobe.com/news/2026/04/adobe-new-creative-agent"
+    },
+    {
+      "title": "Canva AI 2.0 — 从设计工具到AI设计平台",
+      "date": "2026-04-16",
+      "summary": "Canva在Create 2026大会上发布AI 2.0，从设计平台转型为AI平台。支持持久记忆、自然语言编辑、第三方集成（Gmail、Slack、Zoom），并收购Simtheory和Ortto增强Agent能力。",
+      "link": "https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/"
+    },
+    {
+      "title": "OpenAI Agents SDK更新 — 支持更复杂的企业级Agent构建",
+      "date": "2026-04-15",
+      "summary": "OpenAI更新Agents SDK，新增可配置记忆、沙盒感知编排、Codex风格文件系统工具等能力，支持构建更复杂的企业级Agent，标准化集成正在成为前沿Agent系统的通用基础。",
+      "link": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Databricks Agent Bricks + AI Gateway MCP治理 — 企业级Agent治理方案",
+      "date": "2026-04-14",
+      "summary": "Databricks发布Agent Bricks企业Agent平台和AI Gateway MCP治理功能，统一管理模型、编码Agent和MCP工具的访问控制。通过Unity Catalog实现权限继承和完整可观测性。",
+      "link": "https://www.databricks.com/blog/agent-bricks-governed-enterprise-agent-platform"
+    },
+    {
+      "title": "Cloudflare Agents Week：AI Gateway + Sandboxes + Project Think",
+      "date": "2026-04-16",
+      "summary": "Cloudflare在Agents Week发布多项Agent基础设施更新：AI Gateway统一推理层（14+提供商）、Sandboxes GA（Agent持久隔离环境）、Project Think下一代Agent方案、Unweight无损压缩（22%模型体积缩减）。",
+      "link": "https://blog.cloudflare.com/ai-platform/"
+    },
+    {
+      "title": "GLM-5.1开源：8小时自主编码Agent，MIT许可证",
+      "date": "2026-04-07",
+      "summary": "Z.ai开源GLM-5.1模型，754B参数MoE架构，可自主运行8小时完成规划-执行-分析-优化闭环，在SWE-Bench Pro上以58.4分超越GPT-5.4和Claude Opus 4.6，MIT许可证开放使用。",
+      "link": "https://www.progressiverobot.com/2026/04/15/what-is-glm-5-1/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Meta大规模裁员：AI重塑硅谷岗位，8000人5月20日起被裁",
+      "date": "2026-04-17",
+      "summary": "Meta计划5月20日启动第一波裁员，约8000名员工（10% workforce）受影响，主要为软件开发者。Reuters独家报道显示AI正在推动硅谷最大规模的人力结构重塑，后续裁员将在2026年继续。",
+      "link": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+    },
+    {
+      "title": "OpenAI估值遭投资者质疑：8520亿美元是否合理？",
+      "date": "2026-04-14",
+      "summary": "TheNextWeb报道，OpenAI部分投资者对其8520亿美元估值产生质疑。公司半年内两次修改产品路线图，转向企业客户以应对Anthropic的竞争，预计最早2026年Q4 IPO。",
+      "link": "https://thenextweb.com/news/openai-852-billion-valuation-investor-scrutiny-anthropic-revenue"
+    },
+    {
+      "title": "AI安全攻防新纪元：Anthropic封锁Mythos vs OpenAI开放GPT-5.4-Cyber",
+      "date": "2026-04-15",
+      "summary": "PYMNTS报道对比了两家公司的安全策略：Anthropic将最强大的AI模型封锁在防御联盟内，OpenAI则将其网络安全版本交给数千名经过审核的防御者。两种截然不同的AI安全路线引发硅谷广泛关注。",
+      "link": "https://www.pymnts.com/cybersecurity/2026/anthropic-and-openai-just-rewrote-the-cybersecurity-playbook/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "智元机器人2026合作伙伴大会：4款本体新品 + 4个AI大模型发布",
+      "date": "2026-04-17",
+      "summary": "智元机器人举办2026合作伙伴大会，发布4款本体新品、4个AI大模型、7大解决方案及开放数据集。智元合伙人表示2026年具身智能正式迈入部署态，已从实验室概念走向真实产线价值创造。",
+      "link": "https://finance.sina.com.cn/roll/2026-04-16/doc-inhusviy2780248.shtml"
+    },
+    {
+      "title": "扣子（Coze）2.5发布：Agent World平台给AI Agent配云电脑+云手机+独立邮箱",
+      "date": "2026-04-10",
+      "summary": "字节跳动旗下扣子发布2.5版本，推出Agent World平台，为AI Agent配备云电脑（运行代码和处理文件）、云手机（操作Android App）、独立邮箱身份等全套运行基座，标志着AI Agent从自动化工具向独立数字伙伴进化。",
+      "link": "https://www.yumiok.com/archives/6026.html"
+    },
+    {
+      "title": "阿里云、腾讯云、百度智能云集体上调AI算力价格，最高涨幅34%",
+      "date": "2026-04-09",
+      "summary": "国内三大云服务商集体上调AI算力价格，腾讯云自5月9日起上调5%，阿里云上调5%-34%，百度智能云上调5%-30%。涨价系全球AI需求爆发和核心硬件供应链成本上涨，标志着行业进入成本转嫁新阶段。",
+      "link": "https://news.softunis.com/55956.html"
+    }
+  ]
+}
