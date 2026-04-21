@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月21日星期二</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月21日星期二</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Soul Player C64：在1 MHz Commodore 64上运行Transformer</h3>
+      <div class="meta">👤 </div>
+      <p>在未经改装的1 MHz Commodore 64上实现2层纯解码器Transformer，使用约25000个int8参数，完全存储在软盘上。实现真正的多头因果自注意力和softmax，每秒约1个token，证明LLM原理可缩减到最受限环境。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-soul-player-c64-implementing-a-real-25000-parameter-transformer-on-a-1-mhz-commodore-64" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. RuView：用WiFi信号实现人体姿态估计和生命体征监测</h3>
+      <div class="meta">👤 </div>
+      <p>ruvnet开发的RuView利用商用WiFi信号实现人体姿态估计、生命体征监测和存在检测，无需传统摄像头。通过WiFi DensePose技术，实现高保真人体活动跟踪同时保护隐私。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-ruview-transforming-commercial-wifi-signals-into-real-time-human-pose-estimation-and-vital-sign-moni" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Noetik用自回归Transformer解决癌症临床试验95%失败率</h3>
+      <div class="meta">👤 </div>
+      <p>Noetik将癌症临床试验高失败率重新定义为&quot;匹配问题&quot;，利用TARIO-2自回归Transformer模型桥接实验治疗与成功临床结果。认为问题不在于治疗本身，而在于缺乏精确匹配。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-how-noetik-uses-autoregressive-transformers-to-address-the-95-failure-rate-in-cancer-clinical-trials" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Bill Peebles在X发文致谢OpenAI：Sora是只能在OpenAI诞生的项目</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-17</div>
+      <p>Bill Peebles在X上发文感谢Sam Altman等人提供的研究环境，称Sora是'只能在OpenAI诞生的项目'，表示'培养熵是研究实验室长期繁荣的唯一方式'。</p>
+  <a class="link" href="https://x.com/billpeeb/status/2045225014807670949" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI宣布GPT-Rosalind系列模型，助力生命科学研究</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-17</div>
+      <p>在Kevin Weil离职的同一，OpenAI宣布新的GPT-Rosalind系列AI模型，专为生命科学研究人员设计，帮助科学家更快地开展工作。这是OpenAI转向聚焦企业用途和科学研究的重要信号。</p>
+  <a class="link" href="https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Vercel发布安全公告：第三方AI工具的OAuth应用被入侵</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-19</div>
+      <p>Vercel发布详细安全公告，确认攻击源自第三方AI工具的Google Workspace OAuth应用被入侵。公告包含IOC指标帮助社区排查恶意活动，建议Google Workspace管理员立即检查该应用。</p>
+  <a class="link" href="https://vercel.com/kb/bulletin/vercel-april-2026-security-incident" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Gemini Chrome集成扩展至7个亚太国家</h3>
+      <div class="meta">💬 </div>
+      <p>Google将Gemini AI集成扩展到Chrome的七个新国家：澳大利亚、印尼、日本、菲律宾、新加坡、韩国和越南。覆盖桌面端和iOS平台，是Google全球化AI工具的重要一步。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-google-expands-gemini-integration-in-chrome-across-seven-new-countries-including-australia-and-singa" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Microsoft Research探讨AI与全球环境可持续发展的交集</h3>
+      <div class="meta">💬 </div>
+      <p>Microsoft Research播客中，Doug Burger、Amy Luers和Ishai Menache讨论AI能否被用于创造更可持续的世界。探索AI计算需求与其优化全球系统能力之间的平衡。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-microsoft-research-explores-the-intersection-of-artificial-intelligence-and-global-environmental-sus" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. deepseek-ai/DeepGEMM — 高效FP8 GEMM内核</h3>
+      
+      <p>DeepSeek推出的DeepGEMM项目，提供干净高效的FP8 GEMM内核和细粒度缩放。总计6,907星，为AI推理性能优化提供了重要的底层计算加速方案。</p>
+  <a class="link" href="https://github.com/deepseek-ai/DeepGEMM" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. microsoft/markitdown — 文件转Markdown的Python工具</h3>
+      
+      <p>Microsoft开源Python工具，将各种文件和办公文档转换为Markdown格式。为AI处理和数据管道提供统一的文档格式转换方案。本周新增7,084星，总计113,713星。</p>
+  <a class="link" href="https://github.com/microsoft/markitdown" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Fincept-Corporation/FinceptTerminal — 现代金融分析终端</h3>
+      
+      <p>FinceptTerminal是现代化金融应用，提供高级市场分析、投资研究和经济数据工具。今日新增3,109星，总计10,594星。支持交互式探索和数据驱动决策。</p>
+  <a class="link" href="https://github.com/Fincept-Corporation/FinceptTerminal" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Soul Player C64：在Commodore 64上实现25000参数Transformer</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>在1 MHz Commodore 64上运行2层纯解码器Transformer，使用约25000个int8参数，完全存储在软盘上。实现真正的多头因果自注意力。每秒约1个token。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-soul-player-c64-implementing-a-real-25000-parameter-transformer-on-a-1-mhz-commodore-64" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Kimi开源Vendor Verifier解决推理提供商准确性问题</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Kimi因社区反馈基准测试异常而开源KVV工具，包含6个关键基准测试用于验证API参数约束，区分模型本身缺陷与基础设施故障，重建开源模型生态信任链。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-kimi-open-sources-vendor-verifier-to-ensure-accuracy-across-ai-inference-providers-and-rebuild-ecosy" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI生成文本的标志性语法模式识别</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>&quot;It's not just this — it's that&quot;句式已成为AI生成文本的决定性标志，揭示了当前AI写作风格的可预测性和可识别性。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-the-rise-of-repetitive-ai-syntax-how-the-its-not-just-this-its-that-construction-signals-synthetic-c" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic发布Claude Opus 4.7与Claude Design</h3>
+      <div class="meta">reddit: </div>
+      <p>Anthropic推出Claude Opus 4.7和Claude Design设计产品。Opus 4.7在复杂编码任务上提升显著，Claude Design允许用户创建设计、原型和营销材料，面向付费订阅用户开放。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google Photos推出AI面部修饰工具</h3>
+      <div class="meta">reddit: </div>
+      <p>Google在Photos图像编辑器中推出面部修饰工具，支持美白牙齿、平滑皮肤瑕疵等微妙增强。面向全球推出，需Android 9.0以上且至少4GB RAM。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-google-photos-launches-new-subtle-face-touch-up-tools-for-enhanced-portrait-editing-on-android" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude Desktop Debian移植项目让Linux用户也能用Claude桌面</h3>
+      <div class="meta">reddit: </div>
+      <p>aaddrick开发的claude-desktop-debian项目，提供专门的构建脚本将官方Claude Windows应用重新打包为Debian系Linux发行版安装包，满足Linux社区对官方AI桌面客户端的需求。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-20-new-open-source-project-brings-claude-desktop-experience-to-debian-based-linux-distributions" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI openai-agents-python — 官方多Agent工作流SDK</h3>
+      
+      <p>OpenAI官方轻量级Python多Agent工作流框架，为复杂AI系统中多个Agent的交互提供标准化编排工具。PyPI可直接安装，专注轻量架构。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-openai-releases-lightweight-python-sdk-for-advanced-multi-agent-ai-workflows" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. T3 Code — 支持Codex和Claude的极简编程Agent Web UI</h3>
+      
+      <p>pingdotgg推出的开源项目，为编程Agent提供极简Web图形界面，支持Codex和Claude，正在开发更多模型支持。增强AI编程工作流的可访问性。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-t3-code-a-minimalist-web-interface-for-programming-agents-supporting-codex-and-claude" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Microsoft MarkItDown — 文件转Markdown工具</h3>
+      
+      <p>Microsoft开源Python工具，将各种文件和办公文档转换为Markdown格式。为AI处理和数据管道提供统一的文档格式转换方案。本周新增7,084星。</p>
+  <a class="link" href="https://github.com/microsoft/markitdown" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI openai-agents-python — 官方多Agent工作流框架</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenAI推出的openai-agents-python轻量级多Agent工作流框架，为复杂AI系统中多个Agent的交互提供官方标准编排工具，已在PyPI上线。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-openai-releases-lightweight-python-sdk-for-advanced-multi-agent-ai-workflows" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. paperless-ngx/paperless-ngx — 社区驱动文档管理系统</h3>
+      <div class="meta">🤖 </div>
+      <p>社区支持的文档管理系统，专注于扫描、索引和归档文档。帮助用户过渡到无纸化环境。强调可访问性和组织性。</p>
+  <a class="link" href="https://github.com/paperless-ngx/paperless-ngx" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. koala73/worldmonitor — 实时全球情报AI仪表板</h3>
+      <div class="meta">🤖 </div>
+      <p>AI驱动的全球情报仪表板，支持新闻聚合、地缘政治监控和基础设施跟踪的统一态势感知界面。总计50,649星，今日新增316星。</p>
+  <a class="link" href="https://github.com/koala73/worldmonitor" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Amazon追加50亿美元投资Anthropic，Anthropic承诺1000亿美元AWS支出</h3>
+      <div class="meta">📅 2026-04-20</div>
+      <p>亚马逊向Anthropic追加50亿美元投资，进一步巩固在Claude系列模型中的股权。Anthropic承诺在AWS上投入1000亿美元基础设施支出，凸显AI领域&quot;循环投资&quot;趋势——云提供商向AI公司注资，AI公司则在云上大规模部署。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-amazon-invests-5-billion-in-anthropic-as-ai-startup-pledges-100-billion-in-aws-cloud-spending" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic发布Claude Opus 4.7，同步推出Claude Design设计产品</h3>
+      <div class="meta">📅 2026-04-17</div>
+      <p>Anthropic发布最新通用可用模型Claude Opus 4.7，在高级软件工程任务上较Opus 4.6显著提升。同步推出Claude Design设计产品，面向付费订阅用户开放研究预览，用户可创建原型、营销材料和演示文稿。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI发布官方openai-agents-python SDK：轻量级多Agent工作流框架</h3>
+      <div class="meta">📅 2026-04-20</div>
+      <p>OpenAI推出openai-agents-python轻量级多Agent工作流SDK，为复杂AI系统中多个Agent的交互提供官方标准编排工具，已在PyPI上线，专注于轻量架构避免复杂编排库的性能开销。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-openai-releases-lightweight-python-sdk-for-advanced-multi-agent-ai-workflows" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 美联储主席与财政部长紧急召集银行CEO讨论Anthropic Mythos风险</h3>
+      <div class="meta">📅 2026-04-10</div>
+      <p>美联储主席鲍威尔和财政部长贝森特在华盛顿紧急召集美国各大银行CEO讨论Mythos可能带来的网络安全风险。JPMorgan的Jamie Dimon未能出席。银行CEO们在财政部参加了会议，这是Mythos引发金融系统关注的重要信号。</p>
+  <a class="link" href="https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. AI生成文本的标志性语法模式：'It's not just this, it's that'</h3>
+      <div class="meta">📅 2026-04-20</div>
+      <p>&quot;It's not just this — it's that&quot;句式已成为AI生成文本的决定性标志。这种句法模式在大语言模型中的广泛采用使其成为合成写作的主要指标，揭示了当前AI写作风格的可预测性。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-the-rise-of-repetitive-ai-syntax-how-the-its-not-just-this-its-that-construction-signals-synthetic-c" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Claude Desktop Debian移植项目让Linux用户也能用Claude桌面</h3>
+      <div class="meta">📅 2026-04-20</div>
+      <p>aaddrick开发的claude-desktop-debian项目，提供专门的构建脚本将官方Claude Windows应用重新打包为Debian系Linux发行版安装包，满足Linux社区对官方AI桌面客户端的需求。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-20-new-open-source-project-brings-claude-desktop-experience-to-debian-based-linux-distributions" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. Google Photos推出AI面部修饰工具</h3>
+      <div class="meta">📅 2026-04-20</div>
+      <p>Google在Photos图像编辑器中推出面部修饰工具，支持美白牙齿、平滑皮肤瑕疵等微妙增强。面向全球推出，需Android 9.0以上且至少4GB RAM。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-google-photos-launches-new-subtle-face-touch-up-tools-for-enhanced-portrait-editing-on-android" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 硅谷精英与普通用户需求脱节：AI热潮中的反思</h3>
+      
+      <p>The Verge撰文指出，科技圈内人士在使用LLM后发现基本常识时的兴奋，反映出硅谷越来越脱离普通用户实际需求。从NFT到元宇宙再到AI，技术精英的热情往往忽视基本的人类体验。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-silicon-valleys-disconnect-why-tech-insiders-are-losing-touch-with-the-needs-of-average-users" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Amazon-Anthropic 1000亿美元交易：AI领域的&quot;循环投资&quot;模式</h3>
+      
+      <p>亚马逊向Anthropic追加50亿美元投资，Anthropic承诺1000亿美元AWS支出。这种&quot;循环投资&quot;模式——云提供商注资AI公司，AI公司反过来在云上大规模消费——正在成为AI行业的新常态。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-amazon-invests-5-billion-in-anthropic-as-ai-startup-pledges-100-billion-in-aws-cloud-spending" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Microsoft Research探讨AI与全球环境可持续发展</h3>
+      
+      <p>Microsoft Research播客中，三位专家讨论AI在应对环境挑战中的潜力。探索AI计算需求与其优化全球系统能力之间的平衡，展现微软在AI可持续性方面的研究布局。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-microsoft-research-explores-the-intersection-of-artificial-intelligence-and-global-environmental-sus" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Kimi开源Vendor Verifier，重建开源模型生态信任链</h3>
+      
+      <p>月之暗面(Kimi)在发布K2.6模型后，针对社区反馈的基准测试异常，开源Kimi Vendor Verifier(KVV)。包含6个关键基准测试，区分模型缺陷与第三方推理基础设施偏差。</p>
+  <a class="link" href="https://aitoolly.com/en/ai-news/article/2026-04-21-kimi-open-sources-vendor-verifier-to-ensure-accuracy-across-ai-inference-providers-and-rebuild-ecosy" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek推出DeepGEMM：高效FP8 GEMM内核</h3>
+      
+      <p>DeepSeek推出的DeepGEMM项目，提供干净高效的FP8 GEMM内核和细粒度缩放方案。总计6,907星，为AI推理性能优化提供了重要的底层计算加速方案。</p>
+  <a class="link" href="https://github.com/deepseek-ai/DeepGEMM" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:38 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
