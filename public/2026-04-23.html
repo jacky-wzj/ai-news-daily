@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月23日星期四</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月23日星期四</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. LLaDA2.0-Uni：统一多模态理解与生成的扩散大语言模型</h3>
+      <div class="meta">👤 </div>
+      <p>inclusionAI团队提出LLaDA2.0-Uni，使用扩散大语言模型统一多模态理解和生成任务。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.20796" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Near-Future Policy Optimization</h3>
+      <div class="meta">👤 </div>
+      <p>提出近未来策略优化方法，由Dingyu Yao等9位作者研究。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.20733" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DR-Venus：面向前沿边缘级深度研究Agent，仅需10K开放数据</h3>
+      <div class="meta">👤 </div>
+      <p>inclusionAI团队提出DR-Venus，仅使用10K开放数据训练面向边缘设备的前沿深度研究Agent。</p>
+  <a class="link" href="https://huggingface.co/papers/2604.19859" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Elon Musk转发：中国支持轨道数据中心初创企业84亿美元信贷额度</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-22</div>
+      <p>Elon Musk在X上转发SpaceNews报道，标注Interesting Quote——中国以84亿美元信贷支持轨道数据中心初创企业。该推文获6.5万赞、8100次转发、2400万次浏览。</p>
+  <a class="link" href="https://x.com/elonmusk/status/2046981493197586714" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 美国参议员Warren警告：AI产业泡沫可能引发新的金融危机</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-23</div>
+      <p>参议员Warren警告AI产业面临类似2008年金融危机的风险，指出AI公司收入增长跟不上支出增长，健康状况堪忧。</p>
+  <a class="link" href="https://www.aibase.com/news/27398" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 字节跳动发布新型3D生成模型Seed3D 2.0，技术达SOTA水平</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-23</div>
+      <p>字节跳动推出新一代3D生成模型Seed3D 2.0，技术水平达到行业最优。</p>
+  <a class="link" href="https://www.aibase.com/news/27397" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic推出Claude Design可视化创作工具引发设计社区讨论</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic发布Claude Design面向快速视觉创作的新产品，其CPO随后离开Figma董事会，引发设计圈关于AI设计工具竞争的热议。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Our newsroom AI policy - Ars Technica的编辑室AI使用政策</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Ars Technica公开了新闻编辑室的AI使用政策，讨论AI在新闻采编中的边界和规范。46分，29条评论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47872452" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Website streamed live directly from a model - 模型直接直播生成网站</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>flipbook.page实现了模型直接流式生成并直播网站的技术演示。274分，77条评论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47867048" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Over-editing：模型修改代码超出必要范围的问题</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>nrehiew.github.io发文定义并分析了AI编码助手的过度编辑问题——模型修改超出必要范围的代码。361分，206条评论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47866913" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google推出企业级Agent构建工具</h3>
+      
+      <p>Google面向企业用户推出新的Agent构建工具，帮助企业在Workspace生态中快速搭建AI Agent。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Bring Your Own Agent to MS Teams - 微软开放Teams Agent集成</h3>
+      
+      <p>微软发布Teams SDK更新，允许企业将自定义Agent集成到MS Teams中。59分，47条评论。</p>
+  <a class="link" href="https://microsoft.github.io/teams-sdk/blog/bring-your-agent-to-teams/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google将Chrome变成工作场所AI协作者</h3>
+      <div class="meta">🤖 </div>
+      <p>Google通过AI功能升级Chrome浏览器，将其变为职场AI协作者，可辅助日常办公任务。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Cloud发布两款新TPU，专为AI Agent时代设计</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>Google推出新一代Tensor AI芯片，分别针对推理和训练场景，专为AI Agent时代优化性能，直接与Nvidia竞争。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Amazon向Anthropic投资50亿美元，Anthropic将大量采购Amazon自研芯片</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>Anthropic获得Amazon 50亿美元投资，并获取5GW的Amazon Trainium3定制硅产能，以应对Claude需求的飙升。</p>
+  <a class="link" href="https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic测试从Pro计划中移除Claude Code以应对需求过载</h3>
+      <div class="meta">📅 2026-04-23</div>
+      <p>Claude Code需求不可持续地增长，Anthropic正在探索新的服务配额方案，包括考虑从Pro计划中移除Claude Code。</p>
+  <a class="link" href="https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. SpaceX以600亿美元收购要约阻止竞争对手20亿美元融资</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>SpaceX提出600亿美元收购方案，抢先阻止了一家竞争对手计划的20亿美元融资。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Meta使用员工追踪软件数据来训练AI Agent</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>Meta计划利用员工跟踪软件的交互数据来训练AI Agent，突显了寻找高质量交互式训练数据的困难。</p>
+  <a class="link" href="https://arstechnica.com/ai/2026/04/meta-will-use-employee-tracking-software-to-help-train-ai-agents-report/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Anthropic的Mythos AI模型在Firefox 150中发现271个零日漏洞</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>Mozilla披露Anthropic的Mythos安全AI模型在Firefox 150中发现了271个零日漏洞，CTO称该模型能力与世界顶级安全研究员相当。</p>
+  <a class="link" href="https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. OpenAI与Infosys合作将AI工具推广至更多企业</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>OpenAI与印度IT巨头Infosys达成合作，面向更多企业客户提供AI工具和服务。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Cloud发布新TPU挑战Nvidia，专为AI Agent时代设计</h3>
+      
+      <p>Google推出两款新一代TPU芯片，分别面向推理和训练，直接与Nvidia在AI芯片市场展开竞争。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic获Amazon 50亿美元投资，加速Trainium芯片采购</h3>
+      
+      <p>Amazon向Anthropic投资50亿美元，Anthropic将获得5GW的Trainium3定制硅产能，深化双方合作。</p>
+  <a class="link" href="https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 参议员Warren警告AI产业泡沫：可能引发新一轮金融危机</h3>
+      
+      <p>美国参议员Warren警告AI产业高杠杆融资风险，收入增长跟不上支出增长，可能重演2008年危机。</p>
+  <a class="link" href="https://www.aibase.com/news/27398" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI发布20颗HBM内存堆栈芯片专利</h3>
+      
+      <p>OpenAI新专利展示了拥有20颗HBM内存堆栈的计算芯片组，通过嵌入式逻辑桥接器突破HBM封装距离限制，显著提升内存容量以应对更大规模AI模型。</p>
+  <a class="link" href="https://www.cls.cn/detail/2353518" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 国家知识产权局：完善AI等新兴领域知识产权保护制度</h3>
+      
+      <p>国家知识产权局已修改专利审查指南，完善AI专利申请审查标准，增加伦理考虑和判断，并积极参与全球AI知识产权治理。</p>
+  <a class="link" href="https://www.cls.cn/detail/2353531" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 阿里巴巴Qwen首次向东方航空开放Agent技术</h3>
+      
+      <p>彭博报道，阿里巴巴的AI助手Qwen首次向东方航空公司开放Agent技术访问权限，推动航空业AI应用。</p>
+  <a class="link" href="https://www.aibase.com/news/27401" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:34 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

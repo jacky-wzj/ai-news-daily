@@ -1,0 +1,228 @@
+{
+  "date": "2026-04-23",
+  "insights": [
+    {
+      "title": "Google Cloud发布两款新TPU，专为AI Agent时代设计",
+      "date": "2026-04-22",
+      "summary": "Google推出新一代Tensor AI芯片，分别针对推理和训练场景，专为AI Agent时代优化性能，直接与Nvidia竞争。",
+      "link": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/"
+    },
+    {
+      "title": "Amazon向Anthropic投资50亿美元，Anthropic将大量采购Amazon自研芯片",
+      "date": "2026-04-22",
+      "summary": "Anthropic获得Amazon 50亿美元投资，并获取5GW的Amazon Trainium3定制硅产能，以应对Claude需求的飙升。",
+      "link": "https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips/"
+    },
+    {
+      "title": "Anthropic测试从Pro计划中移除Claude Code以应对需求过载",
+      "date": "2026-04-23",
+      "summary": "Claude Code需求不可持续地增长，Anthropic正在探索新的服务配额方案，包括考虑从Pro计划中移除Claude Code。",
+      "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/"
+    },
+    {
+      "title": "SpaceX以600亿美元收购要约阻止竞争对手20亿美元融资",
+      "date": "2026-04-22",
+      "summary": "SpaceX提出600亿美元收购方案，抢先阻止了一家竞争对手计划的20亿美元融资。",
+      "link": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/"
+    },
+    {
+      "title": "Meta使用员工追踪软件数据来训练AI Agent",
+      "date": "2026-04-22",
+      "summary": "Meta计划利用员工跟踪软件的交互数据来训练AI Agent，突显了寻找高质量交互式训练数据的困难。",
+      "link": "https://arstechnica.com/ai/2026/04/meta-will-use-employee-tracking-software-to-help-train-ai-agents-report/"
+    },
+    {
+      "title": "Anthropic的Mythos AI模型在Firefox 150中发现271个零日漏洞",
+      "date": "2026-04-22",
+      "summary": "Mozilla披露Anthropic的Mythos安全AI模型在Firefox 150中发现了271个零日漏洞，CTO称该模型能力与世界顶级安全研究员相当。",
+      "link": "https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/"
+    },
+    {
+      "title": "OpenAI与Infosys合作将AI工具推广至更多企业",
+      "date": "2026-04-22",
+      "summary": "OpenAI与印度IT巨头Infosys达成合作，面向更多企业客户提供AI工具和服务。",
+      "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "LLaDA2.0-Uni：统一多模态理解与生成的扩散大语言模型",
+      "date": "2026-04-23",
+      "summary": "inclusionAI团队提出LLaDA2.0-Uni，使用扩散大语言模型统一多模态理解和生成任务。",
+      "link": "https://huggingface.co/papers/2604.20796"
+    },
+    {
+      "title": "Near-Future Policy Optimization",
+      "date": "2026-04-23",
+      "summary": "提出近未来策略优化方法，由Dingyu Yao等9位作者研究。",
+      "link": "https://huggingface.co/papers/2604.20733"
+    },
+    {
+      "title": "DR-Venus：面向前沿边缘级深度研究Agent，仅需10K开放数据",
+      "date": "2026-04-23",
+      "summary": "inclusionAI团队提出DR-Venus，仅使用10K开放数据训练面向边缘设备的前沿深度研究Agent。",
+      "link": "https://huggingface.co/papers/2604.19859"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Elon Musk转发：中国支持轨道数据中心初创企业84亿美元信贷额度",
+      "date": "2026-04-22",
+      "summary": "Elon Musk在X上转发SpaceNews报道，标注Interesting Quote——中国以84亿美元信贷支持轨道数据中心初创企业。该推文获6.5万赞、8100次转发、2400万次浏览。",
+      "link": "https://x.com/elonmusk/status/2046981493197586714"
+    },
+    {
+      "title": "美国参议员Warren警告：AI产业泡沫可能引发新的金融危机",
+      "date": "2026-04-23",
+      "summary": "参议员Warren警告AI产业面临类似2008年金融危机的风险，指出AI公司收入增长跟不上支出增长，健康状况堪忧。",
+      "link": "https://www.aibase.com/news/27398"
+    },
+    {
+      "title": "字节跳动发布新型3D生成模型Seed3D 2.0，技术达SOTA水平",
+      "date": "2026-04-23",
+      "summary": "字节跳动推出新一代3D生成模型Seed3D 2.0，技术水平达到行业最优。",
+      "link": "https://www.aibase.com/news/27397"
+    }
+  ],
+  "discord": [
+    {
+      "title": "NousResearch hermes-agent登顶GitHub趋势，获11万+星",
+      "date": "2026-04-23",
+      "summary": "NousResearch的hermes-agent本周新增22,083星，总星数超过111,939，成为GitHub AI Agent项目新标杆，社区讨论热度极高。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "Claude Code自动记忆插件claude-mem引发社区热议",
+      "date": "2026-04-23",
+      "summary": "thedotmack开发的claude-mem自动捕获Claude编码会话中的上下文并压缩存储，本周新增8,739星，总星数66,064，解决了Agent会话记忆痛点。",
+      "link": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "title": "Anthropic推出Claude Design可视化创作工具引发设计社区讨论",
+      "date": "2026-04-17",
+      "summary": "Anthropic发布Claude Design面向快速视觉创作的新产品，其CPO随后离开Figma董事会，引发设计圈关于AI设计工具竞争的热议。",
+      "link": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
+    }
+  ],
+  "github": [
+    {
+      "title": "NousResearch/hermes-agent - 与你一起成长的Agent",
+      "date": "2026-04-23",
+      "summary": "The agent that grows with you。本周新增22,083星，总数111,939星，是当前GitHub最热门的AI Agent项目。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "thedotmack/claude-mem - Claude Code自动记忆插件",
+      "date": "2026-04-23",
+      "summary": "自动捕获Claude编码会话中的所有操作，用AI压缩存储，注入未来会话。本周新增8,739星，总数66,064星。",
+      "link": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "title": "EvoMap/evolver - GEP驱动的AI Agent自进化引擎",
+      "date": "2026-04-23",
+      "summary": "基于GEP的AI Agent自进化引擎，支持基因、胶囊和事件的可审计进化。本周新增4,364星，总数6,620星。",
+      "link": "https://github.com/EvoMap/evolver"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Our newsroom AI policy - Ars Technica的编辑室AI使用政策",
+      "date": "2026-04-23",
+      "summary": "Ars Technica公开了新闻编辑室的AI使用政策，讨论AI在新闻采编中的边界和规范。46分，29条评论。",
+      "link": "https://news.ycombinator.com/item?id=47872452"
+    },
+    {
+      "title": "Website streamed live directly from a model - 模型直接直播生成网站",
+      "date": "2026-04-23",
+      "summary": "flipbook.page实现了模型直接流式生成并直播网站的技术演示。274分，77条评论。",
+      "link": "https://news.ycombinator.com/item?id=47867048"
+    },
+    {
+      "title": "Over-editing：模型修改代码超出必要范围的问题",
+      "date": "2026-04-23",
+      "summary": "nrehiew.github.io发文定义并分析了AI编码助手的过度编辑问题——模型修改超出必要范围的代码。361分，206条评论。",
+      "link": "https://news.ycombinator.com/item?id=47866913"
+    }
+  ],
+  "reddit": [],
+  "tools": [
+    {
+      "title": "Google推出企业级Agent构建工具",
+      "date": "2026-04-22",
+      "summary": "Google面向企业用户推出新的Agent构建工具，帮助企业在Workspace生态中快速搭建AI Agent。",
+      "link": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/"
+    },
+    {
+      "title": "Bring Your Own Agent to MS Teams - 微软开放Teams Agent集成",
+      "date": "2026-04-23",
+      "summary": "微软发布Teams SDK更新，允许企业将自定义Agent集成到MS Teams中。59分，47条评论。",
+      "link": "https://microsoft.github.io/teams-sdk/blog/bring-your-agent-to-teams/"
+    },
+    {
+      "title": "voicebox - 开源AI语音工作室",
+      "date": "2026-04-23",
+      "summary": "jamiepine开源的AI语音工作室，支持声音克隆、语音听写和语音创作。本周新增4,495星，总数22,614星。",
+      "link": "https://github.com/jamiepine/voicebox"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Google将Chrome变成工作场所AI协作者",
+      "date": "2026-04-22",
+      "summary": "Google通过AI功能升级Chrome浏览器，将其变为职场AI协作者，可辅助日常办公任务。",
+      "link": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/"
+    },
+    {
+      "title": "NousResearch hermes-agent成为GitHub最火Agent项目",
+      "date": "2026-04-23",
+      "summary": "hermes-agent以与你一起成长为理念，本周新增超22K星，成为AI Agent赛道标杆项目。",
+      "link": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "title": "multica-ai：将编码Agent变成真正的团队成员",
+      "date": "2026-04-23",
+      "summary": "开源管理式Agent平台，支持分配任务、跟踪进度、复合技能，让编码Agent成为真正的团队成员。本周新增6,015星，总数19,787星。",
+      "link": "https://github.com/multica-ai/multica"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Google Cloud发布新TPU挑战Nvidia，专为AI Agent时代设计",
+      "date": "2026-04-22",
+      "summary": "Google推出两款新一代TPU芯片，分别面向推理和训练，直接与Nvidia在AI芯片市场展开竞争。",
+      "link": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/"
+    },
+    {
+      "title": "Anthropic获Amazon 50亿美元投资，加速Trainium芯片采购",
+      "date": "2026-04-22",
+      "summary": "Amazon向Anthropic投资50亿美元，Anthropic将获得5GW的Trainium3定制硅产能，深化双方合作。",
+      "link": "https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips/"
+    },
+    {
+      "title": "参议员Warren警告AI产业泡沫：可能引发新一轮金融危机",
+      "date": "2026-04-23",
+      "summary": "美国参议员Warren警告AI产业高杠杆融资风险，收入增长跟不上支出增长，可能重演2008年危机。",
+      "link": "https://www.aibase.com/news/27398"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "OpenAI发布20颗HBM内存堆栈芯片专利",
+      "date": "2026-04-23",
+      "summary": "OpenAI新专利展示了拥有20颗HBM内存堆栈的计算芯片组，通过嵌入式逻辑桥接器突破HBM封装距离限制，显著提升内存容量以应对更大规模AI模型。",
+      "link": "https://www.cls.cn/detail/2353518"
+    },
+    {
+      "title": "国家知识产权局：完善AI等新兴领域知识产权保护制度",
+      "date": "2026-04-23",
+      "summary": "国家知识产权局已修改专利审查指南，完善AI专利申请审查标准，增加伦理考虑和判断，并积极参与全球AI知识产权治理。",
+      "link": "https://www.cls.cn/detail/2353531"
+    },
+    {
+      "title": "阿里巴巴Qwen首次向东方航空开放Agent技术",
+      "date": "2026-04-23",
+      "summary": "彭博报道，阿里巴巴的AI助手Qwen首次向东方航空公司开放Agent技术访问权限，推动航空业AI应用。",
+      "link": "https://www.aibase.com/news/27401"
+    }
+  ]
+}
