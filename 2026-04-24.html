@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月24日星期五</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月24日星期五</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek-V4技术报告发布</h3>
+      <div class="meta">👤 </div>
+      <p>DeepSeek发布V4模型技术报告，详细介绍其百万上下文、双版本策略以及在数学、STEM、代码等领域的卓越表现。</p>
+  <a class="link" href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google DeepMind提出解耦DiLoCo：容忍硬件故障的异步训练架构</h3>
+      <div class="meta">👤 </div>
+      <p>Google DeepMind推出Decoupled DiLoCo分布式训练架构，将训练任务分配到多个异步学习单元。在高硬件故障率下仍保持88%的良好利用率，跨数据中心带宽需求从198Gbps降至0.84Gbps。</p>
+  <a class="link" href="https://www.aibase.com/news/27453" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 寒武纪宣布全系列适配DeepSeek-V4并开源优化代码</h3>
+      <div class="meta">👤 </div>
+      <p>寒武纪宣布全系列模型日0兼容DeepSeek-V4，并开源优化代码，推动高效AI模型运行。</p>
+  <a class="link" href="https://www.aibase.com/news/27450" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic高管Cat Wu谈AI发展引发的用户焦虑</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-24</div>
+      <p>Anthropic Claude Code产品负责人Cat Wu指出AI高速迭代导致FOMO，用户需要每天查看社交平台了解最新功能，她希望创建无压力产品让用户轻松跟上节奏。</p>
+  <a class="link" href="https://www.aibase.com/news/27459" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Perplexity CEO：AI不会取代iPhone，而是让它成为数字护照</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-24</div>
+      <p>Perplexity CEO Aravind Srinivas认为AI将使iPhone更加不可或缺，Apple Silicon是长期被低估的核心资产，边缘AI处理与Apple隐私理念完美契合。</p>
+  <a class="link" href="https://www.aibase.com/news/27451" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Cursor 50亿美元融资遭大型基金拒绝引发行业讨论</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-24</div>
+      <p>AI编程工具Cursor在寻求新一轮融资时遭遇阻碍，500亿美元估值被多家大型基金拒绝，反映AI编程市场已进入巨头整合阶段。</p>
+  <a class="link" href="https://www.aibase.com/news/27444" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek-V4发布引爆社区：百万上下文+极致定价</h3>
+      <div class="meta">💬 </div>
+      <p>DeepSeek-V4正式发布，百万token上下文、Flash版百万输入仅1元的定价策略在AI社区引发热议，被认为是开源AI领域的又一里程碑。</p>
+  <a class="link" href="https://www.aibase.com/news/27446" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google Cloud Next 2026：Gemini驱动的Siri大升级</h3>
+      <div class="meta">💬 </div>
+      <p>Google Cloud CEO在Cloud Next 2026主题演讲中展示Apple标志，宣布与Apple合作开发基于Gemini的下一代Apple Foundation Models，将驱动更个性化的Siri，预计iOS 27搭载。</p>
+  <a class="link" href="https://9to5mac.com/2026/04/22/google-teases-gemini-powered-siri-upgrade-during-cloud-next-keynote/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. BMW联合阿里云发布AI智能座舱助手，理解复杂出行需求</h3>
+      <div class="meta">💬 </div>
+      <p>北京车展上，BMW与阿里云联合推出三款面向中国市场的AI智能助手：出行伴侣、驾驶专家、知识大师。集成通义大模型与高德地图，支持自然语言规划复杂出行路线。</p>
+  <a class="link" href="https://www.aibase.com/news/27455" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. zilliztech/claude-context - Claude Code代码搜索MCP工具</h3>
+      
+      <p>让Claude Code可以使用整个代码库作为上下文。本周新增2,183星，总数8,708星。</p>
+  <a class="link" href="https://github.com/zilliztech/claude-context" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. mksglu/context-mode - AI编码Agent上下文窗口优化</h3>
+      
+      <p>AI编码Agent的上下文窗口优化工具。沙盒化工具输出，98%减少。支持12个平台。本周新增1,797星，总数9,650星。</p>
+  <a class="link" href="https://github.com/mksglu/context-mode" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. NV404/gova - Go语言的声明式GUI框架</h3>
+      
+      <p>Go语言的声明式GUI框架，Show HN项目。</p>
+  <a class="link" href="https://github.com/NV404/gova" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GPT-5.5发布</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>OpenAI发布GPT-5.5。1368分，900条评论，今日HN最热讨论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47879092" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. DeepSeek v4发布</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>DeepSeek正式发布新一代大模型DeepSeek-V4，百万上下文，极致定价。923分，566条评论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47884971" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Show HN: 如何理解LLM——基于Karpathy讲座的交互式可视化指南</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>基于Andrej Karpathy的&quot;大语言模型入门&quot;讲座制作的交互式网站，使用Claude Code从讲座转录生成，单HTML文件。27分。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47886517" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 腾讯云TokenHub上线DeepSeek-V4预览版，全面支持百万级上下文</h3>
+      
+      <p>腾讯云TokenHub平台上线DeepSeek-V4 API服务预览版，支持百万级上下文长度。国际站新加坡节点同步上线，ADP和EdgeOne服务也已集成。</p>
+  <a class="link" href="https://www.aibase.com/news/27458" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google 90%游戏开发者已在使用AI工具，Google Cloud高管披露行业现状</h3>
+      
+      <p>Google Cloud全球游戏负责人Jack Buser透露，至少90%的游戏开发者在使用AI工具，但许多开发者因担心批评选择不公开。Capcom使用Gemini生成小资产创意，Ubisoft要求所有岗位应聘者具备生成式AI经验。</p>
+  <a class="link" href="https://www.aibase.com/news/27449" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 斑马智行接入支付宝AI Pay车机版，补齐智能座舱关键一环</h3>
+      
+      <p>斑马智行与支付宝联合推出集成AI Pay车机版的智能座舱方案，用户可通过语音完成购票、订酒店、点餐等消费服务，实现从&quot;能听会说&quot;到&quot;能付能办&quot;的跨越。</p>
+  <a class="link" href="https://www.aibase.com/news/27454" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 腾讯云ADP平台深度集成DeepSeek-V4，快速构建智能Agent</h3>
+      <div class="meta">🤖 </div>
+      <p>腾讯云ADP（智能体开发平台）已深度集成DeepSeek-V4核心能力，用户可在平台上快速构建智能体，支持从配置到发布的全周期开发。</p>
+  <a class="link" href="https://www.aibase.com/news/27458" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. BMW AI智能座舱助手：从被动响应到主动决策</h3>
+      <div class="meta">🤖 </div>
+      <p>BMW联合阿里云推出三款AI智能助手，集成通义大模型与高德地图，支持自然语言理解复杂出行需求并即时生成个性化出行计划。</p>
+  <a class="link" href="https://www.aibase.com/news/27455" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 斑马智行AI座舱方案：以AI Agent为核心引擎重构车内支付</h3>
+      <div class="meta">🤖 </div>
+      <p>斑马智行以AI Agent为核心重构车内支付能力，基于元神AI自然语言理解，用户只需语音指令即可完成从服务激活到支付结算的完整流程。</p>
+  <a class="link" href="https://www.aibase.com/news/27454" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek-V4正式发布：性能逼近顶级闭源模型，百万上下文，百万token低至1元</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>DeepSeek正式推出新一代大模型DeepSeek-V4，整体性能达到与当前顶级闭源模型相当的水平。支持100万token超长上下文，提供Flash和Pro双版本。在数学、STEM、竞赛代码评测中超越所有已公开评测的开源模型。Agent能力显著提升，开源模型中最佳。定价震撼市场：Flash版百万token输入1元、输出2元；Pro版输入12元、输出24元。</p>
+  <a class="link" href="https://www.aibase.com/news/27446" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GPT-5.5在HN引发热议，1368分、900条评论</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>OpenAI正式发布GPT-5.5，在Hacker News上获得1368分、900条评论的超高热度，与同日发布的DeepSeek v4一起成为今日科技圈两大焦点。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47879092" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google宣布75%新代码由AI生成，AI免费时代正在终结</h3>
+      <div class="meta">📅 2026-04-23</div>
+      <p>Google CEO Sundar Pichai在Cloud Next 2026博客中表示，Google 75%的新代码由AI生成，较去年秋季的50%大幅提升。与此同时，The Verge报道AI免费服务时代正在结束——广告、速率限制、功能限制、价格上涨成为新常态。</p>
+  <a class="link" href="https://www.aibase.com/news/27449" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Perplexity CEO：AI将强化而非取代iPhone核心地位</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>Perplexity CEO Aravind Srinivas指出，AI发展不会颠覆智能手机市场，反而将iPhone变为不可或缺的&quot;数字护照&quot;。Apple Silicon是核心资产，边缘端处理模式与Apple隐私保护理念契合。</p>
+  <a class="link" href="https://www.aibase.com/news/27451" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Cohere与Aleph Alpha达成20亿美元跨大西洋AI合作</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>加拿大Cohere与德国Aleph Alpha宣布20亿美元合作伙伴关系，联合开发&quot;主权&quot;AI系统，建立不依赖美国或中国的AI架构，推动跨大西洋技术自主。</p>
+  <a class="link" href="https://www.aibase.com/news/27456" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Cursor 50亿美元融资遭大型科技投资者拒绝，OpenAI和Anthropic阴影笼罩</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>AI编程赛道核心公司Cursor在寻求新一轮融资时遭遇阻碍，500亿美元估值吓退多家后期科技投资机构。核心原因：全球头部资本已完成在AI领域的&quot;站队&quot;，Anthropic的Claude Code增长更强劲，投资者对Cursor能否在高度集中的竞争环境中突围存疑。</p>
+  <a class="link" href="https://www.aibase.com/news/27444" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. AI发展加速引发用户焦虑，Anthropic高管希望用户能轻松跟上</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>Anthropic Claude Code产品负责人Cat Wu指出，AI高速迭代导致用户产生FOMO情绪。过去产品每月或每季度发布一次，现在科技公司不断加速，用户需要每天查看社交平台了解最新功能。她希望创建&quot;无压力&quot;产品让用户轻松获取所需知识。</p>
+  <a class="link" href="https://www.aibase.com/news/27459" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GPT-5.5正式发布，HN单日热度破千</h3>
+      
+      <p>OpenAI发布GPT-5.5，在Hacker News获得1368分、900条评论，与DeepSeek v4同日发布，形成AI领域双雄对决格局。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=47879092" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google Cloud Next 2026：Gemini驱动Siri升级，75%代码由AI生成</h3>
+      
+      <p>Google Cloud Next 2026大会上，CEO Thomas Kurian展示与Apple合作开发基于Gemini的下一代Apple Foundation Models。Sundar Pichai透露Google 75%新代码由AI生成。</p>
+  <a class="link" href="https://9to5mac.com/2026/04/22/google-teases-gemini-powered-siri-upgrade-during-cloud-next-keynote/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI免费时代终结：广告、限速、涨价成为新常态</h3>
+      
+      <p>The Verge报道AI行业正在结束免费服务时代，各大AI产品纷纷引入广告、速率限制、功能限制和价格上涨，AI免费午餐结束。</p>
+  <a class="link" href="https://www.aibase.com/news/27449" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek-V4正式发布：百万上下文、极致定价震撼市场</h3>
+      
+      <p>DeepSeek正式发布新一代大模型DeepSeek-V4，整体性能达到与当前顶级闭源模型相当的水平。支持百万token超长上下文，Flash版百万token输入仅1元，Pro版12元。在数学、STEM、竞赛代码中超越所有已公开评测的开源模型。</p>
+  <a class="link" href="https://www.aibase.com/news/27446" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 美团秘密测试万亿参数AI大模型，基于国产算力集群</h3>
+      
+      <p>美团悄悄启动新一代AI大模型技术测试，参数规模达到万亿级别，训练完全基于国产算力集群，目前仅对受邀用户开放。</p>
+  <a class="link" href="https://www.aibase.com/news/27447" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 港股大模型概念股大跌，智谱和Minimax在DeepSeek V4发布后重挫</h3>
+      
+      <p>DeepSeek V4发布后，港股两大模型概念股智谱和Minimax股价分别下跌6.3%和3.9%，市场对新技术的短期接受度引发波动。</p>
+  <a class="link" href="https://www.aibase.com/news/27452" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:41 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
