@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月25日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月25日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 开源 V4-Pro 和 V4-Flash 双版本模型</h3>
+      <div class="meta">👤 </div>
+      <p>DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型。V4-Pro 定位为旗舰推理模型，V4-Flash 侧重高效低成本场景。机器之本周刊评价 3D 重建或将成为下一代模型的空间基础能力。</p>
+  <a class="link" href="https://huggingface.co/deepseek-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 发布 Claude Opus 4.7，强化网络安全能力</h3>
+      <div class="meta">👤 </div>
+      <p>Anthropic 发布 Claude Opus 4.7 模型，特别强化网络安全领域能力。同时宣布 Mythos Preview（非公开），声称在网络安全领域有独特优势。与 OpenAI GPT-5.4-Cyber 形成直接竞争。</p>
+  <a class="link" href="https://www.anthropic.com/research/claude-opus-4-7" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI 引入隐私过滤器：为 AI Agent 提供数据保护新方案</h3>
+      <div class="meta">👤 </div>
+      <p>OpenAI 发布隐私过滤器（Privacy Filter），为企业级 AI Agent 提供数据保护方案。配合 Workspace Agents 功能，在 ChatGPT 中实现多 Agent 协作的同时保障数据隐私。</p>
+  <a class="link" href="https://openai.com/index/introducing-openai-privacy-filter/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google CEO Sundar Pichai: 75% Google 新代码由 AI 生成</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-22</div>
+      <p>Google CEO Sundar Pichai 在 Cloud Next 2026 主题演讲中透露，Google 75% 的新代码现在由 AI 生成，相比去年秋季的 50% 有显著提升。Google 还创建了突击小组以提升 AI 编码能力。</p>
+  <a class="link" href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Sergey Brin 内部备忘录：Google 必须在 AI 编码 Agent 上追赶 Anthropic</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-20</div>
+      <p>Google 联合创始人 Sergey Brin 在 DeepMind 内部备忘录中指出，每个 Gemini 工程师必须使用内部 Agent 完成复杂多步任务，追赶 Anthropic 在 AI 编码领域的领先地位，为构建能自我改进的 AI 做准备。</p>
+  <a class="link" href="https://www.theinformation.com/articles/google-creates-strike-team-improve-coding-models" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI: GPT-5.5 是我们迄今最强的 Agentic 编码模型</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-23</div>
+      <p>OpenAI 官方博客详细介绍 GPT-5.5 的各项能力，在 Terminal-Bench 2.0 达到 82.7% SOTA，Expert-SWE 达 73.1%，BrowseComp 达 84.4%。Artificial Analysis 评测中 GPT-5.5 以一半成本超越竞品。</p>
+  <a class="link" href="https://openai.com/index/introducing-gpt-5-5/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 推出 ChatGPT Workspace Agents：企业级多 Agent 协作平台</h3>
+      <div class="meta">💬 </div>
+      <p>OpenAI 发布 ChatGPT Workspace Agents，允许在 ChatGPT 中创建多个 AI Agent 协同工作。配合隐私过滤器，企业可安全部署 AI Agent 处理复杂工作流，支持跨工具任务执行。</p>
+  <a class="link" href="https://openai.com/index/introducing-workspace-agents-in-chatgpt/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI ChatGPT Images 2.0：图像生成能力重大升级</h3>
+      <div class="meta">💬 </div>
+      <p>OpenAI 发布 ChatGPT Images 2.0，带来全新的图像生成体验。结合 GPT-5.5 的理解能力，支持更精准的图片编辑和生成，图像质量大幅提升。</p>
+  <a class="link" href="https://openai.com/index/introducing-chatgpt-images-2-0/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 发布 Claude Design：AI 辅助设计新工具</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic Labs 推出 Claude Design，让用户与 Claude 协作创建专业级视觉作品，包括设计、原型、幻灯片和文档。作为 Anthropic Labs 新产品，标志着 Anthropic 从纯文本向多模态创作的延伸。</p>
+  <a class="link" href="https://www.anthropic.com/news/introducing-claude-design" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. forrestchang/andrej-karpathy-skills - Karpathy 编码技巧 CLAUDE.md</h3>
+      
+      <p>基于 Andrej Karpathy 对 LLM 编码陷阱的观察整理的单文件 CLAUDE.md，改善 Claude Code 的编码行为。整合了 Karpathy 关于代码生成的最佳实践和常见陷阱。</p>
+  <a class="link" href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. SpaceX 自研 GPU：S-1 文件披露芯片战略</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>SpaceX 在 IPO S-1 注册文件中披露将自研 GPU，列为“重大资本支出“之一。Reuters 报道指出 SpaceX 对芯片供应成本的担忧推动其自主研发路线，为即将到来的万亿美元 IPO 做准备。</p>
+  <a class="link" href="https://www.reuters.com/business/autos-transportation/spacex-targets-in-house-gpus-it-warns-investors-chip-supply-costs-2026-04-23/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Amazon 追加 50 亿美元投资 Anthropic，总承诺达 250 亿美元</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Amazon 在已投资 80 亿美元基础上，本周追加 50 亿美元投资 Anthropic，并承诺未来可追加 200 亿美元。Anthropic 官网发布了与 Amazon 在云计算方面的合作细节。</p>
+  <a class="link" href="https://www.anthropic.com/news/anthropic-amazon-compute" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 顶级律所因 AI 幻觉引用虚假判例被迫向法官道歉</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Sullivan &amp; Cromwell 律所因使用 AI 生成法律文件，包含大量虚假判例引用，被迫向联邦法官道歉。错误列表长达三页。这是法律行业因 AI 幻觉导致错误的又一典型案例。</p>
+  <a class="link" href="https://www.nytimes.com/2026/04/22/business/sullivan-cromwell-ai-hallucinations.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 美国 DOJ 加入 Musk 旗下 xAI 诉讼，反对科罗拉多州 AI 反歧视法</h3>
+      <div class="meta">reddit: </div>
+      <p>Bloomberg 报道美国司法部加入了 xAI 对科罗拉多州消费者 AI 保护法的诉讼。政府律师声称该法律要求开发者对算法歧视采取“合理保护“违反宪法平等保护条款。该法将于 6 月 30 日生效。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-04-24/doj-joins-musk-s-xai-suit-against-colorado-ai-discrimination-law" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI 音乐上传量将超越人类：Deezer 数据揭示 AI 创作增长威胁</h3>
+      <div class="meta">reddit: </div>
+      <p>Spotify 与 DDEX 合作推出 AI 音乐披露标准，首批合作伙伴为 DistroKid。The Verge 报道 AI 音乐每日上传量正在快速增长，自愿标签可能不足以应对 AI 音乐的威胁。Deezer 数据显示 AI 上传量正逼近人类创作者水平。</p>
+  <a class="link" href="https://www.theverge.com/entertainment/915027/deezer-ai-music-daily-uploads" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 加速 Agent 工作流：Responses API 新增 WebSocket 支持</h3>
+      
+      <p>OpenAI 在 Responses API 中引入 WebSocket 支持，大幅提升 AI Agent 工作流的速度。开发者可建立持久连接，实现更低延迟的实时 Agent 交互。</p>
+  <a class="link" href="https://openai.com/index/speeding-up-agentic-workflows-with-websockets/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Nothing 发布 Essential Voice：支持 100+ 语言的 AI 听写工具</h3>
+      
+      <p>Nothing 推出 Essential Voice，一款支持 100 多种语言的 AI 听写工具，可自动整理语音输入，支持语音到文本翻译和快捷短语。目前仅支持 Phone (3) 和 Phone (4a) Pro，Nothing 希望这是“全新语音优先交互“的开端。</p>
+  <a class="link" href="https://www.theverge.com/news/916897/nothing-essential-voice-ai-dictation" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Chrome Enterprise 新增 AI 安全检测：识别未授权 AI 使用</h3>
+      
+      <p>Google 在 Chrome Enterprise 中推出新安全功能，可检测和防范 AI Agent 在受损扩展或在线服务中的“异常“活动。同时向企业用户推出 AI 自动浏览功能，可在 Chrome 中自动执行多步任务。</p>
+  <a class="link" href="https://www.theverge.com/news/915897/chrome-enterprise-ai-security" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 推出 ChatGPT Workspace Agents：企业级多 Agent 协作</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenAI 发布 Workspace Agents，允许在 ChatGPT 环境中创建和编排多个 AI Agent 协同完成任务。配合隐私过滤器，为企业提供安全的 Agent 部署方案，支持跨工具、跨应用的复杂工作流。</p>
+  <a class="link" href="https://openai.com/index/introducing-workspace-agents-in-chatgpt/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI Codex 企业版扩展：全球企业级 AI 编码 Agent 部署</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenAI 宣布将 Codex 扩展至全球企业市场，提供企业级 AI 编码 Agent 部署方案。配合 GPT-5.5 的强大编码能力，企业可大规模部署 AI 编码 Agent 提升开发效率。</p>
+  <a class="link" href="https://openai.com/index/scaling-codex-to-enterprises-worldwide/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.5 在 Agentic 编码评测中全面领先</h3>
+      <div class="meta">🤖 </div>
+      <p>GPT-5.5 在多项 Agentic 编码评测中表现突出：Terminal-Bench 2.0 达 82.7%，SWE-Bench Pro 达 58.6%，OSWorld-Verified 达 78.7%。在相同 Codex 任务中 token 消耗显著减少，效率提升明显。</p>
+  <a class="link" href="https://openai.com/index/introducing-gpt-5-5/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 发布 GPT-5.5：迄今最智能模型，Agentic 能力全面升级</h3>
+      <div class="meta">📅 2026-04-23</div>
+      <p>OpenAI 发布 GPT-5.5 及 GPT-5.5 Pro，在 Terminal-Bench 2.0 上达到 82.7% SOTA，Expert-SWE 达 73.1%，Codex 中 token 消耗显著减少。已面向 ChatGPT Plus/Pro/Business/Enterprise 和 Codex 用户开放，API 版本即将上线。</p>
+  <a class="link" href="https://openai.com/index/introducing-gpt-5-5/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google 宣布投资 100 亿美元收购 Anthropic，最高可达 400 亿美元</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>Bloomberg 报道 Google 计划向 Anthropic 投资 100 亿美元，若达到特定性能目标可追加至 300 亿。同日 Amazon 也宣布新增 50 亿美元投资，未来还可追加 200 亿美元。Anthropic 成为科技巨头争夺焦点。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Amazon 再投 50 亿美元加码 Anthropic，累计投资达 130 亿美元</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>Amazon 此前已投资 80 亿美元，本周再追加 50 亿美元，并承诺未来可追加 200 亿美元。加上 Google 的 400 亿美元投资计划，Anthropic 总融资承诺超过 530 亿美元。</p>
+  <a class="link" href="https://www.anthropic.com/news/anthropic-amazon-compute" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Google 宣布 75% 新代码由 AI 生成，成立突击小组追赶 Anthropic</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>Google CEO Sundar Pichai 在 Cloud Next 2026 上宣布 75% 新代码由 AI 生成，较去年秋季的 50% 大幅增长。Sergey Brin 内部备忘录要求 Gemini 工程师必须使用内部 Agent 完成复杂多步任务，全力追赶 Anthropic 在 AI 编码领域的领先地位。</p>
+  <a class="link" href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Tumbler Ridge 校园枪击案嫌疑人曾向 ChatGPT 描述暴力场景，OpenAI 未报警引争议</h3>
+      <div class="meta">📅 2026-04-24</div>
+      <p>OpenAI CEO Sam Altman 向加拿大 Tumbler Ridge 社区道歉。枪击案嫌疑人事前曾在 ChatGPT 中描述暴力场景，触发内部审查系统，但 OpenAI 判断不构成紧迫威胁未报警，账号被禁用。目前 OpenAI 已主动向加拿大皇家骑警提供相关信息。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/882814/tumbler-ridge-school-shooting-chatgpt" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. AI 免费时代终结：价格上涨、功能限制、速率限制全面到来</h3>
+      <div class="meta">📅 2026-04-23</div>
+      <p>AI 行业正在全面转向商业化：广告植入、速率限制、功能限制、价格上涨。The Verge 报道指出 AI 免费乘车时代已结束，各大公司正在收紧免费策略，用户需为高级功能付费。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/916657/the-ai-free-ride-is-over" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. SpaceX IPO 前夕：万亿美元估值赌注与自研 GPU 战略</h3>
+      
+      <p>SpaceX IPO S-1 文件披露估值超 1 万亿美元，同时宣布自研 GPU 计划。The Verge 深度分析 SpaceX IPO 是“十年最佳投资机会“还是“骗局的信徒“，同时探讨了太空数据中心等新兴概念。</p>
+  <a class="link" href="https://www.theverge.com/science/915244/spacex-ipo-trillion-dollar-commercial-iss-nasa-launch" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google 400 亿美元投资 Anthropic：硅谷 AI 军备竞赛白热化</h3>
+      
+      <p>Google 计划向 Anthropic 投资 100 亿至 400 亿美元，Amazon 追加 50 亿至 250 亿美元。Anthropic 成为硅谷史上获得最多投资承诺的 AI 公司，科技巨头在基础模型领域的军备竞赛全面升级。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google Cloud Next 2026：Gemini 驱动 Siri 升级，AI 代码生成占比 75%</h3>
+      
+      <p>Google Cloud Next 2026 上，Sundar Pichai 宣布 75% 新代码由 AI 生成。Google Cloud CEO Thomas Kurian 展示 Apple 为 Gemini 最大客户（新版 Siri）。同时发布 Gmail AI Overviews 等企业级 AI 功能。</p>
+  <a class="link" href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 开源 V4-Pro 和 V4-Flash 双模型</h3>
+      
+      <p>DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型。V4-Pro 为旗舰推理模型，V4-Flash 侧重高效低成本。模型权重已在 Hugging Face 和 ModelScope 平台开源，延续了 DeepSeek 开源战略。</p>
+  <a class="link" href="https://huggingface.co/deepseek-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 阿里通义实验室开源 Wan 2.2 Animate：AI 角色动画工具</h3>
+      
+      <p>阿里通义实验室开源 Wan 2.2 Animate，先进的 AI 角色动画工具。支持精准面部表情控制、身体动作复制和无缝角色替换。无需注册，浏览器直接运行，模型权重已在 Hugging Face 和 ModelScope 上线。</p>
+  <a class="link" href="https://app.aibase.com/details/38809" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 腾讯 Trae AI IDE：字节跳动 AI 驱动开发环境持续更新</h3>
+      
+      <p>Trae 作为 AI 驱动的综合开发环境持续迭代更新，支持智能代码补全、多模态交互和全代码库上下文分析。帮助开发者减少重复性任务，提升编程效率和生产力。</p>
+  <a class="link" href="https://app.aibase.com/details/35777" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:37 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
