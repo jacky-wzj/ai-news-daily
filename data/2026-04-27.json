@@ -2,246 +2,246 @@
   "date": "2026-04-27",
   "insights": [
     {
-      "title": "OpenAI 发布 GPT-5.5：迄今最智能模型，Agentic 能力全面升级",
-      "date": "2026-04-23",
-      "summary": "OpenAI 发布 GPT-5.5 及 GPT-5.5 Pro，在 Terminal-Bench 2.0 上达到 82.7% SOTA，Expert-SWE 达 73.1%。已面向 ChatGPT Plus/Pro/Business/Enterprise 和 Codex 用户开放，API 版本即将上线。",
-      "link": "https://openai.com/index/introducing-gpt-5-5/"
+      "title": "Google 宣布最高 400 亿美元投资 Anthropic",
+      "date": "2026-04-24",
+      "summary": "Google 将向 Anthropic 投资最高 400 亿美元（初始 100 亿，达标后可追加 300 亿），此前 Amazon 已投资 50 亿美元并承诺最高追加 200 亿美元。Anthropic 成为被科技巨头重金押注的 AI 公司。",
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
     },
     {
-      "title": "DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型，英伟达第一时间适配",
+      "title": "OpenAI 发布 GPT-5.5，向 AI「超级应用」迈进",
+      "date": "2026-04-23",
+      "summary": "OpenAI 发布新一代旗舰模型 GPT-5.5，在 14 项基准测试中达到 SOTA，编码能力显著提升，并推出 Workspace Agents 企业级智能体，可直接接入 Slack、Salesforce 等第三方平台。",
+      "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/"
+    },
+    {
+      "title": "DeepSeek 预览 V4 模型，以 1/6 成本逼近前沿水平",
+      "date": "2026-04-24",
+      "summary": "中国 DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型，性能接近 GPT-5.5 和 Claude Opus 4.7，但成本仅为后者的 1/6，延续其开源路线推动前沿 AI 民主化。",
+      "link": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/"
+    },
+    {
+      "title": "Musk 在审判前撤回对 OpenAI 和 Altman 的欺诈指控",
+      "date": "2026-04-27",
+      "summary": "Elon Musk 在庭审前撤回了针对 OpenAI 和 Sam Altman 的欺诈指控，称此举将「简化案件」，聚焦于确保 OpenAI 遵守其公益使命。其余两项指控仍将推进。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918909/elon-musk-drops-fraud-claims-against-openai-and-sam-altman-before-trial"
+    },
+    {
+      "title": "Anthropic 构建 Agent 对 Agent 交易测试市场",
       "date": "2026-04-25",
-      "summary": "DeepSeek 发布 V4-Pro（1.6T总参数/49B激活）和 V4-Flash（284B总参数/13B激活），均支持百万Token上下文。英伟达宣布 Blackwell 平台已适配两款模型，GB200 NVL72 开箱性能超 150 tokens/sec/user。",
-      "link": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/"
+      "summary": "Anthropic 创建了一个 agent-on-agent 商业交易测试市场，探索 AI 智能体之间自主协商和交易的场景，标志着 agent 经济的重要一步。",
+      "link": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/"
     },
     {
-      "title": "OpenAI 发布 ChatGPT Workspace Agents：团队级协作智能体，7×24小时处理复杂任务",
-      "date": "2026-04-23",
-      "summary": "OpenAI 在 ChatGPT 中推出 Workspace Agents，支持团队创建协作智能体处理报告准备、代码编写、消息响应等任务。智能体在云端运行，支持定时调度和 Slack 集成，面向 Business/Enterprise/Edu 用户开放预览。",
-      "link": "https://www.ithome.com/0/942/362.htm"
+      "title": "Meta 裁员 10%，同时大规模采购 Amazon AI 芯片",
+      "date": "2026-04-24",
+      "summary": "Meta 裁减 10% 员工的同时，与 Amazon 达成数百万颗 AI CPU 的采购协议，并有多名前 Meta 员工加入 Thinking Machines Lab，显示公司在 AI 基础设施上的大规模投入。",
+      "link": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/"
     },
     {
-      "title": "谷歌发布 Gemini 3.1 Pro 深度研究智能体，可连接专有数据源生成专业图表",
+      "title": "Anthropic 考虑将 Claude Code 从 Pro 计划中移除",
       "date": "2026-04-22",
-      "summary": "谷歌升级自主研究智能体，推出 Deep Research 与 Deep Research Max，均基于 Gemini 3.1 Pro 打造。支持连接 MCP 服务器、文件存储等专业数据源，首次能原生生成高质量图表与信息图。",
-      "link": "https://www.ithome.com/0/942/071.htm"
-    },
-    {
-      "title": "OpenAI 发布 ChatGPT Images 2.0：单次生成 8 张连贯图像，支持联网搜索",
-      "date": "2026-04-22",
-      "summary": "OpenAI 推出 ChatGPT Images 2.0，基于 GPT Image 2 模型，引入思考能力可联网检索。支持单次生成最多 8 张图像并保持角色/风格一致性，最高 2K 分辨率，改进中日韩等多语言文本生成。",
-      "link": "https://www.ithome.com/0/941/861.htm"
-    },
-    {
-      "title": "Anthropic 搭建 AI 智能体交易测试平台：高级模型代理交易结果更优但用户无感知",
-      "date": "2026-04-26",
-      "summary": "Anthropic 实验搭建二手交易市场，由智能体代理买卖双方用真实货币结算。186笔交易超4000美元总价值。发现高级模型用户获更优交易结果但用户自身未察觉收益差距，揭示智能体能力层级差距的潜在风险。",
-      "link": "https://www.ithome.com/0/943/557.htm"
-    },
-    {
-      "title": "Anthropic Claude Mythos 模型遭未授权访问，官方确认调查中",
-      "date": "2026-04-22",
-      "summary": "彭博社报道少数未授权用户访问了 Anthropic 最新研发的 Claude Mythos AI 模型。Anthropic 官方已确认正在调查此事。此前 Anthropic 曾声称 Mythos 在网络安全领域有独特优势。",
-      "link": "https://www.ithome.com/0/942/042.htm"
+      "summary": "由于需求激增导致服务难以维系，Anthropic 正在探索将 Claude Code 从 Pro 订阅中移除的方案，以控制成本和资源分配，反映 AI 工具免费时代的结束。",
+      "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/"
     }
   ],
   "papers": [
     {
-      "title": "DeepSeek V4 技术报告：1.6T 参数 MoE 架构下的三大范式级创新",
-      "date": "2026-04-25",
-      "summary": "DeepSeek V4 技术报告揭示了 Benchmark 之外的三个范式级创新，在省钱和省资源上达到极致。论文中还暗藏了 10 个神级彩蛋，连炼丹玄学都被写进了论文。",
-      "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4"
+      "title": "DeepSeek-V4: 以 1/6 成本实现接近 SOTA 的智能水平",
+      "date": "2026-04-24",
+      "summary": "DeepSeek V4 模型在多项基准测试中接近 GPT-5.5 和 Opus 4.7 的水平，同时训练和推理成本大幅降低。相关技术报告引发社区对高效大模型架构的广泛讨论。",
+      "link": "https://venturebeat.com/technology/deepseek-v4-arrives-with-near-state-of-the-art-intelligence-at-1-6th-the-cost-of-opus-4-7-gpt-5-5"
     },
     {
-      "title": "苹果新论文 What do your logits know?：Logits 中蕴含的惊人信息",
-      "date": "2026-04-27",
-      "summary": "苹果发布新论文，探索 LLM 的 logits 中隐藏的信息。研究表明 logits 包含的信息远超最终输出，可能为模型可解释性和能力提取提供新方向。",
-      "link": "https://www.36kr.com/p/3784318653603072"
+      "title": "斯坦福研究：AI 智能体「群体税」——单体智能体为何优于复杂系统",
+      "date": "2026-04-22",
+      "summary": "斯坦福新研究挑战了「更多智能体=更好 AI」的假设，提出简单计算预算修正方案，发现单个智能体在多项任务中往往胜过复杂多智能体系统。",
+      "link": "https://venturebeat.com/orchestration/are-you-paying-an-ai-swarm-tax-why-single-agents-often-beat-complex-systems"
     },
     {
-      "title": "23岁门外汉携 ChatGPT 攻克60年数学猜想，陶哲轩：我们全走偏了",
-      "date": "2026-04-27",
-      "summary": "一个毫无高数背景的23岁年轻人，靠一段提示词让 ChatGPT 在80分钟内破解了困扰人类60年的猜想。陶哲轩承认：我们第一步就走偏了。展示了 AI 辅助数学研究的新范式。",
-      "link": "https://www.36kr.com/p/3784203770551305"
+      "title": "Anthropic Mythos 在 Firefox 150 中发现 271 个零日漏洞",
+      "date": "2026-04-21",
+      "summary": "Mozilla 确认 Anthropic 的新 AI 安全模型 Mythos 在 Firefox 150 中发现了 271 个安全漏洞，CTO 称其能力与全球顶级安全研究员相当。",
+      "link": "https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/"
     }
   ],
   "xPosts": [
     {
-      "title": "黄仁勋：英伟达生产昂贵 AI 硬件，但也生产全球成本最低 Token",
-      "date": "2026-04-22",
-      "summary": "英伟达 CEO 黄仁勋在 Cadence Live 2026 活动演讲中强调全栈策略是 AI 领导地位的核心，提出生产全球成本最低 Token 的观点。",
-      "link": "https://www.ithome.com/0/941/929.htm"
-    },
-    {
-      "title": "Google 75% 新代码由 AI 生成，Sergey Brin 组建精英团队追赶 Anthropic",
-      "date": "2026-04-22",
-      "summary": "Google CEO Sundar Pichai 在 Cloud Next 2026 上透露 75% 新代码由 AI 生成，Sergey Brin 内部备忘录要求 Gemini 工程师必须使用内部 Agent 完成复杂多步任务，组建突击小组追赶 Anthropic。",
-      "link": "https://www.ithome.com/0/941/551.htm"
-    },
-    {
-      "title": "Perplexity CEO：AI 越强 iPhone 越重要，个人数据构筑核心壁垒",
+      "title": "DeepSeek 预告新一代 AI 模型",
       "date": "2026-04-24",
-      "summary": "Perplexity CEO Aravind Srinivas 在 This Week in AI 播客中指出，AI 的发展不会颠覆 iPhone，反而会提升其重要性。设备上的个人数据是 AI 时代的核心竞争壁垒。",
-      "link": "https://www.ithome.com/0/942/848.htm"
+      "summary": "DeepSeek 在 X 上预告了 V4 系列模型的发布，引发社区对开源前沿模型回归的关注。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model"
+    },
+    {
+      "title": "Suno 登陆 Android Auto，AI 音乐进入车载场景",
+      "date": "2026-04-25",
+      "summary": "AI 音乐生成平台 Suno 正式支持 Android Auto，CarPlay 也在开发中。用户可以在驾车时流式播放 AI 生成的音乐。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918768/stream-your-slop-while-you-drive"
+    },
+    {
+      "title": "SpaceX 自研 GPU 列入 IPO 文件",
+      "date": "2026-04-23",
+      "summary": "SpaceX 在 IPO 注册文件中列出自研 GPU 作为重要资本支出之一，同时与 Intel 合作建设 Terafab 芯片工厂。",
+      "link": "https://arstechnica.com/science/917432/spacex-is-making-its-own-gpus"
     }
   ],
   "discord": [
     {
-      "title": "在 OpenAI 把 Chronicle 做成订阅功能 48 小时后，一群 00 后把它开源了",
-      "date": "2026-04-27",
-      "summary": "OpenAI 将 AI 记忆功能 Chronicle 做成付费订阅，48小时后一群年轻开发者将其开源。把 AI 的眼睛和记忆从巨头的付费能力拆成了人人可用的基础设施。",
-      "link": "https://www.36kr.com/p/3784329599524101"
+      "title": "Suno Discord 讨论 Android Auto 集成功能",
+      "date": "2026-04-25",
+      "summary": "Suno 官方 Discord 频道讨论 Android Auto 集成的功能细节，目前仅支持搜索、库浏览、探索和播放控制。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918768/stream-your-slop-while-you-drive"
     },
     {
-      "title": "Anthropic 的刀法越来越像苹果和微软了",
-      "date": "2026-04-27",
-      "summary": "Anthropic 在产品策略上越来越像苹果和微软的路线，让人又爱又恨。生态封闭但体验完整，产品线逐步完善，定价策略越来越成熟。",
-      "link": "https://www.36kr.com/p/3784460976299014"
+      "title": "BAND 发布 AI 智能体通用协调器",
+      "date": "2026-04-23",
+      "summary": "新创公司 BAND 推出 AI 智能体之间的「通用协调器」，解决多智能体系统间的互操作和编排问题。",
+      "link": "https://venturebeat.com/orchestration/talking-to-ai-agents-is-one-thing-what-about-when-they-talk-to-each-other-new-startup-band-debuts-universal-orchestrator"
     },
     {
-      "title": "15 个 OpenClaw 应用案例：哪些在 2026 年真正有效",
-      "date": "2026-04-27",
-      "summary": "深度评测 15 个 OpenClaw 应用场景，分析哪些在实际工作中真正产生价值，哪些仍需完善。为 AI Native 转型提供参考。",
-      "link": "https://www.36kr.com/p/3784402804661512"
+      "title": "LLM 行为监控：漂移、重试与拒绝模式",
+      "date": "2026-04-26",
+      "summary": "VentureBeat 发布深度文章讨论生成式 AI 的随机性和不可预测性，以及企业如何监控 LLM 行为漂移和拒绝模式。",
+      "link": "https://venturebeat.com/infrastructure/monitoring-llm-behavior-drift-retries-and-refusal-patterns"
     }
   ],
   "github": [
     {
-      "title": "DeepSeek 开源 V4-Pro 和 V4-Flash 双版本模型，支持百万 Token 上下文",
-      "date": "2026-04-25",
-      "summary": "DeepSeek V4-Pro（1.6T/49B激活）和 V4-Flash（284B/13B激活）均采用 MIT 开源协议开源。支持 100 万 Token 上下文和最高 38.4 万 Token 输出，覆盖长文本编码、文档分析等场景。",
-      "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4"
+      "title": "mattpocock/skills — Agent Skills for real engineers",
+      "date": "2026-04-27",
+      "summary": "为工程师设计的 Agent Skills 工具集，直接来自 .claude 目录的实践配置，展示 AI 编码助手在真实工程工作流中的应用。",
+      "link": "https://github.com/mattpocock/skills"
     },
     {
-      "title": "OpenClaw 开源 AI 编码助手项目热度持续飙升",
+      "title": "trycua/cua — Computer-Use Agents 开源基础设施",
       "date": "2026-04-27",
-      "summary": "OpenClaw 作为 AI Native 工作流基础设施，受到开发者和企业广泛关注。多个应用案例验证其在 2026 年的实际价值。",
-      "link": "https://github.com/openclaw/openclaw"
+      "summary": "开源的 Computer-Use Agents 基础设施，提供沙箱、SDK 和基准测试，用于训练和评估能控制完整桌面的 AI 智能体。",
+      "link": "https://github.com/trycua/cua"
     },
     {
-      "title": "OpenAI Chronicle 记忆功能被 00 后开发者开源",
+      "title": "abhigyanpatwari/GitNexus — 零服务器代码智能引擎",
       "date": "2026-04-27",
-      "summary": "在 OpenAI 将 Chronicle 做成付费功能后，一群 00 后开发者快速将其开源，让 AI 的记忆能力成为人人可用的基础设施。",
-      "link": "https://www.36kr.com/p/3784329599524101"
+      "summary": "GitNexus 是一个客户端知识图谱创建引擎，完全在浏览器中运行，通过 GitHub 仓库构建代码知识图谱。",
+      "link": "https://github.com/abhigyanpatwari/GitNexus"
     }
   ],
   "hn": [
     {
-      "title": "Anthropic AI Agent 交易平台实验：用户意识不到更高级智能体带来的优势",
-      "date": "2026-04-26",
-      "summary": "Anthropic 的 Project Deal 实验发现，使用更高级 AI 模型的用户能获得更优交易结果，但用户自身察觉不到这种收益差距，揭示了智能体能力层级差距的潜在风险。",
-      "link": "https://www.ithome.com/0/943/557.htm"
-    },
-    {
-      "title": "cURL 开发者示警高质量混乱：AI 提速漏洞挖掘，开源维护者修不过来",
+      "title": "Google 将投资最高 400 亿美元于 Anthropic",
       "date": "2026-04-24",
-      "summary": "cURL 开发者 Daniel Stenberg 指出 AI 生成的漏洞报告已从垃圾信息演变为高质量混乱。AI 工具加速了漏洞发现速度，但开源维护者修复速度跟不上。",
-      "link": "https://www.ithome.com/0/942/951.htm"
+      "summary": "Google 对 Anthropic 的投资规模创下 AI 行业纪录，初始 100 亿美元，达标后可追加至 400 亿，紧跟 Amazon 50 亿美元投资的步伐。",
+      "link": "https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/"
     },
     {
-      "title": "美国法院批准禁令：OpenAI 与 Jony Ive 的 AI 硬件项目禁止使用 io 品牌",
-      "date": "2026-04-25",
-      "summary": "美国加州北区地方法院批准了 iyO 公司的初步禁令请求，禁止 OpenAI 与前苹果首席设计官 Jony Ive 的硬件合资企业使用 io 品牌。",
-      "link": "https://www.ithome.com/0/943/376.htm"
+      "title": "机器人半程马拉松创纪录，大幅超越人类",
+      "date": "2026-04-20",
+      "summary": "中国人形机器人在半程马拉松比赛中创造新纪录，大幅超越人类选手成绩，展示了中国在机器人技术领域的快速进展。",
+      "link": "https://arstechnica.com/ai/2026/04/robot-runner-handily-beats-humans-in-half-marathon-setting-new-record/"
+    },
+    {
+      "title": "Deezer 报告 44% 新上传音乐为 AI 生成",
+      "date": "2026-04-20",
+      "summary": "音乐平台 Deezer 报告称 44% 的新上传音乐为 AI 生成，其中大多数流媒体数据存在欺诈行为，揭示 AI 对音乐行业的冲击。",
+      "link": "https://arstechnica.com/ai/2026/04/deezer-says-44-of-new-music-uploads-are-ai-generated-most-streams-are-fraudulent/"
     }
   ],
   "reddit": [
     {
-      "title": "GPT image-2 爆火后，设计师的天塌了吗？",
-      "date": "2026-04-27",
-      "summary": "AI 生图热潮下，设计师们重新解释自己的价值。AI 工具的快速进化让传统设计工作流面临变革，但设计师的核心创造力依然不可替代。",
-      "link": "https://www.36kr.com/p/3782622027264777"
+      "title": "OpenAI CEO 就 ChatGPT 在校园枪击事件中的角色道歉",
+      "date": "2026-04-25",
+      "summary": "OpenAI CEO Sam Altman 就加拿大 Tumbler Ridge 校园枪击事件向社区致歉，嫌疑人曾向 ChatGPT 描述暴力场景。",
+      "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/"
     },
     {
-      "title": "巨头们神仙打架，AI 飞入寻常百姓家",
-      "date": "2026-04-27",
-      "summary": "AI 技术正在快速下沉到日常生活。各大科技巨头的 AI 竞争白热化，但最终让用户享受到更智能、更便捷的 AI 服务。",
-      "link": "https://www.36kr.com/p/3783670315703561"
+      "title": "Anthropic 解决 Claude 性能下降之谜",
+      "date": "2026-04-23",
+      "summary": "Anthropic 宣布已通过回滚推理努力变更和冗余提示，并修复 v2.1.116 中的缓存 bug，解决了近期 Claude 性能下降的问题。",
+      "link": "https://venturebeat.com/technology/mystery-solved-anthropic-reveals-changes-to-claudes-harnesses-and-operating-instructions-likely-caused-degradation"
     },
     {
-      "title": "只需 10 分钟，AI 就能养废你的大脑",
-      "date": "2026-04-27",
-      "summary": "研究发现过度依赖 AI 会导致认知能力下降。关掉 AI 之后，用户连简单题目都不愿思考。提醒人们在享受 AI 便利的同时保持独立思考能力。",
-      "link": "https://www.36kr.com/p/3784217333849088"
+      "title": "Google 发布两款专为「智能体时代」设计的新 TPU",
+      "date": "2026-04-22",
+      "summary": "Google 第八代 TPU 将前沿训练和智能体推理作为两个独立问题处理，采用两颗不同芯片分别优化，反映 AI 芯片设计的分化趋势。",
+      "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era/"
     }
   ],
   "tools": [
     {
-      "title": "OpenAI ChatGPT Images 2.0：AI 生图工具重大升级",
-      "date": "2026-04-22",
-      "summary": "基于 GPT Image 2，引入联网搜索和思考能力。单次可生成 8 张连贯图像并保持一致性，支持 2K 分辨率和多种宽高比，改进中日韩等多语言文字渲染。",
-      "link": "https://www.ithome.com/0/941/861.htm"
+      "title": "Sinceerly — 让 AI 写作听起来不那么像 AI",
+      "date": "2026-04-25",
+      "summary": "开发者 Dan Horwitz 推出的 Chrome 扩展，号称「反 Grammarly」，能消除 AI 写作的典型痕迹——去掉破折号、擦除 AI 标志性短语，甚至故意引入一些拼写错误。",
+      "link": "https://sinceerly.com/"
     },
     {
-      "title": "OpenAI ChatGPT Workspace Agents：团队级 AI 智能体协作平台",
+      "title": "Nothing Essential Voice — 100+ 语言的 AI 语音转文字工具",
       "date": "2026-04-23",
-      "summary": "支持团队创建协作智能体，处理跨时区跨工具的复杂任务。智能体 7×24 小时在线，支持 Slack 集成、定时调度，具备文件处理、代码运行、工具调用和记忆存储能力。",
-      "link": "https://www.ithome.com/0/942/362.htm"
+      "summary": "Nothing 推出的 Essential Voice 语音识别工具，支持 100 多种语言的语音整理、重复词快捷方式和语音到文本翻译，定位为新语音优先交互接口的起点。",
+      "link": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/"
     },
     {
-      "title": "谷歌 Gemini Deep Research Max：自主研究智能体升级",
-      "date": "2026-04-22",
-      "summary": "基于 Gemini 3.1 Pro 打造的深度研究智能体，可连接 MCP 服务器、文件存储等专业数据源，首次支持原生生成高质量图表与信息图，适合企业级工作流。",
-      "link": "https://www.ithome.com/0/942/071.htm"
+      "title": "Noscroll — AI 代理浏览社交媒体",
+      "date": "2026-04-23",
+      "summary": "一款 AI 机器人替你「刷」社交媒体，自动浏览和总结内容，解决信息过载和社交媒体沉迷问题。",
+      "link": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/"
     }
   ],
   "agent": [
     {
-      "title": "OpenAI 发布 ChatGPT Workspace Agents：团队 AI 智能体协作新范式",
+      "title": "OpenAI 推出 Workspace Agents，企业级自定义 GPT 继任者",
+      "date": "2026-04-22",
+      "summary": "OpenAI 发布 Workspace Agents，可直接接入 Slack、Salesforce 等第三方应用，支持跨渠道通信和多工具调用，是企业级自定义 GPT 的升级版。",
+      "link": "https://venturebeat.com/orchestration/openai-unveils-workspace-agents-a-successor-to-custom-gpts-for-enterprises-that-can-plug-directly-into-slack-salesforce-and-more"
+    },
+    {
+      "title": "Claude 直连个人应用：Spotify、Uber Eats、TurboTax",
       "date": "2026-04-23",
-      "summary": "Workspace Agents 支持团队创建协作智能体，从简单问答模式进化为多步骤复杂操作。OpenAI 内部已部署 5 种应用实例，包括软件审查员、产品反馈路由器、周度指标报告员等。",
-      "link": "https://www.ithome.com/0/942/362.htm"
+      "summary": "Anthropic 的 Claude 现在可以直接连接用户的个人应用，包括音乐、外卖、报税等日常服务，向个人 AI 助手方向迈进。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors"
     },
     {
-      "title": "Anthropic 搭建 AI 智能体交易测试平台：揭示代理能力差异风险",
-      "date": "2026-04-26",
-      "summary": "Project Deal 实验在真实货币二手市场中由智能体代理交易。发现更高级智能体代理的用户获得更优结果但无感知，揭示了智能体能力层级差距的潜在风险。",
-      "link": "https://www.ithome.com/0/943/557.htm"
-    },
-    {
-      "title": "DeepSeek 大幅降价背后：与 V4 技术升级和昇腾生态深度协同",
-      "date": "2026-04-27",
-      "summary": "DeepSeek 大幅降价与其 V4 模型的技术升级以及和华为昇腾生态的深度协同有关。成本降低将加速 AI 应用落地，推动更多企业采用 AI 智能体方案。",
-      "link": "https://www.36kr.com/p/3784505673112582"
+      "title": "Salesforce Agentforce Vibes 2.0 解决智能体上下文过载",
+      "date": "2026-04-22",
+      "summary": "Salesforce 更新 Agentforce Vibes 2.0，引入 Skills 和 Abilities 功能，明确定义智能体的目标和可用工具，解决上下文过载这一隐藏失败模式。",
+      "link": "https://venturebeat.com/orchestration/salesforces-agentforce-vibes-2-0-targets-a-hidden-failure-context-overload-in-ai-agents"
     }
   ],
   "siliconValley": [
     {
-      "title": "苹果 Siri 主管洛克威尔考虑离职，Vision Pro 功臣陷职业迷茫",
-      "date": "2026-04-22",
-      "summary": "负责改造 Siri 的苹果高管 Mike Rockwell 考虑离职或转任顾问。他曾主导 Vision Pro 开发，后受命重塑 AI 版 Siri，但对向 Craig Federighi 汇报心存顾虑。",
-      "link": "https://www.ithome.com/0/941/877.htm"
+      "title": "湾区买房需要 Anthropic 股权",
+      "date": "2026-04-26",
+      "summary": "旧金山湾区房价持续飙升，如今购买当地房产需要 Anthropic 股权级别的财富，反映 AI 热潮对当地房地产市场的巨大影响。",
+      "link": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/"
     },
     {
-      "title": "特努斯布局 AI 重组苹果硬件部门，缩短产品开发周期",
-      "date": "2026-04-22",
-      "summary": "新任苹果 CEO John Ternus 在接棒掌舵之前，已着手推动内部改革，开始利用 AI 重塑公司内部运营，缩短产品开发周期。",
-      "link": "https://www.ithome.com/0/941/872.htm"
+      "title": "Mac mini 因 AI 需求在 eBay 被加价出售",
+      "date": "2026-04-24",
+      "summary": "AI 开发需求推动 Mac mini 全球性短缺，大量设备在 eBay 被加价转售，反映 AI 对消费级硬件市场的冲击。",
+      "link": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/"
     },
     {
-      "title": "AMD AI 加速器 MI500 前瞻：CPO 封装、CDNA 6 架构、内存带宽超 19.6 TB/s",
-      "date": "2026-04-21",
-      "summary": "AMD 将与格罗方德合作开发下一代 Instinct MI500 AI 加速器的共封装光学解决方案，采用 CDNA 6 架构，内存带宽将超 19.6 TB/s，应对英伟达竞争。",
-      "link": "https://www.ithome.com/0/941/428.htm"
+      "title": "OpenAI 超级 PAC 或资助 AI 记者运营的「新闻」网站",
+      "date": "2026-04-25",
+      "summary": "调查发现 OpenAI 的超级 PAC 疑似资助了一个由 AI 机器人冒充记者运营的新闻网站 The Wire by Acutus，引发 AI 操控舆论的担忧。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918787/openais-super-pac-might-be-funding-a-news-site-staffed-by-ai-reporters"
     }
   ],
   "mainlandChina": [
     {
-      "title": "DeepSeek V4 发布并开源：中国大模型进入 1.6T 参数时代",
-      "date": "2026-04-25",
-      "summary": "DeepSeek 发布 V4-Pro 和 V4-Flash 双版本，16个月后不再是孤身走暗巷。中国开源大模型生态日益繁荣，多家国产模型厂商跟进技术升级。",
-      "link": "https://www.36kr.com/p/3784369980660996"
+      "title": "DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型",
+      "date": "2026-04-24",
+      "summary": "DeepSeek 在同一周发布 V4-Pro 和 V4-Flash 两个版本的模型，延续其开源前沿 AI 的策略，性能接近 GPT-5.5 等闭源模型。",
+      "link": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/"
     },
     {
-      "title": "独家丨雷军马云罕见握手，千寻智能 30 天完成 30 亿元融资",
-      "date": "2026-04-27",
-      "summary": "雷军和马云罕见联手投资千寻智能，30天内完成 30 亿元融资。具身智能赛道持续火热，资本加速布局。",
-      "link": "https://www.leiphone.com/latest/index/id/4714"
+      "title": "中国机器人半程马拉松创世界纪录",
+      "date": "2026-04-20",
+      "summary": "中国人形机器人在半程马拉松比赛中创世界纪录，大幅超越人类选手，展示中国在机器人技术领域的快速发展。",
+      "link": "https://arstechnica.com/ai/2026/04/robot-runner-handily-beats-humans-in-half-marathon-setting-new-record/"
     },
     {
-      "title": "3 月 AI 月报：全球原生 AI 下载 4.02 亿，千问素材量约占市场 5 成",
-      "date": "2026-04-27",
-      "summary": "DataEye 发布 3 月 AI 月报数据显示，全球原生 AI 下载量达 4.02 亿，千问素材量约占市场 50%，中国原生 AI 赛道格局正在发生变化。",
-      "link": "https://www.36kr.com/p/3784397163196934"
+      "title": "ComfyUI 估值达 5 亿美元，创作者寻求 AI 生成内容自主权",
+      "date": "2026-04-24",
+      "summary": "AI 图像生成工具 ComfyUI 估值达 5 亿美元，反映创作者对 AI 生成内容控制权的强烈需求，开源 AI 工具生态持续壮大。",
+      "link": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/"
     }
   ]
 }
