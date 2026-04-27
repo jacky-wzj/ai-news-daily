@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月27日星期一</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月27日星期一</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 技术报告：1.6T 参数 MoE 架构下的三大范式级创新</h3>
+      <div class="meta">👤 </div>
+      <p>DeepSeek V4 技术报告揭示了 Benchmark 之外的三个范式级创新，在省钱和省资源上达到极致。论文中还暗藏了 10 个神级彩蛋，连炼丹玄学都被写进了论文。</p>
+  <a class="link" href="https://huggingface.co/deepseek-ai/DeepSeek-V4" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 苹果新论文 What do your logits know?：Logits 中蕴含的惊人信息</h3>
+      <div class="meta">👤 </div>
+      <p>苹果发布新论文，探索 LLM 的 logits 中隐藏的信息。研究表明 logits 包含的信息远超最终输出，可能为模型可解释性和能力提取提供新方向。</p>
+  <a class="link" href="https://www.36kr.com/p/3784318653603072" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 23岁门外汉携 ChatGPT 攻克60年数学猜想，陶哲轩：我们全走偏了</h3>
+      <div class="meta">👤 </div>
+      <p>一个毫无高数背景的23岁年轻人，靠一段提示词让 ChatGPT 在80分钟内破解了困扰人类60年的猜想。陶哲轩承认：我们第一步就走偏了。展示了 AI 辅助数学研究的新范式。</p>
+  <a class="link" href="https://www.36kr.com/p/3784203770551305" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 黄仁勋：英伟达生产昂贵 AI 硬件，但也生产全球成本最低 Token</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-22</div>
+      <p>英伟达 CEO 黄仁勋在 Cadence Live 2026 活动演讲中强调全栈策略是 AI 领导地位的核心，提出生产全球成本最低 Token 的观点。</p>
+  <a class="link" href="https://www.ithome.com/0/941/929.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google 75% 新代码由 AI 生成，Sergey Brin 组建精英团队追赶 Anthropic</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-22</div>
+      <p>Google CEO Sundar Pichai 在 Cloud Next 2026 上透露 75% 新代码由 AI 生成，Sergey Brin 内部备忘录要求 Gemini 工程师必须使用内部 Agent 完成复杂多步任务，组建突击小组追赶 Anthropic。</p>
+  <a class="link" href="https://www.ithome.com/0/941/551.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Perplexity CEO：AI 越强 iPhone 越重要，个人数据构筑核心壁垒</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-24</div>
+      <p>Perplexity CEO Aravind Srinivas 在 This Week in AI 播客中指出，AI 的发展不会颠覆 iPhone，反而会提升其重要性。设备上的个人数据是 AI 时代的核心竞争壁垒。</p>
+  <a class="link" href="https://www.ithome.com/0/942/848.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 在 OpenAI 把 Chronicle 做成订阅功能 48 小时后，一群 00 后把它开源了</h3>
+      <div class="meta">💬 </div>
+      <p>OpenAI 将 AI 记忆功能 Chronicle 做成付费订阅，48小时后一群年轻开发者将其开源。把 AI 的眼睛和记忆从巨头的付费能力拆成了人人可用的基础设施。</p>
+  <a class="link" href="https://www.36kr.com/p/3784329599524101" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 的刀法越来越像苹果和微软了</h3>
+      <div class="meta">💬 </div>
+      <p>Anthropic 在产品策略上越来越像苹果和微软的路线，让人又爱又恨。生态封闭但体验完整，产品线逐步完善，定价策略越来越成熟。</p>
+  <a class="link" href="https://www.36kr.com/p/3784460976299014" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 15 个 OpenClaw 应用案例：哪些在 2026 年真正有效</h3>
+      <div class="meta">💬 </div>
+      <p>深度评测 15 个 OpenClaw 应用场景，分析哪些在实际工作中真正产生价值，哪些仍需完善。为 AI Native 转型提供参考。</p>
+  <a class="link" href="https://www.36kr.com/p/3784402804661512" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 开源 V4-Pro 和 V4-Flash 双版本模型，支持百万 Token 上下文</h3>
+      
+      <p>DeepSeek V4-Pro（1.6T/49B激活）和 V4-Flash（284B/13B激活）均采用 MIT 开源协议开源。支持 100 万 Token 上下文和最高 38.4 万 Token 输出，覆盖长文本编码、文档分析等场景。</p>
+  <a class="link" href="https://huggingface.co/deepseek-ai/DeepSeek-V4" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI Chronicle 记忆功能被 00 后开发者开源</h3>
+      
+      <p>在 OpenAI 将 Chronicle 做成付费功能后，一群 00 后开发者快速将其开源，让 AI 的记忆能力成为人人可用的基础设施。</p>
+  <a class="link" href="https://www.36kr.com/p/3784329599524101" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic AI Agent 交易平台实验：用户意识不到更高级智能体带来的优势</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Anthropic 的 Project Deal 实验发现，使用更高级 AI 模型的用户能获得更优交易结果，但用户自身察觉不到这种收益差距，揭示了智能体能力层级差距的潜在风险。</p>
+  <a class="link" href="https://www.ithome.com/0/943/557.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. cURL 开发者示警高质量混乱：AI 提速漏洞挖掘，开源维护者修不过来</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>cURL 开发者 Daniel Stenberg 指出 AI 生成的漏洞报告已从垃圾信息演变为高质量混乱。AI 工具加速了漏洞发现速度，但开源维护者修复速度跟不上。</p>
+  <a class="link" href="https://www.ithome.com/0/942/951.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 美国法院批准禁令：OpenAI 与 Jony Ive 的 AI 硬件项目禁止使用 io 品牌</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>美国加州北区地方法院批准了 iyO 公司的初步禁令请求，禁止 OpenAI 与前苹果首席设计官 Jony Ive 的硬件合资企业使用 io 品牌。</p>
+  <a class="link" href="https://www.ithome.com/0/943/376.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. GPT image-2 爆火后，设计师的天塌了吗？</h3>
+      <div class="meta">reddit: </div>
+      <p>AI 生图热潮下，设计师们重新解释自己的价值。AI 工具的快速进化让传统设计工作流面临变革，但设计师的核心创造力依然不可替代。</p>
+  <a class="link" href="https://www.36kr.com/p/3782622027264777" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 巨头们神仙打架，AI 飞入寻常百姓家</h3>
+      <div class="meta">reddit: </div>
+      <p>AI 技术正在快速下沉到日常生活。各大科技巨头的 AI 竞争白热化，但最终让用户享受到更智能、更便捷的 AI 服务。</p>
+  <a class="link" href="https://www.36kr.com/p/3783670315703561" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 只需 10 分钟，AI 就能养废你的大脑</h3>
+      <div class="meta">reddit: </div>
+      <p>研究发现过度依赖 AI 会导致认知能力下降。关掉 AI 之后，用户连简单题目都不愿思考。提醒人们在享受 AI 便利的同时保持独立思考能力。</p>
+  <a class="link" href="https://www.36kr.com/p/3784217333849088" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI ChatGPT Images 2.0：AI 生图工具重大升级</h3>
+      
+      <p>基于 GPT Image 2，引入联网搜索和思考能力。单次可生成 8 张连贯图像并保持一致性，支持 2K 分辨率和多种宽高比，改进中日韩等多语言文字渲染。</p>
+  <a class="link" href="https://www.ithome.com/0/941/861.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI ChatGPT Workspace Agents：团队级 AI 智能体协作平台</h3>
+      
+      <p>支持团队创建协作智能体，处理跨时区跨工具的复杂任务。智能体 7×24 小时在线，支持 Slack 集成、定时调度，具备文件处理、代码运行、工具调用和记忆存储能力。</p>
+  <a class="link" href="https://www.ithome.com/0/942/362.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 谷歌 Gemini Deep Research Max：自主研究智能体升级</h3>
+      
+      <p>基于 Gemini 3.1 Pro 打造的深度研究智能体，可连接 MCP 服务器、文件存储等专业数据源，首次支持原生生成高质量图表与信息图，适合企业级工作流。</p>
+  <a class="link" href="https://www.ithome.com/0/942/071.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 发布 ChatGPT Workspace Agents：团队 AI 智能体协作新范式</h3>
+      <div class="meta">🤖 </div>
+      <p>Workspace Agents 支持团队创建协作智能体，从简单问答模式进化为多步骤复杂操作。OpenAI 内部已部署 5 种应用实例，包括软件审查员、产品反馈路由器、周度指标报告员等。</p>
+  <a class="link" href="https://www.ithome.com/0/942/362.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic 搭建 AI 智能体交易测试平台：揭示代理能力差异风险</h3>
+      <div class="meta">🤖 </div>
+      <p>Project Deal 实验在真实货币二手市场中由智能体代理交易。发现更高级智能体代理的用户获得更优结果但无感知，揭示了智能体能力层级差距的潜在风险。</p>
+  <a class="link" href="https://www.ithome.com/0/943/557.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. DeepSeek 大幅降价背后：与 V4 技术升级和昇腾生态深度协同</h3>
+      <div class="meta">🤖 </div>
+      <p>DeepSeek 大幅降价与其 V4 模型的技术升级以及和华为昇腾生态的深度协同有关。成本降低将加速 AI 应用落地，推动更多企业采用 AI 智能体方案。</p>
+  <a class="link" href="https://www.36kr.com/p/3784505673112582" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 发布 ChatGPT Workspace Agents：团队级协作智能体，7×24小时处理复杂任务</h3>
+      <div class="meta">📅 2026-04-23</div>
+      <p>OpenAI 在 ChatGPT 中推出 Workspace Agents，支持团队创建协作智能体处理报告准备、代码编写、消息响应等任务。智能体在云端运行，支持定时调度和 Slack 集成，面向 Business/Enterprise/Edu 用户开放预览。</p>
+  <a class="link" href="https://www.ithome.com/0/942/362.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 谷歌发布 Gemini 3.1 Pro 深度研究智能体，可连接专有数据源生成专业图表</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>谷歌升级自主研究智能体，推出 Deep Research 与 Deep Research Max，均基于 Gemini 3.1 Pro 打造。支持连接 MCP 服务器、文件存储等专业数据源，首次能原生生成高质量图表与信息图。</p>
+  <a class="link" href="https://www.ithome.com/0/942/071.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI 发布 ChatGPT Images 2.0：单次生成 8 张连贯图像，支持联网搜索</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>OpenAI 推出 ChatGPT Images 2.0，基于 GPT Image 2 模型，引入思考能力可联网检索。支持单次生成最多 8 张图像并保持角色/风格一致性，最高 2K 分辨率，改进中日韩等多语言文本生成。</p>
+  <a class="link" href="https://www.ithome.com/0/941/861.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Anthropic 搭建 AI 智能体交易测试平台：高级模型代理交易结果更优但用户无感知</h3>
+      <div class="meta">📅 2026-04-26</div>
+      <p>Anthropic 实验搭建二手交易市场，由智能体代理买卖双方用真实货币结算。186笔交易超4000美元总价值。发现高级模型用户获更优交易结果但用户自身未察觉收益差距，揭示智能体能力层级差距的潜在风险。</p>
+  <a class="link" href="https://www.ithome.com/0/943/557.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Anthropic Claude Mythos 模型遭未授权访问，官方确认调查中</h3>
+      <div class="meta">📅 2026-04-22</div>
+      <p>彭博社报道少数未授权用户访问了 Anthropic 最新研发的 Claude Mythos AI 模型。Anthropic 官方已确认正在调查此事。此前 Anthropic 曾声称 Mythos 在网络安全领域有独特优势。</p>
+  <a class="link" href="https://www.ithome.com/0/942/042.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 苹果 Siri 主管洛克威尔考虑离职，Vision Pro 功臣陷职业迷茫</h3>
+      
+      <p>负责改造 Siri 的苹果高管 Mike Rockwell 考虑离职或转任顾问。他曾主导 Vision Pro 开发，后受命重塑 AI 版 Siri，但对向 Craig Federighi 汇报心存顾虑。</p>
+  <a class="link" href="https://www.ithome.com/0/941/877.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 特努斯布局 AI 重组苹果硬件部门，缩短产品开发周期</h3>
+      
+      <p>新任苹果 CEO John Ternus 在接棒掌舵之前，已着手推动内部改革，开始利用 AI 重塑公司内部运营，缩短产品开发周期。</p>
+  <a class="link" href="https://www.ithome.com/0/941/872.htm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AMD AI 加速器 MI500 前瞻：CPO 封装、CDNA 6 架构、内存带宽超 19.6 TB/s</h3>
+      
+      <p>AMD 将与格罗方德合作开发下一代 Instinct MI500 AI 加速器的共封装光学解决方案，采用 CDNA 6 架构，内存带宽将超 19.6 TB/s，应对英伟达竞争。</p>
+  <a class="link" href="https://www.ithome.com/0/941/428.htm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek V4 发布并开源：中国大模型进入 1.6T 参数时代</h3>
+      
+      <p>DeepSeek 发布 V4-Pro 和 V4-Flash 双版本，16个月后不再是孤身走暗巷。中国开源大模型生态日益繁荣，多家国产模型厂商跟进技术升级。</p>
+  <a class="link" href="https://www.36kr.com/p/3784369980660996" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 独家丨雷军马云罕见握手，千寻智能 30 天完成 30 亿元融资</h3>
+      
+      <p>雷军和马云罕见联手投资千寻智能，30天内完成 30 亿元融资。具身智能赛道持续火热，资本加速布局。</p>
+  <a class="link" href="https://www.leiphone.com/latest/index/id/4714" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 3 月 AI 月报：全球原生 AI 下载 4.02 亿，千问素材量约占市场 5 成</h3>
+      
+      <p>DataEye 发布 3 月 AI 月报数据显示，全球原生 AI 下载量达 4.02 亿，千问素材量约占市场 50%，中国原生 AI 赛道格局正在发生变化。</p>
+  <a class="link" href="https://www.36kr.com/p/3784397163196934" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 11:38 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
