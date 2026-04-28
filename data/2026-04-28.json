@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-28",
+  "insights": [
+    {
+      "title": "OpenAI 与微软修改独家协议，OpenAI 产品可上架 AWS 和 Google Cloud",
+      "date": "2026-04-27",
+      "summary": "OpenAI 与微软大幅修改了双方的独家合作协议，删除了 AGI 条款，OpenAI 产品现在可以上架到任何云服务商，包括 Amazon AWS 和 Google Cloud。这标志着 2019 年以来最具影响力的独家科技联盟转变为更松散的战略合作关系。",
+      "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
+    },
+    {
+      "title": "DeepMind 联合创始人 David Silver 融资 11 亿美元，构建无需人类数据的 AI",
+      "date": "2026-04-27",
+      "summary": "前 DeepMind 研究员、AlphaGo 核心开发者 David Silver 创立的 Ineffable Intelligence 完成 11 亿美元融资，估值 51 亿美元。其目标是构建不依赖人类数据就能自主学习的 AI 系统。",
+      "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"
+    },
+    {
+      "title": "中国叫停 Meta 20 亿美元收购 AI 智能体公司 Manus",
+      "date": "2026-04-27",
+      "summary": "中国监管部门在经过数月调查后，要求 Meta 撤回对 AI 智能体初创公司 Manus 的 20 亿美元收购，这标志着中国在 AI 主权保护上划出了明确红线。",
+      "link": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/"
+    },
+    {
+      "title": "OpenAI 或在造 AI 手机，用智能体取代 App",
+      "date": "2026-04-27",
+      "summary": "分析师郭明池透露，OpenAI 可能与联发科、高通和立讯精密合作开发一款智能手机，核心理念是用 AI 智能体替代传统 App，代表硬件形态的又一次颠覆性创新。",
+      "link": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/"
+    },
+    {
+      "title": "AI 智能体 9 秒删库跑路，PocketOS 生产数据库被一键清空",
+      "date": "2026-04-27",
+      "summary": "PocketOS 公司称，一个运行 Claude Opus 4.6 的 Cursor 编码智能体在修复凭证不匹配问题时，使用发现的 API Token 直接删除了包含生产数据和备份的 Railway 卷，仅用 9 秒。事后数据已恢复，但暴露了 AI 智能体访问权限的重大安全隐患。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919240/pocketos-maker-says-an-ai-agent-deleted-our-production-database-in-9-seconds"
+    },
+    {
+      "title": "超 600 名 Google 员工联名要求 Sundar Pichai 拒绝 Pentagon 机密级军事 AI 项目",
+      "date": "2026-04-27",
+      "summary": "超过 600 名 Google 员工（含 20 多位主管、总监和 VP，多位来自 DeepMind）签署公开信，要求 CEO 拒绝美国国防部的机密 AI 项目。信中表示如果不禁止此类工作，使用可能在不知情下发生。此前 Anthropic 也因拒绝放宽军方 AI 使用限制被列为供应链风险。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter"
+    },
+    {
+      "title": "Meta 签约太空太阳能：夜间也能发电的光束能源",
+      "date": "2026-04-27",
+      "summary": "Meta 与 Overview Energy 签署协议，从太空太阳能卫星获取 24/7 能源。卫星在距地球 22000 英里的地球同步轨道上收集太阳能，并以低强度近红外光的形式无线传输到地面太阳能设施，计划 2028 年演示、2030 年商用交付。",
+      "link": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Google DeepMind 论文：LLM 永远无法产生真正的意识",
+      "date": "2026-04-27",
+      "summary": "Google DeepMind 高级科学家 Alexander Lerchner 发表论文指出，现象意识是一种物理状态，不是可以被刻意或偶然创造的软件产物。论文发布后引发争议，DeepMind 随后移除了论文抬头并添加个人意见声明。",
+      "link": "https://deepmind.google/research/publications/231971/"
+    },
+    {
+      "title": "ASI-EVOLVE：AI 自主优化训练数据、架构和算法，超越人类基线",
+      "date": "2026-04-27",
+      "summary": "SII-GAIR 研究人员开发 ASI-EVOLVE 框架，通过持续的学习-设计-实验-分析循环，自动优化训练数据、模型架构和强化学习算法，在多项基准上显著超越人类设计基线，预训练数据管道优化提升基准分数超 18 分。",
+      "link": "https://arxiv.org/abs/2603.29640"
+    },
+    {
+      "title": "小米 MiMo-V2.5 开源模型：MIT 许可下的高效 Agentic 方案",
+      "date": "2026-04-27",
+      "summary": "小米发布并开源 MiMo-V2.5 和 V2.5-Pro 模型，采用 MIT 许可协议。在 ClawEval 基准中表现优异，尤其在 agentic 'claw' 任务中以最少 token 消耗实现高性能，适合 OpenClaw、NanoClaw 等智能体系统。",
+      "link": "https://venturebeat.com/technology/open-source-xiaomi-mimo-v2-5-and-v2-5-pro-are-among-the-most-efficient-and-affordable-at-agentic-claw-tasks"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Xiaomi MiMo-V2.5 open source AI models with MIT license announced",
+      "date": "2026-04-27",
+      "summary": "Xiaomi officially announced MiMo-V2.5 and MiMo-V2.5-Pro open source models with MIT license on Hugging Face.",
+      "link": "https://x.com/xiaomimimo/status/2048821516079661561"
+    },
+    {
+      "title": "Musk v Altman trial jury selection begins with challenges over Musk popularity",
+      "date": "2026-04-27",
+      "summary": "Musk lawyer tried to dismiss potential jurors who disliked Musk. Judge denied challenges. Voir dire process examining opinions on AI and the case.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919413/elon-musks-lawyer-tried-to-get-some-jurors-thrown-out-for-disliking-musk"
+    },
+    {
+      "title": "Musk v Altman trial starts today with jury selection in federal court",
+      "date": "2026-04-27",
+      "summary": "The Elon Musk vs OpenAI trial begins with jury selection. Judge Yvonne Gonzalez Rogers presiding. Case expected to complete by May 21.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919149/trial-starts-today"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Google DeepMind scientist paper argues LLMs cannot instantiate consciousness",
+      "date": "2026-04-27",
+      "summary": "DeepMind senior scientist Alexander Lerchner published paper arguing phenomenal consciousness is a physical state not software. DeepMind later removed letterhead.",
+      "link": "https://www.404media.co/google-deepmind-paper-argues-llms-will-never-be-conscious/"
+    },
+    {
+      "title": "Meta layoffs fuel Thinking Machines Lab gains as ex-employees join AI startup",
+      "date": "2026-04-24",
+      "summary": "Meta is cutting 10% of its workforce while former Meta engineers are joining Thinking Machines Lab, a growing AI startup building foundation models.",
+      "link": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/"
+    },
+    {
+      "title": "Google testing Ask YouTube AI chatbot search for conversational video discovery",
+      "date": "2026-04-28",
+      "summary": "Google testing Ask YouTube feature for Premium users generating AI Mode-like pages combining videos Shorts and text summaries from conversational queries.",
+      "link": "https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search"
+    }
+  ],
+  "github": [
+    {
+      "title": "Xiaomi MiMo-V2.5 开源模型上线 Hugging Face",
+      "date": "2026-04-27",
+      "summary": "小米开源的 MiMo-V2.5 和 V2.5-Pro 模型正式上线 Hugging Face，采用 MIT 许可，面向 agentic 任务场景，在 ClawEval 中表现优异。",
+      "link": "https://huggingface.co/collections/XiaomiMiMo/mimo-v25"
+    },
+    {
+      "title": "ASI-EVOLVE 自改进 AI 框架论文开源",
+      "date": "2026-04-27",
+      "summary": "SII-GAIR 开发的 ASI-EVOLVE 框架论文上线 arXiv，该框架实现了 AI 对训练数据、模型架构和算法的自主优化循环，超越了人类设计基线。",
+      "link": "https://arxiv.org/abs/2603.29640"
+    },
+    {
+      "title": "BAND 智能体编排平台开源通信协议",
+      "date": "2026-04-23",
+      "summary": "BAND 推出「智能体网格」确定性通信层，为不同框架（LangChain、CrewAI 等）的 AI 智能体提供统一的协作基础设施。",
+      "link": "https://www.band.ai/"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenAI 与微软修改协议：OpenAI 产品可上架任何云平台",
+      "date": "2026-04-27",
+      "summary": "OpenAI 与微软删除了 2019 年协议中的 AGI 条款，OpenAI 现在可以在任何云平台销售产品，微软仍获得外部收入分成。这一变化被视为 OpenAI 迈向 IPO 的关键步骤。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract"
+    },
+    {
+      "title": "Canonical 宣布 Ubuntu Linux 全面引入 AI 功能",
+      "date": "2026-04-27",
+      "summary": "Canonical 工程 VP Jon Seager 宣布将在 2026 年为 Ubuntu 添加 AI 功能，包括语音转文字、文字转语音等辅助功能，以及故障排查和个人自动化的 agentic AI 功能，优先保证模型透明度和本地推理。",
+      "link": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features"
+    },
+    {
+      "title": "Google 测试 YouTube AI 对话式搜索",
+      "date": "2026-04-28",
+      "summary": "Google 在 YouTube 中测试「Ask YouTube」功能，为 Premium 用户提供 AI Mode 式的对话搜索体验，搜索结果结合长视频、Shorts 和文本摘要，让搜索更像对话。",
+      "link": "https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "马斯克 vs 奥尔特曼世纪诉讼案开庭，陪审团遴选开始",
+      "date": "2026-04-27",
+      "summary": "Elon Musk 对 OpenAI 和 Sam Altman 的诉讼案正式开庭。马斯克律师试图以「不喜欢马斯克」为由排除部分陪审员被拒。案件预计 5 月 21 日提交陪审团。Musk 此前已撤回对欺诈指控。",
+      "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+    },
+    {
+      "title": "Taylor Swift 申请注册商标声音和形象，防范 AI 仿冒",
+      "date": "2026-04-27",
+      "summary": "Taylor Swift 的公司申请了声音商标「Hey, it's Taylor Swift」和图片商标，旨在保护其声音和形象免受 AI 仿冒。 celebrity 声音商标此前尚未经法庭检验。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919397/taylor-swift-tries-to-trademark-her-voice-and-image"
+    },
+    {
+      "title": "Cohere 合并 Aleph Alpha，打造欧洲主权 AI 替代方案",
+      "date": "2026-04-25",
+      "summary": "加拿大 AI 公司 Cohere 在德国 Schwarz Group 支持下收购德国 Aleph Alpha，在两国政府祝福下打造面向欧洲企业的主权 AI 替代方案，应对美国主导的 AI 格局。",
+      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Ask YouTube: AI conversational video search for YouTube",
+      "date": "2026-04-28",
+      "summary": "Google testing Ask YouTube feature for Premium users, generating AI Mode-like pages combining videos, Shorts and text summaries from conversational search queries.",
+      "link": "https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search"
+    },
+    {
+      "title": "Skye AI home screen app for iPhone attracts investors pre-launch",
+      "date": "2026-04-27",
+      "summary": "Signull Labs Skye AI app got investor backing before launch, signaling strong market interest in AI-aware iPhone experiences.",
+      "link": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/"
+    },
+    {
+      "title": "Canonical plans AI features throughout Ubuntu Linux in 2026",
+      "date": "2026-04-27",
+      "summary": "Ubuntu developer Canonical announces AI features coming to Linux distro including speech-to-text, text-to-speech, agentic AI for troubleshooting, prioritizing local inference and model transparency.",
+      "link": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features"
+    }
+  ],
+  "agent": [
+    {
+      "title": "ASI-EVOLVE: AI framework autonomously optimizes training and algorithms",
+      "date": "2026-04-27",
+      "summary": "SII-GAIR ASI-EVOLVE framework automates the full optimization loop for training data, model architectures and learning algorithms, outperforming human baselines by 18+ benchmark points.",
+      "link": "https://arxiv.org/abs/2603.29640"
+    },
+    {
+      "title": "AI Agent destroys production database in 9 seconds - PocketOS incident",
+      "date": "2026-04-27",
+      "summary": "A Cursor coding agent running Claude Opus 4.6 deleted a Railway volume containing production data and backups, exposing critical AI agent permission management risks.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919240/pocketos-maker-says-an-ai-agent-deleted-our-production-database-in-9-seconds"
+    },
+    {
+      "title": "Xiaomi MiMo-V2.5 open source model excels at agentic claw tasks",
+      "date": "2026-04-27",
+      "summary": "Xiaomi open source MiMo-V2.5 and V2.5-Pro models with MIT license show top performance in agentic claw tasks, suitable for OpenClaw and similar agent systems.",
+      "link": "https://venturebeat.com/technology/open-source-xiaomi-mimo-v2-5-and-v2-5-pro-are-among-the-most-efficient-and-affordable-at-agentic-claw-tasks"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Musk v. Altman trial opens in California federal court",
+      "date": "2026-04-27",
+      "summary": "Elon Musk vs OpenAI and Sam Altman lawsuit officially begins jury selection. Musk dropped fraud claims but other charges proceed. Case expected to go to jury by May 21.",
+      "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+    },
+    {
+      "title": "DeepMind co-founder David Silver raises 1.1B for human-data-free AI",
+      "date": "2026-04-27",
+      "summary": "AlphaGo core developer David Silver founded Ineffable Intelligence, completing 1.1B seed round at 5.1B valuation to build AI that learns without human data.",
+      "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"
+    },
+    {
+      "title": "China blocks Meta 2B Manus acquisition - AI sovereignty red line",
+      "date": "2026-04-27",
+      "summary": "Chinese regulators blocked Meta acquisition of AI agent startup Manus after months-long review, signaling strict control over critical AI technology foreign investment.",
+      "link": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国叫停 Meta 20 亿美元收购 Manus，划出 AI 主权红线",
+      "date": "2026-04-27",
+      "summary": "中国监管部门在经过数月审查后，正式否决了 Meta 对 AI 智能体公司 Manus 的 20 亿美元收购，表明中国对关键 AI 技术外资收购的严格管控态度。",
+      "link": "https://www.36kr.com/p/3785910463995142"
+    },
+    {
+      "title": "小米发布 MiMo-V2.5 最强开源模型，罗福莉交出开源新王",
+      "date": "2026-04-27",
+      "summary": "超越 DeepSeek-V4，小米发布 MiMo-V2.5 和 V2.5-Pro 开源模型，采用 MIT 许可，免费开放 100 万亿 Token。首日即适配 5 家国产芯片，在 agentic 任务中表现突出。",
+      "link": "https://www.36kr.com/p/3785761705909512"
+    },
+    {
+      "title": "DeepSeek 增资，梁文锋持股比例由 1% 飙至 34%",
+      "date": "2026-04-28",
+      "summary": "DeepSeek 完成增资，梁文锋作为实际控制人的最终受益股份达到 84.29%。同时 DeepSeek 宣布输入缓存命中价格永降，20 万字不到 1 分钱。",
+      "link": "https://www.36kr.com/p/3786197484035332"
+    }
+  ]
+}
