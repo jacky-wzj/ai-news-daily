@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月29日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月29日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Auto-Architecture: Karpathy Loop 应用于 CPU 架构自动设计</h3>
+      <div class="meta">👤 </div>
+      <p>Show HN 项目：将 Karpathy 的自动架构搜索循环应用于 CPU 设计，展示 AI 在芯片架构层面的自动化能力。</p>
+  <a class="link" href="https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. FlashSAC: Fast and Stable Off-Policy RL for High-Dimensional Robot Control</h3>
+      <div class="meta">👤 </div>
+      <p>Holiday Robot 提出 FlashSAC 算法，为高维机器人控制场景提供快速且稳定的离线强化学习方案。</p>
+  <a class="link" href="https://github.com/Holiday-Robot/FlashSAC" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Relax: 大规模全模态后训练的异步强化学习引擎</h3>
+      <div class="meta">👤 </div>
+      <p>开源异步 RL 引擎 Relax，支持大规模全模态后训练，为多模态大模型的高效训练提供基础设施。</p>
+  <a class="link" href="https://github.com/redai-infra/Relax" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Musk vs Altman 庭审实录：Elon Musk 出庭作证 OpenAI 诉讼案</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-29</div>
+      <p>Elon Musk 在 OpenAI 诉讼案中出庭作证，称其初衷是保护人类而非争夺控制权。法庭记录显示双方围绕 OpenAI 使命和治理展开激烈辩论。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Taylor Swift 加强对 AI 模仿者的法律打击</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-29</div>
+      <p>Taylor Swift 正在通过商标注册等手段升级对 AI 声音和内容模仿者的法律维权行动，开创艺人对抗 AI 滥用的先例。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Amazon 推出 AI 产品页面音频问答体验</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-04-29</div>
+      <p>Amazon 在商品页面推出 AI 驱动的音频问答功能，用户可以通过语音与 AI 交互获取产品信息，改变电商购物体验。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. holaOS：面向任何数字工作的开放 Agent 电脑系统</h3>
+      <div class="meta">💬 </div>
+      <p>holaOS 是一个开源的 Agent Computer 项目，为各类数字工作提供统一的 AI Agent 操作环境，在 GitHub 上获得 3398 星。</p>
+  <a class="link" href="https://github.com/holaboss-ai/holaOS" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. CubeSandbox：AI 时代的即时并发安全沙箱</h3>
+      <div class="meta">💬 </div>
+      <p>腾讯云开源的 CubeSandbox 为 AI Agent 提供即时、并发、安全的轻量级沙箱环境，获得 4679 星。</p>
+  <a class="link" href="https://github.com/TencentCloud/CubeSandbox" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Obscura：面向 AI Agent 的无头浏览器</h3>
+      <div class="meta">💬 </div>
+      <p>Obscura 是一个专为 AI Agent 和网页抓爬设计的无头浏览器，已获得 7694 星。</p>
+  <a class="link" href="https://github.com/h4ckf0r0day/obscura" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. mempalace — 最佳基准的开源 AI 记忆系统</h3>
+      
+      <p>mempalace 是目前星数最高的开源 AI 记忆系统项目（50276 星），提供免费的大模型上下文记忆管理能力。</p>
+  <a class="link" href="https://github.com/MemPalace/mempalace" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. caveman — Claude Code 技能：大幅减少 Token 消耗</h3>
+      
+      <p>Claude Code 技能 caveman 通过精简提示词策略减少 65% 的 Token 消耗，获得 49705 星。</p>
+  <a class="link" href="https://github.com/JuliusBrussee/caveman" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. career-ops — AI 驱动的求职系统</h3>
+      
+      <p>基于 Claude Code 的 AI 求职系统，提供 14 种技能模式，包含 Go 语言构建的仪表盘，获得 40806 星。</p>
+  <a class="link" href="https://github.com/santifer/career-ops" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Ghostty 宣布离开 GitHub</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>终端模拟器 Ghostty 的创始人 Mitchell Hashimoto 发文宣布 Ghostty 项目将迁出 GitHub，引发开发者社区对平台锁定的讨论。</p>
+  <a class="link" href="https://mitchellh.com/writing/ghostty-leaving-github" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ChatGPT 如何投放广告：完整归因链路揭秘</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>技术分析文章揭示了 ChatGPT 广告系统的完整归因链路，包括追踪机制和广告投放策略。</p>
+  <a class="link" href="https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Rust 无法捕获的 Bug 类型</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>深入分析 Rust 类型系统仍无法在编译期捕获的 Bug 类别，包括逻辑错误、并发时序问题和外部依赖缺陷。</p>
+  <a class="link" href="https://corrode.dev/blog/bugs-rust-wont-catch/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 模型入驻 Amazon Bedrock：战略意义分析</h3>
+      <div class="meta">reddit: </div>
+      <p>OpenAI 与 AWS 的合作标志着 OpenAI 从 Azure 独占走向多云战略，可能重塑大模型云服务竞争格局。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Lovable 推出 iOS 和 Android 端 vibe-coding 应用</h3>
+      <div class="meta">reddit: </div>
+      <p>vibe-coding 平台 Lovable 正式发布移动端应用，用户可以在手机上通过自然语言描述生成应用原型。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. YouTube 测试 AI 搜索功能：提供引导式回答</h3>
+      <div class="meta">reddit: </div>
+      <p>YouTube 正在测试基于 AI 的搜索功能，可以为用户提供结构化的引导式搜索回答，而非传统视频列表。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Open Design：Anthropic Claude Design 的开源替代方案</h3>
+      
+      <p>Open Design 是一个本地优先的开源设计工具，提供 19 个技能和 71 个品牌模板，作为 Claude Design 的开源替代。</p>
+  <a class="link" href="https://github.com/nexu-io/open-design" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. FreeLLMAPI：聚合 14 家 AI 提供商免费层 API 代理</h3>
+      
+      <p>OpenAI 兼容代理 FreeLLMAPI 聚合了约 14 家 AI 提供商的免费层 Key，支持自动故障转移。</p>
+  <a class="link" href="https://github.com/tashfeenahmed/freellmapi" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Stash：AI Agent 的持久化记忆层</h3>
+      
+      <p>Stash 为 AI Agent 提供持久化记忆能力，使用 PostgreSQL 存储 Episodes、Facts 和工作上下文。</p>
+  <a class="link" href="https://github.com/alash3al/stash" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Hermes Agent 橙皮书：从入门到精通</h3>
+      <div class="meta">🤖 </div>
+      <p>Nous Research 开源 AI Agent 框架 Hermes 的实战教程，涵盖从基础配置到高级 Agent 编排的完整指南。</p>
+  <a class="link" href="https://github.com/alchaincyf/hermes-agent-orange-book" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. agentic-inbox：Cloudflare 开源自托管 AI 邮箱客户端</h3>
+      <div class="meta">🤖 </div>
+      <p>Cloudflare 发布的 agentic-inbox 是一个自托管邮箱客户端，内置 AI Agent，可完全在 Cloudflare 网络运行。</p>
+  <a class="link" href="https://github.com/cloudflare/agentic-inbox" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. agents-cli：Google 开源编码 Agent 技能集</h3>
+      <div class="meta">🤖 </div>
+      <p>Google 开源的 agents-cli 提供一套 CLI 工具和技能，可将任何编码助手扩展为完整的 Agent 工作流。</p>
+  <a class="link" href="https://github.com/google/agents-cli" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 与 AWS 达成合作，OpenAI 模型将登陆 Amazon Bedrock</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>OpenAI 与 AWS CEO 接受 Stratechery 采访，宣布 OpenAI 模型将入驻 Amazon Bedrock，标志着 OpenAI 向多云平台战略迈出关键一步。</p>
+  <a class="link" href="https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Amazon 已率先在 AWS 上提供 OpenAI 新产品</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>TechCrunch 报道 Amazon 已经在 AWS 平台上提供 OpenAI 的最新产品，OpenAI 与 AWS 的合作比预期更快落地。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Claude 创意连接器：可直接接入 Photoshop、Blender 和 Ableton</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>Anthropic 发布 Claude Creative Connectors，让 Claude 直接与 Adobe Photoshop、Blender 3D 建模和 Ableton 音乐制作工具无缝集成。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Google 在 Anthropic 拒绝后扩大五角大楼 AI 访问权限</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>在 Anthropic 拒绝与军方合作后，Google 扩大了对五角大楼的 AI 服务访问权限，引发 AI 伦理和军事应用的争议。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Red Hat 为 OpenClaw 企业级部署增强安全性</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>Red Hat 的 OpenClaw 维护者发布了新的企业级安全功能，大幅提升了 OpenClaw 在生产环境中的部署安全性。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. 通用汽车将在 400 万辆汽车中集成 Google Gemini AI</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>GM 宣布与 Google 合作，在旗下四百万辆汽车的车载系统中集成 Gemini AI 能力，覆盖车载语音助手、导航和智能交互场景。</p>
+  <a class="link" href="https://www.theverge.com/transportation/920285/general-motors-gm-gemini-ai-update" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 缅因州州长否决数据中心建设禁令</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>缅因州州长否决了数据中心建设暂停法案，反映 AI 基础设施扩张与地方治理之间的持续博弈。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Musk vs Altman 庭审第一天：Musk 显得情绪化而非准备充分</h3>
+      
+      <p>The Verge 报道了 Musk 和 Altman 庭审首日的观察，认为 Musk 在庭上更多展现了情绪化的一面，而非充分的法律准备。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google 在 Anthropic 拒绝后扩大五角大楼 AI 访问权限</h3>
+      
+      <p>在 Anthropic 拒绝与军方合作后，Google 扩大了对五角大楼的 AI 服务访问权限，引发 AI 伦理和军事应用的争议。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Brain-Computer Interface 创业公司 Neurable 寻求向消费可穿戴设备授权技术</h3>
+      
+      <p>BCI 创业公司 Neurable 计划将其读心术技术授权给消费级可穿戴设备厂商，推动脑机接口的商业化。</p>
+  <a class="link" href="https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 腾讯开源 CubeSandbox：AI Agent 安全沙箱基础设施</h3>
+      
+      <p>腾讯云开源了 CubeSandbox 项目，为 AI Agent 提供即时、并发、安全的轻量级执行沙箱，获得 4679 星。</p>
+  <a class="link" href="https://github.com/TencentCloud/CubeSandbox" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Nuwa Skill：蒸馏任何人的思维方式</h3>
+      
+      <p>开源项目 nuwa-skill 支持将任何人的心智模型、决策启发式和表达风格进行蒸馏迁移，获得 16153 星。</p>
+  <a class="link" href="https://github.com/alchaincyf/nuwa-skill" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-Image-2 工业级提示词引擎与模板库</h3>
+      
+      <p>包含 329 个案例的 GPT-Image-2 提示词工程项目，提供 13 套工业级模板，面向 OpenAI 图像生成 API 的工程实践。</p>
+  <a class="link" href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:35 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
