@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-30",
+  "insights": [
+    {
+      "title": "OpenAI 发布旗舰模型 GPT-5.5，已接入 ChatGPT 和 Codex",
+      "date": "2026-04-23",
+      "summary": "OpenAI 发布 GPT-5.5，号称其最智能的模型。在代理式编程、计算机使用、知识工作和早期科研方面表现显著提升。API 版本已对 Plus/Pro/Business/Enterprise 用户开放，GPT-5.5 Pro 同步推出。",
+      "link": "https://openai.com/index/introducing-gpt-5-5/"
+    },
+    {
+      "title": "OpenAI 与 AWS 扩展战略合作：模型、Codex 和 Managed Agents 上云",
+      "date": "2026-04-28",
+      "summary": "OpenAI 和 AWS 宣布扩展合作伙伴关系，AWS 客户可在 Amazon Bedrock 上使用 GPT-5.5 等 OpenAI 模型，Codex on AWS 和 Bedrock Managed Agents 同步上线。",
+      "link": "https://openai.com/index/openai-on-aws/"
+    },
+    {
+      "title": "OpenAI 与微软修改合作协议，微软获得非独家 IP 授权",
+      "date": "2026-04-27",
+      "summary": "双方修改合作条款：微软仍为 OpenAI 主要云合作伙伴，但 OpenAI 现在可以向所有云提供商提供服务；微软对 OpenAI IP 的授权改为非独家，有效期至 2032 年。",
+      "link": "https://openai.com/index/next-phase-of-microsoft-partnership/"
+    },
+    {
+      "title": "OpenAI 开源 Codex 编排框架 Symphony，PR 产出提升 500%",
+      "date": "2026-04-27",
+      "summary": "OpenAI 发布 Symphony，一个将 Linear 等项目管理面板转化为编码代理控制平面的开源编排器，每个开放任务分配一个代理，人类审核结果。",
+      "link": "https://openai.com/index/open-source-codex-orchestration-symphony/"
+    },
+    {
+      "title": "Anthropic 发布 BioMysteryBench 评估 Claude 生物信息学研究能力",
+      "date": "2026-04-29",
+      "summary": "Anthropic 研究团队发布 BioMysteryBench 基准测试，评估大语言模型在生物信息学领域的专业级工作能力。",
+      "link": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+    },
+    {
+      "title": "Anthropic 研究自动化对齐：用 LLM 辅助对齐研究",
+      "date": "2026-04-14",
+      "summary": "Anthropic 研究用大语言模型扩对齐研究能力，探索弱模型指导强模型的弱到强监督问题，量化强模型从弱反馈中学习效果。",
+      "link": "https://www.anthropic.com/research/automated-alignment-researchers"
+    },
+    {
+      "title": "OpenAI DevDay 2026 定档 9 月 29 日",
+      "date": "2026-04-29",
+      "summary": "OpenAI 宣布 2026 年 DevDay 将于 9 月 29 日举行，去年该活动发布了 ChatGPT 内的应用功能。",
+      "link": "https://www.theverge.com/news/640086/openai-chat-gpt-news-updates"
+    }
+  ],
+  "papers": [
+    {
+      "title": "DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型",
+      "date": "2026-04-21",
+      "summary": "DeepSeek 发布 V4-Pro 和 V4-Flash 两个新版本模型，本周成为机器之心重点报道内容。",
+      "link": "https://platform.deepseek.com/blog"
+    },
+    {
+      "title": "Emotion concepts and their function in a large language model",
+      "date": "2026-04-02",
+      "summary": "Anthropic 可解释性团队研究大语言模型中情感概念的内部运作机制，探索模型何时以及如何表现出类似情感的行为。",
+      "link": "https://www.anthropic.com/research/emotion-concepts-function"
+    },
+    {
+      "title": "GPT-5.5 System Card 更新：新增安全保障措施",
+      "date": "2026-04-23",
+      "summary": "OpenAI 更新 GPT-5.5 系统卡，描述适用于该模型的额外安全保障措施，涵盖高级网络安全和生物学能力测试。",
+      "link": "https://openai.com/index/gpt-5-5-system-card/"
+    }
+  ],
+  "xPosts": [],
+  "discord": [
+    {
+      "title": "free-claude-code：终端免费使用 Claude Code，支持 VS Code 扩展和 Discord",
+      "date": "2026-04-30",
+      "summary": "GitHub 本周趋势第一，18,799 星，支持在终端、VS Code 扩展和 Discord 中免费使用 Claude Code，含语音支持。",
+      "link": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "title": "ml-intern：HuggingFace 开源 ML 工程师代理",
+      "date": "2026-04-30",
+      "summary": "HuggingFace 发布 ml-intern，一个开源 ML 工程师代理，能阅读论文、训练模型并部署 ML 模型。7,579 星。",
+      "link": "https://github.com/huggingface/ml-intern"
+    },
+    {
+      "title": "Andrej Karpathy Skills：改进 Claude Code 行为的单文件配置",
+      "date": "2026-04-30",
+      "summary": "基于 Andrej Karpathy 对 LLM 编码缺陷观察总结的 CLAUDE.md 文件，用于改善 Claude Code 行为。",
+      "link": "https://github.com/forrestchang/andrej-karpathy-skills"
+    }
+  ],
+  "github": [
+    {
+      "title": "free-claude-code - 终端免费使用 Claude Code",
+      "date": "2026-04-30",
+      "summary": "Python 项目，支持在终端、VS Code 和 Discord 中免费使用 Claude Code，含语音支持。18,799 星，本周 +16,154 星。",
+      "link": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "title": "claude-context - Zilliz 代码搜索 MCP for Claude Code",
+      "date": "2026-04-30",
+      "summary": "将整个代码库作为任何编码代理的上下文。TypeScript，10,351 星，本周 +3,151 星。",
+      "link": "https://github.com/zilliztech/claude-context"
+    },
+    {
+      "title": "context-mode - AI 编码代理上下文窗口优化",
+      "date": "2026-04-30",
+      "summary": "优化 AI 编码代理的上下文窗口，沙盒化工具输出，减少 98% 的 token 消耗。支持 14 个平台，11,342 星。",
+      "link": "https://github.com/mksglu/context-mode"
+    }
+  ],
+  "hn": [],
+  "reddit": [
+    {
+      "title": "Google 与 Pentagon 签署分类 AI 协议，允许『任何合法政府用途』使用",
+      "date": "2026-04-28",
+      "summary": "据报道 Google 与美国国防部签署协议，允许军方使用其 AI 模型进行任何合法政府用途，此前超过 600 名 Google 员工联名反对。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal"
+    },
+    {
+      "title": "xAI 联合创始人大量离职，Musk 称 xAI 可能不会率先实现 AGI",
+      "date": "2026-04-29",
+      "summary": "xAI 联合创始人 Tony Wu 和 Jimmy Ba 相继宣布离职，创始团队仅剩一半。Musk 承认 xAI 可能不是最先实现 AGI 的公司。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring"
+    },
+    {
+      "title": "Pentagon 正式将 Anthropic 标记为供应链风险",
+      "date": "2026-04-24",
+      "summary": "国防部正式将 Anthropic 标记为供应链风险，禁止国防承包商在与政府合作的产品中使用 Claude。Anthropic CEO 确认将通过法律途径挑战。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/890347/pentagon-anthropic-supply-chain-risk"
+    }
+  ],
+  "tools": [
+    {
+      "title": "free-claude-code - Claude Code 免费替代方案",
+      "date": "2026-04-30",
+      "summary": "在终端、VS Code 和 Discord 中免费使用 Claude Code 功能的开源工具，支持语音。",
+      "link": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "title": "claude-context - Zilliz 代码搜索 MCP",
+      "date": "2026-04-30",
+      "summary": "将整个代码库作为编码代理上下文的 MCP 服务器，支持代码语义搜索。",
+      "link": "https://github.com/zilliztech/claude-context"
+    },
+    {
+      "title": "context-mode - AI 编码代理上下文优化",
+      "date": "2026-04-30",
+      "summary": "通过沙盒化工具输出减少 98% 上下文消耗，支持 14 个编码代理平台。",
+      "link": "https://github.com/mksglu/context-mode"
+    }
+  ],
+  "agent": [
+    {
+      "title": "ml-intern - HuggingFace 开源 ML 工程师代理",
+      "date": "2026-04-30",
+      "summary": "一个开源 ML 工程师代理，能够阅读论文、训练模型并部署 ML 模型。7,579 星。",
+      "link": "https://github.com/huggingface/ml-intern"
+    },
+    {
+      "title": "GenericAgent - 自进化代理，从 3.3K 行种子代码成长",
+      "date": "2026-04-30",
+      "summary": "自我进化代理，从 3.3K 行种子代码构建技能树，实现全系统控制，token 消耗降低 6 倍。8,376 星。",
+      "link": "https://github.com/lsdefine/GenericAgent"
+    },
+    {
+      "title": "CUA - 开源计算机使用代理基础设施",
+      "date": "2026-04-30",
+      "summary": "提供沙箱、SDK 和基准测试，用于训练和评估能控制完整桌面（macOS、Linux、Windows）的 AI 代理。15,318 星。",
+      "link": "https://github.com/trycua/cua"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Google 与 Pentagon 签署分类 AI 协议，员工强烈反对",
+      "date": "2026-04-28",
+      "summary": "Google 与美国国防部签署协议允许军方使用其 AI，此前超过 600 名员工联名要求 CEO Sundar Pichai 拒绝 Pentagon 使用 Google AI。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal"
+    },
+    {
+      "title": "联邦政府加入 Musk 阻止科罗拉多州 AI 监管立法",
+      "date": "2026-04-24",
+      "summary": "DOJ 加入 xAI 诉讼，反对科罗拉多州将于 6 月 30 日生效的 AI 消费者保护法律，称其违反宪法平等保护条款。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918492/the-feds-join-elon-musks-attempt-to-stop-new-ai-regulations-in-colorado"
+    },
+    {
+      "title": "Hollywood 对 AI 浪潮毫无准备，流媒体巨头回避 Sora 话题",
+      "date": "2026-04-28",
+      "summary": "Netflix 联合 CEO Greg Peters 完全回避了关于 Sora 的问题。Paramount Skydance CEO David Ellison 称 AI 为『新铅笔』，但无人能具体回应 IP 版权问题。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/798496/hollywood-openai-training-netflix-paramount-warner"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型",
+      "date": "2026-04-21",
+      "summary": "DeepSeek 发布 V4-Pro 和 V4-Flash 两个新版本模型，本周成为国内 AI 领域重点事件。",
+      "link": "https://platform.deepseek.com/blog"
+    },
+    {
+      "title": "OpenAI GPT-5.5 接入 ChatGPT 和 Codex，国内开发者关注",
+      "date": "2026-04-23",
+      "summary": "GPT-5.5 在代理式编程和计算机使用方面表现显著提升，国内开发者社区持续关注其能力和接入方式。",
+      "link": "https://openai.com/index/introducing-gpt-5-5/"
+    },
+    {
+      "title": "Pixelle-Video - AIDC-AI AI全自动短视频引擎",
+      "date": "2026-04-30",
+      "summary": "AIDC-AI 发布的 AI 全自动短视频引擎，8,181 星，本周 +2,445 星，国内开发者关注度极高。",
+      "link": "https://github.com/AIDC-AI/Pixelle-Video"
+    }
+  ]
+}

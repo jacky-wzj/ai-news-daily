@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年4月30日星期四</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年4月30日星期四</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型</h3>
+      <div class="meta">👤 </div>
+      <p>DeepSeek 发布 V4-Pro 和 V4-Flash 两个新版本模型，本周成为机器之心重点报道内容。</p>
+  <a class="link" href="https://platform.deepseek.com/blog" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Emotion concepts and their function in a large language model</h3>
+      <div class="meta">👤 </div>
+      <p>Anthropic 可解释性团队研究大语言模型中情感概念的内部运作机制，探索模型何时以及如何表现出类似情感的行为。</p>
+  <a class="link" href="https://www.anthropic.com/research/emotion-concepts-function" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. GPT-5.5 System Card 更新：新增安全保障措施</h3>
+      <div class="meta">👤 </div>
+      <p>OpenAI 更新 GPT-5.5 系统卡，描述适用于该模型的额外安全保障措施，涵盖高级网络安全和生物学能力测试。</p>
+  <a class="link" href="https://openai.com/index/gpt-5-5-system-card/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. free-claude-code：终端免费使用 Claude Code，支持 VS Code 扩展和 Discord</h3>
+      <div class="meta">💬 </div>
+      <p>GitHub 本周趋势第一，18,799 星，支持在终端、VS Code 扩展和 Discord 中免费使用 Claude Code，含语音支持。</p>
+  <a class="link" href="https://github.com/Alishahryar1/free-claude-code" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ml-intern：HuggingFace 开源 ML 工程师代理</h3>
+      <div class="meta">💬 </div>
+      <p>HuggingFace 发布 ml-intern，一个开源 ML 工程师代理，能阅读论文、训练模型并部署 ML 模型。7,579 星。</p>
+  <a class="link" href="https://github.com/huggingface/ml-intern" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. free-claude-code - 终端免费使用 Claude Code</h3>
+      
+      <p>Python 项目，支持在终端、VS Code 和 Discord 中免费使用 Claude Code，含语音支持。18,799 星，本周 +16,154 星。</p>
+  <a class="link" href="https://github.com/Alishahryar1/free-claude-code" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google 与 Pentagon 签署分类 AI 协议，允许『任何合法政府用途』使用</h3>
+      <div class="meta">reddit: </div>
+      <p>据报道 Google 与美国国防部签署协议，允许军方使用其 AI 模型进行任何合法政府用途，此前超过 600 名 Google 员工联名反对。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. xAI 联合创始人大量离职，Musk 称 xAI 可能不会率先实现 AGI</h3>
+      <div class="meta">reddit: </div>
+      <p>xAI 联合创始人 Tony Wu 和 Jimmy Ba 相继宣布离职，创始团队仅剩一半。Musk 承认 xAI 可能不是最先实现 AGI 的公司。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/878761/mass-exodus-at-xai-grok-elon-musk-restructuring" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Pentagon 正式将 Anthropic 标记为供应链风险</h3>
+      <div class="meta">reddit: </div>
+      <p>国防部正式将 Anthropic 标记为供应链风险，禁止国防承包商在与政府合作的产品中使用 Claude。Anthropic CEO 确认将通过法律途径挑战。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/890347/pentagon-anthropic-supply-chain-risk" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. free-claude-code - Claude Code 免费替代方案</h3>
+      
+      <p>在终端、VS Code 和 Discord 中免费使用 Claude Code 功能的开源工具，支持语音。</p>
+  <a class="link" href="https://github.com/Alishahryar1/free-claude-code" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ml-intern - HuggingFace 开源 ML 工程师代理</h3>
+      <div class="meta">🤖 </div>
+      <p>一个开源 ML 工程师代理，能够阅读论文、训练模型并部署 ML 模型。7,579 星。</p>
+  <a class="link" href="https://github.com/huggingface/ml-intern" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI 与 AWS 扩展战略合作：模型、Codex 和 Managed Agents 上云</h3>
+      <div class="meta">📅 2026-04-28</div>
+      <p>OpenAI 和 AWS 宣布扩展合作伙伴关系，AWS 客户可在 Amazon Bedrock 上使用 GPT-5.5 等 OpenAI 模型，Codex on AWS 和 Bedrock Managed Agents 同步上线。</p>
+  <a class="link" href="https://openai.com/index/openai-on-aws/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI 开源 Codex 编排框架 Symphony，PR 产出提升 500%</h3>
+      <div class="meta">📅 2026-04-27</div>
+      <p>OpenAI 发布 Symphony，一个将 Linear 等项目管理面板转化为编码代理控制平面的开源编排器，每个开放任务分配一个代理，人类审核结果。</p>
+  <a class="link" href="https://openai.com/index/open-source-codex-orchestration-symphony/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic 发布 BioMysteryBench 评估 Claude 生物信息学研究能力</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>Anthropic 研究团队发布 BioMysteryBench 基准测试，评估大语言模型在生物信息学领域的专业级工作能力。</p>
+  <a class="link" href="https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. OpenAI DevDay 2026 定档 9 月 29 日</h3>
+      <div class="meta">📅 2026-04-29</div>
+      <p>OpenAI 宣布 2026 年 DevDay 将于 9 月 29 日举行，去年该活动发布了 ChatGPT 内的应用功能。</p>
+  <a class="link" href="https://www.theverge.com/news/640086/openai-chat-gpt-news-updates" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google 与 Pentagon 签署分类 AI 协议，员工强烈反对</h3>
+      
+      <p>Google 与美国国防部签署协议允许军方使用其 AI，此前超过 600 名员工联名要求 CEO Sundar Pichai 拒绝 Pentagon 使用 Google AI。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 联邦政府加入 Musk 阻止科罗拉多州 AI 监管立法</h3>
+      
+      <p>DOJ 加入 xAI 诉讼，反对科罗拉多州将于 6 月 30 日生效的 AI 消费者保护法律，称其违反宪法平等保护条款。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/918492/the-feds-join-elon-musks-attempt-to-stop-new-ai-regulations-in-colorado" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Hollywood 对 AI 浪潮毫无准备，流媒体巨头回避 Sora 话题</h3>
+      
+      <p>Netflix 联合 CEO Greg Peters 完全回避了关于 Sora 的问题。Paramount Skydance CEO David Ellison 称 AI 为『新铅笔』，但无人能具体回应 IP 版权问题。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/798496/hollywood-openai-training-netflix-paramount-warner" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek 发布并开源 V4-Pro 和 V4-Flash 双版本模型</h3>
+      
+      <p>DeepSeek 发布 V4-Pro 和 V4-Flash 两个新版本模型，本周成为国内 AI 领域重点事件。</p>
+  <a class="link" href="https://platform.deepseek.com/blog" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Pixelle-Video - AIDC-AI AI全自动短视频引擎</h3>
+      
+      <p>AIDC-AI 发布的 AI 全自动短视频引擎，8,181 星，本周 +2,445 星，国内开发者关注度极高。</p>
+  <a class="link" href="https://github.com/AIDC-AI/Pixelle-Video" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:39 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
