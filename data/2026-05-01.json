@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-01",
+  "insights": [
+    {
+      "title": "Claude Code 因 commit 提及 OpenClaw 拒绝请求或额外收费",
+      "date": "2026-05-01",
+      "summary": "HN 热帖 1151 分，Theo 爆料 Claude Code 存在针对 OpenClaw 关键词的限制行为，引发开发者社区广泛关注，涉及 AI 编码工具的审查与商业化策略问题。",
+      "link": "https://news.ycombinator.com/item?id=43618074"
+    },
+    {
+      "title": "Anthropic 发布 Opus 4.7 模型，具备更强人格化交互能力",
+      "date": "2026-05-01",
+      "summary": "Opus 4.7 展现出更丰富的对话人格特征，HN 讨论热度 343 分，围绕 AI 匿名对话、模型人格化与隐私安全展开热议。",
+      "link": "https://news.ycombinator.com/item?id=43618105"
+    },
+    {
+      "title": "PyTorch Lightning 依赖库中发现 Shai-Hulud 主题恶意软件",
+      "date": "2026-05-01",
+      "summary": "Semgrep 团队在 AI 训练库 PyTorch Lightning 中发现供应链攻击恶意依赖，HN 396 分，AI 供应链安全再次成为焦点。",
+      "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/"
+    },
+    {
+      "title": "GPT-Image-2 提示词工程生态爆发，GitHub 2.3 万星项目引领",
+      "date": "2026-05-01",
+      "summary": "EvoLinkAI 的 awesome-gpt-image-2-prompts 项目收获 23659 星，涵盖肖像、海报、UI 等场景的提示词范例，反映 AI 图像生成工具生态快速成熟。",
+      "link": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts"
+    },
+    {
+      "title": "Google 发布 DESIGN.md 规范，为编码代理提供持久化视觉身份定义",
+      "date": "2026-05-01",
+      "summary": "google-labs-code 开源 design.md 格式规范，让 AI 编码代理拥有持久化、结构化的视觉身份定义，10515 星，推动 Agent 设计系统标准化。",
+      "link": "https://github.com/google-labs-code/design.md"
+    },
+    {
+      "title": "AI Agent 框架百花齐放：Mercury、esp-claw、thClaws 等项目涌现",
+      "date": "2026-05-01",
+      "summary": "本周 GitHub 涌现多款 Agent 框架，包括 Soul-driven 架构的 Mercury-agent（1852 星）、IoT 设备端 Chat Coding 框架 esp-claw（850 星），以及 Rust 原生代理平台 thClaws（675 星）。",
+      "link": "https://github.com/cosmicstack-labs/mercury-agent"
+    },
+    {
+      "title": "大模型推理 RL 方向新突破：HERMES++ 统一驾驶世界模型",
+      "date": "2026-05-01",
+      "summary": "arXiv 最新论文 HERMES++ 探索将 RL 后训练范式应用于 3D 场景理解与生成，为大模型在自动驾驶等具身场景的落地提供新思路。",
+      "link": "https://arxiv.org/abs/2604.28196"
+    }
+  ],
+  "papers": [
+    {
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "date": "2026-04-28",
+      "summary": "探索强化学习在 3D 驾驶世界模型中的应用，统一场景理解与生成任务。",
+      "link": "https://arxiv.org/abs/2604.28196"
+    },
+    {
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "date": "2026-04-28",
+      "summary": "研究大语言模型在 RL 训练中是否可能学会抵抗训练的策略，触及 AI 安全核心问题。",
+      "link": "https://arxiv.org/abs/2604.28182"
+    },
+    {
+      "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
+      "date": "2026-04-28",
+      "summary": "利用大语言模型优化临床图结构表示，提升 EEG 癫痫诊断的表征学习效果。",
+      "link": "https://arxiv.org/abs/2604.28178"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Theo: Claude Code refuses requests or charges extra if your commits mention OpenClaw",
+      "date": "2026-05-01",
+      "summary": "HN 1151 分热帖，揭示 Claude Code 对 commit 中提及 OpenClaw 的请求存在限制或额外收费行为。",
+      "link": "https://twitter.com/theo/status/2049645973350363168"
+    },
+    {
+      "title": "Claude Code 限制行为引发开源社区讨论",
+      "date": "2026-05-01",
+      "summary": "围绕 AI 编码工具是否存在审查行为，开发者社区展开激烈讨论，涉及 AI 工具的商业化边界问题。",
+      "link": "https://news.ycombinator.com/item?id=43618074"
+    },
+    {
+      "title": "AI 编码代理的安全与商业化争议",
+      "date": "2026-05-01",
+      "summary": "从 Claude Code 事件出发，行业开始审视 AI 编码工具的透明度、开源兼容性和商业策略。",
+      "link": "https://news.ycombinator.com/item?id=43618074"
+    }
+  ],
+  "discord": [
+    {
+      "title": "AI Agent 框架设计模式讨论：Mercury vs esp-claw vs thClaws",
+      "date": "2026-05-01",
+      "summary": "社区围绕三款新兴 Agent 框架的架构差异展开深度讨论，涵盖权限硬化、多通道接入、端侧部署等话题。",
+      "link": "https://github.com/cosmicstack-labs/mercury-agent/discussions"
+    },
+    {
+      "title": "PyTorch Lightning 供应链攻击事件社区响应",
+      "date": "2026-05-01",
+      "summary": "AI/ML 社区紧急讨论 PyTorch Lightning 依赖库中发现的 Shai-Hulud 恶意软件，分享安全审计与应对方案。",
+      "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/"
+    },
+    {
+      "title": "DESIGN.md 规范落地讨论：AI 代理视觉身份标准化",
+      "date": "2026-05-01",
+      "summary": "Google 开源的 design.md 规范引发社区热议，讨论如何在不同编码代理中实现统一的视觉身份定义。",
+      "link": "https://github.com/google-labs-code/design.md/discussions"
+    }
+  ],
+  "github": [
+    {
+      "title": "EvoLinkAI/awesome-gpt-image-2-prompts — 23,659 ⭐",
+      "date": "2026-05-01",
+      "summary": "GPT-Image-2 提示词工程大全，涵盖肖像、海报、UI 模型、角色表等多场景的图像生成提示词示例集合。",
+      "link": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts"
+    },
+    {
+      "title": "alchaincyf/huashu-design — 10,842 ⭐",
+      "date": "2026-05-01",
+      "summary": "Claude Code 里 HTML 原生的设计 skill，支持高保真原型、幻灯片、动画和 20 种设计哲学，HTML-native 设计工具新范式。",
+      "link": "https://github.com/alchaincyf/huashu-design"
+    },
+    {
+      "title": "google-labs-code/design.md — 10,515 ⭐",
+      "date": "2026-05-01",
+      "summary": "为编码代理提供持久化视觉身份定义的格式规范，让 AI agent 拥有结构化、持续性的设计感知能力。",
+      "link": "https://github.com/google-labs-code/design.md"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Claude Code refuses requests or charges extra if your commits mention OpenClaw",
+      "date": "2026-05-01",
+      "summary": "1151 分热帖，揭示 AI 编码工具可能存在的审查行为，引发广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=43618074"
+    },
+    {
+      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
+      "date": "2026-05-01",
+      "summary": "396 分，Semgrep 团队在 AI 训练库中发现供应链攻击，AI 开源生态安全再次敲响警钟。",
+      "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/"
+    },
+    {
+      "title": "Opus 4.7 knows the real Kelsey",
+      "date": "2026-05-01",
+      "summary": "343 分，探讨 Anthropic 最新 Opus 4.7 模型的人格化交互能力和 AI 匿名对话的可行性。",
+      "link": "https://news.ycombinator.com/item?id=43618105"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Claude Code 限制行为引发 Reddit 热议",
+      "date": "2026-05-01",
+      "summary": "Reddit AI 社区热议 Claude Code 对特定关键词的限制，讨论 AI 工具透明度和开源兼容性。",
+      "link": "https://news.ycombinator.com/item?id=43618074"
+    },
+    {
+      "title": "PyTorch Lightning 供应链攻击：ML 社区紧急响应",
+      "date": "2026-05-01",
+      "summary": "Reddit ML 社区围绕 PyTorch Lightning 依赖库中的恶意软件展开讨论，分享安全审计经验。",
+      "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/"
+    },
+    {
+      "title": "GPT-Image-2 提示词工程开源项目走红",
+      "date": "2026-05-01",
+      "summary": "Reddit 讨论 2.3 万星的 GPT-Image-2 提示词集合，分享实用提示词技巧和最佳实践。",
+      "link": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts"
+    }
+  ],
+  "tools": [
+    {
+      "title": "GPT-Image-2 提示词大全 — awesome-gpt-image-2-prompts",
+      "date": "2026-05-01",
+      "summary": "2.3 万星项目，覆盖肖像、海报、UI 模型、角色表等多场景的 OpenAI API 图像生成提示词范例。",
+      "link": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts"
+    },
+    {
+      "title": "Huashu Design — HTML 原生设计 Skill for Claude Code",
+      "date": "2026-05-01",
+      "summary": "1 万星工具，在 Claude Code 中实现 HTML 原生高保真原型设计，支持幻灯片、动画和 20 种设计哲学。",
+      "link": "https://github.com/alchaincyf/huashu-design"
+    },
+    {
+      "title": "DESIGN.md — 编码代理视觉身份规范",
+      "date": "2026-05-01",
+      "summary": "Google 开源的格式规范，为 AI 编码代理提供持久化、结构化的视觉身份定义，1 万星。",
+      "link": "https://github.com/google-labs-code/design.md"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Mercury-agent: Soul-driven AI Agent Framework",
+      "date": "2026-05-01",
+      "summary": "1852 星，具备权限硬化工具、Token 预算和多通道访问能力的 Soul-driven 架构 AI 代理框架。",
+      "link": "https://github.com/cosmicstack-labs/mercury-agent"
+    },
+    {
+      "title": "esp-claw: IoT 设备端 Chat Coding AI 框架",
+      "date": "2026-05-01",
+      "summary": "850 星，乐鑫推出的 ESP-Claw 框架，将 AI 编码代理引入 IoT 设备端，开启边缘 AI 编程新范式。",
+      "link": "https://github.com/espressif/esp-claw"
+    },
+    {
+      "title": "thClaws: 开源 Rust 原生 Agent Harness 平台",
+      "date": "2026-05-01",
+      "summary": "675 星，支持多提供商、本地运行的开源代理框架平台，强调主权控制与隐私保护。",
+      "link": "https://github.com/thClaws/thClaws"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Claude Code 审查争议：AI 编码工具的透明度危机",
+      "date": "2026-05-01",
+      "summary": "Anthropic 的 Claude Code 因对 commit 中提及 OpenClaw 的请求实施限制，在硅谷引发关于 AI 工具审查与商业化边界的激烈讨论。",
+      "link": "https://news.ycombinator.com/item?id=43618074"
+    },
+    {
+      "title": "Google 开源 DESIGN.md：编码代理视觉身份标准化迈出关键一步",
+      "date": "2026-05-01",
+      "summary": "Google Labs 开源 design.md 格式规范，为 AI 编码代理提供持久化视觉身份定义，1 万星，推动 Agent 设计系统标准化。",
+      "link": "https://github.com/google-labs-code/design.md"
+    },
+    {
+      "title": "AI 供应链安全：PyTorch Lightning 恶意依赖事件敲响警钟",
+      "date": "2026-05-01",
+      "summary": "Semgrep 在 AI 训练核心库中发现 Shai-Hulud 主题恶意软件，硅谷安全团队紧急发布审计报告，AI 开源供应链安全成焦点。",
+      "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "乐鑫发布 esp-claw：将 AI 编码代理引入 IoT 设备端",
+      "date": "2026-05-01",
+      "summary": "国产芯片厂商乐鑫推出 ESP-Claw 框架，在 IoT 设备上实现 Chat Coding 能力，850 星，展现中国在边缘 AI 编程领域的创新。",
+      "link": "https://github.com/espressif/esp-claw"
+    },
+    {
+      "title": "数字生命卡兹克开源 AI Skills 合集获 7563 星",
+      "date": "2026-05-01",
+      "summary": "国内开发者 KKKKhazix 开源的 AI Skills 集合项目收获 7563 星，涵盖多种实用的 AI 技能模板。",
+      "link": "https://github.com/KKKKhazix/khazix-skills"
+    },
+    {
+      "title": "Harmonist: 中国开发者构建的便携式 AI Agent 编排平台",
+      "date": "2026-05-01",
+      "summary": "GammaLabTechnologies 开发的 Harmonist 项目提供 186 个 Agent 的协议级编排能力，零运行时依赖，996 星。",
+      "link": "https://github.com/GammaLabTechnologies/harmonist"
+    }
+  ]
+}
