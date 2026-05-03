@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-03",
+  "insights": [
+    {
+      "title": "腾讯开源 Hy-MT 翻译模型：440MB 离线运行，性能超越 Google 翻译",
+      "date": "2026-05-03",
+      "summary": "腾讯开源轻量翻译模型 Hy-MT1.5-1.8B-1.25bit，仅 440MB 可在手机端完全离线运行，支持 33 种语言和 5 种方言共 1056 个翻译方向。通过 1.25bit 激大量化技术，模型从 3.3GB 压缩至 440MB，推理速度提升 10%，质量无损失，在标准评测中媲美 Qwen3-32B 等百亿参数模型。",
+      "link": "https://www.aibase.com/news/27666"
+    },
+    {
+      "title": "四大科技巨头 2026 年 AI 资本支出飙升至 7250 亿美元，同比激增 77%",
+      "date": "2026-05-03",
+      "summary": "据 FT 报道，Google、Amazon、Microsoft、Meta 四家 2026 年 AI 领域总投资预计达 7250 亿美元，较去年 4100 亿增长 77%。仅 Q1 已达 1300 亿，Microsoft 支出预计 1900 亿（增长 192%），Amazon 超 2000 亿。Nadella 暗示软件计费模式将从按座位转向\"座位费+使用费\"混合模式。",
+      "link": "https://www.aibase.com/news/27664"
+    },
+    {
+      "title": "Meta 收购 ARI 布局人形机器人，补齐全身控制能力版图",
+      "date": "2026-05-03",
+      "summary": "Meta 正式收购人形机器人初创公司 Assured Robot Intelligence (ARI)，核心团队成员包括前 NVIDIA 研究员、UCSD 教授王晓龙和纽约大学教授 Leila Pinto，将并入 Meta 超级智能实验室。此举反映 AI 领域\"具身智能\"共识——AGI 需要模型在物理世界中进行交互训练。",
+      "link": "https://www.aibase.com/news/27663"
+    },
+    {
+      "title": "OpenAI 发布 ChatGPT Images 2.0，印度市场首周贡献最大用户增长",
+      "date": "2026-05-03",
+      "summary": "OpenAI 推出 ChatGPT Images 2.0 图像生成工具，支持复杂提示词和精准多语言文字渲染。印度市场首周下载量达 500 万，远超美国 200 万。新增 Hindi、Bengali 等非拉丁文字渲染能力，并推出\"think\"功能支持多图生成与修复。",
+      "link": "https://www.aibase.com/news/27662"
+    },
+    {
+      "title": "小红书成立 AI 一级部门 Dots，任命新总裁推进组织升级",
+      "date": "2026-05-03",
+      "summary": "小红书宣布重大组织架构调整，设立 AI 一级部门\"Dots\"和企业智能部，覆盖 AI 模型开发、基础设施、工程落地和产品应用全链条。同时任命 Nana（丁玲）为新总裁，负责社区、电商、商业化三大核心业务整合。",
+      "link": "https://www.aibase.com/news/27654"
+    },
+    {
+      "title": "蚂蚁集团主导研发 ASL 协议，填补智能体可信协作空白",
+      "date": "2026-05-03",
+      "summary": "蚂蚁集团在数字中国建设峰会上首发 ASL（Agent Security Link）安全可信互联协议，解决跨 Agent 协作中的身份验证、意图防篡改、授权边界控制三大\"信任黑洞\"。协议可叠加在 MCP、A2A 等现有互操作协议之上，建立可验证、可传递、可约束、可审计的信任基础。",
+      "link": "https://www.aibase.com/news/27650"
+    },
+    {
+      "title": "微软 Q3 营收超 829 亿美元，AI 收入同比暴增 123%",
+      "date": "2026-05-03",
+      "summary": "微软公布截至 2026 年 3 月 31 日第三财季财报，总营收 829 亿美元（同比+18%），AI 年化收入突破 370 亿美元（同比+123%）。Azure 云服务增长 40%，智能云部门收入 347 亿美元（+30%）。AI 已从实验阶段转型为公司最强增长引擎。",
+      "link": "https://www.aibase.com/news/27649"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "date": "2026-05-03",
+      "summary": "提出大规模合成计算机创建方法论，构建真实文件夹层级和内容丰富的数字工作空间（文档、表格、演示文稿），在 1000 个合成计算机上运行长周期模拟（每轮平均 2000+ turn，8+ 小时 agent 运行时），为 Agent 自我改进和 Agentic RL 提供可扩展的数据基础设施。",
+      "link": "https://arxiv.org/abs/2604.28181",
+      "authors": "Microsoft Research"
+    },
+    {
+      "title": "Intern-Atlas: Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "date": "2026-05-03",
+      "summary": "构建 103 万篇论文的方法演化图谱，包含 941 万条语义类型边，自动识别方法级实体、推断方法论谱系关系、捕捉驱动创新的瓶颈问题。面向 AI 研究 Agent 提供可查询的方法发展因果网络，支持自引导时序树搜索。",
+      "link": "https://arxiv.org/abs/2604.28158",
+      "authors": "Yujun Wu, Dongxu Zhang, Xinchen Li et al."
+    },
+    {
+      "title": "A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "date": "2026-05-03",
+      "summary": "构建 103 万篇论文的方法演化图谱，包含 941 万条语义类型边，自动识别方法级实体、推断方法论谱系关系、捕捉驱动创新的瓶颈问题。面向 AI 研究 Agent 提供可查询的方法发展因果网络，支持自引导时序树搜索。",
+      "link": "https://arxiv.org/abs/2604.28158",
+      "authors": "Yujun Wu, Dongxu Zhang, Xinchen Li et al."
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andy Jassy 评价 OpenAI-Microsoft 协议重组：Very Interesting",
+      "date": "2026-05-03",
+      "summary": "AWS CEO Andy Jassy 在 X 上发文评价 OpenAI 与微软重组独家协议为\"非常有趣\"，并预告周二将公布更多细节。随后 AWS 宣布 OpenAI 前沿模型正式登陆 Bedrock 平台。",
+      "link": "https://x.com/ajassy/status/2048806022253609115",
+      "author": "Andy Jassy (@ajassy)"
+    },
+    {
+      "title": "OpenAI GPT-5.5 系统指令泄露引发热议：禁止讨论哥布林等奇幻生物",
+      "date": "2026-05-03",
+      "summary": "Ars Technica 报道 OpenAI Codex CLI 代码中意外泄露 GPT-5.5 系统指令，其中明确禁止讨论哥布林、精灵、浣熊等奇幻生物。技术专家分析这是针对新模型特定幻觉问题的修复补丁，引发社交媒体广泛讨论。",
+      "link": "https://www.aibase.com/news/27647",
+      "author": "Ars Technica"
+    },
+    {
+      "title": "Netomi 获 1.1 亿美元融资：Accenture 和 Adobe 联合押注 AI 客服",
+      "date": "2026-05-03",
+      "summary": "旧金山 AI 客服初创 Netomi 完成 1.1 亿美元新一轮融资，Accenture Ventures 领投，Adobe Ventures 参投。Jeffrey Katzenberg 加入董事会。此前 OpenAI 联合创始人 Greg Brockman、DeepMind 联合创始人 Demis Hassabis 等 AI 大佬已早期投资。",
+      "link": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service",
+      "author": "VentureBeat"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Runpod Flash GA 发布：消除 Docker 打包税，加速 AI Agent 部署",
+      "date": "2026-05-03",
+      "summary": "Runpod 推出开源 MIT 许可的 Python 工具 Flash GA，消除 serverless GPU 开发中 Docker 容器化的\"打包税\"，支持跨平台构建、低延迟负载均衡 HTTP API、持久化多数据中心存储，并为 Claude Code、Cursor、Cline 等编码 Agent 发布专用 Skill 包。",
+      "link": "https://venturebeat.com/infrastructure/one-tool-call-to-rule-them-all-new-open-source-python-tool-runpod-flash-eliminates-containers-for-faster-ai-dev"
+    },
+    {
+      "title": "AWS 发布 Bedrock Managed Agents powered by OpenAI",
+      "date": "2026-05-03",
+      "summary": "AWS 在 \"What's Next with AWS\" 活动中发布 Bedrock 托管 Agent 平台，结合 OpenAI 前沿模型与专有\"harness\"执行框架，支持客户在自有环境中构建和运行强大的 Agent。GPT-5.4 已在 Bedrock 有限预览，GPT-5.5 即将上线。",
+      "link": "https://venturebeat.com/technology/amazons-openai-gambit-signals-a-new-phase-in-the-cloud-wars-one-where-exclusivity-no-longer-applies"
+    },
+    {
+      "title": "Writer 推出事件驱动型 AI Agent，无需人工触发即可自主执行工作流",
+      "date": "2026-05-03",
+      "summary": "企业 AI Agent 平台 Writer 发布事件触发功能，Agent 可自动监听 Gmail、Gong、Google Calendar、SharePoint、Slack 等平台的业务信号，并在检测到特定事件时自动执行多步骤 Playbook，标志着企业 AI 从被动响应向主动执行的关键转变。",
+      "link": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce"
+    }
+  ],
+  "github": [
+    {
+      "title": "langflow-ai/langflow — AI Agent 可视化构建与部署平台",
+      "date": "2026-05-03",
+      "summary": "Langflow 提供可视化拖拽式 Agent 和工作流构建能力，支持多模型集成和一键部署，147K+ Stars，是构建和部署 AI Agent 的首选低代码平台之一。",
+      "link": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "title": "langgenius/dify — 生产级 Agent 工作流开发平台",
+      "date": "2026-05-03",
+      "summary": "Dify 是面向生产环境的 Agent 工作流开发平台，支持 RAG、Agent、LLM 应用的一站式构建，139K+ Stars，国内开发者社区活跃。",
+      "link": "https://github.com/langgenius/dify"
+    },
+    {
+      "title": "google-gemini/gemini-cli — Gemini 终端 AI Agent",
+      "date": "2026-05-03",
+      "summary": "Google 开源的 Gemini CLI 工具，将 Gemini 大模型能力直接带入终端环境，支持代码补全、任务自动化等场景，103K+ Stars。",
+      "link": "https://github.com/google-gemini/gemini-cli"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Alibaba HDPO 框架：将 AI Agent 冗余工具调用从 98% 降至 2%",
+      "date": "2026-05-03",
+      "summary": "阿里巴巴研究团队提出分层解耦策略优化（HDPO），通过分离准确性和效率两个独立优化通道，训练 Agent 平衡执行效率和任务准确性。Metis 多模态模型在关键行业评测中达到 SOTA 推理准确率。",
+      "link": "https://arxiv.org/abs/2604.08545"
+    },
+    {
+      "title": "IBM 发布 Bob AI 开发平台：多模型路由 + 人工检查点确保生产级安全",
+      "date": "2026-05-03",
+      "summary": "IBM 推出 AI 驱动软件开发平台 Bob，支持 Granite、Claude、Mistral 等多模型路由，引入人工主导检查点机制，已在内部 80,000+ 员工中使用，部分团队任务节省 70% 时间（平均每周节省 10 小时）。",
+      "link": "https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system"
+    },
+    {
+      "title": "四大科技巨头 2026 年 AI 资本支出达 7250 亿美元",
+      "date": "2026-05-03",
+      "summary": "Google、Amazon、Microsoft、Meta 四家 2026 年 AI 领域总投资预计 7250 亿美元，同比激增 77%。仅 Q1 已达 1300 亿。Nadella 暗示软件计费模式正在变革。",
+      "link": "https://www.aibase.com/news/27664"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Netomi 获 1.1 亿美元融资，Accenture 和 Adobe 押注 AI 客服",
+      "date": "2026-05-03",
+      "summary": "旧金山 AI 客服初创 Netomi 完成 1.1 亿美元新一轮融资，由 Accenture Ventures 领投，Adobe Ventures、WndrCo 等参投。Jeffrey Katzenberg 加入董事会。此前 OpenAI 联合创始人 Greg Brockman、DeepMind 联合创始人 Demis Hassabis 等 AI 大佬已早期投资。",
+      "link": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service"
+    },
+    {
+      "title": "快手推出 KroWork AI 桌面助手，用自然语言创建本地应用",
+      "date": "2026-05-03",
+      "summary": "快手发布 KroWork AI 桌面助手，面向非技术用户，通过自然语言指令完成文件处理、浏览器自动化、应用生成等办公任务。所有操作在沙箱环境执行，数据不上传云端，可将重复工作流转化为本地应用反复使用。",
+      "link": "https://www.aibase.com/news/27659"
+    },
+    {
+      "title": "微软推出 Legal Assistant：面向法律行业的定制化 AI Agent",
+      "date": "2026-05-03",
+      "summary": "微软通过 US Frontier 项目发布面向法律专业人士的 AI 助手 Legal Assistant，深度集成 Word 环境，支持逐行审查合同、跨版本对比、合规标准一键对比。采用定制化算法而非通用 LLM，确保专业严谨性和逻辑一致性。",
+      "link": "https://www.aibase.com/news/27665",
+      "subreddit": "r/artificial"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Runpod Flash — Serverless GPU 开发工具（开源 MIT）",
+      "date": "2026-05-03",
+      "summary": "开源 Python 工具，消除 Docker 容器化需求，支持跨平台构建、低延迟 HTTP API、持久化存储。为 Claude Code、Cursor、Cline 等编码 Agent 提供专用 Skill 包，加速 AI 模型训练和部署。",
+      "link": "https://venturebeat.com/infrastructure/one-tool-call-to-rule-them-all-new-open-source-python-tool-runpod-flash-eliminates-containers-for-faster-ai-dev"
+    },
+    {
+      "title": "腾讯 Hy-MT — 440MB 离线翻译模型（开源）",
+      "date": "2026-05-03",
+      "summary": "支持 33 种语言和 1056 个翻译方向的轻量翻译模型，通过 1.25bit 量化实现 440MB 手机端离线运行，性能媲美百亿参数大模型。已提供 Android 演示 APK。",
+      "link": "https://www.aibase.com/news/27666"
+    },
+    {
+      "title": "Amazon Quick — AWS 桌面 AI 生产力工具",
+      "date": "2026-05-03",
+      "summary": "AWS 新发布的桌面 AI 生产力工具，与 Bedrock Managed Agents 同步推出，配合 OpenAI 模型在 AWS 的全面集成，为企业提供从模型到 Agent 到桌面工具的完整 AI 生产力方案。",
+      "link": "https://aws.amazon.com/quick/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "AWS Bedrock Managed Agents powered by OpenAI — 企业级 Agent 平台",
+      "date": "2026-05-03",
+      "summary": "AWS 结合 OpenAI 前沿模型与专有\"harness\"执行框架，发布 Bedrock 托管 Agent 平台。harness 负责工具调用决策、上下文压缩等 Agent 执行逻辑。客户可在自有环境中构建运行强大的 Agent。",
+      "link": "https://aws.amazon.com/bedrock/managed-agents-openai/"
+    },
+    {
+      "title": "Writer Event-Based Agent — 无需人工触发的事件驱动 AI Agent",
+      "date": "2026-05-03",
+      "summary": "Writer 发布事件触发型 AI Agent，可监听 Gmail、Slack、Google Drive 等平台的业务事件并自动执行多步骤 Playbook，从被动响应转为主动执行，代表企业 AI Agent 新范式。",
+      "link": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce"
+    },
+    {
+      "title": "阿里巴巴 HDPO 训练框架：打造不\"手痒\"的智能 Agent",
+      "date": "2026-05-03",
+      "summary": "阿里 HDPO 框架训练 Agent 学会何时使用内部知识、何时调用外部工具，将冗余工具调用从 98% 降至 2%。解决当前 Agent\"触发狂\"式的工具调用行为，构建更高效、更经济的生产级 Agentic 系统。",
+      "link": "https://arxiv.org/abs/2604.08545"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "AWS 引入 OpenAI 全系模型，云战争进入\"不再独家\"新阶段",
+      "date": "2026-05-03",
+      "summary": "AWS 在 \"What's Next\" 活动中宣布 OpenAI 前沿模型正式登陆 Bedrock 平台，紧随 OpenAI 与微软重组独家协议之后。GPT-5.4 已在 Bedrock 有限预览，客户可将现有工作负载直接迁移到 AWS，无需重写代码。Amazon CEO Andy Jassy 和 OpenAI CEO Sam Altman 均发表重要声明。",
+      "link": "https://venturebeat.com/technology/amazons-openai-gambit-signals-a-new-phase-in-the-cloud-wars-one-where-exclusivity-no-longer-applies"
+    },
+    {
+      "title": "OpenAI Codex CLI 代码泄露 GPT-5.5 系统指令：严禁讨论哥布林",
+      "date": "2026-05-03",
+      "summary": "Ars Technica 在 OpenAI 开源 Codex CLI 代码中发现 GPT-5.5 系统指令泄露，3500 字基础指令中两次明确禁止讨论哥布林、精灵、浣熊等奇幻生物。专家分析这是针对新模型特定幻觉问题的修复补丁，凸显大模型细粒度控制的挑战。",
+      "link": "https://www.aibase.com/news/27647"
+    },
+    {
+      "title": "Microsoft 推出 Legal Assistant：定制化算法替代通用 LLM 的法律 AI",
+      "date": "2026-05-03",
+      "summary": "微软通过 US Frontier 项目发布法律行业专用 AI 助手，不依赖通用黑盒大模型，而是与法律专家深度合作开发定制算法，在 Word 内直接提供合同审查、版本对比、合规检查等功能，代表 AI 助手从通用向专业化的战略转型。",
+      "link": "https://www.aibase.com/news/27665"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "腾讯开源 Hy-MT 翻译模型：1.25bit 量化实现 440MB 手机端离线翻译",
+      "date": "2026-05-03",
+      "summary": "腾讯开源 Hy-MT1.5-1.8B-1.25bit，通过 1.25bit 激大量化技术将模型从 3.3GB 压缩至 440MB，支持 33 种语言和 5 种方言。在标准评测中翻译质量媲美 Qwen3-32B 等百亿参数模型，已提供 Android 演示 APK。",
+      "link": "https://www.aibase.com/news/27666"
+    },
+    {
+      "title": "蚂蚁集团首发 ASL 智能体安全可信互联协议",
+      "date": "2026-05-03",
+      "summary": "蚂蚁集团在数字中国建设峰会上发布 ASL 协议，解决跨 Agent 协作的身份验证、意图防篡改、授权边界控制三大信任黑。协议可叠加在 MCP、A2A 等现有互操作协议之上，建立可验证可审计的信任基础，并与 ACT 商业信任协议协同。",
+      "link": "https://www.aibase.com/news/27650"
+    },
+    {
+      "title": "快手推出 KroWork AI 桌面助手：用自然语言创建本地办公应用",
+      "date": "2026-05-03",
+      "summary": "快手发布面向非技术用户的 KroWork AI 桌面助手，通过自然语言指令完成文件处理、浏览器自动化等任务。沙箱环境保障数据安全，可将重复工作流转化为可反复使用的本地应用，无需重复付费。",
+      "link": "https://www.aibase.com/news/27659"
+    }
+  ]
+}
