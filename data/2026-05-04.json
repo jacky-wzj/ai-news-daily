@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-04",
+  "insights": [
+    {
+      "title": "Amazon与OpenAI达成战略合作：500亿美元投资，GPT-5.4/5.5登陆AWS Bedrock",
+      "date": "2026-05-04",
+      "summary": "AWS与OpenAI宣布多年战略合作，Amazon将投资500亿美元（首期150亿），成为OpenAI Frontier独家第三方云分发商。GPT-5.4已在Bedrock有限预览，GPT-5.5即将上线。OpenAI还将消耗2GW Trainium算力。双方联合开发Stateful Runtime Environment，预计数月内上线。",
+      "link": "https://www.aboutamazon.com/news/aws/amazon-open-ai-strategic-partnership-investment"
+    },
+    {
+      "title": "Microsoft与OpenAI重组独家云合作协议，OpenAI正式登陆AWS和Google Cloud",
+      "date": "2026-05-04",
+      "summary": "OpenAI与Microsoft公开重组独家云合作伙伴关系，首次允许OpenAI在所有 rival cloud providers 上分发产品。AWS CEO Matt Garman称其为'巨大合作'，标志着云战争进入'不再独家'新阶段。",
+      "link": "https://venturebeat.com/technology/microsoft-and-openai-gut-their-exclusive-deal-freeing-openai-to-sell-on-aws-and-google-cloud"
+    },
+    {
+      "title": "SAG-AFTRA与制片厂达成四年协议，包含全新AI保护条款",
+      "date": "2026-05-04",
+      "summary": "继Writers Guild之后，SAG-AFTRA也与制片厂达成四年协议，据报道包含可观的养老金基金贡献、增加的流媒体分成以及新的AI保护措施。",
+      "link": "https://deadline.com/2026/05/sag-aftra-studios-reach-new-bigger-deal-amptp-1236879157/"
+    },
+    {
+      "title": "奥斯卡学院宣布第99届奥斯卡仅人类可获得表演奖",
+      "date": "2026-05-04",
+      "summary": "奥斯卡官方规则明确：只有由人类实际表演并获得同意的角色才有资格获得表演奖。剧本奖也要求'人类创作'。如有疑问，学院可要求更多关于AI使用性质的信息。",
+      "link": "https://www.oscars.org/oscars/99th-academy-awards-rules"
+    },
+    {
+      "title": "AI生成播客泛滥：9天内39%新播客或为AI生成",
+      "date": "2026-05-04",
+      "summary": "Bloomberg报道，根据Podcast Index数据，9天内新增10,871个播客feed中约4,243个（39%）可能是AI生成。Inception Point AI据报每周发布3,000集，大量低质内容充斥播客应用。",
+      "link": "https://gizmodo.com/more-than-a-third-of-all-new-podcasts-are-ai-generated-2000753786"
+    },
+    {
+      "title": "数据中心反对声音跨越政治分歧，或影响中期选举",
+      "date": "2026-05-04",
+      "summary": "仅Michigan就有超过十几个数据中心计划。能源价格上涨和环境影响让两党都不满，但没有任何一方明确主导这一议题，可能成为摇摆州中期选举的关键议题。",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/liberals-conservatives-data-centers.html"
+    },
+    {
+      "title": "AWS发布Amazon Quick桌面AI工具和Bedrock Managed Agents",
+      "date": "2026-05-04",
+      "summary": "AWS在What's Next活动中发布Amazon Quick桌面AI生产力工具，并推出Bedrock Managed Agents，将Amazon Connect从单一联络中心扩展为四个Agentic AI解决方案。",
+      "link": "https://www.aboutamazon.com/news/aws/amazon-quick-ai-assistant"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Agentic AI Orchestration Should Be Bayes-Consistent",
+      "date": "2026-05-04",
+      "summary": "提出Agentic AI编排应具备贝叶斯一致性的理论框架，探讨多智能体系统中一致性决策的理论基础。",
+      "link": "https://arxiv.org/abs/2605.00742"
+    },
+    {
+      "title": "AgentFloor: How Far Up the Tool Use Ladder Can Small Open-Weight Models Go?",
+      "date": "2026-05-04",
+      "summary": "通过30任务基准测试评估16个开源模型（0.27B-32B参数）在工具调用任务上的能力边界。发现小型开源模型已能胜任大部分短期结构化工具调用，最强开源模型在基准上匹配GPT-5且成本更低。",
+      "link": "https://arxiv.org/abs/2605.00334"
+    },
+    {
+      "title": "TokenArena: A Continuous Benchmark Unifying Energy and Cognition in AI Inference",
+      "date": "2026-05-04",
+      "summary": "推出跨78个端点的连续基准测试，从输出速度、首token时间、混合价格、有效上下文和质量5个维度评估推理性能。同模型不同端点数学/代码准确率差异可达12.5分。",
+      "link": "https://arxiv.org/abs/2605.00300"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "AWS CEO Matt Garman谈OpenAI合作：a huge partnership",
+      "date": "2026-05-04",
+      "summary": "AWS CEO Matt Garman在What's Next活动中称OpenAI合作为'巨大合作'，表示客户从早期就开始要求OpenAI模型进入AWS。",
+      "link": "https://venturebeat.com/technology/amazons-openai-gambit-signals-a-new-phase-in-the-cloud-wars-one-where-exclusivity-no-longer-applies/"
+    },
+    {
+      "title": "Musk v. Altman trial: Gabe Newell and Hideo Kojima in OpenAI evidence",
+      "date": "2026-05-04",
+      "summary": "Musk与Altman庭审证据中披露了Valve创始人Gabe Newell与Elon Musk关于SpaceX参观和OpenAI介绍的邮件往来。Musk还写道他对OpenAI与Google/Deepmind竞争失去了信心。",
+      "link": "https://www.theverge.com/news/673938/gabe-newell-valve-founder-brain-computer-interface-first-chip-starfish"
+    },
+    {
+      "title": "数据中心的反对声音跨越政治分歧，可能影响中期选举",
+      "date": "2026-05-04",
+      "summary": "仅Michigan就有超过十几个数据中心计划。能源价格上涨和环境影响让两党都不满，没有任何一方明确主导这一议题。",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/liberals-conservatives-data-centers.html"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Runpod Flash GA发布：消除Docker打包税，加速AI Agent部署",
+      "date": "2026-05-04",
+      "summary": "Runpod发布开源MIT许可的Python工具Runpod Flash GA，消除serverless GPU开发中的Docker容器化流程。支持跨平台构建引擎，M系列Mac可自动产出Linux x86_64产物，显著减少冷启动时间。",
+      "link": "https://venturebeat.com/infrastructure/one-tool-call-to-rule-them-all-new-open-source-python-tool-runpod-flash-eliminates-containers-for-faster-ai-dev/"
+    },
+    {
+      "title": "IBM launches Bob: AI Development Partner with Multi-Model Routing",
+      "date": "2026-05-04",
+      "summary": "IBM推出AI开发平台Bob，支持Claude、Mistral、Granite等多模型路由，内置安全合规控制。已有8万+IBM员工使用，部分团队节省70%时间，平均每周节省10小时。",
+      "link": "https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system/"
+    },
+    {
+      "title": "Writer推出事件触发AI Agent：无需人类提示即可自主执行工作流",
+      "date": "2026-05-04",
+      "summary": "Writer发布事件触发器，使AI Agent可监听Gmail、Gong、Google Calendar、SharePoint和Slack中的业务事件，自动执行多步骤工作流。同时新增Adobe Experience Manager连接器和Datadog可观测性插件。",
+      "link": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce/"
+    }
+  ],
+  "github": [
+    {
+      "title": "TauricResearch/TradingAgents — 多Agent LLM金融交易框架",
+      "date": "2026-05-04",
+      "summary": "基于多Agent LLM的金融交易框架，本周获得4,000+ stars，展示LLM Agent在金融交易领域的应用潜力。",
+      "link": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "title": "ComposioHQ/awesome-codex-skills — Codex实用技能精选集",
+      "date": "2026-05-04",
+      "summary": "精选的Codex CLI和API自动化工作流技能列表，为跨Codex平台提供实用开发技能参考。",
+      "link": "https://github.com/ComposioHQ/awesome-codex-skills"
+    },
+    {
+      "title": "ruvnet/ruflo — Claude多Agent编排平台",
+      "date": "2026-05-04",
+      "summary": "领先的Claude Agent编排平台，部署智能多Agent集群，协调自主工作流，构建对话式AI系统。具有企业级架构、自学习集群智能、RAG集成和原生Claude Code/Codex集成。",
+      "link": "https://github.com/ruvnet/ruflo"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Alibaba HDPO框架：将AI Agent冗余工具调用从98%降至2%",
+      "date": "2026-05-04",
+      "summary": "阿里巴巴研究人员提出HDPO（分层解耦策略优化）强化学习框架，训练Metis多模态模型将冗余工具调用从98%降至2%，同时在关键行业基准上建立新的SOTA推理准确率。解决LLM盲目调用工具导致的延迟和成本问题。",
+      "link": "https://venturebeat.com/orchestration/alibabas-metis-agent-cuts-redundant-ai-tool-calls-from-98-to-2-and-gets-more-accurate-doing-it/"
+    },
+    {
+      "title": "AI Podcast Proliferation: Over a Third of New Podcasts Are AI Generated",
+      "date": "2026-05-04",
+      "summary": "Podcast Index数据显示，9天内新增播客中约39%可能为AI生成。Inception Point AI每周发布3,000集，大量低质内容充斥播客应用。",
+      "link": "https://www.hollywoodreporter.com/business/digital/ai-podcast-start-up-plan-shows-1236361367/"
+    },
+    {
+      "title": "好莱坞报道：SAG-AFTRA与制片厂达成包含AI条款的协议",
+      "date": "2026-05-04",
+      "summary": "SAG-AFTRA与AMPTP达成四年协议，包含养老金基金贡献、流媒体分成增加和新AI保护措施。",
+      "link": "https://deadline.com/2026/05/sag-aftra-studios-reach-new-bigger-deal-amptp-1236879157/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Netomi获1.1亿美元融资，Accenture和Adobe押注AI客服",
+      "date": "2026-05-04",
+      "summary": "旧金山AI客服初创公司Netomi获1.1亿美元融资，Accenture Ventures领投，Adobe Ventures参与。Jeffrey Katzenberg加入董事会。交易暗示企业AI新分界线：能否在复杂、受监管的真实环境中运作。",
+      "link": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service/"
+    },
+    {
+      "title": "AWS引入OpenAI全系模型，云战争进入'不再独家'新阶段",
+      "date": "2026-05-04",
+      "summary": "AWS在OpenAI-Microsoft重组独家协议后24小时，宣布将OpenAI最强大模型引入Bedrock平台。同时发布新的Agent开发框架、Amazon Quick桌面工具，并将Connect扩展为四个Agentic AI解决方案。",
+      "link": "https://venturebeat.com/technology/amazons-openai-gambit-signals-a-new-phase-in-the-cloud-wars-one-where-exclusivity-no-longer-applies/"
+    },
+    {
+      "title": "IBM发布Bob：多模型路由+人工检查点的安全AI编程平台",
+      "date": "2026-05-04",
+      "summary": "IBM发布AI软件开发平台Bob，支持Claude、Mistral、Granite多模型自动路由，内置人工检查点机制。已80,000+IBM员工使用，部分团队节省70%时间。",
+      "link": "https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Runpod Flash — Serverless GPU开发工具（开源MIT）",
+      "date": "2026-05-04",
+      "summary": "消除Docker容器化流程的Python工具，支持跨平台构建、多语言pipeline、低延迟负载均衡HTTP API。M系列Mac可自动产出Linux x86_64产物，显著减少冷启动时间。",
+      "link": "https://venturebeat.com/infrastructure/one-tool-call-to-rule-them-all-new-open-source-python-tool-runpod-flash-eliminates-containers-for-faster-ai-dev/"
+    },
+    {
+      "title": "Amazon Quick — AWS桌面AI生产力工具",
+      "date": "2026-05-04",
+      "summary": "AWS新发布的桌面AI助手，集成AWS生态的AI能力，支持Vertiv、DXC Technology、3M、Jabil等企业用户已部署使用。",
+      "link": "https://www.aboutamazon.com/news/aws/amazon-quick-ai-assistant"
+    },
+    {
+      "title": "Amazon Bedrock Managed Agents powered by OpenAI",
+      "date": "2026-05-04",
+      "summary": "AWS Bedrock新推出的托管Agent服务，基于OpenAI前沿模型构建，支持推理、工具调用、多步问题求解。集成Bedrock AgentCore基础设施服务。",
+      "link": "https://aws.amazon.com/bedrock/openai/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Writer Agent事件触发器：无需提示的自主企业AI Agent",
+      "date": "2026-05-04",
+      "summary": "Writer发布事件触发器，AI Agent可监听Gmail、Gong、Google Calendar、Google Drive、SharePoint和Slack中的业务信号，自动执行复杂多步骤工作流。标志着企业AI从被动响应到主动自主的转折。",
+      "link": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce/"
+    },
+    {
+      "title": "AWS Bedrock Managed Agents powered by OpenAI — 企业级Agent平台",
+      "date": "2026-05-04",
+      "summary": "结合OpenAI前沿模型与Bedrock基础设施的托管Agent平台，支持构建可推理、调用工具、迭代完成任务的生产级Agent。",
+      "link": "https://aws.amazon.com/bedrock/openai/"
+    },
+    {
+      "title": "IBM Bob with Multi-Model Routing: AI-Assisted Coding to Production",
+      "date": "2026-05-04",
+      "summary": "IBM Bob贯穿完整SDLC流程，从规划、编码、测试到部署和现代化，内置多模型路由、安全检查点和审计追踪。80,000+员工使用，平均每周节省10小时。",
+      "link": "https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "AWS引入OpenAI全系模型，云战争进入'不再独家'新阶段",
+      "date": "2026-05-04",
+      "summary": "AWS在Microsoft-OpenAI重组独家协议后24小时内宣布合作。GPT-5.4已在Bedrock有限预览，GPT-5.5即将上线。AWS成为OpenAI Frontier独家第三方云分发商，OpenAI将消耗2GW Trainium算力。",
+      "link": "https://venturebeat.com/technology/amazons-openai-gambit-signals-a-new-phase-in-the-cloud-wars-one-where-exclusivity-no-longer-applies/"
+    },
+    {
+      "title": "Microsoft与OpenAI彻底重组独家云合作关系",
+      "date": "2026-05-04",
+      "summary": "OpenAI和Microsoft公开重组其独家云合作伙伴关系，首次允许OpenAI在所有竞争云平台分发产品。这一历史性转变结束了OpenAI对Azure的独家依赖。",
+      "link": "https://venturebeat.com/technology/microsoft-and-openai-gut-their-exclusive-deal-freeing-openai-to-sell-on-aws-and-google-cloud"
+    },
+    {
+      "title": "Netomi获1.1亿美元融资，Accenture和Adobe押注AI客服赛道",
+      "date": "2026-05-04",
+      "summary": "旧金山AI客服公司Netomi获Accenture Ventures领投的1.1亿美元融资。Jeffrey Katzenberg加入董事会。Accenture与Netomi达成全球联盟，面向Fortune 100客户推广。",
+      "link": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阿里巴巴HDPO框架：AI Agent冗余工具调用从98%降至2%",
+      "date": "2026-05-04",
+      "summary": "阿里巴巴研究人员提出HDPO分层解耦策略优化框架，训练Metis多模态模型大幅减少LLM盲目调用工具的问题。将冗余工具调用从98%降至2%，同时在关键行业基准上建立新的SOTA推理准确率。",
+      "link": "https://venturebeat.com/orchestration/alibabas-metis-agent-cuts-redundant-ai-tool-calls-from-98-to-2-and-gets-more-accurate-doing-it/"
+    },
+    {
+      "title": "阿里云Qwen与百度文心加速Agent生态布局",
+      "date": "2026-05-04",
+      "summary": "国内大模型厂商持续加速Agent相关能力建设。阿里云Qwen系列模型和百度文心平台均在推进智能体平台升级，支持多步骤工作流和工具调用能力。",
+      "link": "https://aws.amazon.com/bedrock/openai/"
+    },
+    {
+      "title": "AWS Trainium算力合作：OpenAI将消耗2GW中国相关产能",
+      "date": "2026-05-04",
+      "summary": "OpenAI与AWS扩展合作，承诺消耗约2GW的Trainium算力（Trainium3和下一代Trainium4芯片），支持Stateful Runtime、Frontier等高级工作负载。预计2027年开始交付Trainium4。",
+      "link": "https://www.aboutamazon.com/news/aws/amazon-open-ai-strategic-partnership-investment"
+    }
+  ]
+}
