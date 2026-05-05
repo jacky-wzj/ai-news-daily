@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-05",
+  "insights": [
+    {
+      "title": "四大科技巨头2026年AI资本支出达7250亿美元，同比激增77%",
+      "date": "2026-05-03",
+      "summary": "谷歌、亚马逊、微软、Meta 2026年AI领域总投资预计达7250亿美元，远超此前预估的6100亿。微软支出预计达1900亿（增幅192%），亚马逊超2000亿，谷歌和Meta均超1450亿。微软CEO暗示软件计费模式正从\"按座位\"转向\"座位+用量\"混合模式。",
+      "link": "https://www.aibase.com/news/27664"
+    },
+    {
+      "title": "微软Q3营收超829亿美元，AI业务年营收突破370亿增长123%",
+      "date": "2026-05-01",
+      "summary": "微软第三财季AI业务年化收入超370亿美元，同比增长123%。Azure云收入增长40%，智能云部门营收347亿美元增长30%。AI从实验阶段正式成为\"印钞机\"。",
+      "link": "https://www.aibase.com/news/27649"
+    },
+    {
+      "title": "Meta收购ARI完成全身人形机器人控制布局",
+      "date": "2026-05-03",
+      "summary": "Meta正式收购人形机器人初创公司ARI，核心团队（含NVIDIA前研究员、UCSD教授）全面并入Meta超级智能实验室。此举标志AI向具身智能领域加速迈进，AGI需要在物理世界中进行训练。",
+      "link": "https://www.aibase.com/news/27663"
+    },
+    {
+      "title": "蚂蚁集团牵头研发ASL协议，填补智能体可信协作空白",
+      "date": "2026-05-01",
+      "summary": "蚂蚁集团发布智能体安全可信互联协议ASL，采用\"四类能力组件+安全基础设施\"分层架构，解决跨Agent协作中的身份验证、意图防篡改传输、授权边界控制三大\"信任黑洞\"。",
+      "link": "https://www.aibase.com/news/27650"
+    },
+    {
+      "title": "小红书成立AI一级部门\"点\"，组织架构全面升级",
+      "date": "2026-05-01",
+      "summary": "小红书内部信宣布组织架构调整，设立AI一级部门\"点\"覆盖AI模型开发、基础设施、工程落地及产品应用。同时设立海外部门Rednote推进国际化。",
+      "link": "https://www.aibase.com/news/27654"
+    },
+    {
+      "title": "OpenAI GPT-5.5系统提示词泄露，严禁讨论哥布林等幻觉问题",
+      "date": "2026-05-01",
+      "summary": "Ars Technica报道，Codex CLI开源代码中意外暴露GPT-5.5系统提示词，明确禁止讨论哥布林、仙女、浣熊等生物。分析认为这是针对新模型生成过程中不稳定幻觉的\"补丁\"。",
+      "link": "https://www.aibase.com/news/27647"
+    },
+    {
+      "title": "Zig项目禁止LLM辅助贡献，引发开源社区关于人才培养的争论",
+      "date": "2026-05-01",
+      "summary": "知名开源项目Zig实施严格政策：完全禁止使用大语言模型生成的代码或注释进行贡献。核心观点是\"投资于人而非代码\"，保护开源社区的沟通基础和信任机制。",
+      "link": "https://www.aibase.com/news/27660"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Mozilla使用Anthropic Mythos发现并修复Firefox中271个Bug",
+      "date": "2026-05-03",
+      "summary": "Mozilla利用Anthropic的Mythos AI工具在Firefox代码库中发现了271个安全漏洞并完成修复，展示了AI在大型代码库安全审计中的实际价值。",
+      "link": "https://www.reddit.com/r/singularity/comments/1ssc2cv/mozilla_used_anthropics_mythos_to_find_and_fix/"
+    },
+    {
+      "title": "从零开始训练你自己的LLM — GitHub开源教程获234分关注",
+      "date": "2026-05-04",
+      "summary": "GitHub上llm-from-scratch项目提供从零构建LLM的完整教程，涵盖数据准备、模型训练、评估优化全流程，在HN获得234分热议。",
+      "link": "https://github.com/angelos-p/llm-from-scratch"
+    },
+    {
+      "title": "Agent Skills — Addy Osmani分享AI代理技能开发经验",
+      "date": "2026-05-04",
+      "summary": "前端专家Addy Osmani发文分享Agent Skills开发实践，探讨如何为AI代理设计和构建有效的技能模块，获得251分HN关注。",
+      "link": "https://addyosmani.com/blog/agent-skills/"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Twitter用户欺骗Grok转账20万美元成功",
+      "date": "2026-05-03",
+      "summary": "一名Twitter用户通过精心设计的提示词工程成功欺骗Grok转账20万美元，引发对AI金融安全性的广泛关注。Reddit相关帖子获1665分讨论。",
+      "link": "https://www.reddit.com/r/singularity/comments/1t3hw53/a_twitter_user_tricked_grok_to_send_200k_usd_to/"
+    },
+    {
+      "title": "Richard Dawkins与Claude相处3天后命名为\"Claudia\"",
+      "date": "2026-05-02",
+      "summary": "著名进化生物学家Richard Dawkins花费3天时间深入体验Claude AI，将其命名为\"Claudia\"，得出的结论引发AI社区热烈讨论，Reddit获2109分。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t2z0tn/richard_dawkins_spent_3_days_with_claude_and/"
+    },
+    {
+      "title": "Anthropic联手华尔街巨头推出企业级AI公司",
+      "date": "2026-05-04",
+      "summary": "Anthropic与华尔街金融机构合作推出面向企业的AI服务公司，标志着AI从技术产品向企业级服务转型的关键一步。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t42w30/anthropic_launches_enterprise_ai_firm_with_wall/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Uber分享1500个AI Agent投入生产后的经验教训",
+      "date": "2026-05-04",
+      "summary": "Uber分享了将1500个AI代理投入生产环境的实践经验，包括扩展挑战、监控策略和安全考量，为大规模Agent部署提供了宝贵参考。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t48gnn/uber_shares_what_happens_when_1500_ai_agents_hit/"
+    },
+    {
+      "title": "OpenAI分享低延迟语音AI规模化交付技术",
+      "date": "2026-05-04",
+      "summary": "OpenAI官方发文详细介绍如何在大规模场景下实现低延迟语音AI服务，涵盖架构设计、基础设施优化和推理加速等技术细节。HN获406分关注。",
+      "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/"
+    },
+    {
+      "title": "Y Combinator在OpenAI中的股权比例引发讨论",
+      "date": "2026-05-04",
+      "summary": "Daring Fireball发文分析Y Combinator在OpenAI中的股权比例（约0.6%），回顾早期投资历史与回报倍数，引发HN 325分热议。",
+      "link": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai"
+    }
+  ],
+  "github": [
+    {
+      "title": "caveman — Claude Code技能，减少65% token消耗",
+      "date": "2026-05-04",
+      "summary": "通过模拟原始人说话方式大幅减少Claude Code的token消耗，用更少的token完成同样的任务，54k星成为GitHub热门项目。",
+      "link": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "title": "mempalace — 最佳开源AI记忆系统",
+      "date": "2026-05-04",
+      "summary": "号称最佳基准测试的开源AI记忆系统，提供完整的记忆管理能力，免费开源。51k星。",
+      "link": "https://github.com/MemPalace/mempalace"
+    },
+    {
+      "title": "open-design — Anthropic Claude Design的开源替代方案",
+      "date": "2026-05-04",
+      "summary": "本地优先的开源UI设计工具，支持19种技能和71个品牌设计系统，可生成Web/桌面/移动端原型及PPTX/MP4导出。兼容Claude Code/Codex/Cursor等多种工具。25k星。",
+      "link": "https://github.com/nexu-io/open-design"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenAI如何实现大规模低延迟语音AI交付",
+      "date": "2026-05-04",
+      "summary": "OpenAI官方技术博客详细介绍了在大规模场景下实现低延迟语音AI服务的架构设计和优化策略，406分登上HN热榜。",
+      "link": "https://news.ycombinator.com/item?id=48013919"
+    },
+    {
+      "title": "Y Combinator在OpenAI中的股权比例（0.6%？）",
+      "date": "2026-05-04",
+      "summary": "Daring Fireball分析YC在OpenAI中的投资回报和股权比例，回顾从早期孵化器到最大AI公司股东之一的历程。325分。",
+      "link": "https://news.ycombinator.com/item?id=48016534"
+    },
+    {
+      "title": "Agent Skills — AI代理技能开发最佳实践",
+      "date": "2026-05-04",
+      "summary": "前端专家Addy Osmani分享为AI代理设计技能的实践经验和架构建议，251分登上HN热榜。",
+      "link": "https://news.ycombinator.com/item?id=48015397"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Mozilla用Anthropic Mythos发现并修复271个Firefox Bug",
+      "date": "2026-05-03",
+      "summary": "Mozilla使用Anthropic的Mythos AI工具在Firefox代码库中发现并修复271个安全漏洞，展示了AI在安全审计中的实际效果。Reddit 882分讨论。",
+      "link": "https://www.reddit.com/r/singularity/comments/1ssc2cv/mozilla_used_anthropics_mythos_to_find_and_fix/"
+    },
+    {
+      "title": "Richard Dawkins与Claude相处3天后的惊人结论",
+      "date": "2026-05-02",
+      "summary": "著名生物学家Richard Dawkins深度体验Claude AI三天，将其命名为Claudia，其得出的结论在AI社区引发广泛讨论。Reddit 2109分。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t2z0tn/richard_dawkins_spent_3_days_with_claude_and/"
+    },
+    {
+      "title": "中国法院判决：AI替代员工属违法，劳动者胜诉",
+      "date": "2026-05-03",
+      "summary": "中国法院在一起劳动争议案件中裁定，雇主使用AI替代人类员工构成违法行为，工人胜诉。这是AI替代劳动力的重要法律判例。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t3txpn/chinese_court_sides_with_worker_who_was_replaced/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "腾讯开源Hy-MT翻译模型：440MB实现离线运行，性能超越谷歌翻译",
+      "date": "2026-05-03",
+      "summary": "腾讯开源Hy-MT1.5-1.8B-1.25bit模型，仅440MB即可在手机端完全离线运行。通过1.25bit量化技术将模型从3.3GB压缩至440MB，支持33种语言和5种方言共1056个翻译方向，国际机器翻译竞赛获30项冠军。",
+      "link": "https://www.aibase.com/news/27666"
+    },
+    {
+      "title": "快手推出KroWork：AI桌面助手让自然语言变应用",
+      "date": "2026-05-01",
+      "summary": "KroWork面向非技术用户，通过自然语言指令完成文件处理、浏览器自动化等办公任务，将重复性工作流转化为本地桌面应用。所有操作在安全沙箱中执行，数据不上云。",
+      "link": "https://www.aibase.com/news/27659"
+    },
+    {
+      "title": "亚马逊推出AI语音问答\"Join the chat\"，打造24小时购物专家",
+      "date": "2026-05-01",
+      "summary": "亚马逊在产品详情页上线AI语音问答功能，由数字\"AI购物专家\"驱动，可快速整合产品规格、功能特性和用户评价，以自然语音实时回答消费者问题。",
+      "link": "https://www.aibase.com/news/27653"
+    }
+  ],
+  "agent": [
+    {
+      "title": "蚂蚁集团ASL协议：构建端到端可验证的智能体信任链",
+      "date": "2026-05-01",
+      "summary": "ASL协议采用\"可信身份+可信连接+可信意图+可信授权\"四模块，解决跨Agent协作中的身份验证、意图防篡改、授权边界控制三大问题，可叠加在MCP和A2A等现有协议之上。",
+      "link": "https://www.aibase.com/news/27650"
+    },
+    {
+      "title": "微软推出法律AI助手，告别通用模型依赖",
+      "date": "2026-05-03",
+      "summary": "微软通过Frontier项目推出专为法律专业人士打造的\"Legal Assistant\"，深度集成Word环境。采用结构化法律工作流和定制算法，而非单纯依赖通用大语言模型，确保合同修改的逻辑一致性。",
+      "link": "https://www.aibase.com/news/27665"
+    },
+    {
+      "title": "聚瑞鹿深度合作火山引擎，AI短剧进入工业化时代",
+      "date": "2026-05-01",
+      "summary": "聚瑞鹿将火山引擎Seedance 2.0视频生成模型集成到自研AI Agent中，高质量AI短剧制作效率提升近10倍，生产周期从15-30天压缩至1-3天，图像可用率从30%升至90%以上。",
+      "link": "https://www.aibase.com/news/27656"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "四大科技巨头2026年AI投资达7250亿美元，微软领先",
+      "date": "2026-05-03",
+      "summary": "据FT报道，谷歌、亚马逊、微软、Meta 2026年AI投资总额达7250亿美元。微软1900亿（增192%），亚马逊超2000亿，谷歌和Meta均超1450亿。成本压力因内存芯片涨价而激增。",
+      "link": "https://www.aibase.com/news/27664"
+    },
+    {
+      "title": "Meta收购ARI布局具身智能，人形机器人竞赛加速",
+      "date": "2026-05-03",
+      "summary": "Meta收购人形机器人公司ARI，核心团队并入超级智能实验室。此前亚马逊也收购了同领域公司Fauna Robotics，行业资本活动显著加速。",
+      "link": "https://www.aibase.com/news/27663"
+    },
+    {
+      "title": "OpenAI ChatGPT Images 2.0印度市场首周下载量最大",
+      "date": "2026-05-03",
+      "summary": "OpenAI新发布的ChatGPT Images 2.0在印度市场首周下载量约500万，远超美国的200万。Images 2.0支持印地语、孟加拉语等非拉丁文字精确渲染，引入\"think\"功能可生成多版本变体。",
+      "link": "https://www.aibase.com/news/27662"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "钉钉推出AI录音硬件A1Pro：售价1299元，支持反向充电",
+      "date": "2026-05-01",
+      "summary": "钉钉A1Pro厚度仅6.4mm，支持磁吸设计，内置2980mAh电池支持180小时连续录音。AI录音后可即时转为会议纪要、日程和待办事项。企业版支持统一采购和设备管理。",
+      "link": "https://www.aibase.com/news/27661"
+    },
+    {
+      "title": "蚂蚁集团牵头ASL协议，填补智能体可信协作空白",
+      "date": "2026-05-01",
+      "summary": "在第九届数字中国建设峰会上，蚂蚁集团发布ASL协议，通过\"安全设计\"理念解决跨Agent协作中的三大信任黑洞，构建端到端可验证的信任链。",
+      "link": "https://www.aibase.com/news/27650"
+    },
+    {
+      "title": "小红书成立AI一级部门\"点\"，组织架构全面升级",
+      "date": "2026-05-01",
+      "summary": "小红书设立AI一级部门\"点\"覆盖AI全链条，任命Nana为新总裁。同时设立海外部门Rednote和Lab 1327创新团队，加速AI和国际化布局。",
+      "link": "https://www.aibase.com/news/27654"
+    }
+  ]
+}
