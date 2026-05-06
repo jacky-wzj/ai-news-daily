@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-06",
+  "insights": [
+    {
+      "title": "OpenAI 发布 GPT-5.5 Instant，ChatGPT 新默认模型",
+      "date": "2026-05-05",
+      "summary": "OpenAI 正式发布 GPT-5.5 Instant 作为 ChatGPT 的新默认模型，带来更快的响应速度和更强的推理能力，标志着 AI 模型向即时推理方向的重要转变。",
+      "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+    },
+    {
+      "title": "Apple 计划 iOS 27 支持多 AI 模型自由选择",
+      "date": "2026-05-05",
+      "summary": "Apple 计划在 iOS 27 中引入 AI 模型选择功能，用户可自由选择偏好的 AI 模型，类似于'Choose Your Own Adventure'的模式，打破单一模型绑定的限制。",
+      "link": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/"
+    },
+    {
+      "title": "Google Chrome 静默安装 4GB AI 模型引发隐私争议",
+      "date": "2026-05-05",
+      "summary": "Google Chrome 在用户未明确同意的情况下自动安装 4GB AI 模型到本地设备，引发隐私保护社区强烈批评，关于 AI 功能默认安装的边界再次成为焦点。",
+      "link": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/"
+    },
+    {
+      "title": "Google 将 Agentic AI 治理产品化，企业仍需追赶",
+      "date": "2026-05-05",
+      "summary": "Google 正式将 Agentic AI 治理作为企业产品推出，但报告指出大多数企业在 Agent 治理方面的准备度仍然不足，需要在安全框架和合规流程上加大投入。",
+      "link": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google/"
+    },
+    {
+      "title": "NVIDIA 与 Google 合作降低 AI 推理成本",
+      "date": "2026-05-05",
+      "summary": "NVIDIA 和 Google 联合优化基础设施，通过 GPU 加速和云计算协同大幅降低 AI 推理成本，为大规模 AI 部署提供更具性价比的方案。",
+      "link": "https://www.artificialintelligence-news.com/news/nvidia-and-google-infrastructure-cuts-ai-inference-costs/"
+    },
+    {
+      "title": "LG 与 NVIDIA 探讨物理 AI 的未来方向",
+      "date": "2026-05-05",
+      "summary": "LG 与 NVIDIA 正在就物理 AI（机器人、自动驾驶等实体场景）展开合作洽谈，标志着 AI 从纯数字领域向物理世界的重要扩展。",
+      "link": "https://www.artificialintelligence-news.com/news/what-lg-and-nvidia-talks-reveal-future-of-physical-ai/"
+    },
+    {
+      "title": "US 与日本宣布全面 AI 和技术合作",
+      "date": "2026-05-05",
+      "summary": "美国与日本宣布在 AI 技术研发、半导体供应链、量子计算等领域展开全面合作，旨在加强两国在 AI 领域的战略协同和竞争力。",
+      "link": "https://www.artificialintelligence-news.com/news/us-and-japan-sweeping-ai-tech-collaboration/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "OpenSeeker-v2: 用高难度信息轨迹推动搜索 Agent 极限",
+      "date": "2026-05-05",
+      "summary": "OpenSeeker-v2 通过引入信息量丰富且高难度的轨迹数据，显著提升了搜索 Agent 的性能，为 Agent 的搜索能力设立了新基准。",
+      "link": "https://arxiv.org/abs/2605.04036v1"
+    },
+    {
+      "title": "Agentic 时代重新定义 AI 红队测试：从数周到数小时",
+      "date": "2026-05-05",
+      "summary": "新论文提出在 Agentic AI 时代重新定义红队测试方法，通过自动化 Agent 驱动的安全评估，将传统需要数周的红队测试缩短至数小时。",
+      "link": "https://arxiv.org/abs/2605.04019v1"
+    },
+    {
+      "title": "重新思考推理密集型检索：评估 Agent 搜索系统中的检索器",
+      "date": "2026-05-05",
+      "summary": "论文评估并改进了 Agentic 搜索系统中的检索器性能，发现在推理密集型任务中，检索策略需要与 Agent 的推理能力协同优化。",
+      "link": "https://arxiv.org/abs/2605.04018v1"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Brian Armstrong 宣布 Coinbase 裁员约 14%",
+      "date": "2026-05-05",
+      "summary": "Coinbase CEO Brian Armstrong 在 X 上宣布公司裁员约 14%，这是加密货币行业在 AI 转型背景下的又一次重大组织调整。",
+      "link": "https://twitter.com/brian_armstrong/status/2051616759145185723"
+    },
+    {
+      "title": "Mark Cuban: OpenAI 永远无法收回其投资的 1 万亿美元",
+      "date": "2026-05-05",
+      "summary": "Mark Cuban 在视频采访中直言 OpenAI 的万亿级投资规模难以收回，引发 AI 行业对投资回报和商业模式的广泛讨论。",
+      "link": "https://www.youtube.com/watch?v=oEVHNvE_jDw"
+    },
+    {
+      "title": "Anthropic 发布金融服务业 AI Agent 方案",
+      "date": "2026-05-05",
+      "summary": "Anthropic 官方宣布推出面向金融服务和保险行业的 Claude Agent 解决方案，标志着 AI Agent 正式进入核心金融业务场景。",
+      "link": "https://www.anthropic.com/news/finance-agents"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Cloudflare Agents: Agent 可自主创建账户、购买域名和部署",
+      "date": "2026-05-05",
+      "summary": "Cloudflare 发布重大更新，AI Agent 现在可以自主创建 Cloudflare 账户、购买域名并部署项目，通过 Stripe 集成实现完整的自主操作流程。",
+      "link": "https://blog.cloudflare.com/agents-stripe-projects/"
+    },
+    {
+      "title": "Ruflo: 领先的 Claude Agent 编排平台开源",
+      "date": "2026-05-05",
+      "summary": "Ruflo 作为领先的 Agent 编排平台开源，支持部署多 Agent 集群、协调自主工作流，具有企业级架构、自学习集群智能和 RAG 集成能力。",
+      "link": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "title": "Browserbase Skills: Claude Agent SDK 的网页浏览工具",
+      "date": "2026-05-05",
+      "summary": "Browserbase 发布 Claude Agent SDK 的网页浏览工具，为 Agent 提供更强大的自主网页交互能力，是 Agent 自主操作能力的重要补充。",
+      "link": "https://github.com/browserbase/skills"
+    }
+  ],
+  "github": [
+    {
+      "title": "ruvnet/ruflo - Claude Agent 编排平台",
+      "date": "2026-05-05",
+      "summary": "领先的 Agent 编排平台，支持部署智能多 Agent 集群、协调自主工作流，具有企业级架构、自学习集群智能、RAG 集成和 Claude Code 原生集成。",
+      "link": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "title": "virattt/dexter - 自主深度金融研究 Agent",
+      "date": "2026-05-05",
+      "summary": "一个自主 Agent，专注于深度金融研究分析，能够自动收集、分析和生成金融研究报告。",
+      "link": "https://github.com/virattt/dexter"
+    },
+    {
+      "title": "cocoindex-io/cocoindex - 长周期 Agent 增量引擎",
+      "date": "2026-05-05",
+      "summary": "用于长周期 Agent 的增量处理引擎，支持 Agent 持续学习和长期任务执行。",
+      "link": "https://github.com/cocoindex-io/cocoindex"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Google Chrome 静默安装 4GB AI 模型引发隐私争议",
+      "date": "2026-05-05",
+      "summary": "Google Chrome 在用户未明确同意的情况下自动安装 4GB AI 模型到本地设备，HN 讨论热度极高（1442分），引发对 AI 功能默认安装边界的广泛讨论。",
+      "link": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/"
+    },
+    {
+      "title": "加速 Gemma 4: 多 token 预测推理器实现更快推理",
+      "date": "2026-05-05",
+      "summary": "Google 发布多 token 预测 drafters 技术，显著提升 Gemma 4 的推理速度，是 LLM 推理优化的重要进展。",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/"
+    },
+    {
+      "title": "AI 的三条反定律",
+      "date": "2026-05-05",
+      "summary": "一篇引发深思的文章，提出三条 AI 反定律，探讨 AI 发展的内在矛盾和限制，在 HN 上获得 447 分的高度关注。",
+      "link": "https://susam.net/inverse-laws-of-robotics.html"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Pennsylvania 起诉 Character.AI 聊天机器人冒充医生",
+      "date": "2026-05-05",
+      "summary": "宾夕法尼亚州正式起诉 Character.AI，指控其聊天机器人冒充医生提供医疗建议，这是 AI 医疗领域法律监管的标志性事件。",
+      "link": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/"
+    },
+    {
+      "title": "Computer Use 比结构化 API 成本高 45 倍",
+      "date": "2026-05-05",
+      "summary": "分析表明 Computer Use 模式的成本是结构化 API 的 45 倍，引发对 Agent 交互模式效率和经济性的深入讨论。",
+      "link": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/"
+    },
+    {
+      "title": "当所有人都有 AI 后公司仍然一无所获",
+      "date": "2026-05-05",
+      "summary": "一篇深度分析指出，单纯部署 AI 工具无法带来组织能力提升，需要系统性的流程变革才能真正实现 AI 价值。",
+      "link": "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenAI GPT-5.5 Instant - 更快更强的默认模型",
+      "date": "2026-05-05",
+      "summary": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，提供更快的响应速度和更强的推理能力，面向所有用户开放。",
+      "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+    },
+    {
+      "title": "Google Veo 3 AI 视频创作工具全面开放",
+      "date": "2026-05-05",
+      "summary": "Google 的 Veo 3 AI 视频创建工具现在广泛可用，用户可以通过更简单的方式生成高质量 AI 视频内容。",
+      "link": "https://www.artificialintelligence-news.com/news/google-veo-3-ai-video-creation-tools-now-widely-available/"
+    },
+    {
+      "title": "mksglu/context-mode - AI 编码 Agent 上下文窗口优化",
+      "date": "2026-05-05",
+      "summary": "针对 AI 编码 Agent 的上下文窗口优化工具，沙盒化工具输出，实现 98% 的上下文缩减，支持 14 个平台。",
+      "link": "https://github.com/mksglu/context-mode"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Cloudflare Agents 重大升级: 自主完成账户创建到部署全流程",
+      "date": "2026-05-05",
+      "summary": "Cloudflare Agent 现在可以自主创建账户、购买域名并通过 Stripe 集成完成支付和部署，实现 Agent 从 0 到 1 的自主运营能力。",
+      "link": "https://blog.cloudflare.com/agents-stripe-projects/"
+    },
+    {
+      "title": "Agentic Coding 课程: 当代码变得廉价时我们该做什么",
+      "date": "2026-05-04",
+      "summary": "David Breunig 分享 Agentic Coding 的 10 条经验教训，探讨代码成本趋零时代开发者的新定位和价值所在。",
+      "link": "https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html"
+    },
+    {
+      "title": "Anthropic 推出金融服务和保险行业 AI Agent",
+      "date": "2026-05-05",
+      "summary": "Anthropic 发布面向金融服务业的 Claude Agent 方案，覆盖金融分析和保险业务场景，标志着 AI Agent 进入高价值垂直行业。",
+      "link": "https://www.anthropic.com/news/finance-agents"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "ElevenLabs 获 BlackRock、Jamie Foxx 等投资",
+      "date": "2026-05-05",
+      "summary": "AI 语音公司 ElevenLabs 宣布 BlackRock、Jamie Foxx 和 Eva Longoria 成为新投资者，AI 语音生成赛道持续升温。",
+      "link": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/"
+    },
+    {
+      "title": "CopilotKit 融资 2700 万美元助力开发者部署应用内 AI Agent",
+      "date": "2026-05-05",
+      "summary": "CopilotKit 完成 2700 万美元融资，专注于帮助开发者在应用内部署 AI Agent，降低 Agent 集成门槛。",
+      "link": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/"
+    },
+    {
+      "title": "Peter Sarlin 的 QuTwo 天使轮估值达 3.8 亿美元",
+      "date": "2026-05-05",
+      "summary": "由 Peter Sarlin 创立的 AI 公司 QuTwo 在天使轮融资中达到 3.8 亿美元估值，反映出硅谷对早期 AI 项目的投资热情持续高涨。",
+      "link": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "OpenSeeker-v2: 中国团队推动搜索 Agent 新标杆",
+      "date": "2026-05-05",
+      "summary": "OpenSeeker-v2 通过高难度信息轨迹训练显著提升搜索 Agent 性能，代表中国在 Agent 搜索领域的最新研究进展。",
+      "link": "https://arxiv.org/abs/2605.04036v1"
+    },
+    {
+      "title": "GLM-5V-Turbo: 面向多模态 Agent 的原生基础模型",
+      "date": "2026-05-05",
+      "summary": "智谱 AI 发布 GLM-5V-Turbo，专为多模态 Agent 场景设计的基础模型，支持视觉、语言等多模态交互能力。",
+      "link": "https://arxiv.org/abs/2604.26752"
+    },
+    {
+      "title": "马来西亚推出首家 AI 驱动银行 Ryt Bank",
+      "date": "2026-05-05",
+      "summary": "马来西亚推出首个 AI 驱动的银行 Ryt Bank，标志着 AI 在东南亚金融领域的加速落地，对中国 AI 出海具有参考意义。",
+      "link": "https://www.artificialintelligence-news.com/news/malaysia-launches-ryt-bank-its-first-ai-powered-bank/"
+    }
+  ]
+}
