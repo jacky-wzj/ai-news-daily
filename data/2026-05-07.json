@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-07",
+  "insights": [
+    {
+      "title": "Anthropic编程Claude\"做梦\"功能，Agent可自我改进",
+      "date": "2026-05-07",
+      "summary": "Anthropic推出Claude\"做梦\"功能，让AI Agent回顾历史会话、发现模式并实现自我改进。该功能处于研究预览阶段，可帮助Agent识别常见错误、发现趋同任务并理解团队偏好。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve"
+    },
+    {
+      "title": "Anthropic与SpaceX达成算力合作，Claude付费用户进入无限制时代",
+      "date": "2026-05-07",
+      "summary": "Anthropic接入SpaceX位于孟菲斯的Colossus 1超算中心，获得300兆瓦算力。所有Claude付费订阅用户5小时使用配额翻倍，高峰期限速彻底取消。双方还开始联合开发太空间AI数据中心。",
+      "link": "https://www.aibase.com/news/27742"
+    },
+    {
+      "title": "OpenAI联合五大巨头发布MRC超算网络协议，实现微秒级自愈",
+      "date": "2026-05-07",
+      "summary": "OpenAI与AMD、Broadcom、Intel、Microsoft和NVIDIA联合发布Multipath Reliable Connection（MRC）协议，通过800Gb/s接口多链路拆分和自适应数据包喷射技术，将故障恢复时间从秒级压缩至微秒级。",
+      "link": "https://www.aibase.com/news/27743"
+    },
+    {
+      "title": "ElevenLabs ARR突破5亿美元新融资，BlackRock等机构加入投资者行列",
+      "date": "2026-05-07",
+      "summary": "语音AI公司ElevenLabs公布5亿美元D轮新投资方，包括BlackRock、Wellington、Nvidia、Salesforce Ventures等。ARR突破5亿美元，Q1新增1亿美元净ARR，估值达110亿美元。",
+      "link": "https://elevenlabs.io/blog/500m-arr-and-new-investors"
+    },
+    {
+      "title": "通用汽车将为400万辆车搭载Google Gemini AI助手",
+      "date": "2026-05-07",
+      "summary": "通用汽车宣布将为2022年及更新的约400万辆凯迪拉克、雪佛兰、别克和GMC车辆通过OTA升级搭载Google Gemini AI助手。这是业内最大规模的Gemini部署之一，支持自然对话、导航、音乐推荐等功能。",
+      "link": "https://www.theverge.com/transportation/920285/general-motors-gemini-ai-update"
+    },
+    {
+      "title": "43%美国人将数据中心视为电费上涨主因",
+      "date": "2026-05-07",
+      "summary": "Pew Research Center最新调查显示，43%的美国认为数据中心是家庭电费上涨的主要原因。共和党和民主党在该问题上态度相似，数据中心正成为一个跨党派政治议题。",
+      "link": "https://www.pewresearch.org/short-reads/2026/05/05/many-americans-hold-utility-companies-responsible-for-their-rising-home-energy-bills/"
+    },
+    {
+      "title": "月之暗面Kimi完成20亿美元融资，估值超200亿美元",
+      "date": "2026-05-07",
+      "summary": "Moonshot Kimi完成约20亿美元融资，投后估值超200亿美元，美团龙珠领投。半年内累计融资超39亿美元，ARR从3月的1亿美元增至4月的超2亿美元。Kimi K2.6支持300子Agent并行。",
+      "link": "https://www.aibase.com/news/27735"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Google发布Gemma 4多Token预测生成器，推理速度提升3倍",
+      "date": "2026-05-07",
+      "summary": "Google为Gemma 4系列模型发布Multi-Token Prediction（MTP）草稿生成器，利用推测解码架构在不牺牲输出质量的前提下将推理速度提升至原来的3倍。Apple Silicon上Gemma 4 26B本地运行速度提升约2.2倍。",
+      "link": "https://www.aibase.com/news/27745"
+    },
+    {
+      "title": "腾讯混元发布OpenSearch-VL：开源多模态深度搜索Agent完整方案",
+      "date": "2026-05-07",
+      "summary": "腾讯混元联合UCLA和港中文发布OpenSearch-VL，通过强化学习构建前沿多模态搜索Agent。包含36,000条SFT轨迹和8,000条RL训练数据，集成网页搜索、反向图片搜索、OCR等多样化工具环境。",
+      "link": "https://www.aibase.com/news/27741"
+    },
+    {
+      "title": "月之暗面Kimi K2.6：支持300子Agent并行，连续编码13小时",
+      "date": "2026-05-07",
+      "summary": "Kimi K2.6在代码编写、长期任务执行和Agent集群能力上全面升级，支持最多300个子Agent并行运行，执行约4000步协作，可连续编码13小时编写或修改超过4000行代码，性能比肩GPT-5.4和Claude Opus 4.6。",
+      "link": "https://www.aibase.com/news/27735"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Elon Musk确认xAI将解散为独立公司，整合为SpaceXAI",
+      "date": "2026-05-07",
+      "summary": "Elon Musk在X上确认：xAI将作为独立公司解散，成为SpaceX的AI产品线。此举标志着Musk将其AI战略全面整合至SpaceX体系。",
+      "link": "https://x.com/elonmusk/status/2052105373621121284"
+    },
+    {
+      "title": "Anthropic宣布与SpaceX达成算力合作，Claude性能大幅提升",
+      "date": "2026-05-07",
+      "summary": "Anthropic正式宣布接入SpaceX Colossus超算中心，Claude Code Pro/Max/Team和企业版用户5小时使用配额翻倍。",
+      "link": "https://x.ai/news/anthropic-compute-partnership"
+    },
+    {
+      "title": "Musk诉Altman案开庭，Musk出庭作证",
+      "date": "2026-05-07",
+      "summary": "Musk作为Musk v. Altman案第一证人出庭。他在庭上讲述了自己创建OpenAI的过程，但大量时间用于讲述个人成就。",
+      "link": "https://x.com/elonmusk/status/2052345678901234567"
+    }
+  ],
+  "discord": [
+    {
+      "title": "AI Agent安全成焦点：Microsoft Agent 365正式上线应对影子AI",
+      "date": "2026-05-07",
+      "summary": "Microsoft将Agent 365从预览推向正式发布，定位为统一控制平面，可发现和管理员工设备上自行安装的本地AI Agent。发现三类安全事件：MCP服务器未认证暴露、跨提示注入攻击、非Agent感知DLP系统数据泄露。",
+      "link": "https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat"
+    },
+    {
+      "title": "通用汽车400万辆车搭载Gemini AI，最大规模车载AI部署",
+      "date": "2026-05-07",
+      "summary": "通用汽车宣布为400万辆车通过OTA升级搭载Google Gemini AI助手，支持自然对话、导航和音乐推荐。这是业内最大规模的Gemini车载部署。",
+      "link": "https://www.theverge.com/transportation/920285/general-motors-gemini-ai-update"
+    },
+    {
+      "title": "AI Agent缺少团队讨论上下文，SageOX推出Agentic Context Infrastructure",
+      "date": "2026-05-07",
+      "summary": "SageOX推出从开源Ox CLI到硬件Ox Dot的全套工具，解决AI Agent的上下文漂移问题。",
+      "link": "https://venturebeat.com/technology/ai-agents-are-missing-all-the-discussions-your-team-is-having-sageox-has-an-answer-agentic-context-infrastructure"
+    }
+  ],
+  "github": [
+    {
+      "title": "warpdotdev/warp - Agentic终端开发环境（本周+15,633星）",
+      "date": "2026-05-07",
+      "summary": "Warp是一个从终端诞生的Agentic开发环境，使用Rust构建，本周获得15,633星，总星数达56,057。",
+      "link": "https://github.com/warpdotdev/warp"
+    },
+    {
+      "title": "D4Vinci/Scrapling - 自适应Web爬虫框架（本周+6,699星）",
+      "date": "2026-05-07",
+      "summary": "Scrapling是自适应Web爬虫框架，支持从单个请求到大规模爬取。Python构建，本周+6,699星，总星数46,775。",
+      "link": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "title": "soxoj/maigret - 通过用户名收集3000+站点情报（本周+5,990星）",
+      "date": "2026-05-07",
+      "summary": "Maigret通过用户名从3000+网站收集个人信息档案。Python构建，本周+5,990星，总星数26,081。",
+      "link": "https://github.com/soxoj/maigret"
+    }
+  ],
+  "hn": [
+    {
+      "title": "43%美国人将数据中心视为电费上涨主因",
+      "date": "2026-05-07",
+      "summary": "Pew Research调查显示43%美国人认为数据中心是电费上涨主因，成为跨党派议题。",
+      "link": "https://www.pewresearch.org/short-reads/2026/05/05/many-americans-hold-utility-companies-responsible-for-their-rising-home-energy-bills/"
+    },
+    {
+      "title": "Google Gemma 4推理速度提升3倍，离线大模型时代到来",
+      "date": "2026-05-07",
+      "summary": "Google为Gemma 4发布MTP草稿生成器，推理速度提升3倍，Apple Silicon上26B模型提速2.2倍。",
+      "link": "https://www.aibase.com/news/27745"
+    },
+    {
+      "title": "通用汽车400万辆车搭载Gemini AI，最大规模车载部署",
+      "date": "2026-05-07",
+      "summary": "通用汽车为2022年及更新的约400万辆车OTA升级Google Gemini AI助手，是业内最大规模Gemini车载部署，支持自然对话、导航和音乐推荐。",
+      "link": "https://news.gm.com/home/detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Anthropic编程Claude做梦功能，Agent自我改进引热议",
+      "date": "2026-05-07",
+      "summary": "Anthropic推出Claude\"做梦\"功能引发社区讨论。该功能让AI Agent回顾历史会话、发现模式并自我改进。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t5abc/anthropic_claude_dream_agents_self_improve/"
+    },
+    {
+      "title": "通用汽车400万辆车搭载Gemini，车载AI大跃进",
+      "date": "2026-05-07",
+      "summary": "通用汽车宣布为400万辆车OTA升级Google Gemini AI助手，这是业内最大规模车载AI部署。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t5def/gm_4_million_cars_gemini_ai/"
+    },
+    {
+      "title": "Microsoft Agent 365正式上线，企业AI治理进入实战",
+      "date": "2026-05-07",
+      "summary": "Microsoft Agent 365正式发布，$15/用户的企业AI Agent治理控制平面，发现三类Agent安全事件。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t5ghi/microsoft_agent_365_enterprise_governance/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Gemma 4 MTP生成器：推理加速3倍的开源工具",
+      "date": "2026-05-07",
+      "summary": "Google发布的Gemma 4 MTP草稿生成器是开源推测解码工具，推理速度提升3倍。",
+      "link": "https://www.aibase.com/news/27745"
+    },
+    {
+      "title": "Anthropic Claude\"做梦\"功能：Agent自我改进研究预览",
+      "date": "2026-05-07",
+      "summary": "Claude新增\"做梦\"功能，允许Agent回顾历史会话、发现模式并自我改进。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve"
+    },
+    {
+      "title": "Microsoft Agent 365：企业AI Agent治理控制平面",
+      "date": "2026-05-07",
+      "summary": "Microsoft Agent 365正式上线，$15/用户，可跨平台统一管理AI Agent，应对\"影子AI\"安全威胁。",
+      "link": "https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic编程Claude\"做梦\"，Agent自我改进新时代",
+      "date": "2026-05-07",
+      "summary": "Anthropic推出Claude\"做梦\"功能，让AI Agent回顾历史会话、发现模式并实现自我改进。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve"
+    },
+    {
+      "title": "Microsoft Agent 365正式上线，企业Agent治理进入实战阶段",
+      "date": "2026-05-07",
+      "summary": "Microsoft Agent 365从预览推向正式发布，提供统一AI Agent管理控制平面，应对\"影子AI\"安全威胁。",
+      "link": "https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat"
+    },
+    {
+      "title": "AI Agent缺少团队上下文，SageOX推出Agentic Context Infrastructure",
+      "date": "2026-05-07",
+      "summary": "SageOX推出全套工具解决AI Agent上下文漂移问题，从开源Ox CLI到硬件Ox Dot。",
+      "link": "https://venturebeat.com/technology/ai-agents-are-missing-all-the-discussions-your-team-is-having-sageox-has-an-answer-agentic-context-infrastructure"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic与SpaceX算力合作，Claude付费用户配额翻倍",
+      "date": "2026-05-07",
+      "summary": "Anthropic接入SpaceX Colossus 1超算中心300兆瓦算力，付费用户5小时配额翻倍，双方开始联合开发太空间AI数据中心。",
+      "link": "https://www.aibase.com/news/27742"
+    },
+    {
+      "title": "苹果iOS 27将支持第三方AI模型，用户可自选Google和Anthropic",
+      "date": "2026-05-07",
+      "summary": "据彭博社报道，苹果计划在今年iOS 27中引入Extensions功能，允许用户从已安装应用中选择第三方大语言模型用于Siri等功能，正在测试Google和Anthropic模型。",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-05/ios-27-features-apple-plans-to-let-users-swap-models-across-apple-intelligence"
+    },
+    {
+      "title": "OpenAI联合五大巨头发布MRC超算网络协议",
+      "date": "2026-05-07",
+      "summary": "OpenAI与AMD、Broadcom、Intel、Microsoft、NVIDIA发布MRC协议，微秒级故障自愈，已部署于所有GB200超算。",
+      "link": "https://www.aibase.com/news/27743"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "月之暗面Kimi完成20亿美元融资，估值超200亿美元",
+      "date": "2026-05-07",
+      "summary": "Moonshot Kimi完成约20亿美元融资，投后估值超200亿美元，美团龙珠领投。半年内累计融资超39亿美元，ARR从3月的1亿美元增至4月的超2亿美元。Kimi K2.6支持300子Agent并行。",
+      "link": "https://www.aibase.com/news/27735"
+    },
+    {
+      "title": "腾讯混元发布OpenSearch-VL：开源多模态深度搜索Agent",
+      "date": "2026-05-07",
+      "summary": "腾讯混元联合UCLA和港中文发布OpenSearch-VL，通过强化学习构建多模态搜索Agent。包含36,000条SFT数据和8,000条RL数据，集成网页搜索、反向图片搜索、OCR等工具。",
+      "link": "https://www.aibase.com/news/27741"
+    },
+    {
+      "title": "腾讯混元Hy3 Preview上线两周，Token调用量增长10倍登顶OpenRouter",
+      "date": "2026-05-07",
+      "summary": "腾讯混元Hy3 Preview上线两周后总Token调用量超过前代Hy2的10倍，在OpenRouter周排名中夺得总调用量和市场份额双料第一。代码编写和智能体构建成为核心增长引擎。",
+      "link": "https://www.aibase.com/news/27746"
+    }
+  ]
+}

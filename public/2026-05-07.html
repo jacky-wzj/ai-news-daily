@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年5月7日星期四</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年5月7日星期四</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google发布Gemma 4多Token预测生成器，推理速度提升3倍</h3>
+      <div class="meta">👤 </div>
+      <p>Google为Gemma 4系列模型发布Multi-Token Prediction（MTP）草稿生成器，利用推测解码架构在不牺牲输出质量的前提下将推理速度提升至原来的3倍。Apple Silicon上Gemma 4 26B本地运行速度提升约2.2倍。</p>
+  <a class="link" href="https://www.aibase.com/news/27745" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 腾讯混元发布OpenSearch-VL：开源多模态深度搜索Agent完整方案</h3>
+      <div class="meta">👤 </div>
+      <p>腾讯混元联合UCLA和港中文发布OpenSearch-VL，通过强化学习构建前沿多模态搜索Agent。包含36,000条SFT轨迹和8,000条RL训练数据，集成网页搜索、反向图片搜索、OCR等多样化工具环境。</p>
+  <a class="link" href="https://www.aibase.com/news/27741" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 月之暗面Kimi K2.6：支持300子Agent并行，连续编码13小时</h3>
+      <div class="meta">👤 </div>
+      <p>Kimi K2.6在代码编写、长期任务执行和Agent集群能力上全面升级，支持最多300个子Agent并行运行，执行约4000步协作，可连续编码13小时编写或修改超过4000行代码，性能比肩GPT-5.4和Claude Opus 4.6。</p>
+  <a class="link" href="https://www.aibase.com/news/27735" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Elon Musk确认xAI将解散为独立公司，整合为SpaceXAI</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-07</div>
+      <p>Elon Musk在X上确认：xAI将作为独立公司解散，成为SpaceX的AI产品线。此举标志着Musk将其AI战略全面整合至SpaceX体系。</p>
+  <a class="link" href="https://x.com/elonmusk/status/2052105373621121284" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic宣布与SpaceX达成算力合作，Claude性能大幅提升</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-07</div>
+      <p>Anthropic正式宣布接入SpaceX Colossus超算中心，Claude Code Pro/Max/Team和企业版用户5小时使用配额翻倍。</p>
+  <a class="link" href="https://x.ai/news/anthropic-compute-partnership" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Musk诉Altman案开庭，Musk出庭作证</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-07</div>
+      <p>Musk作为Musk v. Altman案第一证人出庭。他在庭上讲述了自己创建OpenAI的过程，但大量时间用于讲述个人成就。</p>
+  <a class="link" href="https://x.com/elonmusk/status/2052345678901234567" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI Agent安全成焦点：Microsoft Agent 365正式上线应对影子AI</h3>
+      <div class="meta">💬 </div>
+      <p>Microsoft将Agent 365从预览推向正式发布，定位为统一控制平面，可发现和管理员工设备上自行安装的本地AI Agent。发现三类安全事件：MCP服务器未认证暴露、跨提示注入攻击、非Agent感知DLP系统数据泄露。</p>
+  <a class="link" href="https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 通用汽车400万辆车搭载Gemini AI，最大规模车载AI部署</h3>
+      <div class="meta">💬 </div>
+      <p>通用汽车宣布为400万辆车通过OTA升级搭载Google Gemini AI助手，支持自然对话、导航和音乐推荐。这是业内最大规模的Gemini车载部署。</p>
+  <a class="link" href="https://www.theverge.com/transportation/920285/general-motors-gemini-ai-update" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Agent缺少团队讨论上下文，SageOX推出Agentic Context Infrastructure</h3>
+      <div class="meta">💬 </div>
+      <p>SageOX推出从开源Ox CLI到硬件Ox Dot的全套工具，解决AI Agent的上下文漂移问题。</p>
+  <a class="link" href="https://venturebeat.com/technology/ai-agents-are-missing-all-the-discussions-your-team-is-having-sageox-has-an-answer-agentic-context-infrastructure" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. warpdotdev/warp - Agentic终端开发环境（本周+15,633星）</h3>
+      
+      <p>Warp是一个从终端诞生的Agentic开发环境，使用Rust构建，本周获得15,633星，总星数达56,057。</p>
+  <a class="link" href="https://github.com/warpdotdev/warp" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. D4Vinci/Scrapling - 自适应Web爬虫框架（本周+6,699星）</h3>
+      
+      <p>Scrapling是自适应Web爬虫框架，支持从单个请求到大规模爬取。Python构建，本周+6,699星，总星数46,775。</p>
+  <a class="link" href="https://github.com/D4Vinci/Scrapling" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. soxoj/maigret - 通过用户名收集3000+站点情报（本周+5,990星）</h3>
+      
+      <p>Maigret通过用户名从3000+网站收集个人信息档案。Python构建，本周+5,990星，总星数26,081。</p>
+  <a class="link" href="https://github.com/soxoj/maigret" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 43%美国人将数据中心视为电费上涨主因</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Pew Research调查显示43%美国人认为数据中心是电费上涨主因，成为跨党派议题。</p>
+  <a class="link" href="https://www.pewresearch.org/short-reads/2026/05/05/many-americans-hold-utility-companies-responsible-for-their-rising-home-energy-bills/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Google Gemma 4推理速度提升3倍，离线大模型时代到来</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Google为Gemma 4发布MTP草稿生成器，推理速度提升3倍，Apple Silicon上26B模型提速2.2倍。</p>
+  <a class="link" href="https://www.aibase.com/news/27745" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 通用汽车400万辆车搭载Gemini AI，最大规模车载部署</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>通用汽车为2022年及更新的约400万辆车OTA升级Google Gemini AI助手，是业内最大规模Gemini车载部署，支持自然对话、导航和音乐推荐。</p>
+  <a class="link" href="https://news.gm.com/home/detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic编程Claude做梦功能，Agent自我改进引热议</h3>
+      <div class="meta">reddit: </div>
+      <p>Anthropic推出Claude&quot;做梦&quot;功能引发社区讨论。该功能让AI Agent回顾历史会话、发现模式并自我改进。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1t5abc/anthropic_claude_dream_agents_self_improve/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 通用汽车400万辆车搭载Gemini，车载AI大跃进</h3>
+      <div class="meta">reddit: </div>
+      <p>通用汽车宣布为400万辆车OTA升级Google Gemini AI助手，这是业内最大规模车载AI部署。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1t5def/gm_4_million_cars_gemini_ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Microsoft Agent 365正式上线，企业AI治理进入实战</h3>
+      <div class="meta">reddit: </div>
+      <p>Microsoft Agent 365正式发布，$15/用户的企业AI Agent治理控制平面，发现三类Agent安全事件。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1t5ghi/microsoft_agent_365_enterprise_governance/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google Gemma 4 MTP生成器：推理加速3倍的开源工具</h3>
+      
+      <p>Google发布的Gemma 4 MTP草稿生成器是开源推测解码工具，推理速度提升3倍。</p>
+  <a class="link" href="https://www.aibase.com/news/27745" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic Claude&quot;做梦&quot;功能：Agent自我改进研究预览</h3>
+      
+      <p>Claude新增&quot;做梦&quot;功能，允许Agent回顾历史会话、发现模式并自我改进。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Microsoft Agent 365：企业AI Agent治理控制平面</h3>
+      
+      <p>Microsoft Agent 365正式上线，$15/用户，可跨平台统一管理AI Agent，应对&quot;影子AI&quot;安全威胁。</p>
+  <a class="link" href="https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic编程Claude&quot;做梦&quot;，Agent自我改进新时代</h3>
+      <div class="meta">🤖 </div>
+      <p>Anthropic推出Claude&quot;做梦&quot;功能，让AI Agent回顾历史会话、发现模式并实现自我改进。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Microsoft Agent 365正式上线，企业Agent治理进入实战阶段</h3>
+      <div class="meta">🤖 </div>
+      <p>Microsoft Agent 365从预览推向正式发布，提供统一AI Agent管理控制平面，应对&quot;影子AI&quot;安全威胁。</p>
+  <a class="link" href="https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Agent缺少团队上下文，SageOX推出Agentic Context Infrastructure</h3>
+      <div class="meta">🤖 </div>
+      <p>SageOX推出全套工具解决AI Agent上下文漂移问题，从开源Ox CLI到硬件Ox Dot。</p>
+  <a class="link" href="https://venturebeat.com/technology/ai-agents-are-missing-all-the-discussions-your-team-is-having-sageox-has-an-answer-agentic-context-infrastructure" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic编程Claude&quot;做梦&quot;功能，Agent可自我改进</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>Anthropic推出Claude&quot;做梦&quot;功能，让AI Agent回顾历史会话、发现模式并实现自我改进。该功能处于研究预览阶段，可帮助Agent识别常见错误、发现趋同任务并理解团队偏好。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic与SpaceX达成算力合作，Claude付费用户进入无限制时代</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>Anthropic接入SpaceX位于孟菲斯的Colossus 1超算中心，获得300兆瓦算力。所有Claude付费订阅用户5小时使用配额翻倍，高峰期限速彻底取消。双方还开始联合开发太空间AI数据中心。</p>
+  <a class="link" href="https://www.aibase.com/news/27742" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI联合五大巨头发布MRC超算网络协议，实现微秒级自愈</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>OpenAI与AMD、Broadcom、Intel、Microsoft和NVIDIA联合发布Multipath Reliable Connection（MRC）协议，通过800Gb/s接口多链路拆分和自适应数据包喷射技术，将故障恢复时间从秒级压缩至微秒级。</p>
+  <a class="link" href="https://www.aibase.com/news/27743" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. ElevenLabs ARR突破5亿美元新融资，BlackRock等机构加入投资者行列</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>语音AI公司ElevenLabs公布5亿美元D轮新投资方，包括BlackRock、Wellington、Nvidia、Salesforce Ventures等。ARR突破5亿美元，Q1新增1亿美元净ARR，估值达110亿美元。</p>
+  <a class="link" href="https://elevenlabs.io/blog/500m-arr-and-new-investors" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. 通用汽车将为400万辆车搭载Google Gemini AI助手</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>通用汽车宣布将为2022年及更新的约400万辆凯迪拉克、雪佛兰、别克和GMC车辆通过OTA升级搭载Google Gemini AI助手。这是业内最大规模的Gemini部署之一，支持自然对话、导航、音乐推荐等功能。</p>
+  <a class="link" href="https://www.theverge.com/transportation/920285/general-motors-gemini-ai-update" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. 43%美国人将数据中心视为电费上涨主因</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>Pew Research Center最新调查显示，43%的美国认为数据中心是家庭电费上涨的主要原因。共和党和民主党在该问题上态度相似，数据中心正成为一个跨党派政治议题。</p>
+  <a class="link" href="https://www.pewresearch.org/short-reads/2026/05/05/many-americans-hold-utility-companies-responsible-for-their-rising-home-energy-bills/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 月之暗面Kimi完成20亿美元融资，估值超200亿美元</h3>
+      <div class="meta">📅 2026-05-07</div>
+      <p>Moonshot Kimi完成约20亿美元融资，投后估值超200亿美元，美团龙珠领投。半年内累计融资超39亿美元，ARR从3月的1亿美元增至4月的超2亿美元。Kimi K2.6支持300子Agent并行。</p>
+  <a class="link" href="https://www.aibase.com/news/27735" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic与SpaceX算力合作，Claude付费用户配额翻倍</h3>
+      
+      <p>Anthropic接入SpaceX Colossus 1超算中心300兆瓦算力，付费用户5小时配额翻倍，双方开始联合开发太空间AI数据中心。</p>
+  <a class="link" href="https://www.aibase.com/news/27742" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 苹果iOS 27将支持第三方AI模型，用户可自选Google和Anthropic</h3>
+      
+      <p>据彭博社报道，苹果计划在今年iOS 27中引入Extensions功能，允许用户从已安装应用中选择第三方大语言模型用于Siri等功能，正在测试Google和Anthropic模型。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-05-05/ios-27-features-apple-plans-to-let-users-swap-models-across-apple-intelligence" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI联合五大巨头发布MRC超算网络协议</h3>
+      
+      <p>OpenAI与AMD、Broadcom、Intel、Microsoft、NVIDIA发布MRC协议，微秒级故障自愈，已部署于所有GB200超算。</p>
+  <a class="link" href="https://www.aibase.com/news/27743" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 月之暗面Kimi完成20亿美元融资，估值超200亿美元</h3>
+      
+      <p>Moonshot Kimi完成约20亿美元融资，投后估值超200亿美元，美团龙珠领投。半年内累计融资超39亿美元，ARR从3月的1亿美元增至4月的超2亿美元。Kimi K2.6支持300子Agent并行。</p>
+  <a class="link" href="https://www.aibase.com/news/27735" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 腾讯混元发布OpenSearch-VL：开源多模态深度搜索Agent</h3>
+      
+      <p>腾讯混元联合UCLA和港中文发布OpenSearch-VL，通过强化学习构建多模态搜索Agent。包含36,000条SFT数据和8,000条RL数据，集成网页搜索、反向图片搜索、OCR等工具。</p>
+  <a class="link" href="https://www.aibase.com/news/27741" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 腾讯混元Hy3 Preview上线两周，Token调用量增长10倍登顶OpenRouter</h3>
+      
+      <p>腾讯混元Hy3 Preview上线两周后总Token调用量超过前代Hy2的10倍，在OpenRouter周排名中夺得总调用量和市场份额双料第一。代码编写和智能体构建成为核心增长引擎。</p>
+  <a class="link" href="https://www.aibase.com/news/27746" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:37 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
