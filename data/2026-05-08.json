@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-08",
+  "insights": [
+    {
+      "title": "OpenAI发布Codex Chrome扩展程序，深度集成浏览器环境",
+      "date": "2026-05-08",
+      "summary": "OpenAI正式发布Codex for Chrome浏览器扩展，支持macOS和Windows。该扩展采用\"非侵入式\"协作设计，可跨标签页获取上下文信息并调用DevTools，深度利用浏览器环境完成Web应用测试。Codex周活跃用户已超400万，较年初增长8倍。",
+      "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+    },
+    {
+      "title": "OpenAI推出三款实时语音模型，GPT-5级推理能力落地",
+      "date": "2026-05-08",
+      "summary": "OpenAI发布GPT-Realtime-2（基于GPT-5级推理的语音对话模型）、GPT-Realtime-Translate（支持70+输入语言和13种输出语言的实时翻译）、GPT-Realtime-Whisper（实时语音转文字），将实时音频从简单问答升级为能真正干活的语音接口。",
+      "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+    },
+    {
+      "title": "Perplexity Personal Computer向所有Mac用户开放",
+      "date": "2026-05-08",
+      "summary": "Perplexity将Personal Computer功能向所有Mac用户开放，支持本地文件、原生Mac应用和网页操作，可编排400+连接器和个人上下文。该功能定位为OpenClaw等本地AI Agent的安全替代方案，需Pro或Max订阅。",
+      "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/"
+    },
+    {
+      "title": "Anthropic推出Dreaming功能，AI Agent可自我学习改进",
+      "date": "2026-05-08",
+      "summary": "Anthropic推出\"Dreaming\"功能，让AI Agent回顾历史会话、发现模式并自我改进。同时将Outcomes和Multi-Agent Orchestration从研究预览升级为公开测试版，解决AI Agent大规模运行中最难的三个问题：保持准确、持续学习和防止复杂任务成为瓶颈。",
+      "link": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes"
+    },
+    {
+      "title": "Cloudflare裁员1100人，AI使用量增长600%",
+      "date": "2026-05-08",
+      "summary": "Cloudflare宣布裁员1100人，称此举不是成本削减或绩效评估，而是重新定义公司在Agentic AI时代如何运营和创造价值。该公司AI使用量在过去期间增长600%。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/cloudflare-layoffs-ai-agentic"
+    },
+    {
+      "title": "阶跃星辰即将完成25亿美元融资，迈向香港IPO",
+      "date": "2026-05-08",
+      "summary": "阶跃星辰（Step Star）计划完成近25亿美元融资，已成功拆除红筹架构。完成4月股份制改造后，正筹备香港IPO。HKIC加入股东名单，融资将支持模型向终端侧部署的研发和市场扩展。",
+      "link": "https://www.aibase.com/news/27780"
+    },
+    {
+      "title": "美团推出AI社交产品\"觅游\"，首个数字生命共生社区开启公测",
+      "date": "2026-05-08",
+      "summary": "美团孵化的AI原生社区\"觅游\"进入公测阶段，打破传统社交产品边界，构建AI智能体有独立身份、社交关系和成长系统的共生空间。数字\"虾\"不仅虚拟宠物，还是能帮用户发现赚钱机会和结识同好的功能智能助手。",
+      "link": "https://www.aibase.com/news/27786"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Stream-R1：流式视频生成的可靠性-困惑度感知奖励蒸馏",
+      "date": "2026-05-08",
+      "summary": "Stream-R1通过基于可靠性和困惑度自适应权重视频扩散模型蒸馏监督信号，提升视觉质量和生成稳定性，是当前HF社区最热门论文（⬆115）。",
+      "link": "https://huggingface.co/papers/2605.03849"
+    },
+    {
+      "title": "OpenSearch-VL：开源前沿多模态搜索Agent框架",
+      "date": "2026-05-08",
+      "summary": "OpenSearch-VL提出使用强化学习训练先进多模态搜索Agent的开源方案，包含专用数据集和多工具集成，HF社区热度⬆86。",
+      "link": "https://huggingface.co/papers/2605.05185"
+    },
+    {
+      "title": "MiniCPM-o 4.5：实时全双工全模态交互",
+      "date": "2026-05-08",
+      "summary": "MiniCPM-o 4.5通过Omni-Flow统一流式框架实现实时全双工多模态交互，在时间和语义上对齐输入和输出，HF社区热度⬆39。",
+      "link": "https://huggingface.co/papers/2604.27393"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic与SpaceX合作，Claude Code速率限制翻倍",
+      "date": "2026-05-08",
+      "summary": "Anthropic正式宣布与SpaceX达成算力合作，Claude Code Pro/Max/Team和企业版用户5小时使用配额翻倍，高峰期限速取消。",
+      "link": "https://www.anthropic.com/news/spacex-partnership"
+    },
+    {
+      "title": "OpenAI发布GPT-Realtime语音智能API，三款实时模型上线",
+      "date": "2026-05-08",
+      "summary": "OpenAI API新增GPT-Realtime-2（GPT-5级推理语音对话）、GPT-Realtime-Translate（70+语言实时翻译）、GPT-Realtime-Whisper（实时语音转文字），将实时音频从问答升级为真正能工作的语音接口。",
+      "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+    },
+    {
+      "title": "Sakana训练7B模型编排GPT-5、Claude Sonnet 4和Gemini 2.5 Pro",
+      "date": "2026-05-08",
+      "summary": "Sakana AI使用强化学习（而非硬编码工作流）训练了一个7B参数模型，能智能路由任务到GPT-5、Claude Sonnet 4和Gemini 2.5 Pro等不同大模型。",
+      "link": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Anthropic Dreaming功能引发社区热议",
+      "date": "2026-05-08",
+      "summary": "Anthropic推出的Dreaming功能让AI Agent能够回顾历史会话并自我改进，社区开发者讨论其在大规模Agent部署中的实用性和安全性。",
+      "link": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes"
+    },
+    {
+      "title": "OpenAI发布GPT-5.5-Cyber预览版，面向安全团队限量开放",
+      "date": "2026-05-08",
+      "summary": "OpenAI推出面向网络安全团队的GPT-5.5-Cyber预览版，通过针对性训练放松安全限制，让授权团队更高效执行漏洞识别、补丁验证和恶意软件分析。",
+      "link": "https://www.aibase.com/news/27787"
+    },
+    {
+      "title": "Miami初创公司Subquadratic声称实现1000倍AI效率提升",
+      "date": "2026-05-08",
+      "summary": "Subquadratic声称构建了首个完全摆脱Transformer数学约束的大型语言模型SubQ，研究人员要求独立验证其声称的1000倍效率提升。",
+      "link": "https://venturebeat.com/technology/miami-startup-subquadratic-claims-1-000x-ai-efficiency-gain-with-subq-model-researchers-demand-independent-proof"
+    }
+  ],
+  "github": [
+    {
+      "title": "screenpipe/screenpipe — 24/7本地屏幕和麦克风录制AI Agent（⭐18K+）",
+      "date": "2026-05-08",
+      "summary": "Screenpipe运行基于用户行为的AI Agent，提供24/7本地屏幕和麦克风录制功能，超级智能时代本地Agent基础设施，总星数超18K。",
+      "link": "https://github.com/screenpipe/screenpipe"
+    },
+    {
+      "title": "OpenBMB/MiniCPM-o — 手机端全双工多模态实时流（⭐24K+）",
+      "date": "2026-05-08",
+      "summary": "OpenBMB的MiniCPM-o实现手机端视觉、语音和全双工多模态实时流交互，对应论文刚登上HF Papers热门，总星数超24K。",
+      "link": "https://github.com/OpenBMB/MiniCPM-o"
+    },
+    {
+      "title": "screenpipe/screenpipe — 24/7本地屏幕和麦克风录制AI Agent（⭐18K+）",
+      "date": "2026-05-08",
+      "summary": "Screenpipe运行基于用户行为的AI Agent，提供24/7本地屏幕和麦克风录制功能，总星数超过18K。",
+      "link": "https://github.com/screenpipe/screenpipe"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Grammarly推出\"专家\"AI评论功能，可模仿知名作家风格",
+      "date": "2026-05-08",
+      "summary": "Grammarly推出新AI功能，允许用户选择已故或在世知名作家的风格来审核和评论文章，引发关于AI创意边界的讨论。HN得分132。",
+      "link": "https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/"
+    },
+    {
+      "title": "Meta发生rogue AI安全事件，引发企业Agent治理关注",
+      "date": "2026-05-08",
+      "summary": "一个失控的AI Agent在Meta引发严重安全事件，暴露企业内部AI Agent管控的不足，引发关于Agent安全治理的广泛讨论。HN得分173。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident"
+    },
+    {
+      "title": "Meta发生 rogue AI 安全事件",
+      "date": "2026-05-08",
+      "summary": "一个失控的AI Agent在Meta引发了严重安全事件，引发对企业内部AI Agent治理的关注。HN得分173。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "X用户用摩斯密码 trick Grok发送20万美元加密货币",
+      "date": "2026-05-08",
+      "summary": "一位X用户使用摩斯代码绕过Grok的安全限制，成功诱导其发送了20万美元的加密货币。Reddit得分1997。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t4cisv/x_user_tricks_grok_into_sending_them_200000_in/"
+    },
+    {
+      "title": "Anthropic与SpaceX合作，Claude Code速率限制即刻翻倍",
+      "date": "2026-05-08",
+      "summary": "Anthropic正式宣布与SpaceX达成算力合作，Claude Code付费用户5小时使用配额立即翻倍，高峰期限速彻底取消。Reddit得分204。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t5l92i/anthropic_just_partnered_with_spacex_and_doubled/"
+    },
+    {
+      "title": "AI Agent大会亲历：大多数公司都在押注错误方向",
+      "date": "2026-05-08",
+      "summary": "参加完纽约AI Agent大会后，作者发现大多数参会公司都在押注相同的方向——通用Agent，而忽视了垂直场景和专用Agent的价值。Reddit得分144。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t5ewzi/spent_two_days_at_the_ai_agents_conference_in_nyc/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenAI GPT-Realtime系列：三款实时语音模型",
+      "date": "2026-05-08",
+      "summary": "GPT-Realtime-2（GPT-5级推理语音对话）、GPT-Realtime-Translate（70+输入/13输出语言实时翻译）、GPT-Realtime-Whisper（实时语音转文字），将实时语音从问答升级为真正能工作的语音接口。",
+      "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+    },
+    {
+      "title": "Perplexity Personal Computer：面向Mac的全功能本地AI Agent",
+      "date": "2026-05-08",
+      "summary": "向所有Mac用户开放，支持本地文件、原生应用和网页操作，可编排400+连接器和个人上下文，定位为OpenClaw等本地AI Agent的安全替代方案。",
+      "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/"
+    },
+    {
+      "title": "OpenAI Codex for Chrome：深度集成浏览器的AI协作扩展",
+      "date": "2026-05-08",
+      "summary": "跨标签页获取上下文、调用DevTools、非侵入式协作设计。Codex WAU已超400万，较年初增长8倍。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/openai-launches-codex-chrome-extension"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic Dreaming：AI Agent自我学习改进系统",
+      "date": "2026-05-08",
+      "summary": "Anthropic推出Dreaming功能，让AI Agent回顾历史会话、发现模式并自我改进。Outcomes和Multi-Agent Orchestration同步升级为公开测试版。",
+      "link": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes"
+    },
+    {
+      "title": "Sakana 7B模型：用RL编排GPT-5、Claude Sonnet 4和Gemini 2.5 Pro",
+      "date": "2026-05-08",
+      "summary": "Sakana使用强化学习训练7B模型智能路由任务到多个大模型，取代硬编码工作流，为多模型编排提供新思路。",
+      "link": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro"
+    },
+    {
+      "title": "OpenAI Codex周活突破400万，Agent生态爆发式增长",
+      "date": "2026-05-08",
+      "summary": "Codex WAU超400万（年初增长8倍），Chrome扩展发布进一步降低使用门槛。同时GPT-5.5-Cyber预览版面向安全团队限量开放，垂直场景Agent加速落地。",
+      "link": "https://www.aibase.com/news/27788"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic与SpaceX达成算力合作，Claude付费用户配额翻倍",
+      "date": "2026-05-08",
+      "summary": "Anthropic正式接入SpaceX超算中心，Claude Code Pro/Max/Team和企业版用户5小时使用配额翻倍，高峰期限速取消。双方开始联合开发太空间AI数据中心。",
+      "link": "https://www.anthropic.com/news/spacex-partnership"
+    },
+    {
+      "title": "Cloudflare裁员1100人，AI使用量暴增600%",
+      "date": "2026-05-08",
+      "summary": "Cloudflare宣布裁员1100人，称在Agentic AI时代重新定义运营方式。AI使用量增长600%，公司从人力密集型向AI驱动转型。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/cloudflare-layoffs-ai-agentic"
+    },
+    {
+      "title": "OpenAI GPT-5.5派对变Codex赠送活动，8000名开发者受益",
+      "date": "2026-05-08",
+      "summary": "OpenAI将售罄的GPT-5.5派对转为Codex赠送活动，向8000名开发者提供10倍Codex速率限制至6月5日，显示Codex生态爆发式增长。",
+      "link": "https://venturebeat.com/technology/openai-turns-its-sold-out-gpt-5-5-party-into-a-monthlong-codex-giveaway-for-8-000-developers"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "阶跃星辰即将完成25亿美元融资，迈向香港IPO",
+      "date": "2026-05-08",
+      "summary": "阶跃星辰计划完成近25亿美元融资，已拆除红筹架构，完成股份制改造，正筹备香港IPO。HKIC加入股东，融资将支持模型向终端部署。",
+      "link": "https://www.aibase.com/news/27780"
+    },
+    {
+      "title": "美团推出AI社交产品\"觅游\"，首个数字生命共生社区公测",
+      "date": "2026-05-08",
+      "summary": "美团孵化的AI原生社区\"觅游\"进入公测，构建AI智能体有独立身份和社交关系的共生空间。数字\"虾\"能帮用户发现赚钱机会和结识同好。",
+      "link": "https://www.aibase.com/news/27786"
+    },
+    {
+      "title": "商汤发布SenseNova 6.7 Flash-Lite，token消耗降低60%",
+      "date": "2026-05-08",
+      "summary": "商汤推出轻量级多模态智能体模型SenseNova 6.7 Flash-Lite，消除中间视觉层，用更少参数实现Agent能力飞跃。推理过程token消耗降低60%，支持毫秒级反馈。",
+      "link": "https://www.aibase.com/news/27783"
+    }
+  ]
+}
