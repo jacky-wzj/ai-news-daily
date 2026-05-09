@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-09",
+  "insights": [
+    {
+      "title": "OpenAI与微软修订合作条款：结束独占期，走向多云战略",
+      "date": "2026-05-09",
+      "summary": "OpenAI与微软于4月27日联合宣布修订合作协议，微软对OpenAI IP的许可变为非独占，有效期至2032年。OpenAI现可向任意云提供商提供其产品，Azure仍为主要云合作伙伴。20%的营收分成不变但设上限，且不再与AGI进展挂钩。此前OpenAI已与亚马逊达成500亿美元战略投资及1000亿美元AWS扩协议。",
+      "link": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
+    },
+    {
+      "title": "OpenAI发布GPT-5.5：400万Codex活跃用户，900万周活跃付费用户",
+      "date": "2026-05-09",
+      "summary": "OpenAI于4月23日发布GPT-5.5，距GPT-5.4仅六周。总统Greg Brockman称其为\"新类别智能\"，更直观、更高效。BNY Mellon测试显示其幻觉抵抗能力显著提升。ChatGPT周活跃用户超9亿，订阅用户超5000万，付费企业用户达900万。",
+      "link": "https://fortune.com/2026/04/23/openai-releases-gpt-5-5/"
+    },
+    {
+      "title": "OpenAI Codex全面升级：桌面Agent+浏览器+记忆功能，正面挑战Anthropic",
+      "date": "2026-05-09",
+      "summary": "OpenAI对Codex进行重大更新，可在Mac后台运行多Agent并行操作，新增内置浏览器控制、记忆功能和111个插件集成。功能设计与Anthropic Claude Code高度重叠，双方AI编码工具竞争白热化。同时推出按量付费定价方案。",
+      "link": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/"
+    },
+    {
+      "title": "2026年4-5月AI模型排行榜：Claude Opus 4.7、GPT-5.5、DeepSeek V4竞逐",
+      "date": "2026-05-09",
+      "summary": "Claude Opus 4.7在SWE-bench Pro达64.3%重夺编程榜首，GPT-5.5以更高token效率和企业用户增长领跑，DeepSeek V4以超长上下文能力和开源生态竞争。排行榜显示中美AI模型差距持续缩小。",
+      "link": "https://www.buildfastwithai.com/blogs/best-ai-models-may-2026-leaderboard"
+    },
+    {
+      "title": "ChatGPT 5.5 Pro一小时解决数学未解难题，剑桥数学家验证",
+      "date": "2026-05-09",
+      "summary": "剑桥大学数学家Timothy Gowers报告称，ChatGPT 5.5 Pro在一小时内解决了加法组合学中一道未解问题，将\"和集直径\"问题的指数级上界优化为多项式级上界。Gowers提议建立专门存储库审查AI生成的数学结果，引发研究伦理讨论。",
+      "link": "https://xix.ai/zh/live/4111"
+    },
+    {
+      "title": "OpenAI完成1220亿美元融资，估值达8520亿美元",
+      "date": "2026-05-09",
+      "summary": "OpenAI完成1220亿美元融资轮，估值飙升至8520亿美元。与此同时，SoftBank以OpenAI股份为抵押的融资额从100亿美元削减至60亿美元，反映债权方对高估值未上市公司资产的谨慎态度。",
+      "link": "https://tech-insider.org/openai-110-billion-funding-round-2026/"
+    },
+    {
+      "title": "OpenAI关闭Sora社交应用：六个月生命周期，下载量暴跌",
+      "date": "2026-05-09",
+      "summary": "OpenAI宣布关闭Sora社交应用，该应用上线仅六个月。11月下载量峰值330万，2月降至110万，生命周期内仅创收210万美元。迪士尼此前投资10亿美元的IP授权协议也随之失效。Sora 2模型仍可通过ChatGPT付费墙访问。",
+      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "DeepSeek推出大规模图像识别模式，迈入多模态时代",
+      "date": "2026-05-09",
+      "summary": "DeepSeek已推出大规模图像识别模式进行内部测试，实现超越简单OCR的深度图像分析和语义理解，进一步增强与GPT-4o等顶级模型的竞争优势。",
+      "link": "https://xix.ai/zh/live/4107"
+    },
+    {
+      "title": "MiniMax揭示大语言模型\"词汇退化\"问题及修复方案",
+      "date": "2026-05-09",
+      "summary": "MiniMax技术报告发现微调过程中低频词汇被抑制的\"词汇退化\"现象，影响约4.9%词汇，日语词汇退化率高达29.7%。团队利用合成数据实施修复方案，显著提高输出稳定性。",
+      "link": "https://xix.ai/zh/live/4106"
+    },
+    {
+      "title": "百度ERNIE Bot 5.1：预训练成本降低94%，LMArena全球第四",
+      "date": "2026-05-09",
+      "summary": "百度发布新一代ERNIE Bot 5.1基础AI模型，采用\"多维弹性预训练\"技术，预训练成本降至同类模型约6%，总参数压缩三分之二。在LMArena排行榜上位居国内第一、全球第四，智能代理和创意写作能力强劲。",
+      "link": "https://xix.ai/zh/live/4104"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "DeepSeek启动首轮融资：目标500亿人民币，梁文峰个人最高出资200亿",
+      "date": "2026-05-09",
+      "summary": "DeepSeek开展首轮融资目标500亿元人民币，创始人梁文峰带头投资个人最高200亿，估值攀升至500亿美元。V4模型已具备超长上下文处理能力，V4.1预计6月推出，从实验室向商业化转型。",
+      "link": "https://xix.ai/zh/live/4109"
+    },
+    {
+      "title": "NVIDIA DLSS 5调查：58%玩家反对AI修改游戏画面",
+      "date": "2026-05-09",
+      "summary": "TechPowerUp近20000名读者调查显示，58%玩家反对使用DLSS 5等AI技术修改游戏光照、材质或角色外观。仅8%认为AI渲染效果优于原生，6%仅在显著提升帧率时才接受。DLSS 5预计秋季发布，限于RTX 50系列。",
+      "link": "https://xix.ai/zh/live/4110"
+    },
+    {
+      "title": "OpenAI与Anthropic Ventures洽谈收购AI服务公司",
+      "date": "2026-05-09",
+      "summary": "据US News报道，OpenAI和Anthropic Ventures正在洽谈收购AI服务公司，两大AI巨头通过并购扩展企业服务能力，加速构建端到端AI生态。",
+      "link": "https://money.usnews.com/investing/news/articles/2026-05-05/openai-anthropic-ventures-in-talks-to-buy-ai-services-firms-sources-say"
+    }
+  ],
+  "discord": [
+    {
+      "title": "OpenAI Codex桌面端Agent引发开发者社区讨论",
+      "date": "2026-05-09",
+      "summary": "OpenAI Codex新增后台多Agent并行操作能力，可控制桌面应用和浏览器，111个插件集成。社区热议其对开发工作流的变革潜力及隐私安全问题，尤其关注Agent后台运行的透明度和可控性。",
+      "link": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/"
+    },
+    {
+      "title": "Meta部署数十万颗AWS Graviton芯片：AI算力基础设施扩展",
+      "date": "2026-05-09",
+      "summary": "Meta承诺花费480亿美元使用CoreWeave和Nebius的数十万颗AWS Graviton芯片补充算力。AI算力投资持续扩大，大型科技公司从单一云供应商向多云架构转型。",
+      "link": "https://www.cnbc.com/2026/04/24/meta-will-use-hundreds-of-thousands-of-aws-graviton-chips.html"
+    },
+    {
+      "title": "OpenAI Sora关闭：AI社交应用的可行性引发讨论",
+      "date": "2026-05-09",
+      "summary": "OpenAI关闭Sora社交应用，六个月仅创收210万美元。社区热议纯AI生成内容社交平台的用户留存难题，以及深度伪造技术带来的社会风险。",
+      "link": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenAI Codex for Almost Everything：全新桌面Agent架构",
+      "date": "2026-05-09",
+      "summary": "OpenAI发布Codex重大更新博客，详细介绍后台多Agent并行、内置浏览器、记忆功能和111个插件集成的技术架构。标志着AI编码助手从IDE向全桌面Agent的演进。",
+      "link": "https://openai.com/index/codex-for-almost-everything/"
+    },
+    {
+      "title": "Anthropic Claude Code被TechCrunch报道为企业首选AI编码工具",
+      "date": "2026-05-09",
+      "summary": "TechCrunch报道Claude Code被众多企业选为首选AI编码工具。Anthropic与SpaceX达成算力合作，Claude Code付费用户配额翻倍，双方AI编码工具市场展开激烈竞争。",
+      "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/"
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4 — 超长上下文开源大语言模型",
+      "date": "2026-05-09",
+      "summary": "DeepSeek V4开源模型具备超长上下文处理能力，支持多模态图像识别。作为中国最具竞争力的开源模型之一，在GitHub上获得广泛关注。",
+      "link": "https://github.com/deepseek-ai/DeepSeek-V4"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenAI结束与微软独占合作：走向多云时代",
+      "date": "2026-05-09",
+      "summary": "OpenAI与微软修订合作协议，微软IP许可变为非独占，OpenAI可向任意云提供商提供产品。此举被解读为AI行业从单一供应商向多云架构转型的标志性事件。",
+      "link": "https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/"
+    },
+    {
+      "title": "OpenAI结束与微软独占合作：IP许可非独占，走向多云战略",
+      "date": "2026-05-09",
+      "summary": "OpenAI与微软修订合作协议，微软对OpenAI IP的许可变为非独占至2032年。OpenAI现可向任意云提供商提供产品，Azure仍为主要云合作伙伴。营收分成设上限且不再与AGI挂钩。",
+      "link": "https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/"
+    },
+    {
+      "title": "ChatGPT 5.5 Pro解决数学未解难题，引发AI研究伦理讨论",
+      "date": "2026-05-09",
+      "summary": "剑桥数学家Timothy Gowers验证ChatGPT 5.5 Pro解决加法组合学未解问题，将指数级上界优化为多项式级。Gowers提议建立AI数学结果审查机制，引发学术界对AI辅助研究伦理的讨论。",
+      "link": "https://xix.ai/zh/live/4111"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "OpenAI GPT-5.5发布：更快更智能，token效率提升",
+      "date": "2026-05-09",
+      "summary": "GPT-5.5被Greg Brockman称为\"更快更敏锐的思考者\"，token效率优于5.4。数学教授仅用单一提示在11分钟内构建代数几何应用。社区讨论AI编码助手对企业开发效率的提升。",
+      "link": "https://fortune.com/2026/04/23/openai-releases-gpt-5-5/"
+    },
+    {
+      "title": "OpenAI与微软合作修订：20%营收分成设上限，非独占IP许可",
+      "date": "2026-05-09",
+      "summary": "OpenAI营收主管Denise Dresser此前表示微软合作\"限制了企业触达能力\"。新协议允许OpenAI在Amazon和Google云上提供全部产品，同时Azure保持主要云合作伙伴地位至2032年。",
+      "link": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
+    },
+    {
+      "title": "OpenAI完成1220亿美元融资，估值8520亿美元创纪录",
+      "date": "2026-05-09",
+      "summary": "OpenAI完成1220亿美元融资，估值达8520亿美元。此前2月与亚马逊达成500亿美元投资协议，同时扩大380亿美元AWS合作至未来8年1000亿美元。",
+      "link": "https://tech-insider.org/openai-110-billion-funding-round-2026/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenAI Codex桌面版：后台多Agent并行+浏览器控制",
+      "date": "2026-05-09",
+      "summary": "Codex可在Mac后台运行多个Agent并行操作，内置浏览器支持Web应用指令执行，新增记忆功能回顾历史会话，111个插件集成（CodeRabbit、GitLab Issues等），推出按量付费方案。",
+      "link": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/"
+    },
+    {
+      "title": "OpenAI与Anthropic AI编码工具白热化竞争",
+      "date": "2026-05-09",
+      "summary": "OpenAI Codex与Anthropic Claude Code在AI编码市场展开激烈竞争。Codex新增后台多Agent、浏览器控制、111个插件集成；Claude Code被众多企业选为首选编码工具，新增Mac远程控制。",
+      "link": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/"
+    },
+    {
+      "title": "百度ERNIE Bot 5.1：成本降低94%，LMArena全球第四",
+      "date": "2026-05-09",
+      "summary": "新一代ERNIE Bot 5.1采用多维弹性预训练，成本降为同类约6%，参数压缩2/3，LMArena国内第一全球第四。智能代理和创意写作能力突出，即将在百度AI开发者大会披露更多细节。",
+      "link": "https://xix.ai/zh/live/4104"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenAI Codex Agent进化：从IDE编码到全桌面操作",
+      "date": "2026-05-09",
+      "summary": "Codex从代码生成工具进化为全桌面Agent：后台并行处理、浏览器控制、Slack/Google Calendar集成生成每日任务清单。400万周活跃用户，较年初增长8倍。",
+      "link": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/"
+    },
+    {
+      "title": "OpenAI转型公共福利公司：IPO在即，探索新营收模式",
+      "date": "2026-05-09",
+      "summary": "OpenAI从营利性向公共福利公司转型，探索新营收模式。Codex周活跃用户超400万，ChatGPT订阅用户超5000万。同时面临Stalking受害者诉讼等法律挑战。",
+      "link": "https://www.forbes.com/sites/jonmarkman/2026/01/20/moving-beyond-chatgpt-openais-new-revenue-model/"
+    },
+    {
+      "title": "DeepSeek V4超长上下文+图像识别：多模态Agent基础设施",
+      "date": "2026-05-09",
+      "summary": "DeepSeek V4模型具备超长上下文处理能力，大规模图像识别模式进入内测，超越简单OCR实现深度图像分析。V4.1预计6月推出，估值500亿美元。",
+      "link": "https://xix.ai/zh/live/4109"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "OpenAI $1220亿融资+8520亿估值：AI行业资本狂热新高",
+      "date": "2026-05-09",
+      "summary": "OpenAI完成1220亿美元融资，估值飙至8520亿美元，创下AI行业最高融资纪录。同期与亚马逊达成500亿美元投资+1000亿美元AWS扩展协议，展现AI基础设施投资的空前规模。",
+      "link": "https://tech-insider.org/openai-110-billion-funding-round-2026/"
+    },
+    {
+      "title": "Musk v. Altman庭审开始：OpenAI治理之争升级",
+      "date": "2026-05-09",
+      "summary": "Musk诉Altman案正式开庭，围绕OpenAI从非营利机构转型的合法性和治理问题展开辩论。CNBC对此进行全程报道，案件结果将对AI行业治理产生深远影响。",
+      "link": "https://www.cnbc.com/video/2026/04/27/musk-v-altman-trial-gets-underway-heres-what-to-know.html"
+    },
+    {
+      "title": "OpenAI 2026成绩单：诉讼、损失与未兑现承诺并存",
+      "date": "2026-05-09",
+      "summary": "OpenAI在2026年面临一系列挑战：Musk v. Altman庭审、ChatGPT心理健康影响诉讼、Sora社交应用关闭。同时公司完成了创纪录的1220亿美元融资，估值8520亿美元。",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/openai-2026-scorecard-string-lawsuits-135104297.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek启动500亿人民币首轮融资，估值500亿美元",
+      "date": "2026-05-09",
+      "summary": "DeepSeek开展首轮融资目标500亿元人民币，创始人梁文峰带头投资个人最高200亿，估值升至500亿美元。从非商业化实验室向商业化转型，V4模型已支持超长上下文，V4.1预计6月推出。",
+      "link": "https://xix.ai/zh/live/4109"
+    },
+    {
+      "title": "百度ERNIE Bot 5.1发布：预训练成本降94%，国内LMArena第一",
+      "date": "2026-05-09",
+      "summary": "百度发布新一代文心一言5.1，采用\"多维弹性预训练\"技术，预训练成本降至同类约6%，参数压缩2/3。LMArena国内第一、全球第四，智能代理和创意写作能力强劲。将在百度AI开发者大会披露更多细节。",
+      "link": "https://xix.ai/zh/live/4104"
+    },
+    {
+      "title": "DeepSeek大规模图像识别模式内测：深度语义理解超越OCR",
+      "date": "2026-05-09",
+      "summary": "DeepSeek推出大规模图像识别模式进入内部测试，实现超越简单OCR的深度图像分析和语义理解，正式迈入多模态时代。该功能已面向大多数测试用户开放，增强与GPT-4o等顶级模型的竞争力。",
+      "link": "https://xix.ai/zh/live/4107"
+    }
+  ]
+}
