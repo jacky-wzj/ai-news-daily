@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-10",
+  "insights": [
+    {
+      "title": "OpenAI 推出 Codex Chrome 扩展，可操作已登录的网站应用",
+      "date": "2026-05-07",
+      "summary": "OpenAI 发布 Codex Chrome 扩展，允许 Codex 在用户已登录的网站和应用中完成工作，支持任务专用标签页组，可在保持活跃标签页正常使用的同时执行自动化任务。",
+      "link": "https://openai.com/index/running-codex-safely/"
+    },
+    {
+      "title": "GPT-5.5 Instant 发布：更聪明、更清晰、更个性化",
+      "date": "2026-05-05",
+      "summary": "OpenAI 发布 GPT-5.5 Instant 模型，强调更快的响应速度、更清晰的输出质量以及个性化体验升级，同时发布对应系统卡。",
+      "link": "https://openai.com/index/gpt-5-5-instant/"
+    },
+    {
+      "title": "Anthropic 发布研究：Teaching Claude Why 减少 Agent 错位对齐",
+      "date": "2026-05-08",
+      "summary": "Anthropic 发表最新对齐研究，通过教 Claude 理解行为背后的\"为什么\"来减少 agent 错位对齐问题，是 AI 安全领域的重要进展。",
+      "link": "https://www.anthropic.com/research/teaching-claude-why"
+    },
+    {
+      "title": "Meta 员工因 AI 转型和裁员感到\"痛苦不堪\"",
+      "date": "2026-05-08",
+      "summary": "据纽约时报报道，Meta 正在追踪员工电脑活动以训练 AI 模型，计划裁员 10%，并要求员工制造大量 AI agent，导致员工愤怒和焦虑，部分人开始寻找新工作或主动寻求被裁以获得补偿。",
+      "link": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html"
+    },
+    {
+      "title": "Cloudflare 以 AI 为由裁员 1100 人，尽管营收创纪录",
+      "date": "2026-05-08",
+      "summary": "Cloudflare 宣布裁员 1100 人，称 AI 使用量增长 600%，强调这不是成本削减而是重新定义公司在 agentic AI 时代的运营方式，而公司营收同时创历史新高。",
+      "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/"
+    },
+    {
+      "title": "Nvidia 今年已承诺 400 亿美元股权投资 AI 项目",
+      "date": "2026-05-09",
+      "summary": "Nvidia 在 2026 年已承诺投入 400 亿美元用于 AI 领域的股权投资，显示其在 AI 基础设施领域的持续扩张决心。",
+      "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/"
+    },
+    {
+      "title": "Musk v. Altman 庭审第二周：前 OpenAI 董事会成员作证",
+      "date": "2026-05-08",
+      "summary": "Musk 起诉 Altman 案进入第二周，前 OpenAI 董事会成员 Helen Toner 作证说明 Altman 被解雇的过程，涉及诚信问题和董事会决策流程；OpenAI 董事会曾在\"The Blip\"期间讨论与 Anthropic 合并。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence"
+    }
+  ],
+  "papers": [
+    {
+      "title": "AI Co-Mathematician: 用 Agentic AI 加速数学家研究",
+      "date": "2026-05-08",
+      "summary": "Google DeepMind 团队推出 AI 协作数学家工作台，为数学家提供交互式 AI agent 支持，涵盖创意生成、文献搜索、计算探索、定理证明和理论构建，提供异步有状态工作空间管理不确定性和失败的假设。",
+      "link": "https://arxiv.org/abs/2605.06651"
+    },
+    {
+      "title": "Can RL Teach Long-Horizon Reasoning to LLMs? ScaleLogic 框架揭示 RL 训练的幂律关系",
+      "date": "2026-05-08",
+      "summary": "提出 ScaleLogic 合成逻辑推理框架，发现 RL 训练计算量与推理深度遵循幂律关系（R²>0.99），且逻辑表达力越高 scaling 指数越大，更具表达力的训练带来最大 +10.66 分的性能提升。",
+      "link": "https://arxiv.org/abs/2605.06638"
+    },
+    {
+      "title": "MASPO: LLM 多 Agent 系统的联合 Prompt 优化框架（ICML 2026）",
+      "date": "2026-05-08",
+      "summary": "提出 MASPO 框架，通过联合评估机制和数据驱动的进化束搜索，自动迭代优化多 Agent 系统中各 agent 的 prompt，在 6 个任务上平均准确率提升 2.9，已获 ICML 2026 接收。",
+      "link": "https://arxiv.org/abs/2605.06623"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Using Claude Code: HTML 的不合理有效性",
+      "date": "2026-05-08",
+      "summary": "HN 热帖（458分），分享使用 Claude Code 开发 HTML 项目的经验，探讨 HTML 作为 AI 编程输出的独特优势。",
+      "link": "https://twitter.com/trq212/status/2052809885763747935"
+    },
+    {
+      "title": "Digg 以 di.gg 新域名回归，转型 AI 新闻情绪追踪平台",
+      "date": "2026-05-08",
+      "summary": "Kevin Rose 宣布 Digg 重新上线，新版本不再类似 Reddit，而是专注于追踪 AI 新闻的在线情绪追踪平台。",
+      "link": "https://x.com/kevinrose/status/2052455513418498095"
+    },
+    {
+      "title": "xAI 与 X 合并品牌，现被称为 SpaceXAI",
+      "date": "2026-05-06",
+      "summary": "xAI 在被 Elon Musk 的另一家公司收购后，现在被称为 SpaceXAI，预示着品牌协同效应的开始。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/925469/xai-is-becoming-spacexai"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Mozilla 披露 Claude Mythos Preview 发现的 271 个 Firefox 安全漏洞详情",
+      "date": "2026-05-07",
+      "summary": "Mozilla 公开了 Claude Mythos Preview 发现的 271 个 Firefox 漏洞中的部分详细报告，出于行业紧迫性考虑决定提前公开部分修复后的漏洞信息。",
+      "link": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.5 用于可信网络安全的 GPT-5.5-Cyber",
+      "date": "2026-05-07",
+      "summary": "OpenAI 推出 GPT-5.5 与 GPT-5.5-Cyber 专门用于扩展可信网络安全访问，结合 trusted access 框架提升 AI 在安全领域的应用能力。",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"
+    },
+    {
+      "title": "Show HN: Git for AI Agents — regent-vcs 为 AI Agent 设计的版本控制系统",
+      "date": "2026-05-08",
+      "summary": "Show HN 项目 regent-vcs，专为 AI Agent 设计的版本控制系统，获得 115 分关注，解决了 AI Agent 协作中的版本管理痛点。",
+      "link": "https://github.com/regent-vcs/re_gent"
+    }
+  ],
+  "github": [
+    {
+      "title": "huashu-design: Claude Code 中 HTML 原生的设计 Skill",
+      "date": "2026-05-10",
+      "summary": "HTML-native 设计 Skill for Claude Code，支持高保真原型/幻灯片/动画，包含 20 种设计哲学、5 维评审和 MP4 导出，Agent-agnostic，获 12.9K stars。",
+      "link": "https://github.com/alchaincyf/huashu-design"
+    },
+    {
+      "title": "browser-harness: LLM 自我修复浏览器控制框架",
+      "date": "2026-05-10",
+      "summary": "Self-healing harness 使 LLM 能够完成任何浏览器任务，自动修复和适应网页变化，获 11.9K stars。",
+      "link": "https://github.com/browser-use/browser-harness"
+    },
+    {
+      "title": "obscura: 面向 AI Agent 的无头浏览器",
+      "date": "2026-05-10",
+      "summary": "专为 AI Agent 和网页抓取设计的无头浏览器，提供 Agent 友好的 API 和内置的反检测能力，获 11.3K stars。",
+      "link": "https://github.com/h4ckf0r0day/obscura"
+    }
+  ],
+  "hn": [
+    {
+      "title": "A recent experience with ChatGPT 5.5 Pro",
+      "date": "2026-05-08",
+      "summary": "数学家 Timothy Gowers 分享使用 ChatGPT 5.5 Pro 的真实体验，获 631 分高关注。",
+      "link": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/"
+    },
+    {
+      "title": "AI is breaking two vulnerability cultures",
+      "date": "2026-05-08",
+      "summary": "AI 正在打破两种漏洞文化：负责任披露和快速修复，探讨 AI 对软件安全生态的影响，获 415 分。",
+      "link": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures"
+    },
+    {
+      "title": "OpenAI's WebRTC problem",
+      "date": "2026-05-08",
+      "summary": "分析 OpenAI 在 WebRTC 方面面临的技术挑战，探讨实时通信在 AI 应用中的瓶颈，获 487 分。",
+      "link": "https://moq.dev/blog/webrtc-is-the-problem/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "ChatGPT 5.5 Pro 使用体验：数学家深度评测",
+      "date": "2026-05-08",
+      "summary": "著名数学家 Timothy Gowers 详细分享使用 ChatGPT 5.5 Pro 的经验，包括在数学研究中的实际应用效果。",
+      "link": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/"
+    },
+    {
+      "title": "Meta AI 转型导致员工不满：追踪电脑活动+裁员10%",
+      "date": "2026-05-08",
+      "summary": "Meta 要求员工制造大量 AI agent，同时追踪员工电脑活动用于 AI 训练，并计划裁员 10%，员工士气低落。",
+      "link": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html"
+    },
+    {
+      "title": "Cloudflare AI 裁员 1100 人，营收却创纪录",
+      "date": "2026-05-08",
+      "summary": "Cloudflare 声称 AI 使用量增长 600% 而裁员 1100 人，但公司营收同时创历史新高，引发关于 AI 替代人工的热议。",
+      "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Gmail Help Me Write 升级：可个性化你的写作风格",
+      "date": "2026-05-07",
+      "summary": "Google 推出 Gmail Help Me Write 的个性化功能，可根据用户的语气和风格生成邮件，还能从 Google Drive 和 Gmail 中提取相关上下文。",
+      "link": "https://workspaceupdates.googleblog.com/2026/05/improvements-to-help-me-write-in-gmail.html"
+    },
+    {
+      "title": "Gemini API File Search 支持多模态：构建高效可验证的 RAG",
+      "date": "2026-05-08",
+      "summary": "Google 扩展 Gemini API 的 File Search 能力，现在支持多模态输入，可构建更高效、可验证的 RAG 系统。",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/"
+    },
+    {
+      "title": "codeburn: AI 编程 Token 成本可观测性 TUI 仪表板",
+      "date": "2026-05-10",
+      "summary": "交互式 TUI 仪表板，用于监控 Claude Code、Codex 和 Cursor 的 token 成本和用量，支持多模型对比，获 6K stars。",
+      "link": "https://github.com/getagentseal/codeburn"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic 研究：Teaching Claude Why — 教 Claude 理解行为动机",
+      "date": "2026-05-08",
+      "summary": "Anthropic 最新对齐研究，通过教 Claude 理解其行为背后的原因来减少 agent 错位对齐，是提升 AI agent 可靠性的关键进展。",
+      "link": "https://www.anthropic.com/research/teaching-claude-why"
+    },
+    {
+      "title": "OpenAI 安全实践：Running Codex Safely at OpenAI",
+      "date": "2026-05-08",
+      "summary": "OpenAI 分享在内部安全运行 Codex agent 的实践经验，包括沙箱隔离、权限控制和安全审计的最佳实践。",
+      "link": "https://openai.com/index/running-codex-safely/"
+    },
+    {
+      "title": "browser-harness: LLM 自我修复浏览器控制，让 Agent 完成任意任务",
+      "date": "2026-05-10",
+      "summary": "browser-use 推出自我修复浏览器控制框架，使 LLM agent 能自动适应网页变化并完成复杂浏览器任务，获 11.9K stars。",
+      "link": "https://github.com/browser-use/browser-harness"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Nvidia 今年已投入 400 亿美元 AI 股权投资",
+      "date": "2026-05-09",
+      "summary": "Nvidia 在 2026 年已承诺 400 亿美元用于 AI 领域的股权投资，持续扩大其在 AI 基础设施生态中的影响力。",
+      "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/"
+    },
+    {
+      "title": "Cloudflare 以 AI 为由裁员 1100 人，AI 使用量暴增 600%",
+      "date": "2026-05-08",
+      "summary": "Cloudflare 在营收创纪录的情况下裁员 1100 人，称 AI 使用量增长 600% 需要重新定义公司运营模式。",
+      "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/"
+    },
+    {
+      "title": "Sony 与 TSMC 合资开发下一代图像传感器，探索物理 AI 应用",
+      "date": "2026-05-08",
+      "summary": "Sony 与 TSMC 成立合资企业，结合 Sony 的设计能力和 TSMC 的制造能力开发下一代图像传感器，将探索机器人和汽车领域的物理 AI 应用。",
+      "link": "https://pr.tsmc.com/english/news/3308"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "huashu-design: 中国开发者打造 Claude Code HTML 原生设计 Skill，获 12.9K stars",
+      "date": "2026-05-10",
+      "summary": "中国开发者 alchaincyf 发布的 huashu-design 成为 GitHub 热门项目，为 Claude Code 提供 HTML 原生设计能力，支持高保真原型、幻灯片和动画制作，包含 20 种设计哲学。",
+      "link": "https://github.com/alchaincyf/huashu-design"
+    },
+    {
+      "title": "GPT-Image-2 提示词库项目获 13.7K stars",
+      "date": "2026-05-10",
+      "summary": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts 成为最大规模的 GPT Image 2 提示词库，收录大量案例和模板，覆盖多语言。",
+      "link": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
+    },
+    {
+      "title": "Open Cowork AI 推出开源 Claude Design 替代方案",
+      "date": "2026-05-10",
+      "summary": "open-codesign 提供开源的 Claude Design 替代方案，支持一键导入 Claude Code/Codex API key，兼容多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama），本地优先，获 5.4K stars。",
+      "link": "https://github.com/OpenCoworkAI/open-codesign"
+    }
+  ]
+}
