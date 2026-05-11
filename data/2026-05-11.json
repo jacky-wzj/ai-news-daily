@@ -1,0 +1,241 @@
+{
+  "date": "2026-05-11",
+  "insights": [
+    {
+      "title": "OpenAI 宣布 ChatGPT 广告试点扩展至英国、日本、韩国等 5 国",
+      "date": "2026-05-07",
+      "summary": "OpenAI 宣布将在英国、墨西哥、巴西、日本和韩国推出 ChatGPT 广告试点，此前美国和加拿大等地的试点显示对消费者信任指标无影响，广告关闭率低，相关性持续提升。",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt/"
+    },
+    {
+      "title": "OpenAI 发布 ChatGPT Futures: Class of 2026",
+      "date": "2026-05-06",
+      "summary": "OpenAI 推出 ChatGPT Futures 计划，面向 2026 届优秀毕业生，探索 AI 在教育和职业发展中的应用场景。",
+      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026/"
+    },
+    {
+      "title": "火山引擎发布行业首个 Agent 套餐 Agent Plan",
+      "date": "2026-05-11",
+      "summary": "字节跳动火山引擎推出行业首个 Agent 套餐 Agent Plan，整合豆包-Seed、Doubao-Seedance、Doubao-Seedream 等多模态 SOTA 模型及 GLM-5.1、Kimi-K2.6 等第三方模型，引入 Model+Harness 双驱动模式和统一计量单位 AFP，降低复杂 Agent 应用开发门槛。",
+      "link": "https://www.aibase.com/news/27866"
+    },
+    {
+      "title": "中国大模型周 Token 用量达美国 2.11 倍，连续两周全球第一",
+      "date": "2026-05-11",
+      "summary": "OpenRouter 数据显示，5月4日至10日全球 AI 大模型总 Token 用量达 25.7 万亿，环比增长 7.5%。中国大模型周用量 7.941 万亿 Token，是美国 3.76 万亿的 2.11 倍，连续两周领跑全球。",
+      "link": "https://www.aibase.com/news/27858"
+    },
+    {
+      "title": "MiniMax 关联公司注册资本增至 40 亿元，增长 300%",
+      "date": "2026-05-11",
+      "summary": "国内大模型头部 MiniMax 关联公司上海稀宇智芯完成重大增资，注册资本从 10 亿元增至 40 亿元。公司此前完成近 30 亿美元融资，估值超 40 亿美元，正积极寻求 A 股上市机会。",
+      "link": "https://www.aibase.com/news/27864"
+    },
+    {
+      "title": "支付宝 AI 付上线新功能，支持淘宝 AI 代购",
+      "date": "2026-05-11",
+      "summary": "支付宝 AI 付正式上线委托场景支付服务，在全面接入通义和淘宝的 AI 购物流程中推出 AI 低价抢购功能，实现一次指令、一次授权、到期失效的 AI 辅助购物体验，单笔商品最高 1000 元。",
+      "link": "https://www.aibase.com/news/27869"
+    }
+  ],
+  "papers": [
+    {
+      "title": "VecCISC: 通过推理轨迹聚类减少加权多数投票的 Token 消耗",
+      "date": "2026-05-08",
+      "summary": "提出 VecCISC 框架，利用语义相似度过滤等价、退化或幻觉的推理轨迹，减少需要评估的候选答案数量。在 5 个数据集上验证，Token 使用量减少 47%，同时保持或超过 CISC 的准确率。已被 ACL 2026 Findings 接收。",
+      "link": "https://arxiv.org/abs/2605.08070"
+    },
+    {
+      "title": "前沿 LRM 与人类游戏学习者在行为和大脑层面的对齐研究",
+      "date": "2026-05-08",
+      "summary": "使用人类复杂游戏 fMRI 数据集，对比前沿大推理模型（LRM）与深度强化学习和贝叶斯理论 agent 的表现。发现 LRM 最能匹配人类行为模式，且对大脑活动的预测能力比 RL agent 高一个数量级，证明 LRM 在复杂环境中作为人类学习计算模型的潜力。",
+      "link": "https://arxiv.org/abs/2605.08019"
+    },
+    {
+      "title": "Learning CLI Agents with Structured Action Credit under Selective Observation",
+      "date": "2026-05-08",
+      "summary": "提出 σ-Reveal 推理时机制和 Action Advantage Assignment（A³）原生 Agent RL 方法，解决 CLI Agent 学习中的选择性观察和信用分配两大瓶颈。构建 ShellOps 可验证数据集套件，覆盖仓库环境中的 CLI 任务。",
+      "link": "https://arxiv.org/abs/2605.08013"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Tim 余华对谈：通用 AI 或导致大规模失业",
+      "date": "2026-05-11",
+      "summary": "影视飓风 Tim 在与作家余华的对谈中大胆预测，当通用人工智能出现时可能导致大规模失业，认为 10 年后人形机器人的发展将带来社会性变革，而当前 AI 仅替代特定岗位。",
+      "link": "https://www.aibase.com/news/27870"
+    },
+    {
+      "title": "OpenAI 在 ChatGPT 中测试广告引发行业关注",
+      "date": "2026-05-07",
+      "summary": "OpenAI 宣布扩大 ChatGPT 广告试点范围至英国、日本、韩国等市场，免费和 Go 订阅层级用户将看到广告，Plus 及以上层级不受影响。",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt/"
+    },
+    {
+      "title": "MiniMax 关联公司注册资本增至 40 亿元，加速 A 股上市",
+      "date": "2026-05-11",
+      "summary": "国内大模型头部 MiniMax 关联公司上海稀宇智芯完成重大增资，注册资本从 10 亿元增至 40 亿元，增长 300%，公司估值超 40 亿美元。",
+      "link": "https://www.aibase.com/news/27864"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Google 升级 Gemini API File Search：多模态 RAG 能力全面提升",
+      "date": "2026-05-11",
+      "summary": "Google 宣布对 Gemini API 的 File Search 功能进行重大升级，基于 Gemini Embedding2 模型实现多模态统一嵌入，支持 PDF、文档和图片中的视觉信息识别，新增自定义元数据过滤和页面级引用功能。",
+      "link": "https://www.aibase.com/news/27859"
+    },
+    {
+      "title": "SoftBank 在日本启动电池业务，支持 AI 数据中心电力需求",
+      "date": "2026-05-11",
+      "summary": "软银集团正式在日本启动电池业务，计划开发锌卤电池和储能系统，2028 财年投产，目标 2030 财年电池业务年销售额超 1 万亿日元，主要服务于 AI 数据中心的电力需求。",
+      "link": "https://www.aibase.com/news/27868"
+    },
+    {
+      "title": "OpenAI 推出 ChatGPT Futures: Class of 2026 计划",
+      "date": "2026-05-06",
+      "summary": "OpenAI 推出 ChatGPT Futures 计划，面向 2026 届优秀毕业生，探索 AI 在教育和职业发展中的应用场景。",
+      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026/"
+    }
+  ],
+  "github": [
+    {
+      "title": "bytedance/UI-TARS-desktop: 字节开源多模态 AI Agent 工具栈",
+      "date": "2026-05-11",
+      "summary": "字节跳动开源的 UI-TARS-desktop，连接前沿 AI 模型与 Agent 基础设施的多模态 AI Agent 工具栈，今日增长 669 stars，总 stars 32,585。",
+      "link": "https://github.com/bytedance/UI-TARS-desktop"
+    },
+    {
+      "title": "decolua/9router: 连接 Claude/Codex/Cursor 到 40+ 免费 AI 提供商",
+      "date": "2026-05-11",
+      "summary": "无限免费 AI 编程工具，连接 Claude Code、Codex、Cursor 等到 40+ 提供商，自动回退和 RTK 减少 40% Token 消耗，今日增长 803 stars，总 7,702。",
+      "link": "https://github.com/decolua/9router"
+    },
+    {
+      "title": "datawhalechina/easy-vibe: vibe coding 2026 入门课程",
+      "date": "2026-05-11",
+      "summary": "面向初学者的现代编程课程，逐步掌握 AI 辅助编程，今日增长 635 stars，总 9,527。",
+      "link": "https://github.com/datawhalechina/easy-vibe"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Linux 内核首次纳入 AI 生成驱动：AMD 芯片组温度监控",
+      "date": "2026-05-11",
+      "summary": "Linux 内核收到首个明确标注为 AI 生成的代码补丁 prom21-xhci，由开源开发者 Jihong Min 主导，核心逻辑代码由 OpenAI Codex GPT-5.5 辅助生成。该驱动为 AMD Promontory 21 芯片组的 xHCI 控制器提供温度传感器数据支持。",
+      "link": "https://www.aibase.com/news/27856"
+    },
+    {
+      "title": "Intent-based Chaos Testing: 为 AI 自信但错误的行为而设计",
+      "date": "2026-05-09",
+      "summary": "VentureBeat 报道基于意图的混沌测试方法，针对自主 AI 系统在生产中可能出现的自信但错误的行为场景，提供测试框架和最佳实践。",
+      "link": "https://venturebeat.com/infrastructure/intent-based-chaos-testing-is-designed-for-when-ai-behaves-confidently-and-wrongly/"
+    },
+    {
+      "title": "OpenAI 推出 GPT-5.5 超级计算机联网加速大规模 AI 训练",
+      "date": "2026-05-05",
+      "summary": "OpenAI 分享 MRC 超级计算机联网方案，通过创新的网络架构加速大规模 AI 训练，为 GPT-5.5 等前沿模型的训练提供基础设施支撑。",
+      "link": "https://openai.com/index/mrc-supercomputer-networking/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "火山引擎 Agent Plan：大模型竞争从参数转向工具链生态",
+      "date": "2026-05-11",
+      "summary": "火山引擎发布行业首个 Agent 套餐，整合多模态 SOTA 模型和第三方模型，引入 Model+Harness 双驱动模式和 AFP 统一计量单位，标志着大模型竞争焦点从基础模型参数转向工具链集成和生态落地。",
+      "link": "https://www.aibase.com/news/27866"
+    },
+    {
+      "title": "中国大模型用量连续两周全球第一，是美国 2.11 倍",
+      "date": "2026-05-11",
+      "summary": "OpenRouter 数据显示中国大模型周 Token 用量达 7.941 万亿，是美国的 2.11 倍，连续两周领跑全球，反映国内大模型应用场景高度活跃。",
+      "link": "https://www.aibase.com/news/27858"
+    },
+    {
+      "title": "MiniMax 关联公司增资 300% 至 40 亿元",
+      "date": "2026-05-11",
+      "summary": "MiniMax 关联公司上海稀宇智芯完成重大增资，注册资本从 10 亿元增至 40 亿元，增长 300%。",
+      "link": "https://www.aibase.com/news/27864"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Gemini API File Search 升级：多模态 RAG 全面进阶",
+      "date": "2026-05-11",
+      "summary": "Google 升级 Gemini API 文件搜索功能，基于 Gemini Embedding2 模型实现多模态嵌入，支持 PDF 文档和图片中的视觉信息识别，新增自定义元数据过滤和页面级引用，开发者无需自建向量数据库即可实现完整 RAG 工作流。",
+      "link": "https://www.aibase.com/news/27859"
+    },
+    {
+      "title": "腾讯云 QClaw 上线文件空间：深度集成腾讯文档与 ima 知识库",
+      "date": "2026-05-11",
+      "summary": "腾讯云 QClaw 正式上线文件空间功能，实现与腾讯文档、ima 知识库和本地文件的深度集成，用户可通过 QClaw 直接检索、编辑和保存腾讯文档中的各类文件格式，ima 知识库中的信息也可无缝接入 AI 创作工作流。",
+      "link": "https://www.aibase.com/news/27863"
+    },
+    {
+      "title": "阿里巴巴推出基于最新通义大模型的新 AI 店小蜜",
+      "date": "2026-05-11",
+      "summary": "阿里巴巴发布新一代智能客服产品 AI 店小蜜，基于最新通义大模型构建，具备多模态能力，接入后人工转接率下降 45%，转化率提升超 10%。",
+      "link": "https://www.aibase.com/news/27867"
+    }
+  ],
+  "agent": [
+    {
+      "title": "火山引擎 Agent Plan：行业首个整合多模态模型与网络工具的 Agent 套餐",
+      "date": "2026-05-11",
+      "summary": "火山引擎推出 Agent Plan，整合豆包多模态 SOTA 模型及 GLM-5.1、Kimi-K2.6 等第三方模型，引入 Model+Harness 双驱动模式，提供在线搜索、Vision Embedding 等 Harness 工具，增强 Agent 实时信息获取和长期记忆能力。",
+      "link": "https://www.aibase.com/news/27866"
+    },
+    {
+      "title": "腾讯云 QClaw 文件空间：AI 办公从单一对话助手升级为全流程协作中心",
+      "date": "2026-05-11",
+      "summary": "QClaw 上线文件空间功能，与腾讯文档深度集成实现账号和权限级别打通，AI 可直接分析现有文档并生成可编辑协作链接，ima 知识库整合形成信息输入→AI 处理→知识积累的双向闭环。",
+      "link": "https://www.aibase.com/news/27863"
+    },
+    {
+      "title": "bytedance/UI-TARS-desktop: 字节开源多模态 AI Agent 工具栈",
+      "date": "2026-05-11",
+      "summary": "字节跳动开源 UI-TARS-desktop，连接前沿 AI 模型与 Agent 基础设施的多模态 AI Agent 工具栈，获 32,585 stars。",
+      "link": "https://github.com/bytedance/UI-TARS-desktop"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "SoftBank 在日本启动电池业务，支持 AI 数据中心电力需求",
+      "date": "2026-05-11",
+      "summary": "软银集团在日本大阪府原夏普堺工厂区域启动电池业务，与韩国初创公司 Cosmos Lab 合作开发锌卤电池，计划 2028 财年投产达到 GWh 级产能，目标 2030 财年电池业务年销售额超 1 万亿日元。",
+      "link": "https://www.aibase.com/news/27868"
+    },
+    {
+      "title": "Tesla AI 系统提前 70 毫秒检测气囊，显著提升车辆安全",
+      "date": "2026-05-11",
+      "summary": "Tesla AI 系统实现提前 70 毫秒检测气囊，通过 AI 算法优化气囊触发时机，显著提升车辆碰撞安全性。",
+      "link": "https://www.aibase.com/news/27855"
+    },
+    {
+      "title": "Intent-based Chaos Testing: 为自主 AI 系统的错误行为设计测试框架",
+      "date": "2026-05-09",
+      "summary": "VentureBeat 报道基于意图的混沌测试新方法，针对企业中运行的自主 AI 系统可能出现的自信但错误行为场景，提供测试框架和最佳实践，帮助企业在 AI 大规模部署时保障系统可靠性。",
+      "link": "https://venturebeat.com/infrastructure/intent-based-chaos-testing-is-designed-for-when-ai-behaves-confidently-and-wrongly/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "火山引擎发布行业首个 Agent 套餐 Agent Plan",
+      "date": "2026-05-11",
+      "summary": "字节跳动火山引擎推出 Agent Plan，整合豆包-Seed、Doubao-Seedance、Doubao-Seedream 等多模态 SOTA 模型及 GLM-5.1、Kimi-K2.6 等第三方模型，引入 Model+Harness 双驱动模式和 AFP 统一计量单位，提供四档订阅组合，降低复杂 Agent 应用开发门槛。",
+      "link": "https://www.aibase.com/news/27866"
+    },
+    {
+      "title": "支付宝 AI 付上线淘宝 AI 代购功能",
+      "date": "2026-05-11",
+      "summary": "支付宝 AI 付正式上线委托场景支付服务，在全面接入通义和淘宝的 AI 购物流程中推出 AI 低价抢购功能，支持单笔最高 1000 元商品的自动化价格监控和下单，实现一次指令、一次授权、到期失效。",
+      "link": "https://www.aibase.com/news/27869"
+    },
+    {
+      "title": "腾讯云 QClaw 上线文件空间：深度集成腾讯文档与 ima 知识库",
+      "date": "2026-05-11",
+      "summary": "腾讯云 QClaw 正式上线文件空间功能，实现与腾讯文档、ima 知识库和本地文件的深度集成，用户可通过 QClaw 直接检索、编辑和保存腾讯文档中的各类文件格式，AI 生成内容可直接转化为可编辑分发的协作链接。",
+      "link": "https://www.aibase.com/news/27863"
+    }
+  ]
+}
