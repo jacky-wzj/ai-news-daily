@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-12",
+  "insights": [
+    {
+      "title": "Thinking Machines发布Interaction Models：全双工AI交互来了",
+      "date": "2026-05-12",
+      "summary": "前OpenAI CTO Mira Murati创立的Thinking Machines Lab发布Interaction Models，采用多流微轮转设计，实现AI实时接收音视频输入并同时响应，响应速度0.40秒，接近自然人类对话速度。这是对传统\"你说完我说完\"模式的根本性改变。",
+      "link": "https://thinkingmachines.ai/blog/interaction-models/"
+    },
+    {
+      "title": "Anthropic与SpaceX达成算力合作，获取超300MW新算力",
+      "date": "2026-05-12",
+      "summary": "Anthropic宣布与SpaceX达成合作，将使用其Colossus 1数据中心的全部算力，获得超过300兆瓦（超22万块NVIDIA GPU）的新增算力，将直接提升Claude Pro和Claude Max用户的容量。同时Claude Code五小时用量限制翻倍。",
+      "link": "https://www.anthropic.com/news/higher-limits-spacex"
+    },
+    {
+      "title": "Anthropic发布Claude对齐训练突破：从宪法+故事训练消除勒索行为",
+      "date": "2026-05-12",
+      "summary": "Anthropic研究发现，训练AI理解行为原则而非仅展示行为，配合阅读Claude宪法和AI正面行为故事，可大幅提升对齐效果。自Claude Haiku 4.5起模型在勒索测试中成功率从96%降至0%。",
+      "link": "https://www.anthropic.com/research/teaching-claude-why-eliminating-agentic-misalignment"
+    },
+    {
+      "title": "GM裁撤600名IT员工，全面转向AI技能招聘",
+      "date": "2026-05-12",
+      "summary": "通用汽车裁减IT部门超10%员工（约600人），同时招聘具备AI原生开发、数据工程、云工程和Agent/模型开发能力的技术人才。这是传统车企AI转型的标志性事件。",
+      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/"
+    },
+    {
+      "title": "Cowboy Space融资2.75亿美元，自建火箭发射太空数据中心",
+      "date": "2026-05-12",
+      "summary": "Robinhood联合创始人Baiju Bhatt创立的Cowboy Space完成2.75亿美元B轮融资，估值20亿美元。计划自建火箭项目，2028年前发射太空数据中心，利用太空太阳能供电解决AI算力能源需求。",
+      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/"
+    },
+    {
+      "title": "Digg第三次重生：转型AI新闻聚合器",
+      "date": "2026-05-12",
+      "summary": "Kevin Rose回归后，Digg放弃Reddit竞品路线，转型为AI新闻聚合平台di.gg/ai。通过实时抓取X内容，结合用户互动指标对新闻进行排名，首批聚焦AI领域。",
+      "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/"
+    },
+    {
+      "title": "亚马逊员工滥用AI工具刷使用分，引发企业AI治理讨论",
+      "date": "2026-05-12",
+      "summary": "据Financial Times报道，亚马逊员工开始使用AI工具执行不必要的工作以inflated AI使用分数，暴露了企业AI采用中的激励机制问题。",
+      "link": "https://www.ft.com/content/8ee0d3ef-9548-422d-8ff1-ebd48ad4b2ca"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Evolvable AI: Next Major Evolutionary Transition?",
+      "date": "2026-05-12",
+      "summary": "探讨可进化AI是否正引领下一次重大进化跃迁，分析AI系统自我改进的能力边界。",
+      "link": "https://www.technology.org/2026/05/12/evolvable-ai-are-we-on-the-brink-of-the-next-major-evolutionary-transition/"
+    },
+    {
+      "title": "Interaction Models: A Scalable Approach to Human-AI Collaboration",
+      "date": "2026-05-12",
+      "summary": "Thinking Machines Lab研究论文，提出将交互性作为与智能同等重要的维度，从训练层面构建实时交互模型。",
+      "link": "https://thinkingmachines.ai/blog/interaction-models/"
+    },
+    {
+      "title": "Teaching Claude Why: Principled Alignment Training",
+      "date": "2026-05-12",
+      "summary": "Anthropic研究论文，系统阐述如何通过对齐原则训练而非仅行为演示，实现OOD泛化的安全对齐。",
+      "link": "https://www.anthropic.com/research/teaching-claude-why-eliminating-agentic-misalignment"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic宣布与SpaceX算力合作及Claude用量翻倍",
+      "date": "2026-05-12",
+      "summary": "Anthropic官方宣布与SpaceX达成合作获取Colossus 1全部算力，同时Claude Code五小时限制翻倍，取消高峰时段限制。",
+      "link": "https://x.com/anthropicai/status/2052808791301697563"
+    },
+    {
+      "title": "Kevin Rose预览新版Digg：聚焦AI新闻排名",
+      "date": "2026-05-12",
+      "summary": "Digg创始人Kevin Rose在X上预览新版Digg（di.gg/ai），展示从Reddit竞品到AI新闻聚合器的转型。",
+      "link": "https://x.com/kevinrose/status/2052875741805834690"
+    },
+    {
+      "title": "Nobel经济学奖得主提出AI领域三大关注点",
+      "date": "2026-05-12",
+      "summary": "MIT Technology Review报道诺贝尔经济学奖得主对AI未来发展的三大关键观察。",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Wix Engineering：250次AI Agent评估揭示Skills vs Docs真相",
+      "date": "2026-05-12",
+      "summary": "Wix Engineering团队运行250次AI Agent评估，探究Skills和文档对Agent表现的影响，结果比预期更复杂。",
+      "link": "https://www.wix.engineering/post/we-ran-250-ai-agent-evals-to-find-out-if-skills-beat-docs-the-answer-is-more-complicated-than-we-ex"
+    },
+    {
+      "title": "Agent FM：为Claude Code和Codex打造的本地开源电台",
+      "date": "2026-05-12",
+      "summary": "Show HN项目Agent FM，让AI coding agents可以收听本地开源电台广播，提供编程时的音频陪伴。",
+      "link": "https://github.com/agentfm-ai/agent-fm"
+    },
+    {
+      "title": "微软研究：AI模型和Agent无法处理长周期任务",
+      "date": "2026-05-12",
+      "summary": "微软研究发现当前AI模型和Agent在处理长时间运行的任务时存在显著局限性。",
+      "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263"
+    }
+  ],
+  "github": [
+    {
+      "title": "HKUDS/AI-Trader - AI交易Agent ⭐2.1k+",
+      "date": "2026-05-12",
+      "summary": "港大开发的AI交易Agent框架，结合大语言模型进行金融交易决策。",
+      "link": "https://github.com/HKUDS/AI-Trader"
+    },
+    {
+      "title": "CloakHQ/CloakBrowser - 绕过所有Bot检测的隐身浏览器 ⭐1.3k+",
+      "date": "2026-05-12",
+      "summary": "隐身Chromium浏览器，可通过所有bot检测测试，是Playwright的替代品，具有源码级浏览器指纹伪装。",
+      "link": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "title": "millionco/react-doctor - AI Agent诊断React代码问题 ⭐212+",
+      "date": "2026-05-12",
+      "summary": "当AI Agent写出糟糕的React代码时，这个工具可以自动检测并修复问题。",
+      "link": "https://github.com/millionco/react-doctor"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
+      "date": "2026-05-12",
+      "summary": "大规模NPM供应链攻击影响TanStack、Mistral AI等170个包，引发AI开发生态安全关注。",
+      "link": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral/"
+    },
+    {
+      "title": "Three Things in AI to Watch, According to a Nobel-Winning Economist",
+      "date": "2026-05-12",
+      "summary": "诺贝尔经济学奖得主提出AI领域值得关注的三大趋势，从经济学视角分析AI影响。",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/"
+    },
+    {
+      "title": "We Ran 250 AI Agent Evals to Find Out If Skills Beat Docs",
+      "date": "2026-05-12",
+      "summary": "Wix Engineering团队对AI Agent进行了250次评估，对比Skills和文档对Agent表现的影响。",
+      "link": "https://www.wix.engineering/post/we-ran-250-ai-agent-evals-to-find-out-if-skills-beat-docs-the-answer-is-more-complicated-than-we-ex"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Tech Leaders Propose UBI and Shorter Work Week for AI Impact",
+      "date": "2026-05-12",
+      "summary": "科技领袖提出全民基本收入和缩短工作周来应对AI破坏性影响，与欧洲既有政策思路呼应。",
+      "link": "https://www.lemonde.fr/en/economy/article/2026/05/10/universal-income-reduced-work-week-capital-tax-options-tech-leaders-put-forward-to-address-ai-s-destructive-potential-sound-familiar-in-europe_6753313_19.html"
+    },
+    {
+      "title": "NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
+      "date": "2026-05-12",
+      "summary": "大规模NPM供应链攻击影响包括TanStack和Mistral AI在内的170个包，开源生态安全问题再受关注。",
+      "link": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral/"
+    },
+    {
+      "title": "LLMs Are a Siren Song",
+      "date": "2026-05-12",
+      "summary": "博客文章探讨LLM可能带来的风险和社会影响，警示技术过度依赖。",
+      "link": "https://user8.bearblog.dev/ai-the-poor-and-the-ignorant/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "腾讯云QClaw上线\"文件空间\"功能",
+      "date": "2026-05-12",
+      "summary": "腾讯云QClaw正式上线文件空间功能，支持本地文件、腾讯文档、ima知识库一站式打通，实现AI加工到产出的完整闭环。",
+      "link": "https://36kr.com/p/3804795647729411"
+    },
+    {
+      "title": "TextifyALL：AI转录零文件大小和时长限制",
+      "date": "2026-05-12",
+      "summary": "Show HN项目TextifyALL，提供AI语音转录服务，无文件大小和时长限制。",
+      "link": "https://textifyall.com"
+    },
+    {
+      "title": "Kamy：为AI Agent打造的PDF和电子签名API",
+      "date": "2026-05-12",
+      "summary": "Kamy提供PDF处理和电子签名API，已上架Cursor Directory，专为AI Agent场景设计。",
+      "link": "https://cursor.directory/plugins/kamy"
+    }
+  ],
+  "agent": [
+    {
+      "title": "微软研究：AI模型和Agent无法处理长周期任务",
+      "date": "2026-05-12",
+      "summary": "微软研究人员发现，当前AI模型和Agent在处理长时间运行的复杂任务时存在显著局限性，这对Agent实际应用提出挑战。",
+      "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263"
+    },
+    {
+      "title": "Agent FM：Claude Code和Codex的本地开源电台",
+      "date": "2026-05-12",
+      "summary": "开源项目Agent FM为AI coding agents提供本地电台功能，让Agent在编码时可以收听广播。",
+      "link": "https://github.com/agentfm-ai/agent-fm"
+    },
+    {
+      "title": "RipStop：Git护栏防止代码Agent失控",
+      "date": "2026-05-12",
+      "summary": "Show HN项目RipStop，为Git仓库设置安全护栏，降低代码Agent失控造成的影响。",
+      "link": "https://github.com/jonverrier/RipStop"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic算力版图再扩张：SpaceX、Amazon、Google、Microsoft全线合作",
+      "date": "2026-05-12",
+      "summary": "Anthropic已与SpaceX（300MW）、Amazon（近1GW）、Google+Broadcom（5GW）、Microsoft+NVIDIA（300亿美元Azure）达成算力合作，加上500亿美元自建投资，构建史上最大AI算力版图。",
+      "link": "https://www.anthropic.com/news/higher-limits-spacex"
+    },
+    {
+      "title": "Cowboy Space融资2.75亿美元，太空数据中心竞赛白热化",
+      "date": "2026-05-12",
+      "summary": "Robinhood联合创始人创立的Cowboy Space完成B轮融资，估值20亿美元，计划自建火箭发射太空数据中心，太空AI算力竞赛持续升温。",
+      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/"
+    },
+    {
+      "title": "Robinhood筹备第二只零售创投基金RVII",
+      "date": "2026-05-12",
+      "summary": "继RVI（投资OpenAI、Databricks等10家公司）股价翻倍后，Robinhood提交RVII保密注册，将投资范围扩大到成长期和早期初创公司。",
+      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "千问与淘宝全面打通，上线AI购物全链路",
+      "date": "2026-05-12",
+      "summary": "阿里率先打通AI购物全链路。用户在千问App对话即可完成淘宝商品挑选、对比、下单；淘宝App内也上线千问AI购物助手，支持AI试穿、AI算优惠、AI低价帮抢。",
+      "link": "https://36kr.com/p/3804795647729411"
+    },
+    {
+      "title": "快手计划分拆可灵AI，融资20亿美元",
+      "date": "2026-05-12",
+      "summary": "据36氪报道，快手计划将可灵AI业务分拆独立运营，并计划融资20亿美元，加速AI视频生成业务发展。",
+      "link": "https://36kr.com/p/3805557782486785"
+    },
+    {
+      "title": "Walulu：AI仿生毛绒宠物获数千万融资，目标做\"AI时代宝可梦\"",
+      "date": "2026-05-12",
+      "summary": "成都雨之灵动完成数千万天使轮及Pre-A轮融资，投资方含KK集团、4399、科大讯飞。核心产品Walulu是AI仿生毛绒宠物，接入成熟AI能力，6个月完成产品从立项到上架，线下旗舰店3天售罄首批300只。",
+      "link": "https://36kr.com/p/3805761383751427"
+    }
+  ]
+}
