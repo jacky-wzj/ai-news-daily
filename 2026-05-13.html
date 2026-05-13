@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年5月13日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年5月13日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AWS基础模型训练与推理构建模块：Hugging Face官方指南</h3>
+      <div class="meta">👤 </div>
+      <p>Hugging Face发布关于在AWS环境下构建、训练及推理基础模型的核心构建模块指南，聚焦如何利用AWS基础设施优化大规模AI模型全生命周期管理。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-12-hugging-face-unveils-strategic-building-blocks-for-foundation-model-training-and-inference-on-aws-in" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 微软SocialReasoning-Bench：评估AI是否符合用户最佳利益</h3>
+      <div class="meta">👤 </div>
+      <p>微软研究院发布新型评估基准SocialReasoning-Bench，解决AI核心挑战：衡量AI智能体在复杂社会交互中是否能识别并采取符合用户最佳利益的行动。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-12-microsoft-research-introduces-socialreasoning-bench-to-evaluate-whether-ai-agents-act-in-users-best" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Needle：将Gemini工具调用蒸馏至26M超轻量模型</h3>
+      <div class="meta">👤 </div>
+      <p>Needle通过蒸馏Gemini 3.1工具调用能力，打造仅2600万参数的简单注意力网络(SAN)，专为手机、手表等消费级设备设计，单次函数调用表现优于Qwen-0.6B等更大模型。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-needle-distilling-gemini-31-into-a-26m-parameter-simple-attention-network-for-high-speed-edge-device" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 谷歌Android Show发布AI优先Googlebook与Gemini智能体功能</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-13</div>
+      <p>谷歌I/O大会前夕，通过Android Show发布AI优先Googlebook笔记本、更具智能体特性的Gemini功能、氛围感Android小组件、以及Gemini在Chrome和Android Auto的深度集成。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-unveils-ai-first-googlebooks-and-agentic-gemini-features-ahead-of-io-2026-event" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 谷歌Gboard集成Gemini语音听写：首发三星与Pixel设备</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-13</div>
+      <p>谷歌宣布Gboard引入Gemini驱动的语音听写功能，首批支持三星Galaxy和Pixel手机。标志着AI能力进一步整合至基础移动工具，可能对语音听写初创公司形成竞争压力。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-integrates-gemini-powered-dictation-into-gboard-for-samsung-galaxy-and-pixel-devices" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 谷歌Android 17发布：AI听写与氛围组件领衔</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-13</div>
+      <p>谷歌揭晓Android 17重大更新，聚焦AI驱动功能增强，包括改进的AI听写、氛围感组件、全新表情系统、以及减少应用干扰的新版屏幕使用时间工具。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-unveils-android-17-top-new-features-including-ai-dictation-vibe-coded-widgets-and-enhanced-sc" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. CERT发布dnsmasq六项严重CVE：AI驱动安全研究激增</h3>
+      <div class="meta">💬 </div>
+      <p>CERT发布dnsmasq六项严重安全漏洞(CVE)，几乎影响所有非陈旧版本。维护者指出由于AI驱动安全研究兴起，近期漏洞报告数量激增，已发布2.92rel2修复版本。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-cert-releases-six-serious-cves-for-dnsmasq-vulnerabilities-amid-surge-in-ai-based-security-research" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 大语言模型护栏：构建AI幻觉与冗余响应的控制基础设施</h3>
+      <div class="meta">💬 </div>
+      <p>探讨在LLM应用中如何通过专门基础设施来衡量和控制AI幻觉现象及过度冗余响应，为开发者提供优化模型输出质量、提升响应效率的技术思路。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-12-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Yarbo移除割草机器人远程后门：安全策略重大调整</h3>
+      <div class="meta">💬 </div>
+      <p>智能割草机器人制造商Yarbo宣布移除预设的远程后门访问权限，消除潜在安全隐患。功能安装选择权将交还用户，响应公众对智能硬件安全与隐私的关切。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-12-yarbo" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. tinyhumansai/openhuman - 私密强大的个人AI超级智能 ⭐2.9k+</h3>
+      
+      <p>为用户提供私密、简单且功能强大的个人AI超级智能开源方案，平衡用户隐私与AI处理能力。</p>
+  <a class="link" href="https://github.com/tinyhumansai/openhuman" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. PlayCanvas/SuperSplat - 3D高斯泼溅专业编辑器 ⭐1.1k+</h3>
+      
+      <p>知名Web 3D引擎团队PlayCanvas开发的3D高斯泼溅(Gaussian Splatting)编辑器，为开发者提供直观界面处理优化3D高斯泼溅场景，新兴3D重建技术的开源工具。</p>
+  <a class="link" href="https://github.com/PlayCanvas/SuperSplat" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. rohitg00/agentmemory - AI编程智能体持久化内存方案 ⭐6.4k+</h3>
+      
+      <p>agentmemory为AI编程智能体提供持久化内存支持，在真实世界基准测试中位居前列，解决长周期开发任务的记忆持久化问题。</p>
+  <a class="link" href="https://github.com/rohitg00/agentmemory" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Googlebook - 谷歌AI优先笔记本电脑</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>谷歌正式发布Googlebook，AI优先笔记本电脑，深度集成Gemini，计划2026年秋季上市。HN热帖774分。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48111545" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Needle: 将Gemini工具调用蒸馏至26M参数模型</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Show HN项目，通过蒸馏Gemini 3.1工具调用能力打造26M参数轻量模型，专为消费级设备设计，在单次函数调用任务中优于更大规模模型。HN热帖458分。</p>
+  <a class="link" href="https://github.com/cactus-compute/needle" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. CERT发布dnsmasq六项严重CVE</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>CERT发布dnsmasq六项严重安全漏洞，AI驱动安全研究导致漏洞报告激增。已发布2.92rel2修复版本。HN热帖313分。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48109460" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic进军法律服务：Claude连接DocuSign/Box/Thomson Reuters等</h3>
+      <div class="meta">reddit: </div>
+      <p>Anthropic正式加入AI法律服务市场，推出帮助律所实现文书自动化的新工具，涵盖文档审查、案例法检索、证词准备和文件起草。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-anthropic" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Meta Threads AI互动功能：用户无法屏蔽Meta AI</h3>
+      <div class="meta">reddit: </div>
+      <p>Meta在Threads测试标记Meta AI功能，但禁止用户屏蔽AI账号，引发隐私和自主选择权争议，标志社交媒体进入&quot;AI原生化&quot;新阶段。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-meta-ai-integration-on-threads-new-tagging-feature-launched-amid-restrictions-on-blocking-ai-account" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 谷歌与SpaceX洽谈太空数据中心：AI算力宇宙化</h3>
+      <div class="meta">reddit: </div>
+      <p>谷歌与SpaceX洽谈在轨道上部署数据中心，将太空定位为AI计算未来基地。虽然目前成本远高于地面，但代表了云计算基础设施从全球化向宇宙化的尝试。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-and-spacex-in-discussions-to-launch-orbital-data-centers-for-future-ai-compute-infrastructure" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 谷歌Create My Widget：自然语言对话生成个性化小组件</h3>
+      
+      <p>谷歌公布Create My Widget功能，用户输入自然语言需求即可生成可调整大小的自定义仪表板并添加到主屏幕，标志氛围编程在移动端个性化的进一步应用。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-introduces-create-my-widget-feature-for-personalized-home-screen-dashboards-via-natural-langu" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 谷歌Gboard Gemini语音听写：首发三星与Pixel设备</h3>
+      
+      <p>Gboard引入Gemini驱动的语音听写功能，将先进AI能力整合至基础移动工具，首批支持三星Galaxy和Pixel手机系列。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-integrates-gemini-powered-dictation-into-gboard-for-samsung-galaxy-and-pixel-devices" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 谷歌Android Auto重大更新：全屏幕适配+Gemini集成</h3>
+      
+      <p>Android Auto实现&quot;一种尺寸适用所有屏幕&quot;突破，引入YouTube流媒体、小组件功能及Gemini驱动的AI新特性，针对内置原生系统车辆进行功能优化。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-io-2026-android-auto-updates-feature-universal-screen-sizing-youtube-streaming-and-gemini-ai" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic发布金融服务版Claude：投行与私募股权开源参考智能体</h3>
+      <div class="meta">🤖 </div>
+      <p>Anthropic在GitHub发布金融服务行业Claude参考智能体、技能和数据连接器，聚焦投行、股票研究、私募股权和财富管理四大核心工作流。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-12-anthropic-launches-claude-for-financial-services-reference-agents-and-tools-for-investment-banking-a" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AiToEarn：一人公司AI内容营销智能体，AI变现新范式</h3>
+      <div class="meta">🤖 </div>
+      <p>GitHub热门开源项目，专注为&quot;一人公司&quot;提供定制化AI内容营销智能体，通过AI简化营销流程，帮助个人创业者高效实现商业变现。</p>
+  <a class="link" href="https://github.com/yikart/AiToEarn" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Needle：26M轻量模型实现Gemini工具调用蒸馏</h3>
+      <div class="meta">🤖 </div>
+      <p>通过蒸馏Gemini 3.1工具调用能力打造仅2600万参数的简单注意力网络，专为手机、手表等消费级设备设计，单次函数调用表现优于更大模型。</p>
+  <a class="link" href="https://github.com/cactus-compute/needle" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 谷歌发布Googlebook：AI优先笔记本电脑，2026年秋季上市</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>谷歌正式发布全新AI硬件Googlebook，定位&quot;智能是新规格&quot;。深度集成Gemini AI，支持Magic Pointer智能交互、Create My Widget自然语言生成小组件、Cast My Apps跨设备联动。要求Android 17系统配合，主打羽量级设计与重量级性能。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-announces-googlebook-the-ai-first-laptop-designed-for-gemini-intelligence-coming-fall-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 谷歌与SpaceX洽谈轨道数据中心：AI算力太空化探索</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>据报道，谷歌正与SpaceX就地球轨道部署数据中心进行初步洽谈，将太空定位为未来AI计算的核心承载地。虽目前太空部署成本远高于地面，但此举反映了科技巨头对下一代AI基础设施的前瞻性布局。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-and-spacex-in-discussions-to-launch-orbital-data-centers-for-future-ai-compute-infrastructure" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta Threads测试AI互动：Meta AI账号将无法被屏蔽</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>Meta在Threads平台测试标记Meta AI账号功能，用户可通过@Meta AI获取问答和背景信息。关键设定：用户无法屏蔽该AI账号，引发关于用户控制权与社交体验平衡的讨论。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-meta-ai-integration-on-threads-new-tagging-feature-launched-amid-restrictions-on-blocking-ai-account" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Anthropic进军法律服务市场：推出自动化律所工具</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>Anthropic正式发布面向律师事务所的AI工具系列，涵盖文档搜索与审查、案例法检索、证词准备和文件起草等核心环节。Claude已可连接DocuSign、Box、Thomson Reuters、Harvey等法律行业应用。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-anthropic" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Anthropic警告投资者：严禁通过二级市场交易公司股份</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>Anthropic向投资者发出明确警告，指出任何通过二级市场平台进行的股份销售或转让均属无效，不会在公司官方账簿中得到认可。反映高估值背景下维护股权结构稳定的强硬立场。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-anthropic-issues-official-warning-against-unauthorized-secondary-market-stock-transfers" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. OpenAI安全团队约200人，安全委员会曾两次正式推迟模型发布</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>OpenAI安全与security委员会主席Zico Kolter在Musk vs Altman审判中透露，OpenAI约有200人从事安全工作，涵盖安全系统、准备度、对齐、模型政策等团队。委员会已两次正式要求推迟模型发布。</p>
+  <a class="link" href="https://www.cnn.com/2026/05/12/tech/sam-altman-openai-vs-elon-musk-testimony" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 普林斯顿大学终结133年荣誉准则：AI作弊成导火索</h3>
+      <div class="meta">📅 2026-05-13</div>
+      <p>普林斯顿大学 faculty 投票决定自7月1日起所有线下考试必须有监考老师在场，终结自1893年以来的无监考传统。提案明确指出AI生成工具的普及是主要推动因素。</p>
+  <a class="link" href="https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 谷歌发布Googlebook：AI优先硬件战略重大转向</h3>
+      
+      <p>谷歌正式发布Googlebook，提出&quot;智能是新规格&quot;理念，挑战传统PC评估标准。AI优先硬件+Android 17生态联动，可能迫使其他PC厂商加速AI转型。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-announces-googlebook-the-ai-first-laptop-designed-for-gemini-intelligence-coming-fall-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 谷歌Android 17 + Gemini深度集成：AI全面渗透移动生态</h3>
+      
+      <p>谷歌I/O前夕密集发布：Android 17、Googlebook、Gemini智能体功能、Gboard Gemini听写、Android Auto更新、Create My Widget等，AI能力全面渗透硬件、系统及应用生态。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-google-unveils-ai-first-googlebooks-and-agentic-gemini-features-ahead-of-io-2026-event" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. OpenAI安全团队200人规模曝光，模型发布曾被两次正式推迟</h3>
+      
+      <p>Musk vs Altman审判中，OpenAI安全委员会主席披露安全团队约200人规模，涵盖安全系统、准备度、对齐、模型政策等团队，已两次正式要求推迟模型发布。</p>
+  <a class="link" href="https://www.cnn.com/2026/05/12/tech/sam-altman-openai-vs-elon-musk-testimony" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 字节跳动开源UI-TARS-desktop：多模态AI智能体技术栈</h3>
+      
+      <p>字节跳动GitHub正式开源UI-TARS-desktop，定位为开源多模态AI智能体技术栈，将前沿AI模型与智能体基础设施深度连接，专注桌面端多模态方案。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-bytedance-releases-ui-tars-desktop-an-open-source-multimodal-ai-agent-technology-stack-for-desktop-i" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 9router：聚合40+供应商实现AI编程工具无限制免费使用</h3>
+      
+      <p>开源项目9router整合超40家供应商，连接Claude Code、Cursor、Copilot至免费的Claude、GPT和Gemini模型，支持自动回退和RTK技术节省40% Token消耗。</p>
+  <a class="link" href="https://aitoolly.com/zh/ai-news/article/2026-05-13-9router-an-open-source-solution-for-unlimited-free-ai-programming-with-multi-provider-integration-an" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 深圳AI产业新地标：具身智能港拔地而起</h3>
+      
+      <p>5月8日&quot;宝智链新&quot;前海·宝安人工智能产业发展大会在深圳召开，深圳具身智能港项目成为AI产业新地标，推动AI与实体经济深度融合。</p>
+  <a class="link" href="https://www.sznews.com/news/content/2026-05/09/content_32042419.htm" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:33 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

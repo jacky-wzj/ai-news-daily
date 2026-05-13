@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-13",
+  "insights": [
+    {
+      "title": "谷歌发布Googlebook：AI优先笔记本电脑，2026年秋季上市",
+      "date": "2026-05-13",
+      "summary": "谷歌正式发布全新AI硬件Googlebook，定位\"智能是新规格\"。深度集成Gemini AI，支持Magic Pointer智能交互、Create My Widget自然语言生成小组件、Cast My Apps跨设备联动。要求Android 17系统配合，主打羽量级设计与重量级性能。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-announces-googlebook-the-ai-first-laptop-designed-for-gemini-intelligence-coming-fall-2026"
+    },
+    {
+      "title": "谷歌与SpaceX洽谈轨道数据中心：AI算力太空化探索",
+      "date": "2026-05-13",
+      "summary": "据报道，谷歌正与SpaceX就地球轨道部署数据中心进行初步洽谈，将太空定位为未来AI计算的核心承载地。虽目前太空部署成本远高于地面，但此举反映了科技巨头对下一代AI基础设施的前瞻性布局。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-and-spacex-in-discussions-to-launch-orbital-data-centers-for-future-ai-compute-infrastructure"
+    },
+    {
+      "title": "Meta Threads测试AI互动：Meta AI账号将无法被屏蔽",
+      "date": "2026-05-13",
+      "summary": "Meta在Threads平台测试标记Meta AI账号功能，用户可通过@Meta AI获取问答和背景信息。关键设定：用户无法屏蔽该AI账号，引发关于用户控制权与社交体验平衡的讨论。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-meta-ai-integration-on-threads-new-tagging-feature-launched-amid-restrictions-on-blocking-ai-account"
+    },
+    {
+      "title": "Anthropic进军法律服务市场：推出自动化律所工具",
+      "date": "2026-05-13",
+      "summary": "Anthropic正式发布面向律师事务所的AI工具系列，涵盖文档搜索与审查、案例法检索、证词准备和文件起草等核心环节。Claude已可连接DocuSign、Box、Thomson Reuters、Harvey等法律行业应用。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-anthropic"
+    },
+    {
+      "title": "Anthropic警告投资者：严禁通过二级市场交易公司股份",
+      "date": "2026-05-13",
+      "summary": "Anthropic向投资者发出明确警告，指出任何通过二级市场平台进行的股份销售或转让均属无效，不会在公司官方账簿中得到认可。反映高估值背景下维护股权结构稳定的强硬立场。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-anthropic-issues-official-warning-against-unauthorized-secondary-market-stock-transfers"
+    },
+    {
+      "title": "OpenAI安全团队约200人，安全委员会曾两次正式推迟模型发布",
+      "date": "2026-05-13",
+      "summary": "OpenAI安全与security委员会主席Zico Kolter在Musk vs Altman审判中透露，OpenAI约有200人从事安全工作，涵盖安全系统、准备度、对齐、模型政策等团队。委员会已两次正式要求推迟模型发布。",
+      "link": "https://www.cnn.com/2026/05/12/tech/sam-altman-openai-vs-elon-musk-testimony"
+    },
+    {
+      "title": "普林斯顿大学终结133年荣誉准则：AI作弊成导火索",
+      "date": "2026-05-13",
+      "summary": "普林斯顿大学 faculty 投票决定自7月1日起所有线下考试必须有监考老师在场，终结自1893年以来的无监考传统。提案明确指出AI生成工具的普及是主要推动因素。",
+      "link": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent"
+    }
+  ],
+  "papers": [
+    {
+      "title": "AWS基础模型训练与推理构建模块：Hugging Face官方指南",
+      "date": "2026-05-12",
+      "summary": "Hugging Face发布关于在AWS环境下构建、训练及推理基础模型的核心构建模块指南，聚焦如何利用AWS基础设施优化大规模AI模型全生命周期管理。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-12-hugging-face-unveils-strategic-building-blocks-for-foundation-model-training-and-inference-on-aws-in"
+    },
+    {
+      "title": "微软SocialReasoning-Bench：评估AI是否符合用户最佳利益",
+      "date": "2026-05-12",
+      "summary": "微软研究院发布新型评估基准SocialReasoning-Bench，解决AI核心挑战：衡量AI智能体在复杂社会交互中是否能识别并采取符合用户最佳利益的行动。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-12-microsoft-research-introduces-socialreasoning-bench-to-evaluate-whether-ai-agents-act-in-users-best"
+    },
+    {
+      "title": "Needle：将Gemini工具调用蒸馏至26M超轻量模型",
+      "date": "2026-05-13",
+      "summary": "Needle通过蒸馏Gemini 3.1工具调用能力，打造仅2600万参数的简单注意力网络(SAN)，专为手机、手表等消费级设备设计，单次函数调用表现优于Qwen-0.6B等更大模型。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-needle-distilling-gemini-31-into-a-26m-parameter-simple-attention-network-for-high-speed-edge-device"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "谷歌Android Show发布AI优先Googlebook与Gemini智能体功能",
+      "date": "2026-05-13",
+      "summary": "谷歌I/O大会前夕，通过Android Show发布AI优先Googlebook笔记本、更具智能体特性的Gemini功能、氛围感Android小组件、以及Gemini在Chrome和Android Auto的深度集成。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-unveils-ai-first-googlebooks-and-agentic-gemini-features-ahead-of-io-2026-event"
+    },
+    {
+      "title": "谷歌Gboard集成Gemini语音听写：首发三星与Pixel设备",
+      "date": "2026-05-13",
+      "summary": "谷歌宣布Gboard引入Gemini驱动的语音听写功能，首批支持三星Galaxy和Pixel手机。标志着AI能力进一步整合至基础移动工具，可能对语音听写初创公司形成竞争压力。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-integrates-gemini-powered-dictation-into-gboard-for-samsung-galaxy-and-pixel-devices"
+    },
+    {
+      "title": "谷歌Android 17发布：AI听写与氛围组件领衔",
+      "date": "2026-05-13",
+      "summary": "谷歌揭晓Android 17重大更新，聚焦AI驱动功能增强，包括改进的AI听写、氛围感组件、全新表情系统、以及减少应用干扰的新版屏幕使用时间工具。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-unveils-android-17-top-new-features-including-ai-dictation-vibe-coded-widgets-and-enhanced-sc"
+    }
+  ],
+  "discord": [
+    {
+      "title": "CERT发布dnsmasq六项严重CVE：AI驱动安全研究激增",
+      "date": "2026-05-13",
+      "summary": "CERT发布dnsmasq六项严重安全漏洞(CVE)，几乎影响所有非陈旧版本。维护者指出由于AI驱动安全研究兴起，近期漏洞报告数量激增，已发布2.92rel2修复版本。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-cert-releases-six-serious-cves-for-dnsmasq-vulnerabilities-amid-surge-in-ai-based-security-research"
+    },
+    {
+      "title": "大语言模型护栏：构建AI幻觉与冗余响应的控制基础设施",
+      "date": "2026-05-12",
+      "summary": "探讨在LLM应用中如何通过专门基础设施来衡量和控制AI幻觉现象及过度冗余响应，为开发者提供优化模型输出质量、提升响应效率的技术思路。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-12-ai"
+    },
+    {
+      "title": "Yarbo移除割草机器人远程后门：安全策略重大调整",
+      "date": "2026-05-12",
+      "summary": "智能割草机器人制造商Yarbo宣布移除预设的远程后门访问权限，消除潜在安全隐患。功能安装选择权将交还用户，响应公众对智能硬件安全与隐私的关切。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-12-yarbo"
+    }
+  ],
+  "github": [
+    {
+      "title": "tinyhumansai/openhuman - 私密强大的个人AI超级智能 ⭐2.9k+",
+      "date": "2026-05-13",
+      "summary": "为用户提供私密、简单且功能强大的个人AI超级智能开源方案，平衡用户隐私与AI处理能力。",
+      "link": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "title": "PlayCanvas/SuperSplat - 3D高斯泼溅专业编辑器 ⭐1.1k+",
+      "date": "2026-05-13",
+      "summary": "知名Web 3D引擎团队PlayCanvas开发的3D高斯泼溅(Gaussian Splatting)编辑器，为开发者提供直观界面处理优化3D高斯泼溅场景，新兴3D重建技术的开源工具。",
+      "link": "https://github.com/PlayCanvas/SuperSplat"
+    },
+    {
+      "title": "rohitg00/agentmemory - AI编程智能体持久化内存方案 ⭐6.4k+",
+      "date": "2026-05-13",
+      "summary": "agentmemory为AI编程智能体提供持久化内存支持，在真实世界基准测试中位居前列，解决长周期开发任务的记忆持久化问题。",
+      "link": "https://github.com/rohitg00/agentmemory"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Googlebook - 谷歌AI优先笔记本电脑",
+      "date": "2026-05-13",
+      "summary": "谷歌正式发布Googlebook，AI优先笔记本电脑，深度集成Gemini，计划2026年秋季上市。HN热帖774分。",
+      "link": "https://news.ycombinator.com/item?id=48111545"
+    },
+    {
+      "title": "Needle: 将Gemini工具调用蒸馏至26M参数模型",
+      "date": "2026-05-13",
+      "summary": "Show HN项目，通过蒸馏Gemini 3.1工具调用能力打造26M参数轻量模型，专为消费级设备设计，在单次函数调用任务中优于更大规模模型。HN热帖458分。",
+      "link": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "title": "CERT发布dnsmasq六项严重CVE",
+      "date": "2026-05-12",
+      "summary": "CERT发布dnsmasq六项严重安全漏洞，AI驱动安全研究导致漏洞报告激增。已发布2.92rel2修复版本。HN热帖313分。",
+      "link": "https://news.ycombinator.com/item?id=48109460"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Anthropic进军法律服务：Claude连接DocuSign/Box/Thomson Reuters等",
+      "date": "2026-05-13",
+      "summary": "Anthropic正式加入AI法律服务市场，推出帮助律所实现文书自动化的新工具，涵盖文档审查、案例法检索、证词准备和文件起草。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-anthropic"
+    },
+    {
+      "title": "Meta Threads AI互动功能：用户无法屏蔽Meta AI",
+      "date": "2026-05-13",
+      "summary": "Meta在Threads测试标记Meta AI功能，但禁止用户屏蔽AI账号，引发隐私和自主选择权争议，标志社交媒体进入\"AI原生化\"新阶段。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-meta-ai-integration-on-threads-new-tagging-feature-launched-amid-restrictions-on-blocking-ai-account"
+    },
+    {
+      "title": "谷歌与SpaceX洽谈太空数据中心：AI算力宇宙化",
+      "date": "2026-05-13",
+      "summary": "谷歌与SpaceX洽谈在轨道上部署数据中心，将太空定位为AI计算未来基地。虽然目前成本远高于地面，但代表了云计算基础设施从全球化向宇宙化的尝试。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-and-spacex-in-discussions-to-launch-orbital-data-centers-for-future-ai-compute-infrastructure"
+    }
+  ],
+  "tools": [
+    {
+      "title": "谷歌Create My Widget：自然语言对话生成个性化小组件",
+      "date": "2026-05-13",
+      "summary": "谷歌公布Create My Widget功能，用户输入自然语言需求即可生成可调整大小的自定义仪表板并添加到主屏幕，标志氛围编程在移动端个性化的进一步应用。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-introduces-create-my-widget-feature-for-personalized-home-screen-dashboards-via-natural-langu"
+    },
+    {
+      "title": "谷歌Gboard Gemini语音听写：首发三星与Pixel设备",
+      "date": "2026-05-13",
+      "summary": "Gboard引入Gemini驱动的语音听写功能，将先进AI能力整合至基础移动工具，首批支持三星Galaxy和Pixel手机系列。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-integrates-gemini-powered-dictation-into-gboard-for-samsung-galaxy-and-pixel-devices"
+    },
+    {
+      "title": "谷歌Android Auto重大更新：全屏幕适配+Gemini集成",
+      "date": "2026-05-13",
+      "summary": "Android Auto实现\"一种尺寸适用所有屏幕\"突破，引入YouTube流媒体、小组件功能及Gemini驱动的AI新特性，针对内置原生系统车辆进行功能优化。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-io-2026-android-auto-updates-feature-universal-screen-sizing-youtube-streaming-and-gemini-ai"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic发布金融服务版Claude：投行与私募股权开源参考智能体",
+      "date": "2026-05-13",
+      "summary": "Anthropic在GitHub发布金融服务行业Claude参考智能体、技能和数据连接器，聚焦投行、股票研究、私募股权和财富管理四大核心工作流。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-12-anthropic-launches-claude-for-financial-services-reference-agents-and-tools-for-investment-banking-a"
+    },
+    {
+      "title": "AiToEarn：一人公司AI内容营销智能体，AI变现新范式",
+      "date": "2026-05-13",
+      "summary": "GitHub热门开源项目，专注为\"一人公司\"提供定制化AI内容营销智能体，通过AI简化营销流程，帮助个人创业者高效实现商业变现。",
+      "link": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "title": "Needle：26M轻量模型实现Gemini工具调用蒸馏",
+      "date": "2026-05-13",
+      "summary": "通过蒸馏Gemini 3.1工具调用能力打造仅2600万参数的简单注意力网络，专为手机、手表等消费级设备设计，单次函数调用表现优于更大模型。",
+      "link": "https://github.com/cactus-compute/needle"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "谷歌发布Googlebook：AI优先硬件战略重大转向",
+      "date": "2026-05-13",
+      "summary": "谷歌正式发布Googlebook，提出\"智能是新规格\"理念，挑战传统PC评估标准。AI优先硬件+Android 17生态联动，可能迫使其他PC厂商加速AI转型。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-announces-googlebook-the-ai-first-laptop-designed-for-gemini-intelligence-coming-fall-2026"
+    },
+    {
+      "title": "谷歌Android 17 + Gemini深度集成：AI全面渗透移动生态",
+      "date": "2026-05-13",
+      "summary": "谷歌I/O前夕密集发布：Android 17、Googlebook、Gemini智能体功能、Gboard Gemini听写、Android Auto更新、Create My Widget等，AI能力全面渗透硬件、系统及应用生态。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-google-unveils-ai-first-googlebooks-and-agentic-gemini-features-ahead-of-io-2026-event"
+    },
+    {
+      "title": "OpenAI安全团队200人规模曝光，模型发布曾被两次正式推迟",
+      "date": "2026-05-13",
+      "summary": "Musk vs Altman审判中，OpenAI安全委员会主席披露安全团队约200人规模，涵盖安全系统、准备度、对齐、模型政策等团队，已两次正式要求推迟模型发布。",
+      "link": "https://www.cnn.com/2026/05/12/tech/sam-altman-openai-vs-elon-musk-testimony"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "字节跳动开源UI-TARS-desktop：多模态AI智能体技术栈",
+      "date": "2026-05-13",
+      "summary": "字节跳动GitHub正式开源UI-TARS-desktop，定位为开源多模态AI智能体技术栈，将前沿AI模型与智能体基础设施深度连接，专注桌面端多模态方案。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-bytedance-releases-ui-tars-desktop-an-open-source-multimodal-ai-agent-technology-stack-for-desktop-i"
+    },
+    {
+      "title": "9router：聚合40+供应商实现AI编程工具无限制免费使用",
+      "date": "2026-05-13",
+      "summary": "开源项目9router整合超40家供应商，连接Claude Code、Cursor、Copilot至免费的Claude、GPT和Gemini模型，支持自动回退和RTK技术节省40% Token消耗。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-9router-an-open-source-solution-for-unlimited-free-ai-programming-with-multi-provider-integration-an"
+    },
+    {
+      "title": "深圳AI产业新地标：具身智能港拔地而起",
+      "date": "2026-05-13",
+      "summary": "5月8日\"宝智链新\"前海·宝安人工智能产业发展大会在深圳召开，深圳具身智能港项目成为AI产业新地标，推动AI与实体经济深度融合。",
+      "link": "https://www.sznews.com/news/content/2026-05/09/content_32042419.htm"
+    }
+  ]
+}
