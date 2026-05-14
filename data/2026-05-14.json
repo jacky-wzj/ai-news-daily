@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-14",
+  "insights": [
+    {
+      "title": "Intercom正式更名为Fin：从客服工具向AI Agent平台全面转型",
+      "date": "2026-05-14",
+      "summary": "知名客服软件公司Intercom宣布正式更名为Fin。公司CEO表示，此次更名旨在反映公司向AI驱动的客户代理平台转型的核心战略。虽然Intercom将继续作为其客服软件平台的名称（并同步推出了Intercom 2），但母公司将以其领先的AI代理产品Fin命名，目前公司1400名员工已正式转入Fin名下。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-intercom-rebrands-corporate-entity-to-fin-a-strategic-pivot-toward-ai-customer-agents"
+    },
+    {
+      "title": "Notion推出全新开发者平台：将工作空间打造为AI智能体枢纽",
+      "date": "2026-05-14",
+      "summary": "Notion正式发布全新开发者平台，允许团队将AI智能体、外部数据源以及自定义代码直接集成到Notion工作区中，标志着Notion正在深入布局代理式生产力软件领域。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-notion-transforms-workspace-into-ai-agent-hub-with-new-developer-platform-launch"
+    },
+    {
+      "title": "Meta AI隐身聊天：首个服务器零日志的完全私密AI对话",
+      "date": "2026-05-14",
+      "summary": "扎克伯格正式发布Meta AI的隐身聊天（Incognito Chat）功能，承诺不在服务器上存储任何对话日志，为用户消息提供最高级别的隐私保护，用户聊天历史中也不会留下任何记录。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-meta-ceo-mark-zuckerberg-unveils-incognito-chat-for-meta-ai-featuring-server-side-privacy-and-encryp"
+    },
+    {
+      "title": "Anthropic产品负责人Cat Wu：AI的下一个重大飞跃是主动预测用户需求",
+      "date": "2026-05-14",
+      "summary": "Anthropic公司Claude Code与Cowork产品负责人Cat Wu表示，AI发展的下一个关键阶段在于主动性（Proactivity），未来的AI将能在用户意识到需求之前，提前预判并满足这些需求。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-anthropic-product-head-cat-wu-predicts-proactive-ai-as-the-next-major-evolution-in-technology"
+    },
+    {
+      "title": "马斯克旗下xAI密西西比数据中心因运行近50台燃气轮机面临法律诉讼",
+      "date": "2026-05-14",
+      "summary": "xAI因在其密西西比州Colossus 2数据中心部署并运行近50台燃气轮机而陷入法律纠纷，诉讼主要针对将移动式燃气轮机作为固定发电厂使用的行为，引发数据中心能源监管争议。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-musks-xai-faces-lawsuit-over-unchecked-gas-turbines-at-mississippi-colossus-2-data-center"
+    },
+    {
+      "title": "谷歌AI聊天机器人泄露用户真实电话号码：隐私安全隐患引发关注",
+      "date": "2026-05-14",
+      "summary": "据MIT科技评论报道，谷歌AI聊天机器人被曝在回答中泄露个人真实联系方式，受害者一个月内持续收到寻找律师、产品设计师等职业身份的陌生骚扰电话，且目前缺乏有效阻止手段。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-google-ai-chatbots-surfacing-private-phone-numbers-a-growing-privacy-concern-for-users"
+    },
+    {
+      "title": "普林斯顿大学打破133年传统：因AI作弊担忧强制要求线下考试监考",
+      "date": "2026-05-14",
+      "summary": "普林斯顿大学教职员工投票通过历史性提案，要求从2026年7月1日起对所有线下考试实施监考，终结了自1893年以来延续133年的学生自律荣誉准则传统，主要受生成式AI工具滥用驱动。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-princeton-university-mandates-proctoring-for-in-person-exams-ending-133-year-honor-code-precedent-am"
+    }
+  ],
+  "papers": [
+    {
+      "title": "微软研究院发布GridSFM：专为电力系统设计的轻量化基础模型",
+      "date": "2026-05-14",
+      "summary": "微软研究院发布GridSFM，一款专为电力系统设计的轻量化基础模型（Small Foundation Model），由Weiwei Yang、Baosen Zhang等开发，旨在利用基础模型的泛化能力为电网智能化管理提供更高效精准的技术支持。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-gridsfm"
+    },
+    {
+      "title": "Origin Lab获800万美元融资：打造游戏数据交易平台助力AI世界模型构建",
+      "date": "2026-05-14",
+      "summary": "Origin Lab完成800万美元融资，建立连接视频游戏公司与AI实验室的授权数据交易市场，为致力于构建世界模型的AI实验室提供合法合规且优质的训练素材。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-origin-lab-secures-8-million-to-launch-licensed-video-game-data-marketplace-for-ai-world-model-devel"
+    },
+    {
+      "title": "Matt Pocock开源工程师专属Claude技能库：源自实战的.claude目录指令集",
+      "date": "2026-05-14",
+      "summary": "知名开发者Matt Pocock在GitHub发布名为skills的开源项目，公开个人使用的.claude目录中的核心技能指令，专为真实环境下的工程师打造，通过结构化方式提升AI助手的协作效率。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-matt-pocock-releases-skills-repository-engineering-workflows-sourced-from-personal-claude-directory"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Claude用户警示：取消订阅导致Claude Design项目访问权限丢失",
+      "date": "2026-05-14",
+      "summary": "Hacker News用户分享负面体验：取消Claude Code Max订阅后无法访问此前在Claude Design中创建的项目，补偿积分在订阅结束后立即失效且无法通过重新订阅恢复，引发开发者社区对AI工具用户资产安全的广泛讨论。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-claude-design-users-warn-of-project-data-loss-and-credit-expiration-following-subscription-cancellat"
+    },
+    {
+      "title": "萨姆·奥特曼联邦法院证词曝光：自称是诚实守信的商人",
+      "date": "2026-05-14",
+      "summary": "在最新的联邦法院庭审中，OpenAI首席执行官萨姆·奥特曼就其个人商业信誉发表关键证词，明确表示相信自己是一名诚实且值得信赖的商人，引发AI行业广泛关注。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-sam-altman-asserts-professional-integrity-and-trustworthiness-during-federal-court-testimony"
+    },
+    {
+      "title": "亚洲50家潜力AI初创公司名单揭晓：Tech in Asia预测下一代行业巨头",
+      "date": "2026-05-14",
+      "summary": "知名科技媒体Tech in Asia发布亚洲50家崛起中的AI初创公司名单，指出这些处于上升期的初创企业具备成为人工智能领域下一个大事件的巨大潜力。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-50-rising-ai-startups-in-asia-identifying-the-next-generation-of-industry-leaders"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Medicare ACCESS计划：为AI医疗开辟基于成果付费的新赛道",
+      "date": "2026-05-14",
+      "summary": "美国联邦医疗保险推出为期10年的ACCESS计划，将支付标准从按服务次数转向按健康成果付费，为AI代理在患者监测、随访及协调工作中的贡献建立官方支付机制，首批150家机构入选试点。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-medicares-new-access-program-shifts-to-outcome-based-payments-to-foster-ai-innovation-in-healthcare"
+    },
+    {
+      "title": "微软Edge浏览器Copilot重大更新：支持跨标签页提取信息与对比分析",
+      "date": "2026-05-14",
+      "summary": "微软为Edge浏览器的Copilot推出突破性功能，使其能够跨所有打开的标签页收集和处理信息，用户可就所有标签页内容向Copilot提问，进行跨页面产品对比或一键总结所有打开的文章。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-microsoft-edge-copilot-update-new-ai-feature-enables-data-retrieval-and-comparison-across-multiple-o"
+    },
+    {
+      "title": "OpenHuman：打造私密且强大的个人AI超级智能开源新标杆",
+      "date": "2026-05-14",
+      "summary": "OpenHuman是由tinyhumansai开发的开源个人AI超级智能项目，围绕私密、简单与强大展开，为用户提供既能保护个人隐私又具备极高性能的AI交互环境，展示了个人AI助手向私有化和高性能演进的未来趋势。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-openhuman-a-new-frontier-in-private-and-powerful-personal-ai-superintelligence"
+    }
+  ],
+  "github": [
+    {
+      "title": "Millionco发布react-doctor：专门捕捉AI智能体编写的不规范React代码",
+      "date": "2026-05-14",
+      "summary": "millionco开发的开源项目react-doctor登上GitHub Trending，专门用于检测和捕捉AI智能体生成的不规范React代码，为AI辅助编程提供自动化质量诊断方案，标志着AI开发工具链从生成向质量治理迈进。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-millionco-launches-react-doctor-a-specialized-tool-to-identify-and-fix-suboptimal-react-code-generat"
+    },
+    {
+      "title": "OpenHuman：打造私密且强大的个人AI超级智能 ⭐GitHub Trending",
+      "date": "2026-05-14",
+      "summary": "tinyhumansai开发的开源项目OpenHuman，定位为个人AI超级智能，核心理念为私密、简单且功能极其强大，旨在平衡用户隐私与AI处理能力，登上GitHub Trending榜单。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-openhuman-a-new-private-and-powerful-personal-ai-superintelligence-project-emerges-on-github"
+    },
+    {
+      "title": "Matt Pocock开源工程师专属Claude技能库：源自实战的.claude目录指令集 ⭐",
+      "date": "2026-05-14",
+      "summary": "知名开发者Matt Pocock在GitHub发布skills开源项目，公开其个人.claude目录中的核心技能指令，专为真实环境下的工程师打造，通过结构化方式提升AI助手协作效率，迅速登上GitHub Trending。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-matt-pocock-releases-skills-repository-engineering-workflows-sourced-from-personal-claude-directory"
+    }
+  ],
+  "hn": [
+    {
+      "title": "取消Claude订阅导致Claude Design项目访问权限丢失引发社区热议",
+      "date": "2026-05-14",
+      "summary": "用户反馈取消Claude Code Max订阅后无法访问Claude Design中创建的项目，补偿积分订阅结束后立即失效，引发对AI工具用户资产安全和计费逻辑复杂性的广泛讨论。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-claude-design-users-warn-of-project-data-loss-and-credit-expiration-following-subscription-cancellat"
+    },
+    {
+      "title": "Medicare ACCESS计划为AI驱动的医疗服务建立合法支付渠道",
+      "date": "2026-05-14",
+      "summary": "为期10年的ACCESS计划通过奖励健康成果而非诊疗次数，为AI监测与协调工作提供官方支付渠道，Pair Team等150家机构入选首批试点，重点针对糖尿病、高血压等慢性病管理。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-medicares-new-access-program-shifts-to-outcome-based-payments-to-foster-ai-innovation-in-healthcare"
+    },
+    {
+      "title": "普林斯顿大学因AI作弊担忧终结133年无监考传统",
+      "date": "2026-05-14",
+      "summary": "教职员工投票通过历史性提案，从2026年7月1日起对所有线下考试实施监考，终结自1893年的荣誉准则传统，教师将作为见证人留在考场但不直接干预考试过程。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-princeton-university-mandates-proctoring-for-in-person-exams-ending-133-year-honor-code-precedent-am"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "谷歌AI聊天机器人泄露用户真实电话号码引发隐私安全讨论",
+      "date": "2026-05-14",
+      "summary": "据MIT科技评论报道，一名Reddit用户反映其电话号码被谷歌AI公开后一个月内持续收到陌生骚扰电话，被误认为律师或产品设计师，目前缺乏有效阻止手段。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-google-ai-chatbots-surfacing-private-phone-numbers-a-growing-privacy-concern-for-users"
+    },
+    {
+      "title": "扎克伯格宣布Meta AI隐身聊天：实现服务器零日志的完全私密对话",
+      "date": "2026-05-14",
+      "summary": "Meta CEO正式发布Incognito Chat功能，定位为首个不在服务器上存储任何对话记录的主流AI产品，用户消息不会被保存到聊天历史也不会在Meta服务器留下日志。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-meta-ceo-mark-zuckerberg-unveils-incognito-chat-for-meta-ai-featuring-server-side-privacy-and-encryp"
+    },
+    {
+      "title": "Anthropic产品负责人：AI的下一个重大飞跃是主动预测用户需求",
+      "date": "2026-05-14",
+      "summary": "Anthropic的Claude Code与Cowork产品负责人Cat Wu表示，AI发展的下一个关键阶段在于主动性，未来的AI将能在用户意识到需求之前提前预判并满足这些需求。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-anthropic-product-head-cat-wu-predicts-proactive-ai-as-the-next-major-evolution-in-technology"
+    }
+  ],
+  "tools": [
+    {
+      "title": "微软Edge浏览器Copilot跨标签页AI助手：信息提取与对比分析",
+      "date": "2026-05-14",
+      "summary": "Edge浏览器Copilot推出跨标签页信息收集和处理功能，用户可就所有打开的标签页内容提问，进行跨页面产品对比或一键总结，显著提升多任务处理效率。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-microsoft-edge-copilot-update-new-ai-feature-enables-data-retrieval-and-comparison-across-multiple-o"
+    },
+    {
+      "title": "Notion开发者平台：将工作空间打造为AI智能体枢纽",
+      "date": "2026-05-14",
+      "summary": "Notion发布全新开发者平台，允许团队将AI智能体、外部数据源和自定义代码直接集成到工作区中，深入布局代理式生产力软件领域。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-notion-transforms-workspace-into-ai-agent-hub-with-new-developer-platform-launch"
+    },
+    {
+      "title": "Meta AI隐身聊天：首个承诺服务器零日志的主流AI产品",
+      "date": "2026-05-14",
+      "summary": "Meta发布Incognito Chat功能，消息不保存到聊天历史也不在Meta服务器留下日志，为AI交互提供最高级别的隐私保护和加密体验。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-meta-ceo-mark-zuckerberg-unveils-incognito-chat-for-meta-ai-featuring-server-side-privacy-and-encryp"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Intercom更名为Fin：从客服工具向AI Agent平台全面转型",
+      "date": "2026-05-14",
+      "summary": "Intercom母公司正式更名为Fin，全面转向AI驱动的客户代理平台战略，Intercom品牌继续作为旗下客服软件平台存在并推出Intercom 2，1400名员工已转入Fin名下。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-intercom-rebrands-corporate-entity-to-fin-a-strategic-pivot-toward-ai-customer-agents"
+    },
+    {
+      "title": "AiToEarn：面向一人公司（OPC）的AI内容营销智能体",
+      "date": "2026-05-14",
+      "summary": "GitHub热门开源项目AiToEarn专注为一人公司提供定制化AI内容营销智能体，通过AI简化营销链路，帮助个人创业者高效实现商业变现，核心口号用AI来赚钱。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-aitoearn-empowering-one-person-companies-with-an-ai-driven-content-marketing-agent-for-revenue-gener"
+    },
+    {
+      "title": "agentmemory：AI编程代理持久化内存方案基准测试排名第一",
+      "date": "2026-05-14",
+      "summary": "GitHub开源项目agentmemory为AI编程代理提供持久化内存支持，在现实世界基准测试中排名第一，解决AI代理在长周期开发任务中的记忆持久化问题。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-agentmemory-the-leading-persistent-memory-solution-for-ai-programming-agents-based-on-real-world-ben"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "马斯克旗下xAI密西西比数据中心因近50台燃气轮机面临法律诉讼",
+      "date": "2026-05-14",
+      "summary": "xAI在密西西比州Colossus 2数据中心运行近50台燃气轮机，将移动式燃气轮机作为固定发电厂使用的行为引发法律诉讼，凸显AI算力扩张与能源监管的冲突。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-musks-xai-faces-lawsuit-over-unchecked-gas-turbines-at-mississippi-colossus-2-data-center"
+    },
+    {
+      "title": "萨姆·奥特曼联邦法院证词：自称是诚实守信的商人",
+      "date": "2026-05-14",
+      "summary": "OpenAI CEO在联邦法院庭审中就个人商业信誉发表关键证词，明确表示相信自己是一名诚实且值得信赖的商人，在AI行业面临法律与监管审查的背景下引发关注。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-sam-altman-asserts-professional-integrity-and-trustworthiness-during-federal-court-testimony"
+    },
+    {
+      "title": "Anthropic产品负责人Cat Wu：主动预测用户需求是AI下一个重大飞跃",
+      "date": "2026-05-14",
+      "summary": "Anthropic的Claude Code与Cowork产品负责人Cat Wu指出，主动性（Proactivity）是AI发展的下一个关键阶段，未来AI将能在用户意识到需求之前提前预判并满足。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-14-anthropic-product-head-cat-wu-predicts-proactive-ai-as-the-next-major-evolution-in-technology"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "Millionco发布react-doctor：AI代码质量检测工具登上GitHub Trending",
+      "date": "2026-05-14",
+      "summary": "millionco开发的开源项目react-doctor专门用于检测AI智能体生成的不规范React代码，登上GitHub Trending榜单，反映了开发者社区对AI代码质量的日益重视。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-millionco-launches-react-doctor-a-specialized-tool-to-identify-and-fix-suboptimal-react-code-generat"
+    },
+    {
+      "title": "OpenHuman：个人AI超级智能项目GitHub Trending受关注",
+      "date": "2026-05-14",
+      "summary": "tinyhumansai开发的OpenHuman开源项目，定位个人AI超级智能，强调私密、简单且功能强大，平衡用户隐私与AI处理能力，登上GitHub Trending榜单。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-openhuman-a-new-private-and-powerful-personal-ai-superintelligence-project-emerges-on-github"
+    },
+    {
+      "title": "Meta升级Instagram青少年账户：家长可实时监控子女算法兴趣标签",
+      "date": "2026-05-14",
+      "summary": "Meta为Instagram青少年账户引入新功能，家长可查看子女互动的通用话题类别，并将在青少年添加新兴趣时收到通知，从内容过滤转向算法逻辑监管。",
+      "link": "https://aitoolly.com/zh/ai-news/article/2026-05-13-meta-enhances-instagram-parental-controls-with-new-interest-tracking-and-notifications-for-teen-acco"
+    }
+  ]
+}
