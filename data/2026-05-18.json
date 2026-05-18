@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-18",
+  "insights": [
+    {
+      "title": "Cerebras IPO首日暴涨，市值突破千亿美元",
+      "date": "2026-05-18",
+      "summary": "AI芯片制造商Cerebras在纳斯达克上市首日股价从185美元开盘至350美元，市值突破1000亿美元，成为2019年以来美国最大科技IPO。WSE-3芯片拥有4万亿晶体管，推理速度比GPU方案快15倍。",
+      "link": "https://venturebeat.com/technology/cerebras-stock-nearly-doubles-on-day-one-as-ai-chipmaker-hits-100-billion-what-it-means-for-ai-infrastructure/"
+    },
+    {
+      "title": "Anthropic在企业AI采用率上首次超越OpenAI",
+      "date": "2026-05-18",
+      "summary": "VentureBeat数据显示，更多美国企业付费使用Anthropic的Claude而非OpenAI的ChatGPT。VB Pulse追踪器中Anthropic工具使用从0%升至5.7%。",
+      "link": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead/"
+    },
+    {
+      "title": "Claude的企业战场转向Agent控制面",
+      "date": "2026-05-18",
+      "summary": "企业AI竞争从模型之战转向Agent编排层之争。Microsoft Copilot Studio以38.6%采用率领先，OpenAI占25.7%，Anthropic首次进入。",
+      "link": "https://venturebeat.com/orchestration/claudes-next-enterprise-battle-is-not-models-its-the-agent-control-plane/"
+    },
+    {
+      "title": "Companies Say AI Tokenmaxxing Is Key to Survival",
+      "date": "2026-05-18",
+      "summary": "华尔街日报报道企业开始系统化管理AI token消耗，token使用优化成为AI时代的关键生存策略。",
+      "link": "https://www.wsj.com/cio-journal/why-some-companies-say-ai-tokenmaxxing-is-key-to-survival-e699a128"
+    },
+    {
+      "title": "AI驱动虚假地方新闻网站调查曝光",
+      "date": "2026-05-18",
+      "summary": "Florida Trib调查揭露南佛罗里达州AI驱动的地方新闻网站，记者、头像和传记全部为AI生成，文章从真实媒体剽窃后经AI改写发布。",
+      "link": "https://floridatrib.org/2026/05/14/the-rise-and-fall-of-an-ai-driven-local-news-outlet-in-south-florida/"
+    },
+    {
+      "title": "Intercom更名为Fin，推出管理AI Agent的AI Agent",
+      "date": "2026-05-18",
+      "summary": "前Intercom公司更名为Fin后，构建了全球首个专门管理其他AI Agent的AI Agent。",
+      "link": "https://venturebeat.com/technology/intercom-now-called-fin-launches-an-ai-agent-whose-only-job-is-managing-another-ai-agent/"
+    },
+    {
+      "title": "AI IQ网站发布：用人类IQ标准评估AI模型",
+      "date": "2026-05-18",
+      "summary": "新平台AI IQ使用17个基准测试映射到人类IQ量表，对50多个前沿AI模型进行智商评分。",
+      "link": "https://www.aiiq.org/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "FORGE: 无需权重更新的自进化Agent记忆系统",
+      "date": "2026-05-18",
+      "summary": "通过群体广播机制让LLM Agent通过自生成的自然语言记忆改进决策，比零样本基线提升1.7-7.7倍。",
+      "link": "https://arxiv.org/abs/2605.16233"
+    },
+    {
+      "title": "Fully Open Meditron: 首个完全可审计的临床LLM管线",
+      "date": "2026-05-18",
+      "summary": "首个完全开放的临床LLM构建管线，Apertus-70B-MeditronFO在医学基准上提升6.6个百分点。",
+      "link": "https://arxiv.org/abs/2605.16215"
+    },
+    {
+      "title": "自主LLM引导树搜索实现多病原体疾病预测",
+      "date": "2026-05-18",
+      "summary": "使用LLM引导的树搜索自主生成预测软件，机器生成集成模型匹配或超越CDC金标准。",
+      "link": "https://arxiv.org/abs/2605.16238"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "马斯克：预计今年美国将广泛使用自动驾驶汽车",
+      "date": "2026-05-18",
+      "summary": "马斯克在特拉维夫智能出行峰会表示，自动驾驶汽车将在美国更加普及，德州三城已有无人驾驶运行。",
+      "link": "https://x.com/elonmusk/status/2054479261462040687"
+    },
+    {
+      "title": "Replit与苹果和解：vibe coding应用恢复iOS更新",
+      "date": "2026-05-18",
+      "summary": "Replit CEO Amjad Masad在X上宣布应用获得四个月来首次iOS更新。",
+      "link": "https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution"
+    },
+    {
+      "title": "Seth Rogen痛批AI编剧",
+      "date": "2026-05-18",
+      "summary": "Seth Rogen在戛纳表示使用AI写东西的人就不该当编剧。",
+      "link": "https://www.thewrap.com/creative-content/movies/seth-rogen-ai-films-shouldnt-be-a-writer-video/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Code新增/goals命令：分离执行与判定Agent",
+      "date": "2026-05-18",
+      "summary": "Claude Code新增/goals命令，引入第二个模型专门判定任务是否真正完成。",
+      "link": "https://venturebeat.com/orchestration/claude-codes-goals-separates-the-agent-that-works-from-the-one-that-decides-its-done/"
+    },
+    {
+      "title": "Raindrop发布开源Agent调试工具Workshop",
+      "date": "2026-05-18",
+      "summary": "跨平台开源工具Workshop，支持macOS、Linux和Windows，可在本地调试评估AI Agent。",
+      "link": "https://venturebeat.com/technology/developers-can-now-debug-and-evaluate-ai-agents-locally-with-raindrops-open-source-tool-workshop/"
+    },
+    {
+      "title": "RecursiveMAS框架：多Agent推理提速2.4倍，Token减少75%",
+      "date": "2026-05-18",
+      "summary": "UIUC和斯坦福联合发布，让AI Agent共享嵌入而非文本，大幅降低Token使用量。",
+      "link": "https://venturebeat.com/orchestration/how-recursivemas-speeds-up-multi-agent-inference-by-2-4x-and-reduces-token-usage-by-75/"
+    }
+  ],
+  "github": [
+    {
+      "title": "oven-sh/bun - 91.8k stars",
+      "date": "2026-05-18",
+      "summary": "超快的JavaScript运行时、打包器和测试运行器，Rust实现，本周增长2098星。",
+      "link": "https://github.com/oven-sh/bun"
+    },
+    {
+      "title": "facebook/pyrefly - 6.1k stars",
+      "date": "2026-05-18",
+      "summary": "Meta开源的快速Python类型检查器和语言服务器，Rust实现。",
+      "link": "https://github.com/facebook/pyrefly"
+    },
+    {
+      "title": "coollabsio/coolify - 55.4k stars",
+      "date": "2026-05-18",
+      "summary": "开源自托管PaaS平台，Vercel/Heroku替代品，支持280+一键部署服务，本周增长593星。",
+      "link": "https://github.com/coollabsio/coolify"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Cerebras IPO开盘价350美元，成2026年最大科技IPO",
+      "date": "2026-05-18",
+      "summary": "Cerebras以185美元IPO定价开盘350美元，市值突破千亿美元。",
+      "link": "https://finance.yahoo.com/markets/article/cerebras-stock-opens-at-350-per-share-in-biggest-ipo-of-2026-130757709.html"
+    },
+    {
+      "title": "Amazon CEO Jassy全力押注AI，计划2033年用机器人替代60万员工",
+      "date": "2026-05-18",
+      "summary": "亚马逊CEO表示AI不可逆转，计划到2033年用机器人替代60万岗位。",
+      "link": "https://www.theverge.com/news/803257/amazon-robotics-automation-replace-600000-human-jobs"
+    },
+    {
+      "title": "AI Tokenmaxxing: Why Companies Say Optimization Is Key to Survival",
+      "date": "2026-05-18",
+      "summary": "WSJ报道企业开始关注AI token使用优化，出现专门的token管理最佳实践。",
+      "link": "https://www.wsj.com/cio-journal/why-some-companies-say-ai-tokenmaxxing-is-key-to-survival-e699a128"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "OpenAI v. Musk庭审：Musk缺席法庭引发争议",
+      "date": "2026-05-18",
+      "summary": "OpenAI律师指出Musk不在法庭而Altman在场，Musk发推称正在去北京。",
+      "link": "https://www.reddit.com/r/technology/comments/1kt7k4i/openai_v_musk_trial_live_updates/"
+    },
+    {
+      "title": "NFL球队使用AI生成日程视频被全网嘲讽",
+      "date": "2026-05-18",
+      "summary": "Cardinals因使用AI生成内容被全网嘲讽，Packers明确表示全部手工制作。",
+      "link": "https://x.com/AZCardinals/status/2055070911783748006"
+    },
+    {
+      "title": "前沿AI模型不再删除文档而是静默改写",
+      "date": "2026-05-18",
+      "summary": "研究发现前沿模型会静默改写文档内容，错误更难被发现。",
+      "link": "https://venturebeat.com/orchestration/frontier-ai-models-dont-just-delete-document-content-they-rewrite-it-and-the-errors-are-nearly-impossible-to-catch/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenClaw全面升级OpenAI模型支持",
+      "date": "2026-05-18",
+      "summary": "OpenClaw采用Codex app-server作为OpenAI模型默认运行时，ChatGPT订阅可直接驱动Agent。",
+      "link": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right"
+    },
+    {
+      "title": "Anthropic恢复第三方Agent在Claude订阅上的使用",
+      "date": "2026-05-18",
+      "summary": "Anthropic重新允许OpenClaw等第三方Agent通过Claude订阅使用。",
+      "link": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch/"
+    },
+    {
+      "title": "AI企业风险：AI正在替代它需要学习的专家",
+      "date": "2026-05-18",
+      "summary": "Airbnb技术负责人指出AI系统改进需要人类评估者，但行业正在替代这些专家。",
+      "link": "https://venturebeat.com/technology/the-enterprise-risk-nobody-is-modeling-ai-is-replacing-the-very-experts-it-needs-to-learn-from/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "NVIDIA/cutlass - AI高性能线性代数库",
+      "date": "2026-05-18",
+      "summary": "CUDA模板和Python DSL，用于高性能线性代数计算，AI模型推理优化的核心库。",
+      "link": "https://github.com/NVIDIA/cutlass"
+    },
+    {
+      "title": "makeplane/plane - 55.4k stars",
+      "date": "2026-05-18",
+      "summary": "开源Jira替代品，用于管理AI项目任务、sprint和文档，TypeScript实现，本周增长386星。",
+      "link": "https://github.com/makeplane/plane"
+    },
+    {
+      "title": "NVIDIA/cutlass - 高性能AI推理线性代数库",
+      "date": "2026-05-18",
+      "summary": "CUDA模板和Python DSL，用于高性能线性代数计算，支撑AI模型推理优化。",
+      "link": "https://github.com/NVIDIA/cutlass"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Cerebras IPO首日股价翻倍，成2026年最大科技IPO",
+      "date": "2026-05-18",
+      "summary": "Cerebras以185美元定价开盘至350美元，市值突破千亿美元，55亿美元融资用于扩展AI推理云基础设施。",
+      "link": "https://venturebeat.com/technology/cerebras-stock-nearly-doubles-on-day-one-as-ai-chipmaker-hits-100-billion-what-it-means-for-ai-infrastructure/"
+    },
+    {
+      "title": "OpenAI v. Musk庭审进入结案陈词阶段",
+      "date": "2026-05-18",
+      "summary": "OpenAI律师Savitt结案陈词，指出Musk有选择性失忆和不洁之手。",
+      "link": "https://www.reddit.com/r/technology/comments/1kt7k4i/openai_v_musk_trial_live_updates/"
+    },
+    {
+      "title": "AI编程工具竞争加剧：xAI加入战局",
+      "date": "2026-05-18",
+      "summary": "xAI推出Grok Build agentic编码CLI工具，与Anthropic和OpenAI竞争。",
+      "link": "https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "百度一季度AI业务收入占比首次过半",
+      "date": "2026-05-18",
+      "summary": "百度Q1营收321亿元，AI业务收入136亿元占一般性业务52%，GPU云收入同比增长184%。",
+      "link": "https://www.36kr.com/newsflashes"
+    },
+    {
+      "title": "腾讯音乐收购喜马拉雅完成",
+      "date": "2026-05-18",
+      "summary": "腾讯音乐在港交所公告，收购喜马拉雅事项已完成，对价最高12.6亿美元现金及1.75亿股A类普通股。",
+      "link": "https://www.36kr.com/newsflashes"
+    },
+    {
+      "title": "商务部筹划出台人工智能+消费政策体系",
+      "date": "2026-05-18",
+      "summary": "商务部表示正在抓紧筹划出台人工智能+消费政策体系，发布AI终端智能化分级国家标准。",
+      "link": "https://www.36kr.com/newsflashes"
+    }
+  ]
+}
