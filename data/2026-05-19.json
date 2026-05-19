@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-19",
+  "insights": [
+    {
+      "title": "Musk v. Altman 世纪审判落幕：陪审团两小时裁定驳回全部指控",
+      "date": "2026-05-18",
+      "summary": "经过三周庭审，Musk 起诉 OpenAI 及 Altman 一案陪审团仅用两小时即达成一致裁决，以诉讼时效为由驳回全部三项指控。法官接受了该决定，Musk 表示将提起上诉。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/932383/jury-verdict-musk-v-altman-openai-trial"
+    },
+    {
+      "title": "OpenAI 宣布成立部署公司，首期投资超 40 亿美元",
+      "date": "2026-05-11",
+      "summary": "OpenAI 正式推出独立的 Deployment Company，旨在帮助企业将 AI 部署到实际生产环境。TPG 领投，19 家机构参与，首期融资超 40 亿美元。",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company/"
+    },
+    {
+      "title": "OpenAI 与 Dell 合作，将 Codex 引入混合及本地企业环境",
+      "date": "2026-05-18",
+      "summary": "OpenAI 与 Dell 合作帮助企业将 Codex 部署在混合和本地环境中。超过 400 万开发者每周使用 Codex。",
+      "link": "https://openai.com/index/dell-codex-enterprise-partnership/"
+    },
+    {
+      "title": "ChatGPT 推出个人理财功能，支持连接银行账户",
+      "date": "2026-05-15",
+      "summary": "OpenAI 向 Pro 用户推出个人理财功能预览版，通过 Plaid 支持超 12000 家金融机构。",
+      "link": "https://openai.com/index/personal-finance-chatgpt/"
+    },
+    {
+      "title": "OpenAI Parameter Golf 挑战赛：超 2000 份提交，AI 代理成主力",
+      "date": "2026-05-12",
+      "summary": "OpenAI Parameter Golf 编程挑战赛收到 1000+ 参与者的 2000+ 份提交，绝大多数使用 AI 编程代理完成实验。",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us/"
+    },
+    {
+      "title": "Apple 计划在 iOS 27 中集成 Grammarly 式 AI 写作辅助",
+      "date": "2026-05-18",
+      "summary": "Apple 计划在下一代 iOS 中内置语法检查和写作建议功能，以及 Shortcuts AI 升级和 AI 壁纸生成器。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
+    },
+    {
+      "title": "Musk v. Altman 审判揭示 AI 领导力信任危机",
+      "date": "2026-05-18",
+      "summary": "The Verge 深度分析指出审判暴露 AI 行业最有权势人物间的信任危机。Pew 调查显示半数美国成年人对 AI 感到担忧。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Teaching Claude Why: Eliminating Agentic Misalignment",
+      "date": "2026-05-19",
+      "summary": "Anthropic 研究探讨如何通过让 AI 理解行为原因来消除代理型 AI 不对齐行为，改善复杂任务决策质量。",
+      "link": "https://www.anthropic.com/research/teaching-claude-why-eliminating-agentic-misalignment"
+    },
+    {
+      "title": "Claude Opus 4.7: Enhanced Cybersecurity Capabilities",
+      "date": "2026-05-19",
+      "summary": "Anthropic 发布 Claude Opus 4.7 研究，该模型在网络安全领域展现突破性能力，因能力过强选择不公开发布。",
+      "link": "https://www.anthropic.com/research/claude-opus-4-7"
+    },
+    {
+      "title": "Emotion Concepts as Function: Understanding AI Internal Representations",
+      "date": "2026-05-19",
+      "summary": "Anthropic 研究揭示 AI 模型内部情感概念的功能表示，为理解大语言模型内部机制提供新视角。",
+      "link": "https://www.anthropic.com/research/emotion-concepts-function"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Elon Musk 回应败诉：将就日程技术性裁决上诉",
+      "date": "2026-05-18",
+      "summary": "Musk 在 X 上回应败诉，称基于日程技术性而非案件实质作出判决，坚称将提起上诉。",
+      "link": "https://x.com/elonmusk/status/2056474896641782077"
+    },
+    {
+      "title": "OpenAI 官方回应：诉讼始终是毫无根据的竞争阻碍行为",
+      "date": "2026-05-18",
+      "summary": "OpenAI 新闻账号发帖称 Musk 诉讼是毫无根据且出于嫉妒的尝试，OpenAI 将继续专注使命。",
+      "link": "https://x.com/OpenAINewsroom/status/2048776645142872368"
+    },
+    {
+      "title": "社区热评：Musk 和 Altman 的不可信足以形成黑洞",
+      "date": "2026-05-18",
+      "summary": "X 用户评论走红：如果不可信有质量，把他们放得太近，法庭和地球都会坍缩成黑洞。",
+      "link": "https://x.com/MidwestHedgie/status/2054999222227702116"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Anthropic 社区热议 Claude Code Channels 新特性",
+      "date": "2026-05-17",
+      "summary": "Anthropic 社区围绕 Claude Code Channels 展开讨论，该特性允许在多个并行通道中运行不同实例。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1ryf2pd/introducing_claude_code_channels/"
+    },
+    {
+      "title": "2026 年 AI 代理重大安全事件汇总",
+      "date": "2026-05-16",
+      "summary": "社区整理 2026 年重大 AI 安全事件：Claude Code 源代码泄露、LiteLLM PyPI 投毒、Vercel 泄露等。",
+      "link": "https://www.reddit.com/r/artificial/comments/1sgm6dz/i_compiled_every_major_ai_agent_security_incident/"
+    },
+    {
+      "title": "Firefox 摇一摇 AI 摘要功能扩展至 Android",
+      "date": "2026-05-18",
+      "summary": "Firefox 将 AI 网页摘要功能扩展到 Android，用户摇动手机即可获取 5000 字以下网页的 AI 摘要。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence"
+    }
+  ],
+  "github": [
+    {
+      "title": "CloakHQ/CloakBrowser - 通过所有反机器人检测的 stealth 浏览器",
+      "date": "2026-05-19",
+      "summary": "stealth Chromium 通过全部 30/30 项反机器人检测，可作 Playwright 替代品。本周新增 9124 星，总数 15826。",
+      "link": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "title": "rohitg00/agentmemory - AI 编程代理持久化内存方案",
+      "date": "2026-05-19",
+      "summary": "基于真实世界基准测试排名第一的 AI 代理持久化内存方案。本周新增 7830 星，总数 13433。",
+      "link": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "title": "bytedance/UI-TARS-desktop - 字节跳动开源多模态 AI 代理栈",
+      "date": "2026-05-19",
+      "summary": "连接前沿 AI 模型与代理基础设施的开源多模态 AI 代理栈。总数 34711 星，本周新增 1939。",
+      "link": "https://github.com/bytedance/UI-TARS-desktop"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Musk v. Altman 审判：AI 行业领导层信任危机的启示",
+      "date": "2026-05-18",
+      "summary": "Hacker News 讨论 Musk v. Altman 审判影响，聚焦 AI 治理、开源与闭源之争。",
+      "link": "https://news.ycombinator.com/item?id=47886517"
+    },
+    {
+      "title": "OpenAI Deployment Company：40亿美元融资推动企业 AI 落地",
+      "date": "2026-05-18",
+      "summary": "Hacker News 热议 OpenAI 新部署公司，讨论 AI 从研究到部署的鸿沟及 FDE 模式有效性。",
+      "link": "https://news.ycombinator.com/item?id=47884971"
+    },
+    {
+      "title": "Claude Code 源代码泄露事件技术分析",
+      "date": "2026-05-17",
+      "summary": "Hacker News 讨论 Claude Code 通过 NPM 打包错误导致源代码泄露的技术细节和影响。",
+      "link": "https://news.ycombinator.com/item?id=47879092"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Stanford HAI 2026 AI 指数：中美 AI 差距缩小至近乎为零",
+      "date": "2026-05-17",
+      "summary": "Stanford HAI 2026 AI 指数显示中国在 AI 领域进步显著，与美国差距缩小至接近零。",
+      "link": "https://www.reddit.com/r/artificial/comments/1skuh7v/title_stanford_hai_2026_ai_index_china_erases_us/"
+    },
+    {
+      "title": "AI 代理能写代码但能部署吗？开发者提出质疑",
+      "date": "2026-05-16",
+      "summary": "Reddit 热帖指出 AI 代理写代码能力强但实际部署仍有障碍，讨论 CI/CD 和安全审查等挑战。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1s9vfla/ai_agents_can_write_code_they_still_cant_deploy_it/"
+    },
+    {
+      "title": "Anthropic 与 SpaceX 合作，Compute 投资翻倍",
+      "date": "2026-05-18",
+      "summary": "Anthropic 将获得 SpaceX 计算资源支持，投资规模翻倍，缩小与 OpenAI 的基础设施差距。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t5l92i/anthropic_just_partnered_with_spacex_and_doubled/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OpenAI Codex Chrome 扩展：在浏览器中使用 AI 编程代理",
+      "date": "2026-05-18",
+      "summary": "OpenAI 推出 Codex Chrome 扩展，允许在浏览器中调用 Codex 进行代码审查和仓库级推理。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/openai-launches-codex-chrome-extension"
+    },
+    {
+      "title": "Anthropic Claude Dream Agents：让 AI 从自身错误中学习",
+      "date": "2026-05-17",
+      "summary": "Anthropic 推出 Dream Agents，AI 代理可通过回顾历史任务优化未来行为。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/919827/anthropic-claude-dream-agents-self-improve"
+    },
+    {
+      "title": "CloakBrowser：反机器人检测领域新星",
+      "date": "2026-05-19",
+      "summary": "CloakBrowser 作为 Playwright 替代品，30/30 项反机器人测试全部通过，一周新增超 9000 星。",
+      "link": "https://github.com/CloakHQ/CloakBrowser"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenAI Codex 周活突破 400 万，企业采用加速",
+      "date": "2026-05-18",
+      "summary": "Codex 周活跃开发者突破 400 万，应用从代码审查扩展到事件响应和仓库推理。",
+      "link": "https://openai.com/index/dell-codex-enterprise-partnership/"
+    },
+    {
+      "title": "Anthropic 推出 Claude Marketplace 企业代理平台",
+      "date": "2026-05-16",
+      "summary": "Anthropic 推出 Claude Marketplace，为企业提供 Claude 代理和服务的统一访问入口。",
+      "link": "https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude"
+    },
+    {
+      "title": "IBM 推出 Bob：多模型路由加人工检查点的 AI 编程系统",
+      "date": "2026-05-15",
+      "summary": "IBM 发布 Bob AI 开发伙伴，支持多模型路由和人工检查点，面向企业级应用。",
+      "link": "https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Musk v. Altman 案完结：AI 行业年度最大法律纠纷落幕",
+      "date": "2026-05-18",
+      "summary": "陪审团以诉讼时效驳回 Musk 全部指控，案件暴露 AI 行业深层治理问题。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
+    },
+    {
+      "title": "Meta 计划 5 月 20 日开始第一波裁员",
+      "date": "2026-04-17",
+      "summary": "Meta 计划于 5 月 20 日开始第一波裁员，AI 成本上升是推动因素，但 AI 团队仍在招聘。",
+      "link": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+    },
+    {
+      "title": "Anthropic 与 SpaceX 达成战略合作，计算投资翻倍",
+      "date": "2026-05-18",
+      "summary": "Anthropic 与 SpaceX 宣布合作，获得计算资源支持以支撑大模型训练需求。",
+      "link": "https://www.anthropic.com/news/spacex-partnership"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek V4 预览发布：接近顶尖水平，成本仅为竞品六分之一",
+      "date": "2026-05-19",
+      "summary": "DeepSeek 发布 V4 预览版，在多个基准中接近最先进水平，推理成本仅为 GPT-5.5 和 Opus 4.7 的六分之一。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model"
+    },
+    {
+      "title": "字节跳动 UI-TARS-desktop 开源多模态 AI 代理栈持续走红",
+      "date": "2026-05-19",
+      "summary": "字节跳动开源 UI-TARS-desktop 持续受关注，总星标数达 34711，本周新增 1939。",
+      "link": "https://github.com/bytedance/UI-TARS-desktop"
+    },
+    {
+      "title": "中国 AI 企业 Agent 生态快速崛起",
+      "date": "2026-05-17",
+      "summary": "多家中国 AI 企业在 Agent 领域取得突破，从桌面自动化到多模态理解，逐步缩小与国际领先水平的差距。",
+      "link": "https://www.reuters.com/technology/china-moves-curb-use-openclaw-ai-banks-state-agencies-bloomberg-news-reports-2026-03-11/"
+    }
+  ]
+}
