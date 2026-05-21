@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年5月21日星期四</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年5月21日星期四</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepWeb-Bench: 深度研究Agent评测基准</h3>
+      <div class="meta">👤 </div>
+      <p>评测深度研究Agent四大能力，发现推导和校准失败占70%以上错误。</p>
+  <a class="link" href="https://arxiv.org/abs/2605.21482" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AiraXiv: AI时代开放获取平台</h3>
+      <div class="meta">👤 </div>
+      <p>人类与AI科学家共同参与论文发布和审稿，通过MCP协议交互。</p>
+  <a class="link" href="https://arxiv.org/abs/2605.21481" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LLM Agent运行时架构模式选择方法论</h3>
+      <div class="meta">👤 </div>
+      <p>系统研究LLM Agent架构模式选择，为Agent系统设计提供指导。</p>
+  <a class="link" href="https://arxiv.org/abs/2605.20173" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Tim Gowers评OpenAI数学证明：里程碑</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-20</div>
+      <p>Fields奖得主在X评价OpenAI证明离散几何猜想为AI数学里程碑。</p>
+  <a class="link" href="https://x.com/wtgowers/status/2057175727271800912" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Eric Schmidt毕业典礼AI演讲遭嘘</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-18</div>
+      <p>前Google CEO发表AI演讲遭学生嘘声，引发公众态度讨论。HN 374票。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48177785" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Antirez分享LLM Agent EDIT工具新设计</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-19</div>
+      <p>Redis之父分享tag-based CAS编辑工具，显著减少token消耗。</p>
+  <a class="link" href="https://antirez.com/news/166" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. CLI-Anything: 让所有软件Agent化</h3>
+      <div class="meta">💬 </div>
+      <p>HKUDS将任意软件通过CLI接口转化为Agent可调用工具。</p>
+  <a class="link" href="https://github.com/HKUDS/CLI-Anything" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ViMax: 全能视频生成Agent</h3>
+      <div class="meta">💬 </div>
+      <p>集成导演、编剧、制片人和视频生成的Agentic系统，日增674星。</p>
+  <a class="link" href="https://github.com/HKUDS/ViMax" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Forge: 8B模型Agent准确率达99%</h3>
+      <div class="meta">💬 </div>
+      <p>开源Forge框架将8B模型Agent准确率从53%提升至99.3%。HN 653票。</p>
+  <a class="link" href="https://github.com/antoinezambelli/forge" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. academic-research-skills: Claude Code学术研究框架</h3>
+      
+      <p>Claude Code学术研究全流程技能系统，单日新增1667星。</p>
+  <a class="link" href="https://github.com/Imbad0202/academic-research-skills" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenViking: 字节跳动AI Agent上下文数据库</h3>
+      
+      <p>字节跳动开源面向Agent的上下文数据库，文件系统范式管理记忆和技能。</p>
+  <a class="link" href="https://github.com/volcengine/OpenViking" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Shadowbroker: 开源情报聚合平台</h3>
+      
+      <p>追踪私人飞机、卫星和地震，支持AI Agent数据关联分析。日增327星。</p>
+  <a class="link" href="https://github.com/BigBodyCobain/Shadowbroker" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI模型推翻离散几何核心猜想</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>OpenAI推理模型自主推翻Erdos猜想，1140票，828条评论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48212493" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. N tokens/秒有多快？交互式可视化</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>直观感受LLM token速度的交互工具，四种模式对比。409票。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48174920" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Remove-AI-Watermarks: AI水印移除工具</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>开源AI水印移除CLI工具。HN 378票。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48200569" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Unsloth Studio: 本地训练开源模型Web UI</h3>
+      <div class="meta">reddit: </div>
+      <p>支持本地训练Gemma 4、Qwen3.6、DeepSeek等最新开源模型。</p>
+  <a class="link" href="https://github.com/unslothai/unsloth" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. vLLM: 高吞吐LLM推理引擎持续更新</h3>
+      <div class="meta">reddit: </div>
+      <p>vLLM保持高吞吐量和内存高效推理引擎领先地位。</p>
+  <a class="link" href="https://github.com/vllm-project/vllm" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Agent.email: AI Agent邮箱注册服务</h3>
+      
+      <p>YC S25公司让Agent通过curl注册邮箱，支持OTP验证。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48212471" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. tokenspeed: LLM token速度体验工具</h3>
+      
+      <p>直观感受5-800 tok/s的LLM流式输出，四种模式对比。</p>
+  <a class="link" href="https://mikeveerman.github.io/tokenspeed/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Forge: 8B模型Agent可靠性达99%</h3>
+      <div class="meta">🤖 </div>
+      <p>Forge guardrails将8B模型Agent准确率从53%提升至99.3%。ACM论文。HN 653票。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48192383" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Agent Braille: 8-bit编码减92% token</h3>
+      <div class="meta">🤖 </div>
+      <p>8位状态编码将Agent JSON状态压缩92%，降低运行成本。</p>
+  <a class="link" href="https://github.com/Tetrahedroned/Agent-Braille" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 中国发布首个智能体AI监管框架</h3>
+      <div class="meta">🤖 </div>
+      <p>中国正式命名并治理Agentic AI，发布全球首个智能体AI监管框架。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48219099" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI模型首次自主证明重大数学猜想</h3>
+      <div class="meta">📅 2026-05-20</div>
+      <p>OpenAI推理模型自主推翻Erdos 1946年平面单位距离问题猜想，AI首次独立解决数学重大开放问题。Fields奖得主称之为AI数学里程碑。</p>
+  <a class="link" href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. GitHub确认3800个仓库因恶意VSCode扩展遭入侵</h3>
+      <div class="meta">📅 2026-05-20</div>
+      <p>GitHub确认恶意VSCode扩展导致3800个仓库被入侵，凸显AI开发工具生态的安全挑战。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48207660" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI是技术而非产品——Gruber驳杀手级AI产品论</h3>
+      <div class="meta">📅 2026-05-17</div>
+      <p>John Gruber撰文认为AI如同无线网络应渗透所有产品，而非独立成产品。</p>
+  <a class="link" href="https://daringfireball.net/2026/05/ai_is_technology_not_a_product" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. AI不会让流程变快——关键是上游需求</h3>
+      <div class="meta">📅 2026-05-17</div>
+      <p>AI生成代码不能加速软件开发，真正瓶颈在上游需求定义。675票热议。</p>
+  <a class="link" href="https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Google悄悄反击AI搜索结果被操纵</h3>
+      <div class="meta">📅 2026-05-20</div>
+      <p>BBC报道Google应对AI搜索结果被SEO操纵的挑战，揭示内容治理新难题。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48205782" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. AI订阅服务对企业是定时炸弹</h3>
+      <div class="meta">📅 2026-05-17</div>
+      <p>企业AI订阅蔓延形成成本泡沫，可能引发支出危机。398条HN评论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48168056" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 开源项目反击AI垃圾贡献</h3>
+      <div class="meta">📅 2026-05-18</div>
+      <p>Archestra用GitHub prior contributors限制封堵AI bot低质量PR。</p>
+  <a class="link" href="https://archestra.ai/blog/only-responsible-ai" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Eric Schmidt AI演讲遭嘘反映认知鸿沟</h3>
+      
+      <p>前Google CEO宣扬AI被嘘，反映硅谷乐观叙事与公众担忧的鸿沟。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48177785" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. YC S25 AgentMail: Agent通信基础设施</h3>
+      
+      <p>YC S25孵化AgentMail为AI Agent提供独立邮箱通信能力。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48212471" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 字节跳动开源OpenViking Agent上下文数据库</h3>
+      
+      <p>火山引擎开源OpenViking，为Agent统一管理记忆、资源和技能。</p>
+  <a class="link" href="https://github.com/volcengine/OpenViking" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 中国发布全球首个Agentic AI监管框架</h3>
+      
+      <p>中国命名并治理Agentic AI，发布全球首个智能体监管框架。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48219099" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:45 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

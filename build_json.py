@@ -1,0 +1,73 @@
+import json
+
+data = {
+    "date": "2026-05-21",
+    "insights": [
+        {"title": "OpenAI模型首次自主证明重大数学猜想", "date": "2026-05-20", "summary": "OpenAI推理模型自主推翻Erdos 1946年平面单位距离问题猜想，AI首次独立解决数学重大开放问题。Fields奖得主称之为AI数学里程碑。", "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"},
+        {"title": "GitHub确认3800个仓库因恶意VSCode扩展遭入侵", "date": "2026-05-20", "summary": "GitHub确认恶意VSCode扩展导致3800个仓库被入侵，凸显AI开发工具生态的安全挑战。", "link": "https://news.ycombinator.com/item?id=48207660"},
+        {"title": "AI是技术而非产品——Gruber驳杀手级AI产品论", "date": "2026-05-17", "summary": "John Gruber撰文认为AI如同无线网络应渗透所有产品，而非独立成产品。", "link": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product"},
+        {"title": "AI不会让流程变快——关键是上游需求", "date": "2026-05-17", "summary": "AI生成代码不能加速软件开发，真正瓶颈在上游需求定义。675票热议。", "link": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/"},
+        {"title": "Google悄悄反击AI搜索结果被操纵", "date": "2026-05-20", "summary": "BBC报道Google应对AI搜索结果被SEO操纵的挑战，揭示内容治理新难题。", "link": "https://news.ycombinator.com/item?id=48205782"},
+        {"title": "AI订阅服务对企业是定时炸弹", "date": "2026-05-17", "summary": "企业AI订阅蔓延形成成本泡沫，可能引发支出危机。398条HN评论。", "link": "https://news.ycombinator.com/item?id=48168056"},
+        {"title": "开源项目反击AI垃圾贡献", "date": "2026-05-18", "summary": "Archestra用GitHub prior contributors限制封堵AI bot低质量PR。", "link": "https://archestra.ai/blog/only-responsible-ai"}
+    ],
+    "papers": [
+        {"title": "DeepWeb-Bench: 深度研究Agent评测基准", "date": "2026-05-20", "summary": "评测深度研究Agent四大能力，发现推导和校准失败占70%以上错误。", "link": "https://arxiv.org/abs/2605.21482"},
+        {"title": "AiraXiv: AI时代开放获取平台", "date": "2026-05-20", "summary": "人类与AI科学家共同参与论文发布和审稿，通过MCP协议交互。", "link": "https://arxiv.org/abs/2605.21481"},
+        {"title": "LLM Agent运行时架构模式选择方法论", "date": "2026-05-20", "summary": "系统研究LLM Agent架构模式选择，为Agent系统设计提供指导。", "link": "https://arxiv.org/abs/2605.20173"}
+    ],
+    "xPosts": [
+        {"title": "Tim Gowers评OpenAI数学证明：里程碑", "date": "2026-05-20", "summary": "Fields奖得主在X评价OpenAI证明离散几何猜想为AI数学里程碑。", "link": "https://x.com/wtgowers/status/2057175727271800912"},
+        {"title": "Eric Schmidt毕业典礼AI演讲遭嘘", "date": "2026-05-18", "summary": "前Google CEO发表AI演讲遭学生嘘声，引发公众态度讨论。HN 374票。", "link": "https://news.ycombinator.com/item?id=48177785"},
+        {"title": "Antirez分享LLM Agent EDIT工具新设计", "date": "2026-05-19", "summary": "Redis之父分享tag-based CAS编辑工具，显著减少token消耗。", "link": "https://antirez.com/news/166"}
+    ],
+    "discord": [
+        {"title": "CLI-Anything: 让所有软件Agent化", "date": "2026-05-21", "summary": "HKUDS将任意软件通过CLI接口转化为Agent可调用工具。", "link": "https://github.com/HKUDS/CLI-Anything"},
+        {"title": "ViMax: 全能视频生成Agent", "date": "2026-05-21", "summary": "集成导演、编剧、制片人和视频生成的Agentic系统，日增674星。", "link": "https://github.com/HKUDS/ViMax"},
+        {"title": "Forge: 8B模型Agent准确率达99%", "date": "2026-05-19", "summary": "开源Forge框架将8B模型Agent准确率从53%提升至99.3%。HN 653票。", "link": "https://github.com/antoinezambelli/forge"}
+    ],
+    "github": [
+        {"title": "academic-research-skills: Claude Code学术研究框架", "date": "2026-05-21", "summary": "Claude Code学术研究全流程技能系统，单日新增1667星。", "link": "https://github.com/Imbad0202/academic-research-skills"},
+        {"title": "OpenViking: 字节跳动AI Agent上下文数据库", "date": "2026-05-21", "summary": "字节跳动开源面向Agent的上下文数据库，文件系统范式管理记忆和技能。", "link": "https://github.com/volcengine/OpenViking"},
+        {"title": "Shadowbroker: 开源情报聚合平台", "date": "2026-05-21", "summary": "追踪私人飞机、卫星和地震，支持AI Agent数据关联分析。日增327星。", "link": "https://github.com/BigBodyCobain/Shadowbroker"}
+    ],
+    "hn": [
+        {"title": "OpenAI模型推翻离散几何核心猜想", "date": "2026-05-20", "summary": "OpenAI推理模型自主推翻Erdos猜想，1140票，828条评论。", "link": "https://news.ycombinator.com/item?id=48212493"},
+        {"title": "N tokens/秒有多快？交互式可视化", "date": "2026-05-18", "summary": "直观感受LLM token速度的交互工具，四种模式对比。409票。", "link": "https://news.ycombinator.com/item?id=48174920"},
+        {"title": "Remove-AI-Watermarks: AI水印移除工具", "date": "2026-05-19", "summary": "开源AI水印移除CLI工具。HN 378票。", "link": "https://news.ycombinator.com/item?id=48200569"}
+    ],
+    "reddit": [
+        {"title": "Karpathy开源autoresearch: 自动化AI研究", "date": "2026-05-21", "summary": "Karpathy发布autoresearch，单GPU自动运行AI研究实验。", "link": "https://github.com/karpathy/autoresearch"},
+        {"title": "Unsloth Studio: 本地训练开源模型Web UI", "date": "2026-05-21", "summary": "支持本地训练Gemma 4、Qwen3.6、DeepSeek等最新开源模型。", "link": "https://github.com/unslothai/unsloth"},
+        {"title": "vLLM: 高吞吐LLM推理引擎持续更新", "date": "2026-05-21", "summary": "vLLM保持高吞吐量和内存高效推理引擎领先地位。", "link": "https://github.com/vllm-project/vllm"}
+    ],
+    "tools": [
+        {"title": "Agent.email: AI Agent邮箱注册服务", "date": "2026-05-20", "summary": "YC S25公司让Agent通过curl注册邮箱，支持OTP验证。", "link": "https://news.ycombinator.com/item?id=48212471"},
+        {"title": "tokenspeed: LLM token速度体验工具", "date": "2026-05-18", "summary": "直观感受5-800 tok/s的LLM流式输出，四种模式对比。", "link": "https://mikeveerman.github.io/tokenspeed/"},
+        {"title": "E2B: 企业级Agent开源安全沙箱", "date": "2026-05-21", "summary": "开源安全环境和工具集，专为企业级AI Agent设计。", "link": "https://github.com/e2b-dev/E2B"}
+    ],
+    "agent": [
+        {"title": "Forge: 8B模型Agent可靠性达99%", "date": "2026-05-19", "summary": "Forge guardrails将8B模型Agent准确率从53%提升至99.3%。ACM论文。HN 653票。", "link": "https://news.ycombinator.com/item?id=48192383"},
+        {"title": "Agent Braille: 8-bit编码减92% token", "date": "2026-05-18", "summary": "8位状态编码将Agent JSON状态压缩92%，降低运行成本。", "link": "https://github.com/Tetrahedroned/Agent-Braille"},
+        {"title": "中国发布首个智能体AI监管框架", "date": "2026-05-21", "summary": "中国正式命名并治理Agentic AI，发布全球首个智能体AI监管框架。", "link": "https://news.ycombinator.com/item?id=48219099"}
+    ],
+    "siliconValley": [
+        {"title": "OpenAI数学突破引发AI研究能力争论", "date": "2026-05-20", "summary": "自主解决80年数学猜想，证明AI已具备原创数学思维能力。", "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"},
+        {"title": "Eric Schmidt AI演讲遭嘘反映认知鸿沟", "date": "2026-05-18", "summary": "前Google CEO宣扬AI被嘘，反映硅谷乐观叙事与公众担忧的鸿沟。", "link": "https://news.ycombinator.com/item?id=48177785"},
+        {"title": "YC S25 AgentMail: Agent通信基础设施", "date": "2026-05-20", "summary": "YC S25孵化AgentMail为AI Agent提供独立邮箱通信能力。", "link": "https://news.ycombinator.com/item?id=48212471"}
+    ],
+    "mainlandChina": [
+        {"title": "字节跳动开源OpenViking Agent上下文数据库", "date": "2026-05-21", "summary": "火山引擎开源OpenViking，为Agent统一管理记忆、资源和技能。", "link": "https://github.com/volcengine/OpenViking"},
+        {"title": "中国发布全球首个Agentic AI监管框架", "date": "2026-05-21", "summary": "中国命名并治理Agentic AI，发布全球首个智能体监管框架。", "link": "https://news.ycombinator.com/item?id=48219099"},
+        {"title": "LLM驱动A股智能分析系统开源", "date": "2026-05-21", "summary": "LLM驱动的多市场智能分析，集成行情、新闻和决策仪表盘。", "link": "https://github.com/ZhuLinsen/daily_stock_analysis"}
+    ]
+}
+
+with open("data/2026-05-21.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("JSON saved successfully")
+print(f"Keys: {list(data.keys())}")
+for k, v in data.items():
+    if isinstance(v, list):
+        print(f"  {k}: {len(v)} items")
