@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-24",
+  "insights": [
+    {
+      "title": "DeepSeek永久降价75%，输出token仅为GPT-5.5的1/34",
+      "date": "2026-05-23",
+      "summary": "DeepSeek宣布V4-Pro的75%折扣永久化，输入每百万token仅$0.435，输出$0.87。相比GPT-5.5输出便宜约34.5倍。同时接近以450亿美元估值完成约100亿元融资。",
+      "link": "https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/"
+    },
+    {
+      "title": "Anthropic Glasswing首月：Mythos发现超万高危漏洞",
+      "date": "2026-05-22",
+      "summary": "Anthropic公布Glasswing项目进展，50个合作伙伴使用Claude Mythos Preview在首月发现超1万高危/严重漏洞，Mozilla在Firefox 150发现并修复271个零日漏洞（Opus 4.6的10倍以上）。",
+      "link": "https://www.anthropic.com/research/glasswing-initial-update"
+    },
+    {
+      "title": "SpaceX IPO披露：Anthropic年付$150亿使用Colossus数据中心",
+      "date": "2026-05-21",
+      "summary": "SpaceX S-1披露：Anthropic每月支付$12.5亿使用Colossus I和Colossus II AI数据中心至2029年5月，年付$150亿。Anthropic Q2营收预计达$109亿并首次实现季度运营利润。",
+      "link": "https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus"
+    },
+    {
+      "title": "OpenAI Codex被Gartner评为企业AI编码Agent领导者",
+      "date": "2026-05-22",
+      "summary": "OpenAI入选Gartner企业AI编码Agent Magic Quadrant领导者象限，Codex周活用户超400万。与Dell合作部署混合/本地环境，与Cisco合作开发AI Defense平台。",
+      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader/"
+    },
+    {
+      "title": "Cohere发布Apache 2.0全开源Command A+模型",
+      "date": "2026-05-23",
+      "summary": "Cohere发布218B参数MoE模型Command A+（25B活跃参数），首款完全Apache 2.0开源企业级模型。支持48种语言、128K上下文，Agent基准从37%跃升至85%。",
+      "link": "https://venturebeat.com/technology/cohere-cracks-lossless-quantization-and-native-citations-with-first-full-apache-2-0-licensed-open-model-command-a"
+    },
+    {
+      "title": "Q1中国AI领域融资超1100亿元，同比激增185%",
+      "date": "2026-05-24",
+      "summary": "一季度AI领域融资近600起，总额超1100亿元，同比增长185.4%。5月月之暗面、阶跃星辰等拿下超300亿融资。中国大模型迭代周期已缩短至3个月以内。",
+      "link": "https://www.36kr.com/newsflashes/3822775103607172"
+    },
+    {
+      "title": "NSA批准Anthropic Mythos在机密网络运行，白宫亲自批准",
+      "date": "2026-05-23",
+      "summary": "白宫幕僚长Susie Wiles亲自批准Anthropic向NSA提供Claude Mythos模型用于机密网络。情报机构缺乏最新Grace Blackwell芯片，Mythos可在旧芯片上运行成为唯一短期解决方案。$90亿新AI芯片采购待国会审批。",
+      "link": "https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "ExploitGym: AI Agent漏洞利用能力大规模评测基准",
+      "date": "2026-05-20",
+      "summary": "Google等机构联合发布ExploitGym，大规模评估AI Agent将软件漏洞转化为真实攻击的能力。覆盖内存布局推理、运行时适应等挑战性任务，对评估AI网络安全能力至关重要。",
+      "link": "https://arxiv.org/abs/2605.11086"
+    },
+    {
+      "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
+      "date": "2026-05-21",
+      "summary": "Google DeepMind团队提出AI驱动的形式化证明搜索方法推进数学研究。结合大语言模型与形式化验证工具，展示了AI在数学定理证明中的最新进展。",
+      "link": "https://arxiv.org/abs/2605.14082"
+    },
+    {
+      "title": "Boiling the Frog: Agent安全多轮对话基准测试",
+      "date": "2026-05-21",
+      "summary": "研究团队提出多轮对话Agent安全性基准测试Boiling the Frog，评估AI Agent在逐步升级的对话中是否会产生不安全行为，揭示了当前Agent在多轮交互中的安全边界。",
+      "link": "https://arxiv.org/abs/2605.14233"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy宣布加入Anthropic",
+      "date": "2026-05-19",
+      "summary": "AI领域重量级人物Andrej Karpathy在X宣布加入Anthropic，引发HN 2000+点赞热议。Karpathy此前在OpenAI、Tesla担任要职，同时发布autoresearch开源AI研究框架。",
+      "link": "https://news.ycombinator.com/item?id=48194352"
+    },
+    {
+      "title": "Mitchell Hashimoto: 有公司正处于AI精神病状态",
+      "date": "2026-05-15",
+      "summary": "Hashicorp联合创始人Mitchell Hashimoto发推称有些公司正处于AI精神病中，引发HN 2102点赞1200+评论热烈讨论，反映业界对AI过度炒作的集体反思。",
+      "link": "https://news.ycombinator.com/item?id=48153379"
+    },
+    {
+      "title": "《The Future of Truth》作者被AI虚构引文背刺",
+      "date": "2026-05-22",
+      "summary": "作者使用Claude和ChatGPT辅助写作，新书被发现含多条AI虚构引文。作者称AI背叛了他但计划继续使用AI写作，引发关于AI可信度的广泛讨论。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/934289/the-future-of-truth-has-a-problem-in-its-fabricated-present"
+    }
+  ],
+  "discord": [
+    {
+      "title": "claude-plugins-official：Anthropic官方插件目录",
+      "date": "2026-05-24",
+      "summary": "Anthropic官方发布的Claude Code插件目录，日增2193星总星26907。提供高质量Anthropic管理的插件生态体系，标志Claude生态走向标准化。",
+      "link": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "title": "Understand-Anything：代码知识图谱可视化",
+      "date": "2026-05-24",
+      "summary": "创新代码理解工具，将任意代码库转换为交互式知识图谱。支持Claude Code、Codex、Cursor等主流AI编码工具，日增2299星总星23130。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "codegraph：预索引代码知识图谱",
+      "date": "2026-05-24",
+      "summary": "专为AI编码Agent设计的预索引代码知识图谱，支持Claude Code、Codex、Cursor等。更少token、更少工具调用、100%本地运行，日增2456星总星20636。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    }
+  ],
+  "github": [
+    {
+      "title": "claude-plugins-official：Anthropic官方插件目录",
+      "date": "2026-05-24",
+      "summary": "Anthropic官方Claude Code插件目录，日增2193星总星26907。标志Claude生态走向标准化和官方化。",
+      "link": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "title": "Understand-Anything：代码知识图谱可视化",
+      "date": "2026-05-24",
+      "summary": "将任意代码转为交互式知识图谱，支持Claude Code、Codex、Cursor、Copilot、Gemini CLI等。日增2299星总星23130。TypeScript实现。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "codegraph：预索引代码知识图谱for AI Coding Agents",
+      "date": "2026-05-24",
+      "summary": "预索引代码知识图谱，为AI编程Agent提供高效代码上下文。日增2456星总星20636，主打低token和本地运行。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Microsoft发布最早DOS源码",
+      "date": "2026-05-24",
+      "summary": "Microsoft开源了迄今为止发现的最早DOS源代码。HN获240分62评论，引发技术历史传承和开源文化讨论。",
+      "link": "https://news.ycombinator.com/item?id=48253386"
+    },
+    {
+      "title": "AWS四年离职记",
+      "date": "2026-05-24",
+      "summary": "前AWS员工分享在亚马逊云服务工作四年的经历和感悟，获198分58评论。反映AI时代云计算巨头内部的工作文化和技术生态变化。",
+      "link": "https://news.ycombinator.com/item?id=48254475"
+    },
+    {
+      "title": "Scammers滥用微软内部账号发送垃圾链接",
+      "date": "2026-05-24",
+      "summary": "诈骗分子滥用微软内部账号发送垃圾邮件链接，TechCrunch深度报道引发HN 143分热议。涉及AI时代企业安全管理和身份认证问题。",
+      "link": "https://news.ycombinator.com/item?id=48253186"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Karpathy宣布加入Anthropic引发热议",
+      "date": "2026-05-19",
+      "summary": "AI社区热帖：Karpathy加入Anthropic同时发布autoresearch开源AI研究框架。多个AI子社区热议，被视为AI行业最重大的人才流动之一。",
+      "link": "https://news.ycombinator.com/item?id=48194352"
+    },
+    {
+      "title": "Mitchell Hashimoto: 有公司正处于AI精神病",
+      "date": "2026-05-15",
+      "summary": "Hashicorp联合创始人的推文在HN引发2100+点赞、1200+评论的激烈讨论。这句话戳中了业界对AI狂热和盲目投入的集体反思。",
+      "link": "https://news.ycombinator.com/item?id=48153379"
+    },
+    {
+      "title": "OpenAI Q1运营利润率-122%：每赚$1亏$1.22",
+      "date": "2026-05-23",
+      "summary": "The Information披露OpenAI Q1财报：营收约$57亿但调整后运营利润率-122%。Anthropic年化营收近$450亿预计Q2运营利润约$6亿。两家公司可能Q4启动IPO。Reddit热议巨头财务对比。",
+      "link": "https://the-decoder.com/openai-misses-revenue-targets-as-anthropic-and-google-close-in/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Chrome DevTools MCP：AI Agent浏览器调试利器",
+      "date": "2026-05-24",
+      "summary": "Chrome团队发布的Chrome DevTools for coding agents，让AI编程Agent直接操控Chrome DevTools调试。总星超41000。",
+      "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "title": "presenton：开源AI演示文稿生成器",
+      "date": "2026-05-24",
+      "summary": "开源AI演示文稿生成器和API（Gamma、Beautiful AI替代品）。TypeScript实现，总星6606，单日新增241星。",
+      "link": "https://github.com/presenton/presenton"
+    },
+    {
+      "title": "NVlabs LongLive 2.0: 长视频生成新模型",
+      "date": "2026-05-24",
+      "summary": "NVIDIA Research发布LongLive 2.0长视频生成基础设施，支持超长视频生成。作为GitHub Trending项目，展示了视频生成领域最新突破。",
+      "link": "https://github.com/NVlabs/LongLive"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Resolve AI：AI编码爆炸正在破坏生产系统",
+      "date": "2026-05-21",
+      "summary": "获Greylock和Lightspeed投资的Resolve AI推出多Agent协同诊断系统，类似人类团队排查问题，根因准确率提升2倍以上。AI生成代码的运维保障成为新痛点。",
+      "link": "https://venturebeat.com/technology/resolve-ai-says-the-ai-coding-boom-is-breaking-production-systems-it-wants-to-fix-that"
+    },
+    {
+      "title": "OpenAI Codex Appshots一键发送App窗口内容",
+      "date": "2026-05-23",
+      "summary": "Mac用户可通过Appshots功能将任意App窗口内容一键发送给Codex，包括超越可见区域的完整文本。需macOS屏幕录制权限，不受EEA/EU区域限制。",
+      "link": "https://the-decoder.com/openai-codex-appshots-send-app-windows-to-coding-agent/"
+    },
+    {
+      "title": "OpenAI推出ChatGPT敏感对话安全功能",
+      "date": "2026-05-14",
+      "summary": "ChatGPT新增敏感对话识别功能，能更好识别和响应涉及自伤、暴力等敏感话题。标志OpenAI在AI Agent安全领域的最新进展，强调在Agent功能扩展中嵌入安全护栏。",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "California Newsom Signs AI Worker Protection Executive Order",
+      "date": "2026-05-23",
+      "summary": "加州州长Newsom签署美国首份AI工人保护行政令，提出补贴保留员工的企业、扩大再培训、审查全民基本资本。回应Anthropic联合创始人Amodei预测半数白领工作5年内消失。",
+      "link": "https://the-decoder.com/california-newsom-ai-worker-protection-executive-order/"
+    },
+    {
+      "title": "OpenAI Q1 Operating Margin -122% as Anthropic Nears First Profit",
+      "date": "2026-05-23",
+      "summary": "OpenAI Q1营收约$57亿但调整后运营利润率-122%，每赚$1亏$1.22。Anthropic年化营收近$450亿预计Q2运营利润约$6亿。两家公司有望Q4启动史上最大科技IPO之争。",
+      "link": "https://the-decoder.com/openai-misses-revenue-targets-as-anthropic-and-google-close-in/"
+    },
+    {
+      "title": "Trump Postpones AI Executive Order After Musk Zuckerberg Calls",
+      "date": "2026-05-21",
+      "summary": "Trump在签署前最后一刻推迟AI监管行政令，因Musk、Zuckerberg和前顾问Sacks电话游说。Trump称不能让任何事阻碍AI创造的就业。原计划建立前沿模型90天自愿审查机制。",
+      "link": "https://www.politico.com/news/2026/05/21/white-house-postpones-ai-executive-order-signing-00931904"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "Q1中国AI融资超1100亿元同比增185%",
+      "date": "2026-05-24",
+      "summary": "一季度AI融资近600起总额超1100亿，同比增长185.4%。月之暗面、阶跃星辰5月拿下超300亿融资。中国大模型迭代周期缩短至3个月以内。",
+      "link": "https://www.36kr.com/newsflashes/3822775103607172"
+    },
+    {
+      "title": "周鸿祎评马斯克：AI下一阶段在真实世界干活",
+      "date": "2026-05-24",
+      "summary": "周鸿祎发视频谈马斯克自动驾驶预测，认为AI下一阶段不是在屏幕里聊天，而是在真实世界变得越来越能干活，将改变物流、人流、车流。",
+      "link": "https://www.36kr.com/newsflashes/3822814415589768"
+    },
+    {
+      "title": "DeepSeek获中国国家AI产业投资基金领投",
+      "date": "2026-05-23",
+      "summary": "DeepSeek约100亿元融资轮预计引入中国国家AI产业投资基金约100亿元，腾讯、IDG等跟投。估值约450亿美元，梁文峰称优先AGI研究。",
+      "link": "https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/"
+    }
+  ]
+}
