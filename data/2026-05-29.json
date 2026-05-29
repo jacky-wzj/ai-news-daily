@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-29",
+  "insights": [
+    {
+      "title": "Anthropic以$65B H轮融资达$965B估值超越OpenAI成全球估值最高AI公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic完成$65B Series H融资估值$965B超越OpenAI成为全球最有价值的AI初创公司。ARR已达$47B（5个月内从$9B增至$47B），Claude Opus 4.8同步上线。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "SK海力士加入万亿俱乐部AI芯片三巨头全部突破$1万亿市值",
+      "date": "2026-05-27",
+      "summary": "SK海力士市值突破$1万亿与三星和Micron（同日达$1万亿）共同组成AI芯片三巨头。AI内存需求推动KOSPI创历史新高半导体估值逻辑被彻底重写。",
+      "link": "https://www.cnbc.com/2026/05/27/sk-hynix-shares-ai-chip-rally-1-trillion.html"
+    },
+    {
+      "title": "KPMG向全球27.6万员工部署Claude四大会计事务所全面接入Anthropic",
+      "date": "2026-05-29",
+      "summary": "KPMG与Anthropic推出KPMG Digital Gateway Powered by Claude覆盖138国27.6万员工。德勤部署47万PwC同步扩盟四大合计超百万专业人士接入Claude打造持久护城河。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-may-29-2026"
+    },
+    {
+      "title": "OpenAI成立$4B DeployCo子公司19机构联盟参投对标Anthropic企业战略",
+      "date": "2026-05-29",
+      "summary": "OpenAI于5月11日推出DeployCo部署公司TPG领投高盛麦肯锡凯捷等19家联合投资超$40亿。收购Tomoro获150名前端部署工程师Palantir式深度集成模式对标Anthropic。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-may-29-2026"
+    },
+    {
+      "title": "Cohere收购Aleph Alpha组建$20B跨大西洋AI挑战者",
+      "date": "2026-05-29",
+      "summary": "加拿大Cohere收购德国主权AI公司Aleph Alpha合并估值$200亿打造最大非美国AI公司。针对EU AI法案和数据主权需求提供美中之外的第三条AI基础设施路径。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-may-29-2026"
+    },
+    {
+      "title": "Amazon向外部零售商开放AI购物助手推出AWS Agentic Shopping Assistant",
+      "date": "2026-05-27",
+      "summary": "AWS推出Agentic Shopping Assistant允许外部零售商60天内部署自有AI购物体验。基于Alexa for Shopping技术Kate Spade为首家客户agentic commerce进入新阶段。",
+      "link": "https://www.aboutamazon.com/news/aws/aws-agentic-shopping-assistant-retailers"
+    },
+    {
+      "title": "Google I/O 2026后续Managed Agents API与Chrome DevTools for Agents全面铺开",
+      "date": "2026-05-28",
+      "summary": "Google在I/O后持续推进Managed Agents API单次调用启动推理+工具+代码执行隔离Agent；Chrome DevTools for Agents支持20+编码Agent实时调试；Antigravity 2.0支持多Agent管理。",
+      "link": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "MOSS-TTS Technical Report开源语音生成模型",
+      "date": "2026-05-28",
+      "summary": "MOSI.AI和OpenMOSS团队推出开源语音生成模型基于离散音频token和自回归建模支持声音克隆发音控制和跨语言长文本生成。",
+      "link": "https://huggingface.co/papers/2603.18090"
+    },
+    {
+      "title": "Disagreement among frontier LLMs on real-world fact-checks",
+      "date": "2026-05-28",
+      "summary": "研究发现前沿LLM在真实世界事实核查中存在显著分歧在HN获488 points。研究揭示了依赖AI进行信息验证的重大风险引发企业AI可靠性讨论。",
+      "link": "https://huggingface.co/papers/2605.26115"
+    },
+    {
+      "title": "P5: Reproducible Generation of Multilingual Plots in a Multi-Modal Setting",
+      "date": "2026-05-28",
+      "summary": "提出P5框架实现多模态下可复现的多语言图表生成。模型可理解自然语言指令自动生成Matplotlib代码并输出出版物级别的科学图表。",
+      "link": "https://huggingface.co/papers/2407.16741"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Sholto Douglas称Claude Mythos发现银行系统遗留漏洞",
+      "date": "2026-05-28",
+      "summary": "Anthropic工程师Sholto Douglas在X透露新模型Mythos发现金融系统遗留数十年的关键安全漏洞引发企业界对AI系统审计能力的高度关注。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1sp2ytp/so_anthropic_software_engineer_sholto_douglas/"
+    },
+    {
+      "title": "OpenAI GPT-5.5解决80年未解几何问题引发热议",
+      "date": "2026-05-21",
+      "summary": "OpenAI推理模型自主解决悬而未决80年的离散几何猜想这一里程碑在AI社区引发关于AI数学推理能力的广泛讨论与争议。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-may-21-2026"
+    },
+    {
+      "title": "Sam Altman宣布GPT-5.5全面开放并启动Expert Membership订阅",
+      "date": "2026-05-21",
+      "summary": "Sam Altman在X宣布GPT-5.5全面开放同时推出$200/月Expert Membership提供无限访问和早期功能预览。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-may-21-2026"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Discord社区被曝使用Claude Mythos进行漏洞挖掘",
+      "date": "2026-04-22",
+      "summary": "据报道Discord上的AI讨论群组获取了Anthropic的Mythos模型用于软件漏洞挖掘。此事揭示AI模型访问控制和安全审计机制的重大缺陷。",
+      "link": "https://www.govinfosecurity.com/report-discord-group-uses-claudes-supposedly-secret-mythos-a-31484"
+    },
+    {
+      "title": "ROOST宣布推出免费开源AI信任与安全基础设施",
+      "date": "2026-05-28",
+      "summary": "Discord公布ROOST推出Coop和Osprey两款免费开源安全工具为AI时代内容审核和信任安全提供基础设施支持标志社区治理新范式。",
+      "link": "https://discord.com/newsroom"
+    },
+    {
+      "title": "Discord完成端到端加密迁移2026年3月全面部署",
+      "date": "2026-05-25",
+      "summary": "Discord在2026年初完成所有音频和视频通话的端到端加密全面迁移这是AI时代数据隐私保护的重要里程碑。",
+      "link": "https://releasebot.io/updates/discord"
+    }
+  ],
+  "github": [
+    {
+      "title": "badlogic/pi-mono统一Agent开发工具包43.9k星",
+      "date": "2026-05-28",
+      "summary": "Mario Zechner的一体化Agent monorepo包含编码Agent CLI统一LLM API（支持Anthropic/OpenAI/Groq等）TUI/Web UI库Slack bot和vLLM pods。",
+      "link": "https://github.com/badlogic/pi-mono"
+    },
+    {
+      "title": "bhavnicksm/purple-pi-photo-realism快速超真实AI图像生成器2.6k星",
+      "date": "2026-05-28",
+      "summary": "基于Pi-0模型的照片真实级别AI图像生成器可从不同风格和文本生成极高质量图像。一周内获2.6k星成为AI图像领域热门项目。",
+      "link": "https://github.com/bhavnicksm/purple-pi-photo-realism"
+    },
+    {
+      "title": "modelcontextprotocol/inspector MCP协议调试工具2.1k星",
+      "date": "2026-05-28",
+      "summary": "Anthropic发布的Model Context Protocol官方调试工具支持MCP服务器的开发测试和性能监控成为Agent工具生态的核心基础设施。",
+      "link": "https://github.com/modelcontextprotocol/inspector"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Claude Opus 4.8发布获1514 points编程能力再跃升",
+      "date": "2026-05-28",
+      "summary": "Anthropic发布Claude Opus 4.8在HN获1514 points和1177条评论。讨论聚焦AI编码Agent技术快速演进和对软件工程职业的深远影响。",
+      "link": "https://news.ycombinator.com/item?id=48311647"
+    },
+    {
+      "title": "前沿LLM事实核查分歧研究获488 points热议",
+      "date": "2026-05-28",
+      "summary": "lenz.io研究揭示前沿LLM在真实世界事实核查中的惊人分歧获488 points。讨论围绕AI可靠性评估方法和企业应用中的信任挑战展开。",
+      "link": "https://news.ycombinator.com/item?id=48307887"
+    },
+    {
+      "title": "Anthropic完成$65B H轮融资估值$965B获340 points",
+      "date": "2026-05-28",
+      "summary": "Anthropic融资公告获340 points和360条评论。讨论涵盖ARR从$9B到$47B的爆发式增长5个月内5倍VC估值逻辑和AI行业资本效率。",
+      "link": "https://news.ycombinator.com/item?id=48313048"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "2026年5月底ChatGPT vs Claude、Codex vs Claude Code实际使用偏好",
+      "date": "2026-05-25",
+      "summary": "Reddit r/ChatGPT热议帖整理AI工具实际使用情况。讨论显示Claude Code在企业编码场景领先ChatGPT在通用场景保持优势开发者各取所需。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1tk1qr8/late_may_2026_what_are_you_guys_actually_using/"
+    },
+    {
+      "title": "AI Roundup 2026年5月AI行业十大关键事件",
+      "date": "2026-05-11",
+      "summary": "Reddit r/AI_importants月度总结覆盖Google I/O、GPT-5.5发布、Anthropic估值超OpenAI、Pope Leo XIV发布AI通谕等重磅事件。",
+      "link": "https://www.reddit.com/r/AI_importants/comments/1t9uvx9/ai_roundup_whats_happening_in_may_2026_that_you/"
+    },
+    {
+      "title": "Claude Opus 4.8 with agent mode hydra benchmarks and real world experience",
+      "date": "2026-05-28",
+      "summary": "Reddit r/ClaudeAI热议Claude Opus 4.8推出Agent Mode后Hydra基准测试结果和真实使用体验。用户反馈Agent能力显著提升多步骤任务完成率大幅改善。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1suhkaq/claude_opus_48_with_agent_mode_hydra_benchmarks/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "AWS Agentic Shopping Assistant Amazon向零售商开放AI购物助手",
+      "date": "2026-05-27",
+      "summary": "AWS推出Agentic Shopping Assistant让零售商60天内部署自有AI购物体验。基于Alexa for Shopping技术支持对话式推荐和个性化导购Kate Spade为首家客户。",
+      "link": "https://www.aboutamazon.com/news/aws/aws-agentic-shopping-assistant-retailers"
+    },
+    {
+      "title": "Google Managed Agents API一行API调用启动全栈AI Agent",
+      "date": "2026-05-20",
+      "summary": "Google发布Managed Agents in Gemini API单次调用即可启动推理+工具调用+代码执行的隔离Agent。内置于临时Linux沙箱环境大幅降低Agent开发门槛。",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/managed-agents-gemini-api/"
+    },
+    {
+      "title": "E2B Desktop Sandbox云端安全AI编程沙箱环境上线",
+      "date": "2026-05-22",
+      "summary": "E2B推出Desktop Sandbox云端AI安全执行环境支持Claude Code/VS Code等Agent安全运行代码。提供隔离沙箱防止AI代码执行风险。",
+      "link": "https://dev.to/hongphuc5497/e2b-desktop-sandbox"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Robinhood开放AI Agent自主股票交易功能",
+      "date": "2026-05-27",
+      "summary": "Robinhood推出AI Agent交易功能用户可将决策委托给Agent。Agent可分析投资组合制定策略但仅能使用专用钱包预存余额操作每个金融平台都在变成AI Agent平台。",
+      "link": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/"
+    },
+    {
+      "title": "Camunda发布ProcessOS AI驱动的业务流程发现优化平台",
+      "date": "2026-05-20",
+      "summary": "CamundaCon发布ProcessOS AI智能层自动发现和持续优化业务流程为Agentic工作流。5月20日起封闭beta企业流程自动化进入Agent化阶段。",
+      "link": "https://aiagentstore.ai/ai-agent-news/this-week"
+    },
+    {
+      "title": "Google Gemini Spark 24/7云端个人AI Agent全面铺开",
+      "date": "2026-05-28",
+      "summary": "Google I/O发布Gemini Spark作为24/7云端常驻AI Agent首发接入Gmail/Chat通过MCP连接30+第三方工具。用户意图驱动Agent自主执行跨应用任务。",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic $65B H轮估值$965B硅谷AI格局彻底改写",
+      "date": "2026-05-28",
+      "summary": "Anthropic完成硅谷史上最大单轮融资$65B Series H估值$965B超越OpenAI。Karpathy转投ARR五个月增5倍达$47B人才资本技术三重优势集中爆发。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "SK海力士市值突破$1万亿AI芯片三巨头同日跨入万亿俱乐部",
+      "date": "2026-05-27",
+      "summary": "SK海力士市值突破$1万亿与Micron（同日达$1万亿）和三星组成AI芯片三巨头。KOSPI暴涨创历史新高硅谷半导体供应链加速重构。",
+      "link": "https://www.cnbc.com/2026/05/27/sk-hynix-shares-ai-chip-rally-1-trillion.html"
+    },
+    {
+      "title": "Sequoia募集$70亿新基金加码硅谷AI投资布局",
+      "date": "2026-04-16",
+      "summary": "硅谷顶级VC Sequoia Capital完成约$70亿新基金募集继续加码AI投资。作为Anthropic和Harvey等头部AI公司的早期投资者Sequoia全面押注硅谷AI赛道。",
+      "link": "https://techcrunch.com/2026/04/16/new-leaders-new-fund-sequoia-has-raised-7b-to-expand-its-ai-bets/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "字节跳动将2026年AI资本开支上调至2000亿元加大国产芯片投入",
+      "date": "2026-05-28",
+      "summary": "字节将2026年AI基础设施资本开支从1600亿上调至2000亿元加大国产AI芯片投入比例为智能体规模化部署筑牢算力底座。",
+      "link": "https://cloud.tencent.com/developer/article/2668857"
+    },
+    {
+      "title": "百度Create 2026大会宣布全面转向智能体优先战略",
+      "date": "2026-05-13",
+      "summary": "百度Create 2026 AI开发者大会宣布全面转向智能体优先战略从模型厂商转型为全栈智能体基础设施提供商提出行业新度量衡。",
+      "link": "https://cloud.tencent.com/developer/article/2668857"
+    },
+    {
+      "title": "国家地方共建人形机器人创新中心发布青龙2代通用人形机器人平台",
+      "date": "2026-05-25",
+      "summary": "上海国地中心发布青龙2代通用人形机器人平台具备AI自主感知决策和灵巧操作能力已经进入智能工厂和家庭服务场景试点。",
+      "link": "https://www.36kr.com/p/3721035816268545"
+    }
+  ]
+}
