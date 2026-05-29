@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年5月29日星期五</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年5月29日星期五</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini</h3>
+      <div class="meta">👤 </div>
+      <p>Google研究团队提出Gemini Embedding 2原生多模态嵌入模型支持文本图像等多种模态的统一嵌入表示。在跨模态检索和理解任务上取得显著提升。</p>
+  <a class="link" href="https://huggingface.co/papers/2605.27295" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. HRM-Text: Efficient Pretraining Beyond Scaling Reproduction</h3>
+      <div class="meta">👤 </div>
+      <p>研究者提出HRM-Text方法探索超越简单规模复制的预训练效率。论文重新审视预训练数据策略在更小规模数据上实现与传统大规模预训练相当的性能。</p>
+  <a class="link" href="https://huggingface.co/papers/2605.20613" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ChatGPT语音模式被发现仍运行旧版GPT-4o模型引发争议</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-27</div>
+      <p>社区发现ChatGPT语音模式仍在运行旧版GPT-4o模型（2024年截止）而Codex等高端模型已能自主重构整个代码库。揭示了不同AI访问点间日益扩大的能力差距。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI Builders on Reddit Saw the Future First Study Finds</h3>
+      <div class="meta">💬 </div>
+      <p>研究发现Reddit上的AI Builder社区在AI趋势识别上领先于主流媒体。研究使用主题建模和跨社区分析追踪了从ChatGPT发布到2026年5月的AI讨论演变。</p>
+  <a class="link" href="https://pinionnewswire.com/press-release/ai-builders-on-reddit-saw-the-future-first-study-finds/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 7 Agentic AI Trends That Will Shape 2026</h3>
+      <div class="meta">💬 </div>
+      <p>社区总结2026年七大Agentic AI趋势：多Agent编排微服务时刻、深度记忆集成、工具生态标准化、Agent-to-Agent通信协议、自主科学研究、企业治理框架。</p>
+  <a class="link" href="https://www.reddit.com/r/CyberIdentity_/comments/1toyd5p/7_agentic_ai_trends_that_will_shape_2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems</h3>
+      <div class="meta">💬 </div>
+      <p>ICLR 2026设立专门Workshop讨论LLM Agent记忆系统。MCP协议迁移至Linux Foundation管理标志着Agent基础设施走向标准化。</p>
+  <a class="link" href="https://www.reddit.com/r/aiagents/new/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Stop Slop：移除AI生成文本中AI痕迹的工具</h3>
+      
+      <p>GitHub新热门项目以skill file形式交付专门识别和消除AI生成文本中的AI痕迹（如特定句式过度使用某些词汇等）提升AI辅助写作的自然度。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-05-28-stop-slop-a-new-github-repository-aimed-at-removing-ai-tells-from-generated-prose" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI公司IPO浪潮：Anthropic、OpenAI、SpaceX三大巨头即将上市</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>纽约时报分析三大AI巨头（Anthropic、OpenAI、SpaceX）即将进行的IPO可能成为史上最大规模IPO之一。讨论AI行业从私募向公开市场的转折。</p>
+  <a class="link" href="https://www.nytimes.com/2026/05/28/world/ai-ipo-anthropic-openai-spacex-iran.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. npm供应链攻击：恶意包伪装为合法AI库窃取信息</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>网络安全研究人员发现npm注册表中新的恶意包具备信息窃取功能。攻击者利用AI开发者对工具链的信任发动供应链攻击。</p>
+  <a class="link" href="https://thehackernews.com/2026/05/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. FortiClient EMS高危漏洞CVE-2026-35616被利用传递EKZ凭证窃取器</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>黑客利用FortiClient企业管理系统认证绕过漏洞攻击传递EKZ凭证窃取器。该漏洞影响广泛安全社区呼吁立即修补。</p>
+  <a class="link" href="https://www.bleepingcomputer.com/news/security/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Google AI Threat Defence：企业级AI网络安全平台</h3>
+      
+      <p>Google推出AI Threat Defence平台利用AI帮助企业检测威胁修复漏洞。与OpenAI Daybreak和Anthropic网络安全产品形成三足鼎立。</p>
+  <a class="link" href="https://www.analyticsinsight.net/news/google-vs-openai-and-anthropic-who-will-lead-the-next-ai-cybersecurity-battle-globally" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Claude Code发布最详细使用分析更新</h3>
+      
+      <p>Claude Code推出迄今为止最详细的使用分析功能，为开发者提供更深入的编码行为洞察和Agent性能指标。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Stop Slop：AI文本去痕迹工具</h3>
+      
+      <p>新GitHub项目Stop Slop以skill file形式交付，专门识别和消除AI生成文本中的AI痕迹，提升AI辅助写作的自然度和可读性。</p>
+  <a class="link" href="https://aitoolly.com/ai-news/article/2026-05-28-stop-slop-a-new-github-repository-aimed-at-removing-ai-tells-from-generated-prose" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. KPMG与Anthropic推出KPMG Digital Gateway，27.6万专业人士接入Claude</h3>
+      <div class="meta">🤖 </div>
+      <p>KPMG和Anthropic宣布KPMG Digital Gateway Powered by Claude将Anthropic前沿AI嵌入KPMG核心客户交付平台，覆盖全球138个国家27.6万名专业人士。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI与Anthropic在就业末日辩论中各执一词</h3>
+      <div class="meta">🤖 </div>
+      <p>Anthropic联合创始人Chris Olah在梵蒂冈AI伦理会议上重申AI危险言论。OpenAI则采取更温和的就业转型叙事。两家公司在AI对劳动力影响上的分歧引发广泛讨论。</p>
+  <a class="link" href="https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic超越OpenAI成为全球估值最高AI初创公司</h3>
+      <div class="meta">📅 2026-05-28</div>
+      <p>Anthropic估值超越OpenAI成为全球最有价值的AI初创公司。Claude Opus 4.8在vibe coding领域表现卓越，企业采用率快速增长。Anthropic同时在米兰开设办公室以支持意大利企业客户。</p>
+  <a class="link" href="https://www.nytimes.com/2026/05/28/technology/anthropic-tops-openai-valuation.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cohere收购Aleph Alpha，打造200亿美元跨大西洋主权AI挑战者</h3>
+      <div class="meta">📅 2026-05-28</div>
+      <p>Cohere与Aleph Alpha合并创建估值200亿美元的跨大西洋主权AI公司。合并实体将成为欧洲和北美市场上OpenAI与Anthropic的有力竞争者。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Google推出AI Threat Defence网络安全平台，与OpenAI Daybreak正面竞争</h3>
+      <div class="meta">📅 2026-05-28</div>
+      <p>Google发布AI Threat Defence帮助企业检测威胁并加速漏洞修复。此举使Google与OpenAI的Daybreak和Anthropic的网络安全产品直接竞争。</p>
+  <a class="link" href="https://www.analyticsinsight.net/news/google-vs-openai-and-anthropic-who-will-lead-the-next-ai-cybersecurity-battle-globally" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Illinois通过SB 315 AI安全法案，要求前沿AI公司接受第三方审计</h3>
+      <div class="meta">📅 2026-05-28</div>
+      <p>Illinois州议会通过SB 315法案要求OpenAI、Anthropic、Google DeepMind等前沿AI公司接受第三方安全实践审计。这是美国州级AI监管的重要里程碑。</p>
+  <a class="link" href="https://techstartups.com/2026/05/28/top-tech-news-today-may-28-2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. NextEra斥资670亿美元收购Dominion Energy，加速美国AI基础设施</h3>
+      <div class="meta">📅 2026-05-28</div>
+      <p>NextEra Energy以670亿美元收购Dominion Energy押注能快速交付AI热潮所需电力基础设施。这是能源行业为满足AI数据中心需求进行的最大规模整合。</p>
+  <a class="link" href="https://www.bloomberg.com/news/newsletters/2026-05-28/nextera-is-betting-its-dominion-deal-can-speed-us-infrastructure-for-ai" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. Apple iOS 27曝光：全面革新Siri、专业相机App、新AI功能</h3>
+      <div class="meta">📅 2026-05-28</div>
+      <p>Apple iOS 27细节曝光包括全面革新的Siri数字助理、专业级相机App和新AI功能。Tim Cook希望借此在AI数字助理领域实现反击。</p>
+  <a class="link" href="https://www.bloomberg.com/news/features/2026-05-28/apple-ios-27-photos-screenshots-revamped-siri-pro-camera-app-new-ai-features" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic超越OpenAI成为全球最有价值AI初创公司</h3>
+      
+      <p>Anthropic估值超越OpenAI成为AI行业新王。Claude Opus 4.8在vibe coding和企业市场表现卓越标志着AI竞争格局的重大转变。</p>
+  <a class="link" href="https://www.nytimes.com/2026/05/28/technology/anthropic-tops-openai-valuation.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Cohere与Aleph Alpha合并创建200亿美元主权AI巨头</h3>
+      
+      <p>Cohere收购Aleph Alpha创建估值200亿美元的跨大西洋主权AI挑战者。该交易重塑了全球AI竞争格局为欧洲AI产业注入新动力。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 加拿大裁定OpenAI违反隐私法，全球AI监管分化加剧</h3>
+      
+      <p>加拿大隐私监管机构裁定OpenAI违反本国隐私法律。此裁决为全球AI监管格局增添新变数，也对在海外扩展的中国AI企业产生间接影响。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 13:31 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

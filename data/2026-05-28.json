@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-28",
+  "insights": [
+    {
+      "title": "Anthropic超越OpenAI成为全球估值最高AI初创公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic估值超越OpenAI成为全球最有价值的AI初创公司。Claude Opus 4.8在vibe coding领域表现卓越，企业采用率快速增长。Anthropic同时在米兰开设办公室以支持意大利企业客户。",
+      "link": "https://www.nytimes.com/2026/05/28/technology/anthropic-tops-openai-valuation.html"
+    },
+    {
+      "title": "NVIDIA押注1500亿美元投资台湾，巩固AI芯片生态核心地位",
+      "date": "2026-05-28",
+      "summary": "NVIDIA计划每年投资1500亿美元确保台湾保持AI革命核心地位。特朗普将美国打造为AI中心的计划受挫，高端AI芯片供应持续紧张推动价格上涨。",
+      "link": "https://radicaldatascience.wordpress.com/2026/05/28/ai-news-briefs-bulletin-board-for-may-2026/"
+    },
+    {
+      "title": "Cohere收购Aleph Alpha，打造200亿美元跨大西洋主权AI挑战者",
+      "date": "2026-05-28",
+      "summary": "Cohere与Aleph Alpha合并创建估值200亿美元的跨大西洋主权AI公司。合并实体将成为欧洲和北美市场上OpenAI与Anthropic的有力竞争者。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026"
+    },
+    {
+      "title": "Google推出AI Threat Defence网络安全平台，与OpenAI Daybreak正面竞争",
+      "date": "2026-05-28",
+      "summary": "Google发布AI Threat Defence帮助企业检测威胁并加速漏洞修复。此举使Google与OpenAI的Daybreak和Anthropic的网络安全产品直接竞争。",
+      "link": "https://www.analyticsinsight.net/news/google-vs-openai-and-anthropic-who-will-lead-the-next-ai-cybersecurity-battle-globally"
+    },
+    {
+      "title": "Illinois通过SB 315 AI安全法案，要求前沿AI公司接受第三方审计",
+      "date": "2026-05-28",
+      "summary": "Illinois州议会通过SB 315法案要求OpenAI、Anthropic、Google DeepMind等前沿AI公司接受第三方安全实践审计。这是美国州级AI监管的重要里程碑。",
+      "link": "https://techstartups.com/2026/05/28/top-tech-news-today-may-28-2026/"
+    },
+    {
+      "title": "NextEra斥资670亿美元收购Dominion Energy，加速美国AI基础设施",
+      "date": "2026-05-28",
+      "summary": "NextEra Energy以670亿美元收购Dominion Energy押注能快速交付AI热潮所需电力基础设施。这是能源行业为满足AI数据中心需求进行的最大规模整合。",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-05-28/nextera-is-betting-its-dominion-deal-can-speed-us-infrastructure-for-ai"
+    },
+    {
+      "title": "Apple iOS 27曝光：全面革新Siri、专业相机App、新AI功能",
+      "date": "2026-05-28",
+      "summary": "Apple iOS 27细节曝光包括全面革新的Siri数字助理、专业级相机App和新AI功能。Tim Cook希望借此在AI数字助理领域实现反击。",
+      "link": "https://www.bloomberg.com/news/features/2026-05-28/apple-ios-27-photos-screenshots-revamped-siri-pro-camera-app-new-ai-features"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini",
+      "date": "2026-05-27",
+      "summary": "Google研究团队提出Gemini Embedding 2原生多模态嵌入模型支持文本图像等多种模态的统一嵌入表示。在跨模态检索和理解任务上取得显著提升。",
+      "link": "https://huggingface.co/papers/2605.27295"
+    },
+    {
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, and Evaluation",
+      "date": "2026-05-27",
+      "summary": "字节跳动提出MUSE-Autoskill框架AI Agent通过技能创建记忆管理和评估进行自我进化。使Agent能在无人工干预下持续学习新技能并优化已有能力。",
+      "link": "https://huggingface.co/papers/2605.27366"
+    },
+    {
+      "title": "HRM-Text: Efficient Pretraining Beyond Scaling Reproduction",
+      "date": "2026-05-26",
+      "summary": "研究者提出HRM-Text方法探索超越简单规模复制的预训练效率。论文重新审视预训练数据策略在更小规模数据上实现与传统大规模预训练相当的性能。",
+      "link": "https://huggingface.co/papers/2605.20613"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andrej Karpathy开源AutoResearch：24/7 AI研究实验室",
+      "date": "2026-05-25",
+      "summary": "Karpathy开源AutoResearch项目一个全天候运行的AI研究实验室。项目在GitHub迅速获得关注被视为AI Agent自主研究能力的重要里程碑。",
+      "link": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "title": "Elon Musk在输掉OpenAI诉讼后持续发声提出全民基本收入方案",
+      "date": "2026-05-26",
+      "summary": "陪审团裁定Musk起诉OpenAI超出诉讼时效。Musk转而提出全民收入方案应对AI造成的大规模失业在X平台引发广泛讨论。",
+      "link": "https://finance-commerce.com/2026/05/elon-musk-universal-income-ai-job-losses/"
+    },
+    {
+      "title": "ChatGPT语音模式被发现仍运行旧版GPT-4o模型引发争议",
+      "date": "2026-05-27",
+      "summary": "社区发现ChatGPT语音模式仍在运行旧版GPT-4o模型（2024年截止）而Codex等高端模型已能自主重构整个代码库。揭示了不同AI访问点间日益扩大的能力差距。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026"
+    }
+  ],
+  "discord": [
+    {
+      "title": "AI Builders on Reddit Saw the Future First Study Finds",
+      "date": "2026-05-25",
+      "summary": "研究发现Reddit上的AI Builder社区在AI趋势识别上领先于主流媒体。研究使用主题建模和跨社区分析追踪了从ChatGPT发布到2026年5月的AI讨论演变。",
+      "link": "https://pinionnewswire.com/press-release/ai-builders-on-reddit-saw-the-future-first-study-finds/"
+    },
+    {
+      "title": "7 Agentic AI Trends That Will Shape 2026",
+      "date": "2026-05-27",
+      "summary": "社区总结2026年七大Agentic AI趋势：多Agent编排微服务时刻、深度记忆集成、工具生态标准化、Agent-to-Agent通信协议、自主科学研究、企业治理框架。",
+      "link": "https://www.reddit.com/r/CyberIdentity_/comments/1toyd5p/7_agentic_ai_trends_that_will_shape_2026/"
+    },
+    {
+      "title": "ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems",
+      "date": "2026-05-24",
+      "summary": "ICLR 2026设立专门Workshop讨论LLM Agent记忆系统。MCP协议迁移至Linux Foundation管理标志着Agent基础设施走向标准化。",
+      "link": "https://www.reddit.com/r/aiagents/new/"
+    }
+  ],
+  "github": [
+    {
+      "title": "Stop Slop：移除AI生成文本中AI痕迹的工具",
+      "date": "2026-05-28",
+      "summary": "GitHub新热门项目以skill file形式交付专门识别和消除AI生成文本中的AI痕迹（如特定句式过度使用某些词汇等）提升AI辅助写作的自然度。",
+      "link": "https://aitoolly.com/ai-news/article/2026-05-28-stop-slop-a-new-github-repository-aimed-at-removing-ai-tells-from-generated-prose"
+    },
+    {
+      "title": "AgentMemory：AI编程Agent持久化记忆方案",
+      "date": "2026-05-28",
+      "summary": "基于真实世界基准测试的领先AI编程Agent持久化记忆解决方案。帮助Agent跨session保持上下文和知识在Agent开发社区中获得广泛关注。",
+      "link": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "title": "Understand-Anything：将任何代码转为交互式知识图谱",
+      "date": "2026-05-27",
+      "summary": "36K+星标项目支持Claude Code、Codex、Cursor等主流AI编程工具。将代码转化为可探索可搜索可提问的交互式知识图谱。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    }
+  ],
+  "hn": [
+    {
+      "title": "AI公司IPO浪潮：Anthropic、OpenAI、SpaceX三大巨头即将上市",
+      "date": "2026-05-28",
+      "summary": "纽约时报分析三大AI巨头（Anthropic、OpenAI、SpaceX）即将进行的IPO可能成为史上最大规模IPO之一。讨论AI行业从私募向公开市场的转折。",
+      "link": "https://www.nytimes.com/2026/05/28/world/ai-ipo-anthropic-openai-spacex-iran.html"
+    },
+    {
+      "title": "npm供应链攻击：恶意包伪装为合法AI库窃取信息",
+      "date": "2026-05-27",
+      "summary": "网络安全研究人员发现npm注册表中新的恶意包具备信息窃取功能。攻击者利用AI开发者对工具链的信任发动供应链攻击。",
+      "link": "https://thehackernews.com/2026/05/"
+    },
+    {
+      "title": "FortiClient EMS高危漏洞CVE-2026-35616被利用传递EKZ凭证窃取器",
+      "date": "2026-05-28",
+      "summary": "黑客利用FortiClient企业管理系统认证绕过漏洞攻击传递EKZ凭证窃取器。该漏洞影响广泛安全社区呼吁立即修补。",
+      "link": "https://www.bleepingcomputer.com/news/security/"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/AI_Agents: 47个2026年新Agent产品发布五大差异化趋势",
+      "date": "2026-05-25",
+      "summary": "Reddit用户系统追踪2026年1-5月47个新兴Agent产品。来源涵盖TC、PH、YC W26、a16z，指出最有趣的产品来自Agent而非基础模型。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1tn12df/i_tracked_47_new_agent_products_launched_in_2026/"
+    },
+    {
+      "title": "r/artificial: Multi-agent AI系统自动化科学发现无人做好准备",
+      "date": "2026-05-26",
+      "summary": "社区热议多Agent AI系统在自动化科学发现方面的突破。讨论指出社会和监管体系尚未为此类技术做好准备。",
+      "link": "https://www.reddit.com/r/artificial/comments/1tk6mjs/multiagent_ai_systems_are_now_automating/"
+    },
+    {
+      "title": "r/ArtificialInteligence: 斯坦福HAI 2026 AI指数报告中国AI逼近美国",
+      "date": "2026-05-27",
+      "summary": "斯坦福HAI 2026 AI指数报告引发热议：中国在AI领域已几乎抹平与美国的差距。讨论聚焦两国AI竞争格局变化及政策影响。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1sncv1j/the_stanford_ai_index_report_of_2026_has_some/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google AI Threat Defence：企业级AI网络安全平台",
+      "date": "2026-05-28",
+      "summary": "Google推出AI Threat Defence平台利用AI帮助企业检测威胁修复漏洞。与OpenAI Daybreak和Anthropic网络安全产品形成三足鼎立。",
+      "link": "https://www.analyticsinsight.net/news/google-vs-openai-and-anthropic-who-will-lead-the-next-ai-cybersecurity-battle-globally"
+    },
+    {
+      "title": "Claude Code发布最详细使用分析更新",
+      "date": "2026-05-28",
+      "summary": "Claude Code推出迄今为止最详细的使用分析功能，为开发者提供更深入的编码行为洞察和Agent性能指标。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026"
+    },
+    {
+      "title": "Stop Slop：AI文本去痕迹工具",
+      "date": "2026-05-28",
+      "summary": "新GitHub项目Stop Slop以skill file形式交付，专门识别和消除AI生成文本中的AI痕迹，提升AI辅助写作的自然度和可读性。",
+      "link": "https://aitoolly.com/ai-news/article/2026-05-28-stop-slop-a-new-github-repository-aimed-at-removing-ai-tells-from-generated-prose"
+    }
+  ],
+  "agent": [
+    {
+      "title": "KPMG与Anthropic推出KPMG Digital Gateway，27.6万专业人士接入Claude",
+      "date": "2026-05-19",
+      "summary": "KPMG和Anthropic宣布KPMG Digital Gateway Powered by Claude将Anthropic前沿AI嵌入KPMG核心客户交付平台，覆盖全球138个国家27.6万名专业人士。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026"
+    },
+    {
+      "title": "Anthropic米兰办公室开业服务意大利企业与开发者",
+      "date": "2026-05-27",
+      "summary": "Anthropic在米兰开设办公室支持意大利企业客户研究机构和开发者生态。这是Anthropic欧洲扩张战略的重要一步。",
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "OpenAI与Anthropic在就业末日辩论中各执一词",
+      "date": "2026-05-27",
+      "summary": "Anthropic联合创始人Chris Olah在梵蒂冈AI伦理会议上重申AI危险言论。OpenAI则采取更温和的就业转型叙事。两家公司在AI对劳动力影响上的分歧引发广泛讨论。",
+      "link": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic超越OpenAI成为全球最有价值AI初创公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic估值超越OpenAI成为AI行业新王。Claude Opus 4.8在vibe coding和企业市场表现卓越标志着AI竞争格局的重大转变。",
+      "link": "https://www.nytimes.com/2026/05/28/technology/anthropic-tops-openai-valuation.html"
+    },
+    {
+      "title": "NVIDIA押注1500亿美元投资台湾AI生态系统",
+      "date": "2026-05-28",
+      "summary": "NVIDIA计划每年投资1500亿美元确保台湾保持在AI革命核心地位。此举对冲了特朗普政策对美国AI芯片供应的不确定性。",
+      "link": "https://radicaldatascience.wordpress.com/2026/05/28/ai-news-briefs-bulletin-board-for-may-2026/"
+    },
+    {
+      "title": "Cohere与Aleph Alpha合并创建200亿美元主权AI巨头",
+      "date": "2026-05-28",
+      "summary": "Cohere收购Aleph Alpha创建估值200亿美元的跨大西洋主权AI挑战者。该交易重塑了全球AI竞争格局为欧洲AI产业注入新动力。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "斯坦福HAI 2026 AI指数报告：中国AI已几乎抹平与美国差距",
+      "date": "2026-05-27",
+      "summary": "斯坦福HAI发布2026 AI指数报告显示中国在AI领域已几乎消除与美国的差距。报告引发全球AI社区对中美竞争格局的广泛讨论。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1sncv1j/the_stanford_ai_index_report_of_2026_has_some/"
+    },
+    {
+      "title": "字节跳动MUSE-Autoskill：AI Agent自我进化框架登上Hugging Face热门",
+      "date": "2026-05-27",
+      "summary": "字节跳动提出MUSE-Autoskill框架通过技能创建记忆管理和评估机制使AI Agent在无人工干预下持续自我进化。Hugging Face当日热门论文。",
+      "link": "https://huggingface.co/papers/2605.27366"
+    },
+    {
+      "title": "加拿大裁定OpenAI违反隐私法，全球AI监管分化加剧",
+      "date": "2026-05-27",
+      "summary": "加拿大隐私监管机构裁定OpenAI违反本国隐私法律。此裁决为全球AI监管格局增添新变数，也对在海外扩展的中国AI企业产生间接影响。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026"
+    }
+  ]
+}
