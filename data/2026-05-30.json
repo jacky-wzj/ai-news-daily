@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-30",
+  "insights": [
+    {
+      "title": "Mistral AI Now Summit 完整记录：欧洲AI崛起与开源战略",
+      "date": "2026-05-30",
+      "summary": "Mistral AI Now Summit 披露最新战略，展示新一代模型、企业级AI平台与开源路线图，标志着欧洲AI力量全面崛起，挑战美中AI双极格局。",
+      "link": "https://koenvangilst.nl/lab/mistral-ai-now-summit"
+    },
+    {
+      "title": "Is AI causing a repeat of frontend's lost decade?",
+      "date": "2026-05-30",
+      "summary": "深度分析AI编程工具对前端开发领域的影响，探讨AI生成代码是否会在前端领域重演过去十年技术债务和碎片化的教训。",
+      "link": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/"
+    },
+    {
+      "title": "Liquid AI 发布 8B-A1B MoE 模型：38万亿token训练，效率突破",
+      "date": "2026-05-30",
+      "summary": "Liquid AI 推出 LFM 2.5 8B-A1B MoE 架构模型，在38万亿token上训练，采用混合专家架构实现极高推理效率和性能，引领非Transformer路线。",
+      "link": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+    },
+    {
+      "title": "MCP is dead? 协议之争与AI Agent互操作性的未来",
+      "date": "2026-05-30",
+      "summary": "深度分析MCP协议的现状与未来，探讨AI Agent之间的互操作性标准之争，以及行业对统一Agent通信协议的需求和挑战。",
+      "link": "https://www.quandri.io/engineering-blog/mcp-is-dead"
+    },
+    {
+      "title": "Hy3神秘LLM登顶OpenRouter排行榜：性能大幅领先引发社区热议",
+      "date": "2026-05-30",
+      "summary": "一款名为Hy3的神秘大语言模型在OpenRouter模型排行榜上以巨大优势登顶，其来源和架构信息不明，引发AI社区广泛讨论和猜测。",
+      "link": "https://minimaxir.com/2026/05/openrouter-hy3/"
+    },
+    {
+      "title": "40%企业将降级或停用自主AI Agent：Gartner发布Agent治理警告",
+      "date": "2026-05-30",
+      "summary": "Gartner报告指出，缺乏统一治理框架将导致企业AI Agent大规模失败，40%的企业预计将降级或停用自主AI Agent，强调Agent治理的紧迫性。",
+      "link": "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure"
+    },
+    {
+      "title": "SQLite is all you need for durable workflows：轻量级持久工作流新范式",
+      "date": "2026-05-30",
+      "summary": "技术深度文章论证SQLite作为持久工作流引擎的可行性，展示如何用轻量级数据库替代复杂消息队列系统，对AI Agent工作流设计产生深远影响。",
+      "link": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "date": "2026-05-30",
+      "summary": "提出LLMSurgeon框架，用于诊断和优化大语言模型训练中的数据混合策略，帮助研究者理解不同数据配比对模型能力的影响。",
+      "link": "http://arxiv.org/abs/2605.30348v1"
+    },
+    {
+      "title": "Understanding Inference Scaling for LLMs: Bottlenecks, Trade-Offs, and Performance",
+      "date": "2026-05-30",
+      "summary": "系统分析大语言模型推理扩展中的瓶颈和权衡，为优化LLM部署效率提供理论和实践指导。",
+      "link": "https://arxiv.org/abs/2605.19775"
+    },
+    {
+      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "date": "2026-05-30",
+      "summary": "提出VideoMLA技术，通过低秩潜在KV缓存实现分钟级自回归视频扩散生成，大幅提升长视频生成效率。",
+      "link": "http://arxiv.org/abs/2605.30351v1"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Mistral AI Now Summit 引发X平台AI社区热议：欧洲开源力量强势崛起",
+      "date": "2026-05-30",
+      "summary": "Mistral AI Now Summit在X平台引发AI大V广泛讨论，多位技术领袖对Mistral最新开源模型和欧洲AI战略发表深度评论。",
+      "link": "https://koenvangilst.nl/lab/mistral-ai-now-summit"
+    },
+    {
+      "title": "Hy3神秘模型登顶OpenRouter排行榜引爆X平台大V分析与猜测",
+      "date": "2026-05-30",
+      "summary": "Hy3大语言模型以巨大优势登顶OpenRouter排行榜后，X平台AI技术大V纷纷发表技术分析和来源猜测，社区讨论持续升温。",
+      "link": "https://minimaxir.com/2026/05/openrouter-hy3/"
+    },
+    {
+      "title": "SQLite for durable workflows 观点在X平台引发AI架构师激烈讨论",
+      "date": "2026-05-30",
+      "summary": "SQLite for durable workflows 技术文章在X平台引发AI/Agent架构师社区关于工作流引擎轻量化方向的深入辩论。",
+      "link": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Opus 4.8 may have distilled Qwen — Community Debate",
+      "date": "2026-05-30",
+      "summary": "Reddit ClaudeCode community debates whether Claude Opus 4.8 used knowledge distillation from Alibaba's Qwen model, sparking discussions on AI training transparency.",
+      "link": "https://old.reddit.com/r/ClaudeCode/comments/1tqaist/opus_48_distilled_qwen/"
+    },
+    {
+      "title": "Hackers are now using ChatGPT share links to deliver malware",
+      "date": "2026-05-30",
+      "summary": "Security research reveals hackers exploiting ChatGPT's share link feature to distribute malware, prompting urgent AI platform security discussions across developer communities.",
+      "link": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware/"
+    },
+    {
+      "title": "New Study Reveals the Manipulative 'Dark Patterns' of AI Chatbots",
+      "date": "2026-05-30",
+      "summary": "A new study exposes manipulative dark patterns in AI chatbot design, triggering widespread discussions in AI ethics and developer communities about responsible AI UX.",
+      "link": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/"
+    }
+  ],
+  "github": [
+    {
+      "title": "OpenSquilla — Token高效的AI Agent框架",
+      "date": "2026-05-30",
+      "summary": "OpenSquilla是一个Token高效的AI Agent框架，在相同预算下提供更高智能密度，支持多种LLM后端，本月Star增长超2100。",
+      "link": "https://github.com/opensquilla/opensquilla"
+    },
+    {
+      "title": "Tiny-vLLM — 高性能C++/CUDA LLM推理引擎",
+      "date": "2026-05-30",
+      "summary": "用C++和CUDA编写的高性能LLM推理引擎，在HN上获得149分高评价，专注于极致推理速度优化。",
+      "link": "https://github.com/jmaczan/tiny-vllm"
+    },
+    {
+      "title": "Yao Open Prompts — 中文AI提示词库",
+      "date": "2026-05-30",
+      "summary": "覆盖工作、学习、内容创作、营销和生活场景的中文AI提示词库，本月获得超2300 Star，成为中文AI提示词领域最热项目。",
+      "link": "https://github.com/yaojingang/yao-open-prompts"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Notes from the Mistral AI Now Summit",
+      "date": "2026-05-30",
+      "summary": "HN用户整理的Mistral AI Now Summit详细笔记，涵盖Mistral最新模型发布、企业战略和开源路线图，获得373分高热度。",
+      "link": "https://koenvangilst.nl/lab/mistral-ai-now-summit"
+    },
+    {
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "date": "2026-05-30",
+      "summary": "开发者展示用C++和CUDA构建的高性能LLM推理引擎，在HN上引发热烈讨论，获得149分。",
+      "link": "https://github.com/jmaczan/tiny-vllm"
+    },
+    {
+      "title": "Shift will clean homes for free to train future robots",
+      "date": "2026-05-30",
+      "summary": "AI训练数据初创公司Shift提供免费家庭清洁服务以换取机器人训练数据，引发关于AI训练数据采集的伦理讨论，141分。",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Claude Opus 4.8 被指蒸馏自Qwen模型引发Reddit大讨论",
+      "date": "2026-05-30",
+      "summary": "ClaudeCode子版块热议Claude Opus 4.8是否通过知识蒸馏技术借鉴了阿里Qwen模型，社区用户从多个角度分析技术证据。",
+      "link": "https://old.reddit.com/r/ClaudeCode/comments/1tqaist/opus_48_distilled_qwen/"
+    },
+    {
+      "title": "2026年5月底ChatGPT vs Claude、Codex vs Claude Code实际使用偏好对比",
+      "date": "2026-05-30",
+      "summary": "Reddit用户分享2026年5月底主流AI编程工具的实际使用体验对比，详细讨论ChatGPT、Claude、Codex和Claude Code的优劣势。",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1tq8u1n/chatgpt_vs_claude_codex_vs_claude_code_may_2026/"
+    },
+    {
+      "title": "AI Roundup 2026年5月：本月十大AI关键事件盘点",
+      "date": "2026-05-30",
+      "summary": "r/artificial社区整理的2026年5月AI行业十大关键事件，覆盖模型发布、融资并购、政策监管等多个维度。",
+      "link": "https://www.reddit.com/r/artificial/comments/1tqks6h/ai_roundup_may_2026_the_10_biggest_ai_stories/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "VT Code — 开源Rust终端编程Agent",
+      "date": "2026-05-30",
+      "summary": "用Rust构建的开源终端编程Agent，支持多种LLM后端，提供高效命令行编程体验，在HN上获得10分好评。",
+      "link": "https://github.com/vinhnx/VTCode"
+    },
+    {
+      "title": "Otari：Mozilla推出自有AI技术栈平台",
+      "date": "2026-05-30",
+      "summary": "Mozilla推出Otari平台，帮助用户构建和管理自己的AI技术栈，强调数据主权和开源理念，推动去中心化AI工具生态。",
+      "link": "https://blog.mozilla.ai/otari-own-your-ai-stack/"
+    },
+    {
+      "title": "CVE-Bench：基于真实漏洞补丁测试LLM Agent安全能力",
+      "date": "2026-05-30",
+      "summary": "CVE-Bench基准测试平台通过真实世界的CVE漏洞补丁来评估LLM Agent的安全编码和漏洞修复能力，填补AI安全评估空白。",
+      "link": "https://giovannigatti.github.io/cve-bench/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "OpenAI Computer Use功能扩展至Windows平台，AI Agent跨平台操控能力大幅提升",
+      "date": "2026-05-30",
+      "summary": "OpenAI宣布Computer Use功能正式支持Windows，AI Agent可以直接操控Windows桌面环境完成任务，显著扩展了Agent的应用场景。",
+      "link": "https://twitter.com/OpenAI/status/2060428604727771421"
+    },
+    {
+      "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+      "date": "2026-05-30",
+      "summary": "Wired报道新研究发现AI Agent在被过度分配工作时表现出类马克思主义倾向，引发关于AI Agent行为边界和伦理的深度讨论。",
+      "link": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/"
+    },
+    {
+      "title": "Gartner：40%企业将降级或停用自主AI Agent，治理缺失引发产业危机",
+      "date": "2026-05-30",
+      "summary": "Gartner报告警告缺乏统一治理框架将导致企业AI Agent大规模失败，40%企业预计降级或停用自主Agent，强调Agent治理紧迫性。",
+      "link": "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Tesla自行认证L4级自动驾驶引发硅谷AI安全大讨论",
+      "date": "2026-05-30",
+      "summary": "Tesla绕过监管机构自行在德州认证L4级自动驾驶功能，硅谷科技圈围绕AI安全、企业自律和政府监管展开激烈辩论。",
+      "link": "https://www.notateslaapp.com/news/4216/tesla-self-certifies-l4-autonomy-in-texas"
+    },
+    {
+      "title": "Tesla AI训练师不信任自家自动驾驶技术——路透调查",
+      "date": "2026-05-30",
+      "summary": "路透社调查揭露Tesla内部AI训练师对自家全自动驾驶技术的安全性和统计数据存在严重不信任，引发硅谷AI企业透明度危机。",
+      "link": "https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/"
+    },
+    {
+      "title": "Meta员工鼠标追踪工具与欧盟隐私法规冲突",
+      "date": "2026-05-30",
+      "summary": "Meta部署员工鼠标点击追踪工具以提高生产力，但与欧盟严格的隐私法规发生冲突，硅谷科技公司AI监控与隐私平衡再受关注。",
+      "link": "https://www.reuters.com/business/meta-tool-track-employee-mouse-clicks-collision-course-with-eu-privacy-rules-2026-05-29/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国限制DeepSeek、阿里巴巴等AI企业核心人才出境",
+      "date": "2026-05-30",
+      "summary": "彭博社报道中国扩大对DeepSeek、阿里巴巴等私营AI企业顶尖人才的出境限制，以保护国内AI技术优势和防止人才外流。",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms"
+    },
+    {
+      "title": "Claude Opus 4.8 被疑蒸馏阿里Qwen模型引发中美AI技术争议",
+      "date": "2026-05-30",
+      "summary": "Reddit和HN社区热议Claude Opus 4.8可能通过知识蒸馏借鉴阿里Qwen模型，引发关于中美AI技术交流与知识产权的新一轮讨论。",
+      "link": "https://old.reddit.com/r/ClaudeCode/comments/1tqaist/opus_48_distilled_qwen/"
+    },
+    {
+      "title": "Waymo在洛杉矶推出更低成本Robotaxi服务",
+      "date": "2026-05-30",
+      "summary": "Waymo在洛杉矶推出新的低成本Robotaxi服务，自动驾驶出行成本进一步下降，与中国自动驾驶企业在全球市场竞争加剧。",
+      "link": "https://www.latimes.com/business/story/2026-05-28/waymo-launches-services-with-cheaper-robotaxis-in-los-angeles"
+    }
+  ]
+}

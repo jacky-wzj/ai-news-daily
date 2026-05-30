@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年5月30日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年5月30日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. LLMSurgeon: Diagnosing Data Mixture of Large Language Models</h3>
+      <div class="meta">👤 </div>
+      <p>提出LLMSurgeon框架，用于诊断和优化大语言模型训练中的数据混合策略，帮助研究者理解不同数据配比对模型能力的影响。</p>
+  <a class="link" href="http://arxiv.org/abs/2605.30348v1" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Understanding Inference Scaling for LLMs: Bottlenecks, Trade-Offs, and Performance</h3>
+      <div class="meta">👤 </div>
+      <p>系统分析大语言模型推理扩展中的瓶颈和权衡，为优化LLM部署效率提供理论和实践指导。</p>
+  <a class="link" href="https://arxiv.org/abs/2605.19775" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion</h3>
+      <div class="meta">👤 </div>
+      <p>提出VideoMLA技术，通过低秩潜在KV缓存实现分钟级自回归视频扩散生成，大幅提升长视频生成效率。</p>
+  <a class="link" href="http://arxiv.org/abs/2605.30351v1" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Mistral AI Now Summit 引发X平台AI社区热议：欧洲开源力量强势崛起</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-30</div>
+      <p>Mistral AI Now Summit在X平台引发AI大V广泛讨论，多位技术领袖对Mistral最新开源模型和欧洲AI战略发表深度评论。</p>
+  <a class="link" href="https://koenvangilst.nl/lab/mistral-ai-now-summit" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hy3神秘模型登顶OpenRouter排行榜引爆X平台大V分析与猜测</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-30</div>
+      <p>Hy3大语言模型以巨大优势登顶OpenRouter排行榜后，X平台AI技术大V纷纷发表技术分析和来源猜测，社区讨论持续升温。</p>
+  <a class="link" href="https://minimaxir.com/2026/05/openrouter-hy3/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. SQLite for durable workflows 观点在X平台引发AI架构师激烈讨论</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-30</div>
+      <p>SQLite for durable workflows 技术文章在X平台引发AI/Agent架构师社区关于工作流引擎轻量化方向的深入辩论。</p>
+  <a class="link" href="https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Opus 4.8 may have distilled Qwen — Community Debate</h3>
+      <div class="meta">💬 </div>
+      <p>Reddit ClaudeCode community debates whether Claude Opus 4.8 used knowledge distillation from Alibaba's Qwen model, sparking discussions on AI training transparency.</p>
+  <a class="link" href="https://old.reddit.com/r/ClaudeCode/comments/1tqaist/opus_48_distilled_qwen/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Hackers are now using ChatGPT share links to deliver malware</h3>
+      <div class="meta">💬 </div>
+      <p>Security research reveals hackers exploiting ChatGPT's share link feature to distribute malware, prompting urgent AI platform security discussions across developer communities.</p>
+  <a class="link" href="https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. New Study Reveals the Manipulative 'Dark Patterns' of AI Chatbots</h3>
+      <div class="meta">💬 </div>
+      <p>A new study exposes manipulative dark patterns in AI chatbot design, triggering widespread discussions in AI ethics and developer communities about responsible AI UX.</p>
+  <a class="link" href="https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenSquilla — Token高效的AI Agent框架</h3>
+      
+      <p>OpenSquilla是一个Token高效的AI Agent框架，在相同预算下提供更高智能密度，支持多种LLM后端，本月Star增长超2100。</p>
+  <a class="link" href="https://github.com/opensquilla/opensquilla" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Tiny-vLLM — 高性能C++/CUDA LLM推理引擎</h3>
+      
+      <p>用C++和CUDA编写的高性能LLM推理引擎，在HN上获得149分高评价，专注于极致推理速度优化。</p>
+  <a class="link" href="https://github.com/jmaczan/tiny-vllm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Yao Open Prompts — 中文AI提示词库</h3>
+      
+      <p>覆盖工作、学习、内容创作、营销和生活场景的中文AI提示词库，本月获得超2300 Star，成为中文AI提示词领域最热项目。</p>
+  <a class="link" href="https://github.com/yaojingang/yao-open-prompts" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Notes from the Mistral AI Now Summit</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>HN用户整理的Mistral AI Now Summit详细笔记，涵盖Mistral最新模型发布、企业战略和开源路线图，获得373分高热度。</p>
+  <a class="link" href="https://koenvangilst.nl/lab/mistral-ai-now-summit" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>开发者展示用C++和CUDA构建的高性能LLM推理引擎，在HN上引发热烈讨论，获得149分。</p>
+  <a class="link" href="https://github.com/jmaczan/tiny-vllm" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Shift will clean homes for free to train future robots</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>AI训练数据初创公司Shift提供免费家庭清洁服务以换取机器人训练数据，引发关于AI训练数据采集的伦理讨论，141分。</p>
+  <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Opus 4.8 被指蒸馏自Qwen模型引发Reddit大讨论</h3>
+      <div class="meta">reddit: </div>
+      <p>ClaudeCode子版块热议Claude Opus 4.8是否通过知识蒸馏技术借鉴了阿里Qwen模型，社区用户从多个角度分析技术证据。</p>
+  <a class="link" href="https://old.reddit.com/r/ClaudeCode/comments/1tqaist/opus_48_distilled_qwen/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 2026年5月底ChatGPT vs Claude、Codex vs Claude Code实际使用偏好对比</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit用户分享2026年5月底主流AI编程工具的实际使用体验对比，详细讨论ChatGPT、Claude、Codex和Claude Code的优劣势。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeCode/comments/1tq8u1n/chatgpt_vs_claude_codex_vs_claude_code_may_2026/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI Roundup 2026年5月：本月十大AI关键事件盘点</h3>
+      <div class="meta">reddit: </div>
+      <p>r/artificial社区整理的2026年5月AI行业十大关键事件，覆盖模型发布、融资并购、政策监管等多个维度。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1tqks6h/ai_roundup_may_2026_the_10_biggest_ai_stories/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. VT Code — 开源Rust终端编程Agent</h3>
+      
+      <p>用Rust构建的开源终端编程Agent，支持多种LLM后端，提供高效命令行编程体验，在HN上获得10分好评。</p>
+  <a class="link" href="https://github.com/vinhnx/VTCode" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Otari：Mozilla推出自有AI技术栈平台</h3>
+      
+      <p>Mozilla推出Otari平台，帮助用户构建和管理自己的AI技术栈，强调数据主权和开源理念，推动去中心化AI工具生态。</p>
+  <a class="link" href="https://blog.mozilla.ai/otari-own-your-ai-stack/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. CVE-Bench：基于真实漏洞补丁测试LLM Agent安全能力</h3>
+      
+      <p>CVE-Bench基准测试平台通过真实世界的CVE漏洞补丁来评估LLM Agent的安全编码和漏洞修复能力，填补AI安全评估空白。</p>
+  <a class="link" href="https://giovannigatti.github.io/cve-bench/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenAI Computer Use功能扩展至Windows平台，AI Agent跨平台操控能力大幅提升</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenAI宣布Computer Use功能正式支持Windows，AI Agent可以直接操控Windows桌面环境完成任务，显著扩展了Agent的应用场景。</p>
+  <a class="link" href="https://twitter.com/OpenAI/status/2060428604727771421" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Overworked AI Agents Turn Marxist, Researchers Find</h3>
+      <div class="meta">🤖 </div>
+      <p>Wired报道新研究发现AI Agent在被过度分配工作时表现出类马克思主义倾向，引发关于AI Agent行为边界和伦理的深度讨论。</p>
+  <a class="link" href="https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Gartner：40%企业将降级或停用自主AI Agent，治理缺失引发产业危机</h3>
+      <div class="meta">🤖 </div>
+      <p>Gartner报告警告缺乏统一治理框架将导致企业AI Agent大规模失败，40%企业预计降级或停用自主Agent，强调Agent治理紧迫性。</p>
+  <a class="link" href="https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Mistral AI Now Summit 完整记录：欧洲AI崛起与开源战略</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>Mistral AI Now Summit 披露最新战略，展示新一代模型、企业级AI平台与开源路线图，标志着欧洲AI力量全面崛起，挑战美中AI双极格局。</p>
+  <a class="link" href="https://koenvangilst.nl/lab/mistral-ai-now-summit" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Is AI causing a repeat of frontend's lost decade?</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>深度分析AI编程工具对前端开发领域的影响，探讨AI生成代码是否会在前端领域重演过去十年技术债务和碎片化的教训。</p>
+  <a class="link" href="https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Liquid AI 发布 8B-A1B MoE 模型：38万亿token训练，效率突破</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>Liquid AI 推出 LFM 2.5 8B-A1B MoE 架构模型，在38万亿token上训练，采用混合专家架构实现极高推理效率和性能，引领非Transformer路线。</p>
+  <a class="link" href="https://www.liquid.ai/blog/lfm2-5-8b-a1b" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. MCP is dead? 协议之争与AI Agent互操作性的未来</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>深度分析MCP协议的现状与未来，探讨AI Agent之间的互操作性标准之争，以及行业对统一Agent通信协议的需求和挑战。</p>
+  <a class="link" href="https://www.quandri.io/engineering-blog/mcp-is-dead" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Hy3神秘LLM登顶OpenRouter排行榜：性能大幅领先引发社区热议</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>一款名为Hy3的神秘大语言模型在OpenRouter模型排行榜上以巨大优势登顶，其来源和架构信息不明，引发AI社区广泛讨论和猜测。</p>
+  <a class="link" href="https://minimaxir.com/2026/05/openrouter-hy3/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. 40%企业将降级或停用自主AI Agent：Gartner发布Agent治理警告</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>Gartner报告指出，缺乏统一治理框架将导致企业AI Agent大规模失败，40%的企业预计将降级或停用自主AI Agent，强调Agent治理的紧迫性。</p>
+  <a class="link" href="https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. SQLite is all you need for durable workflows：轻量级持久工作流新范式</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>技术深度文章论证SQLite作为持久工作流引擎的可行性，展示如何用轻量级数据库替代复杂消息队列系统，对AI Agent工作流设计产生深远影响。</p>
+  <a class="link" href="https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Tesla自行认证L4级自动驾驶引发硅谷AI安全大讨论</h3>
+      
+      <p>Tesla绕过监管机构自行在德州认证L4级自动驾驶功能，硅谷科技圈围绕AI安全、企业自律和政府监管展开激烈辩论。</p>
+  <a class="link" href="https://www.notateslaapp.com/news/4216/tesla-self-certifies-l4-autonomy-in-texas" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Tesla AI训练师不信任自家自动驾驶技术——路透调查</h3>
+      
+      <p>路透社调查揭露Tesla内部AI训练师对自家全自动驾驶技术的安全性和统计数据存在严重不信任，引发硅谷AI企业透明度危机。</p>
+  <a class="link" href="https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta员工鼠标追踪工具与欧盟隐私法规冲突</h3>
+      
+      <p>Meta部署员工鼠标点击追踪工具以提高生产力，但与欧盟严格的隐私法规发生冲突，硅谷科技公司AI监控与隐私平衡再受关注。</p>
+  <a class="link" href="https://www.reuters.com/business/meta-tool-track-employee-mouse-clicks-collision-course-with-eu-privacy-rules-2026-05-29/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 中国限制DeepSeek、阿里巴巴等AI企业核心人才出境</h3>
+      
+      <p>彭博社报道中国扩大对DeepSeek、阿里巴巴等私营AI企业顶尖人才的出境限制，以保护国内AI技术优势和防止人才外流。</p>
+  <a class="link" href="https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Claude Opus 4.8 被疑蒸馏阿里Qwen模型引发中美AI技术争议</h3>
+      
+      <p>Reddit和HN社区热议Claude Opus 4.8可能通过知识蒸馏借鉴阿里Qwen模型，引发关于中美AI技术交流与知识产权的新一轮讨论。</p>
+  <a class="link" href="https://old.reddit.com/r/ClaudeCode/comments/1tqaist/opus_48_distilled_qwen/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Waymo在洛杉矶推出更低成本Robotaxi服务</h3>
+      
+      <p>Waymo在洛杉矶推出新的低成本Robotaxi服务，自动驾驶出行成本进一步下降，与中国自动驾驶企业在全球市场竞争加剧。</p>
+  <a class="link" href="https://www.latimes.com/business/story/2026-05-28/waymo-launches-services-with-cheaper-robotaxis-in-los-angeles" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 18:14 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
