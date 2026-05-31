@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-31",
+  "insights": [
+    {
+      "title": "OpenRouter获$113M B轮融资：AI模型路由平台估值飙升",
+      "date": "2026-05-31",
+      "summary": "OpenRouter完成$113M Series B融资，成为AI模型路由和API聚合领域的领头羊。HN讨论热度达418pts，反映市场对模型中间件层的高度认可，多模型路由正在成为AI基础设施的关键环节。",
+      "link": "https://openrouter.ai/announcements/series-b"
+    },
+    {
+      "title": "Anthropic超越OpenAI成为全球最有价值AI初创公司：估值达$965B",
+      "date": "2026-05-30",
+      "summary": "Anthropic完成$65B H轮融资估值$965B，超越OpenAI成为全球最有价值的AI初创公司。ARR已达$47B，Claude Opus 4.8同步上线，标志着AI行业权力格局的重大转变，HN热度403pts。",
+      "link": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup"
+    },
+    {
+      "title": "MCP is dead? 协议之争与AI Agent互操作性的未来",
+      "date": "2026-05-29",
+      "summary": "深度分析MCP协议的现状与未来，探讨AI Agent之间的互操作性标准之争。HN热度387pts，引发社区对统一Agent通信协议的广泛辩论，行业对标准化需求日益迫切。",
+      "link": "https://www.quandri.io/engineering-blog/mcp-is-dead"
+    },
+    {
+      "title": "Liquid AI发布8B-A1B MoE模型：38万亿token训练效率突破",
+      "date": "2026-05-29",
+      "summary": "Liquid AI推出LFM 2.5 8B-A1B MoE架构模型，在38万亿token上训练，采用混合专家架构实现极高推理效率。HN热度241pts，引领非Transformer路线的新探索。",
+      "link": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+    },
+    {
+      "title": "SQLite is all you need for durable workflows：轻量级工作流新范式",
+      "date": "2026-05-29",
+      "summary": "技术深度文章论证SQLite作为持久工作流引擎的可行性，展示如何用轻量级数据库替代复杂消息队列系统。HN热度681pts，对AI Agent工作流设计产生深远影响。",
+      "link": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/"
+    },
+    {
+      "title": "Corporate America开始配额AI使用：成本飙升引发企业反思",
+      "date": "2026-05-30",
+      "summary": "WSJ报道美国企业开始对AI使用实行配额制，AI推理成本飙升迫使企业重新评估ROI。HN热度167pts，标志着AI应用从不计成本到理性管控的重要转折。",
+      "link": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a"
+    },
+    {
+      "title": "AI job grief：科技从业者的AI焦虑心理危机引发广泛共鸣",
+      "date": "2026-05-30",
+      "summary": "深度分析AI对科技工作者心理健康的冲击，探讨AI取代编程工作带来的职业焦虑和身份危机。HN热度150pts，文章引发技术社区关于AI时代的职业转型讨论。",
+      "link": "https://jackmaguire.org/blog/ai-job-grief/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "A sleep-like consolidation mechanism for LLMs",
+      "date": "2026-05-26",
+      "summary": "研究提出类睡眠巩固机制用于大语言模型，模拟人类睡眠中的记忆巩固过程来提升LLM的知识整合与泛化能力，HN热度211pts。",
+      "link": "https://arxiv.org/abs/2605.26099"
+    },
+    {
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "date": "2026-05-24",
+      "summary": "系统研究发现LLM Agent在后端代码生成中存在约束衰减问题，随代码复杂度增加Agent会逐渐忽略初始约束，HN热度286pts，对AI编程安全具有重要警示意义。",
+      "link": "https://arxiv.org/abs/2605.06445"
+    },
+    {
+      "title": "Understanding Inference Scaling for LLMs: Bottlenecks, Trade-Offs, and Performance",
+      "date": "2026-05-29",
+      "summary": "系统分析大语言模型推理扩展中的瓶颈和权衡，为优化LLM部署效率提供理论和实践指导。",
+      "link": "https://arxiv.org/abs/2605.19775"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Mistral AI Now Summit引发X平台AI社区热议：欧洲开源力量崛起",
+      "date": "2026-05-29",
+      "summary": "Mistral AI Now Summit在X平台引发AI大V广泛讨论，多位技术领袖对Mistral最新战略和欧洲AI开源路线发表深度评论，HN热度458pts。",
+      "link": "https://koenvangilst.nl/lab/mistral-ai-now-summit"
+    },
+    {
+      "title": "Qwen3.7-Max: The Agent Frontier发布引发开发者社区热议",
+      "date": "2026-05-20",
+      "summary": "阿里Qwen团队发布Qwen3.7-Max，定位Agent前沿模型，HN热度721pts，X平台大V对其Agent能力和开源策略给予高度评价。",
+      "link": "https://qwen.ai/blog?id=qwen3.7"
+    },
+    {
+      "title": "Domain expertise is the real moat观点在X平台引发AI架构师共鸣",
+      "date": "2026-05-30",
+      "summary": "领域专业知识才是AI时代真正的护城河这一观点在X平台引发热议，HN热度580pts，多位AI创业者分享AI工具泛滥下专业know-how的不可替代性。",
+      "link": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Rsync 3.4.3包含数百个Claude提交引发Discord开发者社区激辩",
+      "date": "2026-05-30",
+      "summary": "Rsync新版本被发现包含大量Claude AI生成的代码提交，Discord开发者社区就AI代码贡献的质量和可维护性展开激烈讨论，HN热度103pts。",
+      "link": "https://mastodon.gamedev.place/@JeremiahFieldhaven/116654345332213390"
+    },
+    {
+      "title": "Open Envelope：AI Agent团队的开放Schema标准引发社区关注",
+      "date": "2026-05-28",
+      "summary": "Open Envelope提出AI Agent团队的开放Schema定义标准，在Discord开发者社区引发关于Agent协作协议的热议，Show HN获得42pts。",
+      "link": "https://openenvelope.org/docs/schema/"
+    },
+    {
+      "title": "Continue? Y/N：AI Agent权限疲劳的60秒游戏引爆Discord讨论",
+      "date": "2026-05-28",
+      "summary": "一款模拟AI Agent权限批准的60秒小游戏引发Discord社区关于Agent权限管理的广泛讨论，Show HN热度高达380pts。",
+      "link": "https://llmgame.scalex.dev"
+    }
+  ],
+  "github": [
+    {
+      "title": "ADHD — 为编程Agent打造的树状思维技能框架",
+      "date": "2026-05-31",
+      "summary": "基于Claude和Codex Agent SDK的并行思维树与剪枝框架，大幅提升AI编码Agent的推理质量，本周⭐629。",
+      "link": "https://github.com/UditAkhourii/adhd"
+    },
+    {
+      "title": "Duel-Agents — CLI/SDK/IDE插件多平台AI Agent对战框架",
+      "date": "2026-05-31",
+      "summary": "提供CLI、SDK和IDE插件的全栈AI Agent对战框架，支持Agent间的直接对比和竞技，本周⭐498。",
+      "link": "https://github.com/2aronS/Duel-Agents"
+    },
+    {
+      "title": "vibecode-pro-max-kit — 规格驱动的AI编程工具集",
+      "date": "2026-05-31",
+      "summary": "为vibecoder和产品经理设计的规格驱动编程工具集，解决AI遗忘问题，自述为vibecoders、CEO和real builders打造，本周⭐633。",
+      "link": "https://github.com/withkynam/vibecode-pro-max-kit"
+    }
+  ],
+  "hn": [
+    {
+      "title": "OpenRouter raises $113M Series B",
+      "date": "2026-05-30",
+      "summary": "AI模型路由平台OpenRouter完成1.13亿美元B轮融资，418pts热度反映市场对模型聚合中间件赛道的强烈看好。",
+      "link": "https://openrouter.ai/announcements/series-b"
+    },
+    {
+      "title": "Please Use AI",
+      "date": "2026-05-29",
+      "summary": "一篇引发巨大共鸣的文章呼吁人们在日常生活中积极使用AI工具，772pts的极高热度展示了公众对AI采纳态度的根本转变。",
+      "link": "https://shawnsmucker.substack.com/p/please-use-ai"
+    },
+    {
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "date": "2026-05-29",
+      "summary": "开源高性能LLM推理引擎，纯C++和CUDA实现，187pts展示了社区对轻量级推理方案的高度需求。",
+      "link": "https://github.com/jmaczan/tiny-vllm"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "date": "2026-05-06",
+      "summary": "Simon Willison深度分析vibe coding和agentic engineering之间的界限日益模糊，Reddit AI社区热议AI编程工具对软件工程本质的影响，HN热度787pts。",
+      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/"
+    },
+    {
+      "title": "An AI agent deleted our production database — 社区热议AI安全",
+      "date": "2026-04-26",
+      "summary": "一名开发者分享AI Agent意外删除生产数据库的事故经验，Reddit AI社区激烈讨论Agent安全边界和权限控制，HN热度860pts。",
+      "link": "https://twitter.com/lifeof_jer/status/2048103471019434248"
+    },
+    {
+      "title": "EY Canada发布的网络安全报告大部分引用为AI幻觉生成",
+      "date": "2026-05-30",
+      "summary": "GPTZero调查发现安永加拿大发布的网络安全报告中多数引文为AI幻觉，Reddit社区热议AI生成内容在企业级场景的可靠性问题，HN热度297pts。",
+      "link": "https://gptzero.me/investigations/ey"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Tiny-vLLM — 高性能LLM推理引擎（C++/CUDA）",
+      "date": "2026-05-29",
+      "summary": "开源轻量级LLM推理引擎，纯C++和CUDA实现，性能优异，Show HN获得187pts认可。",
+      "link": "https://github.com/jmaczan/tiny-vllm"
+    },
+    {
+      "title": "AISlop — AI生成代码异味检测CLI工具",
+      "date": "2026-05-29",
+      "summary": "命令行工具专门检测AI生成代码中的质量问题和代码异味，Show HN获得72pts。",
+      "link": "https://github.com/scanaislop/aislop"
+    },
+    {
+      "title": "Zot — 新一代编程Agent工作台",
+      "date": "2026-05-29",
+      "summary": "Yet another coding agent harness，新一代编程Agent管理工具，Show HN获得97pts。",
+      "link": "https://www.zot.sh"
+    }
+  ],
+  "agent": [
+    {
+      "title": "DeepSeek Reasonix：高缓存低成本的原生编程Agent发布",
+      "date": "2026-05-24",
+      "summary": "DeepSeek推出Reasonix原生编程Agent，具备高缓存和低成本特点，HN热度729pts，展现中国AI Agent的强大竞争力。",
+      "link": "https://esengine.github.io/DeepSeek-Reasonix/"
+    },
+    {
+      "title": "Qwen3.7-Max: The Agent Frontier — 面向Agent前沿的开源模型",
+      "date": "2026-05-20",
+      "summary": "阿里Qwen发布Qwen3.7-Max，定位Agent前沿模型，具备强大的工具调用和多轮交互能力，HN热度721pts。",
+      "link": "https://qwen.ai/blog?id=qwen3.7"
+    },
+    {
+      "title": "Agents need control flow, not more prompts：Agent工程范式转变",
+      "date": "2026-05-07",
+      "summary": "技术深度文章论证AI Agent需要控制流而非更多prompt，颠覆了当前Agent设计的主流范式，HN热度590pts。",
+      "link": "https://bsuh.bearblog.dev/agents-need-control-flow/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic估值$965B超越OpenAI成全球最高估值AI公司",
+      "date": "2026-05-30",
+      "summary": "Anthropic完成$65B H轮融资估值$965B，ARR达$47B，硅谷AI格局从一超多强转向双雄对峙，HN热度403pts。",
+      "link": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup"
+    },
+    {
+      "title": "OpenRouter获$113M B轮融资：AI模型路由平台估值飙升",
+      "date": "2026-05-30",
+      "summary": "OpenRouter完成$113M Series B，模型路由和API聚合成为硅谷AI基础设施的热门赛道，HN热度418pts。",
+      "link": "https://openrouter.ai/announcements/series-b"
+    },
+    {
+      "title": "Meta reportedly developing an AI pendant：硬件AI新尝试",
+      "date": "2026-05-30",
+      "summary": "据TechCrunch报道Meta正在研发AI吊坠穿戴设备，硅谷巨头争夺AI硬件入口的新尝试，HN热度35pts。",
+      "link": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "DeepSeek Reasonix原生编程Agent发布：高缓存低成本路线",
+      "date": "2026-05-24",
+      "summary": "DeepSeek推出Reasonix编程Agent，采用高缓存和低成本策略，HN热度729pts，展现中国AI Agent的强劲实力。",
+      "link": "https://esengine.github.io/DeepSeek-Reasonix/"
+    },
+    {
+      "title": "Qwen3.7-Max发布：定位Agent前沿的国产开源大模型",
+      "date": "2026-05-20",
+      "summary": "阿里Qwen团队发布Qwen3.7-Max，专为Agent场景设计，HN热度721pts，国内AI Agent赛道持续升温。",
+      "link": "https://qwen.ai/blog?id=qwen3.7"
+    },
+    {
+      "title": "China Limits Overseas Travel for AI Talent：AI人才管控趋紧",
+      "date": "2026-05-29",
+      "summary": "中国对DeepSeek、阿里巴巴等私企AI人才海外出差实施限制，反映国内AI人才战略的进一步收紧，HN热度10pts。",
+      "link": "https://news.ycombinator.com/item?id=48330881"
+    }
+  ]
+}

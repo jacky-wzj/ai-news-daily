@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年5月31日星期日</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年5月31日星期日</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. A sleep-like consolidation mechanism for LLMs</h3>
+      <div class="meta">👤 </div>
+      <p>研究提出类睡眠巩固机制用于大语言模型，模拟人类睡眠中的记忆巩固过程来提升LLM的知识整合与泛化能力，HN热度211pts。</p>
+  <a class="link" href="https://arxiv.org/abs/2605.26099" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Constraint Decay: The Fragility of LLM Agents in Back End Code Generation</h3>
+      <div class="meta">👤 </div>
+      <p>系统研究发现LLM Agent在后端代码生成中存在约束衰减问题，随代码复杂度增加Agent会逐渐忽略初始约束，HN热度286pts，对AI编程安全具有重要警示意义。</p>
+  <a class="link" href="https://arxiv.org/abs/2605.06445" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Qwen3.7-Max: The Agent Frontier发布引发开发者社区热议</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-20</div>
+      <p>阿里Qwen团队发布Qwen3.7-Max，定位Agent前沿模型，HN热度721pts，X平台大V对其Agent能力和开源策略给予高度评价。</p>
+  <a class="link" href="https://qwen.ai/blog?id=qwen3.7" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Domain expertise is the real moat观点在X平台引发AI架构师共鸣</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-30</div>
+      <p>领域专业知识才是AI时代真正的护城河这一观点在X平台引发热议，HN热度580pts，多位AI创业者分享AI工具泛滥下专业know-how的不可替代性。</p>
+  <a class="link" href="https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Rsync 3.4.3包含数百个Claude提交引发Discord开发者社区激辩</h3>
+      <div class="meta">💬 </div>
+      <p>Rsync新版本被发现包含大量Claude AI生成的代码提交，Discord开发者社区就AI代码贡献的质量和可维护性展开激烈讨论，HN热度103pts。</p>
+  <a class="link" href="https://mastodon.gamedev.place/@JeremiahFieldhaven/116654345332213390" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Open Envelope：AI Agent团队的开放Schema标准引发社区关注</h3>
+      <div class="meta">💬 </div>
+      <p>Open Envelope提出AI Agent团队的开放Schema定义标准，在Discord开发者社区引发关于Agent协作协议的热议，Show HN获得42pts。</p>
+  <a class="link" href="https://openenvelope.org/docs/schema/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Continue? Y/N：AI Agent权限疲劳的60秒游戏引爆Discord讨论</h3>
+      <div class="meta">💬 </div>
+      <p>一款模拟AI Agent权限批准的60秒小游戏引发Discord社区关于Agent权限管理的广泛讨论，Show HN热度高达380pts。</p>
+  <a class="link" href="https://llmgame.scalex.dev" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ADHD — 为编程Agent打造的树状思维技能框架</h3>
+      
+      <p>基于Claude和Codex Agent SDK的并行思维树与剪枝框架，大幅提升AI编码Agent的推理质量，本周⭐629。</p>
+  <a class="link" href="https://github.com/UditAkhourii/adhd" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Duel-Agents — CLI/SDK/IDE插件多平台AI Agent对战框架</h3>
+      
+      <p>提供CLI、SDK和IDE插件的全栈AI Agent对战框架，支持Agent间的直接对比和竞技，本周⭐498。</p>
+  <a class="link" href="https://github.com/2aronS/Duel-Agents" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. vibecode-pro-max-kit — 规格驱动的AI编程工具集</h3>
+      
+      <p>为vibecoder和产品经理设计的规格驱动编程工具集，解决AI遗忘问题，自述为vibecoders、CEO和real builders打造，本周⭐633。</p>
+  <a class="link" href="https://github.com/withkynam/vibecode-pro-max-kit" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenRouter raises $113M Series B</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>AI模型路由平台OpenRouter完成1.13亿美元B轮融资，418pts热度反映市场对模型聚合中间件赛道的强烈看好。</p>
+  <a class="link" href="https://openrouter.ai/announcements/series-b" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Please Use AI</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>一篇引发巨大共鸣的文章呼吁人们在日常生活中积极使用AI工具，772pts的极高热度展示了公众对AI采纳态度的根本转变。</p>
+  <a class="link" href="https://shawnsmucker.substack.com/p/please-use-ai" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Vibe coding and agentic engineering are getting closer than I'd like</h3>
+      <div class="meta">reddit: </div>
+      <p>Simon Willison深度分析vibe coding和agentic engineering之间的界限日益模糊，Reddit AI社区热议AI编程工具对软件工程本质的影响，HN热度787pts。</p>
+  <a class="link" href="https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. EY Canada发布的网络安全报告大部分引用为AI幻觉生成</h3>
+      <div class="meta">reddit: </div>
+      <p>GPTZero调查发现安永加拿大发布的网络安全报告中多数引文为AI幻觉，Reddit社区热议AI生成内容在企业级场景的可靠性问题，HN热度297pts。</p>
+  <a class="link" href="https://gptzero.me/investigations/ey" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AISlop — AI生成代码异味检测CLI工具</h3>
+      
+      <p>命令行工具专门检测AI生成代码中的质量问题和代码异味，Show HN获得72pts。</p>
+  <a class="link" href="https://github.com/scanaislop/aislop" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Zot — 新一代编程Agent工作台</h3>
+      
+      <p>Yet another coding agent harness，新一代编程Agent管理工具，Show HN获得97pts。</p>
+  <a class="link" href="https://www.zot.sh" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek Reasonix：高缓存低成本的原生编程Agent发布</h3>
+      <div class="meta">🤖 </div>
+      <p>DeepSeek推出Reasonix原生编程Agent，具备高缓存和低成本特点，HN热度729pts，展现中国AI Agent的强大竞争力。</p>
+  <a class="link" href="https://esengine.github.io/DeepSeek-Reasonix/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Qwen3.7-Max: The Agent Frontier — 面向Agent前沿的开源模型</h3>
+      <div class="meta">🤖 </div>
+      <p>阿里Qwen发布Qwen3.7-Max，定位Agent前沿模型，具备强大的工具调用和多轮交互能力，HN热度721pts。</p>
+  <a class="link" href="https://qwen.ai/blog?id=qwen3.7" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Agents need control flow, not more prompts：Agent工程范式转变</h3>
+      <div class="meta">🤖 </div>
+      <p>技术深度文章论证AI Agent需要控制流而非更多prompt，颠覆了当前Agent设计的主流范式，HN热度590pts。</p>
+  <a class="link" href="https://bsuh.bearblog.dev/agents-need-control-flow/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. OpenRouter获$113M B轮融资：AI模型路由平台估值飙升</h3>
+      <div class="meta">📅 2026-05-31</div>
+      <p>OpenRouter完成$113M Series B融资，成为AI模型路由和API聚合领域的领头羊。HN讨论热度达418pts，反映市场对模型中间件层的高度认可，多模型路由正在成为AI基础设施的关键环节。</p>
+  <a class="link" href="https://openrouter.ai/announcements/series-b" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Anthropic超越OpenAI成为全球最有价值AI初创公司：估值达$965B</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>Anthropic完成$65B H轮融资估值$965B，超越OpenAI成为全球最有价值的AI初创公司。ARR已达$47B，Claude Opus 4.8同步上线，标志着AI行业权力格局的重大转变，HN热度403pts。</p>
+  <a class="link" href="https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Corporate America开始配额AI使用：成本飙升引发企业反思</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>WSJ报道美国企业开始对AI使用实行配额制，AI推理成本飙升迫使企业重新评估ROI。HN热度167pts，标志着AI应用从不计成本到理性管控的重要转折。</p>
+  <a class="link" href="https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. AI job grief：科技从业者的AI焦虑心理危机引发广泛共鸣</h3>
+      <div class="meta">📅 2026-05-30</div>
+      <p>深度分析AI对科技工作者心理健康的冲击，探讨AI取代编程工作带来的职业焦虑和身份危机。HN热度150pts，文章引发技术社区关于AI时代的职业转型讨论。</p>
+  <a class="link" href="https://jackmaguire.org/blog/ai-job-grief/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic估值$965B超越OpenAI成全球最高估值AI公司</h3>
+      
+      <p>Anthropic完成$65B H轮融资估值$965B，ARR达$47B，硅谷AI格局从一超多强转向双雄对峙，HN热度403pts。</p>
+  <a class="link" href="https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenRouter获$113M B轮融资：AI模型路由平台估值飙升</h3>
+      
+      <p>OpenRouter完成$113M Series B，模型路由和API聚合成为硅谷AI基础设施的热门赛道，HN热度418pts。</p>
+  <a class="link" href="https://openrouter.ai/announcements/series-b" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Meta reportedly developing an AI pendant：硬件AI新尝试</h3>
+      
+      <p>据TechCrunch报道Meta正在研发AI吊坠穿戴设备，硅谷巨头争夺AI硬件入口的新尝试，HN热度35pts。</p>
+  <a class="link" href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. DeepSeek Reasonix原生编程Agent发布：高缓存低成本路线</h3>
+      
+      <p>DeepSeek推出Reasonix编程Agent，采用高缓存和低成本策略，HN热度729pts，展现中国AI Agent的强劲实力。</p>
+  <a class="link" href="https://esengine.github.io/DeepSeek-Reasonix/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Qwen3.7-Max发布：定位Agent前沿的国产开源大模型</h3>
+      
+      <p>阿里Qwen团队发布Qwen3.7-Max，专为Agent场景设计，HN热度721pts，国内AI Agent赛道持续升温。</p>
+  <a class="link" href="https://qwen.ai/blog?id=qwen3.7" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. China Limits Overseas Travel for AI Talent：AI人才管控趋紧</h3>
+      
+      <p>中国对DeepSeek、阿里巴巴等私企AI人才海外出差实施限制，反映国内AI人才战略的进一步收紧，HN热度10pts。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48330881" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:54 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
