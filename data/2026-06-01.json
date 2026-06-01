@@ -1,0 +1,247 @@
+{
+  "date": "2026-06-01",
+  "insights": [
+    {
+      "title": "NVIDIA GTC台北Computex 2026：Vera Rubin全量产，RTX Spark、Nemotron 3 Ultra齐发",
+      "date": "2026-06-01",
+      "summary": "黄仁勋在Computex 2026发表主题演讲，发布Vera Rubin AI计算平台（全球350+工厂量产）、数据中心专用Vera CPU、AI PC芯片RTX Spark、500B开放权重模型Nemotron 3 Ultra，以及物理AI全栈开源模型Cosmos 3。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+    },
+    {
+      "title": "Anthropic发布Claude Opus 4.8：可控计算模式和动态工作流",
+      "date": "2026-05-28",
+      "summary": "Opus 4.8新增Effort Control和Dynamic Workflows功能，支持数百个并行子Agent协作，代码审查可靠性比Opus 4.7提升4倍，100万token上下文窗口，保持原价不变。",
+      "link": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "title": "Anthropic以9650亿美元估值超越OpenAI，成硅谷最有价值AI创业公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic完成650亿美元H轮融资，估值达9650亿美元，正式超越OpenAI。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "GitHub Copilot 6月1日起切换按Token计费，开发者强烈反弹",
+      "date": "2026-06-01",
+      "summary": "Microsoft于6月1日正式将GitHub Copilot从固定订阅费改为按Token用量计费，部分开发者预估费用从39美元飙升至387美元，涨幅达10倍。",
+      "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"
+    },
+    {
+      "title": "AI推理公司Baseten洽谈10亿美元融资，估值达110亿美元",
+      "date": "2026-05-26",
+      "summary": "AI推理基础设施公司Baseten正洽谈以110亿美元估值融资10亿美元，此前获NVIDIA领投锚定投资。",
+      "link": "https://techstartups.com/2026/05/26/ai-inference-startup-baseten-in-talks-to-raise-1-billion-at-11-billion-valuation/"
+    },
+    {
+      "title": "OpenAI正式进军机器人领域，招聘全栈机器人工程师",
+      "date": "2026-06-01",
+      "summary": "OpenAI Robotics宣布招聘硬件、运维、系统和ML工程师，Sam Altman在X上表示机器人是OpenAI近期优先方向。",
+      "link": "https://www.firstpost.com/tech/openai-is-hiring-robotics-engineers-as-sam-altman-lays-out-vision-for-ai-powered-humanoids-ws-e-14017360.html"
+    },
+    {
+      "title": "支付宝发布AI支付生态：AI付累计突破3亿笔",
+      "date": "2026-05-26",
+      "summary": "支付宝在杭州举办AI支付生态大会，AI智能体支付累计突破3亿笔，覆盖95%主流通用智能体框架。",
+      "link": "https://zjic.zj.gov.cn/ywdh/cyfz/202605/t20260529_24097403.shtml"
+    }
+  ],
+  "papers": [
+    {
+      "title": "NVIDIA Nemotron 3 Ultra：500B参数开放权重混合专家模型",
+      "date": "2026-06-01",
+      "summary": "Nemotron 3 Ultra采用MoE技术和NVFP4训练构建，推理速度比同类前沿模型快5倍，成本降低30%。",
+      "link": "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models"
+    },
+    {
+      "title": "NVIDIA Cosmos 3：全球首个完全开放的物理AI全模态模型",
+      "date": "2026-06-01",
+      "summary": "Cosmos 3统一视觉推理、世界生成和动作预测，是全球首个完全开源的物理AI全栈系统。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+    },
+    {
+      "title": "Bonsai-4B：1-Bit量子化图像生成模型，专为本地设备设计",
+      "date": "2026-05-31",
+      "summary": "1-Bit Bonsai Image 4B是极低精度图像生成模型，在HN上获得393点热评。",
+      "link": "https://news.ycombinator.com/item?id=48346257"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Karpathy在X宣布加入Anthropic预训练团队",
+      "date": "2026-05-19",
+      "summary": "OpenAI联合创始人Andrej Karpathy在X发布个人动态：已加入Anthropic。",
+      "link": "https://fortune.com/2026/05/19/who-is-andrej-karpathy-vibe-coding-anthropic-openai-rubiks-cube/"
+    },
+    {
+      "title": "Sam Altman在X宣布OpenAI Robotics招聘计划",
+      "date": "2026-06-01",
+      "summary": "Sam Altman在X发帖表示机器人是OpenAI近期优先方向，同时宣布OpenAI Robotics正在招聘全栈工程师。",
+      "link": "https://aiweekly.co/alerts/openai-sets-robotics-as-a-core-strategic-priority"
+    },
+    {
+      "title": "黄仁勋Computex：下半年将推出Grace Blackwell、Vera Rubin和神秘新品",
+      "date": "2026-06-01",
+      "summary": "黄仁勋在Computex表示2026下半年将非常忙碌，透露有尚未公布的新产品。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Claude Opus 4.8 Dynamic Workflows引发社区热议",
+      "date": "2026-05-28",
+      "summary": "Anthropic发布Opus 4.8后，技术社区围绕Dynamic Workflows功能和Effort Control展开广泛讨论。",
+      "link": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/"
+    },
+    {
+      "title": "GitHub Copilot计费模式切换在开发者社区引发激烈讨论",
+      "date": "2026-06-01",
+      "summary": "Copilot从固定订阅改Token计费在各大开发者社区引发热议，用户讨论替代方案。",
+      "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"
+    },
+    {
+      "title": "NVIDIA Vera Rubin全量产消息在技术社区引发广泛关注",
+      "date": "2026-06-01",
+      "summary": "Vera Rubin进入全球350+工厂量产的消息在技术社区引发热议。",
+      "link": "https://www.techzine.eu/news/devices/141718/nvidias-plans-for-vera-rubin-dgx-station-agents-and-robots/"
+    }
+  ],
+  "github": [
+    {
+      "title": "mattpocock/skills - 真实工程师技能集",
+      "date": "2026-06-01",
+      "summary": "源自个人.claude目录的技能仓库，包含55000+ stars，持续保持GitHub Trending前列。",
+      "link": "https://github.com/mattpocock/skills"
+    },
+    {
+      "title": "forrestchang/andrej-karpathy-skills - Karpathy编码规则技能集",
+      "date": "2026-06-01",
+      "summary": "将Karpathy关于AI编程Agent陷阱的观察编码为四条硬性规则，156000+ stars。",
+      "link": "https://github.com/forrestchang/andrej-karpathy-skills"
+    },
+    {
+      "title": "SkalskiP/top-cvpr-2026-papers - CVPR 2026精选论文合集",
+      "date": "2026-05-28",
+      "summary": "精心整理的CVPR 2026最具影响力论文合集，包含论文+代码+演示。",
+      "link": "https://github.com/SkalskiP/top-cvpr-2026-papers"
+    }
+  ],
+  "hn": [
+    {
+      "title": "在2016年Xeon上运行Gemma 4：十年老硬件依然够用",
+      "date": "2026-06-01",
+      "summary": "展示如何在10年前的Intel Xeon处理器上运行Gemma 4模型，本地AI推理硬件门槛不断降低。HN 125 points。",
+      "link": "https://news.ycombinator.com/item?id=48353348"
+    },
+    {
+      "title": "ChatGPT for Google Sheets漏洞可泄露工作簿数据",
+      "date": "2026-05-31",
+      "summary": "PromptArmor发现ChatGPT Google Sheets插件数据泄露漏洞，利用AI对Markdown链接的隐式信任触发提示注入攻击。HN 225 points。",
+      "link": "https://news.ycombinator.com/item?id=48349487"
+    },
+    {
+      "title": "AI时代原型的速度：AI如何改变产品开发流程",
+      "date": "2026-05-31",
+      "summary": "探讨AI工具如何大幅加速产品原型开发速度，从构思到可运行原型的周期从数天缩短到数小时。HN 167 points。",
+      "link": "https://news.ycombinator.com/item?id=48347153"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "r/github: GitHub Copilot基于信用的定价是公开抢劫",
+      "date": "2026-06-01",
+      "summary": "Reddit r/github社区热议Copilot从39美元固定费用变Token计费后可能飙升至387美元。",
+      "link": "https://www.reddit.com/r/github/comments/1ttcpw0/github_copilots_new_creditbased_pricing_is/"
+    },
+    {
+      "title": "r/GithubCopilot: 2021-2026，再见Copilot",
+      "date": "2026-05-28",
+      "summary": "多位用户表示因Token计费模式转换将离开Copilot，讨论转向Claude Code和Codex等替代方案。",
+      "link": "https://www.reddit.com/r/GithubCopilot/comments/1torsfx/20212026goodbye_copilot/"
+    },
+    {
+      "title": "r/ClaudeAI: Microsoft已开始取消Claude Code许可证",
+      "date": "2026-05-27",
+      "summary": "据The Verge报道，Microsoft开始取消企业Claude Code许可证，用户预估新Token计费下费用从40美元暴涨至600美元。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1to6kqz/microsoft_has_started_canceling_claude_code/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "OtterlyAI发布公共API和Claude Skill，101+营销工作流",
+      "date": "2026-06-01",
+      "summary": "OtterlyAI发布公共API、Claude Skill和拥有101+营销工作流的市场。",
+      "link": "https://markets.businessinsider.com/news/stocks/otterlyai-launches-a-public-api-a-claude-skill-and-a-marketplace-of-101-marketing-workflows-for-ai-search-1036211837"
+    },
+    {
+      "title": "Microsoft Surface Laptop Ultra搭载RTX Spark：1 Petaflop AI算力",
+      "date": "2026-06-01",
+      "summary": "Microsoft在Computex发布Surface Laptop Ultra，搭载NVIDIA RTX Spark，128GB统一内存，可本地运行120B参数模型。",
+      "link": "https://www.windowscentral.com/hardware/surface/microsoft-surface-laptop-ultra-announced-computex-2026"
+    },
+    {
+      "title": "AMD Ryzen AI Max PRO 400：首款支持300B参数本地LLM的x86芯片",
+      "date": "2026-06-01",
+      "summary": "AMD在Computex发布Ryzen AI Max PRO 400，192GB统一内存，可本地运行300B参数大模型，Q3 2026出货。",
+      "link": "https://www.amd.com/en/blogs/2026/amd-powers-next-generation-agent-computers-with-new-ryzen-ai-hal.html"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Anthropic Claude Opus 4.8动态工作流：支持数百并行子Agent协作",
+      "date": "2026-05-28",
+      "summary": "Opus 4.8引入Dynamic Workflows研究预览功能，Claude Code可运行数百个并行子Agent处理大规模代码库迁移任务。",
+      "link": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/"
+    },
+    {
+      "title": "NVIDIA与宇树科技发布Isaac GR00T人形机器人参考平台",
+      "date": "2026-06-01",
+      "summary": "NVIDIA联合宇树科技发布Isaac GR00T人形机器人参考平台，搭载Jetson Thor Blackwell芯片，斯坦福和ETH Zurich为首批采购方。",
+      "link": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
+    },
+    {
+      "title": "Claude Code深度研究模式触发199个Agent Swarm引发关注",
+      "date": "2026-06-01",
+      "summary": "Reddit用户报告Claude Code Deep Research功能触发199个Agent swarm并耗尽会话预算，暴露大规模Agent编排的成本风险。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1tn12df/i_tracked_47_new_agent_products_launched_in_2026/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic以9650亿美元估值超越OpenAI，成硅谷最有价值AI创业公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic完成650亿美元H轮融资后估值达9650亿美元，正式超越OpenAI。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "Karpathy加盟Anthropic预训练团队，硅谷AI人才争夺白热化",
+      "date": "2026-05-19",
+      "summary": "OpenAI联合创始人Andrej Karpathy宣布加入Anthropic，硅谷AI人才竞争持续升级。",
+      "link": "https://fortune.com/2026/05/19/who-is-andrej-karpathy-vibe-coding-anthropic-openai-rubiks-cube/"
+    },
+    {
+      "title": "SoftBank计划在法国投资750亿欧元建设AI数据中心",
+      "date": "2026-05-31",
+      "summary": "SoftBank与Sesterce合作在法国建设高达5GW的AI数据中心，投资额达750亿欧元。",
+      "link": "https://www.reuters.com/technology/artificial-intelligence/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国收紧海外AI芯片采购规则，封堵境外子公司购买NVIDIA/AMD芯片漏洞",
+      "date": "2026-06-01",
+      "summary": "美国商务部关闭允许中国公司通过海外子公司购买NVIDIA Blackwell和AMD AI芯片的漏洞，中国国务院同步收紧海外投资规则，封堵新加坡转口漏洞，7月1日生效。",
+      "link": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-13/"
+    },
+    {
+      "title": "NVIDIA Vera Rubin进入全量产，中国AI算力竞争加剧",
+      "date": "2026-06-01",
+      "summary": "Vera Rubin进入全球350+工厂量产，中国AI算力规模预计2026年达到2024年的两倍，但尖端人才极度短缺，高性能计算工程师供需比低至0.15。",
+      "link": "https://news.futunn.com/en/post/73909996/nvidia-gtc-vera-rubin-enters-full-scale-production-enters-the"
+    },
+    {
+      "title": "国家密集出台五项智能体政策，构建国家级智能体政策体系",
+      "date": "2026-05-28",
+      "summary": "2025年8月至2026年5月，国务院及国家网信办等中央国家机关已先后密集出台五项国家级智能体政策，构建起衔接有序、层层递进的政策体系。",
+      "link": "https://www.edu.cn/xxh/focus/zc/202605/t20260528_2738385.shtml"
+    }
+  ]
+}
