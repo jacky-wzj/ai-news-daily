@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Midjourney v8.1 正式上线 Discord 社区：原生 2K 输出、10 秒 60fps 视频生成",
+      "date": "2026-04-30",
+      "summary": "最大 AI Discord 社区 Midjourney（约 2000 万成员）v8.1 成为默认模型，支持原生 2K HD 输出、4-5 倍速度提升、改进的文字渲染，以及全新的 10 秒 60fps 视频模式。Discord 机器人仍然是核心交互界面。",
+      "link": "https://beginnersinai.org/midjourney-v8-explained/"
+    },
+    {
+      "title": "MCP 协议治理移交 Linux 基金会，Discord 社区贡献者达 2900+",
+      "date": "2026-05-19",
+      "summary": "Anthropic 将 MCP 协议捐赠给 Linux 基金会下的 Agentic AI Foundation (AAIF)。MCP 隧道（tunnels）与自托管沙箱在 Code with Claude London 大会上发布，Discord 社区贡献者达 2900+ 人。56 个生产级 MCP 服务器被编目。",
+      "link": "https://www.digitalapplied.com/blog/mcp-server-ecosystem-tracker-50-servers-cataloged-2026"
+    },
+    {
+      "title": "EleutherAI 暑期开放 AI 研究计划（SOAR 2026）通过 Discord 开展",
+      "date": "2026-05-19",
+      "summary": "EleutherAI Discord 社区（约 3 万成员）启动第五届暑期开放 AI 研究计划，为期 5 周全程线上，通过 Discord 平台托管。面向无研究经验的开发者开放申请（6 月 8 日截止），提供结构化指导与发表机会。",
+      "link": "https://www.eleuther.ai/soar"
+    }
+  ]
+}

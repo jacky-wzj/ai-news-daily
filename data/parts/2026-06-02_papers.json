@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "papers",
+  "items": [
+    {
+      "title": "LVSA: Training-Free Sparse Attention for Long Video Diffusion",
+      "date": "2026-05-29",
+      "summary": "Long Video Sparse Attention (LVSA) addresses computational bottlenecks in video diffusion models by introducing a training-free block-sparse attention mechanism that combines structured window patterns with rotating global anchors, reducing compute up to 3.33x while maintaining video quality beyond training horizons.",
+      "link": "https://huggingface.co/papers/2605.31057"
+    },
+    {
+      "title": "Confidence-Adaptive SwiGLU for Mixture-of-Experts",
+      "date": "2026-05-30",
+      "summary": "Confidence-Aware SwiGLU (κ-SwiGLU) adjusts expert gate sharpness in Mixture-of-Experts models based on token-level routing confidence, improving mean CORE performance with negligible parameter overhead across MoE Transformer models from 8 to 28 layers.",
+      "link": "https://huggingface.co/papers/2606.00761"
+    },
+    {
+      "title": "FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search",
+      "date": "2026-05-30",
+      "summary": "FineVerify is a self-verification framework for agentic search that decomposes questions into checkable sub-questions, verifies sampled candidates, and selects the best trajectory. With 4 samples it improves GPT-5-mini by 8.2 accuracy points and with 12 samples enables GPT-5-mini to surpass frontier GPT-5 on BrowseComp-Plus.",
+      "link": "https://huggingface.co/papers/2606.00660"
+    }
+  ]
+}

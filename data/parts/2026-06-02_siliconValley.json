@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Anthropic raises $65B, nears $1T valuation ahead of IPO, topping OpenAI as most valuable AI startup",
+      "date": "2026-05-28",
+      "summary": "Anthropic closed a $65 billion Series H funding round at a $965 billion post-money valuation, co-led by Altimeter Capital, Dragoneer, Greenoaks, Sequoia Capital, and others. The round includes $15B from hyperscalers including Amazon, and strategic investments from Samsung, SK Hynix, and Micron. Anthropic also released Claude Opus 4.8 with improved agentic capabilities, positioning the company for a potential IPO.",
+      "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/"
+    },
+    {
+      "title": "AI coding startup Cognition raises $1B at $26B valuation for Devin AI platform",
+      "date": "2026-05-27",
+      "summary": "Cognition, the maker of AI coding assistant Devin, raised $1 billion in a round co-led by Lux Capital, General Catalyst, and 8VC, with participation from Ribbit Capital, Atreides Management, and Peter Thiel's Founders Fund. The startup's valuation jumped to $26 billion as enterprise demand for AI-powered software development tools continues to surge.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-27/ai-coding-startup-cognition-raises-1-billion-at-26-billion-value"
+    },
+    {
+      "title": "Silicon Valley pivots to Physical AI: OpenAI declares robotics next frontier, Figure AI humanoid livestream goes viral",
+      "date": "2026-06-02",
+      "summary": "The biggest AI players are racing into humanoid robotics. OpenAI CEO Sam Altman declared robotics the company's next frontier. Nvidia announced a standard humanoid robot blueprint at GTC Taipei. Figure AI's humanoid livestream of package sorting drew millions of viewers, and the startup signed a commercial agreement with Catalyst Brands (JCPenney, Aeropostale) to deploy humanoids in logistics networks.",
+      "link": "https://www.businessinsider.com/silicon-valleys-new-slogan-lets-get-physical-2026-6"
+    }
+  ]
+}

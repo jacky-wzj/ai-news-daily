@@ -1,0 +1,228 @@
+{
+  "date": "2026-06-02",
+  "insights": [
+    {
+      "title": "Anthropic Files Confidentially for IPO, Surpassing OpenAI in Private Market Value",
+      "date": "2026-06-01",
+      "summary": "Anthropic filed a confidential draft S-1 with the SEC on June 1, aiming to go public as soon as fall 2026. The filing follows a $65B Series H at a $965B post-money valuation, making it the first AI lab to surpass OpenAI in private market value. Annualized revenue run rate crossed $47B.",
+      "link": "https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html"
+    },
+    {
+      "title": "Nvidia Unveils RTX Spark Superchip for AI PCs at Computex 2026, Challenging Apple and Qualcomm",
+      "date": "2026-06-01",
+      "summary": "Nvidia announced the RTX Spark Superchip, a Windows on Arm platform combining a Blackwell RTX GPU (6,144 CUDA cores) with a 20-core Grace CPU and 128GB unified LPDDR5X memory. Laptops from Microsoft, Dell, HP, ASUS, Lenovo and MSI are expected this fall, positioning Nvidia directly against Apple's M-series, Intel, AMD, and Qualcomm.",
+      "link": "https://www.nvidia.com/en-us/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/"
+    },
+    {
+      "title": "COMPUTEX 2026 Opens in Taipei Under 'AI Together' Theme with Record 1,500 Exhibitors",
+      "date": "2026-06-02",
+      "summary": "COMPUTEX 2026 kicked off at Taipei Nangang Exhibition Center with 1,500 exhibitors from 33 countries across 6,000+ booths. The show introduces a new AI Robotics Zone and features keynotes from Qualcomm, Marvell, Intel, and NXP CEOs. TrendForce projects the global LLM robotics market to exceed $100B by 2028.",
+      "link": "https://www.prnewswire.com/news-releases/ai-goes-physical--taiwan-leads-global-industry-transformation-as-computex-2026-opens-tomorrow-in-taipei-302787133.html"
+    },
+    {
+      "title": "Nvidia Expands Humanoid Robot Partnerships to US, Europe and South Korea Beyond China's Unitree",
+      "date": "2026-06-01",
+      "summary": "Nvidia announced collaborations with humanoid robot makers in the US, Europe, and South Korea alongside existing work with China's Unitree. The initial platform integrates Unitree's H2 robot body with Sharpa's hands and Nvidia's Blackwell chips and secure boot/confidential computing. Stanford and UC San Diego will use the systems for robotics research.",
+      "link": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
+    },
+    {
+      "title": "SoftBank Commits €75 Billion to Build 5 GW of AI Data Centre Capacity in France",
+      "date": "2026-06-01",
+      "summary": "Japanese investment group SoftBank announced plans to invest up to €75 billion ($87B) to develop and operate 5 GW of AI data centre capacity in France, marking Europe's largest-ever AI infrastructure investment. The project is expected to create thousands of high-skilled jobs.",
+      "link": "https://www.euronews.com/business/2026/06/01/creating-thousands-of-high-skilled-jobs-softbank-to-invest-75bn-in-french-ai-data-centres"
+    },
+    {
+      "title": "CNN Sues Perplexity AI for Copyright and Trademark Infringement Over 17,000 News Stories",
+      "date": "2026-05-28",
+      "summary": "CNN filed a copyright and trademark infringement lawsuit against Perplexity AI in New York federal court, alleging the AI search engine unlawfully copied and distributed over 17,000 CNN articles. The case represents a major front in the growing battle between news publishers and AI companies over content use.",
+      "link": "https://www.cnn.com/2026/05/28/media/cnn-sues-perplexity-ai-copyright"
+    },
+    {
+      "title": "Nearly Half of Planned US AI Data Centers for 2026 Face Delays or Cancellation Amid Power Grid Bottlenecks",
+      "date": "2026-06-01",
+      "summary": "Analyses indicate 30-50% of approximately 140 planned US data centers targeting 16 GW of capacity may miss 2026 timelines or be canceled outright. Key factors include shortages of electrical components (transformers, switchgear, batteries), power grid constraints, and supply chain disruptions — threatening the AI infrastructure buildout.",
+      "link": "https://techstartups.com/2026/06/01/top-tech-news-today-june-1-2026/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "LVSA: Training-Free Sparse Attention for Long Video Diffusion",
+      "date": "2026-05-29",
+      "summary": "Long Video Sparse Attention (LVSA) addresses computational bottlenecks in video diffusion models by introducing a training-free block-sparse attention mechanism that combines structured window patterns with rotating global anchors, reducing compute up to 3.33x while maintaining video quality beyond training horizons.",
+      "link": "https://huggingface.co/papers/2605.31057"
+    },
+    {
+      "title": "Confidence-Adaptive SwiGLU for Mixture-of-Experts",
+      "date": "2026-05-30",
+      "summary": "Confidence-Aware SwiGLU (κ-SwiGLU) adjusts expert gate sharpness in Mixture-of-Experts models based on token-level routing confidence, improving mean CORE performance with negligible parameter overhead across MoE Transformer models from 8 to 28 layers.",
+      "link": "https://huggingface.co/papers/2606.00761"
+    },
+    {
+      "title": "FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search",
+      "date": "2026-05-30",
+      "summary": "FineVerify is a self-verification framework for agentic search that decomposes questions into checkable sub-questions, verifies sampled candidates, and selects the best trajectory. With 4 samples it improves GPT-5-mini by 8.2 accuracy points and with 12 samples enables GPT-5-mini to surpass frontier GPT-5 on BrowseComp-Plus.",
+      "link": "https://huggingface.co/papers/2606.00660"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andrej Karpathy announces he has joined Anthropic — AI talent shockwave",
+      "date": "2026-05-19",
+      "summary": "Andrej Karpathy, OpenAI founding member and former Tesla AI director, posted a personal update on X saying \"I've joined Anthropic.\" The tweet generated over 11.3M views, 102K likes, and 13K reposts within hours, widely described as the AI talent move of the year. Karpathy will be working on pre-training research at Anthropic.",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "OpenAI model disproves 80-year-old Erdős planar unit distance conjecture",
+      "date": "2026-05-20",
+      "summary": "OpenAI announced that an internal general-purpose reasoning model disproved the Erdős planar unit distance problem, a famous open question in discrete geometry first posed in 1946. The breakthrough demonstrates frontier AI models are advancing beyond IMO gold-level performance toward autonomous mathematical research.",
+      "link": "https://x.com/OpenAI/status/2057176201782075690"
+    },
+    {
+      "title": "Sam Altman says kids born today will \"never be smarter than AI\" — sparks global backlash",
+      "date": "2026-05-26",
+      "summary": "Sam Altman's prediction that \"a kid born today will never be smarter than AI, ever\" went massively viral, triggering heated debate across X and news media. Rep. Ro Khanna pushed back on X, saying \"My bet is on the kid born today over AI.\" The quote originally came from a 2025 interview but resurfaced and dominated AI discourse in late May 2026.",
+      "link": "https://x.com/MrEwanMorrison/status/2019695775048155184"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Midjourney v8.1 正式上线 Discord 社区：原生 2K 输出、10 秒 60fps 视频生成",
+      "date": "2026-04-30",
+      "summary": "最大 AI Discord 社区 Midjourney（约 2000 万成员）v8.1 成为默认模型，支持原生 2K HD 输出、4-5 倍速度提升、改进的文字渲染，以及全新的 10 秒 60fps 视频模式。Discord 机器人仍然是核心交互界面。",
+      "link": "https://beginnersinai.org/midjourney-v8-explained/"
+    },
+    {
+      "title": "MCP 协议治理移交 Linux 基金会，Discord 社区贡献者达 2900+",
+      "date": "2026-05-19",
+      "summary": "Anthropic 将 MCP 协议捐赠给 Linux 基金会下的 Agentic AI Foundation (AAIF)。MCP 隧道（tunnels）与自托管沙箱在 Code with Claude London 大会上发布，Discord 社区贡献者达 2900+ 人。56 个生产级 MCP 服务器被编目。",
+      "link": "https://www.digitalapplied.com/blog/mcp-server-ecosystem-tracker-50-servers-cataloged-2026"
+    },
+    {
+      "title": "EleutherAI 暑期开放 AI 研究计划（SOAR 2026）通过 Discord 开展",
+      "date": "2026-05-19",
+      "summary": "EleutherAI Discord 社区（约 3 万成员）启动第五届暑期开放 AI 研究计划，为期 5 周全程线上，通过 Discord 平台托管。面向无研究经验的开发者开放申请（6 月 8 日截止），提供结构化指导与发表机会。",
+      "link": "https://www.eleuther.ai/soar"
+    }
+  ],
+  "github": [
+    {
+      "title": "D4Vinci/Scrapling - Adaptive AI Web Scraping Framework",
+      "date": "2026-06-02",
+      "summary": "An adaptive web scraping framework that handles everything from a single request to a full-scale crawl. 58,532 stars on GitHub, gaining 1,486 stars today. Written in Python, it provides intelligent, AI-powered web data extraction.",
+      "link": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "title": "FareedKhan-dev/train-llm-from-scratch - Train Your Own LLM",
+      "date": "2026-06-02",
+      "summary": "A straightforward method for training your LLM from downloading data to generating text. Gaining 861 stars today (3,925 total). Jupyter Notebook-based guide covering the full LLM training pipeline.",
+      "link": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+    },
+    {
+      "title": "OpenBMB/VoxCPM - Tokenizer-Free TTS for Multilingual Speech",
+      "date": "2026-06-02",
+      "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning. 23,908 stars. Open-source speech generation from Tsinghua University.",
+      "link": "https://github.com/OpenBMB/VoxCPM"
+    }
+  ],
+  "hn": [],
+  "reddit": [
+    {
+      "title": "Ronny Chieng's 'F*ck AI' Speech Met With Cheers From Harvard Graduates",
+      "date": "2026-05-29",
+      "summary": "Daily Show comedian Ronny Chieng's anti-AI commencement speech at Harvard went viral, drawing 43K+ upvotes on r/technology. He called on graduates to reject the narrative that they must embrace AI, sparking intense debate about AI's societal impact.",
+      "link": "https://www.reddit.com/r/technology/comments/1traeoj/ronny_chiengs_fck_ai_speech_met_with_cheers_from/"
+    },
+    {
+      "title": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
+      "date": "2026-05-19",
+      "summary": "A hot discussion on r/artificial arguing that Google I/O 2026 highlighted how AI companies hype their products while models remain inconsistent and unreliable. The post argues the industry acts like beta-startups while claiming to be essential infrastructure.",
+      "link": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/"
+    },
+    {
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "date": "2026-05-27",
+      "summary": "After Google announced AI-first search at I/O 2026, DuckDuckGo visits surged 28%. The r/technology post with 10.9K+ upvotes reflects growing user backlash against AI integration in search engines and migration to privacy-focused alternatives.",
+      "link": "https://www.reddit.com/r/technology/comments/1tphb7o/duckduckgo_search_saw_28_more_visits_after_google/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Gemini Spark — 24/7 Personal AI Agent",
+      "date": "2026-05-19",
+      "summary": "Google announced Gemini Spark at I/O 2026: a cloud-based 24/7 personal AI agent that runs continuously, connects to Google products and 30+ third-party tools via MCP (including Adobe, Asana, Uber, Zillow), and handles autonomous tasks with the Agent Payments Protocol (AP2) safeguard framework. Rolled out to Google AI Ultra subscribers in the US on May 29, 2026.",
+      "link": "https://mashable.com/article/google-io-2026-gemini-spark-announced"
+    },
+    {
+      "title": "Microsoft Agent 365 — Enterprise AI Agent Control Plane",
+      "date": "2026-05-01",
+      "summary": "Microsoft launched Agent 365 as a dedicated governance and security control plane for enterprise AI agents, priced at $15/user/month. It manages agents built on Microsoft AI platforms (Foundry, Copilot Studio) and third-party agents, with context mapping, policy-based controls, and runtime monitoring via Intune and Defender.",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
+    },
+    {
+      "title": "OpenAI GPT-5.5 Instant — New Default ChatGPT Model",
+      "date": "2026-05-05",
+      "summary": "OpenAI released GPT-5.5 Instant as the new default ChatGPT model, replacing GPT-5.3 Instant. Features reduced hallucination in law/medicine/finance, AIME 2025 math score 81.2 (vs 65.4), improved context management with memory sources and search tool integration referencing past conversations and Gmail.",
+      "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Microsoft Build 2026: Windows becomes the platform for AI agents",
+      "date": "2026-06-02",
+      "summary": "Satya Nadella kicks off Build 2026 with a sweeping vision: Windows as the premier platform for AI-powered agents. New APIs, semantic kernel updates, Agent Mode for Office 365 Copilot, GitHub Copilot upgrades, and Windows local AI stack. The Start menu transforms into an agent hub orchestrating task-specific bots.",
+      "link": "https://windowsnews.ai/article/microsoft-build-2026-windows-becomes-the-platform-for-ai-agents.420503"
+    },
+    {
+      "title": "Google I/O 2026: Search gets AI agents and Gemini 3.5 Flash",
+      "date": "2026-05-19",
+      "summary": "Google upgrades Search with Gemini 3.5 Flash as the default AI Mode model globally, introduces AI-powered Search agents that can perform tasks just by asking, and reimagines the Search box for the first time in 25 years. AI Mode surpasses 1 billion monthly users.",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+    },
+    {
+      "title": "NVIDIA's Jensen Huang declares 'agent-centric AI' era at GTC Taipei 2026",
+      "date": "2026-06-01",
+      "summary": "Jensen Huang states 'In the past six months, everything has changed. With agents implemented, AI can now do truly useful things.' Announces agent-centric AI architecture to be embedded in data centers, PCs, cars, humanoid robots, and satellites.",
+      "link": "https://www.memesita.com/nvidias-jensen-huang-calls-taiwan-south-korea-very-special-in-ai-semiconductor-push/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic raises $65B, nears $1T valuation ahead of IPO, topping OpenAI as most valuable AI startup",
+      "date": "2026-05-28",
+      "summary": "Anthropic closed a $65 billion Series H funding round at a $965 billion post-money valuation, co-led by Altimeter Capital, Dragoneer, Greenoaks, Sequoia Capital, and others. The round includes $15B from hyperscalers including Amazon, and strategic investments from Samsung, SK Hynix, and Micron. Anthropic also released Claude Opus 4.8 with improved agentic capabilities, positioning the company for a potential IPO.",
+      "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/"
+    },
+    {
+      "title": "AI coding startup Cognition raises $1B at $26B valuation for Devin AI platform",
+      "date": "2026-05-27",
+      "summary": "Cognition, the maker of AI coding assistant Devin, raised $1 billion in a round co-led by Lux Capital, General Catalyst, and 8VC, with participation from Ribbit Capital, Atreides Management, and Peter Thiel's Founders Fund. The startup's valuation jumped to $26 billion as enterprise demand for AI-powered software development tools continues to surge.",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-27/ai-coding-startup-cognition-raises-1-billion-at-26-billion-value"
+    },
+    {
+      "title": "Silicon Valley pivots to Physical AI: OpenAI declares robotics next frontier, Figure AI humanoid livestream goes viral",
+      "date": "2026-06-02",
+      "summary": "The biggest AI players are racing into humanoid robotics. OpenAI CEO Sam Altman declared robotics the company's next frontier. Nvidia announced a standard humanoid robot blueprint at GTC Taipei. Figure AI's humanoid livestream of package sorting drew millions of viewers, and the startup signed a commercial agreement with Catalyst Brands (JCPenney, Aeropostale) to deploy humanoids in logistics networks.",
+      "link": "https://www.businessinsider.com/silicon-valleys-new-slogan-lets-get-physical-2026-6"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "2026世界智能产业博览会：40余款AI大模型集中亮相，从能力展示迈入产业应用",
+      "date": "2026-05-30",
+      "summary": "在天津举行的2026世界智能产业博览会上，设立AI大模型专区，40余款AI大模型、10余款AI智能体集中亮相，包括语言大模型、视觉大模型、基础科学大模型等。与以往不同的是，本届智博会大模型从以前的能力展示真正迈向了产业应用，展出了汽车发动机维修预测诊断模型等落地案例。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631256.shtml"
+    },
+    {
+      "title": "中国AI大模型周调用量连续四周超美国，居全球第一",
+      "date": "2026-05-27",
+      "summary": "据OpenRouter数据测算，5月18日至24日全球AI大模型总调用量28.9万亿Token，中国AI大模型周调用量达9.22万亿Token，环比增长19.89%；美国为4.93万亿Token。中国已连续四周超过美国稳居首位。其中DeepSeek-V4-Flash位居全球调用量榜首，周调用量达3.43万亿Token。",
+      "link": "https://foxvbot.kuryun.com/home/Blog/detail.html?id=3506"
+    },
+    {
+      "title": "三部委联合印发《智能体规范应用与创新发展实施意见》，AI智能体进入政策规范时代",
+      "date": "2026-05-09",
+      "summary": "国家网信办、国家发展改革委、工业和信息化部联合印发《智能体规范应用与创新发展实施意见》，提出积极稳妥推动智能体典型场景应用，牵引技术产品优化提升，探索可复制、可推广的智能体落地应用模式。该意见将‘守牢安全底线’作为总体思路之一，被视为中国AI智能体产业从“参数竞赛”转向“落地竞赛”的关键政策信号。",
+      "link": "https://finance.sina.com.cn/jjxw/2026-05-09/doc-inhxifmc3343701.shtml"
+    }
+  ]
+}

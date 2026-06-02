@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "github",
+  "items": [
+    {
+      "title": "D4Vinci/Scrapling - Adaptive AI Web Scraping Framework",
+      "date": "2026-06-02",
+      "summary": "An adaptive web scraping framework that handles everything from a single request to a full-scale crawl. 58,532 stars on GitHub, gaining 1,486 stars today. Written in Python, it provides intelligent, AI-powered web data extraction.",
+      "link": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "title": "FareedKhan-dev/train-llm-from-scratch - Train Your Own LLM",
+      "date": "2026-06-02",
+      "summary": "A straightforward method for training your LLM from downloading data to generating text. Gaining 861 stars today (3,925 total). Jupyter Notebook-based guide covering the full LLM training pipeline.",
+      "link": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+    },
+    {
+      "title": "OpenBMB/VoxCPM - Tokenizer-Free TTS for Multilingual Speech",
+      "date": "2026-06-02",
+      "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning. 23,908 stars. Open-source speech generation from Tsinghua University.",
+      "link": "https://github.com/OpenBMB/VoxCPM"
+    }
+  ]
+}

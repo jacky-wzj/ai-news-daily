@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Microsoft Build 2026: Windows becomes the platform for AI agents",
+      "date": "2026-06-02",
+      "summary": "Satya Nadella kicks off Build 2026 with a sweeping vision: Windows as the premier platform for AI-powered agents. New APIs, semantic kernel updates, Agent Mode for Office 365 Copilot, GitHub Copilot upgrades, and Windows local AI stack. The Start menu transforms into an agent hub orchestrating task-specific bots.",
+      "link": "https://windowsnews.ai/article/microsoft-build-2026-windows-becomes-the-platform-for-ai-agents.420503"
+    },
+    {
+      "title": "Google I/O 2026: Search gets AI agents and Gemini 3.5 Flash",
+      "date": "2026-05-19",
+      "summary": "Google upgrades Search with Gemini 3.5 Flash as the default AI Mode model globally, introduces AI-powered Search agents that can perform tasks just by asking, and reimagines the Search box for the first time in 25 years. AI Mode surpasses 1 billion monthly users.",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+    },
+    {
+      "title": "NVIDIA's Jensen Huang declares 'agent-centric AI' era at GTC Taipei 2026",
+      "date": "2026-06-01",
+      "summary": "Jensen Huang states 'In the past six months, everything has changed. With agents implemented, AI can now do truly useful things.' Announces agent-centric AI architecture to be embedded in data centers, PCs, cars, humanoid robots, and satellites.",
+      "link": "https://www.memesita.com/nvidias-jensen-huang-calls-taiwan-south-korea-very-special-in-ai-semiconductor-push/"
+    }
+  ]
+}

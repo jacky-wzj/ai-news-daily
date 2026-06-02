@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "tools",
+  "items": [
+    {
+      "title": "Google Gemini Spark — 24/7 Personal AI Agent",
+      "date": "2026-05-19",
+      "summary": "Google announced Gemini Spark at I/O 2026: a cloud-based 24/7 personal AI agent that runs continuously, connects to Google products and 30+ third-party tools via MCP (including Adobe, Asana, Uber, Zillow), and handles autonomous tasks with the Agent Payments Protocol (AP2) safeguard framework. Rolled out to Google AI Ultra subscribers in the US on May 29, 2026.",
+      "link": "https://mashable.com/article/google-io-2026-gemini-spark-announced"
+    },
+    {
+      "title": "Microsoft Agent 365 — Enterprise AI Agent Control Plane",
+      "date": "2026-05-01",
+      "summary": "Microsoft launched Agent 365 as a dedicated governance and security control plane for enterprise AI agents, priced at $15/user/month. It manages agents built on Microsoft AI platforms (Foundry, Copilot Studio) and third-party agents, with context mapping, policy-based controls, and runtime monitoring via Intune and Defender.",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"
+    },
+    {
+      "title": "OpenAI GPT-5.5 Instant — New Default ChatGPT Model",
+      "date": "2026-05-05",
+      "summary": "OpenAI released GPT-5.5 Instant as the new default ChatGPT model, replacing GPT-5.3 Instant. Features reduced hallucination in law/medicine/finance, AIME 2025 math score 81.2 (vs 65.4), improved context management with memory sources and search tool integration referencing past conversations and Gmail.",
+      "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+    }
+  ]
+}

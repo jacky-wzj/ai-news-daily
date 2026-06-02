@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-02",
+  "section": "insights",
+  "items": [
+    {
+      "title": "Anthropic Files Confidentially for IPO, Surpassing OpenAI in Private Market Value",
+      "date": "2026-06-01",
+      "summary": "Anthropic filed a confidential draft S-1 with the SEC on June 1, aiming to go public as soon as fall 2026. The filing follows a $65B Series H at a $965B post-money valuation, making it the first AI lab to surpass OpenAI in private market value. Annualized revenue run rate crossed $47B.",
+      "link": "https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html"
+    },
+    {
+      "title": "Nvidia Unveils RTX Spark Superchip for AI PCs at Computex 2026, Challenging Apple and Qualcomm",
+      "date": "2026-06-01",
+      "summary": "Nvidia announced the RTX Spark Superchip, a Windows on Arm platform combining a Blackwell RTX GPU (6,144 CUDA cores) with a 20-core Grace CPU and 128GB unified LPDDR5X memory. Laptops from Microsoft, Dell, HP, ASUS, Lenovo and MSI are expected this fall, positioning Nvidia directly against Apple's M-series, Intel, AMD, and Qualcomm.",
+      "link": "https://www.nvidia.com/en-us/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/"
+    },
+    {
+      "title": "COMPUTEX 2026 Opens in Taipei Under 'AI Together' Theme with Record 1,500 Exhibitors",
+      "date": "2026-06-02",
+      "summary": "COMPUTEX 2026 kicked off at Taipei Nangang Exhibition Center with 1,500 exhibitors from 33 countries across 6,000+ booths. The show introduces a new AI Robotics Zone and features keynotes from Qualcomm, Marvell, Intel, and NXP CEOs. TrendForce projects the global LLM robotics market to exceed $100B by 2028.",
+      "link": "https://www.prnewswire.com/news-releases/ai-goes-physical--taiwan-leads-global-industry-transformation-as-computex-2026-opens-tomorrow-in-taipei-302787133.html"
+    },
+    {
+      "title": "Nvidia Expands Humanoid Robot Partnerships to US, Europe and South Korea Beyond China's Unitree",
+      "date": "2026-06-01",
+      "summary": "Nvidia announced collaborations with humanoid robot makers in the US, Europe, and South Korea alongside existing work with China's Unitree. The initial platform integrates Unitree's H2 robot body with Sharpa's hands and Nvidia's Blackwell chips and secure boot/confidential computing. Stanford and UC San Diego will use the systems for robotics research.",
+      "link": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
+    },
+    {
+      "title": "SoftBank Commits €75 Billion to Build 5 GW of AI Data Centre Capacity in France",
+      "date": "2026-06-01",
+      "summary": "Japanese investment group SoftBank announced plans to invest up to €75 billion ($87B) to develop and operate 5 GW of AI data centre capacity in France, marking Europe's largest-ever AI infrastructure investment. The project is expected to create thousands of high-skilled jobs.",
+      "link": "https://www.euronews.com/business/2026/06/01/creating-thousands-of-high-skilled-jobs-softbank-to-invest-75bn-in-french-ai-data-centres"
+    },
+    {
+      "title": "CNN Sues Perplexity AI for Copyright and Trademark Infringement Over 17,000 News Stories",
+      "date": "2026-05-28",
+      "summary": "CNN filed a copyright and trademark infringement lawsuit against Perplexity AI in New York federal court, alleging the AI search engine unlawfully copied and distributed over 17,000 CNN articles. The case represents a major front in the growing battle between news publishers and AI companies over content use.",
+      "link": "https://www.cnn.com/2026/05/28/media/cnn-sues-perplexity-ai-copyright"
+    },
+    {
+      "title": "Nearly Half of Planned US AI Data Centers for 2026 Face Delays or Cancellation Amid Power Grid Bottlenecks",
+      "date": "2026-06-01",
+      "summary": "Analyses indicate 30-50% of approximately 140 planned US data centers targeting 16 GW of capacity may miss 2026 timelines or be canceled outright. Key factors include shortages of electrical components (transformers, switchgear, batteries), power grid constraints, and supply chain disruptions — threatening the AI infrastructure buildout.",
+      "link": "https://techstartups.com/2026/06/01/top-tech-news-today-june-1-2026/"
+    }
+  ]
+}
