@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "section": "hn",
+  "items": [
+    {
+      "title": "CS336: Language Modeling from Scratch (Stanford)",
+      "date": "2026-06-02",
+      "summary": "斯坦福大学开设CS336课程，教授从零构建语言模型的全流程。课程涵盖深度学习基础、分词器、GPU训练等核心内容，作业要求学生亲手搭建完整的LLM流水线。HN社区热议课程难度与GPU租用成本，TA回应称总计算费用可控制在50美元以内。该课程已获480+点赞。",
+      "link": "https://news.ycombinator.com/item?id=48357075"
+    },
+    {
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "date": "2026-06-02",
+      "summary": "斯坦福CS336课程发布AI代理使用指南（CLAUDE.md），规范学生在课程作业中使用AI编程助手的行为。该文件引发HN社区关于教育中AI工具使用边界的广泛讨论，包括如何记录AI辅助历史、防止学生过度依赖AI完成作业等话题。获426+点赞。",
+      "link": "https://news.ycombinator.com/item?id=48359232"
+    },
+    {
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "date": "2026-06-02",
+      "summary": "《经济学人》分析Anthropic、SpaceX和OpenAI等科技巨头即将IPO对股市的冲击。HN社区激烈讨论指数基金纳入规则被修改（如S&P 500豁免盈利要求、纳斯达克缩短纳入窗口至15天），迫使超30万亿美元被动退休基金按IPO估值买入，引发对散户投资者保护的担忧。获406+点赞及700+评论。",
+      "link": "https://news.ycombinator.com/item?id=48364055"
+    }
+  ]
+}

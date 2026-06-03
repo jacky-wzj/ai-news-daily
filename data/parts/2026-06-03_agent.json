@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "agent",
+  "items": [
+    {
+      "title": "微软发布Agent Control Specification开源标准",
+      "date": "2026-06-02",
+      "summary": "微软推出开源Agent Control Specification(ACS)标准，为开发者提供一致且细粒度的AI智能体行为控制方式，解决Agent安全治理难题。",
+      "link": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/"
+    },
+    {
+      "title": "微软Azure全面转向Agentic AI架构",
+      "date": "2026-06-02",
+      "summary": "微软在Build 2026详述Azure云和AI产品组合如何为Agentic AI重新设计，支持能推理、检索知识、执行动作并持续运行的AI Agent。",
+      "link": "https://www.digitimes.com/news/a20260603VL202/microsoft-azure-ai-agent-2026.html"
+    },
+    {
+      "title": "Hugging Face agents can now train models with new skills",
+      "date": "2026-05-20",
+      "summary": "Hugging Face推出Agent新能力，智能体可自主训练模型并习得新技能与HF Hub交互，开启AI开发自动化新模式。",
+      "link": "https://blog.mean.ceo/ai-agents-news-june-2026/"
+    }
+  ]
+}

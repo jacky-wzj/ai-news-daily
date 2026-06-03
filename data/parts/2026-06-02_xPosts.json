@@ -3,22 +3,22 @@
   "section": "xPosts",
   "items": [
     {
-      "title": "Andrej Karpathy announces he has joined Anthropic — AI talent shockwave",
+      "title": "Andrej Karpathy宣布加入Anthropic",
       "date": "2026-05-19",
-      "summary": "Andrej Karpathy, OpenAI founding member and former Tesla AI director, posted a personal update on X saying \"I've joined Anthropic.\" The tweet generated over 11.3M views, 102K likes, and 13K reposts within hours, widely described as the AI talent move of the year. Karpathy will be working on pre-training research at Anthropic.",
+      "summary": "OpenAI联合创始人、前特斯拉AI总监Andrej Karpathy在X上发布推文，宣布离开Eureka Labs加入Anthropic，将领导预训练研究团队。该推文24小时内获得620万次浏览，引发AI人才争夺战热议，标志着前沿AI研究力量格局的重大变化。",
       "link": "https://x.com/karpathy/status/2056753169888334312"
     },
     {
-      "title": "OpenAI model disproves 80-year-old Erdős planar unit distance conjecture",
-      "date": "2026-05-20",
-      "summary": "OpenAI announced that an internal general-purpose reasoning model disproved the Erdős planar unit distance problem, a famous open question in discrete geometry first posed in 1946. The breakthrough demonstrates frontier AI models are advancing beyond IMO gold-level performance toward autonomous mathematical research.",
-      "link": "https://x.com/OpenAI/status/2057176201782075690"
+      "title": "Anthropic官宣秘密提交IPO申请",
+      "date": "2026-06-01",
+      "summary": "Anthropic官方账号发推宣布已向SEC秘密提交S-1注册声明，为IPO做准备。公司估值达9650亿美元，或将成为史上最大AI公司IPO。Sam Altman随后回应称不关注上市时间竞赛，引发行业对AI公司集体上市潮的广泛讨论。",
+      "link": "https://x.com/AnthropicAI/status/2061478052257841495"
     },
     {
-      "title": "Sam Altman says kids born today will \"never be smarter than AI\" — sparks global backlash",
-      "date": "2026-05-26",
-      "summary": "Sam Altman's prediction that \"a kid born today will never be smarter than AI, ever\" went massively viral, triggering heated debate across X and news media. Rep. Ro Khanna pushed back on X, saying \"My bet is on the kid born today over AI.\" The quote originally came from a 2025 interview but resurfaced and dominated AI discourse in late May 2026.",
-      "link": "https://x.com/MrEwanMorrison/status/2019695775048155184"
+      "title": "GitHub Copilot转向按Token计费引发开发者强烈反弹",
+      "date": "2026-06-01",
+      "summary": "GitHub Copilot于6月1日从固定订阅制切换为按Token计费模式，开发者社区在X和Reddit上炸锅。有人估算月费将从29美元飙升至750美元以上，大量用户宣布转投Claude Code和Cursor。\"What a joke\"一度在X上成为热门话题，引发AI补贴时代终结的讨论。",
+      "link": "https://github.com/orgs/community/discussions/192948"
     }
   ]
 }

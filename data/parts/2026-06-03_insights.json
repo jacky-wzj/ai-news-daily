@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-03",
+  "section": "insights",
+  "items": [
+    {
+      "title": "Anthropic秘密提交IPO文件准备上市",
+      "date": "2026-06-01",
+      "summary": "Anthropic于6月1日向SEC秘密提交S-1文件准备IPO，此前估值达9650亿美元超越OpenAI，成为AI行业首家冲刺公开市场的万亿级公司。",
+      "link": "https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/"
+    },
+    {
+      "title": "微软Build 2026发布自研AI编码模型MAI-Code-1降低对OpenAI依赖",
+      "date": "2026-06-02",
+      "summary": "微软在Build开发者大会上推出自研MAI系列AI模型，包括MAI-Code-1-Flash编码模型，降低对OpenAI依赖，为开发者提供更低成本选择。",
+      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
+    },
+    {
+      "title": "英伟达RTX Spark超级芯片进入消费PC市场",
+      "date": "2026-06-01",
+      "summary": "英伟达在Computex 2026推出RTX Spark超级芯片，基于ARM架构搭配Blackwell GPU，支持128GB统一内存和1 petaflop AI算力，今秋上市。",
+      "link": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html"
+    },
+    {
+      "title": "Trump signs AI executive order asking companies for early access to models",
+      "date": "2026-06-02",
+      "summary": "特朗普签署AI安全行政命令，要求科技公司在发布强大AI模型前30天自愿提交政府审查，标志美国AI监管政策重大转向。",
+      "link": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html"
+    },
+    {
+      "title": "英伟达Cosmos 3物理AI全能模型开源发布",
+      "date": "2026-06-01",
+      "summary": "英伟达在Computex 2026发布首个开源物理AI全能模型Cosmos 3，权重已在Hugging Face发布，推动机器人和物理仿真领域发展。",
+      "link": "https://chatforest.com/builders-log/nvidia-cosmos-3-physical-ai-omnimodel-computex-2026-builder-guide/"
+    },
+    {
+      "title": "OpenAI前沿模型和Codex正式登陆AWS",
+      "date": "2026-06-01",
+      "summary": "OpenAI宣布其前沿模型和Codex编码工具正式在AWS上线，扩展企业用户可访问渠道，加速AI能力在云端的普及。",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/"
+    },
+    {
+      "title": "微软与谷歌加入AI编码模型竞赛挑战Anthropic和OpenAI",
+      "date": "2026-06-01",
+      "summary": "微软和谷歌正式进入AI编码模型赛道，与Anthropic和OpenAI展开竞争，AI行业焦点从通用模型转向开发者工具生态。",
+      "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html"
+    }
+  ]
+}

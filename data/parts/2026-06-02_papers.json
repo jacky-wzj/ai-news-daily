@@ -3,22 +3,22 @@
   "section": "papers",
   "items": [
     {
-      "title": "LVSA: Training-Free Sparse Attention for Long Video Diffusion",
-      "date": "2026-05-29",
-      "summary": "Long Video Sparse Attention (LVSA) addresses computational bottlenecks in video diffusion models by introducing a training-free block-sparse attention mechanism that combines structured window patterns with rotating global anchors, reducing compute up to 3.33x while maintaining video quality beyond training horizons.",
-      "link": "https://huggingface.co/papers/2605.31057"
+      "title": "CubePart: An Open-Vocabulary Part-Controllable 3D Generator",
+      "date": "2026-05-28",
+      "summary": "Roblox与Stanford联合提出CubePart，一种开放词汇、部件可控的3D网格生成框架。用户可通过文本提示和自定义部件schema生成语义分解的3D资产，直接集成游戏引擎，无需手动后处理。将在SIGGRAPH 2026发表。",
+      "link": "https://huggingface.co/papers/2605.28763"
     },
     {
-      "title": "Confidence-Adaptive SwiGLU for Mixture-of-Experts",
-      "date": "2026-05-30",
-      "summary": "Confidence-Aware SwiGLU (κ-SwiGLU) adjusts expert gate sharpness in Mixture-of-Experts models based on token-level routing confidence, improving mean CORE performance with negligible parameter overhead across MoE Transformer models from 8 to 28 layers.",
-      "link": "https://huggingface.co/papers/2606.00761"
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "date": "2026-06-01",
+      "summary": "提出SafeSteer方法，通过对安全相关token进行局部蒸馏来实现LLM安全对齐，仅需100条有害样本即可达到强安全性能，且几乎不损害模型通用能力，对齐成本不到以往方法的1%。已提交EMNLP 2026。",
+      "link": "https://arxiv.org/abs/2606.02530"
     },
     {
-      "title": "FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search",
-      "date": "2026-05-30",
-      "summary": "FineVerify is a self-verification framework for agentic search that decomposes questions into checkable sub-questions, verifies sampled candidates, and selects the best trajectory. With 4 samples it improves GPT-5-mini by 8.2 accuracy points and with 12 samples enables GPT-5-mini to surpass frontier GPT-5 on BrowseComp-Plus.",
-      "link": "https://huggingface.co/papers/2606.00660"
+      "title": "Towards Trustworthy Agentic AI: A Comprehensive Survey of Safety, Robustness, Privacy, and System Security",
+      "date": "2026-05-17",
+      "summary": "全面综述可信赖智能体AI系统，聚焦安全性与鲁棒性、隐私与系统安全两大核心维度，梳理了Agent工作流各阶段的风险点与缓解策略，并提出统一评估指标框架，为高风险场景下的智能体部署提供实用参考。",
+      "link": "https://arxiv.org/abs/2605.23989"
     }
   ]
 }

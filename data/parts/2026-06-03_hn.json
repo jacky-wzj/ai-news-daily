@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "hn",
+  "items": [
+    {
+      "title": "股市能否消化Anthropic、SpaceX和OpenAI的IPO？",
+      "date": "2026-06-02",
+      "summary": "经济学人文章讨论股市能否承受三大科技巨头同时上市，获690点赞和1213条评论，引发对AI泡沫和市场容量的深度讨论。",
+      "link": "https://news.ycombinator.com/item?id=48364055"
+    },
+    {
+      "title": "MAI-Code-1-Flash: 微软自研AI编码模型",
+      "date": "2026-06-02",
+      "summary": "微软发布MAI-Code-1-Flash编码模型，获462点赞和207条评论，HN社区热议其对Copilot生态和OpenAI竞争的影响。",
+      "link": "https://news.ycombinator.com/item?id=48374466"
+    },
+    {
+      "title": "OpenAI前沿模型和Codex登陆AWS",
+      "date": "2026-06-02",
+      "summary": "OpenAI将其前沿模型和Codex带入AWS，获360点赞和126条评论，开发者讨论多云AI部署策略和成本优化方案。",
+      "link": "https://news.ycombinator.com/item?id=48363132"
+    }
+  ]
+}

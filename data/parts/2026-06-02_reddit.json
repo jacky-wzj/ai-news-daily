@@ -3,22 +3,22 @@
   "section": "reddit",
   "items": [
     {
-      "title": "Ronny Chieng's 'F*ck AI' Speech Met With Cheers From Harvard Graduates",
+      "title": "The famous METR AI time horizons graph contains numerous severe errors [D]",
+      "date": "2026-05-26",
+      "summary": "NYU Stern研究员Nathan Witkin发文批评METR的AI时间跨度图表存在严重方法论错误，该图表被广泛引用于AI安全、政策和投资领域，用以论证AI能力正在爆发式增长。若批评成立，将动摇AI快速进步叙事的实证基础。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/"
+    },
+    {
+      "title": "The best AI tools in 2026 are not always the most hyped. Here's what I'd actually use",
       "date": "2026-05-29",
-      "summary": "Daily Show comedian Ronny Chieng's anti-AI commencement speech at Harvard went viral, drawing 43K+ upvotes on r/technology. He called on graduates to reject the narrative that they must embrace AI, sparking intense debate about AI's societal impact.",
-      "link": "https://www.reddit.com/r/technology/comments/1traeoj/ronny_chiengs_fck_ai_speech_met_with_cheers_from/"
+      "summary": "Reddit用户分享2026年实用AI工具推荐，包括DeepSeek V4（免费开源、接近前沿水平）、Perplexity（带引用的搜索工具）等，强调实际使用体验而非炒作热度，引发社区热烈讨论。",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1tr9u9m/the_best_ai_tools_in_2026_are_not_always_the_most/"
     },
     {
-      "title": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
-      "date": "2026-05-19",
-      "summary": "A hot discussion on r/artificial arguing that Google I/O 2026 highlighted how AI companies hype their products while models remain inconsistent and unreliable. The post argues the industry acts like beta-startups while claiming to be essential infrastructure.",
-      "link": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/"
-    },
-    {
-      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
-      "date": "2026-05-27",
-      "summary": "After Google announced AI-first search at I/O 2026, DuckDuckGo visits surged 28%. The r/technology post with 10.9K+ upvotes reflects growing user backlash against AI integration in search engines and migration to privacy-focused alternatives.",
-      "link": "https://www.reddit.com/r/technology/comments/1tphb7o/duckduckgo_search_saw_28_more_visits_after_google/"
+      "title": "ACM MM 2026 review discussion [D]",
+      "date": "2026-05-28",
+      "summary": "r/MachineLearning社区发起ACM Multimedia 2026学术会议审稿讨论帖，讨论评审评分标准困惑、rebuttal期限（5月28日至6月4日）等话题，研究者交流投稿经验与审稿反馈。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tpvw6q/acm_mm_2026_review_discussion_d/"
     }
   ]
 }

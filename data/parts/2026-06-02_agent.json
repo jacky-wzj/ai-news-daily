@@ -3,22 +3,22 @@
   "section": "agent",
   "items": [
     {
-      "title": "Microsoft Build 2026: Windows becomes the platform for AI agents",
-      "date": "2026-06-02",
-      "summary": "Satya Nadella kicks off Build 2026 with a sweeping vision: Windows as the premier platform for AI-powered agents. New APIs, semantic kernel updates, Agent Mode for Office 365 Copilot, GitHub Copilot upgrades, and Windows local AI stack. The Start menu transforms into an agent hub orchestrating task-specific bots.",
-      "link": "https://windowsnews.ai/article/microsoft-build-2026-windows-becomes-the-platform-for-ai-agents.420503"
-    },
-    {
-      "title": "Google I/O 2026: Search gets AI agents and Gemini 3.5 Flash",
+      "title": "Google I/O 2026: Search全面引入AI Agent，搜索框迎来25年来最大升级",
       "date": "2026-05-19",
-      "summary": "Google upgrades Search with Gemini 3.5 Flash as the default AI Mode model globally, introduces AI-powered Search agents that can perform tasks just by asking, and reimagines the Search box for the first time in 25 years. AI Mode surpasses 1 billion monthly users.",
+      "summary": "Google在I/O 2026大会宣布将Gemini 3.5 Flash作为AI Mode默认模型，推出信息Agent可自动监控全网动态，并对搜索框进行25年来最大升级，用户可直接通过搜索发起Agent任务，AI Mode月活已突破10亿。",
       "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
     },
     {
-      "title": "NVIDIA's Jensen Huang declares 'agent-centric AI' era at GTC Taipei 2026",
+      "title": "Adversa AI发布2026年6月Agentic AI安全报告：编码Agent漏洞集中爆发",
       "date": "2026-06-01",
-      "summary": "Jensen Huang states 'In the past six months, everything has changed. With agents implemented, AI can now do truly useful things.' Announces agent-centric AI architecture to be embedded in data centers, PCs, cars, humanoid robots, and satellites.",
-      "link": "https://www.memesita.com/nvidias-jensen-huang-calls-taiwan-south-korea-very-special-in-ai-semiconductor-push/"
+      "summary": "Adversa AI披露SymJack和TrustFall两大漏洞，影响Claude Code、Cursor、Gemini CLI等六款主流AI编码Agent，可导致远程代码执行。微软Semantic Kernel也被发现提示注入漏洞，Agentic AI安全问题引发行业高度关注。",
+      "link": "https://adversa.ai/blog/top-agentic-ai-security-resources-june-2026/"
+    },
+    {
+      "title": "NVIDIA推荐Hermes Agent：自我进化的本地AI Agent，GitHub星标超14万",
+      "date": "2026-05-12",
+      "summary": "Nous Research开发的Hermes Agent在三个月内获得14万GitHub星标，成为OpenRouter上使用最多的Agent。其核心特性包括自我进化技能学习、隔离子Agent架构和本地化运行，可在NVIDIA RTX及DGX Spark上全天候加速运行。",
+      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/"
     }
   ]
 }

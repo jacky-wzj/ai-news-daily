@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "papers",
+  "items": [
+    {
+      "title": "Hugging Face Agents: Train Models with New Skills",
+      "date": "2026-05-20",
+      "summary": "Hugging Face发布Agent训练模型新技能框架，智能体可自主训练模型并利用新技能与HF Hub交互，增强AI开发工作流。",
+      "link": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/hugging-face-agents-train-models-with-new-skills"
+    },
+    {
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "date": "2026-06-02",
+      "summary": "Hcompany在Hugging Face发布Holo3.1，实现快速本地化计算机使用智能体，支持屏幕操控和多步骤任务执行，推动桌面自动化新范式。",
+      "link": "https://huggingface.co/blog/Hcompany/holo31"
+    },
+    {
+      "title": "Dnotitia发布企业级AI语言模型DNA 3.0",
+      "date": "2026-06-02",
+      "summary": "Dnotitia在Hugging Face发布企业级AI语言模型DNA 3.0，专注长期记忆AI和半导体AI基础设施技术，面向企业生产环境优化。",
+      "link": "https://www.insidenova.com/online_features/press_releases/dnotitia-releases-dna-3-0-an-enterprise-ready-ai-language-model-family/article_0b712085-c0f2-5cca-b9a5-d9edf32efdf5.html"
+    }
+  ]
+}

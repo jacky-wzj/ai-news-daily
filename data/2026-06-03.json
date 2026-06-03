@@ -1,0 +1,247 @@
+{
+  "date": "2026-06-03",
+  "insights": [
+    {
+      "title": "Anthropic秘密提交IPO文件准备上市",
+      "date": "2026-06-01",
+      "summary": "Anthropic于6月1日向SEC秘密提交S-1文件准备IPO，此前估值达9650亿美元超越OpenAI，成为AI行业首家冲刺公开市场的万亿级公司。",
+      "link": "https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/"
+    },
+    {
+      "title": "微软Build 2026发布自研AI编码模型MAI-Code-1降低对OpenAI依赖",
+      "date": "2026-06-02",
+      "summary": "微软在Build开发者大会上推出自研MAI系列AI模型，包括MAI-Code-1-Flash编码模型，降低对OpenAI依赖，为开发者提供更低成本选择。",
+      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
+    },
+    {
+      "title": "英伟达RTX Spark超级芯片进入消费PC市场",
+      "date": "2026-06-01",
+      "summary": "英伟达在Computex 2026推出RTX Spark超级芯片，基于ARM架构搭配Blackwell GPU，支持128GB统一内存和1 petaflop AI算力，今秋上市。",
+      "link": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html"
+    },
+    {
+      "title": "Trump signs AI executive order asking companies for early access to models",
+      "date": "2026-06-02",
+      "summary": "特朗普签署AI安全行政命令，要求科技公司在发布强大AI模型前30天自愿提交政府审查，标志美国AI监管政策重大转向。",
+      "link": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html"
+    },
+    {
+      "title": "英伟达Cosmos 3物理AI全能模型开源发布",
+      "date": "2026-06-01",
+      "summary": "英伟达在Computex 2026发布首个开源物理AI全能模型Cosmos 3，权重已在Hugging Face发布，推动机器人和物理仿真领域发展。",
+      "link": "https://chatforest.com/builders-log/nvidia-cosmos-3-physical-ai-omnimodel-computex-2026-builder-guide/"
+    },
+    {
+      "title": "OpenAI前沿模型和Codex正式登陆AWS",
+      "date": "2026-06-01",
+      "summary": "OpenAI宣布其前沿模型和Codex编码工具正式在AWS上线，扩展企业用户可访问渠道，加速AI能力在云端的普及。",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/"
+    },
+    {
+      "title": "微软与谷歌加入AI编码模型竞赛挑战Anthropic和OpenAI",
+      "date": "2026-06-01",
+      "summary": "微软和谷歌正式进入AI编码模型赛道，与Anthropic和OpenAI展开竞争，AI行业焦点从通用模型转向开发者工具生态。",
+      "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Hugging Face Agents: Train Models with New Skills",
+      "date": "2026-05-20",
+      "summary": "Hugging Face发布Agent训练模型新技能框架，智能体可自主训练模型并利用新技能与HF Hub交互，增强AI开发工作流。",
+      "link": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/hugging-face-agents-train-models-with-new-skills"
+    },
+    {
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "date": "2026-06-02",
+      "summary": "Hcompany在Hugging Face发布Holo3.1，实现快速本地化计算机使用智能体，支持屏幕操控和多步骤任务执行，推动桌面自动化新范式。",
+      "link": "https://huggingface.co/blog/Hcompany/holo31"
+    },
+    {
+      "title": "Dnotitia发布企业级AI语言模型DNA 3.0",
+      "date": "2026-06-02",
+      "summary": "Dnotitia在Hugging Face发布企业级AI语言模型DNA 3.0，专注长期记忆AI和半导体AI基础设施技术，面向企业生产环境优化。",
+      "link": "https://www.insidenova.com/online_features/press_releases/dnotitia-releases-dna-3-0-an-enterprise-ready-ai-language-model-family/article_0b712085-c0f2-5cca-b9a5-d9edf32efdf5.html"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic超越OpenAI引发AI万亿俱乐部竞赛讨论",
+      "date": "2026-06-01",
+      "summary": "Anthropic估值9650亿超越OpenAI后提交IPO，The Guardian深度分析OpenAI如何在竞争中逐渐落后，社交媒体热议AI独角兽格局巨变。",
+      "link": "https://www.theguardian.com/technology/2026/jun/01/anthropic-openai-techscape"
+    },
+    {
+      "title": "黑客利用Meta AI客服机器人劫持Instagram账号引发安全讨论",
+      "date": "2026-06-01",
+      "summary": "黑客通过诱骗Meta AI客服聊天机器人成功劫持多个Instagram账号，包括奥巴马白宫官方账号，AI安全和社工攻击成热门话题。",
+      "link": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/"
+    },
+    {
+      "title": "硅谷转向物理AI：Sam Altman宣布机器人为OpenAI新方向",
+      "date": "2026-06-02",
+      "summary": "Sam Altman宣布机器人是OpenAI下一前沿方向，英伟达发布人形机器人蓝图，硅谷从纯软件AI全面转向物理世界AI应用领域。",
+      "link": "https://jawlah.co/en/57978"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Discord宣布6月开始全球年龄验证引发社区热议",
+      "date": "2026-06-01",
+      "summary": "Discord宣布从2026年6月起全球推出年龄验证机制，承诺90%用户无需主动验证，社区对隐私和合规影响展开广泛讨论。",
+      "link": "https://tuta.com/blog/discord-plans-age-verification-globally"
+    },
+    {
+      "title": "Discord AI社区趋势：智能体开发与多模态交互成热点",
+      "date": "2026-06-02",
+      "summary": "Discord各大AI社区活跃讨论AI Agent框架选型、多模态交互实现方案，论坛频道成为开发者分享经验和项目的核心平台。",
+      "link": "https://buildmydiscord.com/en/blog/discord-forum-channels-complete-guide-to-community-discussion-features-in-2026"
+    },
+    {
+      "title": "Discord用户数达7.5亿，25-34岁专业人群占53%",
+      "date": "2026-06-01",
+      "summary": "2026年Discord统计数据显示平台用户达7.5亿，25-34岁用户占53.43%，平均会话时长94分钟，已从游戏平台转型为专业社区枢纽。",
+      "link": "https://commentgrid.com/blog/discord-statistics"
+    }
+  ],
+  "github": [
+    {
+      "title": "chopratejas/headroom - LLM Token压缩工具",
+      "date": "2026-06-03",
+      "summary": "Headroom可将工具输出、日志和RAG分块压缩60-95%后再传入LLM，保持答案质量不变。支持库、代理和MCP服务器模式，今日获1265星。",
+      "link": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "title": "nesquena/hermes-webui - Hermes Agent网页界面",
+      "date": "2026-06-03",
+      "summary": "Hermes WebUI为Hermes AI Agent提供最佳Web和移动端使用体验，支持多平台语音交互，今日获1722星，成为GitHub当日最热项目之一。",
+      "link": "https://github.com/nesquena/hermes-webui"
+    },
+    {
+      "title": "supermemoryai/supermemory - AI时代记忆引擎",
+      "date": "2026-06-03",
+      "summary": "Supermemory是面向AI时代的极速可扩展记忆引擎和API，帮助AI应用实现高效长期记忆管理，累计24863星，今日新增680星。",
+      "link": "https://github.com/supermemoryai/supermemory"
+    }
+  ],
+  "hn": [
+    {
+      "title": "股市能否消化Anthropic、SpaceX和OpenAI的IPO？",
+      "date": "2026-06-02",
+      "summary": "经济学人文章讨论股市能否承受三大科技巨头同时上市，获690点赞和1213条评论，引发对AI泡沫和市场容量的深度讨论。",
+      "link": "https://news.ycombinator.com/item?id=48364055"
+    },
+    {
+      "title": "MAI-Code-1-Flash: 微软自研AI编码模型",
+      "date": "2026-06-02",
+      "summary": "微软发布MAI-Code-1-Flash编码模型，获462点赞和207条评论，HN社区热议其对Copilot生态和OpenAI竞争的影响。",
+      "link": "https://news.ycombinator.com/item?id=48374466"
+    },
+    {
+      "title": "OpenAI前沿模型和Codex登陆AWS",
+      "date": "2026-06-02",
+      "summary": "OpenAI将其前沿模型和Codex带入AWS，获360点赞和126条评论，开发者讨论多云AI部署策略和成本优化方案。",
+      "link": "https://news.ycombinator.com/item?id=48363132"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "为什么科技巨头向AI投入数万亿美元？",
+      "date": "2026-05-29",
+      "summary": "Reddit热帖讨论科技公司对AI的巨额投资驱动力，分析经济、工业和竞争因素，获79条深度讨论，反思AI投资是否可持续。",
+      "link": "https://www.reddit.com/r/AlwaysWhy/comments/1tpaxvn/why_are_tech_giants_pouring_trillions_into_ai/"
+    },
+    {
+      "title": "Hugging Face复兴PapersWithCode平台",
+      "date": "2026-05-22",
+      "summary": "Hugging Face接手并复兴PapersWithCode平台，机器学习社区积极讨论对研究追踪工具的期望，学术用户欢迎其回归。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/"
+    },
+    {
+      "title": "ACM MM 2026 review discussion on r/MachineLearning",
+      "date": "2026-05-28",
+      "summary": "r/MachineLearning社区讨论ACM Multimedia 2026会议评审流程和评分标准，ML研究者分享投稿和审稿经验。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tpvw6q/acm_mm_2026_review_discussion_d/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "微软Project Solara：为AI Agent设计的全新操作系统",
+      "date": "2026-06-02",
+      "summary": "微软在Build 2026发布Project Solara，一个基于Android的全新AI Agent设备平台，取代传统APP模式，已展示智能显示屏和智能徽章两款参考设计。",
+      "link": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets"
+    },
+    {
+      "title": "Google推出$100/月AI Ultra开发者计划",
+      "date": "2026-05-20",
+      "summary": "Google推出$100/月AI Ultra计划面向开发者，提供Gemini 3.5 Flash、Antigravity编码Agent优先访问、20TB存储和$100云额度。",
+      "link": "https://www.ghacks.net/2026/05/20/google-launches-100-ai-ultra-plan-and-cuts-existing-ultra-to-200-adds-youtube-premium-lite-to-ai-pro/"
+    },
+    {
+      "title": "Nvidia RTX Spark reinvents Windows PCs for personal AI agents",
+      "date": "2026-06-01",
+      "summary": "英伟达联合微软推出RTX Spark平台重新定义Windows PC，支持AI Agent取代鼠标键盘操作，今秋华硕、联想等OEM首批推出。",
+      "link": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark"
+    }
+  ],
+  "agent": [
+    {
+      "title": "微软发布Agent Control Specification开源标准",
+      "date": "2026-06-02",
+      "summary": "微软推出开源Agent Control Specification(ACS)标准，为开发者提供一致且细粒度的AI智能体行为控制方式，解决Agent安全治理难题。",
+      "link": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/"
+    },
+    {
+      "title": "微软Azure全面转向Agentic AI架构",
+      "date": "2026-06-02",
+      "summary": "微软在Build 2026详述Azure云和AI产品组合如何为Agentic AI重新设计，支持能推理、检索知识、执行动作并持续运行的AI Agent。",
+      "link": "https://www.digitimes.com/news/a20260603VL202/microsoft-azure-ai-agent-2026.html"
+    },
+    {
+      "title": "Hugging Face agents can now train models with new skills",
+      "date": "2026-05-20",
+      "summary": "Hugging Face推出Agent新能力，智能体可自主训练模型并习得新技能与HF Hub交互，开启AI开发自动化新模式。",
+      "link": "https://blog.mean.ceo/ai-agents-news-june-2026/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic提交IPO文件抢先OpenAI上市",
+      "date": "2026-06-01",
+      "summary": "Anthropic向SEC提交S-1文件准备IPO，成为首家冲刺公开市场的AI万亿级独角兽，与OpenAI展开上市竞赛。",
+      "link": "https://www.nbcnews.com/business/corporations/anthropic-files-ipo-openai-rcna347897"
+    },
+    {
+      "title": "AI浪潮冲击ChatGPT前创业公司：适应或淘汰",
+      "date": "2026-06-01",
+      "summary": "超2500亿美元涌入OpenAI和Anthropic，数百家ChatGPT之前成立的创业公司面临估值崩塌，AI产业格局加速整合。",
+      "link": "https://www.cnbc.com/2026/06/01/ai-startup-valuations-pre-chatgpt.html"
+    },
+    {
+      "title": "Nvidia jumps into PCs with new Arm-based RTX Spark chip",
+      "date": "2026-06-01",
+      "summary": "英伟达RTX Spark超级芯片发布后进入消费PC市场与Intel和AMD竞争，基于ARM架构搭配Blackwell GPU，今秋Dell和HP首批推出笔记本。",
+      "link": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "2026中国AI智能体领航者榜单在京揭晓",
+      "date": "2026-06-02",
+      "summary": "2026中国AI智能体领航者榜单在北京发布，涵盖能源、供热、医疗等多领域AI Agent应用，华电、北京热力等企业展示实际落地案例。",
+      "link": "https://www.ithome.com/0/958/753.htm"
+    },
+    {
+      "title": "40余款AI大模型亮相2026世界智能产业博览会",
+      "date": "2026-05-30",
+      "summary": "天津世界智能产业博览会展示40余款大模型，涵盖语言、视觉和科学基础大模型，本届重点从能力展示转向产业应用落地。",
+      "link": "https://www.stcn.com/article/detail/3935244.html"
+    },
+    {
+      "title": "ICML 2026: 上海创智学院x复旦提出智能体安全新范式",
+      "date": "2026-06-01",
+      "summary": "上海创智学院与复旦大学在ICML 2026发表论文，提出让AI Agent学会\"三思而后行\"的安全新范式，从内容安全转向行为安全。",
+      "link": "https://finance.sina.com.cn/tech/roll/2026-06-01/doc-inhzwpyv2557627.shtml"
+    }
+  ]
+}

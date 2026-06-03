@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Anthropic提交IPO文件抢先OpenAI上市",
+      "date": "2026-06-01",
+      "summary": "Anthropic向SEC提交S-1文件准备IPO，成为首家冲刺公开市场的AI万亿级独角兽，与OpenAI展开上市竞赛。",
+      "link": "https://www.nbcnews.com/business/corporations/anthropic-files-ipo-openai-rcna347897"
+    },
+    {
+      "title": "AI浪潮冲击ChatGPT前创业公司：适应或淘汰",
+      "date": "2026-06-01",
+      "summary": "超2500亿美元涌入OpenAI和Anthropic，数百家ChatGPT之前成立的创业公司面临估值崩塌，AI产业格局加速整合。",
+      "link": "https://www.cnbc.com/2026/06/01/ai-startup-valuations-pre-chatgpt.html"
+    },
+    {
+      "title": "Nvidia jumps into PCs with new Arm-based RTX Spark chip",
+      "date": "2026-06-01",
+      "summary": "英伟达RTX Spark超级芯片发布后进入消费PC市场与Intel和AMD竞争，基于ARM架构搭配Blackwell GPU，今秋Dell和HP首批推出笔记本。",
+      "link": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html"
+    }
+  ]
+}

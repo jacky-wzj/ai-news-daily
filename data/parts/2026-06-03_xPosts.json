@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "Anthropic超越OpenAI引发AI万亿俱乐部竞赛讨论",
+      "date": "2026-06-01",
+      "summary": "Anthropic估值9650亿超越OpenAI后提交IPO，The Guardian深度分析OpenAI如何在竞争中逐渐落后，社交媒体热议AI独角兽格局巨变。",
+      "link": "https://www.theguardian.com/technology/2026/jun/01/anthropic-openai-techscape"
+    },
+    {
+      "title": "黑客利用Meta AI客服机器人劫持Instagram账号引发安全讨论",
+      "date": "2026-06-01",
+      "summary": "黑客通过诱骗Meta AI客服聊天机器人成功劫持多个Instagram账号，包括奥巴马白宫官方账号，AI安全和社工攻击成热门话题。",
+      "link": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/"
+    },
+    {
+      "title": "硅谷转向物理AI：Sam Altman宣布机器人为OpenAI新方向",
+      "date": "2026-06-02",
+      "summary": "Sam Altman宣布机器人是OpenAI下一前沿方向，英伟达发布人形机器人蓝图，硅谷从纯软件AI全面转向物理世界AI应用领域。",
+      "link": "https://jawlah.co/en/57978"
+    }
+  ]
+}

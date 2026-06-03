@@ -3,22 +3,22 @@
   "section": "discord",
   "items": [
     {
-      "title": "Midjourney v8.1 正式上线 Discord 社区：原生 2K 输出、10 秒 60fps 视频生成",
-      "date": "2026-04-30",
-      "summary": "最大 AI Discord 社区 Midjourney（约 2000 万成员）v8.1 成为默认模型，支持原生 2K HD 输出、4-5 倍速度提升、改进的文字渲染，以及全新的 10 秒 60fps 视频模式。Discord 机器人仍然是核心交互界面。",
-      "link": "https://beginnersinai.org/midjourney-v8-explained/"
+      "title": "Discord将于2026年6月全球上线AI年龄验证系统",
+      "date": "2026-05-28",
+      "summary": "Discord计划于2026年6月起全球推行年龄验证，使用面部扫描或身份证件上传结合AI后台行为分析判断用户年龄。所有账户默认设为“青少年友好体验”，成人需验证解锁完整功能。此举引发隐私争议，批评者担忧匿名通信受到威胁。",
+      "link": "https://tuta.com/blog/discord-plans-age-verification-globally"
     },
     {
-      "title": "MCP 协议治理移交 Linux 基金会，Discord 社区贡献者达 2900+",
-      "date": "2026-05-19",
-      "summary": "Anthropic 将 MCP 协议捐赠给 Linux 基金会下的 Agentic AI Foundation (AAIF)。MCP 隧道（tunnels）与自托管沙箱在 Code with Claude London 大会上发布，Discord 社区贡献者达 2900+ 人。56 个生产级 MCP 服务器被编目。",
-      "link": "https://www.digitalapplied.com/blog/mcp-server-ecosystem-tracker-50-servers-cataloged-2026"
+      "title": "MEE6如何成为Discord最大社区的首选AI管理工具",
+      "date": "2026-04-22",
+      "summary": "VentureBeat报道MEE6平台已部署在数百万Discord服务器上，整合40多个模块涵盖AI审核、自动公告、社交提醒和等级系统。创始人近期还推出Telegram社区管理平台T22，将Discord的成功模式复制到更多平台。",
+      "link": "https://venturebeat.com/business/how-mee6-became-one-of-the-go-tos-for-discords-largest-communities"
     },
     {
-      "title": "EleutherAI 暑期开放 AI 研究计划（SOAR 2026）通过 Discord 开展",
-      "date": "2026-05-19",
-      "summary": "EleutherAI Discord 社区（约 3 万成员）启动第五届暑期开放 AI 研究计划，为期 5 周全程线上，通过 Discord 平台托管。面向无研究经验的开发者开放申请（6 月 8 日截止），提供结构化指导与发表机会。",
-      "link": "https://www.eleuther.ai/soar"
+      "title": "2026年最佳AI Discord机器人对比评测",
+      "date": "2026-04-23",
+      "summary": "Quickchat AI发布2026年AI Discord机器人综合评测，涵盖Quickchat AI、MEE6、Dyno、Poe Bot、Midjourney等主流工具，从技术架构、集成复杂度和定价角度进行对比，展示AI驱动的社区管理和内容生成能力已成为Discord生态标配。",
+      "link": "https://quickchat.ai/post/best-ai-discord-bots"
     }
   ]
 }

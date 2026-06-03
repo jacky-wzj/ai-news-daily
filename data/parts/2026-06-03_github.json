@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "github",
+  "items": [
+    {
+      "title": "chopratejas/headroom - LLM Token压缩工具",
+      "date": "2026-06-03",
+      "summary": "Headroom可将工具输出、日志和RAG分块压缩60-95%后再传入LLM，保持答案质量不变。支持库、代理和MCP服务器模式，今日获1265星。",
+      "link": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "title": "nesquena/hermes-webui - Hermes Agent网页界面",
+      "date": "2026-06-03",
+      "summary": "Hermes WebUI为Hermes AI Agent提供最佳Web和移动端使用体验，支持多平台语音交互，今日获1722星，成为GitHub当日最热项目之一。",
+      "link": "https://github.com/nesquena/hermes-webui"
+    },
+    {
+      "title": "supermemoryai/supermemory - AI时代记忆引擎",
+      "date": "2026-06-03",
+      "summary": "Supermemory是面向AI时代的极速可扩展记忆引擎和API，帮助AI应用实现高效长期记忆管理，累计24863星，今日新增680星。",
+      "link": "https://github.com/supermemoryai/supermemory"
+    }
+  ]
+}

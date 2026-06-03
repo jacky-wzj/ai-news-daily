@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "tools",
+  "items": [
+    {
+      "title": "微软Project Solara：为AI Agent设计的全新操作系统",
+      "date": "2026-06-02",
+      "summary": "微软在Build 2026发布Project Solara，一个基于Android的全新AI Agent设备平台，取代传统APP模式，已展示智能显示屏和智能徽章两款参考设计。",
+      "link": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets"
+    },
+    {
+      "title": "Google推出$100/月AI Ultra开发者计划",
+      "date": "2026-05-20",
+      "summary": "Google推出$100/月AI Ultra计划面向开发者，提供Gemini 3.5 Flash、Antigravity编码Agent优先访问、20TB存储和$100云额度。",
+      "link": "https://www.ghacks.net/2026/05/20/google-launches-100-ai-ultra-plan-and-cuts-existing-ultra-to-200-adds-youtube-premium-lite-to-ai-pro/"
+    },
+    {
+      "title": "Nvidia RTX Spark reinvents Windows PCs for personal AI agents",
+      "date": "2026-06-01",
+      "summary": "英伟达联合微软推出RTX Spark平台重新定义Windows PC，支持AI Agent取代鼠标键盘操作，今秋华硕、联想等OEM首批推出。",
+      "link": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark"
+    }
+  ]
+}

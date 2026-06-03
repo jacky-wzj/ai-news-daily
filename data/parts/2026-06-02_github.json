@@ -3,22 +3,22 @@
   "section": "github",
   "items": [
     {
-      "title": "D4Vinci/Scrapling - Adaptive AI Web Scraping Framework",
+      "title": "supermemoryai/supermemory — AI时代的记忆引擎",
       "date": "2026-06-02",
-      "summary": "An adaptive web scraping framework that handles everything from a single request to a full-scale crawl. 58,532 stars on GitHub, gaining 1,486 stars today. Written in Python, it provides intelligent, AI-powered web data extraction.",
+      "summary": "面向AI的记忆与上下文引擎，支持自动从对话中提取事实、构建用户画像、处理知识更新与矛盾，并提供混合搜索（RAG+记忆）。内置Google Drive、Gmail、Notion等连接器，支持PDF、图片OCR、视频转录等多模态数据提取。今日获647星，总星数超24,000。",
+      "link": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "title": "D4Vinci/Scrapling — 自适应智能网页抓取框架",
+      "date": "2026-06-02",
+      "summary": "自适应Web抓取框架，解析器能从网站变化中学习并自动重定位元素。内置绕过Cloudflare Turnstile等反爬机制，支持并发多会话爬取、暂停/恢复及自动代理轮换。今日新增1,486星，总星数超58,000，是当日GitHub最热门项目之一。",
       "link": "https://github.com/D4Vinci/Scrapling"
     },
     {
-      "title": "FareedKhan-dev/train-llm-from-scratch - Train Your Own LLM",
+      "title": "can1357/oh-my-pi — 终端AI编程智能体",
       "date": "2026-06-02",
-      "summary": "A straightforward method for training your LLM from downloading data to generating text. Gaining 861 stars today (3,925 total). Jupyter Notebook-based guide covering the full LLM training pipeline.",
-      "link": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
-    },
-    {
-      "title": "OpenBMB/VoxCPM - Tokenizer-Free TTS for Multilingual Speech",
-      "date": "2026-06-02",
-      "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning. 23,908 stars. Open-source speech generation from Tsinghua University.",
-      "link": "https://github.com/OpenBMB/VoxCPM"
+      "summary": "基于终端的AI编程Agent，支持40+模型提供商、32个内置工具和13个LSP操作。采用哈希锚定编辑方式大幅提升代码修改成功率，内置Python/Bun持久化沙箱、调试器集成（lldb/dlv/debugpy），可在终端中实现IDE级别的智能编码体验。今日获335星。",
+      "link": "https://github.com/can1357/oh-my-pi"
     }
   ]
 }

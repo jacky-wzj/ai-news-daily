@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "为什么科技巨头向AI投入数万亿美元？",
+      "date": "2026-05-29",
+      "summary": "Reddit热帖讨论科技公司对AI的巨额投资驱动力，分析经济、工业和竞争因素，获79条深度讨论，反思AI投资是否可持续。",
+      "link": "https://www.reddit.com/r/AlwaysWhy/comments/1tpaxvn/why_are_tech_giants_pouring_trillions_into_ai/"
+    },
+    {
+      "title": "Hugging Face复兴PapersWithCode平台",
+      "date": "2026-05-22",
+      "summary": "Hugging Face接手并复兴PapersWithCode平台，机器学习社区积极讨论对研究追踪工具的期望，学术用户欢迎其回归。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/"
+    },
+    {
+      "title": "ACM MM 2026 review discussion on r/MachineLearning",
+      "date": "2026-05-28",
+      "summary": "r/MachineLearning社区讨论ACM Multimedia 2026会议评审流程和评分标准，ML研究者分享投稿和审稿经验。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tpvw6q/acm_mm_2026_review_discussion_d/"
+    }
+  ]
+}
