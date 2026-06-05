@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Google推出Gemini Spark个人AI代理及信息代理生态系统",
+      "date": "2026-05-21",
+      "summary": "Google在I/O大会上发布信息代理（AI Agents）和Gemini Spark个人AI代理，可24/7后台运行，集成Gmail、Google Docs等产品，帮助用户跟踪市场趋势、价格和天气，并管理数字生活。",
+      "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/"
+    },
+    {
+      "title": "Google发布Gemini 3.5 Flash模型及Spark代理，加速AI Agent布局",
+      "date": "2026-05-19",
+      "summary": "Google在I/O大会上发布Gemini 3.5 Flash模型和Gemini Spark通用AI代理，可在连接的应用间推理并代表用户行动。Spark将率先向Google AI Ultra订阅用户开放测试。",
+      "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
+    },
+    {
+      "title": "Snowflake斥资60亿美元布局AI Agent，携手AWS并收购Natoma",
+      "date": "2026-05-28",
+      "summary": "Snowflake与AWS达成60亿美元基础设施合作，并收购Model Context Protocol平台Natoma，为AI代理添加身份治理层，加速企业级Agentic AI落地。CEO称员工与智能代理协同工作将成未来趋势。",
+      "link": "https://www.ciodive.com/news/snowflake-targets-ai-agent-adoption-aws/821393/"
+    }
+  ]
+}

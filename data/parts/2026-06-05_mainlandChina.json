@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "mainlandChina",
+  "items": [
+    {
+      "title": "从能力展示到产业应用 40余款AI大模型集中亮相2026世界智能产业博览会",
+      "date": "2026-05-30",
+      "summary": "2026世界智能产业博览会在天津举行，40余款AI大模型与10余款AI智能体集中亮相。本届展会大模型从能力展示真正迈向产业应用，涵盖语言、视觉、基础科学等领域，AI发动机维修预测诊断模型可实现不拆解发动机提前诊断故障。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631256.shtml"
+    },
+    {
+      "title": "28.9万亿Token！全球AI大模型周调用量五连涨，国产AI连续4周超美国",
+      "date": "2026-05-24",
+      "summary": "据OpenRouter数据，上周全球AI大模型总调用量达28.9万亿Token，连续五周上涨。中国AI大模型周调用量9.223万亿Token，环比增长19.89%，连续四周超越美国稳居全球首位。DeepSeek-V4-Flash以3.43万亿Token登顶全球第一。",
+      "link": "https://www.stcn.com/article/detail/3925020.html"
+    },
+    {
+      "title": "反超美国！中国AI大模型连续两周登顶全球调用量榜首",
+      "date": "2026-05-11",
+      "summary": "中国AI大模型在OpenRouter平台周调用量达7.94万亿Token，连续两周超越美国登顶全球。腾讯混元Hy3 preview稳居全球模型榜首，DeepSeek系列多款产品跻身全球前列，中国模型在头部模型中占超半数席位。",
+      "link": "https://www.brandark.com/t/ZD71HlWm"
+    }
+  ]
+}

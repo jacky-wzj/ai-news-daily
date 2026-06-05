@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "date": "2026-06-04",
+      "summary": "Anthropic 开源了AI驱动的漏洞发现框架 Defending Code Reference Harness，允许安全研究人员利用大语言模型自动化发现代码安全漏洞，在HN上获得408票和117条评论，成为当天最受关注的AI话题。",
+      "link": "https://news.ycombinator.com/item?id=48403980"
+    },
+    {
+      "title": "Open Code Review – An AI-powered code review CLI tool",
+      "date": "2026-06-04",
+      "summary": "阿里巴巴开源了AI驱动的代码审查命令行工具 Open Code Review，利用大模型自动审查PR并发现代码问题。该工具在召回率方面表现良好，但存在一定误报率，引发开发者关于效率与精度的讨论。",
+      "link": "https://news.ycombinator.com/item?id=48406358"
+    },
+    {
+      "title": "Do transformers need three projections? Systematic study of QKV variants",
+      "date": "2026-06-04",
+      "summary": "一篇系统研究Transformer中Query、Key、Value投影矩阵必要性的论文登上HN热榜。研究发现K=V的简化设置仍能保持良好的模型性能，引发对注意力机制设计原理的深入讨论。",
+      "link": "https://news.ycombinator.com/item?id=48405931"
+    }
+  ]
+}

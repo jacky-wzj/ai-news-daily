@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "Anthropic提交机密S-1文件，启动IPO进程",
+      "date": "2026-06-01",
+      "summary": "Anthropic于6月1日向SEC秘密提交了S-1注册声明草案，启动IPO。此前估值约615亿美元，新融资轮估值近9000亿。Reddit热议AI公司上市对行业格局的影响。",
+      "link": "https://www.reddit.com/r/singularity/comments/1ttwvf1/anthropic_confidentially_submits_draft_s1_to_the/"
+    },
+    {
+      "title": "Liquid AI发布LFM2.5-8B-A1B：端侧MoE模型仅激活1.5B参数",
+      "date": "2026-05-28",
+      "summary": "Liquid AI推出LFM2.5-8B-A1B，端侧MoE模型总参数量8.3B但每token仅激活1.5B。支持128K上下文窗口、工具调用推理，可在消费级设备上运行，r/LocalLLaMA社区高度关注。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tq8a40/liquidailfm258ba1b_hugging_face/"
+    },
+    {
+      "title": "GitHub Copilot转为Token计费，费用从$29暴涨至$750/月",
+      "date": "2026-06-02",
+      "summary": "GitHub Copilot转向基于Token的计费模式，部分开发者月费从29美元飙升至750美元。同日Microsoft Build 2026开幕，微软发布自研MAI编程模型，引发r/ArtificialInteligence激烈讨论。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tv1fwh/github_copilots_token_billing_is_driving_devs/"
+    }
+  ]
+}

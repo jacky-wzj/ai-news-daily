@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "github",
+  "items": [
+    {
+      "title": "mattpocock/skills — AI智能编码技能集",
+      "date": "2026-06-05",
+      "summary": "GitHub本月最热门AI项目，获59,731星。来自TypeScript专家Matt Pocock的AI编码代理技能集，包含真实工程场景的Claude Code技能，小巧可组合，支持任意模型。",
+      "link": "https://github.com/mattpocock/skills"
+    },
+    {
+      "title": "Lum1104/Understand-Anything — 交互式代码知识图谱",
+      "date": "2026-06-05",
+      "summary": "本月获40,734星。将任意代码库、知识库或文档转化为交互式知识图谱，支持Claude Code、Codex、Cursor等多种AI编码工具，可探索、搜索与问答。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "colbymchenry/codegraph — 预索引代码知识图谱",
+      "date": "2026-06-05",
+      "summary": "本月获39,989星。为Claude Code、Codex、Gemini等AI编码代理提供预索引代码知识图谱，减少Token消耗和工具调用次数，100%本地运行。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    }
+  ]
+}

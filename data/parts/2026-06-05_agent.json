@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Meta AI Business Agent 全球上线，WhatsApp/Instagram集成智能客服",
+      "date": "2026-06-03",
+      "summary": "Meta正式在全球推出AI Business Agent，集成于WhatsApp和Instagram。该智能体可自动回答客户问题、推荐产品、预订预约、筛选销售线索，按用量收费，标志着Meta在企业AI代理领域迈出关键一步。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    },
+    {
+      "title": "Google 发布 AI Agent 生态系统：Gemini Spark、信息代理和 Android Halo",
+      "date": "2026-05-21",
+      "summary": "Google在I/O大会上推出AI Agent矩阵，包括24/7运行的信息代理、个人助手Gemini Spark（集成Gmail/日历）以及Android Halo通知系统。标志着Google从聊天式AI向主动代理型AI的重大转型。",
+      "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/"
+    },
+    {
+      "title": "Forbes：Box、McKinsey 和 LinkedIn 联合预测20种新型 Agentic AI 工作岗位",
+      "date": "2026-06-02",
+      "summary": "Forbes报道Box、McKinsey和LinkedIn共同识别出20种由代理型AI催生的新职位，包括前向部署工程师、AI代理主管、AI策略师等，预示AI代理正在重塑2026年职场格局。",
+      "link": "https://www.forbes.com/sites/sandycarter/2026/06/02/the-20-new-agentic-ai-jobs-box-mckinsey-and-linkedin-all-see-coming/"
+    }
+  ]
+}

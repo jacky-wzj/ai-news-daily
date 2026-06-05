@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Anthropic 完成650亿美元H轮融资，估值达9650亿美元，超越OpenAI成为硅谷最具价值AI公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic 在 Altimeter Capital、Sequoia 等领投下完成650亿美元H轮融资，估值达9650亿美元，超越 OpenAI。资金将用于扩展计算能力、安全研究及 Claude 产品的规模化。年化收入已超470亿美元，IPO在即。",
+      "link": "https://www.anthropic.com/news/series-h"
+    },
+    {
+      "title": "硅谷新口号「Let's Get Physical」：AI巨头竞相布局人形机器人",
+      "date": "2026-06-03",
+      "summary": "硅谷正从「教AI说话」转向「给AI身体」。NVIDIA、OpenAI、Meta、Tesla 及 Figure AI 等竞相研发人形机器人。Figure AI估值达390亿美元，已与JCPenney 母公司签约部署机器人至物流网络。",
+      "link": "https://www.businessinsider.com/silicon-valleys-new-slogan-lets-get-physical-2026-6"
+    },
+    {
+      "title": "Figure AI 人形机器人直播分拣包裹数百万围观，展示自主劳动能力",
+      "date": "2026-05-28",
+      "summary": "Figure AI 在 San Jose 总部直播人形机器人连续8小时自主分拣包裹零故障，24小时内分拣超3万件，累计观看超300万次。被视为人形机器人从演示走向商业部署的关键里程碑。",
+      "link": "https://www.businessinsider.com/figure-ai-turned-a-humanoid-sorting-packages-must-see-tv-2026-5"
+    }
+  ]
+}

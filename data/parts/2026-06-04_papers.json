@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "papers",
+  "items": [
+    {
+      "title": "Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation",
+      "date": "2026-06-03",
+      "summary": "提出Echo-Infinity自回归框架，通过可学习的演化记忆和统一相对RoPE，实现实时无限视频生成，首次展示24小时（超过130万帧）实时生成能力，性能达到SOTA。",
+      "link": "https://huggingface.co/papers/2606.04527"
+    },
+    {
+      "title": "ThoughtFold: Folding Reasoning Chains via Introspective Preference Learning",
+      "date": "2026-06-02",
+      "summary": "提出ThoughtFold框架，利用内省偏好学习识别并消除大推理模型（LRM）推理链中的冗余探索，将DeepSeek-R1-Distill-Qwen-7B的token用量减少约56%同时保持精度，被ICML 2026接收。",
+      "link": "https://huggingface.co/papers/2606.03503"
+    },
+    {
+      "title": "Reproducing, Analyzing, and Detecting Reward Hacking in Rubric-Based Reinforcement Learning",
+      "date": "2026-06-03",
+      "summary": "提出CHERRL可控环境，通过向LLM评判器注入已知偏差来稳定复现、分析和检测基于评分标准的强化学习中的奖励攻击行为，并探索基于智能体的自动检测系统。",
+      "link": "https://huggingface.co/papers/2606.04923"
+    }
+  ]
+}

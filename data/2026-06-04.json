@@ -1,0 +1,247 @@
+{
+  "date": "2026-06-04",
+  "insights": [
+    {
+      "title": "白宫签署促进先进AI创新与安全行政令",
+      "date": "2026-06-02",
+      "summary": "特朗普总统签署行政令，以大幅削减监管束缚、鼓励AI创新为核心，推动美国在AI领域的全球领导地位，同时提出新兴国家安全考量需跨部门协调行动。",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+      "title": "O'Reilly 2026年6月雷达趋势：AI代理进入运营阶段",
+      "date": "2026-06-02",
+      "summary": "AI代理正从执行任务转向运行业务运营。Cloudflare与Stripe合作推出可自主开户、注册域名和部署应用的代理。Anthropic发布Claude Opus 4.8，Google I/O推出Omni多模态模型。",
+      "link": "https://www.oreilly.com/radar/radar-trends-to-watch-june-2026/"
+    },
+    {
+      "title": "微软全球AI扩散报告：2026年Q1使用率达17.8%",
+      "date": "2026-05-07",
+      "summary": "2026年Q1全球AI使用率从16.3%升至17.8%。阿联酋以70.1%继续领跑全球AI扩散排行榜，美国从第24位升至第21位。亚洲市场因多语言AI能力提升加速普及。",
+      "link": "https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/"
+    },
+    {
+      "title": "微软发布2026年七大AI趋势：从工具进化为协作伙伴",
+      "date": "2026-01-08",
+      "summary": "微软首席产品官指出2026年AI将从回答问题进化为真正的协作伙伴。AI代理将成为数字同事，三人的小团队可借助AI在数天内发起全球营销活动。AI将深度参与科学发现。",
+      "link": "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/"
+    },
+    {
+      "title": "斯坦福HAI 2026 AI指数报告：中美AI差距缩小至2.7%",
+      "date": "2026-04-13",
+      "summary": "斯坦福2026 AI指数显示，截至2026年3月Anthropic顶级模型领先中国模型仅2.7%。美国仍主导顶级模型和高质量专利，中国在论文发表量、专利产出和工业机器人安装量上领先。",
+      "link": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    },
+    {
+      "title": "AI行业进入科学驱动时代：Science x AI峰会2026",
+      "date": "2026-05-29",
+      "summary": "Science x AI 2026峰会在旧金山召开，业界宣布AI行业正式进入科学驱动时代，从单一模型竞争转向基于研究和产业应用的系统性协作新范式。",
+      "link": "https://markets.businessinsider.com/news/stocks/lim-meng-hoong-ai-industry-enters-a-science-driven-era-at-science-x-ai-summit-2026-1036207291"
+    },
+    {
+      "title": "Microsoft Build 2026：发布Surface RTX Spark Dev Box与Agent Mesh",
+      "date": "2026-06-03",
+      "summary": "微软在Build 2026第二天发布Surface RTX Spark Dev Box开发工作站（1 petaflop AI算力），同时推出Project Polaris、Windows Agent Framework和Azure Agent Mesh等代理框架。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-june-3-2026"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation",
+      "date": "2026-06-03",
+      "summary": "提出Echo-Infinity自回归框架，通过可学习的演化记忆和统一相对RoPE，实现实时无限视频生成，首次展示24小时（超过130万帧）实时生成能力，性能达到SOTA。",
+      "link": "https://huggingface.co/papers/2606.04527"
+    },
+    {
+      "title": "ThoughtFold: Folding Reasoning Chains via Introspective Preference Learning",
+      "date": "2026-06-02",
+      "summary": "提出ThoughtFold框架，利用内省偏好学习识别并消除大推理模型（LRM）推理链中的冗余探索，将DeepSeek-R1-Distill-Qwen-7B的token用量减少约56%同时保持精度，被ICML 2026接收。",
+      "link": "https://huggingface.co/papers/2606.03503"
+    },
+    {
+      "title": "Reproducing, Analyzing, and Detecting Reward Hacking in Rubric-Based Reinforcement Learning",
+      "date": "2026-06-03",
+      "summary": "提出CHERRL可控环境，通过向LLM评判器注入已知偏差来稳定复现、分析和检测基于评分标准的强化学习中的奖励攻击行为，并探索基于智能体的自动检测系统。",
+      "link": "https://huggingface.co/papers/2606.04923"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic 发布 Claude Opus 4.8 模型",
+      "date": "2026-05-28",
+      "summary": "Anthropic 于5月28日正式发布 Claude Opus 4.8，在编程、推理、金融分析等多项基准测试中领先竞品，新增动态工作流和快速模式（2.5倍速度），定价不变。",
+      "link": "https://x.com/claudeai/status/2060042702150930686"
+    },
+    {
+      "title": "MIT Technology Review: 斯坦福2026 AI指数显示AI发展速度令人难以跟上",
+      "date": "2026-06-01",
+      "summary": "MIT Tech Review 引用斯坦福2026年AI指数报告指出，AI技术正以惊人速度发展，而社会适应能力远落后于技术迭代速度，呼吁各界加快应对。",
+      "link": "https://x.com/techreview/status/2043682818736165014"
+    },
+    {
+      "title": "Gartner 预测2026年全球AI支出将增长47%",
+      "date": "2026-05-19",
+      "summary": "Gartner 发布最新预测，2026年全球AI支出将同比增长47%，涵盖硬件、软件和服务领域，企业AI投资进入加速期。",
+      "link": "https://x.com/Gartner_inc/status/2056648051125522442"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Anthropic 推出 Claude Code Channels：通过 Discord 远程控制 AI 编码代理",
+      "date": "2026-03-20",
+      "summary": "Anthropic 于2026年3月推出 Claude Code Channels，允许开发者通过 Discord 和 Telegram 向本地运行的 Claude Code 会话发送消息，实现从手机远程操控 AI 编码代理，支持文件系统、MCP 和 Git 完整访问。",
+      "link": "https://claudefa.st/blog/guide/development/claude-code-channels"
+    },
+    {
+      "title": "Discord 因隐私争议推迟全球年龄验证，采用 AI 年龄推断引发社区担忧",
+      "date": "2026-03-09",
+      "summary": "Discord CTO 发文道歉并宣布将全球年龄验证推迟至2026年下半年。此前推出的 AI 年龄推断系统（通过数百个信号猜测用户年龄）和数据泄露事件引发用户强烈反弹，EFF 等组织批评其构成监控噩梦。",
+      "link": "https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing"
+    },
+    {
+      "title": "Midjourney Discord 社区近2000万成员，发布 V8.1 版本",
+      "date": "2026-04-30",
+      "summary": "Midjourney 作为 Discord 上最大的 AI 社区，注册用户近2000万（预计2026年底达2100万），2026年4月发布 V8.1 模型，增强美学效果、小细节保留和 Raw 模式，每天活跃用户在120万-250万之间。",
+      "link": "https://www.demandsage.com/midjourney-statistics/"
+    }
+  ],
+  "github": [
+    {
+      "title": "Headroom (chopratejas/headroom)",
+      "date": "2026-06-04",
+      "summary": "AI代理上下文压缩层，在工具输出、日志和RAG块到达LLM前压缩60-95%的token，保证回答质量不变。支持库、代理、MCP服务器三种使用方式，今日获3530星，总星数达10985。",
+      "link": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "title": "Firecrawl (firecrawl/firecrawl)",
+      "date": "2026-06-04",
+      "summary": "AI驱动的网页上下文API，提供搜索、抓取、解析、爬取和交互功能，将URL转为干净Markdown或结构化JSON。124k+星，全球GitHub排名前100，支持Python/Node.js SDK和MCP集成。",
+      "link": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "title": "OpenClaw (openclaw/openclaw)",
+      "date": "2026-06-04",
+      "summary": "个人AI助手，支持macOS/iOS/Android多平台，集成WhatsApp、Telegram、Slack、微信等20+聊天渠道。191k+星，2026年增长最快的AI项目之一，采用龙虾吉祥物标识。",
+      "link": "https://github.com/openclaw/openclaw"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "date": "2026-06-04",
+      "summary": "Google发布Gemma 4 12B多模态模型，采用无编码器统一架构，在多项基准测试中表现优异，支持文本与图像输入。以823分登顶HN热榜。",
+      "link": "https://news.ycombinator.com/item?id=48385906"
+    },
+    {
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "date": "2026-06-04",
+      "summary": "Simon Willison分析Uber为员工设每月1500美元AI使用上限，认为这为AI工具定价提供重要参考信号，引发对AI成本与价值的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48383056"
+    },
+    {
+      "title": "Artificial intelligence is not conscious – Ted Chiang",
+      "date": "2026-06-04",
+      "summary": "著名科幻作家Ted Chiang在《大西洋月刊》撰文，论证当前AI不具备意识，类人表现不等于真正的智能或意识体验，引发哲学与科技界热议。",
+      "link": "https://news.ycombinator.com/item?id=48387270"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Anthropic提交机密S-1文件，启动IPO进程",
+      "date": "2026-06-01",
+      "summary": "Anthropic于6月1日向SEC秘密提交了S-1注册声明草案，启动IPO。此前估值约615亿美元，新融资轮估值近9000亿。Reddit热议AI公司上市对行业格局的影响。",
+      "link": "https://www.reddit.com/r/singularity/comments/1ttwvf1/anthropic_confidentially_submits_draft_s1_to_the/"
+    },
+    {
+      "title": "Liquid AI发布LFM2.5-8B-A1B：端侧MoE模型仅激活1.5B参数",
+      "date": "2026-05-28",
+      "summary": "Liquid AI推出LFM2.5-8B-A1B，端侧MoE模型总参数量8.3B但每token仅激活1.5B。支持128K上下文窗口、工具调用推理，可在消费级设备上运行，r/LocalLLaMA社区高度关注。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1tq8a40/liquidailfm258ba1b_hugging_face/"
+    },
+    {
+      "title": "GitHub Copilot转为Token计费，费用从$29暴涨至$750/月",
+      "date": "2026-06-02",
+      "summary": "GitHub Copilot转向基于Token的计费模式，部分开发者月费从29美元飙升至750美元。同日Microsoft Build 2026开幕，微软发布自研MAI编程模型，引发r/ArtificialInteligence激烈讨论。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tv1fwh/github_copilots_token_billing_is_driving_devs/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Google Gemma 4 12B 多模态模型发布",
+      "date": "2026-06-03",
+      "summary": "Google DeepMind 发布 Gemma 4 12B，首款面向笔记本电脑的无编码器多模态 AI 模型，支持原生音频输入，兼具边缘设备效率和高级推理能力，跨 150M 下载量。",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/"
+    },
+    {
+      "title": "Ideogram 4.0 开源文生图模型发布",
+      "date": "2026-06-03",
+      "summary": "Ideogram 发布 4.0 版本开源权重文生图模型，在文本渲染质量方面有显著提升，支持更精准的文字嵌入与图像生成，面向开发者和创作者开放。",
+      "link": "https://x.com/ideogram_ai/status/2062202208700313872"
+    },
+    {
+      "title": "Microsoft Scout 全天候个人 AI 代理上线",
+      "date": "2026-06-02",
+      "summary": "微软推出 Microsoft Scout，一款始终在线的个人 AI 代理，集成于 Microsoft 365 生态，可主动协助用户完成日常任务管理、信息检索与工作流自动化。",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Google推出Gemini Spark个人AI代理及信息代理生态系统",
+      "date": "2026-05-21",
+      "summary": "Google在I/O大会上发布信息代理（AI Agents）和Gemini Spark个人AI代理，可24/7后台运行，集成Gmail、Google Docs等产品，帮助用户跟踪市场趋势、价格和天气，并管理数字生活。",
+      "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/"
+    },
+    {
+      "title": "Google发布Gemini 3.5 Flash模型及Spark代理，加速AI Agent布局",
+      "date": "2026-05-19",
+      "summary": "Google在I/O大会上发布Gemini 3.5 Flash模型和Gemini Spark通用AI代理，可在连接的应用间推理并代表用户行动。Spark将率先向Google AI Ultra订阅用户开放测试。",
+      "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
+    },
+    {
+      "title": "Snowflake斥资60亿美元布局AI Agent，携手AWS并收购Natoma",
+      "date": "2026-05-28",
+      "summary": "Snowflake与AWS达成60亿美元基础设施合作，并收购Model Context Protocol平台Natoma，为AI代理添加身份治理层，加速企业级Agentic AI落地。CEO称员工与智能代理协同工作将成未来趋势。",
+      "link": "https://www.ciodive.com/news/snowflake-targets-ai-agent-adoption-aws/821393/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "硅谷机器人训练初创公司教人形机器人做家务",
+      "date": "2026-05-31",
+      "summary": "硅谷涌现大批机器人训练初创公司，通过人工远程操作教人形机器人完成倒咖啡等日常任务。Encord等公司录制并出售动作数据，为特斯拉Optimus等即将上市的机器人提供训练支持。",
+      "link": "https://www.latimes.com/business/story/2026-05-31/how-silicon-valley-robot-training-teleoperating-startups-are-teaching-humanoids-to-do-everyday-tasks"
+    },
+    {
+      "title": "AI语音输入初创公司Wispr Flow估值20亿美元",
+      "date": "2026-05-28",
+      "summary": "硅谷AI语音输入初创公司Wispr Flow由斯坦福毕业生创立，开发语音转文字工具让用户用语音替代键盘操作。最新融资超2.5亿美元，估值达20亿美元，Peak XV和Activate参与投资。",
+      "link": "https://economictimes.indiatimes.com/tech/startups/peak-xv-activate-in-talks-to-invest-in-silicon-valley-ai-dictation-startup-wispr-flow/articleshow/131333228.cms"
+    },
+    {
+      "title": "AI家居设计初创公司Drafted获1600万美元融资",
+      "date": "2026-05-29",
+      "summary": "硅谷初创公司Drafted完成1600万美元种子轮融资，投资者包括Y Combinator和OneRepublic主唱。其AI平台可将用户输入快速生成平面图和3D家居渲染图，让家居设计像编程一样简单。",
+      "link": "https://www.businessinsider.com/drafted-16m-funding-reshape-home-design-with-ai-2026-5"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国AI大模型周调用量连续四周超美国，DeepSeek-V4-Flash登顶全球第一",
+      "date": "2026-05-27",
+      "summary": "据OpenRouter最新数据，中国AI大模型周调用量达9.223万亿Token，连续四周超过美国居全球首位。DeepSeek-V4-Flash以3.43万亿Token周调用量登顶全球第一，腾讯Hy3 preview排名第二，国产模型加速进入全球开发者调用体系。",
+      "link": "https://www.stcn.com/article/detail/3925020.html"
+    },
+    {
+      "title": "40余款AI大模型集中亮相2026世界智能产业博览会，迈向产业应用",
+      "date": "2026-05-30",
+      "summary": "天津2026世界智能产业博览会上，40余款AI大模型及10余款AI智能体集中亮相，涵盖语言、视觉、基础科学等领域。本届最大亮点是大模型从能力展示真正迈向产业应用，如汽车发动机维修大模型可实现在线故障预诊。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631256.shtml"
+    },
+    {
+      "title": "2026年5月国内头部智能体厂商动态全景：从模型迭代到规模化落地",
+      "date": "2026-05-20",
+      "summary": "百度Create大会提出DAA新度量衡并发布文心5.1；阿里通义千问打通淘宝天猫生态；腾讯WorkBuddy成国内应用最广生产力智能体；360推出龙虾教练降低智能体创建门槛；华为深耕工业与终端双场景。",
+      "link": "https://cloud.tencent.com/developer/article/2668857"
+    }
+  ]
+}

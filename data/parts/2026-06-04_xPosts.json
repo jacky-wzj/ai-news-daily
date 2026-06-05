@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "Anthropic 发布 Claude Opus 4.8 模型",
+      "date": "2026-05-28",
+      "summary": "Anthropic 于5月28日正式发布 Claude Opus 4.8，在编程、推理、金融分析等多项基准测试中领先竞品，新增动态工作流和快速模式（2.5倍速度），定价不变。",
+      "link": "https://x.com/claudeai/status/2060042702150930686"
+    },
+    {
+      "title": "MIT Technology Review: 斯坦福2026 AI指数显示AI发展速度令人难以跟上",
+      "date": "2026-06-01",
+      "summary": "MIT Tech Review 引用斯坦福2026年AI指数报告指出，AI技术正以惊人速度发展，而社会适应能力远落后于技术迭代速度，呼吁各界加快应对。",
+      "link": "https://x.com/techreview/status/2043682818736165014"
+    },
+    {
+      "title": "Gartner 预测2026年全球AI支出将增长47%",
+      "date": "2026-05-19",
+      "summary": "Gartner 发布最新预测，2026年全球AI支出将同比增长47%，涵盖硬件、软件和服务领域，企业AI投资进入加速期。",
+      "link": "https://x.com/Gartner_inc/status/2056648051125522442"
+    }
+  ]
+}

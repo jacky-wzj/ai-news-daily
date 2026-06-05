@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "NeurIPS used uncalibrated AI detector for desk rejections",
+      "date": "2026-06-05",
+      "summary": "NeurIPS 被曝使用未校准的 AI 检测工具进行论文桌面拒稿，引发学术界广泛争议。研究者质疑该工具准确率不足，可能导致大量合法论文被错误拒绝，影响学术公平性和评审公正性。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/"
+    },
+    {
+      "title": "$2.5T in AI spending this year. 95% produces zero P&L impact",
+      "date": "2026-06-05",
+      "summary": "今年全球AI支出高达2.5万亿美元，但95%的投资未能产生任何利润影响。社区热议AI泡沫风险，讨论巨额资金涌入AI基础设施与实际商业回报之间的巨大鸿沟。",
+      "link": "https://www.reddit.com/r/artificial/comments/1twupqt/25t_in_ai_spending_this_year_95_produces_zero_pl/"
+    },
+    {
+      "title": "KVarN: new KV-cache quantization from Huawei — 3-5x compression with actual speed-up",
+      "date": "2026-06-05",
+      "summary": "华为发布KVarN新KV缓存量化技术，实现3-5倍压缩并带来实际加速而非性能下降。与TurboQuant不同，该方案在推理任务中表现稳定，已开源Apache 2.0许可，支持vLLM单标志启用。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "discord",
+  "items": [
+    {
+      "title": "MCP协议治理移交Linux基金会，Discord社区贡献者超2900人",
+      "date": "2026-05-25",
+      "summary": "Anthropic将MCP协议移交给Linux基金会旗下的Agentic AI Foundation（AAIF），协议不再由单一厂商掌控。Discord社区已有2900+贡献者和58名活跃维护者，成为AI开发者生态核心节点。AWS同时发布60+官方MCP服务器。",
+      "link": "https://www.digitalapplied.com/blog/mcp-server-ecosystem-tracker-50-servers-cataloged-2026"
+    },
+    {
+      "title": "Discord发布5月更新：Social SDK集成与AI安全功能上线",
+      "date": "2026-05-28",
+      "summary": "Discord 5月更新推出Social SDK集成，多款Roblox游戏接入Discord社区功能。新增AI copilot辅助实时内容审核，可主动标记可疑行为。同时面向EA、Riot Games等大型开发商提供社区管理解决方案。",
+      "link": "https://releasebot.io/updates/discord"
+    },
+    {
+      "title": "2026年AI Discord服务器构建工具市场成熟，六款产品全面对比",
+      "date": "2026-05-20",
+      "summary": "AI Discord服务器搭建工具市场在2026年快速成熟，BuildMyDiscord、ServerGPT、PeakBot等六款产品各具优势。支持Claude AI集成、一键生成频道角色权限、实时AI编辑等功能，显著降低了社区搭建门槛。",
+      "link": "https://buildmydiscord.com/en/blog/best-ai-discord-server-builders-2026"
+    }
+  ]
+}

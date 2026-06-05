@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-04",
+  "section": "insights",
+  "items": [
+    {
+      "title": "白宫签署促进先进AI创新与安全行政令",
+      "date": "2026-06-02",
+      "summary": "特朗普总统签署行政令，以大幅削减监管束缚、鼓励AI创新为核心，推动美国在AI领域的全球领导地位，同时提出新兴国家安全考量需跨部门协调行动。",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+      "title": "O'Reilly 2026年6月雷达趋势：AI代理进入运营阶段",
+      "date": "2026-06-02",
+      "summary": "AI代理正从执行任务转向运行业务运营。Cloudflare与Stripe合作推出可自主开户、注册域名和部署应用的代理。Anthropic发布Claude Opus 4.8，Google I/O推出Omni多模态模型。",
+      "link": "https://www.oreilly.com/radar/radar-trends-to-watch-june-2026/"
+    },
+    {
+      "title": "微软全球AI扩散报告：2026年Q1使用率达17.8%",
+      "date": "2026-05-07",
+      "summary": "2026年Q1全球AI使用率从16.3%升至17.8%。阿联酋以70.1%继续领跑全球AI扩散排行榜，美国从第24位升至第21位。亚洲市场因多语言AI能力提升加速普及。",
+      "link": "https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/"
+    },
+    {
+      "title": "微软发布2026年七大AI趋势：从工具进化为协作伙伴",
+      "date": "2026-01-08",
+      "summary": "微软首席产品官指出2026年AI将从回答问题进化为真正的协作伙伴。AI代理将成为数字同事，三人的小团队可借助AI在数天内发起全球营销活动。AI将深度参与科学发现。",
+      "link": "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/"
+    },
+    {
+      "title": "斯坦福HAI 2026 AI指数报告：中美AI差距缩小至2.7%",
+      "date": "2026-04-13",
+      "summary": "斯坦福2026 AI指数显示，截至2026年3月Anthropic顶级模型领先中国模型仅2.7%。美国仍主导顶级模型和高质量专利，中国在论文发表量、专利产出和工业机器人安装量上领先。",
+      "link": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    },
+    {
+      "title": "AI行业进入科学驱动时代：Science x AI峰会2026",
+      "date": "2026-05-29",
+      "summary": "Science x AI 2026峰会在旧金山召开，业界宣布AI行业正式进入科学驱动时代，从单一模型竞争转向基于研究和产业应用的系统性协作新范式。",
+      "link": "https://markets.businessinsider.com/news/stocks/lim-meng-hoong-ai-industry-enters-a-science-driven-era-at-science-x-ai-summit-2026-1036207291"
+    },
+    {
+      "title": "Microsoft Build 2026：发布Surface RTX Spark Dev Box与Agent Mesh",
+      "date": "2026-06-03",
+      "summary": "微软在Build 2026第二天发布Surface RTX Spark Dev Box开发工作站（1 petaflop AI算力），同时推出Project Polaris、Windows Agent Framework和Azure Agent Mesh等代理框架。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-june-3-2026"
+    }
+  ]
+}

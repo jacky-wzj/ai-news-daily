@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "tools",
+  "items": [
+    {
+      "title": "NVIDIA Nemotron 3 Ultra — 开源550B MoE推理模型",
+      "date": "2026-06-04",
+      "summary": "NVIDIA发布Nemotron 3 Ultra，550B参数混合专家模型（55B活跃参数），专为长时间运行AI代理设计，推理速度提升5倍，支持100万token长上下文，开源可商用。",
+      "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"
+    },
+    {
+      "title": "Microsoft发布七款MAI模型及Frontier Tuning定制工具",
+      "date": "2026-06-02",
+      "summary": "Microsoft AI推出7个MAI系列模型，同时在Foundry平台提供Frontier Tuning私人预览，允许企业用自有工作流数据微调模型，Excel调优模型效率提升10倍。",
+      "link": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+    },
+    {
+      "title": "OpenAI Codex新增角色插件，支持非开发者创建共享网站",
+      "date": "2026-06-02",
+      "summary": "OpenAI为Codex推出6个角色专属插件（数据分析师、营销等），覆盖62款应用和110项技能；新增Sites功能可一键创建可共享交互网站，非开发者用户增速超开发者3倍。",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow/"
+    }
+  ]
+}

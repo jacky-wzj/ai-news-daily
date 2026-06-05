@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "github",
+  "items": [
+    {
+      "title": "Headroom (chopratejas/headroom)",
+      "date": "2026-06-04",
+      "summary": "AI代理上下文压缩层，在工具输出、日志和RAG块到达LLM前压缩60-95%的token，保证回答质量不变。支持库、代理、MCP服务器三种使用方式，今日获3530星，总星数达10985。",
+      "link": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "title": "Firecrawl (firecrawl/firecrawl)",
+      "date": "2026-06-04",
+      "summary": "AI驱动的网页上下文API，提供搜索、抓取、解析、爬取和交互功能，将URL转为干净Markdown或结构化JSON。124k+星，全球GitHub排名前100，支持Python/Node.js SDK和MCP集成。",
+      "link": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "title": "OpenClaw (openclaw/openclaw)",
+      "date": "2026-06-04",
+      "summary": "个人AI助手，支持macOS/iOS/Android多平台，集成WhatsApp、Telegram、Slack、微信等20+聊天渠道。191k+星，2026年增长最快的AI项目之一，采用龙虾吉祥物标识。",
+      "link": "https://github.com/openclaw/openclaw"
+    }
+  ]
+}

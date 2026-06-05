@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "mainlandChina",
+  "items": [
+    {
+      "title": "中国AI大模型周调用量连续四周超美国，DeepSeek-V4-Flash登顶全球第一",
+      "date": "2026-05-27",
+      "summary": "据OpenRouter最新数据，中国AI大模型周调用量达9.223万亿Token，连续四周超过美国居全球首位。DeepSeek-V4-Flash以3.43万亿Token周调用量登顶全球第一，腾讯Hy3 preview排名第二，国产模型加速进入全球开发者调用体系。",
+      "link": "https://www.stcn.com/article/detail/3925020.html"
+    },
+    {
+      "title": "40余款AI大模型集中亮相2026世界智能产业博览会，迈向产业应用",
+      "date": "2026-05-30",
+      "summary": "天津2026世界智能产业博览会上，40余款AI大模型及10余款AI智能体集中亮相，涵盖语言、视觉、基础科学等领域。本届最大亮点是大模型从能力展示真正迈向产业应用，如汽车发动机维修大模型可实现在线故障预诊。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631256.shtml"
+    },
+    {
+      "title": "2026年5月国内头部智能体厂商动态全景：从模型迭代到规模化落地",
+      "date": "2026-05-20",
+      "summary": "百度Create大会提出DAA新度量衡并发布文心5.1；阿里通义千问打通淘宝天猫生态；腾讯WorkBuddy成国内应用最广生产力智能体；360推出龙虾教练降低智能体创建门槛；华为深耕工业与终端双场景。",
+      "link": "https://cloud.tencent.com/developer/article/2668857"
+    }
+  ]
+}

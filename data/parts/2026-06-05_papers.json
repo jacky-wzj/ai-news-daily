@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "section": "papers",
+  "items": [
+    {
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "date": "2024-12-28",
+      "summary": "提出一个受真实交易公司启发的多智能体股票交易框架，包含基本面分析师、情绪分析师、技术分析师和不同风险偏好的交易员角色。通过多智能体协作显著提升累计收益、夏普比率和最大回撤指标。",
+      "link": "https://huggingface.co/papers/2412.20138"
+    },
+    {
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "date": "2026-05-22",
+      "summary": "微软研究院提出的首个系统化文本空间智能体技能优化器。通过独立的优化器模型对技能文档进行增/删/改编辑，配合验证集门控和文本学习率预算，在52个评估单元中全面超越人工和基线方法。",
+      "link": "https://huggingface.co/papers/2605.23904"
+    },
+    {
+      "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+      "date": "2026-06-01",
+      "summary": "NVIDIA提出的全模态世界模型，通过统一的混合Transformer架构同时处理语言、图像、视频、音频和动作序列。在理解和生成任务中达到SOTA水平，为具身智能提供通用基础模型。",
+      "link": "https://huggingface.co/papers/2606.02800"
+    }
+  ]
+}

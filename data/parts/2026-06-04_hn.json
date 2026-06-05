@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "date": "2026-06-04",
+      "summary": "Google发布Gemma 4 12B多模态模型，采用无编码器统一架构，在多项基准测试中表现优异，支持文本与图像输入。以823分登顶HN热榜。",
+      "link": "https://news.ycombinator.com/item?id=48385906"
+    },
+    {
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "date": "2026-06-04",
+      "summary": "Simon Willison分析Uber为员工设每月1500美元AI使用上限，认为这为AI工具定价提供重要参考信号，引发对AI成本与价值的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48383056"
+    },
+    {
+      "title": "Artificial intelligence is not conscious – Ted Chiang",
+      "date": "2026-06-04",
+      "summary": "著名科幻作家Ted Chiang在《大西洋月刊》撰文，论证当前AI不具备意识，类人表现不等于真正的智能或意识体验，引发哲学与科技界热议。",
+      "link": "https://news.ycombinator.com/item?id=48387270"
+    }
+  ]
+}

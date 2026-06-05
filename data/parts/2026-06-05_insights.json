@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-05",
+  "section": "insights",
+  "items": [
+    {
+      "title": "微软在Build 2026发布MAI-Thinking-1等七款自研AI模型，减少对OpenAI依赖",
+      "date": "2026-06-02",
+      "summary": "微软在Build 2026大会上推出MAI-Thinking-1推理模型和MAI-Code-1-Flash编程模型等七款自研AI，可在Azure上运行以降低第三方授权成本，标志着微软从单纯的模型消费者转变为前沿模型生态的全面参与者。",
+      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
+    },
+    {
+      "title": "白宫签署行政令推动先进AI创新与安全",
+      "date": "2026-06-02",
+      "summary": "美国总统签署行政令，要求30天内优先升级联邦政府信息系统的网络防御，建立AI网络安全信息交换中心，并设计面向AI开发者的前沿模型自愿框架，以平衡AI创新与国家安全。",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+      "title": "DeepSeek计划融资74亿美元，估值达520-590亿美元",
+      "date": "2026-06-04",
+      "summary": "中国AI领军企业DeepSeek开启首轮外部融资，腾讯和宁德时代领投，估值区间520-590亿美元，将巩固其作为中国国家级AI冠军企业的地位，加速大模型领域竞争。",
+      "link": "https://aiweekly.co/"
+    },
+    {
+      "title": "Anthropic发布开源AI漏洞发现框架",
+      "date": "2026-06-05",
+      "summary": "Anthropic在GitHub开源defending-code-reference-harness框架，专为AI驱动的漏洞发现设计，获408个Hacker News点赞，展示了AI在网络安全自动化领域的重大进展。",
+      "link": "https://news.ycombinator.com/item?id=48403980"
+    },
+    {
+      "title": "Nvidia确认RTX Spark后续两代芯片计划，目标打造星际迷航式AI电脑",
+      "date": "2026-06-04",
+      "summary": "Nvidia CEO黄仁勋在Computex 2026上确认N2X和N3X芯片已在规划中，目标是实现可语音交互的Star Trek式计算机和R2-D2式机器人，Nvidia正转型为消费级AI芯片厂商。",
+      "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates"
+    },
+    {
+      "title": "AI Agent成为企业工作流核心：2026年6月AI行业趋势洞察",
+      "date": "2026-06-04",
+      "summary": "AI正从对话式交互转向任务完成型代理系统，覆盖销售、研发、编码、客服、法律和支付等领域。专家建议企业从单一工作流入手，保持人工审核，聚焦可衡量的实际效率提升。",
+      "link": "https://blog.mean.ceo/ai-industry-trends-june-2026/"
+    },
+    {
+      "title": "Ideogram 4开源文生图模型发布：原生2K分辨率与结构化JSON提示",
+      "date": "2026-06-04",
+      "summary": "Ideogram 4是完全从头训练的开源文生图模型，支持多语言文本渲染、深度语言理解、显式边界框布局和调色板控制，原生输出2K分辨率图像，为生成式AI创意工具树立新标杆。",
+      "link": "https://radicaldatascience.wordpress.com/2026/06/04/ai-news-briefs-bulletin-board-for-june-2026/"
+    }
+  ]
+}

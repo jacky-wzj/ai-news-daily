@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "tools",
+  "items": [
+    {
+      "title": "Google Gemma 4 12B 多模态模型发布",
+      "date": "2026-06-03",
+      "summary": "Google DeepMind 发布 Gemma 4 12B，首款面向笔记本电脑的无编码器多模态 AI 模型，支持原生音频输入，兼具边缘设备效率和高级推理能力，跨 150M 下载量。",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/"
+    },
+    {
+      "title": "Ideogram 4.0 开源文生图模型发布",
+      "date": "2026-06-03",
+      "summary": "Ideogram 发布 4.0 版本开源权重文生图模型，在文本渲染质量方面有显著提升，支持更精准的文字嵌入与图像生成，面向开发者和创作者开放。",
+      "link": "https://x.com/ideogram_ai/status/2062202208700313872"
+    },
+    {
+      "title": "Microsoft Scout 全天候个人 AI 代理上线",
+      "date": "2026-06-02",
+      "summary": "微软推出 Microsoft Scout，一款始终在线的个人 AI 代理，集成于 Microsoft 365 生态，可主动协助用户完成日常任务管理、信息检索与工作流自动化。",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
+    }
+  ]
+}

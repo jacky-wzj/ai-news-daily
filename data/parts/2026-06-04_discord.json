@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Anthropic 推出 Claude Code Channels：通过 Discord 远程控制 AI 编码代理",
+      "date": "2026-03-20",
+      "summary": "Anthropic 于2026年3月推出 Claude Code Channels，允许开发者通过 Discord 和 Telegram 向本地运行的 Claude Code 会话发送消息，实现从手机远程操控 AI 编码代理，支持文件系统、MCP 和 Git 完整访问。",
+      "link": "https://claudefa.st/blog/guide/development/claude-code-channels"
+    },
+    {
+      "title": "Discord 因隐私争议推迟全球年龄验证，采用 AI 年龄推断引发社区担忧",
+      "date": "2026-03-09",
+      "summary": "Discord CTO 发文道歉并宣布将全球年龄验证推迟至2026年下半年。此前推出的 AI 年龄推断系统（通过数百个信号猜测用户年龄）和数据泄露事件引发用户强烈反弹，EFF 等组织批评其构成监控噩梦。",
+      "link": "https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing"
+    },
+    {
+      "title": "Midjourney Discord 社区近2000万成员，发布 V8.1 版本",
+      "date": "2026-04-30",
+      "summary": "Midjourney 作为 Discord 上最大的 AI 社区，注册用户近2000万（预计2026年底达2100万），2026年4月发布 V8.1 模型，增强美学效果、小细节保留和 Raw 模式，每天活跃用户在120万-250万之间。",
+      "link": "https://www.demandsage.com/midjourney-statistics/"
+    }
+  ]
+}

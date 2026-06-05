@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "硅谷机器人训练初创公司教人形机器人做家务",
+      "date": "2026-05-31",
+      "summary": "硅谷涌现大批机器人训练初创公司，通过人工远程操作教人形机器人完成倒咖啡等日常任务。Encord等公司录制并出售动作数据，为特斯拉Optimus等即将上市的机器人提供训练支持。",
+      "link": "https://www.latimes.com/business/story/2026-05-31/how-silicon-valley-robot-training-teleoperating-startups-are-teaching-humanoids-to-do-everyday-tasks"
+    },
+    {
+      "title": "AI语音输入初创公司Wispr Flow估值20亿美元",
+      "date": "2026-05-28",
+      "summary": "硅谷AI语音输入初创公司Wispr Flow由斯坦福毕业生创立，开发语音转文字工具让用户用语音替代键盘操作。最新融资超2.5亿美元，估值达20亿美元，Peak XV和Activate参与投资。",
+      "link": "https://economictimes.indiatimes.com/tech/startups/peak-xv-activate-in-talks-to-invest-in-silicon-valley-ai-dictation-startup-wispr-flow/articleshow/131333228.cms"
+    },
+    {
+      "title": "AI家居设计初创公司Drafted获1600万美元融资",
+      "date": "2026-05-29",
+      "summary": "硅谷初创公司Drafted完成1600万美元种子轮融资，投资者包括Y Combinator和OneRepublic主唱。其AI平台可将用户输入快速生成平面图和3D家居渲染图，让家居设计像编程一样简单。",
+      "link": "https://www.businessinsider.com/drafted-16m-funding-reshape-home-design-with-ai-2026-5"
+    }
+  ]
+}
