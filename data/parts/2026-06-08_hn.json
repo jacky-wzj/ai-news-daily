@@ -3,22 +3,22 @@
   "section": "hn",
   "items": [
     {
-      "title": "Claude Opus 4.8",
-      "date": "2026-06-06",
-      "summary": "Anthropic发布Claude Opus 4.8，这是Opus 4.5系列的第三次小版本升级，标志着前沿模型迭代加速。HN社区热议模型能力跃升及编码性能改进，讨论聚焦于AI模型快速迭代对开发者的实际影响。",
-      "link": "https://news.ycombinator.com/item?id=48311647"
-    },
-    {
       "title": "Anthropic超越OpenAI成为估值最高AI初创公司",
       "date": "2026-06-01",
       "summary": "Anthropic估值超越OpenAI，成为全球最有价值的AI初创企业。HN讨论聚焦于Claude与GPT的代码能力对比，开发者实测Opus 4.7与GPT-5.5的实际编码表现，反映出AI行业格局的重大转变。",
       "link": "https://news.ycombinator.com/item?id=48336233"
     },
     {
-      "title": "Ted Chiang：人工智能并非具有意识",
-      "date": "2026-06-08",
-      "summary": "科幻作家Ted Chiang在《大西洋月刊》发表文章，论证当前AI系统并不具备意识，将内在体验归因于AI在哲学上是错误的。此文在HN和Reddit引发激烈讨论，恰逢Google DeepMind、Anthropic和Meta扩展AI意识研究项目之际。",
-      "link": "https://news.ycombinator.com/item?id=48387270"
+      "title": "CEO对员工：不加薪，钱都花在AI上",
+      "date": "2026-06-06",
+      "summary": "一家公司CEO告知员工预算用于AI采购而非加薪，引发HN社区激烈讨论。评论指出AI虽能加速部分任务，但组织层面整体效率提升不足2倍，技术投资与员工价值之间的张力日益凸显。",
+      "link": "https://news.ycombinator.com/item?id=48407401"
+    },
+    {
+      "title": "AI兴起不意味着人人失业：驳AI就业崩溃论",
+      "date": "2026-06-04",
+      "summary": "一篇引发热议的HN帖子反驳AI将导致大规模失业的流行论调，从资本和劳动力两个维度分析：技术进步历史上从未导致永久性大规模失业，AI将重塑而非消灭工作岗位。",
+      "link": "https://news.ycombinator.com/item?id=48186737"
     }
   ]
 }
