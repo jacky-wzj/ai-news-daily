@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Discord 2026 数据报告：7.5亿用户，AI集成月活超3000万",
+      "date": "2026-06-06",
+      "summary": "Discord 注册用户突破7.5亿，日活9000万+，日均使用时长94分钟。AI集成月活超3000万，AutoMod AI处理64%日常审核，Clyde聊天机器人成为服务器标配。平台正从游戏社区向AI驱动的数字社群基础设施转型。",
+      "link": "https://commentgrid.com/blog/discord-statistics"
+    },
+    {
+      "title": "2026最佳AI Discord服务器构建工具对比：BuildMyDiscord领跑",
+      "date": "2026-05-20",
+      "summary": "AI Discord服务器构建市场2026年快速成熟，六大工具各有优势。BuildMyDiscord整合Claude AI实现实时编辑，ServerGPT擅长AI图标生成，PeakBot专注审核自动化。AI正从对话助手升级为服务器管理基础设施。",
+      "link": "https://buildmydiscord.com/en/blog/best-ai-discord-server-builders-2026"
+    },
+    {
+      "title": "Discord 2026年6月新闻：创业者应将Discord视为商业基础设施",
+      "date": "2026-06-05",
+      "summary": "Discord已从游戏语音工具演变为社区运营核心平台。AI助手、自动化审核和Social SDK推动非游戏用户占比达54%。创业者利用Discord构建付费社区、用户反馈闭环和AI驱动客户支持，Discord成为初创企业的留存层。",
+      "link": "https://blog.mean.ceo/discord-news-june-2026/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "GPT-5.5 Codex系统提示泄露：禁止讨论“地精、浣熊”引发 Reddit 热议",
+      "date": "2026-05-07",
+      "summary": "GPT-5.5于4月23日发布后，Reddit用户发现其Codex系统提示中明确禁止讨论“地精、浣熊、巨魔”等词汇，r/ChatGPT讨论帖获856票，r/OpenAI相关帖获1200+票。同时输出价格翻倍至30美元/百万token引发强烈不满，社区出现5.4版本坚守派。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1sxwmis/"
+    },
+    {
+      "title": "前沿模型基准测试对比：GPT-5.5 vs Claude 4.7 vs Gemini 3.1 Pro vs DeepSeek V4 Pro",
+      "date": "2026-05-26",
+      "summary": "r/ArtificialInteligence用户对四大前沿模型进行基准测试，结论是“一刀切”AI时代已终结。GPT-5.5在通用智能指数领先，Claude Opus 4.7适合生产级Agent工作流，Gemini 3.1 Pro在GPQA Diamond推理达94.3%，DeepSeek V4 Pro以约1/17成本达到GPT-5.2水平。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tobvuv/"
+    },
+    {
+      "title": "热评：90%的“Agentic AI”只是美化的while循环",
+      "date": "2026-05-15",
+      "summary": "r/ArtificialInteligence一条热帖引发激烈辩论：作者认为当前大多数所谓“Agentic AI”本质上只是LLM+工具调用+while循环的重包装。反对方称LLM+工具+记忆+重试已构成真正的自我修正与规划能力，讨论折射出社区对AI Agent定义的根本分歧。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tc79qm/"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-08",
+  "section": "insights",
+  "items": [
+    {
+      "title": "Anthropic提交IPO申请，估值9650亿美元超越OpenAI",
+      "date": "2026-06-01",
+      "summary": "Anthropic秘密提交IPO申请，估值达9650亿美元，超越OpenAI成为全球最有价值AI初创公司。Claude用户流量增速显著超过ChatGPT，营收运行率达470亿美元。",
+      "link": "https://www.cnbc.com/2026/06/05/tech-download-anthropic-ipo-ai-valuations.html"
+    },
+    {
+      "title": "AI股单日蒸发1.3万亿美元，泡沫还是获利回吐？",
+      "date": "2026-06-07",
+      "summary": "6月6日AI和芯片股单日损失约1.3万亿美元，半导体板块创2020年以来最差表现。就业数据超预期引发加息担忧，华尔街对泡沫还是获利回吐分歧严重。",
+      "link": "https://aiweekly.co/issues/wall-street-cant-agree-if-the-ai-bubble-just-burst"
+    },
+    {
+      "title": "AI Agent从试点走向生产，但落地不均衡",
+      "date": "2026-06-08",
+      "summary": "Gartner预测2026年底40%企业应用将嵌入任务型AI Agent。31%企业已有AI Agent在生产中运行。MCP协议成为企业AI集成事实标准，SDK月下载量达9700万。",
+      "link": "https://apptad.com/insights/whats-next-for-enterprise-ai-mid-year-insights-for-2026/"
+    },
+    {
+      "title": "2026年全球AI资本支出或达8000亿美元",
+      "date": "2026-06-07",
+      "summary": "TS Lombard估计2026年全球AI资本支出近8000亿美元。Goldman Sachs预测AI支出将从7650亿增至2031年1.6万亿美元。总支出规模引发Cisco式泡沫警告。",
+      "link": "https://www.theguardian.com/technology/2026/jun/07/billions-spent-hypothetical-returns-the-ai-boom-explained-with-six-charts"
+    },
+    {
+      "title": "NVIDIA面临8000亿美元AI支出考验，Cisco时代警告重现",
+      "date": "2026-06-04",
+      "summary": "NVIDIA数据中心收入同比增92%近3000亿美元。但分析指出AI生态主要由内部投资而非外部消费需求驱动，总资本支出约6600亿美元，引发Cisco时代类比警告。",
+      "link": "https://www.foreignpolicyjournal.com/2026/06/04/nvidia-nasdaq-nvda-faces-800-billion-ai-spending-test-as-cisco-era-warnings-return/"
+    },
+    {
+      "title": "AI训练成本革命：100B参数模型仅需$1.25/小时",
+      "date": "2026-06-08",
+      "summary": "Orion-100B用普通硬件训练1000亿参数模型，成本仅$1.25/小时（传统$50/小时）。7B模型已能完成去年70B模型的任务，效率提升推动AI民主化。",
+      "link": "https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/"
+    },
+    {
+      "title": "AI FinOps成为标配：98%实践管理AI支出",
+      "date": "2026-06-08",
+      "summary": "State of FinOps 2026报告显示98%的FinOps实践已管理AI支出。基础模型API支出占28%，GPU计算占22%，数据基础占16%。企业AI成本管控成为核心实践。",
+      "link": "https://apptad.com/insights/whats-next-for-enterprise-ai-mid-year-insights-for-2026/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "tools",
+  "items": [
+    {
+      "title": "OpenAI Codex扩展为企业工作平台：推出Sites与六大角色插件",
+      "date": "2026-06-02",
+      "summary": "OpenAI将Codex从编码工具升级为企业级工作平台，新增Sites功能可将AI输出直接部署为交互式网站，六大角色专属插件连接Snowflake、Figma、Salesforce等62个企业应用，非技术用户采纳速度快3倍。",
+      "link": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins"
+    },
+    {
+      "title": "OpenAI Realtime Audio API全面开放：三款新模型正式GA",
+      "date": "2026-06-05",
+      "summary": "OpenAI的Realtime API正式退出Beta，发布GPT-Realtime-2（连续音频流处理）、GPT-Realtime-Translate（70+语言实时翻译）和GPT-Realtime-Whisper（直播级转录），定价$3-$80/百万tokens。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-june-5-2026"
+    },
+    {
+      "title": "Dreamina：字节跳动推出全能AI图像与视频生成器",
+      "date": "2026-06-06",
+      "summary": "字节跳动旗下Dreamina集成Seedance 2.0模型，支持文本/图像/音频/视频多模态输入，可生成高清图片与视频，无缝对接CapCut与TikTok生态，面向创作者、营销和设计师。",
+      "link": "https://www.aixploria.com/en/last-ai/"
+    }
+  ]
+}

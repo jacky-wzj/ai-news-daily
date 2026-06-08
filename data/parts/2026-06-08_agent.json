@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Meta AI商务代理全球上线：WhatsApp与Instagram DM全面支持",
+      "date": "2026-06-03",
+      "summary": "Meta宣布其客户支持AI代理（Meta Business Agent）在WhatsApp Business全球上线，并扩展至Instagram DM。该代理可自动回答客户问题、推荐产品、预约服务、筛选销售线索，并支持转接人工。未来还将支持市场调研、日历管理及竞争洞察功能。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    },
+    {
+      "title": "Google发布Gemini Spark个人AI代理，深度整合Gmail等生态",
+      "date": "2026-05-21",
+      "summary": "Google在I/O大会上发布Gemini Spark——一款全天候24/7运行的个人AI代理，深度整合Gmail、Google Docs、Google Calendar等产品。可自动整理邮件摘要、管理家庭库存、规划群组旅行，面向Ultra订阅用户优先推送，被视为OpenAI代理的有力竞品。",
+      "link": "https://www.cbsnews.com/news/google-gemini-spark-ai-agent/"
+    },
+    {
+      "title": "Forbes：Box、McKinsey与LinkedIn联合揭示20种AI代理新兴职业",
+      "date": "2026-06-02",
+      "summary": "Forbes报道指出，AI代理正在催生全新职业类别。LinkedIn数据显示AI已创造超过130万个新岗位，包括AI工程师、前向部署工程师、数据标注师等。Box、McKinsey和LinkedIn共同识别出20种全新\"代理型AI\"职位，涵盖代理主管、AI策略师等。",
+      "link": "https://www.forbes.com/sites/sandycarter/2026/06/02/the-20-new-agentic-ai-jobs-box-mckinsey-and-linkedin-all-see-coming/"
+    }
+  ]
+}

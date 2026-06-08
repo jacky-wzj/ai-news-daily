@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "mainlandChina",
+  "items": [
+    {
+      "title": "Step-3.7-Flash开源与MiniMax M3 Agent模型发布",
+      "date": "2026-06-05",
+      "summary": "本周国内开源组迎来多项更新：Step推出推理模型Step-3.7-Flash，MiniMax发布专为Agent优化的M3模型。两家公司加速AI Agent方向的布局，推动国产模型生态发展。",
+      "link": "https://zhuanlan.zhihu.com/p/670574382"
+    },
+    {
+      "title": "阿里通义千问全面融入生态，Qwen 3.6-Plus登顶Code Arena",
+      "date": "2026-04-30",
+      "summary": "阿里千问全面融入淘宝、支付宝、高德等生态业务。Qwen 3.6-Plus在Code Arena编程评测中超越OpenAI、Google等国际巨头，成为中国排名最高的大模型，位列全球第二。",
+      "link": "https://www.163.com/dy/article/KSGN6CE705566T0A.html"
+    },
+    {
+      "title": "智谱入选时代杂志全球最具影响力AI公司",
+      "date": "2026-04-28",
+      "summary": "智谱AI入选《时代》杂志\"2026年全球最具影响力10家人工智能公司\"，成为唯一上榜的中国独立大模型企业。字节跳动、阿里巴巴同期入选，展现中国AI产业全球影响力。",
+      "link": "https://m.thepaper.cn/newsDetail_forward_33142325"
+    }
+  ]
+}

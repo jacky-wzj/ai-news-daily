@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "github",
+  "items": [
+    {
+      "title": "last30days-skill：跨平台AI智能体研究技能",
+      "date": "2026-06-08",
+      "summary": "一款AI智能体技能，可跨Reddit、X、YouTube、HN、Polymarket和GitHub并行搜索任意话题，根据真实用户参与度（点赞/投票/资金）评分，再由AI合成摘要。零配置即可使用，支持50+智能体平台安装。（32.5k+ Stars, 今日+1,111）",
+      "link": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "title": "taste-skill：AI前端反Slop框架",
+      "date": "2026-06-08",
+      "summary": "面向AI生成界面的可移植智能体技能套件，提供排版、布局、动效和间距规范，解决AI构建网页时的千篇一律问题。v2实验版支持设计语言推断和方差/动效/密度三档调节，含图像生成参考板技能。（37.6k+ Stars, 今日+1,103）",
+      "link": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "title": "open-notebook：开源版Notebook LM",
+      "date": "2026-06-08",
+      "summary": "Google Notebook LM的开源替代方案，支持18+ AI模型提供商（OpenAI/Anthropic/Ollama等），可管理PDF/视频/音频/网页多模态内容，生成1-4人专业播客，提供REST API和Docker部署，数据完全自托管。（27.6k+ Stars, 今日+554）",
+      "link": "https://github.com/lfnovo/open-notebook"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "Andrej Karpathy 宣布加入 Anthropic",
+      "date": "2026-05-19",
+      "summary": "前特斯拉AI总监、OpenAI联合创始人Andrej Karpathy在X平台宣布加入Anthropic，离开其创办的Eureka Labs，此举引发AI社区广泛关注，被视为Anthropic在人才争夺战中的重大胜利。",
+      "link": "https://pasqualepillitteri.it/en/news/3633/ai-x-twitter-accounts-to-follow-2026"
+    },
+    {
+      "title": "a16z领投Lassie AI A轮融资",
+      "date": "2026-06-02",
+      "summary": "知名风投a16z合伙人Marc Andreessen在X宣布领投Lassie AI的A轮融资。Lassie致力于打造能运营小型企业的AI代理，从服务行业起步，引发AI创业圈高度关注。",
+      "link": "https://www.techtwitter.com/twitter-trending"
+    },
+    {
+      "title": "X平台集成AI视频工具Hotshot",
+      "date": "2026-06-05",
+      "summary": "X平台将AI文本生成视频工具Hotshot集成到社交平台，用户可直接在X上生成AI视频内容。此功能将进一步推动AI内容创作在社交媒体的普及。",
+      "link": "https://socialbee.com/blog/twitter-updates/"
+    }
+  ]
+}

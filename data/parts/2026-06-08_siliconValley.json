@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Anthropic超越OpenAI成为硅谷估值最高AI公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic完成650亿美元融资，估值逼近万亿美元，超越OpenAI成为硅谷估值最高的AI初创公司。此次融资规模创AI行业纪录，反映资本对AI安全方向的高度认可。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "硅谷新口号Let's Get Physical：机器人成AI新战场",
+      "date": "2026-06-02",
+      "summary": "Nvidia、OpenAI、Meta、Tesla等巨头纷纷进军机器人领域。Sam Altman称机器人是OpenAI的下一个前沿。Figure AI估值390亿美元，已签署商业协议部署人形机器人。",
+      "link": "https://www.businessinsider.com/silicon-valleys-new-slogan-lets-get-physical-2026-6"
+    },
+    {
+      "title": "Peak XV和Activate拟投资AI语音公司Wispr Flow",
+      "date": "2026-06-01",
+      "summary": "斯坦福毕业生创办的AI语音听写初创Wispr Flow获Peak XV和Activate投资意向，估值或达200亿美元。该工具让用户通过语音操作应用和工作流，替代键盘输入提升效率。",
+      "link": "https://economictimes.indiatimes.com/tech/startups/peak-xv-activate-in-talks-to-invest-in-silicon-valley-ai-dictation-startup-wispr-flow/articleshow/131333228.cms"
+    }
+  ]
+}

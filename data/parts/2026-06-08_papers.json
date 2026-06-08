@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "section": "papers",
+  "items": [
+    {
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "date": "2026-06-05",
+      "summary": "上海人工智能实验室提出的LLM多智能体框架，通过渐进式蒙特卡洛图搜索和回溯记忆实现端到端机器学习算法自动发现，在MLE-Bench上达到SOTA，12小时内超越AlphaEvolve等专用方法，展现强跨领域泛化能力。",
+      "link": "https://huggingface.co/papers/2606.06473"
+    },
+    {
+      "title": "dots.tts Technical Report",
+      "date": "2026-06-08",
+      "summary": "小红书推出的2B参数连续自回归TTS基础模型，基于Audio-VAE和流匹配全历史条件，实现开源SOTA语音合成，WER低至0.94%，支持流式推理，首包延迟仅85ms，Apache 2.0开源发布。",
+      "link": "https://huggingface.co/papers/2606.07080"
+    },
+    {
+      "title": "LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing",
+      "date": "2026-06-07",
+      "summary": "北大团队提出的5B参数统一视频生成与编辑架构，用MLLM替代文本编码器，创新零开销Scale-and-Add条件机制，推理速度提升5.41倍，在电商和时尚场景表现优异。",
+      "link": "https://huggingface.co/papers/2606.06042"
+    }
+  ]
+}
