@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年6月8日星期一</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年6月8日星期一</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Audio Interaction Model</h3>
+      <div class="meta">👤 </div>
+      <p>提出音频交互模型Audio-Interaction，将离线大音频语言模型与流式音频任务统一为在线感知-决策-响应循环，实现实时语音对话和流式音频指令跟随，在8项基准任务上保持竞争力。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.05121" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OCC-RAG: Optimal Cognitive Core for Faithful Question Answering</h3>
+      <div class="meta">👤 </div>
+      <p>提出OCC-RAG系列小型语言模型，通过合成三百万多上下文多跳QA数据训练，在忠实问答任务中以0.6B/1.7B参数匹配或超越大6倍的通用模型，具备结构化推理痕迹与来源引用。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.00683" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution</h3>
+      <div class="meta">👤 </div>
+      <p>提出Code2LoRA超网络框架，为代码语言模型生成仓库特定的LoRA适配器，支持静态代码库和演进代码库，零推理令牌开销下跨仓库精确匹配达63.8%，接近逐仓库LoRA上限。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.06492" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Discord Social SDK 正式集成多款 Roblox 游戏</h3>
+      <div class="meta">💬 </div>
+      <p>Discord 宣布 Social SDK 正式集成 Steal a Brainrot、Brookhaven RP、Grow a Garden 等 Roblox 热门游戏，为玩家社区提供安全管控、Rich Presence 状态共享和游戏邀请等社交功能，并与 Riot Games、EA 等大厂合作推进社区管理方案。</p>
+  <a class="link" href="https://discord.com/blog/official-discord-integrations-for-steal-a-brainrot-grow-a-garden-brookhaven-rp-and-more" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. ROOST 发布开源信任与安全基础设施 Coop 和 Osprey</h3>
+      <div class="meta">💬 </div>
+      <p>ROOST 宣布推出 Coop（开源审核工具）和 Osprey（AI 安全控制系统），为 AI 时代提供免费的端到端在线安全基础设施。Coop 支持人工审核控制台、规则引擎和 API 集成，已被 Notion 等平台采用。</p>
+  <a class="link" href="https://github.com/roostorg/coop" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Did Claude increase bugs in rsync?</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>一项数据分析调查rsync在引入Claude辅助开发后是否产生了异常多的bug。rsync维护者Tridge解释称大量提交是为了应对AI生成的安全报告潮而加强防御措施，引发了关于AI辅助编码质量的广泛讨论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48411635" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Google发布Gemma 4量化感知训练(QAT)模型，专为移动端和笔记本电脑优化。纯文本版仅0.8GB，多模态版3.2GB，支持图像和音频输入，可在本地设备上运行实时AI对话。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48414653" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Hot take: 90% of what we are calling Agentic AI right now is just a glorified while-loop</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/ArtificialInteligence 热帖。用户激烈争论当前Agentic AI是否只是美化版循环。支持者认为LLM+工具+记忆+重试已构成自主规划，反对者称离真正Agent相距甚远。</p>
+  <a class="link" href="https://www.reddit.com/r/ArtificialInteligence/comments/1tc79qm/hot_take_90_of_what_we_are_calling_agentic_ai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Ganglia: code intelligence for AI coding agents [R]</h3>
+      <div class="meta">reddit: </div>
+      <p>Reddit r/MachineLearning 研究帖。介绍Ganglia项目——为AI编程代理提供代码智能的工具。该项目旨在提升AI agent在代码理解和生成方面的能力，引发社区关注。</p>
+  <a class="link" href="https://www.reddit.com/r/MachineLearning/comments/1tb518a/ganglia_code_intelligence_for_ai_coding_agents_r/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. xAI 发布 Grok Build 编程代理公测版</h3>
+      
+      <p>xAI推出Grok Build编程代理公测版，基于Grok 4.3的终端TUI编码工具，支持无头CI脚本和Agent Client Protocol，与OpenAI Codex和Claude Code展开竞争。</p>
+  <a class="link" href="https://x.com/grok/status/2062225080843747351" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 特朗普计划会见AI公司高管，讨论美国政府入股AI企业</h3>
+      <div class="meta">📅 2026-06-05</div>
+      <p>美国总统特朗普表示将在下周与主要AI公司领导人会面，讨论政府通过财务入股AI企业形成&quot;与美国公众的伙伴关系&quot;，以改善民众对AI技术的看法。Anthropic等公司参与其中。</p>
+  <a class="link" href="https://www.bbc.com/news/articles/c98r8r7dz5no" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 全球首款由人工智能设计的疫苗进入人体试验</h3>
+      <div class="meta">📅 2026-06-05</div>
+      <p>剑桥大学团队利用AI设计出&quot;超抗原&quot;疫苗，可针对所有冠状病毒（包括未来可能的人际传播病毒）提供保护。这是首个完全由AI设计抗原并在人体试验的疫苗，有望改变疫情应对方式。</p>
+  <a class="link" href="https://www.bbc.com/news/articles/crrpggegwe0o" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic联合创始人警告AI需配备&quot;刹车踏板&quot;</h3>
+      <div class="meta">📅 2026-06-05</div>
+      <p>Anthropic联合创始人Jack Clark表示AI正接近无需人类输入即可自主发展的临界点，行业只有&quot;油门&quot;没有&quot;刹车&quot;。呼吁通过政府政策保持对人类对AI系统的控制，并制定合理监管框架。</p>
+  <a class="link" href="https://www.bbc.com/news/articles/cx2124z7g45o" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. AI股票市场是否存在泡沫？BBC分析市场过热风险</h3>
+      <div class="meta">📅 2026-06-05</div>
+      <p>尽管面临伊朗战争、通胀和债务担忧，美国股市在AI投资热潮推动下屡创新高。BBC记者分析华尔街对AI估值与实际经济之间的脱节，投资者担忧泡沫可能破裂。</p>
+  <a class="link" href="https://www.bbc.com/news/videos/c1m2mr7gr27o" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Alphabet计划通过股票销售筹资800亿美元用于AI基础设施建设</h3>
+      <div class="meta">📅 2026-06-01</div>
+      <p>谷歌母公司Alphabet宣布将出售800亿美元股票（含巴菲特旗下伯克希尔100亿美元投资），用于AI计算基础设施建设。Google今年资本支出预计高达1900亿美元，AI军备竞赛持续升温。</p>
+  <a class="link" href="https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>6. AI融资格局：Anthropic估值9650亿美元超越OpenAI，SpaceX启动IPO</h3>
+      <div class="meta">📅 2026-06-01</div>
+      <p>Anthropic以9650亿美元估值完成Series H融资，超越OpenAI成为全球最高估值私有AI公司。OpenAI目标9月IPO估值1万亿美元。SpaceX提交S-1文件，目标估值1.75万亿美元创历史纪录。</p>
+  <a class="link" href="https://aifundingtracker.com/top-50-ai-startups/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>7. 英国议员起诉xAI：AI深度伪造图像引发法律与伦理争议</h3>
+      <div class="meta">📅 2026-06-05</div>
+      <p>英国工党议员Jess Asato针对马斯克的xAI公司提起诉讼，指控其Grok聊天机器人未经同意生成其性感化深度伪造图像。该案引发对AI生成不当内容及科技公司责任的广泛讨论。</p>
+  <a class="link" href="https://www.bbc.com/news/articles/cn8p0wdyelwo" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 10:34 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

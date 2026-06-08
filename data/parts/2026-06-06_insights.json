@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-06",
+  "items": [
+    {
+      "title": "特朗普计划会见AI公司高管，讨论美国政府入股AI企业",
+      "date": "2026-06-05",
+      "summary": "美国总统特朗普表示将在下周与主要AI公司领导人会面，讨论政府通过财务入股AI企业形成\"与美国公众的伙伴关系\"，以改善民众对AI技术的看法。Anthropic等公司参与其中。",
+      "link": "https://www.bbc.com/news/articles/c98r8r7dz5no"
+    },
+    {
+      "title": "全球首款由人工智能设计的疫苗进入人体试验",
+      "date": "2026-06-05",
+      "summary": "剑桥大学团队利用AI设计出\"超抗原\"疫苗，可针对所有冠状病毒（包括未来可能的人际传播病毒）提供保护。这是首个完全由AI设计抗原并在人体试验的疫苗，有望改变疫情应对方式。",
+      "link": "https://www.bbc.com/news/articles/crrpggegwe0o"
+    },
+    {
+      "title": "Anthropic联合创始人警告AI需配备\"刹车踏板\"",
+      "date": "2026-06-05",
+      "summary": "Anthropic联合创始人Jack Clark表示AI正接近无需人类输入即可自主发展的临界点，行业只有\"油门\"没有\"刹车\"。呼吁通过政府政策保持对人类对AI系统的控制，并制定合理监管框架。",
+      "link": "https://www.bbc.com/news/articles/cx2124z7g45o"
+    },
+    {
+      "title": "AI股票市场是否存在泡沫？BBC分析市场过热风险",
+      "date": "2026-06-05",
+      "summary": "尽管面临伊朗战争、通胀和债务担忧，美国股市在AI投资热潮推动下屡创新高。BBC记者分析华尔街对AI估值与实际经济之间的脱节，投资者担忧泡沫可能破裂。",
+      "link": "https://www.bbc.com/news/videos/c1m2mr7gr27o"
+    },
+    {
+      "title": "Alphabet计划通过股票销售筹资800亿美元用于AI基础设施建设",
+      "date": "2026-06-01",
+      "summary": "谷歌母公司Alphabet宣布将出售800亿美元股票（含巴菲特旗下伯克希尔100亿美元投资），用于AI计算基础设施建设。Google今年资本支出预计高达1900亿美元，AI军备竞赛持续升温。",
+      "link": "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html"
+    },
+    {
+      "title": "AI融资格局：Anthropic估值9650亿美元超越OpenAI，SpaceX启动IPO",
+      "date": "2026-06-01",
+      "summary": "Anthropic以9650亿美元估值完成Series H融资，超越OpenAI成为全球最高估值私有AI公司。OpenAI目标9月IPO估值1万亿美元。SpaceX提交S-1文件，目标估值1.75万亿美元创历史纪录。",
+      "link": "https://aifundingtracker.com/top-50-ai-startups/"
+    },
+    {
+      "title": "英国议员起诉xAI：AI深度伪造图像引发法律与伦理争议",
+      "date": "2026-06-05",
+      "summary": "英国工党议员Jess Asato针对马斯克的xAI公司提起诉讼，指控其Grok聊天机器人未经同意生成其性感化深度伪造图像。该案引发对AI生成不当内容及科技公司责任的广泛讨论。",
+      "link": "https://www.bbc.com/news/articles/cn8p0wdyelwo"
+    }
+  ]
+}

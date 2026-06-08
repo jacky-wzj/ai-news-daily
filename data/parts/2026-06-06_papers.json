@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-06",
+  "section": "papers",
+  "items": [
+    {
+      "title": "Audio Interaction Model",
+      "date": "2026-06-04",
+      "summary": "提出音频交互模型Audio-Interaction，将离线大音频语言模型与流式音频任务统一为在线感知-决策-响应循环，实现实时语音对话和流式音频指令跟随，在8项基准任务上保持竞争力。",
+      "link": "https://huggingface.co/papers/2606.05121"
+    },
+    {
+      "title": "OCC-RAG: Optimal Cognitive Core for Faithful Question Answering",
+      "date": "2026-06-03",
+      "summary": "提出OCC-RAG系列小型语言模型，通过合成三百万多上下文多跳QA数据训练，在忠实问答任务中以0.6B/1.7B参数匹配或超越大6倍的通用模型，具备结构化推理痕迹与来源引用。",
+      "link": "https://huggingface.co/papers/2606.00683"
+    },
+    {
+      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "date": "2026-06-05",
+      "summary": "提出Code2LoRA超网络框架，为代码语言模型生成仓库特定的LoRA适配器，支持静态代码库和演进代码库，零推理令牌开销下跨仓库精确匹配达63.8%，接近逐仓库LoRA上限。",
+      "link": "https://huggingface.co/papers/2606.06492"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-07",
+  "section": "papers",
+  "items": [
+    {
+      "title": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+      "date": "2026-06-01",
+      "summary": "研究参数高效微调（PEFT）的新角色——将小型可训练适配器作为持久化本地状态，在强大共享基础模型之上承载个性化行为（偏好、技能、工具习惯等），从三轴（Scale Up/Down/Out）论证PEFT可成为百万级个性化模型的紧凑基板。",
+      "link": "https://huggingface.co/papers/2606.02437"
+    },
+    {
+      "title": "Crafter: A Multi-Agent Harness for Editable Scientific Figure Generation from Diverse Inputs",
+      "date": "2026-05-28",
+      "summary": "提出Crafter多智能体框架，可跨多种图表类型和输入条件生成可编辑的科学论文插图，配合CraftEditor将栅格输出转为可编辑SVG，显著超越现有基线方法。",
+      "link": "https://huggingface.co/papers/2605.30611"
+    },
+    {
+      "title": "Audio Interaction Model",
+      "date": "2026-06-03",
+      "summary": "提出统一的流式音频交互模型Audio-Interaction，通过始终在线的感知-决策-响应循环实现实时音频指令跟随、流式ASR和主动帮助，在8项基准上保持竞争力。",
+      "link": "https://huggingface.co/papers/2606.05121"
+    }
+  ]
+}

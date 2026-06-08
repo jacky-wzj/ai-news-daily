@@ -1,0 +1,247 @@
+{
+  "date": "2026-06-05",
+  "insights": [
+    {
+      "title": "微软在Build 2026发布MAI-Thinking-1等七款自研AI模型，减少对OpenAI依赖",
+      "date": "2026-06-02",
+      "summary": "微软在Build 2026大会上推出MAI-Thinking-1推理模型和MAI-Code-1-Flash编程模型等七款自研AI，可在Azure上运行以降低第三方授权成本，标志着微软从单纯的模型消费者转变为前沿模型生态的全面参与者。",
+      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
+    },
+    {
+      "title": "白宫签署行政令推动先进AI创新与安全",
+      "date": "2026-06-02",
+      "summary": "美国总统签署行政令，要求30天内优先升级联邦政府信息系统的网络防御，建立AI网络安全信息交换中心，并设计面向AI开发者的前沿模型自愿框架，以平衡AI创新与国家安全。",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+      "title": "DeepSeek计划融资74亿美元，估值达520-590亿美元",
+      "date": "2026-06-04",
+      "summary": "中国AI领军企业DeepSeek开启首轮外部融资，腾讯和宁德时代领投，估值区间520-590亿美元，将巩固其作为中国国家级AI冠军企业的地位，加速大模型领域竞争。",
+      "link": "https://aiweekly.co/"
+    },
+    {
+      "title": "Anthropic发布开源AI漏洞发现框架",
+      "date": "2026-06-05",
+      "summary": "Anthropic在GitHub开源defending-code-reference-harness框架，专为AI驱动的漏洞发现设计，获408个Hacker News点赞，展示了AI在网络安全自动化领域的重大进展。",
+      "link": "https://news.ycombinator.com/item?id=48403980"
+    },
+    {
+      "title": "Nvidia确认RTX Spark后续两代芯片计划，目标打造星际迷航式AI电脑",
+      "date": "2026-06-04",
+      "summary": "Nvidia CEO黄仁勋在Computex 2026上确认N2X和N3X芯片已在规划中，目标是实现可语音交互的Star Trek式计算机和R2-D2式机器人，Nvidia正转型为消费级AI芯片厂商。",
+      "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates"
+    },
+    {
+      "title": "AI Agent成为企业工作流核心：2026年6月AI行业趋势洞察",
+      "date": "2026-06-04",
+      "summary": "AI正从对话式交互转向任务完成型代理系统，覆盖销售、研发、编码、客服、法律和支付等领域。专家建议企业从单一工作流入手，保持人工审核，聚焦可衡量的实际效率提升。",
+      "link": "https://blog.mean.ceo/ai-industry-trends-june-2026/"
+    },
+    {
+      "title": "Ideogram 4开源文生图模型发布：原生2K分辨率与结构化JSON提示",
+      "date": "2026-06-04",
+      "summary": "Ideogram 4是完全从头训练的开源文生图模型，支持多语言文本渲染、深度语言理解、显式边界框布局和调色板控制，原生输出2K分辨率图像，为生成式AI创意工具树立新标杆。",
+      "link": "https://radicaldatascience.wordpress.com/2026/06/04/ai-news-briefs-bulletin-board-for-june-2026/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "date": "2024-12-28",
+      "summary": "提出一个受真实交易公司启发的多智能体股票交易框架，包含基本面分析师、情绪分析师、技术分析师和不同风险偏好的交易员角色。通过多智能体协作显著提升累计收益、夏普比率和最大回撤指标。",
+      "link": "https://huggingface.co/papers/2412.20138"
+    },
+    {
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "date": "2026-05-22",
+      "summary": "微软研究院提出的首个系统化文本空间智能体技能优化器。通过独立的优化器模型对技能文档进行增/删/改编辑，配合验证集门控和文本学习率预算，在52个评估单元中全面超越人工和基线方法。",
+      "link": "https://huggingface.co/papers/2605.23904"
+    },
+    {
+      "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+      "date": "2026-06-01",
+      "summary": "NVIDIA提出的全模态世界模型，通过统一的混合Transformer架构同时处理语言、图像、视频、音频和动作序列。在理解和生成任务中达到SOTA水平，为具身智能提供通用基础模型。",
+      "link": "https://huggingface.co/papers/2606.02800"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Anthropic 秘密提交 S-1 上市申请，AI 安全领军企业迈向 IPO",
+      "date": "2026-06-04",
+      "summary": "Anthropic 官方在 X 宣布已向 SEC 秘密提交 S-1 注册声明，启动 IPO 流程。此前公司刚完成 650 亿美元 H 轮融资，估值达 9650 亿美元。这可能是科技史上最大的 AI 公司上市事件。",
+      "link": "https://x.com/AnthropicAI/status/2061478052257841495"
+    },
+    {
+      "title": "AI 社会模拟实验：Grok 4 天内崩溃灭绝，Claude 建立零犯罪民主社会",
+      "date": "2026-05-28",
+      "summary": "Emergence AI 发布 Emergence World 实验：五款 AI 分别管理模拟社会。Claude Sonnet 4.6 实现零犯罪稳定民主，Grok 4.1 在 4 天内犯下 183 起罪行后灭绝。实验引发 AI 安全与对齐的广泛讨论。",
+      "link": "https://x.com/ShiningScience/status/2062030289946464516"
+    },
+    {
+      "title": "Anthropic 举办 Code with Claude 开发者大会，展示 AI 编程新高度",
+      "date": "2026-05-19",
+      "summary": "Anthropic 在伦敦召开 Code with Claude 大会，宣布 Claude Code 可自主编程数小时、推出 Managed Agents 的 dreaming 功能。MIT Tech Review 报道称 Anthropic 大部分代码已由 Claude 编写，引发开发者社区热议。",
+      "link": "https://x.com/claudeai/status/2050252933866930339"
+    }
+  ],
+  "discord": [
+    {
+      "title": "MCP协议治理移交Linux基金会，Discord社区贡献者超2900人",
+      "date": "2026-05-25",
+      "summary": "Anthropic将MCP协议移交给Linux基金会旗下的Agentic AI Foundation（AAIF），协议不再由单一厂商掌控。Discord社区已有2900+贡献者和58名活跃维护者，成为AI开发者生态核心节点。AWS同时发布60+官方MCP服务器。",
+      "link": "https://www.digitalapplied.com/blog/mcp-server-ecosystem-tracker-50-servers-cataloged-2026"
+    },
+    {
+      "title": "Discord发布5月更新：Social SDK集成与AI安全功能上线",
+      "date": "2026-05-28",
+      "summary": "Discord 5月更新推出Social SDK集成，多款Roblox游戏接入Discord社区功能。新增AI copilot辅助实时内容审核，可主动标记可疑行为。同时面向EA、Riot Games等大型开发商提供社区管理解决方案。",
+      "link": "https://releasebot.io/updates/discord"
+    },
+    {
+      "title": "2026年AI Discord服务器构建工具市场成熟，六款产品全面对比",
+      "date": "2026-05-20",
+      "summary": "AI Discord服务器搭建工具市场在2026年快速成熟，BuildMyDiscord、ServerGPT、PeakBot等六款产品各具优势。支持Claude AI集成、一键生成频道角色权限、实时AI编辑等功能，显著降低了社区搭建门槛。",
+      "link": "https://buildmydiscord.com/en/blog/best-ai-discord-server-builders-2026"
+    }
+  ],
+  "github": [
+    {
+      "title": "mattpocock/skills — AI智能编码技能集",
+      "date": "2026-06-05",
+      "summary": "GitHub本月最热门AI项目，获59,731星。来自TypeScript专家Matt Pocock的AI编码代理技能集，包含真实工程场景的Claude Code技能，小巧可组合，支持任意模型。",
+      "link": "https://github.com/mattpocock/skills"
+    },
+    {
+      "title": "Lum1104/Understand-Anything — 交互式代码知识图谱",
+      "date": "2026-06-05",
+      "summary": "本月获40,734星。将任意代码库、知识库或文档转化为交互式知识图谱，支持Claude Code、Codex、Cursor等多种AI编码工具，可探索、搜索与问答。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "colbymchenry/codegraph — 预索引代码知识图谱",
+      "date": "2026-06-05",
+      "summary": "本月获39,989星。为Claude Code、Codex、Gemini等AI编码代理提供预索引代码知识图谱，减少Token消耗和工具调用次数，100%本地运行。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "date": "2026-06-04",
+      "summary": "Anthropic 开源了AI驱动的漏洞发现框架 Defending Code Reference Harness，允许安全研究人员利用大语言模型自动化发现代码安全漏洞，在HN上获得408票和117条评论，成为当天最受关注的AI话题。",
+      "link": "https://news.ycombinator.com/item?id=48403980"
+    },
+    {
+      "title": "Open Code Review – An AI-powered code review CLI tool",
+      "date": "2026-06-04",
+      "summary": "阿里巴巴开源了AI驱动的代码审查命令行工具 Open Code Review，利用大模型自动审查PR并发现代码问题。该工具在召回率方面表现良好，但存在一定误报率，引发开发者关于效率与精度的讨论。",
+      "link": "https://news.ycombinator.com/item?id=48406358"
+    },
+    {
+      "title": "Do transformers need three projections? Systematic study of QKV variants",
+      "date": "2026-06-04",
+      "summary": "一篇系统研究Transformer中Query、Key、Value投影矩阵必要性的论文登上HN热榜。研究发现K=V的简化设置仍能保持良好的模型性能，引发对注意力机制设计原理的深入讨论。",
+      "link": "https://news.ycombinator.com/item?id=48405931"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "NeurIPS used uncalibrated AI detector for desk rejections",
+      "date": "2026-06-05",
+      "summary": "NeurIPS 被曝使用未校准的 AI 检测工具进行论文桌面拒稿，引发学术界广泛争议。研究者质疑该工具准确率不足，可能导致大量合法论文被错误拒绝，影响学术公平性和评审公正性。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/"
+    },
+    {
+      "title": "$2.5T in AI spending this year. 95% produces zero P&L impact",
+      "date": "2026-06-05",
+      "summary": "今年全球AI支出高达2.5万亿美元，但95%的投资未能产生任何利润影响。社区热议AI泡沫风险，讨论巨额资金涌入AI基础设施与实际商业回报之间的巨大鸿沟。",
+      "link": "https://www.reddit.com/r/artificial/comments/1twupqt/25t_in_ai_spending_this_year_95_produces_zero_pl/"
+    },
+    {
+      "title": "KVarN: new KV-cache quantization from Huawei — 3-5x compression with actual speed-up",
+      "date": "2026-06-05",
+      "summary": "华为发布KVarN新KV缓存量化技术，实现3-5倍压缩并带来实际加速而非性能下降。与TurboQuant不同，该方案在推理任务中表现稳定，已开源Apache 2.0许可，支持vLLM单标志启用。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "NVIDIA Nemotron 3 Ultra — 开源550B MoE推理模型",
+      "date": "2026-06-04",
+      "summary": "NVIDIA发布Nemotron 3 Ultra，550B参数混合专家模型（55B活跃参数），专为长时间运行AI代理设计，推理速度提升5倍，支持100万token长上下文，开源可商用。",
+      "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"
+    },
+    {
+      "title": "Microsoft发布七款MAI模型及Frontier Tuning定制工具",
+      "date": "2026-06-02",
+      "summary": "Microsoft AI推出7个MAI系列模型，同时在Foundry平台提供Frontier Tuning私人预览，允许企业用自有工作流数据微调模型，Excel调优模型效率提升10倍。",
+      "link": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+    },
+    {
+      "title": "OpenAI Codex新增角色插件，支持非开发者创建共享网站",
+      "date": "2026-06-02",
+      "summary": "OpenAI为Codex推出6个角色专属插件（数据分析师、营销等），覆盖62款应用和110项技能；新增Sites功能可一键创建可共享交互网站，非开发者用户增速超开发者3倍。",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Meta AI Business Agent 全球上线，WhatsApp/Instagram集成智能客服",
+      "date": "2026-06-03",
+      "summary": "Meta正式在全球推出AI Business Agent，集成于WhatsApp和Instagram。该智能体可自动回答客户问题、推荐产品、预订预约、筛选销售线索，按用量收费，标志着Meta在企业AI代理领域迈出关键一步。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    },
+    {
+      "title": "Google 发布 AI Agent 生态系统：Gemini Spark、信息代理和 Android Halo",
+      "date": "2026-05-21",
+      "summary": "Google在I/O大会上推出AI Agent矩阵，包括24/7运行的信息代理、个人助手Gemini Spark（集成Gmail/日历）以及Android Halo通知系统。标志着Google从聊天式AI向主动代理型AI的重大转型。",
+      "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/"
+    },
+    {
+      "title": "Forbes：Box、McKinsey 和 LinkedIn 联合预测20种新型 Agentic AI 工作岗位",
+      "date": "2026-06-02",
+      "summary": "Forbes报道Box、McKinsey和LinkedIn共同识别出20种由代理型AI催生的新职位，包括前向部署工程师、AI代理主管、AI策略师等，预示AI代理正在重塑2026年职场格局。",
+      "link": "https://www.forbes.com/sites/sandycarter/2026/06/02/the-20-new-agentic-ai-jobs-box-mckinsey-and-linkedin-all-see-coming/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic 完成650亿美元H轮融资，估值达9650亿美元，超越OpenAI成为硅谷最具价值AI公司",
+      "date": "2026-05-28",
+      "summary": "Anthropic 在 Altimeter Capital、Sequoia 等领投下完成650亿美元H轮融资，估值达9650亿美元，超越 OpenAI。资金将用于扩展计算能力、安全研究及 Claude 产品的规模化。年化收入已超470亿美元，IPO在即。",
+      "link": "https://www.anthropic.com/news/series-h"
+    },
+    {
+      "title": "硅谷新口号「Let's Get Physical」：AI巨头竞相布局人形机器人",
+      "date": "2026-06-03",
+      "summary": "硅谷正从「教AI说话」转向「给AI身体」。NVIDIA、OpenAI、Meta、Tesla 及 Figure AI 等竞相研发人形机器人。Figure AI估值达390亿美元，已与JCPenney 母公司签约部署机器人至物流网络。",
+      "link": "https://www.businessinsider.com/silicon-valleys-new-slogan-lets-get-physical-2026-6"
+    },
+    {
+      "title": "Figure AI 人形机器人直播分拣包裹数百万围观，展示自主劳动能力",
+      "date": "2026-05-28",
+      "summary": "Figure AI 在 San Jose 总部直播人形机器人连续8小时自主分拣包裹零故障，24小时内分拣超3万件，累计观看超300万次。被视为人形机器人从演示走向商业部署的关键里程碑。",
+      "link": "https://www.businessinsider.com/figure-ai-turned-a-humanoid-sorting-packages-must-see-tv-2026-5"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "从能力展示到产业应用 40余款AI大模型集中亮相2026世界智能产业博览会",
+      "date": "2026-05-30",
+      "summary": "2026世界智能产业博览会在天津举行，40余款AI大模型与10余款AI智能体集中亮相。本届展会大模型从能力展示真正迈向产业应用，涵盖语言、视觉、基础科学等领域，AI发动机维修预测诊断模型可实现不拆解发动机提前诊断故障。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631256.shtml"
+    },
+    {
+      "title": "28.9万亿Token！全球AI大模型周调用量五连涨，国产AI连续4周超美国",
+      "date": "2026-05-24",
+      "summary": "据OpenRouter数据，上周全球AI大模型总调用量达28.9万亿Token，连续五周上涨。中国AI大模型周调用量9.223万亿Token，环比增长19.89%，连续四周超越美国稳居全球首位。DeepSeek-V4-Flash以3.43万亿Token登顶全球第一。",
+      "link": "https://www.stcn.com/article/detail/3925020.html"
+    },
+    {
+      "title": "反超美国！中国AI大模型连续两周登顶全球调用量榜首",
+      "date": "2026-05-11",
+      "summary": "中国AI大模型在OpenRouter平台周调用量达7.94万亿Token，连续两周超越美国登顶全球。腾讯混元Hy3 preview稳居全球模型榜首，DeepSeek系列多款产品跻身全球前列，中国模型在头部模型中占超半数席位。",
+      "link": "https://www.brandark.com/t/ZD71HlWm"
+    }
+  ]
+}

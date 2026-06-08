@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-06",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Did Claude increase bugs in rsync?",
+      "date": "2026-06-05",
+      "summary": "一项数据分析调查rsync在引入Claude辅助开发后是否产生了异常多的bug。rsync维护者Tridge解释称大量提交是为了应对AI生成的安全报告潮而加强防御措施，引发了关于AI辅助编码质量的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48411635"
+    },
+    {
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "date": "2026-06-05",
+      "summary": "Google发布Gemma 4量化感知训练(QAT)模型，专为移动端和笔记本电脑优化。纯文本版仅0.8GB，多模态版3.2GB，支持图像和音频输入，可在本地设备上运行实时AI对话。",
+      "link": "https://news.ycombinator.com/item?id=48414653"
+    },
+    {
+      "title": "Open Code Review – An AI-powered code review CLI tool",
+      "date": "2026-06-05",
+      "summary": "阿里巴巴开源AI代码审查工具，采用混合架构结合确定性流水线和LLM智能体。可提供精确的行级评论，内置NPE、线程安全、XSS、SQL注入等规则集，兼容OpenAI和Anthropic API。",
+      "link": "https://news.ycombinator.com/item?id=48406358"
+    }
+  ]
+}

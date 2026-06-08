@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-07",
+  "section": "github",
+  "items": [
+    {
+      "title": "colbymchenry/codegraph",
+      "date": "2026-06-07",
+      "summary": "预索引代码知识图谱，为 Claude Code、Codex、Gemini、Cursor 等 AI 编码代理提供上下文支持，减少 Tokens 消耗和工具调用次数，完全本地运行。当月获 42,159 stars。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "title": "Lum1104/Understand-Anything",
+      "date": "2026-06-07",
+      "summary": "将任意代码转换为可交互的知识图谱，支持搜索、提问和探索。兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等主流 AI 编码工具。当月获 40,842 stars。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "rohitg00/agentmemory",
+      "date": "2026-06-07",
+      "summary": "为 AI 编码代理提供持久化记忆功能，基于真实基准测试排名第一。支持 Claude Code、GitHub Copilot CLI、Cursor、Gemini CLI 等多种代理，让代理永远记住对话上下文。当月获 19,405 stars。",
+      "link": "https://github.com/rohitg00/agentmemory"
+    }
+  ]
+}

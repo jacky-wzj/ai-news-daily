@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-07",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "date": "2026-06-07",
+      "summary": "Meta确认数千Instagram账户被黑客利用其AI聊天机器人漏洞劫持。黑客通过诱导AI助手重置密码获取账户控制权，该漏洞已持续数月，暴露了AI客服系统的严重安全缺陷。",
+      "link": "https://news.ycombinator.com/item?id=48427643"
+    },
+    {
+      "title": "Did Claude increase bugs in rsync?",
+      "date": "2026-06-06",
+      "summary": "分析指出rsync 3.4.3版本中的回归错误与AI助手Claude生成的代码有关，导致部分用户工作流被破坏。此事引发开发者社区激烈争论AI编写生产级代码的质量和安全性问题。",
+      "link": "https://news.ycombinator.com/item?id=48411635"
+    },
+    {
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "date": "2026-06-07",
+      "summary": "OpenAI团队分享用Codex代理构建产品的实验：零手写代码、百万行均由AI生成，开发效率提升约10倍，探讨了人类设计意图与AI执行的工程新范式。",
+      "link": "https://news.ycombinator.com/item?id=48416264"
+    }
+  ]
+}

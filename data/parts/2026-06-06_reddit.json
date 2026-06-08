@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-06",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
+      "date": "2026-05-23",
+      "summary": "Reddit r/artificial 热门讨论。Google I/O 2026 被指证实了AI公司正在制造自己的泡沫叙事。用户热议VC押注AI颠覆所有行业，但质疑其是否准备好被颠覆。",
+      "link": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/"
+    },
+    {
+      "title": "Hot take: 90% of what we are calling Agentic AI right now is just a glorified while-loop",
+      "date": "2026-05-16",
+      "summary": "Reddit r/ArtificialInteligence 热帖。用户激烈争论当前Agentic AI是否只是美化版循环。支持者认为LLM+工具+记忆+重试已构成自主规划，反对者称离真正Agent相距甚远。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tc79qm/hot_take_90_of_what_we_are_calling_agentic_ai/"
+    },
+    {
+      "title": "Ganglia: code intelligence for AI coding agents [R]",
+      "date": "2026-05-18",
+      "summary": "Reddit r/MachineLearning 研究帖。介绍Ganglia项目——为AI编程代理提供代码智能的工具。该项目旨在提升AI agent在代码理解和生成方面的能力，引发社区关注。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tb518a/ganglia_code_intelligence_for_ai_coding_agents_r/"
+    }
+  ]
+}

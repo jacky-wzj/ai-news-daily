@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-06",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Discord Social SDK 正式集成多款 Roblox 游戏",
+      "date": "2026-05-28",
+      "summary": "Discord 宣布 Social SDK 正式集成 Steal a Brainrot、Brookhaven RP、Grow a Garden 等 Roblox 热门游戏，为玩家社区提供安全管控、Rich Presence 状态共享和游戏邀请等社交功能，并与 Riot Games、EA 等大厂合作推进社区管理方案。",
+      "link": "https://discord.com/blog/official-discord-integrations-for-steal-a-brainrot-grow-a-garden-brookhaven-rp-and-more"
+    },
+    {
+      "title": "ROOST 发布开源信任与安全基础设施 Coop 和 Osprey",
+      "date": "2026-05-15",
+      "summary": "ROOST 宣布推出 Coop（开源审核工具）和 Osprey（AI 安全控制系统），为 AI 时代提供免费的端到端在线安全基础设施。Coop 支持人工审核控制台、规则引擎和 API 集成，已被 Notion 等平台采用。",
+      "link": "https://github.com/roostorg/coop"
+    },
+    {
+      "title": "Discord 2026 年数据：7.5 亿用户，月均 3000 万 AI 交互",
+      "date": "2026-06-01",
+      "summary": "Discord 注册用户突破 7.5 亿，日活超 9000 万，用户日均使用 94 分钟。每月超过 3000 万用户与 AI 集成交互，平台正从游戏语音工具转型为 AI 驱动的数字社区基础设施。",
+      "link": "https://commentgrid.com/blog/discord-statistics"
+    }
+  ]
+}

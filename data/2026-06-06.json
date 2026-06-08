@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-06",
+  "insights": [
+    {
+      "title": "特朗普计划会见AI公司高管，讨论美国政府入股AI企业",
+      "date": "2026-06-05",
+      "summary": "美国总统特朗普表示将在下周与主要AI公司领导人会面，讨论政府通过财务入股AI企业形成\"与美国公众的伙伴关系\"，以改善民众对AI技术的看法。Anthropic等公司参与其中。",
+      "link": "https://www.bbc.com/news/articles/c98r8r7dz5no"
+    },
+    {
+      "title": "全球首款由人工智能设计的疫苗进入人体试验",
+      "date": "2026-06-05",
+      "summary": "剑桥大学团队利用AI设计出\"超抗原\"疫苗，可针对所有冠状病毒（包括未来可能的人际传播病毒）提供保护。这是首个完全由AI设计抗原并在人体试验的疫苗，有望改变疫情应对方式。",
+      "link": "https://www.bbc.com/news/articles/crrpggegwe0o"
+    },
+    {
+      "title": "Anthropic联合创始人警告AI需配备\"刹车踏板\"",
+      "date": "2026-06-05",
+      "summary": "Anthropic联合创始人Jack Clark表示AI正接近无需人类输入即可自主发展的临界点，行业只有\"油门\"没有\"刹车\"。呼吁通过政府政策保持对人类对AI系统的控制，并制定合理监管框架。",
+      "link": "https://www.bbc.com/news/articles/cx2124z7g45o"
+    },
+    {
+      "title": "AI股票市场是否存在泡沫？BBC分析市场过热风险",
+      "date": "2026-06-05",
+      "summary": "尽管面临伊朗战争、通胀和债务担忧，美国股市在AI投资热潮推动下屡创新高。BBC记者分析华尔街对AI估值与实际经济之间的脱节，投资者担忧泡沫可能破裂。",
+      "link": "https://www.bbc.com/news/videos/c1m2mr7gr27o"
+    },
+    {
+      "title": "Alphabet计划通过股票销售筹资800亿美元用于AI基础设施建设",
+      "date": "2026-06-01",
+      "summary": "谷歌母公司Alphabet宣布将出售800亿美元股票（含巴菲特旗下伯克希尔100亿美元投资），用于AI计算基础设施建设。Google今年资本支出预计高达1900亿美元，AI军备竞赛持续升温。",
+      "link": "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html"
+    },
+    {
+      "title": "AI融资格局：Anthropic估值9650亿美元超越OpenAI，SpaceX启动IPO",
+      "date": "2026-06-01",
+      "summary": "Anthropic以9650亿美元估值完成Series H融资，超越OpenAI成为全球最高估值私有AI公司。OpenAI目标9月IPO估值1万亿美元。SpaceX提交S-1文件，目标估值1.75万亿美元创历史纪录。",
+      "link": "https://aifundingtracker.com/top-50-ai-startups/"
+    },
+    {
+      "title": "英国议员起诉xAI：AI深度伪造图像引发法律与伦理争议",
+      "date": "2026-06-05",
+      "summary": "英国工党议员Jess Asato针对马斯克的xAI公司提起诉讼，指控其Grok聊天机器人未经同意生成其性感化深度伪造图像。该案引发对AI生成不当内容及科技公司责任的广泛讨论。",
+      "link": "https://www.bbc.com/news/articles/cn8p0wdyelwo"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Audio Interaction Model",
+      "date": "2026-06-04",
+      "summary": "提出音频交互模型Audio-Interaction，将离线大音频语言模型与流式音频任务统一为在线感知-决策-响应循环，实现实时语音对话和流式音频指令跟随，在8项基准任务上保持竞争力。",
+      "link": "https://huggingface.co/papers/2606.05121"
+    },
+    {
+      "title": "OCC-RAG: Optimal Cognitive Core for Faithful Question Answering",
+      "date": "2026-06-03",
+      "summary": "提出OCC-RAG系列小型语言模型，通过合成三百万多上下文多跳QA数据训练，在忠实问答任务中以0.6B/1.7B参数匹配或超越大6倍的通用模型，具备结构化推理痕迹与来源引用。",
+      "link": "https://huggingface.co/papers/2606.00683"
+    },
+    {
+      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "date": "2026-06-05",
+      "summary": "提出Code2LoRA超网络框架，为代码语言模型生成仓库特定的LoRA适配器，支持静态代码库和演进代码库，零推理令牌开销下跨仓库精确匹配达63.8%，接近逐仓库LoRA上限。",
+      "link": "https://huggingface.co/papers/2606.06492"
+    }
+  ],
+  "xPosts": [],
+  "discord": [
+    {
+      "title": "Discord Social SDK 正式集成多款 Roblox 游戏",
+      "date": "2026-05-28",
+      "summary": "Discord 宣布 Social SDK 正式集成 Steal a Brainrot、Brookhaven RP、Grow a Garden 等 Roblox 热门游戏，为玩家社区提供安全管控、Rich Presence 状态共享和游戏邀请等社交功能，并与 Riot Games、EA 等大厂合作推进社区管理方案。",
+      "link": "https://discord.com/blog/official-discord-integrations-for-steal-a-brainrot-grow-a-garden-brookhaven-rp-and-more"
+    },
+    {
+      "title": "ROOST 发布开源信任与安全基础设施 Coop 和 Osprey",
+      "date": "2026-05-15",
+      "summary": "ROOST 宣布推出 Coop（开源审核工具）和 Osprey（AI 安全控制系统），为 AI 时代提供免费的端到端在线安全基础设施。Coop 支持人工审核控制台、规则引擎和 API 集成，已被 Notion 等平台采用。",
+      "link": "https://github.com/roostorg/coop"
+    },
+    {
+      "title": "Discord 2026 年数据：7.5 亿用户，月均 3000 万 AI 交互",
+      "date": "2026-06-01",
+      "summary": "Discord 注册用户突破 7.5 亿，日活超 9000 万，用户日均使用 94 分钟。每月超过 3000 万用户与 AI 集成交互，平台正从游戏语音工具转型为 AI 驱动的数字社区基础设施。",
+      "link": "https://commentgrid.com/blog/discord-statistics"
+    }
+  ],
+  "github": [
+    {
+      "title": "CodeGraph - AI编程代理的知识图谱引擎",
+      "date": "2026-06-06",
+      "summary": "预索引的代码知识图谱，专为Claude Code、Codex、Gemini、Cursor等AI编程代理设计。可大幅减少token消耗和工具调用次数，100%本地运行，无需Node.js即可安装。本月获41,379星。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "title": "Understand-Anything - 交互式代码知识图谱",
+      "date": "2026-06-06",
+      "summary": "将任何代码库、知识库或文档转化为可交互的知识图谱，支持探索、搜索和问答。兼容Claude Code、Codex、Cursor、Copilot、Gemini CLI等主流编程代理。本月获40,696星。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "AgentMemory - AI编程代理持久化记忆系统",
+      "date": "2026-06-06",
+      "summary": "基于实际基准测试的持久化记忆方案，让AI编程代理记住一切而无需重复解释。支持Claude Code、Copilot CLI、Cursor、Gemini CLI等多种代理和MCP客户端。本月获19,261星。",
+      "link": "https://github.com/rohitg00/agentmemory"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Did Claude increase bugs in rsync?",
+      "date": "2026-06-05",
+      "summary": "一项数据分析调查rsync在引入Claude辅助开发后是否产生了异常多的bug。rsync维护者Tridge解释称大量提交是为了应对AI生成的安全报告潮而加强防御措施，引发了关于AI辅助编码质量的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48411635"
+    },
+    {
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "date": "2026-06-05",
+      "summary": "Google发布Gemma 4量化感知训练(QAT)模型，专为移动端和笔记本电脑优化。纯文本版仅0.8GB，多模态版3.2GB，支持图像和音频输入，可在本地设备上运行实时AI对话。",
+      "link": "https://news.ycombinator.com/item?id=48414653"
+    },
+    {
+      "title": "Open Code Review – An AI-powered code review CLI tool",
+      "date": "2026-06-05",
+      "summary": "阿里巴巴开源AI代码审查工具，采用混合架构结合确定性流水线和LLM智能体。可提供精确的行级评论，内置NPE、线程安全、XSS、SQL注入等规则集，兼容OpenAI和Anthropic API。",
+      "link": "https://news.ycombinator.com/item?id=48406358"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
+      "date": "2026-05-23",
+      "summary": "Reddit r/artificial 热门讨论。Google I/O 2026 被指证实了AI公司正在制造自己的泡沫叙事。用户热议VC押注AI颠覆所有行业，但质疑其是否准备好被颠覆。",
+      "link": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/"
+    },
+    {
+      "title": "Hot take: 90% of what we are calling Agentic AI right now is just a glorified while-loop",
+      "date": "2026-05-16",
+      "summary": "Reddit r/ArtificialInteligence 热帖。用户激烈争论当前Agentic AI是否只是美化版循环。支持者认为LLM+工具+记忆+重试已构成自主规划，反对者称离真正Agent相距甚远。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tc79qm/hot_take_90_of_what_we_are_calling_agentic_ai/"
+    },
+    {
+      "title": "Ganglia: code intelligence for AI coding agents [R]",
+      "date": "2026-05-18",
+      "summary": "Reddit r/MachineLearning 研究帖。介绍Ganglia项目——为AI编程代理提供代码智能的工具。该项目旨在提升AI agent在代码理解和生成方面的能力，引发社区关注。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tb518a/ganglia_code_intelligence_for_ai_coding_agents_r/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "NVIDIA Nemotron 3 Ultra 正式开源发布",
+      "date": "2026-06-04",
+      "summary": "NVIDIA发布Nemotron 3 Ultra，550B参数专家混合架构（55B活跃），在Hugging Face、NIM和OpenRouter同步上线。作为美国最强开源权重模型，推理速度达300+ tokens/s，支持企业级AI代理部署。",
+      "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"
+    },
+    {
+      "title": "OpenAI Realtime Audio API 正式版上线",
+      "date": "2026-06-05",
+      "summary": "OpenAI推出GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper三个实时语音API模型，Realtime API从Beta转为GA正式版，支持低延迟语音交互与实时翻译。",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+    },
+    {
+      "title": "xAI 发布 Grok Build 编程代理公测版",
+      "date": "2026-06-03",
+      "summary": "xAI推出Grok Build编程代理公测版，基于Grok 4.3的终端TUI编码工具，支持无头CI脚本和Agent Client Protocol，与OpenAI Codex和Claude Code展开竞争。",
+      "link": "https://x.com/grok/status/2062225080843747351"
+    }
+  ],
+  "agent": [],
+  "siliconValley": [],
+  "mainlandChina": []
+}

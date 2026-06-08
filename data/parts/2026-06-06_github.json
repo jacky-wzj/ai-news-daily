@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-06",
+  "section": "github",
+  "items": [
+    {
+      "title": "CodeGraph - AI编程代理的知识图谱引擎",
+      "date": "2026-06-06",
+      "summary": "预索引的代码知识图谱，专为Claude Code、Codex、Gemini、Cursor等AI编程代理设计。可大幅减少token消耗和工具调用次数，100%本地运行，无需Node.js即可安装。本月获41,379星。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "title": "Understand-Anything - 交互式代码知识图谱",
+      "date": "2026-06-06",
+      "summary": "将任何代码库、知识库或文档转化为可交互的知识图谱，支持探索、搜索和问答。兼容Claude Code、Codex、Cursor、Copilot、Gemini CLI等主流编程代理。本月获40,696星。",
+      "link": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "title": "AgentMemory - AI编程代理持久化记忆系统",
+      "date": "2026-06-06",
+      "summary": "基于实际基准测试的持久化记忆方案，让AI编程代理记住一切而无需重复解释。支持Claude Code、Copilot CLI、Cursor、Gemini CLI等多种代理和MCP客户端。本月获19,261星。",
+      "link": "https://github.com/rohitg00/agentmemory"
+    }
+  ]
+}

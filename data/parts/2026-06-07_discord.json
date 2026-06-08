@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-07",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Discord 全球年龄验证方案6月启动，AI面部识别技术引隐私争议",
+      "date": "2026-06-07",
+      "summary": "Discord于2026年6月启动全球年龄验证，用户需选择面部扫描或上传ID以切换成人账户。平台同时引入AI模型后台评估用户年龄，但此前因第三方服务商数据泄露导致7万用户ID照片外泄，引发隐私担忧。官方承诺90%用户无需验证。",
+      "link": "https://tuta.com/blog/discord-plans-age-verification-globally"
+    },
+    {
+      "title": "Discord 发布多项AI新功能：AutoMod AI 对话摘要与OpenAI集成",
+      "date": "2026-06-07",
+      "summary": "Discord推出AI驱动的自动审核系统AutoMod AI，可理解上下文检测违规行为；新增AI对话摘要功能帮助用户快速跟进讨论；引入OpenAI技术支持。目前月均有超3000万用户使用Discord上的AI应用，平台正从游戏通讯工具转型为AI社交中心。",
+      "link": "https://thinglabs.io/discords-new-ai-features-explained"
+    },
+    {
+      "title": "Discord 6月4日补丁发布 | 启动速度提升、移动端通话确认与设置重设",
+      "date": "2026-06-07",
+      "summary": "Discord发布6月4日版本补丁，p50启动速度提升约8%（650ms）；移动端添加通话按钮确认步骤，避免误操作；用户设置页面重设，设备管理、Family Center等变为嵌套页面；语音邀请嵌入更美观。更多性能优化持续进行中。",
+      "link": "https://discord.com/blog/discord-patch-notes-june-4-2026"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-06",
+  "section": "tools",
+  "items": [
+    {
+      "title": "NVIDIA Nemotron 3 Ultra 正式开源发布",
+      "date": "2026-06-04",
+      "summary": "NVIDIA发布Nemotron 3 Ultra，550B参数专家混合架构（55B活跃），在Hugging Face、NIM和OpenRouter同步上线。作为美国最强开源权重模型，推理速度达300+ tokens/s，支持企业级AI代理部署。",
+      "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"
+    },
+    {
+      "title": "OpenAI Realtime Audio API 正式版上线",
+      "date": "2026-06-05",
+      "summary": "OpenAI推出GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper三个实时语音API模型，Realtime API从Beta转为GA正式版，支持低延迟语音交互与实时翻译。",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+    },
+    {
+      "title": "xAI 发布 Grok Build 编程代理公测版",
+      "date": "2026-06-03",
+      "summary": "xAI推出Grok Build编程代理公测版，基于Grok 4.3的终端TUI编码工具，支持无头CI脚本和Agent Client Protocol，与OpenAI Codex和Claude Code展开竞争。",
+      "link": "https://x.com/grok/status/2062225080843747351"
+    }
+  ]
+}
