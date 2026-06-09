@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "tools",
+  "items": [
+    {
+      "title": "Zoom 发布 AI 助手 ZoomMate：将会议对话转化为可执行工作流",
+      "date": "2026-06-01",
+      "summary": "Zoom 推出 AI 助手 ZoomMate，定价 /用户/月。该工具直接集成到实时会议中，可将会议决策自动转化为 Salesforce、Jira、ServiceNow、Slack 等平台的可执行任务，支持自动生成文档和演示文稿。",
+      "link": "https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/"
+    },
+    {
+      "title": "Interactive Brokers 集成 Claude，提供 AI 驱动的智能交易体验",
+      "date": "2026-06-02",
+      "summary": "盈透证券通过 Claude 认证连接器市场推出 AI 代理交易功能，客户可使用自然语言查询持仓、分析市场并生成交易指令（股票和 ETF），所有指令需经用户审核后方可提交，无需额外费用。",
+      "link": "https://fintech.global/2026/06/02/interactive-brokers-launches-agentic-trading-via-claude/"
+    },
+    {
+      "title": "Dreamina：字节跳动/CapCut 推出 AI 图像与视频一站式创作平台",
+      "date": "2026-06-06",
+      "summary": "Dreamina 是由 CapCut（字节跳动）推出的一体化 AI 创意套件，支持文生图、图生图、多图层编辑和 AI 视频生成，内置 Seedance 2.0 视频模型，适用于创作者、营销人员和设计师。",
+      "link": "https://dreamina.capcut.com/"
+    }
+  ]
+}

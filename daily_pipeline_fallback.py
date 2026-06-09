@@ -24,6 +24,7 @@ from datetime import datetime, timezone, timedelta
 # ─── Constants ───────────────────────────────────────────────────────────────
 TZ_GMT8 = timezone(timedelta(hours=8))
 MIN_SECTIONS = 3
+COMPLETE_SECTIONS = 8  # threshold for "data is already complete and done marker should exist"
 SECTIONS = [
     'insights', 'papers', 'xPosts', 'discord', 'github',
     'hn', 'reddit', 'tools', 'agent', 'siliconValley', 'mainlandChina'
@@ -83,7 +84,11 @@ def run_step(cmd: list, label: str, cwd: str = WORKSPACE, dry_run: bool = False,
         return
     
     logger.info(f'Running: {label}')
-    result = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
+    try:
+        result = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, timeout=300)
+    except subprocess.TimeoutExpired:
+        logger.error(f'Step timed out after 300s: {label}')
+        sys.exit(1)
     
     if result.stdout.strip():
         for line in result.stdout.strip().split('\n'):
@@ -112,11 +117,13 @@ def check_completed_today(date_str: str) -> bool:
         try:
             with open(data_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+            # dual threshold: check both raw section count AND per-section item count
             populated = sum(1 for s in SECTIONS if data.get(s))
-            if populated >= MIN_SECTIONS:
-                logger.info(f'Data file already has {populated} sections – pipeline may have run already')
+            rich_sections = sum(1 for s in SECTIONS if data.get(s) and len(data.get(s, [])) >= 2)
+            if populated >= MIN_SECTIONS or rich_sections >= COMPLETE_SECTIONS:
+                logger.info(f'Data file already has {populated} sections ({rich_sections} rich) – pipeline may have run already')
                 return True
-        except (json.JSONDecodeError, OSError):
+        except (json.JSONDecodeError, OSError, AttributeError):
             pass
     
     return False

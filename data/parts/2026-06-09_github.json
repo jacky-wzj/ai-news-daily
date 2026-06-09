@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "github",
+  "items": [
+    {
+      "title": "n8n — AI原生工作流自动化平台月涨星1.2k",
+      "date": "2026-06-09",
+      "summary": "n8n是开源工作流自动化平台，拥有400+集成和原生AI能力，支持可视化编排结合自定义代码，自托管或云部署。本周增长1,197星，总星数突破191k，是2026年最活跃的AI自动化项目之一。",
+      "link": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "title": "Open WebUI — 自托管AI平台下载量超2.82亿",
+      "date": "2026-06-09",
+      "summary": "Open WebUI提供类ChatGPT的自托管AI界面，支持Ollama及OpenAI兼容API，内置RAG推理引擎、语音视频通话、模型构建器和企业级RBAC权限管理。总星数超124k，累计下载超2.82亿次。",
+      "link": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "title": "RAGFlow — 开源RAG引擎融合Agent能力",
+      "date": "2026-06-09",
+      "summary": "RAGFlow是领先的开源检索增强生成引擎，将先进RAG技术与Agent能力融合，支持文档解析、向量索引、查询规划和工具调用，提供引用追踪和多步推理，是企业知识库和合规AI的核心基础设施。",
+      "link": "https://github.com/infiniflow/ragflow"
+    }
+  ]
+}

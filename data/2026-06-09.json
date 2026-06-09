@@ -1,0 +1,228 @@
+{
+  "date": "2026-06-09",
+  "insights": [
+    {
+      "title": "Anthropic 秘密提交 IPO 申请，估值达 9650 亿美元",
+      "date": "2026-06-01",
+      "summary": "Claude 开发商 Anthropic 向 SEC 秘密提交 S-1 文件启动上市流程，此前刚完成 650 亿美元 H 轮融资，估值达 9650 亿美元，标志着 AI 行业正式进入公开资本市场时代。",
+      "link": "https://theaitrack.com/anthropic-ipo-filing-965-billion-valuation/"
+    },
+    {
+      "title": "微软 MAI-Thinking-1 推理模型面世，减少对 OpenAI 依赖",
+      "date": "2026-06-02",
+      "summary": "微软在 Build 大会上发布自研 MAI-Thinking-1 推理模型，从零训练无第三方蒸馏，同时推出共 7 款 MAI 系列模型，展现摆脱对 OpenAI 独家依赖的战略决心。",
+      "link": "https://theaitrack.com/microsoft-mai-thinking-1-ai-independence-openai/"
+    },
+    {
+      "title": "SK 海力士市值突破 1 万亿美元，AI 内存需求重塑芯片格局",
+      "date": "2026-05-27",
+      "summary": "SK 海力士成为全球第三家市值破万亿美元的芯片公司，与三星、美光共同受益于高带宽内存的 AI 需求激增，SK 海力士占据全球 HBM 营收 57%。",
+      "link": "https://theaitrack.com/sk-hynix-1-trillion-ai-memory-boom/"
+    },
+    {
+      "title": "NVIDIA RTX Spark 进军 PC 芯片，边缘 AI 时代开启",
+      "date": "2026-06-02",
+      "summary": "黄仁勋在 Computex 发布 RTX Spark 超级芯片正式进军 PC 处理器市场，与微软联手进军端侧 AI，标志着 NVIDIA 从数据中心向边缘设备端全面布局。",
+      "link": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html"
+    },
+    {
+      "title": "SpaceX IPO 定价 135 美元，xAI 加持估值达 1.77 万亿美元",
+      "date": "2026-06-03",
+      "summary": "SpaceX 启动史上最大 IPO 寻求 1.77 万亿美元估值，合并 xAI 后形成发射加连接加 AI 三位一体的估值叙事，预测市场暗示上市后估值或达 2 万亿美元。",
+      "link": "https://www.forbes.com/sites/investor-hub/article/spacex-ipo-things-to-know/"
+    },
+    {
+      "title": "白宫签署 AI 行政令，推动创新与安全并行",
+      "date": "2026-06-04",
+      "summary": "白宫发布促进先进人工智能创新与安全行政令，要求 30 天内加强关键基础设施网络防御，建立 AI 网络安全信息交换中心，放松监管鼓励 AI 创新。",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+      "title": "NVIDIA 开源 Nemotron 3 Ultra，专为长时运行 AI Agent 打造",
+      "date": "2026-06-02",
+      "summary": "NVIDIA 在 Computex 发布 Nemotron 3 Ultra 开源模型，专为长时间运行的多步骤 AI Agent 设计，已有 Perplexity、Palantir、ServiceNow 等早期采用者。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research",
+      "date": "2026-06-08",
+      "summary": "上海AI Lab等机构发布自主科研评测基准，覆盖10个科学领域40项任务，基于真实论文数据评估AI agent端到端科研能力。当前最强Claude Code仅得分21.5/100，表明AI自主科研仍有巨大差距。GitHub获131星。",
+      "link": "https://huggingface.co/papers/2606.07591"
+    },
+    {
+      "title": "Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings",
+      "date": "2026-06-08",
+      "summary": "研究者发现LLM的非嵌入矩阵可作文本嵌入的特征透镜，通过EmbedFilter线性变换抑制高频无意义token影响，在降低维度的同时提升零样本泛化性能。多项LLM骨干实验验证了方法的有效性。",
+      "link": "https://huggingface.co/papers/2606.07502"
+    },
+    {
+      "title": "LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents",
+      "date": "2026-06-09",
+      "summary": "上海交大与OPPO提出LatentSkill框架，将文本技能通过超网络转换为LoRA适配器存于权重空间，消除上下文开销同时保持模块化。在ALFWorld上成功率提升21.4点，预填充token减少64.1%。",
+      "link": "https://huggingface.co/papers/2606.06087"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andrej Karpathy 宣布加入 Anthropic 预训练团队",
+      "date": "2026-05-19",
+      "summary": "OpenAI 联合创始人 Karpathy 通过 X 宣布加入 Anthropic，负责利用 Claude 加速预训练研究。该推文一小时浏览量近 300 万，共获超 1130 万浏览、10.2 万赞和 1.3 万转发，被视为 AI 人才竞争的重大信号。",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "Elon Musk 宣布 Grok V9-Medium 模型训练完成，参数规模达 1.5T",
+      "date": "2026-05-25",
+      "summary": "Musk 在 X 确认 xAI 已完成 Grok V9-Medium（1.5 万亿参数）训练，使用大量 Cursor 编码数据增强编程能力，参数规模三倍于当前生产版本，预计 2-3 周后公开发布，引发 AI 编码竞赛热议。",
+      "link": "https://x.com/elonmusk/status/2058787384364265734"
+    },
+    {
+      "title": "Logan Kilpatrick 宣布 Gemini 3.5 Flash 正式上线，Google 搜索完成 25 年来最大升级",
+      "date": "2026-05-19",
+      "summary": "Google I/O 2026 期间，Google DeepMind 产品负责人 Kilpatrick 发推宣布 Gemini 3.5 Flash 全面可用，成为 Google 搜索 AI 模式的默认模型。同时预告 3.5 Pro 将于 6 月发布，推动 AI 代理时代正式到来。",
+      "link": "https://x.com/OfficialLoganK/status/2056793285507912011"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Discord 完成全平台端到端加密部署（DAVE 协议），覆盖 AI Bot 和 SDK",
+      "date": "2026-06-09",
+      "summary": "Discord 历时多年的 DAVE 端到端加密协议已于 2026 年 3 月完成全平台迁移，覆盖桌面、移动、Web、游戏主机、Bots 及 Social SDK。所有语音和视频通话默认加密，AI 社区和机器人开发者的隐私安全获得实质性增强。",
+      "link": "https://releasebot.io/updates/discord"
+    },
+    {
+      "title": "Discord 2026 年突破 750M 注册用户，AI 月交互超 3000 万次",
+      "date": "2026-06-09",
+      "summary": "Discord 注册用户达 7.5 亿，日均使用 94 分钟，54% 用户为非游戏玩家。每月超 3000 万用户与 AI 集成交互，AI 服务器构建器市场快速成熟，创业者将 Discord 视为 AI 社区的基础设施平台而非单纯的聊天工具。",
+      "link": "https://commentgrid.com/blog/discord-statistics"
+    },
+    {
+      "title": "2026 年 AI Discord 服务器构建器市场成熟，Claude AI 驱动全自动建站",
+      "date": "2026-06-09",
+      "summary": "BuildMyDiscord（Claude AI 驱动）、ServerGPT、PeakBot 等六大 AI 服务器构建工具加速成熟。用户用自然语言描述需求，Claude AI 可在 3 分钟内生成完整服务器结构（频道、角色、权限、机器人功能），并支持上线后持续 AI 实时编辑。",
+      "link": "https://buildmydiscord.com/en/blog/best-ai-discord-server-builders-2026"
+    }
+  ],
+  "github": [
+    {
+      "title": "n8n — AI原生工作流自动化平台月涨星1.2k",
+      "date": "2026-06-09",
+      "summary": "n8n是开源工作流自动化平台，拥有400+集成和原生AI能力，支持可视化编排结合自定义代码，自托管或云部署。本周增长1,197星，总星数突破191k，是2026年最活跃的AI自动化项目之一。",
+      "link": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "title": "Open WebUI — 自托管AI平台下载量超2.82亿",
+      "date": "2026-06-09",
+      "summary": "Open WebUI提供类ChatGPT的自托管AI界面，支持Ollama及OpenAI兼容API，内置RAG推理引擎、语音视频通话、模型构建器和企业级RBAC权限管理。总星数超124k，累计下载超2.82亿次。",
+      "link": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "title": "RAGFlow — 开源RAG引擎融合Agent能力",
+      "date": "2026-06-09",
+      "summary": "RAGFlow是领先的开源检索增强生成引擎，将先进RAG技术与Agent能力融合，支持文档解析、向量索引、查询规划和工具调用，提供引用追踪和多步推理，是企业知识库和合规AI的核心基础设施。",
+      "link": "https://github.com/infiniflow/ragflow"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "date": "2026-06-08",
+      "summary": "苹果宣布Apple Intelligence重大重构，采用与Google合作开发的Gemini系列基础模型，支持端侧和Private Cloud Compute运行，新增图像生成、视觉问答等多模态能力，强调隐私优先。",
+      "link": "https://news.ycombinator.com/item?id=48450142"
+    },
+    {
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "date": "2026-06-08",
+      "summary": "小米MiMo联合TileRT发布万亿参数模型UltraSpeed版本，解码速度突破1000 tokens/s，约为标准版10倍速度，6月9日至23日限时开放申请试用。",
+      "link": "https://news.ycombinator.com/item?id=48446639"
+    },
+    {
+      "title": "AI is slowing down",
+      "date": "2026-06-08",
+      "summary": "一篇引发广泛讨论的文章，认为AI发展正在放缓，探讨缩放定律瓶颈、算力增长难以为继以及行业期望与现实差距等核心问题，获得537分。",
+      "link": "https://news.ycombinator.com/item?id=48446893"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Microsoft数据表明使用AI比雇人更贵",
+      "date": "2026-06-02",
+      "summary": "r/Futurology热议：微软内部数据显示当前AI工具在企业场景中的实际成本可能高于直接雇佣员工，引发对AI投资回报率的广泛讨论。社区认为AI适合辅助而非完全替代人力。",
+      "link": "https://www.reddit.com/r/Futurology/comments/1tsiy71/microsoft_data_suggests_using_ai_is_more/"
+    },
+    {
+      "title": "热议：90%所谓的Agentic AI不过是美化版的while循环",
+      "date": "2026-05-10",
+      "summary": "r/ArtificialInteligence热门讨论对当前Agentic AI概念的质疑：大部分AI Agent本质仍是LLM+工具+循环的简单组合，离真正的自主规划与执行还有距离，但也有人认为这已是实质进步。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tc79qm/hot_take_90_of_what_we_are_calling_agentic_ai/"
+    },
+    {
+      "title": "AI正在改变比工作和生产力更深层的东西",
+      "date": "2026-05-09",
+      "summary": "r/artificial热门帖(154赞/110评论)：AI影响已超越任务自动化层面，正在重塑人类的思维方式、创造力定义和知识权威认知。社区讨论转向AI带来的哲学与社会认知变革。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t987td/i_think_ai_is_changing_something_deeper_than_jobs/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Zoom 发布 AI 助手 ZoomMate：将会议对话转化为可执行工作流",
+      "date": "2026-06-01",
+      "summary": "Zoom 推出 AI 助手 ZoomMate，定价 /用户/月。该工具直接集成到实时会议中，可将会议决策自动转化为 Salesforce、Jira、ServiceNow、Slack 等平台的可执行任务，支持自动生成文档和演示文稿。",
+      "link": "https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/"
+    },
+    {
+      "title": "Interactive Brokers 集成 Claude，提供 AI 驱动的智能交易体验",
+      "date": "2026-06-02",
+      "summary": "盈透证券通过 Claude 认证连接器市场推出 AI 代理交易功能，客户可使用自然语言查询持仓、分析市场并生成交易指令（股票和 ETF），所有指令需经用户审核后方可提交，无需额外费用。",
+      "link": "https://fintech.global/2026/06/02/interactive-brokers-launches-agentic-trading-via-claude/"
+    },
+    {
+      "title": "Dreamina：字节跳动/CapCut 推出 AI 图像与视频一站式创作平台",
+      "date": "2026-06-06",
+      "summary": "Dreamina 是由 CapCut（字节跳动）推出的一体化 AI 创意套件，支持文生图、图生图、多图层编辑和 AI 视频生成，内置 Seedance 2.0 视频模型，适用于创作者、营销人员和设计师。",
+      "link": "https://dreamina.capcut.com/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Claude Opus 4.8 发布：强化智能体编码与长任务能力",
+      "date": "2026-05-28",
+      "summary": "Anthropic发布旗舰模型Claude Opus 4.8，在SWE-bench Pro得分69.2%，新增effort control、动态工作流和fast mode，大幅提升长周期智能体编码和工具调用可靠性，登顶Artificial Analysis智能指数榜首。",
+      "link": "https://theaitrack.com/claude-opus-4-8-launch/"
+    },
+    {
+      "title": "OpenAI Codex 扩展企业插件与Sites功能，从编码向业务智能体转型",
+      "date": "2026-06-02",
+      "summary": "OpenAI为Codex新增Sites（内部Web应用）、Annotations（精准编辑）和角色插件，将产品定位从开发者工具转向智能体工作空间。非开发者用户占比20%，增速为开发者3倍以上，周活超500万。",
+      "link": "https://theaitrack.com/openai-codex-sites-enterprise-plugins/"
+    },
+    {
+      "title": "Meta在全球推出WhatsApp Business智能体，布局企业AI赛道",
+      "date": "2026-06-03",
+      "summary": "Meta向全球WhatsApp Business用户推出Meta Business Agent，可回答客户问题、推荐产品、预约会议、筛选销售线索。同时计划推出消费级Hatch AI智能体，订阅价或达每月200美元。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Cognition AI完成10亿美元D轮融资，估值达260亿美元",
+      "date": "2026-05-27",
+      "summary": "旧金山AI编程代理公司Cognition完成超10亿美元D轮融资，由Lux Capital、General Catalyst和8VC领投，估值260亿美元。其旗舰产品Devin已为奔驰等客户实现自动化软件开发，年化收入达4.92亿美元，Cognition自身89%的代码由Devin编写。",
+      "link": "https://techfundingnews.com/the-ai-startup-replacing-software-engineers-just-raised-1b-at-26b-valuation-and-it-is-already-writing-89-of-cognitions-own-code/"
+    },
+    {
+      "title": "SpaceX（含xAI）即将以1.75万亿美元估值登陆纳斯达克，创史上最大IPO",
+      "date": "2026-06-03",
+      "summary": "Elon Musk旗下SpaceX（已合并xAI和X）将于6月12日在纳斯达克以SPCX代码上市，目标估值1.75万亿美元、募资750亿美元。Musk持有约46%股权，价值约8200亿美元，硅谷风投圈将迎来史上最大财富解锁。",
+      "link": "https://om.co/2026/06/04/silicon-valleys-biggest-payday-yet/"
+    },
+    {
+      "title": "OpenAI秘密提交IPO申请，目标估值8500亿美元，最早9月上市",
+      "date": "2026-06-07",
+      "summary": "OpenAI已秘密向SEC提交IPO招股书，由高盛、摩根士丹利和摩根大通承销，目标最早2026年9月上市，估值7300亿至8500亿美元。紧随Anthropic 6月1日提交IPO（估值9650亿美元），AI巨头正式进入公开市场比拼阶段。",
+      "link": "https://www.techtimes.com/articles/317955/20260607/openai-targets-ipo-soon-september-850-billion.htm"
+    }
+  ],
+  "mainlandChina": []
+}

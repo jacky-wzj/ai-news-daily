@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "Microsoft数据表明使用AI比雇人更贵",
+      "date": "2026-06-02",
+      "summary": "r/Futurology热议：微软内部数据显示当前AI工具在企业场景中的实际成本可能高于直接雇佣员工，引发对AI投资回报率的广泛讨论。社区认为AI适合辅助而非完全替代人力。",
+      "link": "https://www.reddit.com/r/Futurology/comments/1tsiy71/microsoft_data_suggests_using_ai_is_more/"
+    },
+    {
+      "title": "热议：90%所谓的Agentic AI不过是美化版的while循环",
+      "date": "2026-05-10",
+      "summary": "r/ArtificialInteligence热门讨论对当前Agentic AI概念的质疑：大部分AI Agent本质仍是LLM+工具+循环的简单组合，离真正的自主规划与执行还有距离，但也有人认为这已是实质进步。",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/1tc79qm/hot_take_90_of_what_we_are_calling_agentic_ai/"
+    },
+    {
+      "title": "AI正在改变比工作和生产力更深层的东西",
+      "date": "2026-05-09",
+      "summary": "r/artificial热门帖(154赞/110评论)：AI影响已超越任务自动化层面，正在重塑人类的思维方式、创造力定义和知识权威认知。社区讨论转向AI带来的哲学与社会认知变革。",
+      "link": "https://www.reddit.com/r/artificial/comments/1t987td/i_think_ai_is_changing_something_deeper_than_jobs/"
+    }
+  ]
+}

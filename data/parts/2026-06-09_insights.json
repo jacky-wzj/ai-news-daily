@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-09",
+  "section": "insights",
+  "items": [
+    {
+      "title": "Anthropic 秘密提交 IPO 申请，估值达 9650 亿美元",
+      "date": "2026-06-01",
+      "summary": "Claude 开发商 Anthropic 向 SEC 秘密提交 S-1 文件启动上市流程，此前刚完成 650 亿美元 H 轮融资，估值达 9650 亿美元，标志着 AI 行业正式进入公开资本市场时代。",
+      "link": "https://theaitrack.com/anthropic-ipo-filing-965-billion-valuation/"
+    },
+    {
+      "title": "微软 MAI-Thinking-1 推理模型面世，减少对 OpenAI 依赖",
+      "date": "2026-06-02",
+      "summary": "微软在 Build 大会上发布自研 MAI-Thinking-1 推理模型，从零训练无第三方蒸馏，同时推出共 7 款 MAI 系列模型，展现摆脱对 OpenAI 独家依赖的战略决心。",
+      "link": "https://theaitrack.com/microsoft-mai-thinking-1-ai-independence-openai/"
+    },
+    {
+      "title": "SK 海力士市值突破 1 万亿美元，AI 内存需求重塑芯片格局",
+      "date": "2026-05-27",
+      "summary": "SK 海力士成为全球第三家市值破万亿美元的芯片公司，与三星、美光共同受益于高带宽内存的 AI 需求激增，SK 海力士占据全球 HBM 营收 57%。",
+      "link": "https://theaitrack.com/sk-hynix-1-trillion-ai-memory-boom/"
+    },
+    {
+      "title": "NVIDIA RTX Spark 进军 PC 芯片，边缘 AI 时代开启",
+      "date": "2026-06-02",
+      "summary": "黄仁勋在 Computex 发布 RTX Spark 超级芯片正式进军 PC 处理器市场，与微软联手进军端侧 AI，标志着 NVIDIA 从数据中心向边缘设备端全面布局。",
+      "link": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html"
+    },
+    {
+      "title": "SpaceX IPO 定价 135 美元，xAI 加持估值达 1.77 万亿美元",
+      "date": "2026-06-03",
+      "summary": "SpaceX 启动史上最大 IPO 寻求 1.77 万亿美元估值，合并 xAI 后形成发射加连接加 AI 三位一体的估值叙事，预测市场暗示上市后估值或达 2 万亿美元。",
+      "link": "https://www.forbes.com/sites/investor-hub/article/spacex-ipo-things-to-know/"
+    },
+    {
+      "title": "白宫签署 AI 行政令，推动创新与安全并行",
+      "date": "2026-06-04",
+      "summary": "白宫发布促进先进人工智能创新与安全行政令，要求 30 天内加强关键基础设施网络防御，建立 AI 网络安全信息交换中心，放松监管鼓励 AI 创新。",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+    },
+    {
+      "title": "NVIDIA 开源 Nemotron 3 Ultra，专为长时运行 AI Agent 打造",
+      "date": "2026-06-02",
+      "summary": "NVIDIA 在 Computex 发布 Nemotron 3 Ultra 开源模型，专为长时间运行的多步骤 AI Agent 设计，已有 Perplexity、Palantir、ServiceNow 等早期采用者。",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+    }
+  ]
+}

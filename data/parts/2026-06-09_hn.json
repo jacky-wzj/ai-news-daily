@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "date": "2026-06-08",
+      "summary": "苹果宣布Apple Intelligence重大重构，采用与Google合作开发的Gemini系列基础模型，支持端侧和Private Cloud Compute运行，新增图像生成、视觉问答等多模态能力，强调隐私优先。",
+      "link": "https://news.ycombinator.com/item?id=48450142"
+    },
+    {
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "date": "2026-06-08",
+      "summary": "小米MiMo联合TileRT发布万亿参数模型UltraSpeed版本，解码速度突破1000 tokens/s，约为标准版10倍速度，6月9日至23日限时开放申请试用。",
+      "link": "https://news.ycombinator.com/item?id=48446639"
+    },
+    {
+      "title": "AI is slowing down",
+      "date": "2026-06-08",
+      "summary": "一篇引发广泛讨论的文章，认为AI发展正在放缓，探讨缩放定律瓶颈、算力增长难以为继以及行业期望与现实差距等核心问题，获得537分。",
+      "link": "https://news.ycombinator.com/item?id=48446893"
+    }
+  ]
+}

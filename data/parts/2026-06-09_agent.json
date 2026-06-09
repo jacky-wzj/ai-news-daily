@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Claude Opus 4.8 发布：强化智能体编码与长任务能力",
+      "date": "2026-05-28",
+      "summary": "Anthropic发布旗舰模型Claude Opus 4.8，在SWE-bench Pro得分69.2%，新增effort control、动态工作流和fast mode，大幅提升长周期智能体编码和工具调用可靠性，登顶Artificial Analysis智能指数榜首。",
+      "link": "https://theaitrack.com/claude-opus-4-8-launch/"
+    },
+    {
+      "title": "OpenAI Codex 扩展企业插件与Sites功能，从编码向业务智能体转型",
+      "date": "2026-06-02",
+      "summary": "OpenAI为Codex新增Sites（内部Web应用）、Annotations（精准编辑）和角色插件，将产品定位从开发者工具转向智能体工作空间。非开发者用户占比20%，增速为开发者3倍以上，周活超500万。",
+      "link": "https://theaitrack.com/openai-codex-sites-enterprise-plugins/"
+    },
+    {
+      "title": "Meta在全球推出WhatsApp Business智能体，布局企业AI赛道",
+      "date": "2026-06-03",
+      "summary": "Meta向全球WhatsApp Business用户推出Meta Business Agent，可回答客户问题、推荐产品、预约会议、筛选销售线索。同时计划推出消费级Hatch AI智能体，订阅价或达每月200美元。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    }
+  ]
+}

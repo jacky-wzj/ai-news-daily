@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "papers",
+  "items": [
+    {
+      "title": "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research",
+      "date": "2026-06-08",
+      "summary": "上海AI Lab等机构发布自主科研评测基准，覆盖10个科学领域40项任务，基于真实论文数据评估AI agent端到端科研能力。当前最强Claude Code仅得分21.5/100，表明AI自主科研仍有巨大差距。GitHub获131星。",
+      "link": "https://huggingface.co/papers/2606.07591"
+    },
+    {
+      "title": "Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings",
+      "date": "2026-06-08",
+      "summary": "研究者发现LLM的非嵌入矩阵可作文本嵌入的特征透镜，通过EmbedFilter线性变换抑制高频无意义token影响，在降低维度的同时提升零样本泛化性能。多项LLM骨干实验验证了方法的有效性。",
+      "link": "https://huggingface.co/papers/2606.07502"
+    },
+    {
+      "title": "LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents",
+      "date": "2026-06-09",
+      "summary": "上海交大与OPPO提出LatentSkill框架，将文本技能通过超网络转换为LoRA适配器存于权重空间，消除上下文开销同时保持模块化。在ALFWorld上成功率提升21.4点，预填充token减少64.1%。",
+      "link": "https://huggingface.co/papers/2606.06087"
+    }
+  ]
+}

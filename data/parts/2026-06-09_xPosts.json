@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "Andrej Karpathy 宣布加入 Anthropic 预训练团队",
+      "date": "2026-05-19",
+      "summary": "OpenAI 联合创始人 Karpathy 通过 X 宣布加入 Anthropic，负责利用 Claude 加速预训练研究。该推文一小时浏览量近 300 万，共获超 1130 万浏览、10.2 万赞和 1.3 万转发，被视为 AI 人才竞争的重大信号。",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "Elon Musk 宣布 Grok V9-Medium 模型训练完成，参数规模达 1.5T",
+      "date": "2026-05-25",
+      "summary": "Musk 在 X 确认 xAI 已完成 Grok V9-Medium（1.5 万亿参数）训练，使用大量 Cursor 编码数据增强编程能力，参数规模三倍于当前生产版本，预计 2-3 周后公开发布，引发 AI 编码竞赛热议。",
+      "link": "https://x.com/elonmusk/status/2058787384364265734"
+    },
+    {
+      "title": "Logan Kilpatrick 宣布 Gemini 3.5 Flash 正式上线，Google 搜索完成 25 年来最大升级",
+      "date": "2026-05-19",
+      "summary": "Google I/O 2026 期间，Google DeepMind 产品负责人 Kilpatrick 发推宣布 Gemini 3.5 Flash 全面可用，成为 Google 搜索 AI 模式的默认模型。同时预告 3.5 Pro 将于 6 月发布，推动 AI 代理时代正式到来。",
+      "link": "https://x.com/OfficialLoganK/status/2056793285507912011"
+    }
+  ]
+}

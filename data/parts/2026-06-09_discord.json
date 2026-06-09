@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Discord 完成全平台端到端加密部署（DAVE 协议），覆盖 AI Bot 和 SDK",
+      "date": "2026-06-09",
+      "summary": "Discord 历时多年的 DAVE 端到端加密协议已于 2026 年 3 月完成全平台迁移，覆盖桌面、移动、Web、游戏主机、Bots 及 Social SDK。所有语音和视频通话默认加密，AI 社区和机器人开发者的隐私安全获得实质性增强。",
+      "link": "https://releasebot.io/updates/discord"
+    },
+    {
+      "title": "Discord 2026 年突破 750M 注册用户，AI 月交互超 3000 万次",
+      "date": "2026-06-09",
+      "summary": "Discord 注册用户达 7.5 亿，日均使用 94 分钟，54% 用户为非游戏玩家。每月超 3000 万用户与 AI 集成交互，AI 服务器构建器市场快速成熟，创业者将 Discord 视为 AI 社区的基础设施平台而非单纯的聊天工具。",
+      "link": "https://commentgrid.com/blog/discord-statistics"
+    },
+    {
+      "title": "2026 年 AI Discord 服务器构建器市场成熟，Claude AI 驱动全自动建站",
+      "date": "2026-06-09",
+      "summary": "BuildMyDiscord（Claude AI 驱动）、ServerGPT、PeakBot 等六大 AI 服务器构建工具加速成熟。用户用自然语言描述需求，Claude AI 可在 3 分钟内生成完整服务器结构（频道、角色、权限、机器人功能），并支持上线后持续 AI 实时编辑。",
+      "link": "https://buildmydiscord.com/en/blog/best-ai-discord-server-builders-2026"
+    }
+  ]
+}

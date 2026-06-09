@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-09",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Cognition AI完成10亿美元D轮融资，估值达260亿美元",
+      "date": "2026-05-27",
+      "summary": "旧金山AI编程代理公司Cognition完成超10亿美元D轮融资，由Lux Capital、General Catalyst和8VC领投，估值260亿美元。其旗舰产品Devin已为奔驰等客户实现自动化软件开发，年化收入达4.92亿美元，Cognition自身89%的代码由Devin编写。",
+      "link": "https://techfundingnews.com/the-ai-startup-replacing-software-engineers-just-raised-1b-at-26b-valuation-and-it-is-already-writing-89-of-cognitions-own-code/"
+    },
+    {
+      "title": "SpaceX（含xAI）即将以1.75万亿美元估值登陆纳斯达克，创史上最大IPO",
+      "date": "2026-06-03",
+      "summary": "Elon Musk旗下SpaceX（已合并xAI和X）将于6月12日在纳斯达克以SPCX代码上市，目标估值1.75万亿美元、募资750亿美元。Musk持有约46%股权，价值约8200亿美元，硅谷风投圈将迎来史上最大财富解锁。",
+      "link": "https://om.co/2026/06/04/silicon-valleys-biggest-payday-yet/"
+    },
+    {
+      "title": "OpenAI秘密提交IPO申请，目标估值8500亿美元，最早9月上市",
+      "date": "2026-06-07",
+      "summary": "OpenAI已秘密向SEC提交IPO招股书，由高盛、摩根士丹利和摩根大通承销，目标最早2026年9月上市，估值7300亿至8500亿美元。紧随Anthropic 6月1日提交IPO（估值9650亿美元），AI巨头正式进入公开市场比拼阶段。",
+      "link": "https://www.techtimes.com/articles/317955/20260607/openai-targets-ipo-soon-september-850-billion.htm"
+    }
+  ]
+}

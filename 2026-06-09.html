@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年6月9日星期二</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年6月9日星期二</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research</h3>
+      <div class="meta">👤 </div>
+      <p>上海AI Lab等机构发布自主科研评测基准，覆盖10个科学领域40项任务，基于真实论文数据评估AI agent端到端科研能力。当前最强Claude Code仅得分21.5/100，表明AI自主科研仍有巨大差距。GitHub获131星。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.07591" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings</h3>
+      <div class="meta">👤 </div>
+      <p>研究者发现LLM的非嵌入矩阵可作文本嵌入的特征透镜，通过EmbedFilter线性变换抑制高频无意义token影响，在降低维度的同时提升零样本泛化性能。多项LLM骨干实验验证了方法的有效性。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.07502" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents</h3>
+      <div class="meta">👤 </div>
+      <p>上海交大与OPPO提出LatentSkill框架，将文本技能通过超网络转换为LoRA适配器存于权重空间，消除上下文开销同时保持模块化。在ALFWorld上成功率提升21.4点，预填充token减少64.1%。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.06087" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Elon Musk 宣布 Grok V9-Medium 模型训练完成，参数规模达 1.5T</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-25</div>
+      <p>Musk 在 X 确认 xAI 已完成 Grok V9-Medium（1.5 万亿参数）训练，使用大量 Cursor 编码数据增强编程能力，参数规模三倍于当前生产版本，预计 2-3 周后公开发布，引发 AI 编码竞赛热议。</p>
+  <a class="link" href="https://x.com/elonmusk/status/2058787384364265734" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Logan Kilpatrick 宣布 Gemini 3.5 Flash 正式上线，Google 搜索完成 25 年来最大升级</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-05-19</div>
+      <p>Google I/O 2026 期间，Google DeepMind 产品负责人 Kilpatrick 发推宣布 Gemini 3.5 Flash 全面可用，成为 Google 搜索 AI 模式的默认模型。同时预告 3.5 Pro 将于 6 月发布，推动 AI 代理时代正式到来。</p>
+  <a class="link" href="https://x.com/OfficialLoganK/status/2056793285507912011" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. n8n — AI原生工作流自动化平台月涨星1.2k</h3>
+      
+      <p>n8n是开源工作流自动化平台，拥有400+集成和原生AI能力，支持可视化编排结合自定义代码，自托管或云部署。本周增长1,197星，总星数突破191k，是2026年最活跃的AI自动化项目之一。</p>
+  <a class="link" href="https://github.com/n8n-io/n8n" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Open WebUI — 自托管AI平台下载量超2.82亿</h3>
+      
+      <p>Open WebUI提供类ChatGPT的自托管AI界面，支持Ollama及OpenAI兼容API，内置RAG推理引擎、语音视频通话、模型构建器和企业级RBAC权限管理。总星数超124k，累计下载超2.82亿次。</p>
+  <a class="link" href="https://github.com/open-webui/open-webui" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. RAGFlow — 开源RAG引擎融合Agent能力</h3>
+      
+      <p>RAGFlow是领先的开源检索增强生成引擎，将先进RAG技术与Agent能力融合，支持文档解析、向量索引、查询规划和工具调用，提供引用追踪和多步推理，是企业知识库和合规AI的核心基础设施。</p>
+  <a class="link" href="https://github.com/infiniflow/ragflow" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Apple reveals new AI architecture built around Google Gemini models</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>苹果宣布Apple Intelligence重大重构，采用与Google合作开发的Gemini系列基础模型，支持端侧和Private Cloud Compute运行，新增图像生成、视觉问答等多模态能力，强调隐私优先。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48450142" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>小米MiMo联合TileRT发布万亿参数模型UltraSpeed版本，解码速度突破1000 tokens/s，约为标准版10倍速度，6月9日至23日限时开放申请试用。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48446639" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AI is slowing down</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>一篇引发广泛讨论的文章，认为AI发展正在放缓，探讨缩放定律瓶颈、算力增长难以为继以及行业期望与现实差距等核心问题，获得537分。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48446893" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Microsoft数据表明使用AI比雇人更贵</h3>
+      <div class="meta">reddit: </div>
+      <p>r/Futurology热议：微软内部数据显示当前AI工具在企业场景中的实际成本可能高于直接雇佣员工，引发对AI投资回报率的广泛讨论。社区认为AI适合辅助而非完全替代人力。</p>
+  <a class="link" href="https://www.reddit.com/r/Futurology/comments/1tsiy71/microsoft_data_suggests_using_ai_is_more/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. AI正在改变比工作和生产力更深层的东西</h3>
+      <div class="meta">reddit: </div>
+      <p>r/artificial热门帖(154赞/110评论)：AI影响已超越任务自动化层面，正在重塑人类的思维方式、创造力定义和知识权威认知。社区讨论转向AI带来的哲学与社会认知变革。</p>
+  <a class="link" href="https://www.reddit.com/r/artificial/comments/1t987td/i_think_ai_is_changing_something_deeper_than_jobs/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Interactive Brokers 集成 Claude，提供 AI 驱动的智能交易体验</h3>
+      
+      <p>盈透证券通过 Claude 认证连接器市场推出 AI 代理交易功能，客户可使用自然语言查询持仓、分析市场并生成交易指令（股票和 ETF），所有指令需经用户审核后方可提交，无需额外费用。</p>
+  <a class="link" href="https://fintech.global/2026/06/02/interactive-brokers-launches-agentic-trading-via-claude/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Dreamina：字节跳动/CapCut 推出 AI 图像与视频一站式创作平台</h3>
+      
+      <p>Dreamina 是由 CapCut（字节跳动）推出的一体化 AI 创意套件，支持文生图、图生图、多图层编辑和 AI 视频生成，内置 Seedance 2.0 视频模型，适用于创作者、营销人员和设计师。</p>
+  <a class="link" href="https://dreamina.capcut.com/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Opus 4.8 发布：强化智能体编码与长任务能力</h3>
+      <div class="meta">🤖 </div>
+      <p>Anthropic发布旗舰模型Claude Opus 4.8，在SWE-bench Pro得分69.2%，新增effort control、动态工作流和fast mode，大幅提升长周期智能体编码和工具调用可靠性，登顶Artificial Analysis智能指数榜首。</p>
+  <a class="link" href="https://theaitrack.com/claude-opus-4-8-launch/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI Codex 扩展企业插件与Sites功能，从编码向业务智能体转型</h3>
+      <div class="meta">🤖 </div>
+      <p>OpenAI为Codex新增Sites（内部Web应用）、Annotations（精准编辑）和角色插件，将产品定位从开发者工具转向智能体工作空间。非开发者用户占比20%，增速为开发者3倍以上，周活超500万。</p>
+  <a class="link" href="https://theaitrack.com/openai-codex-sites-enterprise-plugins/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 秘密提交 IPO 申请，估值达 9650 亿美元</h3>
+      <div class="meta">📅 2026-06-01</div>
+      <p>Claude 开发商 Anthropic 向 SEC 秘密提交 S-1 文件启动上市流程，此前刚完成 650 亿美元 H 轮融资，估值达 9650 亿美元，标志着 AI 行业正式进入公开资本市场时代。</p>
+  <a class="link" href="https://theaitrack.com/anthropic-ipo-filing-965-billion-valuation/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 微软 MAI-Thinking-1 推理模型面世，减少对 OpenAI 依赖</h3>
+      <div class="meta">📅 2026-06-02</div>
+      <p>微软在 Build 大会上发布自研 MAI-Thinking-1 推理模型，从零训练无第三方蒸馏，同时推出共 7 款 MAI 系列模型，展现摆脱对 OpenAI 独家依赖的战略决心。</p>
+  <a class="link" href="https://theaitrack.com/microsoft-mai-thinking-1-ai-independence-openai/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. NVIDIA RTX Spark 进军 PC 芯片，边缘 AI 时代开启</h3>
+      <div class="meta">📅 2026-06-02</div>
+      <p>黄仁勋在 Computex 发布 RTX Spark 超级芯片正式进军 PC 处理器市场，与微软联手进军端侧 AI，标志着 NVIDIA 从数据中心向边缘设备端全面布局。</p>
+  <a class="link" href="https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. SpaceX IPO 定价 135 美元，xAI 加持估值达 1.77 万亿美元</h3>
+      <div class="meta">📅 2026-06-03</div>
+      <p>SpaceX 启动史上最大 IPO 寻求 1.77 万亿美元估值，合并 xAI 后形成发射加连接加 AI 三位一体的估值叙事，预测市场暗示上市后估值或达 2 万亿美元。</p>
+  <a class="link" href="https://www.forbes.com/sites/investor-hub/article/spacex-ipo-things-to-know/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Cognition AI完成10亿美元D轮融资，估值达260亿美元</h3>
+      
+      <p>旧金山AI编程代理公司Cognition完成超10亿美元D轮融资，由Lux Capital、General Catalyst和8VC领投，估值260亿美元。其旗舰产品Devin已为奔驰等客户实现自动化软件开发，年化收入达4.92亿美元，Cognition自身89%的代码由Devin编写。</p>
+  <a class="link" href="https://techfundingnews.com/the-ai-startup-replacing-software-engineers-just-raised-1b-at-26b-valuation-and-it-is-already-writing-89-of-cognitions-own-code/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenAI秘密提交IPO申请，目标估值8500亿美元，最早9月上市</h3>
+      
+      <p>OpenAI已秘密向SEC提交IPO招股书，由高盛、摩根士丹利和摩根大通承销，目标最早2026年9月上市，估值7300亿至8500亿美元。紧随Anthropic 6月1日提交IPO（估值9650亿美元），AI巨头正式进入公开市场比拼阶段。</p>
+  <a class="link" href="https://www.techtimes.com/articles/317955/20260607/openai-targets-ipo-soon-september-850-billion.htm" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 18:57 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
