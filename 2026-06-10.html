@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年6月10日星期三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年6月10日星期三</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Kwai Keye-VL-2.0 Technical Report — MoE多模态基础模型</h3>
+      <div class="meta">👤 </div>
+      <p>快手开源Kwai Keye-VL-2.0，30B参数仅激活3B的MoE多模态模型。首次将DeepSeek稀疏注意力(DSA)适配到GQA架构，实现256K无损上下文处理，在长视频理解和时域定位任务上达到同规模SOTA。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.10651" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Interpreting and Steering a Text-to-Speech Language Model with Sparse Autoencoders</h3>
+      <div class="meta">👤 </div>
+      <p>在CosyVoice3的LM骨干上训练BatchTopK稀疏自编码器，发现可解释的语音特征（音素、笑声、口音、性别），通过操控隐空间可将笑声概率从0.02提升至0.79，实现因果级TTS控制。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.10029" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. IR3DE: A Linear Router for Large Language Models</h3>
+      <div class="meta">👤 </div>
+      <p>提出基于岭回归的线性LLM路由方法IR3DE，以极低训练成本为每个提示选择最合适的领域专家模型。在推理任务上归一化性能达98.4%，超越现有路由基线。</p>
+  <a class="link" href="https://huggingface.co/papers/2606.06098" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic发布&quot;当AI构建自身&quot;研究：AI已在加速自身研发</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-06-06</div>
+      <p>Anthropic发布关于递归自我改进的重大研究更新，揭示AI模型已能够辅助改进自身训练流程，该帖在Reddit r/ClaudeAI获得195赞和56条深度讨论。</p>
+  <a class="link" href="https://www.reddit.com/r/ClaudeAI/comments/1ty8f47/anthropic_just_published_a_major_update_on/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Egonex-AI/Understand-Anything — 月度42,402星，交互式代码知识图谱</h3>
+      
+      <p>将任意代码库转化为可探索、搜索、提问的交互式知识图谱，适配Claude Code、Cursor、Copilot等IDE工具，强调能教学的图胜于华丽的图，已成为本季度增长最快的AI开发者工具之一。</p>
+  <a class="link" href="https://github.com/Egonex-AI/Understand-Anything" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Fable 5 (Mythos 5) 发布</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Anthropic发布新一代旗舰模型Claude Fable 5（代号Mythos 5），在编码和推理能力上大幅提升，2192 points引爆HN热议。用户反馈其在复杂编程任务上表现惊人，但竞争对手条款引发争议。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48463808" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. xAI越来越像数据中心REIT而非前沿AI实验室</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>分析指出xAI的商业模式更接近数据中心房地产投资信托而非AI前沿实验室，其通过GPU算力租赁和与SpaceX的关联交易推高估值，引发对AI泡沫的深度讨论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48446428" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 苹果Siri AI正式发布</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>苹果在WWDC 2026发布新一代AI驱动的Siri，获得667 points讨论。社区热议AI助手实际效用仍有限，复杂任务如旅行预订仍频繁出错，AI落地面临信任鸿沟。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48449084" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. xAI发布Grok Build Beta：终端原生AI编程代理入场</h3>
+      
+      <p>xAI推出Grok Build测试版，基于Grok 4.3的终端TUI编程代理，支持无头CI/CD脚本、Agent Client Protocol多代理协作，并原生集成X/Twitter实时数据流，与Claude Code和Codex形成三足鼎立。</p>
+  <a class="link" href="https://aitoolsrecap.com/Blog/ai-news-june-3-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA Nemotron 3 Ultra开源发布：美国最强开放权重模型550B参数</h3>
+      
+      <p>NVIDIA正式发布Nemotron 3 Ultra，拥有550B参数、55B活跃MoE架构，推理速度超300 token/秒，支持Hugging Face免费下载、NIM API和OpenRouter访问，是目前美国性能最强的开放权重AI模型。</p>
+  <a class="link" href="https://aitoolsrecap.com/Blog/ai-news-june-4-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. AI IPO三巨头：SpaceX、Anthropic、OpenAI相继申请上市</h3>
+      <div class="meta">📅 2026-06-08</div>
+      <p>SpaceX以1.77万亿美元估值领衔史上最大IPO，Anthropic于6月1日秘密提交S-1（估值9650亿美元），OpenAI于6月8日紧随其后提交IPO申请。三大AI巨头总估值约3.6万亿美元，将重塑全球资本市场格局。</p>
+  <a class="link" href="https://www.theatlantic.com/technology/2026/06/spacex-ipo-anthropic-openai/687443/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. NVIDIA发布RTX Spark超级芯片，进军AI PC市场</h3>
+      <div class="meta">📅 2026-06-01</div>
+      <p>黄仁勋在Computex 2026发布RTX Spark芯片，将AI能力直接集成到Windows笔记本和台式机，与微软合作打造&quot;个人AI代理&quot;时代，直接挑战Intel、AMD和Apple在PC市场的地位。</p>
+  <a class="link" href="https://www.bbc.com/news/articles/crmp9mppvzro" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. ChatGPT突破10亿月活用户，创历史最快纪录</h3>
+      <div class="meta">📅 2026-06-02</div>
+      <p>据Sensor Tower数据，ChatGPT于2026年5月突破10亿月活用户，发布不到四年即达成此里程碑，超越TikTok和Instagram成为史上增速最快的消费级应用。</p>
+  <a class="link" href="https://www.indexbox.io/blog/chatgpt-reaches-1-billion-monthly-active-users-fastest-app-ever/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. Apple WWDC 2026发布Siri AI，全力追赶AI赛道</h3>
+      <div class="meta">📅 2026-06-08</div>
+      <p>苹果WWDC 2026发布Siri AI独立应用，基于Google Gemini模型深度整合Apple Intelligence，实现跨应用上下文感知与自然对话。这也是Tim Cook卸任前最后一次主持WWDC。</p>
+  <a class="link" href="https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. Claude追赶ChatGPT：Anthropic用户增速达640%远超对手</h3>
+      <div class="meta">📅 2026-06-03</div>
+      <p>Claude月活用户达5600万，同比增长640%，远超ChatGPT的62%增速。Claude Code工具走红推动Anthropic在企业开发者市场迅速扩张，预计今夏可能超越ChatGPT流量。</p>
+  <a class="link" href="https://www.indexbox.io/blog/chatgpt-reaches-1-billion-monthly-active-users-fastest-app-ever/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Hello Robot发布第四代家用机器人Stretch，硅谷加速布局家庭机器人</h3>
+      
+      <p>由前Google机器人总监创立的Hello Robot发布第四代家用辅助机器人Stretch，专注于在真实家庭环境中部署，区别于实验室中的概念验证，已在残障人士家中积累实际运营数据。</p>
+  <a class="link" href="https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:08 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

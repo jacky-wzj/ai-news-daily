@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "section": "papers",
+  "items": [
+    {
+      "title": "Kwai Keye-VL-2.0 Technical Report — MoE多模态基础模型",
+      "date": "2026-06-09",
+      "summary": "快手开源Kwai Keye-VL-2.0，30B参数仅激活3B的MoE多模态模型。首次将DeepSeek稀疏注意力(DSA)适配到GQA架构，实现256K无损上下文处理，在长视频理解和时域定位任务上达到同规模SOTA。",
+      "link": "https://huggingface.co/papers/2606.10651"
+    },
+    {
+      "title": "Interpreting and Steering a Text-to-Speech Language Model with Sparse Autoencoders",
+      "date": "2026-06-08",
+      "summary": "在CosyVoice3的LM骨干上训练BatchTopK稀疏自编码器，发现可解释的语音特征（音素、笑声、口音、性别），通过操控隐空间可将笑声概率从0.02提升至0.79，实现因果级TTS控制。",
+      "link": "https://huggingface.co/papers/2606.10029"
+    },
+    {
+      "title": "IR3DE: A Linear Router for Large Language Models",
+      "date": "2026-06-04",
+      "summary": "提出基于岭回归的线性LLM路由方法IR3DE，以极低训练成本为每个提示选择最合适的领域专家模型。在推理任务上归一化性能达98.4%，超越现有路由基线。",
+      "link": "https://huggingface.co/papers/2606.06098"
+    }
+  ]
+}

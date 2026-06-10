@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Meta Business Agent 面向 WhatsApp Business 全球上线",
+      "date": "2026-06-03",
+      "summary": "Meta 宣布其客服 AI 代理 Meta Business Agent 在 WhatsApp 全球上线，同时支持 Instagram DM。该代理可回答客户问题、推荐产品、预约会议、筛选销售线索，并将纳入 WhatsApp Business Premium 订阅收费体系。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    },
+    {
+      "title": "Google I/O 发布 Gemini Spark 个人 AI 代理",
+      "date": "2026-05-19",
+      "summary": "Google 在 I/O 大会上推出通用 AI 代理 Gemini Spark，可跨 Gmail、Docs 等应用推理并替用户执行任务，首批面向每月 100 美元的 Google AI Ultra 订阅用户开放测试。",
+      "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
+    },
+    {
+      "title": "CBS：Google Gemini Spark 或成 AI 代理领域的游戏规则改变者",
+      "date": "2026-05-21",
+      "summary": "行业专家分析 Gemini Spark 凭借与 Gmail、Calendar 等 Google 生态深度整合获得用户上下文优势，能像私人助理一样处理订餐、订酒店等任务，但也引发隐私安全担忧。",
+      "link": "https://www.cbsnews.com/news/google-gemini-spark-ai-agent/"
+    }
+  ]
+}

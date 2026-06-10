@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "section": "tools",
+  "items": [
+    {
+      "title": "微软Build 2026发布MAI自研AI模型：编程与推理模型挑战OpenAI",
+      "date": "2026-06-02",
+      "summary": "微软在Build大会上推出MAI-Code-1-Flash编程模型和MAI-Thinking-1推理模型，编程模型已集成至GitHub Copilot，旨在减少对OpenAI的依赖并为开发者提供更经济的AI选择。",
+      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
+    },
+    {
+      "title": "xAI发布Grok Build Beta：终端原生AI编程代理入场",
+      "date": "2026-06-03",
+      "summary": "xAI推出Grok Build测试版，基于Grok 4.3的终端TUI编程代理，支持无头CI/CD脚本、Agent Client Protocol多代理协作，并原生集成X/Twitter实时数据流，与Claude Code和Codex形成三足鼎立。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-june-3-2026"
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Ultra开源发布：美国最强开放权重模型550B参数",
+      "date": "2026-06-04",
+      "summary": "NVIDIA正式发布Nemotron 3 Ultra，拥有550B参数、55B活跃MoE架构，推理速度超300 token/秒，支持Hugging Face免费下载、NIM API和OpenRouter访问，是目前美国性能最强的开放权重AI模型。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-june-4-2026"
+    }
+  ]
+}

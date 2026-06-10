@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Anthropic超越OpenAI成硅谷最有价值AI初创公司，估值逼近万亿美元",
+      "date": "2026-05-28",
+      "summary": "Anthropic在最新一轮650亿美元融资后超越OpenAI，成为硅谷最有价值AI公司，估值接近1万亿美元。本轮融资规模创AI行业纪录，反映资本对基础模型赛道的持续押注。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "AI推理初创Baseten洽谈以110亿美元估值融资10亿美元",
+      "date": "2026-05-26",
+      "summary": "旧金山AI推理基础设施公司Baseten正洽谈以110亿美元估值融资10亿美元，估值较三个月前的50亿翻倍。AI产业重心正从训练模型转向大规模推理部署，Baseten定位为\"推理领域的AWS\"。",
+      "link": "https://techstartups.com/2026/05/26/ai-inference-startup-baseten-in-talks-to-raise-1-billion-at-11-billion-valuation/"
+    },
+    {
+      "title": "Hello Robot发布第四代家用机器人Stretch，硅谷加速布局家庭机器人",
+      "date": "2026-06-04",
+      "summary": "由前Google机器人总监创立的Hello Robot发布第四代家用辅助机器人Stretch，专注于在真实家庭环境中部署，区别于实验室中的概念验证，已在残障人士家中积累实际运营数据。",
+      "link": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/"
+    }
+  ]
+}

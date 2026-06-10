@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-10",
+  "section": "insights",
+  "description": "AI industry news this month",
+  "items": [
+    {
+      "title": "AI IPO三巨头：SpaceX、Anthropic、OpenAI相继申请上市",
+      "date": "2026-06-08",
+      "summary": "SpaceX以1.77万亿美元估值领衔史上最大IPO，Anthropic于6月1日秘密提交S-1（估值9650亿美元），OpenAI于6月8日紧随其后提交IPO申请。三大AI巨头总估值约3.6万亿美元，将重塑全球资本市场格局。",
+      "link": "https://www.theatlantic.com/technology/2026/06/spacex-ipo-anthropic-openai/687443/"
+    },
+    {
+      "title": "NVIDIA发布RTX Spark超级芯片，进军AI PC市场",
+      "date": "2026-06-01",
+      "summary": "黄仁勋在Computex 2026发布RTX Spark芯片，将AI能力直接集成到Windows笔记本和台式机，与微软合作打造\"个人AI代理\"时代，直接挑战Intel、AMD和Apple在PC市场的地位。",
+      "link": "https://www.bbc.com/news/articles/crmp9mppvzro"
+    },
+    {
+      "title": "ChatGPT突破10亿月活用户，创历史最快纪录",
+      "date": "2026-06-02",
+      "summary": "据Sensor Tower数据，ChatGPT于2026年5月突破10亿月活用户，发布不到四年即达成此里程碑，超越TikTok和Instagram成为史上增速最快的消费级应用。",
+      "link": "https://www.indexbox.io/blog/chatgpt-reaches-1-billion-monthly-active-users-fastest-app-ever/"
+    },
+    {
+      "title": "Apple WWDC 2026发布Siri AI，全力追赶AI赛道",
+      "date": "2026-06-08",
+      "summary": "苹果WWDC 2026发布Siri AI独立应用，基于Google Gemini模型深度整合Apple Intelligence，实现跨应用上下文感知与自然对话。这也是Tim Cook卸任前最后一次主持WWDC。",
+      "link": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+    },
+    {
+      "title": "特朗普签署AI行政令：企业自愿提交前沿模型进行安全评估",
+      "date": "2026-06-02",
+      "summary": "特朗普签署《促进先进AI创新与安全》行政令，要求AI企业在模型发布前30天自愿向政府提供访问权限进行网络安全测试，但明确禁止创建强制性AI许可或预审制度。",
+      "link": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html"
+    },
+    {
+      "title": "AI数据中心投资推动美国GDP增长，但泡沫隐忧浮现",
+      "date": "2026-06-07",
+      "summary": "据《卫报》分析，全球AI数据中心支出预计2031年达1.6万亿美元。哈佛经济学家指出信息处理设备与软件投资占美国2025上半年GDP增长的92%，但市场估值泡沫风险加剧。",
+      "link": "https://www.theguardian.com/technology/2026/jun/07/billions-spent-hypothetical-returns-the-ai-boom-explained-with-six-charts"
+    },
+    {
+      "title": "Claude追赶ChatGPT：Anthropic用户增速达640%远超对手",
+      "date": "2026-06-03",
+      "summary": "Claude月活用户达5600万，同比增长640%，远超ChatGPT的62%增速。Claude Code工具走红推动Anthropic在企业开发者市场迅速扩张，预计今夏可能超越ChatGPT流量。",
+      "link": "https://www.indexbox.io/blog/chatgpt-reaches-1-billion-monthly-active-users-fastest-app-ever/"
+    }
+  ]
+}

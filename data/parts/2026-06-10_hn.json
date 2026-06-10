@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Claude Fable 5 (Mythos 5) 发布",
+      "date": "2026-06-09",
+      "summary": "Anthropic发布新一代旗舰模型Claude Fable 5（代号Mythos 5），在编码和推理能力上大幅提升，2192 points引爆HN热议。用户反馈其在复杂编程任务上表现惊人，但竞争对手条款引发争议。",
+      "link": "https://news.ycombinator.com/item?id=48463808"
+    },
+    {
+      "title": "xAI越来越像数据中心REIT而非前沿AI实验室",
+      "date": "2026-06-08",
+      "summary": "分析指出xAI的商业模式更接近数据中心房地产投资信托而非AI前沿实验室，其通过GPU算力租赁和与SpaceX的关联交易推高估值，引发对AI泡沫的深度讨论。",
+      "link": "https://news.ycombinator.com/item?id=48446428"
+    },
+    {
+      "title": "苹果Siri AI正式发布",
+      "date": "2026-06-08",
+      "summary": "苹果在WWDC 2026发布新一代AI驱动的Siri，获得667 points讨论。社区热议AI助手实际效用仍有限，复杂任务如旅行预订仍频繁出错，AI落地面临信任鸿沟。",
+      "link": "https://news.ycombinator.com/item?id=48449084"
+    }
+  ]
+}

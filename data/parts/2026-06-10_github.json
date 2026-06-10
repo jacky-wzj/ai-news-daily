@@ -1,0 +1,25 @@
+{
+  "date": "2026-06-10",
+  "section": "github",
+  "description": "GitHub trending AI repos this month",
+  "items": [
+    {
+      "title": "mattpocock/skills — 月度55,863星，工程师Claude Code技能合集",
+      "date": "2026-06-10",
+      "summary": "来自TypeScript大牛Matt Pocock的Claude Code技能仓库，直接来自其.claude目录，包含面向实际工程的AI编程技能配置，本月获55,863星，反映2026年开发者对AI编码助手的技能定制化需求爆发。",
+      "link": "https://github.com/mattpocock/skills"
+    },
+    {
+      "title": "colbymchenry/codegraph — 月度44,599星，AI编码代理的代码知识图谱",
+      "date": "2026-06-10",
+      "summary": "预索引的代码知识图谱工具，支持Claude Code、Codex、Gemini等主流AI编码代理，实现更少token消耗和工具调用，100%本地运行，为AI辅助开发提供结构化代码上下文。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "title": "Egonex-AI/Understand-Anything — 月度42,402星，交互式代码知识图谱",
+      "date": "2026-06-10",
+      "summary": "将任意代码库转化为可探索、搜索、提问的交互式知识图谱，适配Claude Code、Cursor、Copilot等IDE工具，强调能教学的图胜于华丽的图，已成为本季度增长最快的AI开发者工具之一。",
+      "link": "https://github.com/Egonex-AI/Understand-Anything"
+    }
+  ]
+}

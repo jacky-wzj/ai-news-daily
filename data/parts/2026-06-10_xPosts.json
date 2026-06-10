@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "Andrej Karpathy宣布加入Anthropic预训练团队",
+      "date": "2026-05-19",
+      "summary": "OpenAI联合创始人、前特斯拉AI负责人Andrej Karpathy通过X平台发文宣布加入Anthropic预训练团队，该推文24小时内获得620万次浏览，被视为AI人才争夺战的标志性事件。",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "Anthropic以9650亿美元估值超越OpenAI，提交IPO申请引发热议",
+      "date": "2026-06-04",
+      "summary": "Anthropic以9650亿美元估值超越OpenAI成为最有价值AI创业公司，并秘密向SEC提交S-1申请启动IPO进程，Hacker News上引发对AI行业盈利能力的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48336233"
+    },
+    {
+      "title": "Anthropic发布\"当AI构建自身\"研究：AI已在加速自身研发",
+      "date": "2026-06-06",
+      "summary": "Anthropic发布关于递归自我改进的重大研究更新，揭示AI模型已能够辅助改进自身训练流程，该帖在Reddit r/ClaudeAI获得195赞和56条深度讨论。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1ty8f47/anthropic_just_published_a_major_update_on/"
+    }
+  ]
+}

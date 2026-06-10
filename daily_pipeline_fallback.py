@@ -117,11 +117,10 @@ def check_completed_today(date_str: str) -> bool:
         try:
             with open(data_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-            # dual threshold: check both raw section count AND per-section item count
-            populated = sum(1 for s in SECTIONS if data.get(s))
+            # only consider complete when most sections have >=2 items each
             rich_sections = sum(1 for s in SECTIONS if data.get(s) and len(data.get(s, [])) >= 2)
-            if populated >= MIN_SECTIONS or rich_sections >= COMPLETE_SECTIONS:
-                logger.info(f'Data file already has {populated} sections ({rich_sections} rich) – pipeline may have run already')
+            if rich_sections >= COMPLETE_SECTIONS:
+                logger.info(f'Data file already has {rich_sections} rich sections – pipeline may have run already')
                 return True
         except (json.JSONDecodeError, OSError, AttributeError):
             pass

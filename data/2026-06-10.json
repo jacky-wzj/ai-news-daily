@@ -1,0 +1,187 @@
+{
+  "date": "2026-06-10",
+  "insights": [
+    {
+      "title": "AI IPO三巨头：SpaceX、Anthropic、OpenAI相继申请上市",
+      "date": "2026-06-08",
+      "summary": "SpaceX以1.77万亿美元估值领衔史上最大IPO，Anthropic于6月1日秘密提交S-1（估值9650亿美元），OpenAI于6月8日紧随其后提交IPO申请。三大AI巨头总估值约3.6万亿美元，将重塑全球资本市场格局。",
+      "link": "https://www.theatlantic.com/technology/2026/06/spacex-ipo-anthropic-openai/687443/"
+    },
+    {
+      "title": "NVIDIA发布RTX Spark超级芯片，进军AI PC市场",
+      "date": "2026-06-01",
+      "summary": "黄仁勋在Computex 2026发布RTX Spark芯片，将AI能力直接集成到Windows笔记本和台式机，与微软合作打造\"个人AI代理\"时代，直接挑战Intel、AMD和Apple在PC市场的地位。",
+      "link": "https://www.bbc.com/news/articles/crmp9mppvzro"
+    },
+    {
+      "title": "ChatGPT突破10亿月活用户，创历史最快纪录",
+      "date": "2026-06-02",
+      "summary": "据Sensor Tower数据，ChatGPT于2026年5月突破10亿月活用户，发布不到四年即达成此里程碑，超越TikTok和Instagram成为史上增速最快的消费级应用。",
+      "link": "https://www.indexbox.io/blog/chatgpt-reaches-1-billion-monthly-active-users-fastest-app-ever/"
+    },
+    {
+      "title": "Apple WWDC 2026发布Siri AI，全力追赶AI赛道",
+      "date": "2026-06-08",
+      "summary": "苹果WWDC 2026发布Siri AI独立应用，基于Google Gemini模型深度整合Apple Intelligence，实现跨应用上下文感知与自然对话。这也是Tim Cook卸任前最后一次主持WWDC。",
+      "link": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+    },
+    {
+      "title": "特朗普签署AI行政令：企业自愿提交前沿模型进行安全评估",
+      "date": "2026-06-02",
+      "summary": "特朗普签署《促进先进AI创新与安全》行政令，要求AI企业在模型发布前30天自愿向政府提供访问权限进行网络安全测试，但明确禁止创建强制性AI许可或预审制度。",
+      "link": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html"
+    },
+    {
+      "title": "AI数据中心投资推动美国GDP增长，但泡沫隐忧浮现",
+      "date": "2026-06-07",
+      "summary": "据《卫报》分析，全球AI数据中心支出预计2031年达1.6万亿美元。哈佛经济学家指出信息处理设备与软件投资占美国2025上半年GDP增长的92%，但市场估值泡沫风险加剧。",
+      "link": "https://www.theguardian.com/technology/2026/jun/07/billions-spent-hypothetical-returns-the-ai-boom-explained-with-six-charts"
+    },
+    {
+      "title": "Claude追赶ChatGPT：Anthropic用户增速达640%远超对手",
+      "date": "2026-06-03",
+      "summary": "Claude月活用户达5600万，同比增长640%，远超ChatGPT的62%增速。Claude Code工具走红推动Anthropic在企业开发者市场迅速扩张，预计今夏可能超越ChatGPT流量。",
+      "link": "https://www.indexbox.io/blog/chatgpt-reaches-1-billion-monthly-active-users-fastest-app-ever/"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Kwai Keye-VL-2.0 Technical Report — MoE多模态基础模型",
+      "date": "2026-06-09",
+      "summary": "快手开源Kwai Keye-VL-2.0，30B参数仅激活3B的MoE多模态模型。首次将DeepSeek稀疏注意力(DSA)适配到GQA架构，实现256K无损上下文处理，在长视频理解和时域定位任务上达到同规模SOTA。",
+      "link": "https://huggingface.co/papers/2606.10651"
+    },
+    {
+      "title": "Interpreting and Steering a Text-to-Speech Language Model with Sparse Autoencoders",
+      "date": "2026-06-08",
+      "summary": "在CosyVoice3的LM骨干上训练BatchTopK稀疏自编码器，发现可解释的语音特征（音素、笑声、口音、性别），通过操控隐空间可将笑声概率从0.02提升至0.79，实现因果级TTS控制。",
+      "link": "https://huggingface.co/papers/2606.10029"
+    },
+    {
+      "title": "IR3DE: A Linear Router for Large Language Models",
+      "date": "2026-06-04",
+      "summary": "提出基于岭回归的线性LLM路由方法IR3DE，以极低训练成本为每个提示选择最合适的领域专家模型。在推理任务上归一化性能达98.4%，超越现有路由基线。",
+      "link": "https://huggingface.co/papers/2606.06098"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andrej Karpathy宣布加入Anthropic预训练团队",
+      "date": "2026-05-19",
+      "summary": "OpenAI联合创始人、前特斯拉AI负责人Andrej Karpathy通过X平台发文宣布加入Anthropic预训练团队，该推文24小时内获得620万次浏览，被视为AI人才争夺战的标志性事件。",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "Anthropic以9650亿美元估值超越OpenAI，提交IPO申请引发热议",
+      "date": "2026-06-04",
+      "summary": "Anthropic以9650亿美元估值超越OpenAI成为最有价值AI创业公司，并秘密向SEC提交S-1申请启动IPO进程，Hacker News上引发对AI行业盈利能力的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48336233"
+    },
+    {
+      "title": "Anthropic发布\"当AI构建自身\"研究：AI已在加速自身研发",
+      "date": "2026-06-06",
+      "summary": "Anthropic发布关于递归自我改进的重大研究更新，揭示AI模型已能够辅助改进自身训练流程，该帖在Reddit r/ClaudeAI获得195赞和56条深度讨论。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1ty8f47/anthropic_just_published_a_major_update_on/"
+    }
+  ],
+  "github": [
+    {
+      "title": "mattpocock/skills — 月度55,863星，工程师Claude Code技能合集",
+      "date": "2026-06-10",
+      "summary": "来自TypeScript大牛Matt Pocock的Claude Code技能仓库，直接来自其.claude目录，包含面向实际工程的AI编程技能配置，本月获55,863星，反映2026年开发者对AI编码助手的技能定制化需求爆发。",
+      "link": "https://github.com/mattpocock/skills"
+    },
+    {
+      "title": "colbymchenry/codegraph — 月度44,599星，AI编码代理的代码知识图谱",
+      "date": "2026-06-10",
+      "summary": "预索引的代码知识图谱工具，支持Claude Code、Codex、Gemini等主流AI编码代理，实现更少token消耗和工具调用，100%本地运行，为AI辅助开发提供结构化代码上下文。",
+      "link": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "title": "Egonex-AI/Understand-Anything — 月度42,402星，交互式代码知识图谱",
+      "date": "2026-06-10",
+      "summary": "将任意代码库转化为可探索、搜索、提问的交互式知识图谱，适配Claude Code、Cursor、Copilot等IDE工具，强调能教学的图胜于华丽的图，已成为本季度增长最快的AI开发者工具之一。",
+      "link": "https://github.com/Egonex-AI/Understand-Anything"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Claude Fable 5 (Mythos 5) 发布",
+      "date": "2026-06-09",
+      "summary": "Anthropic发布新一代旗舰模型Claude Fable 5（代号Mythos 5），在编码和推理能力上大幅提升，2192 points引爆HN热议。用户反馈其在复杂编程任务上表现惊人，但竞争对手条款引发争议。",
+      "link": "https://news.ycombinator.com/item?id=48463808"
+    },
+    {
+      "title": "xAI越来越像数据中心REIT而非前沿AI实验室",
+      "date": "2026-06-08",
+      "summary": "分析指出xAI的商业模式更接近数据中心房地产投资信托而非AI前沿实验室，其通过GPU算力租赁和与SpaceX的关联交易推高估值，引发对AI泡沫的深度讨论。",
+      "link": "https://news.ycombinator.com/item?id=48446428"
+    },
+    {
+      "title": "苹果Siri AI正式发布",
+      "date": "2026-06-08",
+      "summary": "苹果在WWDC 2026发布新一代AI驱动的Siri，获得667 points讨论。社区热议AI助手实际效用仍有限，复杂任务如旅行预订仍频繁出错，AI落地面临信任鸿沟。",
+      "link": "https://news.ycombinator.com/item?id=48449084"
+    }
+  ],
+  "tools": [
+    {
+      "title": "微软Build 2026发布MAI自研AI模型：编程与推理模型挑战OpenAI",
+      "date": "2026-06-02",
+      "summary": "微软在Build大会上推出MAI-Code-1-Flash编程模型和MAI-Thinking-1推理模型，编程模型已集成至GitHub Copilot，旨在减少对OpenAI的依赖并为开发者提供更经济的AI选择。",
+      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
+    },
+    {
+      "title": "xAI发布Grok Build Beta：终端原生AI编程代理入场",
+      "date": "2026-06-03",
+      "summary": "xAI推出Grok Build测试版，基于Grok 4.3的终端TUI编程代理，支持无头CI/CD脚本、Agent Client Protocol多代理协作，并原生集成X/Twitter实时数据流，与Claude Code和Codex形成三足鼎立。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-june-3-2026"
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Ultra开源发布：美国最强开放权重模型550B参数",
+      "date": "2026-06-04",
+      "summary": "NVIDIA正式发布Nemotron 3 Ultra，拥有550B参数、55B活跃MoE架构，推理速度超300 token/秒，支持Hugging Face免费下载、NIM API和OpenRouter访问，是目前美国性能最强的开放权重AI模型。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-june-4-2026"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Meta Business Agent 面向 WhatsApp Business 全球上线",
+      "date": "2026-06-03",
+      "summary": "Meta 宣布其客服 AI 代理 Meta Business Agent 在 WhatsApp 全球上线，同时支持 Instagram DM。该代理可回答客户问题、推荐产品、预约会议、筛选销售线索，并将纳入 WhatsApp Business Premium 订阅收费体系。",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+    },
+    {
+      "title": "Google I/O 发布 Gemini Spark 个人 AI 代理",
+      "date": "2026-05-19",
+      "summary": "Google 在 I/O 大会上推出通用 AI 代理 Gemini Spark，可跨 Gmail、Docs 等应用推理并替用户执行任务，首批面向每月 100 美元的 Google AI Ultra 订阅用户开放测试。",
+      "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
+    },
+    {
+      "title": "CBS：Google Gemini Spark 或成 AI 代理领域的游戏规则改变者",
+      "date": "2026-05-21",
+      "summary": "行业专家分析 Gemini Spark 凭借与 Gmail、Calendar 等 Google 生态深度整合获得用户上下文优势，能像私人助理一样处理订餐、订酒店等任务，但也引发隐私安全担忧。",
+      "link": "https://www.cbsnews.com/news/google-gemini-spark-ai-agent/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Anthropic超越OpenAI成硅谷最有价值AI初创公司，估值逼近万亿美元",
+      "date": "2026-05-28",
+      "summary": "Anthropic在最新一轮650亿美元融资后超越OpenAI，成为硅谷最有价值AI公司，估值接近1万亿美元。本轮融资规模创AI行业纪录，反映资本对基础模型赛道的持续押注。",
+      "link": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+    },
+    {
+      "title": "AI推理初创Baseten洽谈以110亿美元估值融资10亿美元",
+      "date": "2026-05-26",
+      "summary": "旧金山AI推理基础设施公司Baseten正洽谈以110亿美元估值融资10亿美元，估值较三个月前的50亿翻倍。AI产业重心正从训练模型转向大规模推理部署，Baseten定位为\"推理领域的AWS\"。",
+      "link": "https://techstartups.com/2026/05/26/ai-inference-startup-baseten-in-talks-to-raise-1-billion-at-11-billion-valuation/"
+    },
+    {
+      "title": "Hello Robot发布第四代家用机器人Stretch，硅谷加速布局家庭机器人",
+      "date": "2026-06-04",
+      "summary": "由前Google机器人总监创立的Hello Robot发布第四代家用辅助机器人Stretch，专注于在真实家庭环境中部署，区别于实验室中的概念验证，已在残障人士家中积累实际运营数据。",
+      "link": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/"
+    }
+  ]
+}
