@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "@steipete: 别再直接给编程Agent写提示词了，应该设计循环来驱动你的Agent",
+      "date": "2026-06-07",
+      "summary": "Peter Steinberger 的月度提醒：开发者不应再手动给编程Agent写提示词，而应设计循环（loop）让Agent自动迭代。该帖获840万次浏览，引发AI编程范式的广泛讨论，标志着从提示工程到Agent架构设计的转变。",
+      "link": "https://x.com/steipete/status/2063697162748260627"
+    },
+    {
+      "title": "@emollick: AI让好创意变得极其便宜，但找到独特想法仍不容易",
+      "date": "2026-06-07",
+      "summary": "沃顿商学院教授Ethan Mollick指出：AI使好的、独特的创意实现成本极低，但发现这些创意并未变得更容易。建议现在储备最困难、最有价值、最不寻常的想法，这是巨大的机会窗口。",
+      "link": "https://www.techtwitter.com/tweet/3092ecc3-647a-4ffe-be14-97575d8bf513"
+    },
+    {
+      "title": "@rauchg: Vercel AI Gateway 每月恢复超过1万亿Token，零加价",
+      "date": "2026-06-07",
+      "summary": "Vercel CEO Guillermo Rauch宣布AI Gateway平均每月恢复超1万亿Token，类似Stripe通过智能重试挽回支付失败。零加价提供冗余、零数据留存、可观测性和用量控制，成为AI基础设施热点。",
+      "link": "https://www.techtwitter.com/tweet/aab81d46-ace4-4245-a595-f1d5ca82ffd3"
+    }
+  ]
+}

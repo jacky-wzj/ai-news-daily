@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Together AI 完成 8 亿美元 C 轮融资，估值达 83 亿美元",
+      "date": "2026-07-01",
+      "summary": "旧金山 AI 新云 Together AI 宣布完成 8 亿美元 C 轮融资，估值翻倍至 83 亿美元。本轮由 Aramco Ventures 领投，Vista Equity、General Catalyst、Nvidia 等参投。公司提供开源 AI 模型规模化运行的基础设施平台，帮助企业以更低成本部署 AI 工作负载。",
+      "link": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+    },
+    {
+      "title": "Upscale AI 获 1.9 亿美元融资，欲成为 AI 时代的 Cisco",
+      "date": "2026-06-22",
+      "summary": "圣克拉拉 AI 网络初创公司 Upscale AI 完成 1.9 亿美元 A-1 轮融资，估值达 20 亿美元。该公司致力于解决 AI 芯片间通信效率问题，Nvidia、Salesforce Ventures、淡马锡等参投，成立不到 18 个月累计融资 5 亿美元。",
+      "link": "https://fortune.com/2026/06/22/nvidia-upscale-ai-next-ciscoand-seligman-ventures-premji/"
+    },
+    {
+      "title": "Aseon Labs 获 1000 万美元种子轮，为 Robotaxi 打造自动充电清洁站",
+      "date": "2026-06-26",
+      "summary": "红木城初创公司 Aseon Labs 获 1000 万美元种子轮融资，由 Crane Venture Partners 领投，Y Combinator、Expa 等参投。公司打造停车位大小的自动化舱体，可分布城市各处为无人驾驶出租车进行检查、清洁和充电，以降低空驶里程。",
+      "link": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+    }
+  ]
+}

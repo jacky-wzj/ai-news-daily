@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "特朗普政府宣布Fable 5将重新向所有用户开放",
+      "date": "2026-07-01",
+      "summary": "白宫高级官员宣布政策转变，允许Anthropic向全球所有用户（包括国际用户）重新开放Fable 5访问权限。此前美国政府曾以国家安全为由暂停该模型，引发Reddit社区激烈讨论，关注AI治理与政府监管边界。",
+      "link": "https://www.reddit.com/r/singularity/comments/1uk4sv4/trump_administration_says_all_users_including/"
+    },
+    {
+      "title": "Next-Latent Prediction Transformers：NeurIPS主题演讲论文",
+      "date": "2026-06-18",
+      "summary": "NeurIPS 2025主题演讲论文提出NextLat架构，通过在潜在空间中进行自监督预测，使Transformer能够学习紧凑的世界模型，提升数据效率与推理速度。r/MachineLearning社区高度关注，认为该架构可能改变LLM训练范式。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/"
+    },
+    {
+      "title": "研究揭示：仅需13个单词即可操控AI搜索引擎",
+      "date": "2026-06-18",
+      "summary": "最新研究发现，在Reddit等UGC平台上仅需13个单词的简短文本即可操控ChatGPT和Google AI搜索等AI代理的输出结果。该帖获2700+投票，引发对AI搜索可信度和内容操纵风险的广泛讨论。",
+      "link": "https://www.reddit.com/r/technology/comments/1u6i0je/it_is_trivially_easy_to_use_reddit_to_manipulate/"
+    }
+  ]
+}

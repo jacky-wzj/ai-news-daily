@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "github",
+  "items": [
+    {
+      "title": "msitarzewski/agency-agents — 完整AI Agency工具箱",
+      "date": "2026-07-02",
+      "summary": "一个完整的AI Agency开源项目，内置16个专业Agent团队（前端、安全、营销、Reddit等），每个Agent拥有独特人格与交付流程。支持一键安装到Claude Code、Cursor、Codex、OpenClaw等主流AI编码工具，配备原生桌面应用一键管理Agent，GitHub今日趋势榜#1。",
+      "link": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "title": "usestrix/strix — 开源AI渗透测试工具",
+      "date": "2026-07-02",
+      "summary": "开源AI渗透测试平台，自主发现并验证应用漏洞，支持多Agent协作、OWASP Top 10全覆盖、CI/CD集成。30.4K星标，今日新增1,211星，GitHub今日趋势榜#2。",
+      "link": "https://github.com/usestrix/strix"
+    },
+    {
+      "title": "HKUDS/Vibe-Trading — 个人AI交易Agent",
+      "date": "2026-07-02",
+      "summary": "香港大学团队推出的一站式个人AI交易Agent框架，支持多因子策略、回测引擎、16种即时通讯通道集成（Telegram/Discord/微信/飞书等），配备Web UI和MCP/API接口，GitHub今日趋势榜#3。",
+      "link": "https://github.com/HKUDS/Vibe-Trading"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "tools",
+  "items": [
+    {
+      "title": "Framer 3.0发布：AI Agents直接嵌入网站设计画布",
+      "date": "2026-06-16",
+      "summary": "Framer发布3.0版本，将AI Agents直接嵌入网页设计画布，支持从零生成页面、响应式断点、自定义代码组件、SEO元数据等。新增Branching分支功能，让团队在安全沙盒中预览修改后再发布，实现AI执行与人类审校的协作闭环。",
+      "link": "https://www.framer.com/blog/framer-3/"
+    },
+    {
+      "title": "Hootsuite发布Wisdom：社交优先的AI智能体",
+      "date": "2026-06-24",
+      "summary": "Hootsuite推出Wisdom AI智能体，基于15年社交数据和1.5亿监测源，将实时社交信号转化为可执行的商业情报。同步发布Social OS平台，整合Perch、Nest、Lumen等产品，并开放MCP连接器，让AI工具直接调用Hootsuite社交数据。",
+      "link": "https://www.globenewswire.com/news-release/2026/06/24/3316916/0/en/hootsuite-rebuilds-for-the-ai-era-introducing-wisdom-a-social-first-ai-agent-turning-social-signals-into-action.html"
+    },
+    {
+      "title": "Rosply：基于视觉控制的跨应用桌面AI智能体",
+      "date": "2026-06",
+      "summary": "Rosply在Product Hunt上线，是一款通过视觉识别控制电脑的AI智能体，可自主移动鼠标、打字、点击完成任务。支持Windows/Mac/Linux，兼容OpenRouter接入各种视觉模型，无需API即可实现跨应用桌面自动化。",
+      "link": "https://www.producthunt.com/products/rosply"
+    }
+  ]
+}

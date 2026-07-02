@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "agent",
+  "items": [
+    {
+      "title": "OpenAI: Codex智能体如何重塑工作方式",
+      "date": "2026-06-26",
+      "summary": "OpenAI发布报告显示，Codex智能体已占公司内部99.8%的周度输出token，非开发者用户增长137倍，25.6%用户使用Codex完成超8小时人力的任务，标志着AI从聊天工具全面转向自主代理。",
+      "link": "https://openai.com/index/how-agents-are-transforming-work/"
+    },
+    {
+      "title": "Salesforce斥资36亿美元收购AI客服代理平台Fin",
+      "date": "2026-06-15",
+      "summary": "Salesforce宣布以约36亿美元收购AI客服代理平台Fin（原Intercom），Fin的AI Agent可跨渠道解决客户查询，此次收购将增强Salesforce的Agentforce企业代理平台能力。",
+      "link": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/"
+    },
+    {
+      "title": "Google DeepMind联合多方发起多智能体安全研究资助计划",
+      "date": "2026-06-11",
+      "summary": "Google DeepMind联合Schmidt Sciences、ARIA等机构宣布1000万美元的多智能体AI安全研究资助计划，聚焦大规模AI代理群体行为、沙盒测试平台及代理网络科学四大优先领域。",
+      "link": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/"
+    }
+  ]
+}

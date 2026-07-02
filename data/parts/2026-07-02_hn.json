@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "hn",
+  "items": [
+    {
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "date": "2026-06-30",
+      "summary": "OpenAI 发布 GPT-5.6 Sol 预览版，引发 HN 社区 743 条热议。讨论焦点包括美国政府可能限制模型访问权限、750 tokens/s 的极速推理性能，以及该版本在能力上是否只是小幅迭代而非质的飞跃。",
+      "link": "https://news.ycombinator.com/item?id=48689028"
+    },
+    {
+      "title": "ZCode – Harness for GLM-5.2",
+      "date": "2026-07-01",
+      "summary": "智谱 AI 发布 ZCode 编程助手，基于 GLM-5.2 模型，获得 391 分高热度。社区热议其与 Claude Code、Codex 等 AI 编程工具的竞争格局，以及开源模型在代码生成领域的快速进步。",
+      "link": "https://news.ycombinator.com/item?id=48753715"
+    },
+    {
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "date": "2026-07-01",
+      "summary": "月之暗面 Kimi K2.7 代码模型正式集成至 GitHub Copilot，标志着中国 AI 模型首次进入微软开发者工具生态。HN 讨论关注其与 GPT-5.6 的性能对比及对开发者生产力的实际影响。",
+      "link": "https://news.ycombinator.com/item?id=48756602"
+    }
+  ]
+}

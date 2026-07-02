@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Discord 2026八大新功能：AutoMod AI与对话摘要引领社区智能化",
+      "date": "2026-06-13",
+      "summary": "Discord在2026年推出8项重要新功能，其中AutoMod AI利用语言模型自动标记违规内容，AI对话摘要功能帮助用户快速回顾频道讨论，此外还有Server Shop、Orbs虚拟货币等本地化变现工具，标志着Discord深度整合AI的战略方向。",
+      "link": "https://peakbot.pro/blog/new-discord-features-2026-server-owners"
+    },
+    {
+      "title": "Discord 2026数据报告：AI功能全面扩展，12M活跃机器人重塑社区生态",
+      "date": "2026-06-05",
+      "summary": "SQ Magazine最新报告显示Discord月活用户达2.6亿，新增AI板块涵盖Summaries AI、频道内对话摘要、AI代理支持等。平台已有1200万活跃机器人，AI正深度融入审核、搜索和用户体验，非游戏用户占比升至54%。",
+      "link": "https://sqmagazine.co.uk/discord-statistics/"
+    },
+    {
+      "title": "AI Discord Bot Builder崛起：零代码创建智能社区机器人",
+      "date": "2026-06-28",
+      "summary": "AI驱动的Discord机器人构建器正在改变社区管理方式，用户无需编程即可创建能理解对话、分析请求的智能Bot。这些AI Bot可自动欢迎新成员、回答常见问题、管理对话，让大型社区管理变得更加高效和人性化。",
+      "link": "https://techbullion.com/ai-discord-bot-builder-revolutionizing-the-way-communities-connect-and-grow/"
+    }
+  ]
+}

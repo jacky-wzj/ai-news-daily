@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "section": "mainlandChina",
+  "items": [
+    {
+      "title": "科创板第五套标准扩容AI大模型行业",
+      "date": "2026-06-17",
+      "summary": "证监会主席吴清在2026陆家嘴论坛上宣布科创板第五套标准适用范围将扩大至人工智能大模型行业，为DeepSeek等AI公司上市铺路。",
+      "link": "https://www.21jingji.com/article/20260617/herald/d42f717e8b45d22e0ea7d485b7e18936.html"
+    },
+    {
+      "title": "2026年6月中国AI全景：智能体时代全面开启",
+      "date": "2026-06-18",
+      "summary": "国产大模型加速崛起，DeepSeek国际评测持续领先，字节豆包发力企业服务，6月头部厂商API调用量环比增长超40%。",
+      "link": "http://dzb.hxnews.com/news/kjzx/202606/18/2257603.shtml"
+    },
+    {
+      "title": "2026年6月AI开源模型大爆发：25+模型一周齐发",
+      "date": "2026-06-25",
+      "summary": "英伟达开源550B参数模型，智谱MIT协议全量开源GLM-5.2，字节开源视频和3D生成工具链，开源生态挑战闭源霸权。",
+      "link": "https://www.aitoollab.cn/articles/ai-open-weight-model-explosion-june-2026/"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-02",
+  "section": "papers",
+  "description": "Hugging Face trending papers this month",
+  "items": [
+    {
+      "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+      "date": "2026-07-01",
+      "summary": "BlockPilot提出样本自适应策略，通过预测最优块大小来加速扩散式推测解码。该方法即插即用、开销极小，在Qwen3-4B上实现4.20倍加速，接受长度达5.92，成为当前SOTA推测解码方案。",
+      "link": "https://huggingface.co/papers/2606.31315"
+    },
+    {
+      "title": "TurboServe: Serving Streaming Video Generation Efficiently and Economically",
+      "date": "2026-07-02",
+      "summary": "首个专为流式视频生成设计的服务系统，通过在线调度联合优化会话放置与GPU配置，在64块B300 GPU集群上实现最差延迟降低37.5%、GPU运营成本降低37.2%。",
+      "link": "https://huggingface.co/papers/2606.19271"
+    },
+    {
+      "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts",
+      "date": "2026-07-02",
+      "summary": "DART通过权重向量算术实现视觉-语言-动作模型的环境自适应，仅需单次演示即可适应相机位姿变化和机器人本体切换，在模拟与真实实验中均优于现有VLA适配方法。",
+      "link": "https://huggingface.co/papers/2607.00666"
+    }
+  ]
+}
