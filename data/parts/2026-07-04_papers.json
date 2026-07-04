@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "papers",
+  "items": [
+    {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "date": "2026-07-03",
+      "summary": "滑铁卢大学提出模糊函数编程范式，用4B编译器将自然语言规约编译为紧凑神经组件，以0.6B Qwen3解释器实现与32B模型相当的推理能力，推理内存仅需1/50，可在MacBook M3上以30 tokens/s运行。",
+      "link": "https://huggingface.co/papers/2607.02512"
+    },
+    {
+      "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+      "date": "2026-07-03",
+      "summary": "提出自主策略演化评估框架EvoPolicyGym，在16个交互式RL环境中评估AI智能体如何通过反馈迭代改进可执行策略。GPT-5.5在聚合排名中表现最优，揭示了强策略演化需要任务适配机制和有限反馈下的精细化调整。",
+      "link": "https://huggingface.co/papers/2607.02440"
+    },
+    {
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "date": "2026-07-03",
+      "summary": "提出有界记忆合约方法，通过类型化检索组装新鲜提示，使长周期LLM智能体在Slay the Spire 2等复杂决策任务中能隔离分析各记忆层，配备战略技能层后胜率从30%提升至60%，并发布298条完整轨迹的开源测试平台。",
+      "link": "https://huggingface.co/papers/2607.02255"
+    }
+  ]
+}

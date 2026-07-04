@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "tools",
+  "items": [
+    {
+      "title": "Claude Fable 5 — Anthropic 发布全新旗舰级 AI 模型",
+      "date": "2026-06-09",
+      "summary": "Anthropic 于6月9日推出 Claude Fable 5，性能全面超越 Opus 4.8，在 Terminal-Bench 编程基准测试中得分 83.1%。曾因美国出口管制短暂下线，6月18日恢复全球访问，成为当前最强 AI 编程与推理模型之一。",
+      "link": "https://www.devflokers.com/blog/ai-tech-news-model-releases-june-2026"
+    },
+    {
+      "title": "Replit Agent — AI 驱动的全栈应用开发与部署平台",
+      "date": "2026-06-01",
+      "summary": "Replit Agent 是一款云端 AI 编程代理，支持从自然语言描述自动构建、测试和部署全栈应用。2026年初扩展至移动开发，可一键生成 React Native + Expo 项目并直接提交至 App Store 和 Google Play。",
+      "link": "https://ventureburn.com/replit-review/"
+    },
+    {
+      "title": "Gemini 3.1 Flash Image — Google 新一代 AI 图像生成模型",
+      "date": "2026-06-30",
+      "summary": "Google 于6月30日发布 Gemini 3.1 Flash Image 和 Gemini 3 Pro Image 两款图像生成模型，支持文本到图像生成，输入价格低至0.50美元/百万 token，通过 Google AI Studio 和 API 立即可用。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"
+    }
+  ]
+}

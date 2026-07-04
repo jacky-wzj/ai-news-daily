@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "hn",
+  "items": [
+    {
+      "title": "pxpipe: 将文本转为图片后让模型OCR，Fable使用成本降低60%",
+      "date": "2026-07-04",
+      "summary": "开源工具pxpipe通过将系统提示、工具文档和历史上下文渲染为PNG图片（图片token远低于文本token），使Claude Code Fable模型的端到端费用降低约59%-70%，在HN引发热议。",
+      "link": "https://news.ycombinator.com/item?id=48776464"
+    },
+    {
+      "title": "停止AI信心表演：AI被过度炒作，实际落地效果有限",
+      "date": "2026-07-04",
+      "summary": "Elena Verna撰文批评当前AI行业盛行的“信心表演”——人们夸大AI能力，声称AI已彻底改变工作方式，但实际调查发现绝大多数人的AI应用仍停留在浅层，这种虚假宣传反而伤害了AI的真正普及。",
+      "link": "https://news.ycombinator.com/item?id=48774414"
+    },
+    {
+      "title": "阿里巴巴因涉嫌后门风险禁止员工使用Claude Code",
+      "date": "2026-07-03",
+      "summary": "路透社报道，阿里巴巴将从7月10日起禁止员工在工作场所使用Anthropic的Claude Code，原因是该工具涉嫌存在可识别中国用户的后门功能，引发关于AI编码工具安全性的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48772443"
+    }
+  ]
+}

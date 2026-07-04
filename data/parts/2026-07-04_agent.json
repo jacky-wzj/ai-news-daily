@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "agent",
+  "items": [
+    {
+      "title": "CRN盘点2026年十大最热门Agentic AI代理、工具和产品",
+      "date": "2026-07-01",
+      "summary": "CRN评选2026年迄今最热门的Agentic AI产品，涵盖AWS Bedrock AgentCore、Cisco Cloud Control、Nutanix Agentic AI、Microsoft Copilot Cowork等。IDC数据显示77%企业已部署AI代理，AI服务市场预计2029年达5150亿美元。",
+      "link": "https://www.crn.com/news/ai/2026/10-hottest-agentic-ai-agents-tools-and-products-of-2026-so-far"
+    },
+    {
+      "title": "Profound发布Aim：将AI搜索数据转化为营销执行的背景代理",
+      "date": "2026-07-02",
+      "summary": "Profound于7月2日发布Aim，一款始终在线的后台AI代理，专为营销团队设计。它将AI搜索信号（提示趋势、引用、情感分析、竞品基准）转化为优先级工作项，标志着厂商从分析仪表盘向代理决策与行动协调的转变。",
+      "link": "https://agentic.ai/news"
+    },
+    {
+      "title": "MIT专访：什么是当今的Agentic AI，我们期望它成为什么？",
+      "date": "2026-06-30",
+      "summary": "MIT副教授Phillip Isola深入解读Agentic AI本质：与生成式AI不同，它能在数字或物理世界自主执行操作。编码代理是目前最成功的应用，但面临的挑战包括训练数据缺乏和安全性风险。",
+      "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630"
+    }
+  ]
+}

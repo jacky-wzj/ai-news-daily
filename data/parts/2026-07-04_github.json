@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "github",
+  "items": [
+    {
+      "title": "Agent-Reach：让AI Agent拥有互联网之眼",
+      "date": "2026-07-04",
+      "summary": "本月增长28,976星的爆款项目，为AI Agent一键接入Twitter、Reddit、YouTube、B站、小红书等平台。零API费用，一行命令安装，兼容Claude Code、OpenClaw等所有主流Agent工具，彻底解决Agent上网难题。",
+      "link": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "title": "OpenMontage：首个开源智能视频制作系统",
+      "date": "2026-07-04",
+      "summary": "本月增长28,028星，将AI编程助手变为完整视频工作室。12条流水线、52个工具、500+智能技能，支持从脚本、素材检索到剪辑合成全流程。用自然语言描述即可生成真实视频，非简单的图片动画拼接。",
+      "link": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "title": "Taste-Skill：给AI注入好品味的前端技能包",
+      "date": "2026-07-04",
+      "summary": "本月增长23,478星的反AI味前端框架，为AI代理提供排版、动效、间距等设计品味技能。避免AI生成千篇一律的样板UI，让AI生成的界面更具设计感和个性。由动画设计专家Emil Kowalski打造。",
+      "link": "https://github.com/Leonxlnx/taste-skill"
+    }
+  ]
+}

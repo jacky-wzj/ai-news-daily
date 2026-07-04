@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "mainlandChina",
+  "items": [
+    {
+      "title": "中国AI大模型调用量连续九周领跑全球，美国份额一年内从72%跌至33%",
+      "date": "2026-07-01",
+      "summary": "OpenRouter最新数据显示，中国AI大模型周调用量达20.39万亿Token，连续九周超过美国稳居全球首位。DeepSeek-V4-Flash连续六周位居榜首，美国模型Token请求占比从一年前的72%降至33%，开源模型及中国AI模型正加速替代。",
+      "link": "https://www.stcn.com/article/detail/3984792.html"
+    },
+    {
+      "title": "科创板第五套标准拟扩容至AI大模型行业，DeepSeek完成超500亿元首轮融资",
+      "date": "2026-06-17",
+      "summary": "证监会主席吴清在陆家嘴论坛宣布科创板第五套标准适用范围扩大至AI大模型。DeepSeek完成首轮超500亿元融资、估值突破3300亿元，智谱、MiniMax相继启动科创板上市进程，中国大模型企业正式进入资本市场兑现期。",
+      "link": "https://www.21jingji.com/article/20260617/herald/d42f717e8b45d22e0ea7d485b7e18936.html"
+    },
+    {
+      "title": "智谱市值破万亿港元，阿里巴巴发布Qwen-Robot具身智能矩阵，国产AI商业化全面提速",
+      "date": "2026-07-01",
+      "summary": "智谱GLM-5.2开源后市值突破万亿港元，字节豆包日均Token调用达180万亿并开启付费订阅，阿里发布Qwen-Robot三大具身智能模型覆盖操作、导航与世界认知全链路，国产大模型从技术竞赛全面转向商业化落地。",
+      "link": "https://user.guancha.cn/main/content?id=1680551"
+    }
+  ]
+}

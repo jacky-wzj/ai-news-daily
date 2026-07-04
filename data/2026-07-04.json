@@ -1,0 +1,247 @@
+{
+  "date": "2026-07-04",
+  "insights": [
+    {
+      "title": "OpenAI提议将5%股权（426亿美元）交给美国政府",
+      "date": "2026-07-03",
+      "summary": "OpenAI向美国政府提议授予5%股权，价值约426亿美元。CEO Sam Altman推动'公共财富基金'概念，参照阿拉斯加永久基金模式，引发业界对AI治理模式的广泛讨论。",
+      "link": "https://aibusinessweekly.net/p/ai-business-weekly-july-3-2026"
+    },
+    {
+      "title": "微软成立Frontier Company，投入25亿美元和6000名员工推动AI落地",
+      "date": "2026-07-03",
+      "summary": "微软推出Frontier Company新部门，投入25亿美元，将6000名员工嵌入联合利华、诺和诺德等客户内部，帮助部署AI系统。此举紧随亚马逊10亿美元类似投入，AI实施成为新竞争焦点。",
+      "link": "https://aibusinessweekly.net/p/ai-business-weekly-july-3-2026"
+    },
+    {
+      "title": "Fable 5禁令全面解除：20天监管风波终告段落",
+      "date": "2026-07-01",
+      "summary": "Fable 5在经历20天美国政府出口管制禁令后于7月1日全面恢复。Axios披露幕后细节：亚马逊CEO致电财政部长触发禁令，Anthropic工程师飞赴华盛顿修复，NSA多次驳回修复方案。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-4-2026"
+    },
+    {
+      "title": "扎克伯格承认Meta AI代理开发停滞四个月，股价下跌4.9%",
+      "date": "2026-07-02",
+      "summary": "Meta内部会议中扎克伯格坦承AI代理开发未达预期，8000人重组效果尚未显现。同时AI负责人声称未发布模型Watermelon已追平GPT-5.5，但无公开验证。投资者更信CEO，股价跌4.9%。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-4-2026"
+    },
+    {
+      "title": "Anthropic封堵中国企业访问Claude漏洞，同时聘请IPO顾问",
+      "date": "2026-07-04",
+      "summary": "Anthropic正封堵蚂蚁集团等中国企业通过中转站和云服务访问Claude的漏洞。同时聘请英国富而德律所担任IPO顾问，全球VC上半年创纪录达5100亿美元，其中OpenAI和Anthropic占43%。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-4-2026"
+    },
+    {
+      "title": "全球AI模型发布加速：已追踪324+模型发布",
+      "date": "2026-07-04",
+      "summary": "AI行业正以前所未有的速度发布新模型，目前追踪超过324个模型发布。几个月前的前沿能力如今已成为基准预期，反映出AI技术迭代的惊人速度。",
+      "link": "https://llm-stats.com/llm-updates"
+    },
+    {
+      "title": "AI自愿标准框架临近8月1日截止，白宫加速推进",
+      "date": "2026-07-03",
+      "summary": "Fable 5事件后，AI自愿模型标准框架临近8月1日截止日。网络安全专家指出其他领先AI模型也存在同样漏洞，这是自愿标准框架最有力的论据。白宫正加速最终确定。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "date": "2026-07-03",
+      "summary": "滑铁卢大学提出模糊函数编程范式，用4B编译器将自然语言规约编译为紧凑神经组件，以0.6B Qwen3解释器实现与32B模型相当的推理能力，推理内存仅需1/50，可在MacBook M3上以30 tokens/s运行。",
+      "link": "https://huggingface.co/papers/2607.02512"
+    },
+    {
+      "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+      "date": "2026-07-03",
+      "summary": "提出自主策略演化评估框架EvoPolicyGym，在16个交互式RL环境中评估AI智能体如何通过反馈迭代改进可执行策略。GPT-5.5在聚合排名中表现最优，揭示了强策略演化需要任务适配机制和有限反馈下的精细化调整。",
+      "link": "https://huggingface.co/papers/2607.02440"
+    },
+    {
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "date": "2026-07-03",
+      "summary": "提出有界记忆合约方法，通过类型化检索组装新鲜提示，使长周期LLM智能体在Slay the Spire 2等复杂决策任务中能隔离分析各记忆层，配备战略技能层后胜率从30%提升至60%，并发布298条完整轨迹的开源测试平台。",
+      "link": "https://huggingface.co/papers/2607.02255"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "Andrej Karpathy 宣布加入 Anthropic",
+      "date": "2026-05-19",
+      "summary": "OpenAI 联合创始人 Andrej Karpathy 发推宣布加入 Anthropic，称 LLM 前沿研究未来几年将极具变革性。该推文24小时内获620万次浏览、累计2770万次浏览，引发 AI 行业震动，标志着顶尖人才从 OpenAI 向 Anthropic 的迁移趋势。",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "Sam Altman 宣布 GPT-5.6 应美国政府要求限量发布",
+      "date": "2026-06-26",
+      "summary": "OpenAI CEO Sam Altman 发推宣布 GPT-5.6（Sol/Terra）发布，但应美国政府要求仅限可信合作伙伴预览，而非全面开放。Altman 表态此举虽非最优流程但合理，标志着 AI 模型发布首次进入政府审批时代，引发科技界广泛讨论。",
+      "link": "https://x.com/sama/status/2070607488274358364"
+    },
+    {
+      "title": "Anthropic 宣布美国商务部解除对 Claude Fable 5 和 Mythos 5 的出口管制",
+      "date": "2026-06-30",
+      "summary": "Anthropic 官方发推宣布美国商务部已解除对 Claude Fable 5 和 Mythos 5 的出口管制，将于次日恢复访问。该推文累计1430万次浏览，标志着与特朗普政府在 AI 模型出口管制问题上持续数周的对峙取得突破性进展。",
+      "link": "https://x.com/AnthropicAI/status/2072106151890809341"
+    }
+  ],
+  "discord": [
+    {
+      "title": "Discord将利用AI在全球推行年龄验证系统",
+      "date": "2026-06-29",
+      "summary": "Discord宣布将采用Incode公司的AI面部识别技术，在全球范围内推行年龄验证。所有现有账户默认标记为青少年，用户需通过面部扫描或政府ID完成验证，引发隐私争议。测试将于下月启动。",
+      "link": "https://www.neogaf.com/threads/discord-to-implement-age-verification-using-ai-worldwide-testing-starts-next-month.1698598/"
+    },
+    {
+      "title": "Discord推出AI对话摘要与AI代理支持等多项新功能",
+      "date": "2026-06-05",
+      "summary": "Discord 2026年统计报告显示，平台新增多项AI功能：频道内AI对话摘要（Summaries AI）、与AutoMod AI和Clyde增强功能整合的智能审核，以及AI代理支持，大幅提升社区管理效率。",
+      "link": "https://sqmagazine.co.uk/discord-statistics/"
+    },
+    {
+      "title": "AI Discord Bot Builder正在改变社区连接与增长方式",
+      "date": "2026-06-28",
+      "summary": "AI驱动的Discord机器人构建器正在兴起，无需编程即可创建智能Bot。这类工具结合AI与Discord功能，能理解对话语境、自动回复常见问题、管理社群，为企业和创作者提供高效自动化方案。",
+      "link": "https://techbullion.com/ai-discord-bot-builder-revolutionizing-the-way-communities-connect-and-grow/"
+    }
+  ],
+  "github": [
+    {
+      "title": "Agent-Reach：让AI Agent拥有互联网之眼",
+      "date": "2026-07-04",
+      "summary": "本月增长28,976星的爆款项目，为AI Agent一键接入Twitter、Reddit、YouTube、B站、小红书等平台。零API费用，一行命令安装，兼容Claude Code、OpenClaw等所有主流Agent工具，彻底解决Agent上网难题。",
+      "link": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "title": "OpenMontage：首个开源智能视频制作系统",
+      "date": "2026-07-04",
+      "summary": "本月增长28,028星，将AI编程助手变为完整视频工作室。12条流水线、52个工具、500+智能技能，支持从脚本、素材检索到剪辑合成全流程。用自然语言描述即可生成真实视频，非简单的图片动画拼接。",
+      "link": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "title": "Taste-Skill：给AI注入好品味的前端技能包",
+      "date": "2026-07-04",
+      "summary": "本月增长23,478星的反AI味前端框架，为AI代理提供排版、动效、间距等设计品味技能。避免AI生成千篇一律的样板UI，让AI生成的界面更具设计感和个性。由动画设计专家Emil Kowalski打造。",
+      "link": "https://github.com/Leonxlnx/taste-skill"
+    }
+  ],
+  "hn": [
+    {
+      "title": "pxpipe: 将文本转为图片后让模型OCR，Fable使用成本降低60%",
+      "date": "2026-07-04",
+      "summary": "开源工具pxpipe通过将系统提示、工具文档和历史上下文渲染为PNG图片（图片token远低于文本token），使Claude Code Fable模型的端到端费用降低约59%-70%，在HN引发热议。",
+      "link": "https://news.ycombinator.com/item?id=48776464"
+    },
+    {
+      "title": "停止AI信心表演：AI被过度炒作，实际落地效果有限",
+      "date": "2026-07-04",
+      "summary": "Elena Verna撰文批评当前AI行业盛行的“信心表演”——人们夸大AI能力，声称AI已彻底改变工作方式，但实际调查发现绝大多数人的AI应用仍停留在浅层，这种虚假宣传反而伤害了AI的真正普及。",
+      "link": "https://news.ycombinator.com/item?id=48774414"
+    },
+    {
+      "title": "阿里巴巴因涉嫌后门风险禁止员工使用Claude Code",
+      "date": "2026-07-03",
+      "summary": "路透社报道，阿里巴巴将从7月10日起禁止员工在工作场所使用Anthropic的Claude Code，原因是该工具涉嫌存在可识别中国用户的后门功能，引发关于AI编码工具安全性的广泛讨论。",
+      "link": "https://news.ycombinator.com/item?id=48772443"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Top AI launches of June 2026 (Dev tools & AI models)",
+      "date": "2026-06-29",
+      "summary": "r/AIDeveloperNews汇总6月AI发布：JetBrains开源12B MoE模型Mellum2（仅2.5B活跃参数），Nous Research发布Hermes Agent v0.17.0支持iMessage和后台子代理，Datalab推出Lift文档结构化提取工具，Empero AI发布Qwythos-9B推理模型。",
+      "link": "https://www.reddit.com/r/AIDeveloperNews/comments/1uikfbt/top_ai_launches_of_june_2026_dev_tools_ai_models/"
+    },
+    {
+      "title": "State of AI, June 2026: the hype is still here, but companies are starting to ask harder questions",
+      "date": "2026-06-04",
+      "summary": "r/ChatGPT热议AI行业拐点：Opus 4.7发布失败成2026年AI建设者的现实检验，企业从AI能做什么转向AI投资回报在哪，AI招聘反而变慢引发悖论讨论，行业泡沫与落地质疑并存。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1twkr5g/state_of_ai_june_2026_the_hype_is_still_here_but/"
+    },
+    {
+      "title": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
+      "date": "2026-05-20",
+      "summary": "r/artificial讨论Google I/O 2026揭示AI行业自我造势：谷歌宣布释放数百万生物工程蚊子引发争议，AI Overviews仍显示2024年旧信息，用户质疑AI公司通过发布会制造泡沫叙事推动估值。",
+      "link": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Claude Fable 5 — Anthropic 发布全新旗舰级 AI 模型",
+      "date": "2026-06-09",
+      "summary": "Anthropic 于6月9日推出 Claude Fable 5，性能全面超越 Opus 4.8，在 Terminal-Bench 编程基准测试中得分 83.1%。曾因美国出口管制短暂下线，6月18日恢复全球访问，成为当前最强 AI 编程与推理模型之一。",
+      "link": "https://www.devflokers.com/blog/ai-tech-news-model-releases-june-2026"
+    },
+    {
+      "title": "Replit Agent — AI 驱动的全栈应用开发与部署平台",
+      "date": "2026-06-01",
+      "summary": "Replit Agent 是一款云端 AI 编程代理，支持从自然语言描述自动构建、测试和部署全栈应用。2026年初扩展至移动开发，可一键生成 React Native + Expo 项目并直接提交至 App Store 和 Google Play。",
+      "link": "https://ventureburn.com/replit-review/"
+    },
+    {
+      "title": "Gemini 3.1 Flash Image — Google 新一代 AI 图像生成模型",
+      "date": "2026-06-30",
+      "summary": "Google 于6月30日发布 Gemini 3.1 Flash Image 和 Gemini 3 Pro Image 两款图像生成模型，支持文本到图像生成，输入价格低至0.50美元/百万 token，通过 Google AI Studio 和 API 立即可用。",
+      "link": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"
+    }
+  ],
+  "agent": [
+    {
+      "title": "CRN盘点2026年十大最热门Agentic AI代理、工具和产品",
+      "date": "2026-07-01",
+      "summary": "CRN评选2026年迄今最热门的Agentic AI产品，涵盖AWS Bedrock AgentCore、Cisco Cloud Control、Nutanix Agentic AI、Microsoft Copilot Cowork等。IDC数据显示77%企业已部署AI代理，AI服务市场预计2029年达5150亿美元。",
+      "link": "https://www.crn.com/news/ai/2026/10-hottest-agentic-ai-agents-tools-and-products-of-2026-so-far"
+    },
+    {
+      "title": "Profound发布Aim：将AI搜索数据转化为营销执行的背景代理",
+      "date": "2026-07-02",
+      "summary": "Profound于7月2日发布Aim，一款始终在线的后台AI代理，专为营销团队设计。它将AI搜索信号（提示趋势、引用、情感分析、竞品基准）转化为优先级工作项，标志着厂商从分析仪表盘向代理决策与行动协调的转变。",
+      "link": "https://agentic.ai/news"
+    },
+    {
+      "title": "MIT专访：什么是当今的Agentic AI，我们期望它成为什么？",
+      "date": "2026-06-30",
+      "summary": "MIT副教授Phillip Isola深入解读Agentic AI本质：与生成式AI不同，它能在数字或物理世界自主执行操作。编码代理是目前最成功的应用，但面临的挑战包括训练数据缺乏和安全性风险。",
+      "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Microsoft成立AI部署公司Frontier Company，投入25亿美元",
+      "date": "2026-07-02",
+      "summary": "微软宣布成立Microsoft Frontier Company，投资25亿美元配备6000名工程师，专注于企业AI部署服务。此举紧随亚马逊、OpenAI和Anthropic的类似FDE（前向部署工程）模式，利用微软现有Fortune 500客户群抢占企业AI服务市场。",
+      "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+    },
+    {
+      "title": "Y Combinator支持的Weave Robotics发布7999美元家用机器人Isaac 1",
+      "date": "2026-07-03",
+      "summary": "Weave Robotics推出家用机器人Isaac 1，售价7999美元或月付449美元，可自动完成洗衣、叠被和整理家务。该产品以低于1X Neo（2万美元）的价格切入市场，发布视频获得1300万次观看，引发硅谷投资圈热议。",
+      "link": "https://www.businessinsider.com/weave-robotics-isaac-1-8000-home-robot-chores-2026-7"
+    },
+    {
+      "title": "全球风投上半年创纪录达5100亿美元，AI热潮加速",
+      "date": "2026-07-02",
+      "summary": "Crunchbase报告显示2026上半年全球风投达5100亿美元，超过2025全年（4400亿）。OpenAI和Anthropic合计占43%（2170亿美元），AI公司占据70%以上初创资本，硅谷AI基础设施、国防、机器人等领域全面受益。",
+      "link": "https://siliconangle.com/2026/07/02/global-venture-funding-hits-record-510b-first-half-ai-boom-accelerates/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "中国AI大模型调用量连续九周领跑全球，美国份额一年内从72%跌至33%",
+      "date": "2026-07-01",
+      "summary": "OpenRouter最新数据显示，中国AI大模型周调用量达20.39万亿Token，连续九周超过美国稳居全球首位。DeepSeek-V4-Flash连续六周位居榜首，美国模型Token请求占比从一年前的72%降至33%，开源模型及中国AI模型正加速替代。",
+      "link": "https://www.stcn.com/article/detail/3984792.html"
+    },
+    {
+      "title": "科创板第五套标准拟扩容至AI大模型行业，DeepSeek完成超500亿元首轮融资",
+      "date": "2026-06-17",
+      "summary": "证监会主席吴清在陆家嘴论坛宣布科创板第五套标准适用范围扩大至AI大模型。DeepSeek完成首轮超500亿元融资、估值突破3300亿元，智谱、MiniMax相继启动科创板上市进程，中国大模型企业正式进入资本市场兑现期。",
+      "link": "https://www.21jingji.com/article/20260617/herald/d42f717e8b45d22e0ea7d485b7e18936.html"
+    },
+    {
+      "title": "智谱市值破万亿港元，阿里巴巴发布Qwen-Robot具身智能矩阵，国产AI商业化全面提速",
+      "date": "2026-07-01",
+      "summary": "智谱GLM-5.2开源后市值突破万亿港元，字节豆包日均Token调用达180万亿并开启付费订阅，阿里发布Qwen-Robot三大具身智能模型覆盖操作、导航与世界认知全链路，国产大模型从技术竞赛全面转向商业化落地。",
+      "link": "https://user.guancha.cn/main/content?id=1680551"
+    }
+  ]
+}

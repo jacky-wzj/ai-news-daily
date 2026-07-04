@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-04",
+  "section": "xPosts",
+  "description": "AI Twitter trending posts this month",
+  "items": [
+    {
+      "title": "Andrej Karpathy 宣布加入 Anthropic",
+      "date": "2026-05-19",
+      "summary": "OpenAI 联合创始人 Andrej Karpathy 发推宣布加入 Anthropic，称 LLM 前沿研究未来几年将极具变革性。该推文24小时内获620万次浏览、累计2770万次浏览，引发 AI 行业震动，标志着顶尖人才从 OpenAI 向 Anthropic 的迁移趋势。",
+      "link": "https://x.com/karpathy/status/2056753169888334312"
+    },
+    {
+      "title": "Sam Altman 宣布 GPT-5.6 应美国政府要求限量发布",
+      "date": "2026-06-26",
+      "summary": "OpenAI CEO Sam Altman 发推宣布 GPT-5.6（Sol/Terra）发布，但应美国政府要求仅限可信合作伙伴预览，而非全面开放。Altman 表态此举虽非最优流程但合理，标志着 AI 模型发布首次进入政府审批时代，引发科技界广泛讨论。",
+      "link": "https://x.com/sama/status/2070607488274358364"
+    },
+    {
+      "title": "Anthropic 宣布美国商务部解除对 Claude Fable 5 和 Mythos 5 的出口管制",
+      "date": "2026-06-30",
+      "summary": "Anthropic 官方发推宣布美国商务部已解除对 Claude Fable 5 和 Mythos 5 的出口管制，将于次日恢复访问。该推文累计1430万次浏览，标志着与特朗普政府在 AI 模型出口管制问题上持续数周的对峙取得突破性进展。",
+      "link": "https://x.com/AnthropicAI/status/2072106151890809341"
+    }
+  ]
+}

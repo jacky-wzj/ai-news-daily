@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Microsoft成立AI部署公司Frontier Company，投入25亿美元",
+      "date": "2026-07-02",
+      "summary": "微软宣布成立Microsoft Frontier Company，投资25亿美元配备6000名工程师，专注于企业AI部署服务。此举紧随亚马逊、OpenAI和Anthropic的类似FDE（前向部署工程）模式，利用微软现有Fortune 500客户群抢占企业AI服务市场。",
+      "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+    },
+    {
+      "title": "Y Combinator支持的Weave Robotics发布7999美元家用机器人Isaac 1",
+      "date": "2026-07-03",
+      "summary": "Weave Robotics推出家用机器人Isaac 1，售价7999美元或月付449美元，可自动完成洗衣、叠被和整理家务。该产品以低于1X Neo（2万美元）的价格切入市场，发布视频获得1300万次观看，引发硅谷投资圈热议。",
+      "link": "https://www.businessinsider.com/weave-robotics-isaac-1-8000-home-robot-chores-2026-7"
+    },
+    {
+      "title": "全球风投上半年创纪录达5100亿美元，AI热潮加速",
+      "date": "2026-07-02",
+      "summary": "Crunchbase报告显示2026上半年全球风投达5100亿美元，超过2025全年（4400亿）。OpenAI和Anthropic合计占43%（2170亿美元），AI公司占据70%以上初创资本，硅谷AI基础设施、国防、机器人等领域全面受益。",
+      "link": "https://siliconangle.com/2026/07/02/global-venture-funding-hits-record-510b-first-half-ai-boom-accelerates/"
+    }
+  ]
+}

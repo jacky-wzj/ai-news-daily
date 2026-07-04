@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 AI 资讯日报 - 2026年7月4日星期六</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Design Tokens - Modern OKLCH */
+        :root {
+            --primary: oklch(0.55 0.2 265);
+            --primary-hover: oklch(0.45 0.22 265);
+            --accent: oklch(0.65 0.18 150);
+            
+            /* Surface */
+            --bg: oklch(0.985 0.005 240);
+            --surface: oklch(1 0 0);
+            --surface-raised: oklch(0.97 0.01 240);
+            --text: oklch(0.18 0.01 240);
+            --text-secondary: oklch(0.5 0.01 240);
+            --text-muted: oklch(0.7 0.01 240);
+            --border: oklch(0.9 0.01 240);
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+            
+            /* Spacing - 8pt Grid */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            --space-12: 48px;
+            
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --radius-full: 9999px;
+            
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', -apple-system, system-ui, sans-serif;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-base: 1rem;
+            --text-lg: 1.125rem;
+            --text-xl: 1.25rem;
+            --text-2xl: 1.5rem;
+            --text-3xl: 2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: oklch(0.12 0.01 240);
+                --surface: oklch(0.18 0.01 240);
+                --surface-raised: oklch(0.22 0.01 240);
+                --text: oklch(0.95 0.01 240);
+                --text-secondary: oklch(0.75 0.01 240);
+                --text-muted: oklch(0.6 0.01 240);
+                --border: oklch(0.3 0.01 240);
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+                --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+            }
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, oklch(0.45 0.25 280) 100%);
+            padding: var(--space-12) var(--space-4);
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: var(--text-3xl);
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            color: rgba(255,255,255,0.8);
+            font-size: var(--text-base);
+            margin-top: var(--space-2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-6) var(--space-4);
+        }
+
+        /* Section - 统一模块容器 */
+        .section {
+            margin-bottom: var(--space-8);
+        }
+
+        /* Section Header - 统一模块标题 */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-header .icon {
+            font-size: var(--text-xl);
+        }
+
+        .section-header h2 {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* Card - 统一卡片组件 */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-5);
+            margin-bottom: var(--space-3);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: var(--space-2);
+            line-height: 1.4;
+        }
+
+        .card .meta {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-2);
+        }
+
+        .card .meta .author {
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Priority Card */
+        .card--priority {
+            border-left: 3px solid var(--accent);
+            background: linear-gradient(90deg, var(--surface) 0%, var(--surface-raised) 100%);
+        }
+
+        /* Link */
+        .link {
+            display: inline-block;
+            margin-top: var(--space-3);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: var(--text-sm);
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Screenshot */
+        .screenshot {
+            max-width: 100%;
+            border-radius: var(--radius-md);
+            margin: var(--space-3) 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: var(--space-8) var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+            border-top: 1px solid var(--border);
+            margin-top: var(--space-8);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { animation: fadeInUp 0.3s ease backwards; }
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+        .card:nth-child(6) { animation-delay: 0.3s; }
+        .card:nth-child(7) { animation-delay: 0.35s; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card { animation: none; }
+            .card:hover { transform: none; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: var(--space-8) var(--space-4); }
+            .header h1 { font-size: var(--text-2xl); }
+            .container { padding: var(--space-4) var(--space-3); }
+            .card { padding: var(--space-4); }
+        }
+
+        /* Print */
+        @media print {
+            .card { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>📰 AI 资讯日报</h1>
+        <p>2026年7月4日星期六</p>
+    </header>
+    
+    <main class="container">
+        
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">📚</span>
+        <h2>Hugging Face 热门论文</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Program-as-Weights: A Programming Paradigm for Fuzzy Functions</h3>
+      <div class="meta">👤 </div>
+      <p>滑铁卢大学提出模糊函数编程范式，用4B编译器将自然语言规约编译为紧凑神经组件，以0.6B Qwen3解释器实现与32B模型相当的推理能力，推理内存仅需1/50，可在MacBook M3上以30 tokens/s运行。</p>
+  <a class="link" href="https://huggingface.co/papers/2607.02512" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments</h3>
+      <div class="meta">👤 </div>
+      <p>提出自主策略演化评估框架EvoPolicyGym，在16个交互式RL环境中评估AI智能体如何通过反馈迭代改进可执行策略。GPT-5.5在聚合排名中表现最优，揭示了强策略演化需要任务适配机制和有限反馈下的精细化调整。</p>
+  <a class="link" href="https://huggingface.co/papers/2607.02440" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</h3>
+      <div class="meta">👤 </div>
+      <p>提出有界记忆合约方法，通过类型化检索组装新鲜提示，使长周期LLM智能体在Slay the Spire 2等复杂决策任务中能隔离分析各记忆层，配备战略技能层后胜率从30%提升至60%，并发布298条完整轨迹的开源测试平台。</p>
+  <a class="link" href="https://huggingface.co/papers/2607.02255" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">𝕏</span>
+        <h2>X AI 动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Anthropic 宣布美国商务部解除对 Claude Fable 5 和 Mythos 5 的出口管制</h3>
+      <div class="meta">👤 <span class="author"></span> · 2026-06-30</div>
+      <p>Anthropic 官方发推宣布美国商务部已解除对 Claude Fable 5 和 Mythos 5 的出口管制，将于次日恢复访问。该推文累计1430万次浏览，标志着与特朗普政府在 AI 模型出口管制问题上持续数周的对峙取得突破性进展。</p>
+  <a class="link" href="https://x.com/AnthropicAI/status/2072106151890809341" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💬</span>
+        <h2>Discord 社区精选</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Discord将利用AI在全球推行年龄验证系统</h3>
+      <div class="meta">💬 </div>
+      <p>Discord宣布将采用Incode公司的AI面部识别技术，在全球范围内推行年龄验证。所有现有账户默认标记为青少年，用户需通过面部扫描或政府ID完成验证，引发隐私争议。测试将于下月启动。</p>
+  <a class="link" href="https://www.neogaf.com/threads/discord-to-implement-age-verification-using-ai-worldwide-testing-starts-next-month.1698598/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">💻</span>
+        <h2>GitHub Trending AI</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Agent-Reach：让AI Agent拥有互联网之眼</h3>
+      
+      <p>本月增长28,976星的爆款项目，为AI Agent一键接入Twitter、Reddit、YouTube、B站、小红书等平台。零API费用，一行命令安装，兼容Claude Code、OpenClaw等所有主流Agent工具，彻底解决Agent上网难题。</p>
+  <a class="link" href="https://github.com/Panniantong/Agent-Reach" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. OpenMontage：首个开源智能视频制作系统</h3>
+      
+      <p>本月增长28,028星，将AI编程助手变为完整视频工作室。12条流水线、52个工具、500+智能技能，支持从脚本、素材检索到剪辑合成全流程。用自然语言描述即可生成真实视频，非简单的图片动画拼接。</p>
+  <a class="link" href="https://github.com/calesthio/OpenMontage" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🔝</span>
+        <h2>Hacker News 热门</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. pxpipe: 将文本转为图片后让模型OCR，Fable使用成本降低60%</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>开源工具pxpipe通过将系统提示、工具文档和历史上下文渲染为PNG图片（图片token远低于文本token），使Claude Code Fable模型的端到端费用降低约59%-70%，在HN引发热议。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48776464" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 停止AI信心表演：AI被过度炒作，实际落地效果有限</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>Elena Verna撰文批评当前AI行业盛行的“信心表演”——人们夸大AI能力，声称AI已彻底改变工作方式，但实际调查发现绝大多数人的AI应用仍停留在浅层，这种虚假宣传反而伤害了AI的真正普及。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48774414" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 阿里巴巴因涉嫌后门风险禁止员工使用Claude Code</h3>
+      <div class="meta">⬆️ undefined Points</div>
+      <p>路透社报道，阿里巴巴将从7月10日起禁止员工在工作场所使用Anthropic的Claude Code，原因是该工具涉嫌存在可识别中国用户的后门功能，引发关于AI编码工具安全性的广泛讨论。</p>
+  <a class="link" href="https://news.ycombinator.com/item?id=48772443" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🤖</span>
+        <h2>Reddit AI 社区</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Top AI launches of June 2026 (Dev tools &amp; AI models)</h3>
+      <div class="meta">reddit: </div>
+      <p>r/AIDeveloperNews汇总6月AI发布：JetBrains开源12B MoE模型Mellum2（仅2.5B活跃参数），Nous Research发布Hermes Agent v0.17.0支持iMessage和后台子代理，Datalab推出Lift文档结构化提取工具，Empero AI发布Qwythos-9B推理模型。</p>
+  <a class="link" href="https://www.reddit.com/r/AIDeveloperNews/comments/1uikfbt/top_ai_launches_of_june_2026_dev_tools_ai_models/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. State of AI, June 2026: the hype is still here, but companies are starting to ask harder questions</h3>
+      <div class="meta">reddit: </div>
+      <p>r/ChatGPT热议AI行业拐点：Opus 4.7发布失败成2026年AI建设者的现实检验，企业从AI能做什么转向AI投资回报在哪，AI招聘反而变慢引发悖论讨论，行业泡沫与落地质疑并存。</p>
+  <a class="link" href="https://www.reddit.com/r/ChatGPT/comments/1twkr5g/state_of_ai_june_2026_the_hype_is_still_here_but/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🛠️</span>
+        <h2>AI 应用工具箱</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Claude Fable 5 — Anthropic 发布全新旗舰级 AI 模型</h3>
+      
+      <p>Anthropic 于6月9日推出 Claude Fable 5，性能全面超越 Opus 4.8，在 Terminal-Bench 编程基准测试中得分 83.1%。曾因美国出口管制短暂下线，6月18日恢复全球访问，成为当前最强 AI 编程与推理模型之一。</p>
+  <a class="link" href="https://www.devflokers.com/blog/ai-tech-news-model-releases-june-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Replit Agent — AI 驱动的全栈应用开发与部署平台</h3>
+      
+      <p>Replit Agent 是一款云端 AI 编程代理，支持从自然语言描述自动构建、测试和部署全栈应用。2026年初扩展至移动开发，可一键生成 React Native + Expo 项目并直接提交至 App Store 和 Google Play。</p>
+  <a class="link" href="https://ventureburn.com/replit-review/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🦾</span>
+        <h2>Agent 热门资讯</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. CRN盘点2026年十大最热门Agentic AI代理、工具和产品</h3>
+      <div class="meta">🤖 </div>
+      <p>CRN评选2026年迄今最热门的Agentic AI产品，涵盖AWS Bedrock AgentCore、Cisco Cloud Control、Nutanix Agentic AI、Microsoft Copilot Cowork等。IDC数据显示77%企业已部署AI代理，AI服务市场预计2029年达5150亿美元。</p>
+  <a class="link" href="https://www.crn.com/news/ai/2026/10-hottest-agentic-ai-agents-tools-and-products-of-2026-so-far" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Profound发布Aim：将AI搜索数据转化为营销执行的背景代理</h3>
+      <div class="meta">🤖 </div>
+      <p>Profound于7月2日发布Aim，一款始终在线的后台AI代理，专为营销团队设计。它将AI搜索信号（提示趋势、引用、情感分析、竞品基准）转化为优先级工作项，标志着厂商从分析仪表盘向代理决策与行动协调的转变。</p>
+  <a class="link" href="https://agentic.ai/news" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. MIT专访：什么是当今的Agentic AI，我们期望它成为什么？</h3>
+      <div class="meta">🤖 </div>
+      <p>MIT副教授Phillip Isola深入解读Agentic AI本质：与生成式AI不同，它能在数字或物理世界自主执行操作。编码代理是目前最成功的应用，但面临的挑战包括训练数据缺乏和安全性风险。</p>
+  <a class="link" href="https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🌟</span>
+        <h2>AI生态洞察</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Fable 5禁令全面解除：20天监管风波终告段落</h3>
+      <div class="meta">📅 2026-07-01</div>
+      <p>Fable 5在经历20天美国政府出口管制禁令后于7月1日全面恢复。Axios披露幕后细节：亚马逊CEO致电财政部长触发禁令，Anthropic工程师飞赴华盛顿修复，NSA多次驳回修复方案。</p>
+  <a class="link" href="https://aitoolsrecap.com/Blog/ai-news-july-4-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 扎克伯格承认Meta AI代理开发停滞四个月，股价下跌4.9%</h3>
+      <div class="meta">📅 2026-07-02</div>
+      <p>Meta内部会议中扎克伯格坦承AI代理开发未达预期，8000人重组效果尚未显现。同时AI负责人声称未发布模型Watermelon已追平GPT-5.5，但无公开验证。投资者更信CEO，股价跌4.9%。</p>
+  <a class="link" href="https://aitoolsrecap.com/Blog/ai-news-july-4-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. Anthropic封堵中国企业访问Claude漏洞，同时聘请IPO顾问</h3>
+      <div class="meta">📅 2026-07-04</div>
+      <p>Anthropic正封堵蚂蚁集团等中国企业通过中转站和云服务访问Claude的漏洞。同时聘请英国富而德律所担任IPO顾问，全球VC上半年创纪录达5100亿美元，其中OpenAI和Anthropic占43%。</p>
+  <a class="link" href="https://aitoolsrecap.com/Blog/ai-news-july-4-2026" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>4. 全球AI模型发布加速：已追踪324+模型发布</h3>
+      <div class="meta">📅 2026-07-04</div>
+      <p>AI行业正以前所未有的速度发布新模型，目前追踪超过324个模型发布。几个月前的前沿能力如今已成为基准预期，反映出AI技术迭代的惊人速度。</p>
+  <a class="link" href="https://llm-stats.com/llm-updates" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>5. AI自愿标准框架临近8月1日截止，白宫加速推进</h3>
+      <div class="meta">📅 2026-07-03</div>
+      <p>Fable 5事件后，AI自愿模型标准框架临近8月1日截止日。网络安全专家指出其他领先AI模型也存在同样漏洞，这是自愿标准框架最有力的论据。白宫正加速最终确定。</p>
+  <a class="link" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🏙️</span>
+        <h2>硅谷热点新闻</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. Microsoft成立AI部署公司Frontier Company，投入25亿美元</h3>
+      
+      <p>微软宣布成立Microsoft Frontier Company，投资25亿美元配备6000名工程师，专注于企业AI部署服务。此举紧随亚马逊、OpenAI和Anthropic的类似FDE（前向部署工程）模式，利用微软现有Fortune 500客户群抢占企业AI服务市场。</p>
+  <a class="link" href="https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. Y Combinator支持的Weave Robotics发布7999美元家用机器人Isaac 1</h3>
+      
+      <p>Weave Robotics推出家用机器人Isaac 1，售价7999美元或月付449美元，可自动完成洗衣、叠被和整理家务。该产品以低于1X Neo（2万美元）的价格切入市场，发布视频获得1300万次观看，引发硅谷投资圈热议。</p>
+  <a class="link" href="https://www.businessinsider.com/weave-robotics-isaac-1-8000-home-robot-chores-2026-7" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>3. 全球风投上半年创纪录达5100亿美元，AI热潮加速</h3>
+      
+      <p>Crunchbase报告显示2026上半年全球风投达5100亿美元，超过2025全年（4400亿）。OpenAI和Anthropic合计占43%（2170亿美元），AI公司占据70%以上初创资本，硅谷AI基础设施、国防、机器人等领域全面受益。</p>
+  <a class="link" href="https://siliconangle.com/2026/07/02/global-venture-funding-hits-record-510b-first-half-ai-boom-accelerates/" target="_blank">🔗 原文链接</a></div></section>
+    <section class="section">
+      <div class="section-header">
+        <span class="icon">🇨🇳</span>
+        <h2>大陆智能体动态</h2>
+      </div>
+  
+    <div class="card">
+      <h3>1. 中国AI大模型调用量连续九周领跑全球，美国份额一年内从72%跌至33%</h3>
+      
+      <p>OpenRouter最新数据显示，中国AI大模型周调用量达20.39万亿Token，连续九周超过美国稳居全球首位。DeepSeek-V4-Flash连续六周位居榜首，美国模型Token请求占比从一年前的72%降至33%，开源模型及中国AI模型正加速替代。</p>
+  <a class="link" href="https://www.stcn.com/article/detail/3984792.html" target="_blank">🔗 原文链接</a></div>
+    <div class="card">
+      <h3>2. 智谱市值破万亿港元，阿里巴巴发布Qwen-Robot具身智能矩阵，国产AI商业化全面提速</h3>
+      
+      <p>智谱GLM-5.2开源后市值突破万亿港元，字节豆包日均Token调用达180万亿并开启付费订阅，阿里发布Qwen-Robot三大具身智能模型覆盖操作、导航与世界认知全链路，国产大模型从技术竞赛全面转向商业化落地。</p>
+  <a class="link" href="https://user.guancha.cn/main/content?id=1680551" target="_blank">🔗 原文链接</a></div></section>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 AI 资讯日报 · 每日 17:12 自动更新</p>
+        <p><a href="https://github.com/jacky-wzj/ai-news-daily" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>

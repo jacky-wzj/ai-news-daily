@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "discord",
+  "items": [
+    {
+      "title": "Discord将利用AI在全球推行年龄验证系统",
+      "date": "2026-06-29",
+      "summary": "Discord宣布将采用Incode公司的AI面部识别技术，在全球范围内推行年龄验证。所有现有账户默认标记为青少年，用户需通过面部扫描或政府ID完成验证，引发隐私争议。测试将于下月启动。",
+      "link": "https://www.neogaf.com/threads/discord-to-implement-age-verification-using-ai-worldwide-testing-starts-next-month.1698598/"
+    },
+    {
+      "title": "Discord推出AI对话摘要与AI代理支持等多项新功能",
+      "date": "2026-06-05",
+      "summary": "Discord 2026年统计报告显示，平台新增多项AI功能：频道内AI对话摘要（Summaries AI）、与AutoMod AI和Clyde增强功能整合的智能审核，以及AI代理支持，大幅提升社区管理效率。",
+      "link": "https://sqmagazine.co.uk/discord-statistics/"
+    },
+    {
+      "title": "AI Discord Bot Builder正在改变社区连接与增长方式",
+      "date": "2026-06-28",
+      "summary": "AI驱动的Discord机器人构建器正在兴起，无需编程即可创建智能Bot。这类工具结合AI与Discord功能，能理解对话语境、自动回复常见问题、管理社群，为企业和创作者提供高效自动化方案。",
+      "link": "https://techbullion.com/ai-discord-bot-builder-revolutionizing-the-way-communities-connect-and-grow/"
+    }
+  ]
+}

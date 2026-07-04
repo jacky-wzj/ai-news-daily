@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-04",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "Top AI launches of June 2026 (Dev tools & AI models)",
+      "date": "2026-06-29",
+      "summary": "r/AIDeveloperNews汇总6月AI发布：JetBrains开源12B MoE模型Mellum2（仅2.5B活跃参数），Nous Research发布Hermes Agent v0.17.0支持iMessage和后台子代理，Datalab推出Lift文档结构化提取工具，Empero AI发布Qwythos-9B推理模型。",
+      "link": "https://www.reddit.com/r/AIDeveloperNews/comments/1uikfbt/top_ai_launches_of_june_2026_dev_tools_ai_models/"
+    },
+    {
+      "title": "State of AI, June 2026: the hype is still here, but companies are starting to ask harder questions",
+      "date": "2026-06-04",
+      "summary": "r/ChatGPT热议AI行业拐点：Opus 4.7发布失败成2026年AI建设者的现实检验，企业从AI能做什么转向AI投资回报在哪，AI招聘反而变慢引发悖论讨论，行业泡沫与落地质疑并存。",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1twkr5g/state_of_ai_june_2026_the_hype_is_still_here_but/"
+    },
+    {
+      "title": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
+      "date": "2026-05-20",
+      "summary": "r/artificial讨论Google I/O 2026揭示AI行业自我造势：谷歌宣布释放数百万生物工程蚊子引发争议，AI Overviews仍显示2024年旧信息，用户质疑AI公司通过发布会制造泡沫叙事推动估值。",
+      "link": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/"
+    }
+  ]
+}
