@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "section": "reddit",
+  "items": [
+    {
+      "title": "Claude Sonnet 5 发布：Anthropic 推出迄今最具自主代理能力的Sonnet模型",
+      "date": "2026-06-30",
+      "summary": "r/ClaudeAI社区2.7K赞、479条评论。Sonnet 5可自主规划、使用浏览器和终端工具，在编码和日常专业工作中表现顶级。推广期定价/1M输入token、/1M输出token，社区热议实际编码能力与Claude Code工作流。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1ujwggp/introducing_claude_sonnet_5_our_most_agentic/"
+    },
+    {
+      "title": "NVIDIA 发布 Nemotron 3 Ultra：550B MoE 开源模型，支持100万上下文",
+      "date": "2026-07-04",
+      "summary": "r/LocalLLM社区热议。NVIDIA于6月发布Nemotron 3 Ultra，550B参数MoE架构（每token激活55B），开放权重并附带训练数据与配方，支持100万token上下文，可通过Ollama本地运行，专为长时间AI Agent设计。",
+      "link": "https://www.reddit.com/r/LocalLLM/comments/1ungqbl/nvidia_quietly_released_a_550b_open_model_built/"
+    },
+    {
+      "title": "微软研究提出 Next-Latent Prediction Transformers：超越下一token预测的新范式",
+      "date": "2026-06-16",
+      "summary": "r/MachineLearning论文引发144赞、45条评论讨论。微软研究院认为传统下一token预测过于短视，提出让Transformer学习预测自身的下一潜在表示，有望显著提升模型长期推理与规划能力。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/"
+    }
+  ]
+}

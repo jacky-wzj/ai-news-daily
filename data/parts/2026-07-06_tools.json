@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "section": "tools",
+  "items": [
+    {
+      "title": "Claude Sonnet 5 正式发布",
+      "date": "2026-07-01",
+      "summary": "Anthropic发布Claude Sonnet 5，以$2/M输入token的入门价格提供接近Opus 4.8的性能，支持100万token上下文窗口，代理编码基准达63.2%，已成为Free和Pro计划的默认模型。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-1-2026"
+    },
+    {
+      "title": "Anthropic推出Claude Science科研工作台",
+      "date": "2026-07-05",
+      "summary": "Anthropic发布Claude Science，内置60+预配置科研工具的工作台，面向Pro/Max/Team/Enterprise用户开放Beta测试，同时宣布内部药物发现项目，针对被忽视疾病展开研究。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026"
+    },
+    {
+      "title": "OpenAI推出Flex Processing灵活处理模式",
+      "date": "2026-07-02",
+      "summary": "OpenAI发布Flex Processing功能，允许用户将快速任务与慢速任务分开路由处理，帮助创业者降低AI使用成本、优化单位经济效益，标志AI产品从独立工具向嵌入式基础设施转型。",
+      "link": "https://blog.mean.ceo/ai-product-launches-news-july-2026/"
+    }
+  ]
+}

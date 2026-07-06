@@ -1,0 +1,247 @@
+{
+  "date": "2026-07-06",
+  "insights": [
+    {
+      "title": "Nvidia Kyber NVL144 机架系统推迟至2028年",
+      "date": "2026-07-06",
+      "summary": "Nvidia下一代旗舰Kyber NVL144机架架构因78层PCB中板制造难题推迟超12个月，NVL72x2背靠背架构亦被取消。该产品原计划2027年随Rubin Ultra芯片发布，是AI训练的关键基础设施，延期引发对Nvidia产品路线图的质疑。",
+      "link": "https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html"
+    },
+    {
+      "title": "Anthropic发布Claude Sonnet 5，以更低价格提供接近Opus的智能体能力",
+      "date": "2026-06-30",
+      "summary": "Anthropic于6月30日发布Claude Sonnet 5，是其最具智能体能力的中端模型，性能接近Opus 4.8但价格更低（/每百万token）。智能体编码基准达63.2%，支持100万token上下文窗口，成为Free和Pro计划的默认模型。",
+      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
+    },
+    {
+      "title": "Anthropic Fable 5出口管制解除，20天禁令终结",
+      "date": "2026-07-01",
+      "summary": "美国商务部于6月30日解除Fable 5出口管制，7月1日全球恢复访问。解禁原因是Anthropic测试证明Opus 4.8、GPT-5.5和Kimi K2.7均可复现同一漏洞，Fable 5并无独特攻击能力需要管控。标志着2026年最重要的AI监管事件落下帷幕。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-2-2026"
+    },
+    {
+      "title": "白宫起草AI模型自愿发布标准，OpenAI提议向政府出让5%股权",
+      "date": "2026-07-03",
+      "summary": "FT确认白宫正与OpenAI、Google和Anthropic密集谈判，拟制定前沿AI模型自愿发布标准框架，包括基准测试、审查时间和访问规则。同时OpenAI史无前例地提议向美国政府出让5%股权，凸显其将政府关系视为生存关键。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026"
+    },
+    {
+      "title": "Anthropic收入超越OpenAI，AI市场格局重塑",
+      "date": "2026-07-03",
+      "summary": "Anthropic自报年化收入达470亿美元，超越OpenAI的250-330亿美元。企业订阅量方面，Anthropic于2026年5月首次超越OpenAI；ChatGPT月访问量当月首次跌破生成式AI市场多数份额。AI行业格局正在经历深刻洗牌。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026"
+    },
+    {
+      "title": "Meta限制工程师使用Claude Code和Codex，防止模型蒸馏",
+      "date": "2026-06-29",
+      "summary": "Meta应用AI部门内部明文禁止工程师使用Anthropic的Claude Code和OpenAI的Codex，担心竞争对手的AI工具输出被意外混入Meta自身训练数据。此举反映了AI巨头间在训练数据安全和模型蒸馏问题上的紧张关系。",
+      "link": "https://cryptobriefing.com/meta-restricts-anthropic-claude-openai-codex/"
+    },
+    {
+      "title": "Google Gemini 3.5 Pro获准7月发布，无政府访问限制",
+      "date": "2026-07-03",
+      "summary": "Gemini 3.5 Pro成为目前唯一不受政府访问限制的主要前沿模型。其TerminalBench 2.1网络安全基准得分70.7%，低于Fable 5和GPT-5.6 Sol触发的非正式政府审查门槛逾18个百分点，预计具备接近前沿模型的编码和智能体能力。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "date": "2026-07-05",
+      "summary": "提出模糊函数编程范式，将自然语言描述编译为本地可执行的神经网络适配器。0.6B Qwen3解释器执行PAW程序可匹配Qwen3-32B直接提示的性能，仅需1/50推理内存，在MacBook上达30 tokens/s。",
+      "link": "https://huggingface.co/papers/2607.02512"
+    },
+    {
+      "title": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+      "date": "2026-07-03",
+      "summary": "提出MrFlow无需训练的多分辨率扩散加速策略，通过低分辨率结构采样、像素空间超分和单步高分辨率细节精炼，实现10倍端到端加速，结合蒸馏可达25倍，保持生成质量。",
+      "link": "https://huggingface.co/papers/2607.01642"
+    },
+    {
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "date": "2026-07-03",
+      "summary": "提出长周期LLM智能体的有界记忆测试平台，解决长任务中上下文信号噪声比退化问题，引入结构化类型检索将记忆视为API而非原始文本堆，推动智能体从对话走向可靠系统。",
+      "link": "https://huggingface.co/papers/2607.02255"
+    }
+  ],
+  "xPosts": [
+    {
+      "title": "@claudeai: Introducing Claude Sonnet 5 — our most agentic Sonnet yet",
+      "date": "2026-06-30",
+      "summary": "Anthropic发布Claude Sonnet 5，史上最具Agent能力的Sonnet模型，可自主制定计划、使用浏览器和终端等工具，以远低于Opus 4.8的成本提供接近其性能——9.6M次浏览成为X平台本月AI领域最热帖之一。",
+      "link": "https://x.com/claudeai/status/2072002740830842899"
+    },
+    {
+      "title": "@thenewstack: 10 moments that defined AI's turbulent first half of 2026",
+      "date": "2026-07-06",
+      "summary": "The New Stack梳理了定义2026年上半年AI动荡历程的10个关键时刻，涵盖模型发布竞赛、政府监管博弈、企业AI部署和开源生态发展，引发广泛讨论。",
+      "link": "https://x.com/thenewstack/status/2073919962771583208"
+    },
+    {
+      "title": "@_odsc: AI trends in 2026 are shifting from experimentation to production",
+      "date": "2026-07-06",
+      "summary": "ODSC（Open Data Science Conference）总结2026年AI核心趋势：从实验阶段转向生产落地，Agentic AI、企业级部署和真实世界可靠性成为当前最受关注的三大方向。",
+      "link": "https://x.com/_odsc/status/2025241143571525848"
+    }
+  ],
+  "discord": [
+    {
+      "title": "2026年8款最佳Discord AI机器人评测与排名",
+      "date": "2026-07-06",
+      "summary": "eesel AI发布2026年Discord AI机器人TOP8排名，涵盖社区管理、工作流自动化、知识驱动支持等场景，包括eesel AI、MEE6、Zapier、Botpress、Voiceflow等工具，帮助服务器运营者利用AI实现智能客服和自动化管理。",
+      "link": "https://www.eesel.ai/blog/discord-ai"
+    },
+    {
+      "title": "2026年AI开发者最佳Discord服务器排名：Anthropic、OpenAI等入选",
+      "date": "2026-07-02",
+      "summary": "AI Builder Club评选2026年AI开发者最值得加入的6个Discord服务器，Anthropic开发者社区因高信噪比位居榜首，OpenAI、Hugging Face、Cursor、Ollama和Latent Space紧随其后，成为AI builders获取实时技术支持的必备渠道。",
+      "link": "https://www.aibuilderclub.com/blog/best-discord-servers-ai-builders-2026"
+    },
+    {
+      "title": "Discord 2026年8大新功能：AutoMod AI智能审核上线",
+      "date": "2026-06-15",
+      "summary": "Discord推出AutoMod AI等8项2026年新功能，AutoMod AI超越关键词过滤，可识别骚扰、诈骗等行为模式；同时推出剧透频道、服务器标签、对话摘要、Server Shop等工具，全面提升社区管理与变现能力。",
+      "link": "https://peakbot.pro/blog/new-discord-features-2026-server-owners"
+    }
+  ],
+  "github": [
+    {
+      "title": "Panniantong/Agent-Reach — 为AI Agent装上互联网之眼",
+      "date": "2026-07-06",
+      "summary": "本月GitHub Trending AI类TOP1，30,017星。一条CLI命令让AI Agent读取Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，零API费用，支持Claude Code/OpenClaw/Cursor等主流Agent。",
+      "link": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "title": "calesthio/OpenMontage — 首个开源AI智能视频制作系统",
+      "date": "2026-07-06",
+      "summary": "本月GitHub Trending AI类TOP2，29,179星。12条流水线、52个工具、500+ Agent技能，将AI编程助手变成完整视频制作工作室，支持从脚本到成片的端到端自动化。",
+      "link": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "title": "DeusData/codebase-memory-mcp — 毫秒级代码知识图谱MCP服务",
+      "date": "2026-07-06",
+      "summary": "本月GitHub Trending AI类TOP3，23,591星。高性能代码智能引擎，158语言支持，毫秒级索引整库，Linux内核(28M LOC)仅需3分钟，查询延迟<1ms，减少99% token消耗。",
+      "link": "https://github.com/DeusData/codebase-memory-mcp"
+    }
+  ],
+  "hn": [
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "date": "2026-07-06",
+      "summary": "OpenAI的最新旗舰模型GPT-5.6 Sol Ultra即将集成到Codex编程助手中，引发HN社区热议。讨论涵盖Ultra模式的实际实现（仅max effort+子代理提示），企业AI成本飙升与管控困境，以及用LLM替代核心业务逻辑编码的风险。",
+      "link": "https://news.ycombinator.com/item?id=48799614"
+    },
+    {
+      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "date": "2026-07-05",
+      "summary": "一项对照研究探讨代码整洁度对AI编程代理性能的影响，在HN获得广泛关注。论文通过最小配对实验设计，量化了代码质量差异如何影响LLM代理的代码生成、调试和维护任务效率。",
+      "link": "https://news.ycombinator.com/item?id=48798815"
+    },
+    {
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course",
+      "date": "2026-07-05",
+      "summary": "达特茅斯学院课程中部署的新型AI辅导系统取得0.71-1.30标准差效应量，但HN社区对研究设计提出质疑：仅有16名学生达到全剂量参与，缺乏随机对照试验，且考试题目与AI材料的独立性存疑。",
+      "link": "https://news.ycombinator.com/item?id=48796817"
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Claude Sonnet 5 发布：Anthropic 推出迄今最具自主代理能力的Sonnet模型",
+      "date": "2026-06-30",
+      "summary": "r/ClaudeAI社区2.7K赞、479条评论。Sonnet 5可自主规划、使用浏览器和终端工具，在编码和日常专业工作中表现顶级。推广期定价/1M输入token、/1M输出token，社区热议实际编码能力与Claude Code工作流。",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1ujwggp/introducing_claude_sonnet_5_our_most_agentic/"
+    },
+    {
+      "title": "NVIDIA 发布 Nemotron 3 Ultra：550B MoE 开源模型，支持100万上下文",
+      "date": "2026-07-04",
+      "summary": "r/LocalLLM社区热议。NVIDIA于6月发布Nemotron 3 Ultra，550B参数MoE架构（每token激活55B），开放权重并附带训练数据与配方，支持100万token上下文，可通过Ollama本地运行，专为长时间AI Agent设计。",
+      "link": "https://www.reddit.com/r/LocalLLM/comments/1ungqbl/nvidia_quietly_released_a_550b_open_model_built/"
+    },
+    {
+      "title": "微软研究提出 Next-Latent Prediction Transformers：超越下一token预测的新范式",
+      "date": "2026-06-16",
+      "summary": "r/MachineLearning论文引发144赞、45条评论讨论。微软研究院认为传统下一token预测过于短视，提出让Transformer学习预测自身的下一潜在表示，有望显著提升模型长期推理与规划能力。",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Claude Sonnet 5 正式发布",
+      "date": "2026-07-01",
+      "summary": "Anthropic发布Claude Sonnet 5，以$2/M输入token的入门价格提供接近Opus 4.8的性能，支持100万token上下文窗口，代理编码基准达63.2%，已成为Free和Pro计划的默认模型。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-1-2026"
+    },
+    {
+      "title": "Anthropic推出Claude Science科研工作台",
+      "date": "2026-07-05",
+      "summary": "Anthropic发布Claude Science，内置60+预配置科研工具的工作台，面向Pro/Max/Team/Enterprise用户开放Beta测试，同时宣布内部药物发现项目，针对被忽视疾病展开研究。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026"
+    },
+    {
+      "title": "OpenAI推出Flex Processing灵活处理模式",
+      "date": "2026-07-02",
+      "summary": "OpenAI发布Flex Processing功能，允许用户将快速任务与慢速任务分开路由处理，帮助创业者降低AI使用成本、优化单位经济效益，标志AI产品从独立工具向嵌入式基础设施转型。",
+      "link": "https://blog.mean.ceo/ai-product-launches-news-july-2026/"
+    }
+  ],
+  "agent": [
+    {
+      "title": "Meta AI Agent 开发进度落后，扎克伯格承认 1450 亿美元押注未达预期",
+      "date": "2026-07-03",
+      "summary": "Meta CEO 扎克伯格在内部员工大会上承认，AI Agent 开发进度落后于预期，此前裁员 8000 人、调动 7000 人的重组未能加速 agentic 开发。Meta 2026 年资本支出预计达 1250-1450 亿美元，股价当日下跌约 5%。",
+      "link": "https://www.techtimes.com/articles/319637/20260703/meta-ai-agents-behind-schedule-zuckerberg-tells-staff-145b-bet-hasnt-delivered.htm"
+    },
+    {
+      "title": "AWS Summit 纽约发布多项 AI Agent 创新：Continuum 安全服务与 Context 知识图谱",
+      "date": "2026-07-01",
+      "summary": "AWS 在纽约峰会上推出 AI 原生安全服务 Continuum（机器速度管理代码漏洞全生命周期）、企业知识图谱 Context（赋能 Agent 精准导航数据），以及 Amazon Quick 自主代理、Kiro 移动端编排等多项 Agent 能力升级。",
+      "link": "https://www.aboutamazon.com/news/aws/aws-summit-nyc-2026-ai-agents"
+    },
+    {
+      "title": "OpenAI 发布 Agent 转型工作报告：Codex 已成内部全员主要 AI 工具",
+      "date": "2026-06-30",
+      "summary": "OpenAI 公布内部 Agent 使用数据：Codex 占公司内部每周输出 token 的 99.8%，非开发者用户增长 137 倍，25.6% 用户曾提交超 8 小时人工工作量的任务。Agent 正从短时对话转向长时间自主执行任务的范式转变。",
+      "link": "https://openai.com/index/how-agents-are-transforming-work/"
+    }
+  ],
+  "siliconValley": [
+    {
+      "title": "Together AI获8亿美元C轮融资，估值83亿美元",
+      "date": "2026-07-02",
+      "summary": "旧金山AI云平台Together AI宣布完成8亿美元C轮融资，由Aramco Ventures领投，NVIDIA、General Catalyst等参投，估值达83亿美元。公司致力于降低开源AI模型大规模运行成本，已服务超百万开发者。",
+      "link": "https://vcnewsdaily.com/together-ai/venture-capital-funding/pqrynlhmld"
+    },
+    {
+      "title": "Baseten完成15亿美元F轮融资，估值达130亿美元",
+      "date": "2026-06-22",
+      "summary": "旧金山AI推理平台Baseten宣布15亿美元F轮融资，由Altimeter Capital、Conviction和Spark Capital联合领投，估值达130亿美元。这是其18个月内第四次融资，每日处理超10亿次API调用。",
+      "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
+    },
+    {
+      "title": "Patronus AI获5000万美元B轮融资，构建AI代理压力测试环境",
+      "date": "2026-06-25",
+      "summary": "前Meta AI研究员创立的旧金山初创公司Patronus AI获5000万美元B轮融资，由Greenfield Partners领投。公司构建数字世界模拟环境，用于测试AI代理在复杂场景下的可靠性，年收入增长15倍。",
+      "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
+    }
+  ],
+  "mainlandChina": [
+    {
+      "title": "《人工智能拟人化互动服务管理暂行办法》将于2026年7月15日施行",
+      "date": "2026-04-10",
+      "summary": "国家网信办等五部门联合发布AI拟人化互动服务管理办法，规范利用AI技术提供模拟人格特征的情感互动服务，将于7月15日正式施行，标志中国AI监管进入新阶段。",
+      "link": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm"
+    },
+    {
+      "title": "2026北京网络安全大会发布中国AI智能体领航者榜单",
+      "date": "2026-06-06",
+      "summary": "2026北京网络安全大会(BCS)揭晓AI智能体领航者榜单，来自政务、金融、制造、医疗等20余行业的100余个标杆案例入选，展示中国AI从生成式对话迈向自主式操作的产业拐点。",
+      "link": "https://bcs.qianxin.com/2026/news/detail?id=625"
+    },
+    {
+      "title": "浪潮海岳智能体入选2026中国AI智能体领航者",
+      "date": "2026-06-06",
+      "summary": "浪潮海岳专业施工方案编制智能体通过多智能体协作架构，将传统7天的方案编制缩短至10分钟，效率提升75%以上，并深度参与智能体互联国家标准编制工作。",
+      "link": "https://view.inews.qq.com/a/20260606A077BS00"
+    }
+  ]
+}

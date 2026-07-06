@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-06",
+  "section": "hn",
+  "description": "HN AI top stories this month",
+  "items": [
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "date": "2026-07-06",
+      "summary": "OpenAI的最新旗舰模型GPT-5.6 Sol Ultra即将集成到Codex编程助手中，引发HN社区热议。讨论涵盖Ultra模式的实际实现（仅max effort+子代理提示），企业AI成本飙升与管控困境，以及用LLM替代核心业务逻辑编码的风险。",
+      "link": "https://news.ycombinator.com/item?id=48799614"
+    },
+    {
+      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "date": "2026-07-05",
+      "summary": "一项对照研究探讨代码整洁度对AI编程代理性能的影响，在HN获得广泛关注。论文通过最小配对实验设计，量化了代码质量差异如何影响LLM代理的代码生成、调试和维护任务效率。",
+      "link": "https://news.ycombinator.com/item?id=48798815"
+    },
+    {
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course",
+      "date": "2026-07-05",
+      "summary": "达特茅斯学院课程中部署的新型AI辅导系统取得0.71-1.30标准差效应量，但HN社区对研究设计提出质疑：仅有16名学生达到全剂量参与，缺乏随机对照试验，且考试题目与AI材料的独立性存疑。",
+      "link": "https://news.ycombinator.com/item?id=48796817"
+    }
+  ]
+}

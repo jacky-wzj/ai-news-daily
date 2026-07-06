@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "section": "papers",
+  "items": [
+    {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "date": "2026-07-05",
+      "summary": "提出模糊函数编程范式，将自然语言描述编译为本地可执行的神经网络适配器。0.6B Qwen3解释器执行PAW程序可匹配Qwen3-32B直接提示的性能，仅需1/50推理内存，在MacBook上达30 tokens/s。",
+      "link": "https://huggingface.co/papers/2607.02512"
+    },
+    {
+      "title": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+      "date": "2026-07-03",
+      "summary": "提出MrFlow无需训练的多分辨率扩散加速策略，通过低分辨率结构采样、像素空间超分和单步高分辨率细节精炼，实现10倍端到端加速，结合蒸馏可达25倍，保持生成质量。",
+      "link": "https://huggingface.co/papers/2607.01642"
+    },
+    {
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "date": "2026-07-03",
+      "summary": "提出长周期LLM智能体的有界记忆测试平台，解决长任务中上下文信号噪声比退化问题，引入结构化类型检索将记忆视为API而非原始文本堆，推动智能体从对话走向可靠系统。",
+      "link": "https://huggingface.co/papers/2607.02255"
+    }
+  ]
+}

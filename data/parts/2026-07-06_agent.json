@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "section": "agent",
+  "items": [
+    {
+      "title": "Meta AI Agent 开发进度落后，扎克伯格承认 1450 亿美元押注未达预期",
+      "date": "2026-07-03",
+      "summary": "Meta CEO 扎克伯格在内部员工大会上承认，AI Agent 开发进度落后于预期，此前裁员 8000 人、调动 7000 人的重组未能加速 agentic 开发。Meta 2026 年资本支出预计达 1250-1450 亿美元，股价当日下跌约 5%。",
+      "link": "https://www.techtimes.com/articles/319637/20260703/meta-ai-agents-behind-schedule-zuckerberg-tells-staff-145b-bet-hasnt-delivered.htm"
+    },
+    {
+      "title": "AWS Summit 纽约发布多项 AI Agent 创新：Continuum 安全服务与 Context 知识图谱",
+      "date": "2026-07-01",
+      "summary": "AWS 在纽约峰会上推出 AI 原生安全服务 Continuum（机器速度管理代码漏洞全生命周期）、企业知识图谱 Context（赋能 Agent 精准导航数据），以及 Amazon Quick 自主代理、Kiro 移动端编排等多项 Agent 能力升级。",
+      "link": "https://www.aboutamazon.com/news/aws/aws-summit-nyc-2026-ai-agents"
+    },
+    {
+      "title": "OpenAI 发布 Agent 转型工作报告：Codex 已成内部全员主要 AI 工具",
+      "date": "2026-06-30",
+      "summary": "OpenAI 公布内部 Agent 使用数据：Codex 占公司内部每周输出 token 的 99.8%，非开发者用户增长 137 倍，25.6% 用户曾提交超 8 小时人工工作量的任务。Agent 正从短时对话转向长时间自主执行任务的范式转变。",
+      "link": "https://openai.com/index/how-agents-are-transforming-work/"
+    }
+  ]
+}

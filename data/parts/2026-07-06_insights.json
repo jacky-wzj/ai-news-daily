@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-06",
+  "section": "insights",
+  "items": [
+    {
+      "title": "Nvidia Kyber NVL144 机架系统推迟至2028年",
+      "date": "2026-07-06",
+      "summary": "Nvidia下一代旗舰Kyber NVL144机架架构因78层PCB中板制造难题推迟超12个月，NVL72x2背靠背架构亦被取消。该产品原计划2027年随Rubin Ultra芯片发布，是AI训练的关键基础设施，延期引发对Nvidia产品路线图的质疑。",
+      "link": "https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html"
+    },
+    {
+      "title": "Anthropic发布Claude Sonnet 5，以更低价格提供接近Opus的智能体能力",
+      "date": "2026-06-30",
+      "summary": "Anthropic于6月30日发布Claude Sonnet 5，是其最具智能体能力的中端模型，性能接近Opus 4.8但价格更低（/每百万token）。智能体编码基准达63.2%，支持100万token上下文窗口，成为Free和Pro计划的默认模型。",
+      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
+    },
+    {
+      "title": "Anthropic Fable 5出口管制解除，20天禁令终结",
+      "date": "2026-07-01",
+      "summary": "美国商务部于6月30日解除Fable 5出口管制，7月1日全球恢复访问。解禁原因是Anthropic测试证明Opus 4.8、GPT-5.5和Kimi K2.7均可复现同一漏洞，Fable 5并无独特攻击能力需要管控。标志着2026年最重要的AI监管事件落下帷幕。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-2-2026"
+    },
+    {
+      "title": "白宫起草AI模型自愿发布标准，OpenAI提议向政府出让5%股权",
+      "date": "2026-07-03",
+      "summary": "FT确认白宫正与OpenAI、Google和Anthropic密集谈判，拟制定前沿AI模型自愿发布标准框架，包括基准测试、审查时间和访问规则。同时OpenAI史无前例地提议向美国政府出让5%股权，凸显其将政府关系视为生存关键。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026"
+    },
+    {
+      "title": "Anthropic收入超越OpenAI，AI市场格局重塑",
+      "date": "2026-07-03",
+      "summary": "Anthropic自报年化收入达470亿美元，超越OpenAI的250-330亿美元。企业订阅量方面，Anthropic于2026年5月首次超越OpenAI；ChatGPT月访问量当月首次跌破生成式AI市场多数份额。AI行业格局正在经历深刻洗牌。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026"
+    },
+    {
+      "title": "Meta限制工程师使用Claude Code和Codex，防止模型蒸馏",
+      "date": "2026-06-29",
+      "summary": "Meta应用AI部门内部明文禁止工程师使用Anthropic的Claude Code和OpenAI的Codex，担心竞争对手的AI工具输出被意外混入Meta自身训练数据。此举反映了AI巨头间在训练数据安全和模型蒸馏问题上的紧张关系。",
+      "link": "https://cryptobriefing.com/meta-restricts-anthropic-claude-openai-codex/"
+    },
+    {
+      "title": "Google Gemini 3.5 Pro获准7月发布，无政府访问限制",
+      "date": "2026-07-03",
+      "summary": "Gemini 3.5 Pro成为目前唯一不受政府访问限制的主要前沿模型。其TerminalBench 2.1网络安全基准得分70.7%，低于Fable 5和GPT-5.6 Sol触发的非正式政府审查门槛逾18个百分点，预计具备接近前沿模型的编码和智能体能力。",
+      "link": "https://aitoolsrecap.com/Blog/ai-news-july-3-2026"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "section": "siliconValley",
+  "items": [
+    {
+      "title": "Together AI获8亿美元C轮融资，估值83亿美元",
+      "date": "2026-07-02",
+      "summary": "旧金山AI云平台Together AI宣布完成8亿美元C轮融资，由Aramco Ventures领投，NVIDIA、General Catalyst等参投，估值达83亿美元。公司致力于降低开源AI模型大规模运行成本，已服务超百万开发者。",
+      "link": "https://vcnewsdaily.com/together-ai/venture-capital-funding/pqrynlhmld"
+    },
+    {
+      "title": "Baseten完成15亿美元F轮融资，估值达130亿美元",
+      "date": "2026-06-22",
+      "summary": "旧金山AI推理平台Baseten宣布15亿美元F轮融资，由Altimeter Capital、Conviction和Spark Capital联合领投，估值达130亿美元。这是其18个月内第四次融资，每日处理超10亿次API调用。",
+      "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
+    },
+    {
+      "title": "Patronus AI获5000万美元B轮融资，构建AI代理压力测试环境",
+      "date": "2026-06-25",
+      "summary": "前Meta AI研究员创立的旧金山初创公司Patronus AI获5000万美元B轮融资，由Greenfield Partners领投。公司构建数字世界模拟环境，用于测试AI代理在复杂场景下的可靠性，年收入增长15倍。",
+      "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
+    }
+  ]
+}

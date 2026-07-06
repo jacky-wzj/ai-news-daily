@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "section": "xPosts",
+  "items": [
+    {
+      "title": "@claudeai: Introducing Claude Sonnet 5 — our most agentic Sonnet yet",
+      "date": "2026-06-30",
+      "summary": "Anthropic发布Claude Sonnet 5，史上最具Agent能力的Sonnet模型，可自主制定计划、使用浏览器和终端等工具，以远低于Opus 4.8的成本提供接近其性能——9.6M次浏览成为X平台本月AI领域最热帖之一。",
+      "link": "https://x.com/claudeai/status/2072002740830842899"
+    },
+    {
+      "title": "@thenewstack: 10 moments that defined AI's turbulent first half of 2026",
+      "date": "2026-07-06",
+      "summary": "The New Stack梳理了定义2026年上半年AI动荡历程的10个关键时刻，涵盖模型发布竞赛、政府监管博弈、企业AI部署和开源生态发展，引发广泛讨论。",
+      "link": "https://x.com/thenewstack/status/2073919962771583208"
+    },
+    {
+      "title": "@_odsc: AI trends in 2026 are shifting from experimentation to production",
+      "date": "2026-07-06",
+      "summary": "ODSC（Open Data Science Conference）总结2026年AI核心趋势：从实验阶段转向生产落地，Agentic AI、企业级部署和真实世界可靠性成为当前最受关注的三大方向。",
+      "link": "https://x.com/_odsc/status/2025241143571525848"
+    }
+  ]
+}
